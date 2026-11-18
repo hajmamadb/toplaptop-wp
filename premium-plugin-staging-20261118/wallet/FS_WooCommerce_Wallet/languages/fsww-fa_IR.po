@@ -1,0 +1,1427 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FS WooCommerce Wallet 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-27 23:15+0100\n"
+"PO-Revision-Date: 2021-06-27 00:37+0430\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2\n"
+
+#: includes/frontend-html.php:4
+msgid "Refund Reason"
+msgstr "درخواست بازپرداخت"
+
+#: includes/frontend-html.php:9 includes/classes/FS_WC_Wallet.php:696
+#: includes/classes/FS_WC_Wallet.php:731
+msgid "Request Refund"
+msgstr "درخواست بازپرداخت"
+
+#: includes/frontend-html.php:10 includes/pages/wallets.php:259
+#: includes/pages/wallets.php:314 includes/pages/wallets.php:361
+msgid "Cancel"
+msgstr "لغو"
+
+#: includes/functions.php:10
+msgid "Jan"
+msgstr "دی"
+
+#: includes/functions.php:11
+msgid "Feb"
+msgstr "بهمن"
+
+#: includes/functions.php:12
+msgid "Mar"
+msgstr "اسفند"
+
+#: includes/functions.php:13
+msgid "Apr"
+msgstr "فروردین"
+
+#: includes/functions.php:14
+msgid "May"
+msgstr "اردیبهشت"
+
+#: includes/functions.php:15
+msgid "Jun"
+msgstr "خرداد"
+
+#: includes/functions.php:16
+msgid "Jul"
+msgstr "تیر"
+
+#: includes/functions.php:17
+msgid "Aug"
+msgstr "مرداد"
+
+#: includes/functions.php:18
+msgid "Sep"
+msgstr "شهریور"
+
+#: includes/functions.php:19
+msgid "Oct"
+msgstr "مهر"
+
+#: includes/functions.php:20
+msgid "Nov"
+msgstr "آبان"
+
+#: includes/functions.php:21
+msgid "Dec"
+msgstr "آذر"
+
+#: includes/functions.php:33
+msgid "None"
+msgstr "هیچ"
+
+#: includes/transactions_table_html.php:43
+#: includes/transactions_table_html.php:242 includes/pages/requests.php:35
+#: includes/pages/wallets.php:79 includes/pages/withdrawal_requests.php:41
+msgid "Current Page"
+msgstr "صفحه فعلی"
+
+#: includes/transactions_table_html.php:52
+#: includes/transactions_table_html.php:180
+#: includes/transactions_table_html.php:251
+#: includes/transactions_table_html.php:347
+#: includes/withdrawal-requests.php:497 includes/pages/wallets.php:87
+#: includes/pages/wallets.php:202
+msgid "ID"
+msgstr "شناسه"
+
+#: includes/transactions_table_html.php:53
+#: includes/transactions_table_html.php:181
+#: includes/transactions_table_html.php:252
+#: includes/transactions_table_html.php:348 includes/pages/requests.php:45
+#: includes/pages/requests.php:187
+msgid "Order ID"
+msgstr "شماره سفارش"
+
+#: includes/transactions_table_html.php:55
+msgid "Username/Email"
+msgstr "نام کاربری"
+
+#: includes/transactions_table_html.php:57
+#: includes/transactions_table_html.php:185 includes/withdrawal-requests.php:75
+#: includes/withdrawal-requests.php:498 includes/classes/FS_WC_Wallet.php:2366
+#: includes/pages/add_funds.php:34 includes/pages/requests.php:47
+#: includes/pages/requests.php:189 includes/pages/wallets.php:231
+#: includes/pages/wallets.php:286 includes/pages/withdrawal_requests.php:52
+#: includes/pages/withdrawal_requests.php:216
+msgid "Amount"
+msgstr "میزان"
+
+#: includes/transactions_table_html.php:59
+#: includes/transactions_table_html.php:187 includes/classes/Gateway.php:84
+msgid "Description"
+msgstr "شرح"
+
+#: includes/transactions_table_html.php:62
+#: includes/transactions_table_html.php:190
+msgid "Created By"
+msgstr "ایجاد شده توسط"
+
+#: includes/transactions_table_html.php:66
+#: includes/transactions_table_html.php:193
+#: includes/transactions_table_html.php:258
+#: includes/transactions_table_html.php:354
+msgid "Date"
+msgstr "تاریخ"
+
+#: includes/transactions_table_html.php:95
+#: includes/transactions_table_html.php:106 includes/pages/requests.php:80
+#: includes/pages/wallets.php:148
+msgid "User Not Found. ID "
+msgstr "شناسه کاربر یافت نشد!"
+
+#: includes/transactions_table_html.php:115
+#: includes/transactions_table_html.php:121
+#: includes/transactions_table_html.php:293
+#: includes/transactions_table_html.php:299 includes/pages/requests.php:127
+msgid "View Order"
+msgstr "دیدن سفارش"
+
+#: includes/transactions_table_html.php:150 includes/pages/wallets.php:178
+#: includes/pages/withdrawal_requests.php:190
+msgid "Delete"
+msgstr "حذف"
+
+#: includes/transactions_table_html.php:172
+#: includes/transactions_table_html.php:339
+msgid "There is no transactions"
+msgstr "هیچ تراکنشی وجود ندارد!"
+
+#: includes/transactions_table_html.php:183
+#: includes/transactions_table_html.php:254
+#: includes/transactions_table_html.php:350 includes/pages/edit_wallet.php:60
+#: includes/pages/requests.php:46 includes/pages/requests.php:188
+msgid "User"
+msgstr "کاربر"
+
+#: includes/transactions_table_html.php:256
+#: includes/transactions_table_html.php:352
+msgid "Credits"
+msgstr "وام"
+
+#: includes/transactions_table_html.php:257
+#: includes/transactions_table_html.php:353
+msgid "Debits"
+msgstr "بدهی ها"
+
+#: includes/withdrawal-requests.php:36 includes/classes/FS_WC_Wallet.php:2994
+#: includes/classes/FS_WC_Wallet.php:2995
+#: includes/classes/Withdrawal_Requests_Endpoint.php:39
+#: includes/classes/Withdrawal_Requests_Endpoint.php:54
+#: includes/pages/withdrawal_requests.php:36
+msgid "Withdrawal Requests"
+msgstr "دریافت اعتبار"
+
+#: includes/withdrawal-requests.php:48
+msgid "Your wallet is locked; you can't send withdrawal requests."
+msgstr ""
+"کیف پول شما قفل شده است شما نمی توانید درخواست های برداشت را ارسال کنید."
+
+#: includes/withdrawal-requests.php:55
+msgid "Invalid amount."
+msgstr "مقدار نامعتبر است"
+
+#: includes/withdrawal-requests.php:61
+msgid "Withdrawal request sent."
+msgstr "دریافت اعتبار"
+
+#: includes/withdrawal-requests.php:92 includes/withdrawal-requests.php:94
+msgid "Select Payment Method"
+msgstr "روش های حمل و نقل را انتخاب کنید"
+
+#: includes/withdrawal-requests.php:96 includes/settings_pages/general.php:316
+msgid "PayPal"
+msgstr "پی پال"
+
+#: includes/withdrawal-requests.php:101 includes/settings_pages/general.php:340
+msgid "Bitcoin"
+msgstr "بیتکوین"
+
+#: includes/withdrawal-requests.php:106
+msgid "SWIFT"
+msgstr "سویفیت"
+
+#: includes/withdrawal-requests.php:110
+msgid "Bank Transfer"
+msgstr "انتقال بانکی"
+
+#: includes/withdrawal-requests.php:114
+msgid "Bonifico Bancario "
+msgstr "حواله بانکی"
+
+#: includes/withdrawal-requests.php:118 includes/settings_pages/general.php:364
+msgid "Bank Transfer (Turkey)"
+msgstr "انتقال بانکی"
+
+#: includes/withdrawal-requests.php:128
+msgid "PayPal Address"
+msgstr "آدرس پی پال"
+
+#: includes/withdrawal-requests.php:141
+msgid "Bitcoin Address"
+msgstr "آدرس بیکوین"
+
+#: includes/withdrawal-requests.php:153
+msgid "Full Name *"
+msgstr "نام بزرگ"
+
+#: includes/withdrawal-requests.php:160
+msgid "Billing Address Line 1 *"
+msgstr "آدرس پرداخت خط یک"
+
+#: includes/withdrawal-requests.php:167 includes/withdrawal-requests.php:529
+#: includes/pages/withdrawal_requests.php:90
+msgid "Billing Address Line 2"
+msgstr "آدرس پرداخت خط دو"
+
+#: includes/withdrawal-requests.php:174 includes/withdrawal-requests.php:531
+#: includes/pages/withdrawal_requests.php:91
+msgid "Billing Address Line 3"
+msgstr "آدرس پرداخت خط سه"
+
+#: includes/withdrawal-requests.php:181
+msgid "City *"
+msgstr "شهر"
+
+#: includes/withdrawal-requests.php:188 includes/withdrawal-requests.php:534
+#: includes/pages/withdrawal_requests.php:93
+msgid "State"
+msgstr "وضعیت"
+
+#: includes/withdrawal-requests.php:195
+msgid "Postcode *"
+msgstr "کد پستی"
+
+#: includes/withdrawal-requests.php:203
+msgid "Country *"
+msgstr "کشور"
+
+#: includes/withdrawal-requests.php:210
+msgid "Bank Account Holder's Name *"
+msgstr "عنوان بانک حساب"
+
+#: includes/withdrawal-requests.php:218
+msgid "Bank Account Number/IBAN *"
+msgstr "شماره IBAN حساب بانکی"
+
+#: includes/withdrawal-requests.php:226
+msgid "SWIFT Code *"
+msgstr "کد سویفت"
+
+#: includes/withdrawal-requests.php:234
+msgid "Bank Name in Full *"
+msgstr "نام کامل بانکی"
+
+#: includes/withdrawal-requests.php:242
+msgid "Bank Branch City *"
+msgstr "بانک شعبه شهر *"
+
+#: includes/withdrawal-requests.php:250
+msgid "Bank Branch Country *"
+msgstr "شعبه بانک کشور *"
+
+#: includes/withdrawal-requests.php:258 includes/withdrawal-requests.php:548
+#: includes/pages/withdrawal_requests.php:102
+msgid "Intermediary Bank - Bank Code"
+msgstr "بانک واسطه - کد بانکی"
+
+#: includes/withdrawal-requests.php:266 includes/withdrawal-requests.php:550
+#: includes/pages/withdrawal_requests.php:103
+msgid "Intermediary Bank - Name"
+msgstr "واسطه بانک - نام"
+
+#: includes/withdrawal-requests.php:274 includes/withdrawal-requests.php:552
+#: includes/pages/withdrawal_requests.php:104
+msgid "Intermediary Bank - City"
+msgstr "واسطه بانک - شهر"
+
+#: includes/withdrawal-requests.php:282 includes/withdrawal-requests.php:554
+#: includes/pages/withdrawal_requests.php:105
+msgid "Intermediary Bank - Country"
+msgstr "واسطه بانک - کشور"
+
+#: includes/withdrawal-requests.php:294 includes/withdrawal-requests.php:454
+msgid "Owner Name *"
+msgstr "نام مالک *"
+
+#: includes/withdrawal-requests.php:301 includes/withdrawal-requests.php:461
+msgid "Bank Name *"
+msgstr "نام بانک *"
+
+#: includes/withdrawal-requests.php:308
+msgid "Bank Agency Number *"
+msgstr "شماره آژانس بانکی *"
+
+#: includes/withdrawal-requests.php:315 includes/withdrawal-requests.php:475
+msgid "Bank Account Number *"
+msgstr "شماره حساب بانکی *"
+
+#: includes/withdrawal-requests.php:323
+msgid "CPF *"
+msgstr "CPF *"
+
+#: includes/withdrawal-requests.php:331
+msgid "Account Type *"
+msgstr "نوع حساب *"
+
+#: includes/withdrawal-requests.php:333
+msgid "Checking Account"
+msgstr "چک کردن حساب"
+
+#: includes/withdrawal-requests.php:333
+msgid "Checking Account *"
+msgstr "چک کردن حساب *"
+
+#: includes/withdrawal-requests.php:335
+msgid "Savings  Account"
+msgstr "ذخیره سازی حساب"
+
+#: includes/withdrawal-requests.php:335
+msgid "Savings  Account *"
+msgstr "ذخیره سازی حسابذ"
+
+#: includes/withdrawal-requests.php:349
+msgid "Nome *"
+msgstr "نام*"
+
+#: includes/withdrawal-requests.php:356
+msgid "Cognome *"
+msgstr "نام خانوادگی *"
+
+#: includes/withdrawal-requests.php:363
+msgid "Codice fiscale *"
+msgstr "کد مالی *"
+
+#: includes/withdrawal-requests.php:372
+msgid "Sesso *"
+msgstr "جنسیت *"
+
+#: includes/withdrawal-requests.php:379
+msgid "Numero di telefono *"
+msgstr "شماره تلفن *"
+
+#: includes/withdrawal-requests.php:388
+msgid "Via/Piazza e numero *"
+msgstr "خیابان / میدان و شماره *"
+
+#: includes/withdrawal-requests.php:397
+msgid "Codice postale *"
+msgstr "کد پستی *"
+
+#: includes/withdrawal-requests.php:405
+msgid "Città *"
+msgstr "شهر *"
+
+#: includes/withdrawal-requests.php:412
+msgid "Provincia *"
+msgstr "استان *"
+
+#: includes/withdrawal-requests.php:419
+msgid "Paese *"
+msgstr "کشور *"
+
+#: includes/withdrawal-requests.php:426
+msgid "Nome di banca *"
+msgstr "نام بانک *"
+
+#: includes/withdrawal-requests.php:434 includes/withdrawal-requests.php:468
+msgid "IBAN *"
+msgstr "قصد داشتن *"
+
+#: includes/withdrawal-requests.php:441
+msgid "BIC/SWIFT *"
+msgstr "سویفیت"
+
+#: includes/withdrawal-requests.php:484
+msgid "Send Request"
+msgstr "درخواست بازپرداخت"
+
+#: includes/withdrawal-requests.php:499
+#: includes/pages/withdrawal_requests.php:53
+#: includes/pages/withdrawal_requests.php:217
+msgid "Method"
+msgstr "روش"
+
+#: includes/withdrawal-requests.php:500
+#: includes/pages/withdrawal_requests.php:54
+#: includes/pages/withdrawal_requests.php:218
+msgid "Address"
+msgstr "آدرس"
+
+#: includes/withdrawal-requests.php:501 includes/pages/add_funds.php:43
+#: includes/pages/edit_wallet.php:123
+msgid "Status"
+msgstr "وضعیت"
+
+#: includes/withdrawal-requests.php:526
+#: includes/pages/withdrawal_requests.php:88
+msgid "Full Name"
+msgstr "نام کامل"
+
+#: includes/withdrawal-requests.php:527
+#: includes/pages/withdrawal_requests.php:89
+msgid "Billing Address Line 1"
+msgstr "آدرس مالی خط یک"
+
+#: includes/withdrawal-requests.php:533
+#: includes/pages/withdrawal_requests.php:92
+msgid "City"
+msgstr "شهر"
+
+#: includes/withdrawal-requests.php:535
+#: includes/pages/withdrawal_requests.php:94
+msgid "Postcode"
+msgstr "کد پستی"
+
+#: includes/withdrawal-requests.php:536
+#: includes/pages/withdrawal_requests.php:95
+msgid "Country"
+msgstr "میزان"
+
+#: includes/withdrawal-requests.php:537
+#: includes/pages/withdrawal_requests.php:96
+msgid "Bank Account Holder's Name"
+msgstr "نام بانک حساب"
+
+#: includes/withdrawal-requests.php:539
+#: includes/pages/withdrawal_requests.php:97
+msgid "Bank Account Number/IBAN"
+msgstr "IBAN حساب بانکی"
+
+#: includes/withdrawal-requests.php:541
+#: includes/pages/withdrawal_requests.php:98
+msgid "SWIFT Code"
+msgstr "کد سوییفت"
+
+#: includes/withdrawal-requests.php:542
+#: includes/pages/withdrawal_requests.php:99
+msgid "Bank Name in Full"
+msgstr "نام کامل بانک"
+
+#: includes/withdrawal-requests.php:544
+#: includes/pages/withdrawal_requests.php:100
+msgid "Bank Branch City"
+msgstr "بانک شعبه شهر"
+
+#: includes/withdrawal-requests.php:546
+#: includes/pages/withdrawal_requests.php:101
+msgid "Bank Branch Country"
+msgstr "شعبه بانک کشور"
+
+#: includes/withdrawal-requests.php:562 includes/withdrawal-requests.php:577
+#: includes/pages/withdrawal_requests.php:111
+#: includes/pages/withdrawal_requests.php:120
+msgid "Owner Name"
+msgstr "نام مالک"
+
+#: includes/withdrawal-requests.php:563 includes/withdrawal-requests.php:578
+#: includes/pages/withdrawal_requests.php:112
+#: includes/pages/withdrawal_requests.php:121
+msgid "Bank Name"
+msgstr "نام بانک"
+
+#: includes/withdrawal-requests.php:564 includes/withdrawal-requests.php:579
+#: includes/pages/withdrawal_requests.php:113
+#: includes/pages/withdrawal_requests.php:122
+msgid "Bank Agency Number"
+msgstr "شماره آژانس بانکی"
+
+#: includes/withdrawal-requests.php:566 includes/withdrawal-requests.php:581
+#: includes/pages/withdrawal_requests.php:114
+#: includes/pages/withdrawal_requests.php:123
+msgid "Bank Account Number"
+msgstr "شماره حساب بانکی"
+
+#: includes/withdrawal-requests.php:568
+#: includes/pages/withdrawal_requests.php:124
+msgid "CPF"
+msgstr "CPF"
+
+#: includes/withdrawal-requests.php:569
+#: includes/pages/withdrawal_requests.php:125
+msgid "Account Type"
+msgstr "نوع حساب"
+
+#: includes/withdrawal-requests.php:603
+msgid "Under Review"
+msgstr "در دست بررسی"
+
+#: includes/withdrawal-requests.php:607
+msgid "Request Accepted"
+msgstr "درخواست رد شد"
+
+#: includes/withdrawal-requests.php:611 includes/classes/FS_WC_Wallet.php:691
+#: includes/classes/FS_WC_Wallet.php:726 includes/pages/requests.php:156
+#: includes/pages/withdrawal_requests.php:177
+msgid "Request Rejected"
+msgstr "درخواست رد شد"
+
+#: includes/withdrawal-requests.php:638
+msgid "There is no requests"
+msgstr "هیچ درخواست بازپرداختی وجود ندارد"
+
+#: includes/classes/FS_WC_Wallet.php:19
+msgid ""
+"WooCommerce need to be installed and activated to be able to use "
+"\"WooCommerce Wallet\"."
+msgstr ""
+"ووکامرس باید نصب و فعال شود تا بتوانید از WooCommerce Wallet استفاده کنید."
+
+#: includes/classes/FS_WC_Wallet.php:182
+msgid "Top up can't be a 0 or a negative value"
+msgstr "مقدار اضافی نمی تواند مقدار 0 یا منفی باشد"
+
+#: includes/classes/FS_WC_Wallet.php:428
+msgid "Withdrawal request"
+msgstr "دریافت اعتبار"
+
+#: includes/classes/FS_WC_Wallet.php:431
+msgid "Withdrawal fee"
+msgstr "دریافت اعتبار"
+
+#: includes/classes/FS_WC_Wallet.php:520
+msgid "Funds transfer to "
+msgstr "انتقال وجوه به"
+
+#: includes/classes/FS_WC_Wallet.php:521
+msgid "Funds received from "
+msgstr "وجوه دریافتی از"
+
+#: includes/classes/FS_WC_Wallet.php:523
+msgid "Transfer fee"
+msgstr "انتقال بانکی"
+
+#: includes/classes/FS_WC_Wallet.php:682 includes/classes/FS_WC_Wallet.php:717
+msgid "Cancel Refund Request"
+msgstr "لغو درخواست بازپرداخت"
+
+#: includes/classes/FS_WC_Wallet.php:687 includes/classes/FS_WC_Wallet.php:722
+#: includes/pages/requests.php:146
+msgid "Already Refunded"
+msgstr "قبلا پرداخت شده است"
+
+#: includes/classes/FS_WC_Wallet.php:861
+msgid "Buy Now"
+msgstr "خرید کن"
+
+#: includes/classes/FS_WC_Wallet.php:865
+msgid "Add to cart"
+msgstr "افزودن به سبد خرید"
+
+#: includes/classes/FS_WC_Wallet.php:1349
+#: includes/classes/FS_WC_Wallet.php:2048
+#: includes/classes/FS_WC_Wallet.php:2084
+#: includes/classes/FS_WC_Wallet.php:2150
+#: includes/classes/FS_WC_Wallet.php:2608 includes/classes/Gateway.php:233
+#: includes/pages/requests.php:104
+msgid "Paid From Wallet"
+msgstr "پرداخت شده از کیف پول"
+
+#: includes/classes/FS_WC_Wallet.php:1368 includes/pages/requests.php:135
+#: includes/pages/requests.php:153
+msgid "Refund"
+msgstr "بازپرداخت"
+
+#: includes/classes/FS_WC_Wallet.php:1444
+#: includes/classes/FS_WC_Wallet.php:1445
+msgid "Wallet manually modified"
+msgstr "کیف پول به صورت دستی اصلاح شد"
+
+#: includes/classes/FS_WC_Wallet.php:1467
+#: includes/classes/FS_WC_Wallet.php:2872
+msgid "Have been added to your account balance"
+msgstr "موجودی به حساب شما اضافه شده است"
+
+#: includes/classes/FS_WC_Wallet.php:1469
+#: includes/classes/FS_WC_Wallet.php:1470
+#: includes/classes/FS_WC_Wallet.php:2874
+#: includes/classes/FS_WC_Wallet.php:2875
+msgid "Funds Have been added to your account"
+msgstr "مبلغ به کیف پول شما افزوده شده است"
+
+#: includes/classes/FS_WC_Wallet.php:1477
+#: includes/classes/FS_WC_Wallet.php:2879
+msgid "Admin added funds"
+msgstr "اضافه کردن موجودی"
+
+#: includes/classes/FS_WC_Wallet.php:1497
+msgid "Have been withdrawed from your account balance"
+msgstr "از حساب شما کسر شده است"
+
+#: includes/classes/FS_WC_Wallet.php:1499
+#: includes/classes/FS_WC_Wallet.php:1500
+msgid "Funds Have been withdrawed from your account"
+msgstr "مبلغ  از حساب شما کسر شده است"
+
+#: includes/classes/FS_WC_Wallet.php:1507
+msgid "Admin withdraw funds"
+msgstr "برداشت وجوه"
+
+#: includes/classes/FS_WC_Wallet.php:1534
+msgid ""
+"Your wallet balance have been locked, you can nolonger use it to pay for "
+"products."
+msgstr ""
+"کیف پول شما مسدود شده است، شما نمی توانید آن را برای پرداخت هزینه های محصول "
+"استفاده کنید."
+
+#: includes/classes/FS_WC_Wallet.php:1536
+#: includes/classes/FS_WC_Wallet.php:1537
+msgid "Your account have been locked"
+msgstr "حساب شما مسدود شده است"
+
+#: includes/classes/FS_WC_Wallet.php:1549
+msgid "Your wallet balance have been unlocked."
+msgstr "کیف پول شما از به حالت فعال در آمد"
+
+#: includes/classes/FS_WC_Wallet.php:1550
+#: includes/classes/FS_WC_Wallet.php:1551
+msgid "Your account have been unlocked"
+msgstr "حساب کاربری شما مسدود شده است"
+
+#: includes/classes/FS_WC_Wallet.php:1782
+#: includes/classes/FS_WC_Wallet.php:1833
+msgid "Remove"
+msgstr "حذف"
+
+#: includes/classes/FS_WC_Wallet.php:1783
+#: includes/classes/FS_WC_Wallet.php:1834
+msgid "Would you like to remove wallet partial payment?"
+msgstr "آیا می خواهید پرداخت مالیات کیفی را حذف کنید؟"
+
+#: includes/classes/FS_WC_Wallet.php:1790
+#: includes/classes/FS_WC_Wallet.php:1841
+#: includes/classes/FS_WC_Wallet.php:2512
+msgid "Add"
+msgstr "افزودن"
+
+#: includes/classes/FS_WC_Wallet.php:1791
+#: includes/classes/FS_WC_Wallet.php:1842
+msgid "You have "
+msgstr "شما دارید"
+
+#: includes/classes/FS_WC_Wallet.php:1792
+#: includes/classes/FS_WC_Wallet.php:1843
+msgid " would you like to use them?"
+msgstr "میزان شارژ حساب خود را مشخص کنید :"
+
+#: includes/classes/FS_WC_Wallet.php:1909
+msgid "Wallet Credit"
+msgstr "کیف پول اعتباری ووکامرس"
+
+#: includes/classes/FS_WC_Wallet.php:1912
+msgid "Enter the wallet credit given after purchasing this product"
+msgstr "اعتبار کیف پول را بعد از خرید این محصول وارد کنید"
+
+#: includes/classes/FS_WC_Wallet.php:1920
+#: includes/classes/FS_WC_Wallet.php:1937
+#: includes/classes/FS_WC_Wallet.php:2753
+msgid "Wallet Cashback"
+msgstr "کیف پول"
+
+#: includes/classes/FS_WC_Wallet.php:1923
+#: includes/classes/FS_WC_Wallet.php:1940
+msgid ""
+"Enter the wallet cashback amount given after purchasing this "
+"product<br><br>Enter an exact value, or a value ending with % to give a "
+"percentage or leave empty for no cashback"
+msgstr ""
+"مقدار پس انداز پول نقد پس از خرید این محصول را وارد کنید. <br> <br> مقدار "
+"دقیق را وارد کنید یا یک مقدار با % باقی می ماند تا یک درصد بدهد یا بدون پول "
+"نقد بپرد"
+
+#: includes/classes/FS_WC_Wallet.php:2038
+#: includes/classes/FS_WC_Wallet.php:2059
+msgid "Order cancelled"
+msgstr "تاریخ سفارش"
+
+#: includes/classes/FS_WC_Wallet.php:2098
+msgid "Partial Payment"
+msgstr "پرداخت های جزئی"
+
+#: includes/classes/FS_WC_Wallet.php:2205
+#: includes/classes/FS_WC_Wallet.php:2244
+msgid "Wallet top up"
+msgstr "کیف پول اعتباری ووکامرس"
+
+#: includes/classes/FS_WC_Wallet.php:2285
+msgid "Your wallet is locked"
+msgstr "کیف پول شما از به حالت فعال در آمد"
+
+#: includes/classes/FS_WC_Wallet.php:2287
+msgid "Your wallet is not locked"
+msgstr "کیف پول شما از به حالت فعال در آمد"
+
+#: includes/classes/FS_WC_Wallet.php:2311
+msgid "You can't send money to yourself."
+msgstr "نمی توانید برای خودتان پول بفرستید."
+
+#: includes/classes/FS_WC_Wallet.php:2318
+msgid "Invalid user email."
+msgstr "آدرس ایمیل نامعتبر"
+
+#: includes/classes/FS_WC_Wallet.php:2325
+msgid "Insufficient funds"
+msgstr "بودجه ناکافی"
+
+#: includes/classes/FS_WC_Wallet.php:2332
+msgid "The amount have been sent."
+msgstr "حساب شما مسدود شده است"
+
+#: includes/classes/FS_WC_Wallet.php:2357
+#: includes/classes/Send_Money_Endpoint.php:39
+#: includes/classes/Send_Money_Endpoint.php:54
+msgid "Send Money"
+msgstr "ارسال پول"
+
+#: includes/classes/FS_WC_Wallet.php:2373
+msgid "Receiver email address"
+msgstr "آدرس ایمیل گیرنده"
+
+#: includes/classes/FS_WC_Wallet.php:2379
+msgid "Send"
+msgstr "ارسال"
+
+#: includes/classes/FS_WC_Wallet.php:2481
+msgid "How much would you like to deposit?"
+msgstr "میزان شارژ حساب خود را مشخص کنید :"
+
+#: includes/classes/FS_WC_Wallet.php:2493
+msgid "Make Deposit"
+msgstr "شارژ حساب"
+
+#: includes/classes/FS_WC_Wallet.php:2506
+msgid "Enter amount"
+msgstr "مقدار را وارد کنید"
+
+#: includes/classes/FS_WC_Wallet.php:2618
+msgid "Your wallet credit is locked for the following reason:"
+msgstr "اعتبار کیف پول شما به دلایل زیر مسدود  است:"
+
+#: includes/classes/FS_WC_Wallet.php:2619
+msgid "If you think there is an error please contact us."
+msgstr "اگر فکر می کنید مشکلی وجود دارد لطفا با ما تماس بگیرید."
+
+#: includes/classes/FS_WC_Wallet.php:2783
+#: includes/classes/FS_WC_Wallet.php:2812
+msgid " Cashback"
+msgstr "اعتبار کیف پول"
+
+#: includes/classes/FS_WC_Wallet.php:2941
+msgid "Delete This item?"
+msgstr "این مورد حذف شود؟"
+
+#: includes/classes/FS_WC_Wallet.php:2958
+#: includes/classes/FS_WC_Wallet.php:2959 includes/pages/wallets.php:68
+msgid "Wallets"
+msgstr "کیف پول"
+
+#: includes/classes/FS_WC_Wallet.php:2970
+#: includes/classes/FS_WC_Wallet.php:2971 includes/pages/wallets.php:68
+msgid "Add Funds To a User"
+msgstr "شارژ حساب کاربران"
+
+#: includes/classes/FS_WC_Wallet.php:2982
+#: includes/classes/FS_WC_Wallet.php:2983 includes/pages/requests.php:30
+msgid "Refund Requests"
+msgstr "درخواست بازپرداخت"
+
+#: includes/classes/FS_WC_Wallet.php:3005
+#: includes/classes/FS_WC_Wallet.php:3006 includes/pages/transactions.php:24
+msgid "Transactions"
+msgstr "تراکنش ها"
+
+#: includes/classes/FS_WC_Wallet.php:3014
+#: includes/classes/FS_WC_Wallet.php:3015 includes/pages/import-export.php:14
+msgid "Import/Export"
+msgstr "درون ریزی / برون ریزی"
+
+#: includes/classes/FS_WC_Wallet.php:3024
+#: includes/classes/FS_WC_Wallet.php:3025 includes/pages/settings.php:14
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: includes/classes/FS_WC_Wallet.php:3191
+msgid "WooCommerce Wallet Credit"
+msgstr "کیف پول اعتباری ووکامرس"
+
+#: includes/classes/Gateway.php:11 includes/classes/Gateway.php:80
+msgid "WooCommerce Wallet"
+msgstr "کیف پول اعتباری ووکامرس"
+
+#: includes/classes/Gateway.php:12
+msgid "Pay with your account balance."
+msgstr "پرداخت با موجودی حساب شما"
+
+#: includes/classes/Gateway.php:45
+msgid "Available Balance:"
+msgstr "موجودی حساب"
+
+#: includes/classes/Gateway.php:69 includes/classes/Gateway.php:70
+msgid "Enable WooCommerce Wallet"
+msgstr "فعال کردن افزونه کیف پول ووکامرس"
+
+#: includes/classes/Gateway.php:76
+msgid "Title"
+msgstr "عنوان"
+
+#: includes/classes/Gateway.php:78
+msgid "Payment method description that the customer will see on your checkout."
+msgstr "توضیحات روش پرداختی که مشتری در پرداخت خود مشاهده خواهد کرد."
+
+#: includes/classes/Gateway.php:86
+msgid "Payment method description that the customer will see on your website."
+msgstr "شرح روش پرداختی که مشتری در وب سایت شما مشاهده می کند."
+
+#: includes/classes/Gateway.php:88
+msgid "Pay using your Wallet."
+msgstr "با استفاده از کیف پول خود پرداخت کنید."
+
+#: includes/classes/Gateway.php:92
+msgid "Instructions"
+msgstr "دستورالعمل ها"
+
+#: includes/classes/Gateway.php:94
+msgid "Instructions that will be added to the thank you page."
+msgstr "دستورالعمل هایی که به صفحه تشکر  اضافه می شود."
+
+#: includes/classes/Gateway.php:95
+msgid "Pay using your Wallet"
+msgstr "با استفاده از کیف پول خود پرداخت کنید"
+
+#: includes/classes/Gateway.php:117
+msgid ""
+"<strong>Payment error:</strong> You can not purchase wallet credit money "
+"with wallet credit. Please choose another payment method."
+msgstr ""
+"<strong>خطای پرداخت:</strong> شما نمی توانید  اعتبار کیف پول را با  کیف پول "
+"خریداری کنید. لطفا روش پرداخت دیگری را انتخاب کنید"
+
+#: includes/classes/Gateway.php:128
+msgid ""
+"<strong>Payment error:</strong> Insufficient funds. Please purchase more "
+"credits or use a different payment method."
+msgstr ""
+"<strong>خطای پرداخت:</strong>موجودی کافی نیست. لطفا اعتبار بیشتری بگیرید یا "
+"از یک روش پرداخت دیگر استفاده کنید."
+
+#: includes/classes/Gateway.php:153
+msgid "Checkout using wallet funds"
+msgstr "پرداخت با استفاده از وجوه کیف پول"
+
+#: includes/classes/Gateway.php:161
+msgid "Order status set to "
+msgstr "تاریخ سفارش"
+
+#: includes/classes/Make_Deposit_Endpoint.php:39
+#: includes/classes/Make_Deposit_Endpoint.php:54
+msgid "Make a Deposit"
+msgstr "واریز کنید"
+
+#: includes/classes/Transactions_History_Endpoint.php:39
+#: includes/classes/Transactions_History_Endpoint.php:54
+msgid "Transactions History"
+msgstr "تاریخ معاملات"
+
+#: includes/classes/Transactions_History_Endpoint.php:69
+msgid "Your current balance is: "
+msgstr "موجودی حساب شما : "
+
+#: includes/classes/Transactions_History_Endpoint.php:70
+msgid "Show printable view"
+msgstr "نمایش نمای قابل چاپ"
+
+#: includes/classes/Wallet.php:296
+msgid "Payment refunded using Wallet Credit"
+msgstr "پرداخت با استفاده از کیف پول اعتباری"
+
+#: includes/import_export_pages/export.php:14
+#: includes/pages/import-export.php:18
+msgid "Export Wallets"
+msgstr "ویرایش کیف پول"
+
+#: includes/import_export_pages/export.php:16
+msgid ""
+"Export the wallet users and balances, the file can be modified and imported "
+"back again, the new values will override the old ones."
+msgstr ""
+"کاربران کیف پول و توازن را صادر می کنند، فایل را می توان اصلاح کرد و مجددا "
+"وارد شد، مقادیر جدید، آنهایی که قدیمی هستند را لغو می کنند."
+
+#: includes/import_export_pages/import.php:12
+#: includes/pages/import-export.php:17
+msgid "Import Wallets"
+msgstr "کیف پول"
+
+#: includes/import_export_pages/import.php:18
+msgid "CSV file generated by the plugin in the export page"
+msgstr "فایل CSV تولید شده توسط افزونه در صفحه صادرات"
+
+#: includes/import_export_pages/import.php:20
+msgid "CSV File"
+msgstr "فایل CSV "
+
+#: includes/import_export_pages/import.php:28
+msgid "Import"
+msgstr "درون ریزی"
+
+#: includes/import_export_pages/transactions-export.php:14
+#: includes/pages/import-export.php:19
+msgid "Export Transactions"
+msgstr "تراکنش ها"
+
+#: includes/import_export_pages/withdrawal-export.php:14
+#: includes/pages/import-export.php:20
+msgid "Export Withdrawal Requests"
+msgstr "دریافت اعتبار"
+
+#: includes/pages/add_funds.php:14 includes/pages/add_funds.php:55
+#: includes/pages/edit_wallet.php:144 includes/pages/wallets.php:258
+msgid "Add Funds"
+msgstr "اضافه کردن موجودی"
+
+#: includes/pages/add_funds.php:25
+msgid "Username Or Email"
+msgstr "نام کاربری"
+
+#: includes/pages/add_funds.php:47 includes/pages/edit_wallet.php:127
+msgid "Unlocked"
+msgstr "فعال شده است"
+
+#: includes/pages/add_funds.php:48 includes/pages/edit_wallet.php:128
+msgid "Locked"
+msgstr "قفل شده است"
+
+#: includes/pages/edit_wallet.php:49
+msgid "Edit Wallet"
+msgstr "ویرایش کیف پول"
+
+#: includes/pages/edit_wallet.php:82 includes/pages/wallets.php:89
+#: includes/pages/wallets.php:204
+msgid "Balance"
+msgstr "موجودی"
+
+#: includes/pages/edit_wallet.php:91 includes/pages/wallets.php:91
+#: includes/pages/wallets.php:206
+msgid "Total Spent"
+msgstr "جمع هزینه"
+
+#: includes/pages/edit_wallet.php:100
+msgid "Last Deposit Date"
+msgstr "آخرین تاریخ سپرده"
+
+#: includes/pages/edit_wallet.php:136
+msgid "Lock Message"
+msgstr "پیام مسدودی"
+
+#: includes/pages/requests.php:44 includes/pages/requests.php:186
+#: includes/pages/withdrawal_requests.php:50
+#: includes/pages/withdrawal_requests.php:214
+msgid "Request ID"
+msgstr "شناسه درخواست"
+
+#: includes/pages/requests.php:48 includes/pages/requests.php:190
+msgid "Reason"
+msgstr "دلایل مسدود"
+
+#: includes/pages/requests.php:49 includes/pages/requests.php:191
+msgid "Request Date"
+msgstr "تاریخ درخواست"
+
+#: includes/pages/requests.php:50 includes/pages/requests.php:192
+msgid "Order Date"
+msgstr "تاریخ سفارش"
+
+#: includes/pages/requests.php:51 includes/pages/requests.php:193
+#: includes/pages/withdrawal_requests.php:55
+#: includes/pages/withdrawal_requests.php:219
+msgid "Action"
+msgstr "عمل"
+
+#: includes/pages/requests.php:87 includes/pages/requests.php:88
+msgid "Order Not Found. ID"
+msgstr "شماره سفارش یافت نشد"
+
+#: includes/pages/requests.php:141 includes/pages/withdrawal_requests.php:154
+#: includes/pages/withdrawal_requests.php:164
+msgid "Reject Request"
+msgstr "درخواست را رد کنید"
+
+#: includes/pages/requests.php:178
+msgid "There is no refund requests"
+msgstr "هیچ درخواست بازپرداختی وجود ندارد"
+
+#: includes/pages/settings.php:17
+msgid "General"
+msgstr "عمومی"
+
+#: includes/pages/settings.php:18
+msgid "Fees"
+msgstr "هزینه ها"
+
+#: includes/pages/settings.php:19
+msgid "Encryption"
+msgstr "رمزگذاری"
+
+#: includes/pages/settings.php:20
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#: includes/pages/transactions.php:29
+msgid "Filter by user"
+msgstr "فیلتر توسط کاربر"
+
+#: includes/pages/wallets.php:58
+msgid ""
+"The new version includes a database update. I highly recommend creating a "
+"database backup for safety before updating the database."
+msgstr ""
+"نسخه جدید شامل به روزرسانی پایگاه داده است. من به شدت توصیه می کنم قبل از به "
+"روزرسانی پایگاه داده ، یک نسخه پشتیبان از پایگاه داده برای امنیت ایجاد کنید."
+
+#: includes/pages/wallets.php:62
+msgid "I have created a database backup, run the updater"
+msgstr ""
+"من یک نسخه پشتیبان از پایگاه داده ایجاد کرده ام ، به روزرسانی را اجرا کنید"
+
+#: includes/pages/wallets.php:71 includes/pages/wallets.php:73
+msgid "Search wallets"
+msgstr "جستجو کیف پول"
+
+#: includes/pages/wallets.php:88 includes/pages/wallets.php:203
+msgid "Username"
+msgstr "نام کاربری"
+
+#: includes/pages/wallets.php:90 includes/pages/wallets.php:205
+msgid "Last Deposit"
+msgstr "آخرین سپرده"
+
+#: includes/pages/wallets.php:92 includes/pages/wallets.php:207
+msgid "Actions"
+msgstr "اعمال"
+
+#: includes/pages/wallets.php:152 includes/pages/wallets.php:218
+msgid "Add Credit"
+msgstr "اعتبار اضافه کنید"
+
+#: includes/pages/wallets.php:153
+msgid "Withdraw"
+msgstr "دریافت اعتبار"
+
+#: includes/pages/wallets.php:159
+msgid "Unlock"
+msgstr "فعال شده است"
+
+#: includes/pages/wallets.php:164
+msgid "Lock"
+msgstr "قفل شده است"
+
+#: includes/pages/wallets.php:175
+msgid "Edit"
+msgstr "ویرایش"
+
+#: includes/pages/wallets.php:194
+msgid ""
+"There is no user wallets, the user need to make a deposit or an admiin add "
+"funds the user to appear here"
+msgstr ""
+"هیچ کیفی برای کاربر وجود ندارد، کاربر باید یک سپرده یا یک مدیر اضافه کند که "
+"در اینجا ظاهر می شود"
+
+#: includes/pages/wallets.php:220
+msgid "The amount will be added to the current balance."
+msgstr "مقدار به موجودی فعلی اضافه خواهد شد."
+
+#: includes/pages/wallets.php:241 includes/pages/wallets.php:296
+#: includes/pages/wallets.php:352
+msgid "Notify the user"
+msgstr "اطلاع کاربر"
+
+#: includes/pages/wallets.php:250 includes/pages/wallets.php:305
+msgid "Notification Message"
+msgstr "پیام هشدار"
+
+#: includes/pages/wallets.php:274
+msgid "Withdraw Credit"
+msgstr "دریافت اعتبار"
+
+#: includes/pages/wallets.php:276
+msgid ""
+"The amount will be substracted from the current balance, If the amount is "
+"larger than the current balance the operation will fail."
+msgstr ""
+"مقدار از موجودی فعلی محاسبه خواهد شد، اگر مقدار بزرگتر از موجودی فعلی باشد، "
+"عملیات ناموفق خواهد بود"
+
+#: includes/pages/wallets.php:313
+msgid "Withraw Funds"
+msgstr "برداشت وجوه"
+
+#: includes/pages/wallets.php:330
+msgid "Lock Credit"
+msgstr "مسدود کردن اعتبار"
+
+#: includes/pages/wallets.php:332
+msgid ""
+"Locking the credit will make the user unable to use his wallet credit to "
+"checkout, the lock reason will be dispalyed instead."
+msgstr ""
+"مسدود کردن اعتبار باعث می شود که کاربر نتواند از اعتبار کیف پول خود برای "
+"پرداخت استفاده کند؛"
+
+#: includes/pages/wallets.php:343
+msgid "Lock Reason"
+msgstr "دلایل مسدود"
+
+#: includes/pages/wallets.php:360
+msgid "Lock/Unlock Funds"
+msgstr "مسدود / باز کردن صندوق"
+
+#: includes/pages/withdrawal_requests.php:51
+#: includes/pages/withdrawal_requests.php:215
+msgid "User ID"
+msgstr "کاربر"
+
+#: includes/pages/withdrawal_requests.php:148
+#: includes/pages/withdrawal_requests.php:174
+msgid "Approve"
+msgstr "پذیرفتن"
+
+#: includes/pages/withdrawal_requests.php:159
+msgid "Already Approved"
+msgstr "قبلا پرداخت شده است"
+
+#: includes/pages/withdrawal_requests.php:206
+msgid "There is no withrawal requests"
+msgstr "هیچ درخواست بازپرداختی وجود ندارد"
+
+#: includes/settings_pages/advanced.php:23
+msgid "Run database update script"
+msgstr "اسکریپت به روزرسانی پایگاه داده را اجرا کنید"
+
+#: includes/settings_pages/encryption.php:13
+msgid "Encryption Settings"
+msgstr "تنظیمات رمزگذاری"
+
+#: includes/settings_pages/encryption.php:15
+msgid ""
+"The encryption keys used to encrypt wallet balances to prevent tempering if "
+"the database is hacked"
+msgstr ""
+"کلید های رمزنگاری برای مخفی کردن توازن کیف پول برای جلوگیری از جلوگیری از "
+"پایگاه داده در برابر هکرها ایجاد شده است"
+
+#: includes/settings_pages/encryption.php:33
+msgid "Disable Encryption"
+msgstr "رمزگذاری داده VI"
+
+#: includes/settings_pages/encryption.php:42
+msgid "Data Encryption Key"
+msgstr "کلید رمزگذاری داده"
+
+#: includes/settings_pages/encryption.php:48
+msgid "The key used to encrypt/decrypt license keys in the database"
+msgstr "کلید مورد استفاده برای رمزگذاری / رمزگشایی کلید مجوز در پایگاه داده"
+
+#: includes/settings_pages/encryption.php:56
+msgid "Data Encryption VI"
+msgstr "رمزگذاری داده VI"
+
+#: includes/settings_pages/encryption.php:62
+msgid "The VI used to encrypt/decrypt license keys in the database"
+msgstr ""
+"VI برای رمزگذاری / رمزگشایی کلید های مجوز در پایگاه داده مورد استفاده قرار "
+"گرفت"
+
+#: includes/settings_pages/encryption.php:69
+msgid ""
+"Open SSL is not installed on this server license keys will be stored without "
+"encryption "
+msgstr ""
+"SSL باز شده در این پرونده مجوز سرور نصب نخواهد شد بدون رمزگذاری ذخیره می شود"
+
+#: includes/settings_pages/fees.php:20
+msgid "Refunds"
+msgstr "بازپرداخت"
+
+#: includes/settings_pages/fees.php:24 includes/settings_pages/fees.php:66
+#: includes/settings_pages/fees.php:106
+msgid "Fee Type"
+msgstr "نوع هزینه"
+
+#: includes/settings_pages/fees.php:32 includes/settings_pages/fees.php:74
+#: includes/settings_pages/fees.php:114
+msgid "Percentage"
+msgstr "درصد"
+
+#: includes/settings_pages/fees.php:34 includes/settings_pages/fees.php:77
+#: includes/settings_pages/fees.php:117
+msgid "Fixed Amount"
+msgstr "میزان"
+
+#: includes/settings_pages/fees.php:42 includes/settings_pages/fees.php:85
+#: includes/settings_pages/fees.php:125
+msgid "Fee Amount"
+msgstr "میزان"
+
+#: includes/settings_pages/fees.php:62
+msgid "Withdrawals"
+msgstr "دریافت اعتبار"
+
+#: includes/settings_pages/fees.php:102
+msgid "User to User Transfers"
+msgstr "فعال سازی انتقال کاربر به کاربر"
+
+#: includes/settings_pages/general.php:22
+msgid "Number of Rows Per Page for Tables"
+msgstr "تعداد ردیف در صفحه برای جداول"
+
+#: includes/settings_pages/general.php:33
+msgid "Order Status After Purchase"
+msgstr "وضعیت سفارش بعد از خرید"
+
+#: includes/settings_pages/general.php:78
+msgid "Top up user wallet on order status:"
+msgstr "کیف پول کاربر را از وضعیت سفارش پر کنید:"
+
+#: includes/settings_pages/general.php:86
+msgid "Processing"
+msgstr "در حال پردازش"
+
+#: includes/settings_pages/general.php:88
+msgid "Completed"
+msgstr "تکمیل شده"
+
+#: includes/settings_pages/general.php:90
+msgid "Processing and Completed"
+msgstr "پردازش و تکمیل شده"
+
+#: includes/settings_pages/general.php:99
+msgid "Partial Payments"
+msgstr "پرداخت های جزئی"
+
+#: includes/settings_pages/general.php:106
+msgid ""
+"If account balance is not enough discount the available funds from the "
+"accounts balance and pay the rest using a diffret payment gateway."
+msgstr ""
+"اگر مانده حساب به اندازه کافی ندارید اول موجودی  از حساب اصلی شما برداشت و "
+"بقیه با استفاده از دروازه پرداخت های مختلف انجام خواهد شد"
+
+#: includes/settings_pages/general.php:116
+msgid ""
+"Disable all the other payment methods if there is enough funds in the wallet:"
+msgstr ""
+"در صورت وجود بودجه کافی در کیف پول ، سایر روش های پرداخت را غیرفعال کنید:"
+
+#: includes/settings_pages/general.php:128
+msgid ""
+"Force users to checkout using the wallet if there is enough funds in it."
+msgstr ""
+"اگر بودجه کافی در آن وجود دارد ، کاربران را مجبور کنید با استفاده از کیف پول "
+"پرداخت کنند."
+
+#: includes/settings_pages/general.php:134
+msgid "Show all users in the wallet dashboard:"
+msgstr "نمایش همه کاربران در داشبورد کیف پول:"
+
+#: includes/settings_pages/general.php:144
+msgid "Show users that never had a transaction using the wallet."
+msgstr "به کاربرانی نشان دهید که هرگز با استفاده از کیف پول معامله نکرده اند."
+
+#: includes/settings_pages/general.php:149
+msgid "Top Up/Add Funds:"
+msgstr "اضافه کردن موجودی"
+
+#: includes/settings_pages/general.php:153
+msgid "Show make a deposit page in my account page"
+msgstr "نمایش موجودی در صفحه حساب من ووکامرس"
+
+#: includes/settings_pages/general.php:161
+msgid "User To User Transfers:"
+msgstr "فعال سازی انتقال کاربر به کاربر"
+
+#: includes/settings_pages/general.php:165
+msgid "Enable user to user transfers"
+msgstr "فعال سازی انتقال کاربر به کاربر"
+
+#: includes/settings_pages/general.php:173
+msgid "Transactions:"
+msgstr "تراکنش ها"
+
+#: includes/settings_pages/general.php:177
+msgid "Show transactions in my account page"
+msgstr "نمایش تراکنش ها در صفحه حساب من"
+
+#: includes/settings_pages/general.php:185
+msgid "Refund Requests:"
+msgstr "درخواست بازپرداخت"
+
+#: includes/settings_pages/general.php:189
+msgid "Enable refund requests"
+msgstr "درخواست های بازپرداخت را فعال کنید"
+
+#: includes/settings_pages/general.php:199
+msgid "Request refund button position"
+msgstr "درخواست موقعیت دکمه بازپرداخت"
+
+#: includes/settings_pages/general.php:207
+msgid "Orders Table"
+msgstr "تاریخ سفارش"
+
+#: includes/settings_pages/general.php:209
+msgid "Inside the order details page"
+msgstr "داخل صفحه جزئیات سفارش"
+
+#: includes/settings_pages/general.php:215
+msgid "Show the wallet balance in the menu:"
+msgstr "نمایش کیف پول در منوی اولیه"
+
+#: includes/settings_pages/general.php:237
+msgid "Show the balance to the right of the menu"
+msgstr "نمایش کیف پول در منوی اولیه"
+
+#: includes/settings_pages/general.php:246
+msgid "Custom deposit amounts:"
+msgstr "آخرین تاریخ سپرده"
+
+#: includes/settings_pages/general.php:250
+msgid ""
+"Allow the customer to enter a custom deposit amount instead of selecting one "
+"of the pre-made values:"
+msgstr ""
+"به مشتری اجازه دهید به جای انتخاب یکی از مقادیر از پیش ساخته شده ، مبلغ "
+"سپرده سفارشی را وارد کند:"
+
+#: includes/settings_pages/general.php:261
+msgid "Minimum deposit:"
+msgstr "حداقل واریز:"
+
+#: includes/settings_pages/general.php:271
+msgid "Maximum deposit:"
+msgstr "شارژ حساب"
+
+#: includes/settings_pages/general.php:282
+msgid ""
+"Instead of a drop down with predefined amounts that you set by creating "
+"credit products the plugin will show an input box where the user can enter "
+"the amounts they want."
+msgstr ""
+"به جای کشویی با مبالغ از پیش تعیین شده که با ایجاد محصولات اعتباری تعیین می "
+"کنید ، این افزونه یک جعبه ورودی نشان می دهد که کاربر می تواند مبالغ مورد نظر "
+"خود را وارد کند."
+
+#: includes/settings_pages/general.php:284
+msgid "The minimum and maximum does not affect the predefined values."
+msgstr "حداقل و حداکثر بر مقادیر از پیش تعریف شده تأثیر نمی گذارد."
+
+#: includes/settings_pages/general.php:290
+msgid "Show both options, pre-made packages and custom inputs"
+msgstr ""
+"هر دو گزینه ، بسته های از پیش ساخته شده و ورودی های سفارشی را نشان دهید"
+
+#: includes/settings_pages/general.php:301
+msgid "Withdrawals:"
+msgstr "دریافت اعتبار"
+
+#: includes/settings_pages/general.php:305
+msgid "Enable withdrawal requests"
+msgstr "درخواست های بازپرداخت را فعال کنید"
+
+#: includes/settings_pages/general.php:328
+msgid "SWIFT bank transfer"
+msgstr "کد انتقال بانکی سویفیت"
+
+#: includes/settings_pages/general.php:352
+msgid "Bank Transfer (Brazil)"
+msgstr "انتقال بانکی"
+
+#: includes/settings_pages/general.php:377
+msgid "Bank Transfer (Italy)"
+msgstr "انتقال بانکی"
+
+#: includes/settings_pages/general.php:390
+msgid "Minimum Amount:"
+msgstr "حداقل مقدار:"
+
+#: includes/settings_pages/general.php:401
+msgid "Maximum Amount:"
+msgstr "بیشترین مقدار:"
+
+#~ msgid "Export"
+#~ msgstr "برون ریزی"
+
+#~ msgid "Refund Rate (%)"
+#~ msgstr "نرخ بازپرداخت (٪)"
+
+#~ msgid "Unlock Credit"
+#~ msgstr "باز کردن اعتبار"

@@ -1,0 +1,304 @@
+/**
+ * This file contains all Sass variables.
+ **/
+/**
+ * Color Variables
+ **/
+/** Public related CSS */
+/* Add Animation */
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+.tgwc-woocommerce-customize-my-account #tgwc-woocommerce {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/**
+ * User Avatar
+ **/
+.tgwc-user-avatar {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+.tgwc-user-avatar .dropzone {
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  min-height: auto;
+  border: none;
+}
+.tgwc-user-avatar .dropzone .tgwc-user-avatar-image-wrap {
+  width: 96px;
+  height: 96px;
+  position: relative;
+  overflow: hidden;
+}
+.tgwc-user-avatar .dropzone .tgwc-user-avatar-image-wrap .avatar {
+  width: 100%;
+  height: 100%;
+}
+.tgwc-user-avatar .dropzone .tgwc-user-avatar-image-wrap .tgwc-user-avatar-upload-icon,
+.tgwc-user-avatar .dropzone .tgwc-user-avatar-image-wrap .tgwc-remove-image {
+  color: #fff;
+  background: rgba(33, 37, 41, 0.5);
+  padding: 4px;
+  height: 24px;
+  width: 24px;
+  border-radius: 4px;
+  position: absolute;
+  right: 8px;
+  cursor: pointer;
+  line-height: 1;
+}
+.tgwc-user-avatar .dropzone .tgwc-user-avatar-image-wrap .tgwc-remove-image {
+  padding: 2px 4px;
+}
+.tgwc-user-avatar .dropzone .tgwc-user-avatar-image-wrap .tgwc-user-avatar-upload-icon {
+  bottom: 8px;
+  display: inline-flex;
+  align-items: center;
+}
+.tgwc-user-avatar .dropzone .tgwc-user-avatar-image-wrap .tgwc-remove-image {
+  top: 8px;
+}
+.tgwc-user-avatar .dropzone .tgwc-user-avatar-image-wrap .tgwc-progress {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+.tgwc-user-avatar .dropzone .tgwc-user-avatar-image-wrap.tgwc-user-avatar-image-wrap--square {
+  border-radius: 4px;
+}
+.tgwc-user-avatar .dropzone .tgwc-user-avatar-image-wrap.tgwc-user-avatar-image-wrap--circle {
+  border-radius: 50%;
+}
+.tgwc-user-avatar .dropzone .tgwc-user-avatar-image-wrap.tgwc-user-avatar-image-wrap--circle .tgwc-user-avatar-upload-icon {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.tgwc-user-avatar .dropzone .dz-default.dz-message {
+  margin: 16px 0;
+}
+.tgwc-user-avatar .tgwc-user-info .tgwc-user-id {
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+.tgwc-user-avatar.tgwc-user-avatar--right-aligned, .tgwc-user-avatar.tgwc-user-avatar--center-aligned {
+  flex-direction: column;
+}
+.tgwc-user-avatar.tgwc-user-avatar--right-aligned {
+  text-align: right;
+  align-items: flex-end;
+}
+.tgwc-user-avatar.tgwc-user-avatar--center-aligned {
+  text-align: center;
+  align-items: center;
+}
+.tgwc-user-avatar.tgwc-user-avatar--vertical-aligned {
+  flex-direction: row;
+}
+.tgwc-user-avatar.tgwc-user-avatar--vertical-aligned .dropzone {
+  margin-right: 16px;
+}
+
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation ul {
+  margin: 0;
+  list-style: none;
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link {
+  margin: 0;
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 12px 0;
+  word-break: break-all;
+  white-space: normal;
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link a::before, #tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link a::after {
+  content: none;
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation ul li.tgwc-navicon-left a {
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation ul li.tgwc-navicon-left a svg {
+  margin-right: 8px;
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation ul li.tgwc-navicon-right a {
+  justify-content: space-between;
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation ul li.tgwc-navicon-right a svg {
+  margin-left: 8px;
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-sidebar .tgwc-woocommerce-MyAccount-navigation-wrap .tgwc-nav-tab-left-scroll,
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-sidebar .tgwc-woocommerce-MyAccount-navigation-wrap .tgwc-nav-tab-right-scroll {
+  display: none;
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-sidebar ul li ul {
+  padding-left: 20px;
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-sidebar ul li.woocommerce-MyAccount-navigation-link a {
+  border-top: 1px solid #ced4da;
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-sidebar.tgwc-navbar-sidebar-right {
+  order: 2;
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-sidebar.tgwc-navbar-sidebar-right ~ .woocommerce-MyAccount-content {
+  order: 1;
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation .tgwc-user-avatar .tgwc-user-avatar-image-wrap {
+  margin-bottom: 8px;
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation .tgwc-user-avatar .tgwc-user-avatar-image-wrap .tgwc-remove-image,
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation .tgwc-user-avatar .tgwc-user-avatar-image-wrap .tgwc-user-avatar-upload-icon {
+  visibility: hidden;
+  transition: all ease 0.4s;
+  transition: all ease 0.4s;
+  opacity: 0;
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation .tgwc-user-avatar .tgwc-user-avatar-image-wrap:hover .tgwc-remove-image,
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation .tgwc-user-avatar .tgwc-user-avatar-image-wrap:hover .tgwc-user-avatar-upload-icon {
+  visibility: visible;
+  opacity: 1;
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-sidebar, #tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-sidebar ~ .woocommerce-MyAccount-content {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0;
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-tab {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-tab .tgwc-woocommerce-MyAccount-navigation-wrap {
+  margin-bottom: 20px;
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-tab ul li {
+  white-space: nowrap;
+  position: static;
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-tab ul li a {
+  padding: 8px 12px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.25s ease 0s;
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-tab ul li a:hover {
+  border-color: #ced4da;
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-tab ul li ul {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  width: 160px;
+  max-width: 160px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 6px 1px rgba(33, 37, 41, 0.1);
+  z-index: 10;
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-tab ul li.is-active a {
+  border-bottom: 2px solid currentColor;
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-tab ul li:hover ul {
+  display: flex;
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-tab ul.scroll_tabs_container {
+  height: inherit;
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-tab ul.scroll_tabs_container li {
+  background: transparent;
+  padding: 0;
+  line-height: inherit;
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-tab ul.scroll_tabs_container .scroll_tab_left_button,
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-tab ul.scroll_tabs_container .scroll_tab_right_button {
+  height: inherit;
+  bottom: 0;
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-tab ul.scroll_tabs_container .scroll_tab_left_button.scroll_arrow_disabled,
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-tab ul.scroll_tabs_container .scroll_tab_right_button.scroll_arrow_disabled {
+  visibility: hidden;
+  opacity: 0;
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-tab ul.scroll_tabs_container .scroll_tab_left_button::before,
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-tab ul.scroll_tabs_container .scroll_tab_right_button::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  line-height: inherit;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border: 2px solid #212529;
+  border-left: transparent;
+  border-bottom: transparent;
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-tab ul.scroll_tabs_container .scroll_tab_left_button {
+  background: linear-gradient(to left, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.7));
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-tab ul.scroll_tabs_container .scroll_tab_left_button::before {
+  transform: translateY(-50%) rotate(225deg);
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-tab ul.scroll_tabs_container .scroll_tab_right_button {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.7));
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-tab ul.scroll_tabs_container .scroll_tab_right_button::before {
+  transform: translateY(-50%) rotate(45deg);
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-tab ul.scroll_tabs_container .scroll_tab_inner {
+  height: auto;
+  position: static !important;
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-tab.tgwc-navbar-tab {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+#tgwc-woocommerce .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-tab.tgwc-navbar-sidebar {
+  max-width: 25%;
+  flex: 0 0 25%;
+}
+
+.tgwc-display-none {
+  display: none;
+}
+
+#tgwc-file-drop-zone .dz-default.dz-message {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-sidebar {
+    max-width: 25%;
+    flex: 0 0 25%;
+  }
+  .tgwc-woocommerce-MyAccount-navigation.tgwc-navbar-sidebar + .woocommerce-MyAccount-content {
+    max-width: 75%;
+    flex: 0 0 75%;
+  }
+}

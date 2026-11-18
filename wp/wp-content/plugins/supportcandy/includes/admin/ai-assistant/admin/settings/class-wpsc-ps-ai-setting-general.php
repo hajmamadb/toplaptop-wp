@@ -1,0 +1,603 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly!
+}
+
+if ( ! class_exists( 'WPSC_PS_AI_Setting_General' ) ) :
+
+	final class WPSC_PS_AI_Setting_General {
+
+		/**
+		 * Option holding, per provider, a fingerprint of the API key its cached store ID was created under.
+		 */
+		const STORE_KEY_HASHES_OPTION = 'wpsc-ps-ai-store-key-hashes';
+
+		/**
+		 * Initialize this class
+		 *
+		 * @return void
+		 */
+		public static function init() {
+
+			// List.
+			add_action( 'wp_ajax_wpsc_get_aia_general_setting', array( __CLASS__, 'get_aia_general_setting' ) );
+
+			// Save, reset & test settings.
+			add_action( 'wp_ajax_wpsc_set_ai_settings', array( __CLASS__, 'save_settings' ) );
+			add_action( 'wp_ajax_wpsc_reset_ai_settings', array( __CLASS__, 'reset_settings' ) );
+		}
+
+		/**
+		 * Get AI assistant general setting
+		 *
+		 * @return void
+		 */
+		public static function get_aia_general_setting() {
+
+			if ( ! WPSC_Functions::is_site_admin() ) {
+				wp_send_json_error( __( 'Unauthorized access!', 'supportcandy' ), 401 );
+			}
+
+			$ai_settings = get_option( 'wpsc-ps-ai-assistant-settings', array() );
+			if ( empty( $ai_settings ) ) {
+				wp_send_json_error( __( 'Something went wrong.', 'supportcandy' ), 404 );
+			}
+
+			?>
+			<form action="#" onsubmit="return false;" class="wpsc-frm-ai-settings">
+				<div class="wpsc-input-group">
+					<div class="label-container">
+						<label for="wpsc-ai-service-provider"><?php esc_attr_e( 'AI Service Provider', 'supportcandy' ); ?></label>
+					</div>
+					<p class="wpsc-input-desc"><?php esc_attr_e( 'The AI service used by all AI features, including ticket summaries, reply drafts, polish, AI training and the AI chatbot. When you change it, the connection is tested again on save.', 'supportcandy' ); ?></p>
+					<select id="wpsc-ai-service-provider" name="wpsc-ai-service-provider">
+						<option value="openai" <?php selected( $ai_settings['provider'], 'openai' ); ?>><?php esc_html_e( 'OpenAI', 'supportcandy' ); ?></option>
+						<option value="google-gemini" <?php selected( $ai_settings['provider'], 'google-gemini' ); ?>><?php esc_html_e( 'Google Gemini', 'supportcandy' ); ?></option>
+					</select>
+				</div>
+
+				<div class="wpsc-input-group">
+					<div class="label-container">
+						<label for="wpsc-ai-api-key"><?php esc_attr_e( 'API Key', 'supportcandy' ); ?></label>
+						<span class="required-indicator">*</span>
+					</div>
+					<p class="wpsc-input-desc"><?php esc_attr_e( 'Your secret key from the selected provider. On save it is checked against the provider, and the result shows below the form as "Connected!" or "Not Connected!".', 'supportcandy' ); ?></p>
+					<input type="text" id="wpsc-ai-api-key" name="wpsc-ai-api-key" value="<?php echo esc_attr( self::mask_api_key( $ai_settings['api_key'] ?? '' ) ); ?>" placeholder="<?php esc_attr_e( 'Enter your API Key', 'supportcandy' ); ?> "/>
+				</div>
+				
+				<div class="wpsc-input-group">
+					<div class="label-container">
+						<label for="wpsc-ai-max-tokens"><?php esc_attr_e( 'Max Tokens', 'supportcandy' ); ?></label>
+					</div>
+					<p class="wpsc-input-desc"><?php esc_attr_e( 'Upper limit on the length of each AI response, sent to the provider with every request. Enter a value between 500 and 16384.', 'supportcandy' ); ?></p>
+					<input type="number" id="wpsc-ai-max-tokens" value="<?php echo esc_attr( $ai_settings['max-tokens'] ); ?>" name="wpsc-ai-max-tokens" placeholder="<?php esc_attr_e( 'Enter the maximum number of tokens', 'supportcandy' ); ?> "/>
+				</div>
+
+				<input type="hidden" name="action" value="wpsc_set_ai_settings">
+				<input type="hidden" name="_ajax_nonce" value="<?php echo esc_attr( wp_create_nonce( 'wpsc_set_ai_settings' ) ); ?>">
+			
+				<div class="setting-footer-actions">
+					<button 
+						class="wpsc-button normal primary margin-right"
+						onclick="wpsc_set_ai_settings(this);">
+						<?php esc_attr_e( 'Submit', 'supportcandy' ); ?>
+					</button>
+					<button 
+						class="wpsc-button normal secondary margin-right"
+						onclick="wpsc_reset_ai_settings(this, '<?php echo esc_attr( wp_create_nonce( 'wpsc_reset_ai_settings' ) ); ?>');">
+						<?php esc_attr_e( 'Reset', 'supportcandy' ); ?>
+					</button>
+				</div>
+			</form>
+			<?php
+			if ( isset( $ai_settings['is-active'] ) && $ai_settings['is-active'] ) {
+				?>
+				<div style="margin-top: 15px; color: #009432;"><?php esc_html_e( 'Connected!', 'supportcandy' ); ?></div>
+				<?php
+			} else {
+				?>
+				<div style="margin-top: 15px; color: #ff0000;"><?php esc_html_e( 'Not Connected!', 'supportcandy' ); ?></div>
+				<div style="margin-top: 15px; color: #ff0000;"><?php echo esc_html( $ai_settings['last-error'] ); ?></div>
+				<?php
+			}
+			wp_die();
+		}
+
+		/**
+		 * Candidate models for a given provider, keyed by the literal value sent
+		 * to that provider's API. First entry is the default model used when
+		 * settings are saved or installed - there is no UI to pick a different
+		 * one. Kept intentionally small - these are also the only base models
+		 * resolve_retry_model() (in WPSC_PS_AI_OpenAI / WPSC_PS_AI_Gemini)
+		 * escalates from on a retry, so a model outside the ladder here won't
+		 * derail that behavior.
+		 *
+		 * @param string $provider 'openai' or 'google-gemini'.
+		 * @return array<string, string> model value => display label.
+		 */
+		private static function get_available_models( $provider ) {
+
+			if ( 'google-gemini' === $provider ) {
+				return array(
+					WPSC_PS_AI_Gemini::MODEL_LOW => __( 'Gemini 3.5 Flash-Lite (fastest, lowest cost)', 'supportcandy' ),
+					WPSC_PS_AI_Gemini::MODEL_MID => __( 'Gemini 3.6 Flash (balanced)', 'supportcandy' ),
+					WPSC_PS_AI_Gemini::MODEL_PRO => __( 'Gemini 4 Argon (most capable)', 'supportcandy' ),
+				);
+			}
+
+			return array(
+				WPSC_PS_AI_OpenAI::MODEL_LOW => __( 'GPT-6 Luna (fastest, lowest cost)', 'supportcandy' ),
+				WPSC_PS_AI_OpenAI::MODEL_MID => __( 'GPT-6.1 Terra (balanced)', 'supportcandy' ),
+				WPSC_PS_AI_OpenAI::MODEL_PRO => __( 'GPT-6.1 Sol (most capable)', 'supportcandy' ),
+			);
+		}
+
+		/**
+		 * Default model for a provider - the first entry in get_available_models().
+		 *
+		 * @param string $provider 'openai' or 'google-gemini'.
+		 * @return string
+		 */
+		private static function get_default_model( $provider ) {
+
+			$models = self::get_available_models( $provider );
+			return (string) array_key_first( $models );
+		}
+
+		/**
+		 * Save AI assistant settings
+		 *
+		 * @return void
+		 */
+		public static function save_settings() {
+
+			if ( ! check_ajax_referer( 'wpsc_set_ai_settings', '_ajax_nonce', false ) ) {
+				wp_send_json_error( 'Unauthorized request!', 401 );
+			}
+
+			if ( ! WPSC_Functions::is_site_admin() ) {
+				wp_send_json_error( __( 'Unauthorized access!', 'supportcandy' ), 401 );
+			}
+
+			$ai_settings = get_option( 'wpsc-ps-ai-assistant-settings', array() );
+
+			$service_provider = isset( $_POST['wpsc-ai-service-provider'] ) ? sanitize_text_field( wp_unslash( $_POST['wpsc-ai-service-provider'] ) ) : '';
+			if ( empty( $service_provider ) || ! in_array( $service_provider, array( 'openai', 'google-gemini' ), true ) ) {
+				wp_send_json_error( __( 'Invalid or missing service provider!', 'supportcandy' ), 400 );
+			}
+
+			$submitted_api_key = isset( $_POST['wpsc-ai-api-key'] ) ? sanitize_text_field( wp_unslash( $_POST['wpsc-ai-api-key'] ) ) : '';
+			$existing_api_key = isset( $ai_settings['api_key'] ) ? trim( $ai_settings['api_key'] ) : '';
+
+			// The field displays a masked version of the stored key (see mask_api_key()).
+			// If it comes back unchanged, keep the real stored key instead of overwriting
+			// it with the mask string itself.
+			if ( '' !== $existing_api_key && $submitted_api_key === self::mask_api_key( $existing_api_key ) ) {
+				$api_key = $existing_api_key;
+			} else {
+				$api_key = $submitted_api_key;
+			}
+
+			if ( empty( $api_key ) || strlen( $api_key ) < 10 ) {
+				wp_send_json_error( __( 'Invalid or missing API key!', 'supportcandy' ), 400 );
+			}
+
+			$max_tokens = isset( $_POST['wpsc-ai-max-tokens'] ) ? intval( $_POST['wpsc-ai-max-tokens'] ) : 0;
+			if ( $max_tokens < 500 || $max_tokens > 16384 ) {
+				wp_send_json_error( __( 'Max tokens must be between 500 and 16384.', 'supportcandy' ), 400 );
+			}
+
+			// No UI control for this - always use the provider's default model.
+			$model = self::get_default_model( $service_provider );
+
+			$old_provider  = isset( $ai_settings['provider'] ) ? trim( $ai_settings['provider'] ) : '';
+			$is_active     = ! empty( $ai_settings['is-active'] );
+
+			// Check if API key OR provider changed.
+			$is_key_changed = ( $api_key !== $existing_api_key ) || ( $service_provider !== $old_provider );
+
+			// A changed key may belong to a different provider project. Vector/file-search
+			// stores are project-scoped and never re-validated once cached, so a stale
+			// store ID left over from the old key would silently fail every sync/upload
+			// (Website tab shows no records, file uploads fail with no visible error).
+			// Only the store of the provider being saved is cleared, and only when that
+			// provider's own key changed - merely switching provider (e.g. temporarily, to
+			// test another one) must keep each provider's store ID so its synced data stays
+			// usable when switching back. The settings hold a single api_key field, so the
+			// key each provider's store was created under is tracked as a per-provider
+			// fingerprint rather than compared against the previously saved key.
+			$key_hashes = get_option( self::STORE_KEY_HASHES_OPTION, array() );
+			$key_hashes = is_array( $key_hashes ) ? $key_hashes : array();
+
+			// Settings saved before fingerprints existed: the outgoing provider's store was
+			// created under the key being replaced, so remember that for when it is switched back to.
+			if ( $old_provider && $existing_api_key && ! isset( $key_hashes[ $old_provider ] ) ) {
+				$key_hashes[ $old_provider ] = wp_hash( $existing_api_key );
+			}
+
+			$new_key_hash = wp_hash( $api_key );
+			if ( isset( $key_hashes[ $service_provider ] ) ) {
+				$provider_key_changed = ! hash_equals( $key_hashes[ $service_provider ], $new_key_hash );
+			} else {
+				// Nothing recorded for this provider - can't prove its cached store belongs to this key.
+				$provider_key_changed = true;
+			}
+
+			if ( $provider_key_changed ) {
+				self::clear_cached_provider_store_id( $service_provider );
+			}
+			$key_hashes[ $service_provider ] = $new_key_hash;
+			update_option( self::STORE_KEY_HASHES_OPTION, $key_hashes, false );
+
+			$test_result = array(
+				'success' => true,
+				'message' => '',
+			);
+			// Only test connection if not already active.
+			if ( $is_key_changed ) {
+				if ( $service_provider === 'openai' ) {
+					$test_result = self::internal_openai_test_connection( $api_key );
+					if ( $test_result['success'] ) {
+						$test_result = self::internal_openai_test_rag_permission( $api_key );
+					}
+				} elseif ( $service_provider === 'google-gemini' ) {
+					$test_result = self::internal_google_test_connection( $api_key );
+					if ( $test_result['success'] ) {
+						$test_result = self::internal_google_test_rag_permission( $api_key );
+					}
+				}
+				if ( $test_result['success'] ) {
+					$is_active = true;
+				} else {
+					$is_active = false;
+				}
+			}
+
+			// Only update fields owned by this tab; leave other tabs' settings untouched.
+			$ai_settings['provider']     = $service_provider;
+			$ai_settings['model']        = $model;
+			$ai_settings['api_key']      = $api_key;
+			$ai_settings['max-tokens']   = $max_tokens;
+			$ai_settings['is-active']    = $is_active;
+			$ai_settings['last-error']   = $test_result['success'] ? '' : $test_result['message'];
+			if ( ! isset( $ai_settings['ai-max-upload-file-size'] ) ) {
+				$ai_settings['ai-max-upload-file-size'] = 10; // default 10 MB.
+			}
+			update_option( 'wpsc-ps-ai-assistant-settings', $ai_settings );
+
+			wp_send_json_success(
+				array(
+					'message' => __( 'Settings saved successfully.', 'supportcandy' ),
+				)
+			);
+			wp_die();
+		}
+
+		/**
+		 * Reset AI assistant settings
+		 *
+		 * @return void
+		 */
+		public static function reset_settings() {
+
+			if ( ! check_ajax_referer( 'wpsc_reset_ai_settings', '_ajax_nonce', false ) ) {
+				wp_send_json_error( 'Unauthorized request!', 401 );
+			}
+
+			if ( ! WPSC_Functions::is_site_admin() ) {
+				wp_send_json_error( __( 'Unauthorized access!', 'supportcandy' ), 401 );
+			}
+
+			// Reset should give a genuinely clean slate: also drop any cached vector/file-search
+			// store ID, otherwise re-entering a new key later silently reuses a store that may
+			// belong to a different project (see clear_stored_vector_store_id() docblock).
+			self::clear_cached_provider_store_ids();
+			delete_option( self::STORE_KEY_HASHES_OPTION );
+
+			update_option(
+				'wpsc-ps-ai-assistant-settings',
+				array(
+					'status'                   => '0',
+					'provider'                 => 'openai',
+					'api_key'                  => '',
+					'model'                    => WPSC_PS_AI_OpenAI::MODEL_LOW,
+					'max-tokens'               => 500,
+					'auto-delete-ai-logs-time' => 1,
+					'auto-delete-ai-logs-unit' => 'year',
+					'custom-prompt'            => '',
+					'summary-custom-prompt'    => '',
+					'auto-draft-custom-prompt' => '',
+					'is-active'                => 0,
+					'last-error'               => '',
+					'ai-max-upload-file-size'  => 10,
+				)
+			);
+
+			wp_send_json_success(
+				array(
+					'message' => __( 'Settings reset successfully.', 'supportcandy' ),
+				)
+			);
+			wp_die();
+		}
+
+		/**
+		 * Mask an API key for display in the settings form, keeping only enough of it
+		 * to let an admin recognize which key is stored (e.g. after rotating providers)
+		 * without exposing the full secret in the page's HTML source. save_settings()
+		 * compares the submitted value against this same output to detect whether the
+		 * admin actually changed the key or just resubmitted the form unedited.
+		 *
+		 * @param string $key The real, stored API key.
+		 * @return string Masked value, or '' if there's no key stored yet.
+		 */
+		private static function mask_api_key( $key ) {
+
+			$key = trim( (string) $key );
+			$length = strlen( $key );
+
+			if ( 0 === $length ) {
+				return '';
+			}
+
+			if ( $length <= 8 ) {
+				return str_repeat( '*', $length );
+			}
+
+			return substr( $key, 0, 4 ) . str_repeat( '*', 8 ) . substr( $key, -4 );
+		}
+
+		/**
+		 * Clear one provider's cached vector/file-search store ID. Called when that
+		 * provider's API key changes, since a store ID cached under a previous key/project
+		 * is never re-validated on its own (see WPSC_PS_AI_OpenAI::clear_stored_vector_store_id()
+		 * docblock).
+		 *
+		 * @param string $provider Provider slug.
+		 * @return void
+		 */
+		private static function clear_cached_provider_store_id( $provider ) {
+
+			if ( 'openai' === $provider ) {
+				WPSC_PS_AI_OpenAI::clear_stored_vector_store_id();
+			} elseif ( 'google-gemini' === $provider ) {
+				WPSC_PS_AI_Gemini::clear_stored_file_search_store_id();
+			}
+		}
+
+		/**
+		 * Clear both providers' cached vector/file-search store IDs. Called when settings
+		 * are reset.
+		 *
+		 * @return void
+		 */
+		private static function clear_cached_provider_store_ids() {
+
+			WPSC_PS_AI_OpenAI::clear_stored_vector_store_id();
+			WPSC_PS_AI_Gemini::clear_stored_file_search_store_id();
+		}
+
+		/**
+		 * Test OpenAI connection
+		 *
+		 * @param string $api_key API key to test.
+		 * @return array Associative array with 'success' (bool) and 'message' (string).
+		 */
+		private static function internal_openai_test_connection( $api_key ) {
+
+			// Validate API key.
+			$api_key = is_string( $api_key ) ? trim( $api_key ) : '';
+			if ( empty( $api_key ) ) {
+				return array(
+					'success' => false,
+					'message' => __( 'API key is missing.', 'supportcandy' ),
+				);
+			}
+
+			// API request.
+			$response = wp_remote_get(
+				'https://api.openai.com/v1/models',
+				array(
+					'method'    => 'GET',
+					'timeout'   => 60,
+					'sslverify' => true,
+					'headers'   => array(
+						'Authorization' => 'Bearer ' . $api_key,
+						'Content-Type'  => 'application/json',
+					),
+				)
+			);
+
+			// Handle request error.
+			if ( is_wp_error( $response ) ) {
+				return array(
+					'success' => false,
+					'message' => $response->get_error_message(),
+				);
+			}
+
+			$code = wp_remote_retrieve_response_code( $response );
+			$body = wp_remote_retrieve_body( $response );
+
+			// Success case.
+			if ( $code === 200 ) {
+				return array(
+					'success' => true,
+					'message' => __( 'Connection to OpenAI is successful!', 'supportcandy' ),
+				);
+			}
+
+			// Default error message.
+			$error_message = '';
+
+			// Try extracting API error message.
+			if ( ! empty( $body ) ) {
+
+				$data = json_decode( $body, true );
+
+				if ( json_last_error() === JSON_ERROR_NONE && is_array( $data ) ) {
+
+					if ( ! empty( $data['error']['message'] ) && is_string( $data['error']['message'] ) ) {
+						$error_message = ' - ' . sanitize_text_field( $data['error']['message'] );
+					}
+				}
+			}
+
+			return array(
+				'success' => false,
+				'message' => __( 'Connection to OpenAI failed: ', 'supportcandy' ) . $error_message,
+			);
+		}
+
+		/**
+		 * Test Google AI connection
+		 *
+		 * @param string $api_key API key to test.
+		 * @return array Associative array with 'success' (bool) and 'message' (string).
+		 */
+		private static function internal_google_test_connection( $api_key ) {
+
+			$url = 'https://generativelanguage.googleapis.com/v1/models?key=' . $api_key;
+			$args = array(
+				'method'    => 'GET',
+				'timeout'   => 60,
+				'sslverify' => true,
+				'headers'   => array(
+					'Content-Type' => 'application/json',
+				),
+			);
+
+			$response = wp_remote_get( $url, $args );
+			if ( is_wp_error( $response ) ) {
+				return array(
+					'success' => false,
+					'message' => $response->get_error_message(),
+				);
+			}
+
+			$code = wp_remote_retrieve_response_code( $response );
+			if ( $code === 200 ) {
+				return array(
+					'success' => true,
+					'message' => __( 'Connection to Google AI is successful!', 'supportcandy' ),
+				);
+			} else {
+				$error_message = '';
+				$body = wp_remote_retrieve_body( $response );
+				if ( ! empty( $body ) ) {
+					$data = json_decode( $body, true );
+					if ( isset( $data['error']['message'] ) ) {
+						$error_message = ' - ' . $data['error']['message'];
+					}
+				}
+				return array(
+					'success' => false,
+					'message' => __( 'Connection to Google AI failed: ', 'supportcandy' ) . $error_message,
+				);
+			}
+		}
+
+		/**
+		 * Verify the OpenAI API key has permission to use Vector Stores (required for RAG file uploads).
+		 * A key can pass the basic /v1/models check yet still be restricted/scoped to disallow this endpoint.
+		 *
+		 * @param string $api_key API key to test.
+		 * @return array Associative array with 'success' (bool) and 'message' (string).
+		 */
+		private static function internal_openai_test_rag_permission( $api_key ) {
+
+			$response = wp_remote_get(
+				'https://api.openai.com/v1/vector_stores?limit=1',
+				array(
+					'method'    => 'GET',
+					'timeout'   => 60,
+					'sslverify' => true,
+					'headers'   => array(
+						'Authorization' => 'Bearer ' . $api_key,
+						'Content-Type'  => 'application/json',
+					),
+				)
+			);
+
+			if ( is_wp_error( $response ) ) {
+				return array(
+					'success' => false,
+					'message' => $response->get_error_message(),
+				);
+			}
+
+			$code = wp_remote_retrieve_response_code( $response );
+
+			if ( $code === 200 ) {
+				return array(
+					'success' => true,
+					'message' => __( 'Connection to OpenAI is successful!', 'supportcandy' ),
+				);
+			}
+
+			$error_message = '';
+			$body = wp_remote_retrieve_body( $response );
+			if ( ! empty( $body ) ) {
+				$data = json_decode( $body, true );
+				if ( json_last_error() === JSON_ERROR_NONE && ! empty( $data['error']['message'] ) && is_string( $data['error']['message'] ) ) {
+					$error_message = ' - ' . sanitize_text_field( $data['error']['message'] );
+				}
+			}
+
+			return array(
+				'success' => false,
+				'message' => __( 'API key is valid, but it does not have permission to use Vector Stores, which is required for RAG file uploads. Check your API key\'s scope/restrictions in your OpenAI account.', 'supportcandy' ) . $error_message,
+			);
+		}
+
+		/**
+		 * Verify the Google Gemini API key has permission to use File Search Stores (required for RAG file uploads).
+		 * A key can pass the basic /v1/models check yet still be restricted to disallow this v1beta endpoint.
+		 *
+		 * @param string $api_key API key to test.
+		 * @return array Associative array with 'success' (bool) and 'message' (string).
+		 */
+		private static function internal_google_test_rag_permission( $api_key ) {
+
+			$url = 'https://generativelanguage.googleapis.com/v1beta/fileSearchStores?pageSize=1&key=' . $api_key;
+			$args = array(
+				'method'    => 'GET',
+				'timeout'   => 60,
+				'sslverify' => true,
+				'headers'   => array(
+					'Content-Type' => 'application/json',
+				),
+			);
+
+			$response = wp_remote_get( $url, $args );
+			if ( is_wp_error( $response ) ) {
+				return array(
+					'success' => false,
+					'message' => $response->get_error_message(),
+				);
+			}
+
+			$code = wp_remote_retrieve_response_code( $response );
+			if ( $code === 200 ) {
+				return array(
+					'success' => true,
+					'message' => __( 'Connection to Google AI is successful!', 'supportcandy' ),
+				);
+			}
+
+			$error_message = '';
+			$body = wp_remote_retrieve_body( $response );
+			if ( ! empty( $body ) ) {
+				$data = json_decode( $body, true );
+				if ( isset( $data['error']['message'] ) ) {
+					$error_message = ' - ' . $data['error']['message'];
+				}
+			}
+			return array(
+				'success' => false,
+				'message' => __( 'API key is valid, but it does not have permission to use File Search Stores, which is required for RAG file uploads. Check your API key\'s API restrictions in Google Cloud console.', 'supportcandy' ) . $error_message,
+			);
+		}
+	}
+endif;
+WPSC_PS_AI_Setting_General::init();

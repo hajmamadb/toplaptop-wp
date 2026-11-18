@@ -1,0 +1,320 @@
+@font-face {
+    font-family: "wpnovin";
+    src: url("/fonts/wpnovin.ttf");
+    src: local("b wpnovin"), url("fonts/wpnovin.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+.rank-math-tab-panel>.components-tab-panel__tabs {
+    z-index: 10;
+    flex-wrap: wrap;
+    font-family: wpnovin;
+}
+.rank-math-wrap p, .rank-math-wrap .description {
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.5;
+    font-family: 'wpnovin';
+}
+.form-table, .form-table td, .form-table td p, .form-table th {
+    font-size: 14px;
+    font-family: 'wpnovin';
+}
+.rank-math-button.components-button {
+    display: inline-flex !important;
+    height: auto;
+    min-height: 30px;
+    padding: 0 20px;
+    border: 1px solid #7f868d;
+    border-radius: 3px;
+    color: #6b7278;
+    background: #f8f9fa;
+    font-size: 14px;
+    line-height: 38px;
+    vertical-align: top;
+    font-family: 'wpnovin';
+    transition: .05s ease-in-out;
+}
+.rank-math-wrap h3 {
+    font-size: 1.375rem;
+    line-height: 1.5;
+    margin: 1.25em 0 .6em;
+    font-family: 'wpnovin';
+}
+.rank-math-page .rank-math-breadcrumbs {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #7f868d;
+    font-family: 'wpnovin';
+}
+.rank-math-tools-table.widefat h4 {
+    margin: 0 0 .825rem;
+    font-family: 'wpnovin';
+}
+b, strong {
+    font-weight: 600;
+    font-family: 'wpnovin';
+}
+.rank-math-import-export>div>h2 {
+    font-size: 1.375rem;
+    margin-top: 0;
+    margin-bottom: .825rem;
+    font-family: 'wpnovin';
+}
+.rank-math-import-export .components-tab-panel__tabs-item {
+    height: 46px;
+    padding: 0 15px;
+    border-right: 1px solid #b5bfc9;
+    color: #5b6065;
+    font-size: .825rem;
+    font-family: 'wpnovin';
+}
+.rank-math-import-export .components-tab-panel__tabs-item .rm-icon {
+    margin-left: 6px;
+    margin-right: inherit !important;
+    font-weight: 600;
+    vertical-align: -4px;
+}
+.rank-math-checkbox-control .components-base-control__field .components-checkbox-control__label {
+    color: #242628;
+    font-size: 14px;
+    line-height: 16px;
+    vertical-align: middle;
+    cursor: pointer;
+    font-family: 'wpnovin';
+}
+.wizard-content--requirements .rank-math-setup-mode ul li label .rank-math-mode-title {
+    color: #242628;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1;
+    white-space: normal;
+    font-family: wpnovin;
+}
+.rank-math-seo-analysis-wrap .title-prefix, .rank-math-seo-analysis-wrap .rank-math-analysis-date {
+    display: block;
+    margin-bottom: 7px;
+    color: #7f868d;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'wpnovin';
+    text-transform: uppercase;
+}
+.rank-math-tab-panel>.components-tab-panel__tabs .components-tab-panel__tabs-item i {
+    margin-left: 9px;
+    margin-right: inherit !IMPORTANT;
+}
+.competitor_analyzer .rank-math-box>h2 {
+    margin: 0;
+    text-align: center;
+    font-family: 'wpnovin';
+}
+.components-tab-panel__tabs {
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    font-family: 'wpnovin';
+}
+.rank-math-result-table .category-title {
+    padding: 11px 20px;
+    padding-left: 0;
+    border-bottom: 1px solid #dadfe4;
+    color: #242628;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'wpnovin';
+}
+.rank-math-result-table .row-title h3 {
+    display: inline-block;
+    margin: 0 35px 0 0px !important;
+    font-size: 15px;
+    font-weight: 500;
+}
+.rank-math-result-graphs .result-score div {
+    display: block;
+    color: #7f868d;
+    font-size: 15px;
+    font-family: 'wpnovin';
+}
+[id^=field-metabox-rank] .field-row .field-th label {
+    padding: 0 0px 0 15px !important;
+}
+#indexnow_response_codes th, #indexnow_history th {
+    padding: 15px 10px;
+    text-align: right !important;
+}
+.rank-math-table * {
+    word-wrap: break-word;
+    text-align: right;
+}
+.rank-math-tab-header h2 {
+    font-size: 25px;
+    line-height: 1.5;
+    font-weight: 600;
+    margin: 0;
+    font-family: 'wpnovin';
+}
+.rank-math-tab-panel .rank-math-notice .components-notice__content {
+    position: relative;
+    margin: .5em 0;
+    margin-right: 3px;
+    font-family: 'wpnovin';
+}
+.components-base-control .components-base-control__field .rank-math-toggle-group-control.components-toggle-group-control {
+    display: inline-block;
+    width: fit-content;
+    padding: 1px !important;
+    margin: 0;
+    border: 1px solid #b5bfc9;
+    border-radius: 4px;
+    background: #fff;
+}
+.components-base-control .components-base-control__field .rank-math-toggle-group-control.components-toggle-group-control .components-toggle-group-control-option-base>div {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'wpnovin' !important;
+}
+.rank-math-select-control.rank-math-select-control.rank-math-select-control .components-select-control__input {
+    min-height: 30px;
+    padding: 0 24px 0 8px;
+    border-color: #8c8f94;
+    border-radius: 3px;
+    color: #2c3338;
+    background-size: 16px 16px;
+    font-size: 14px;
+    line-height: 2;
+    vertical-align: middle;
+    font-family: 'wpnovin';
+}
+.rank-math-page .button-animated {
+    font-size: 24px;
+    line-height: 82px;
+    height: auto;
+    min-height: 30px;
+    padding: 0 40px;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    text-align: center;
+    border-radius: 82px;
+    font-family: wpnovin;
+}
+#rank-math-pro-cta.analytics {
+    width: 560px;
+    max-width: 100%;
+    margin: 2rem auto 0;
+    font-family: wpnovin;
+}
+#rank-math-pro-cta.rank-math-privacy-box .rank-math-cta-body p {
+    font-size: .9375rem;
+    margin: 0;
+    color: #5f8c80;
+    font-family: wpnovin;
+}
+#rank-math-pro-cta .rank-math-cta-box h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    color: #242628;
+    font-family: wpnovin;
+}
+.rank-math-tab-content-keyword-maps .rank-math-keyword-maps-header .header-content h2 {
+    margin: 0 0 8px;
+    font-size: 1.3em;
+    font-family: 'wpnovin';
+}
+.rank-math-page .button-primary, .rank-math-page .is-primary {
+    color: #fff;
+    border-color: #069de3;
+    background: #069de3;
+    text-shadow: none;
+    border-radius: 3px;
+    font-family: 'wpnovin';
+}
+.rank-math-bulk-update-step-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: #757575;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'wpnovin';
+    letter-spacing: .5px;
+    transition: color .3s ease;
+}
+.css-1x7wz5v.css-1x7wz5v.css-1x7wz5v {
+    font-size: 11px;
+    font-weight: 499;
+    line-height: 1.4;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: 'wpnovin';
+    max-width: 100%;
+    z-index: 1;
+}
+.rank-math-bulk-update-step-actions button {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    font-size: 13px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    font-family: 'wpnovin';
+}
+.rank-math-section-card-action {
+    position: absolute;
+    top: -60px;
+    left: 0 !important;
+	right: inherit !important;
+    z-index: 10;
+}
+.rank-math-table-toggle-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 0 24px 0 0;
+    gap: 16px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #e0e0e0;
+    min-height: 52px;
+    font-family: 'wpnovin';
+}
+.rank-math-background-progress__stat-label {
+    font-size: 16px;
+    line-height: 26px;
+    color: #666;
+    font-family: 'wpnovin';
+}
+.rank-math-table-header .rank-math-table-header-controls {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex: 1;
+    font-family: 'wpnovin';
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: flex-end;
+}
+.filter-count {
+    display: inline-block;
+    vertical-align: middle;
+    min-width: 4em;
+    font-family: 'wpnovin';
+    text-align: center;
+}
+.rank-math-link-status-filters button.components-button h4 {
+    font-size: 13px!important;
+    text-align: justify;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'wpnovin';
+    gap: 5px;
+    color: #5a5d70;
+}

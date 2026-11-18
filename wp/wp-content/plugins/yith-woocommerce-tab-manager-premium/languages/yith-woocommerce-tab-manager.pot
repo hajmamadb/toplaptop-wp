@@ -1,0 +1,1130 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: YITH WooCommerce Tab Manager Premium\n"
+"POT-Creation-Date: 2025-08-12 18:41+0330\n"
+"PO-Revision-Date: 2025-08-12 18:41+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: init.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin/class-yith-tab-manager-admin-premium.php:153
+#: includes/admin/meta-boxes/tab-metabox.php:17
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-admin-premium.php:155
+msgid "Set the general behavior of the plugin."
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-admin-premium.php:158
+msgid "Customization"
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-admin-premium.php:162
+msgid "Customization options for the tabs shown on your product pages."
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-admin-premium.php:183
+msgid ""
+"Help your customers to easily find the products they are looking for and "
+"improve the user experience of your shop."
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-admin-premium.php:195
+msgid ""
+"Add an intelligent search engine to your store so that your customers can "
+"quickly find the products they are looking for."
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-admin-premium.php:207
+msgid ""
+"Allow your customers to create lists of products they want and share them "
+"with family and friends."
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-admin-premium.php:219
+msgid "Sell gift cards to increase your store's revenue and win new customers."
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-admin-premium.php:231
+msgid ""
+"Add paid or free advanced options to your product pages using fields like "
+"radio buttons, checkboxes, drop-downs, custom text inputs, and more."
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-admin-premium.php:243
+msgid ""
+"The best-selling plugin for creating promotions and upsell strategies in "
+"your store: 3x2, 2x1, BOGO, free products in the cart, quantity discounts, "
+"last-minute offers, and more."
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-admin-premium.php:255
+msgid ""
+"Customize the My Account page of your customers by creating custom sections "
+"with promotions and ad-hoc content based on your needs."
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-admin-premium.php:267
+msgid ""
+"Hide prices and/or the \"Add to cart\" button and let your customers request "
+"a custom quote for every product."
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-admin-premium.php:290
+msgid "The #1 tool for creating custom tabs on your product pages "
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-admin-premium.php:294
+msgid "Read the plugin documentation"
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-admin-premium.php:295
+msgid "Learn what you can really do with this tool"
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-admin-premium.php:299
+msgid "Create the first custom tab for your products"
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-admin-premium.php:300
+msgid "and embark on this new adventure!"
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-admin-premium.php:425
+msgid "WooCommerce Tab"
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-admin.php:149
+#: includes/class-yith-tab-manager-post-type.php:83
+msgid "Tab Manager"
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-admin.php:153
+msgid "Create and manage custom tabs to display on your product pages."
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-admin.php:225
+msgid ""
+"A database update is in progress. To prevent customers from seeing incorrect "
+"tabs, it is currently not possible to show products tab on the site"
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-post-type-admin-premium.php:48
+#: includes/admin/class-yith-tab-manager-post-type-admin.php:107
+#: includes/admin/meta-boxes/tab-metabox.php:26
+msgid "Tab name"
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-post-type-admin-premium.php:49
+msgid "Show in"
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-post-type-admin-premium.php:50
+msgid "Hide in"
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-post-type-admin-premium.php:51
+msgid "Content type"
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-post-type-admin-premium.php:52
+#: includes/admin/class-yith-tab-manager-post-type-admin.php:82
+#: includes/admin/class-yith-tab-manager-post-type-admin.php:108
+msgid "Enable"
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-post-type-admin-premium.php:53
+#: includes/admin/class-yith-tab-manager-post-type-admin.php:109
+msgid "Actions"
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-post-type-admin-premium.php:75
+#: includes/admin/meta-boxes/tab-metabox.php:48
+#: includes/admin/meta-boxes/tab-metabox.php:252
+msgid "All products"
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-post-type-admin-premium.php:115
+msgid "Default WooCommerce content"
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-post-type-admin-premium.php:227
+#: includes/admin/class-yith-tab-manager-post-type-admin-premium.php:261
+#, php-format
+msgctxt "Clothing,Accessories,Music and 2 more"
+msgid "%1$s and %2$d more"
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-post-type-admin.php:83
+msgid "Disable"
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-post-type-admin.php:84
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-post-type-admin.php:133
+#, php-format
+msgid "%s is currently editing"
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-post-type-admin.php:151
+#, php-format
+msgid "&#8220;%s&#8221; (Edit)"
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-post-type-admin.php:222
+msgctxt "Post action"
+msgid "Delete Permanently"
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-post-type-admin.php:228
+msgid "Confirm delete"
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-post-type-admin.php:230
+#, php-format
+msgid "Are you sure you want to delete \"%s\"?"
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-post-type-admin.php:230
+msgid ""
+"This action cannot be undone and you will not be able to recover this data."
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-post-type-admin.php:231
+msgid "No"
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-post-type-admin.php:232
+msgctxt "Delete confirmation action"
+msgid "Yes, delete"
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-post-type-admin.php:268
+#: includes/admin/class-yith-tab-manager-post-type-admin.php:269
+msgid "Tab updated."
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-post-type-admin.php:270
+msgid "Tab saved."
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-post-type-admin.php:289
+#, php-format
+msgid "%s tab permanently deleted."
+msgid_plural "%s tabs permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-yith-tab-manager-post-type-admin.php:368
+#, php-format
+msgid "No tabs found for %s."
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-post-type-admin.php:372
+msgid "Go back to the tabs list."
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-post-type-admin.php:394
+msgid "Save"
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-post-type-admin.php:400
+msgid "Save tab"
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-post-type-admin.php:502
+msgid "No tab has been supplied to duplicate!"
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-post-type-admin.php:513
+#, php-format
+msgid "%s (Copy)"
+msgstr ""
+
+#: includes/admin/class-yith-tab-manager-post-type-admin.php:538
+msgid "Can't edit this tab."
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:10
+#: includes/admin/meta-boxes/tab-metabox.php:23
+msgid "Tab configuration"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:27
+msgid "Enter a name to identify this tab."
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:32
+msgid "Excerpt"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:33
+msgid ""
+"Set a description for this tab. This content is useful to search for the tab "
+"in the table."
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:43
+msgid "Shown in"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:49
+#: includes/admin/meta-boxes/tab-metabox.php:115
+msgid "Specific product categories"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:50
+#: includes/admin/meta-boxes/tab-metabox.php:116
+msgid "Specific products"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:52
+msgid "Set where to show this tab."
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:55
+msgid "Choose Product Category"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:56
+msgid "Choose the product categories in which you want to show the tab"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:61
+#: includes/admin/meta-boxes/tab-metabox.php:141
+msgid "Search for a category"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:75
+msgid "Choose Product"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:76
+msgid "Choose the Products in which you want to show the tab"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:82
+#: includes/admin/meta-boxes/tab-metabox.php:170
+msgid "Search for a product"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:95
+msgid "Exclude"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:98
+msgid ""
+"Enable this option to exclude products or categories so this tab is not "
+"shown there."
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:112
+msgid "Exclude in"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:136
+msgid "Select product categories to exclude"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:137
+msgid "Choose the product categories in which you don't want to show the tab."
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:164
+msgid "Select products"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:165
+msgid "Choose the products in which you don't want to show the tab."
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:192
+msgid "Icon Tab"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:197
+msgid "Theme Icon"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:198
+#: views/meta-boxes/types/icon-list.php:39
+msgid "Custom Icon"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:199
+#: views/meta-boxes/types/icon-list.php:40
+msgid "None"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:208
+msgid "Select an icon to show in the tab header."
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:216
+#: includes/admin/meta-boxes/tab-metabox.php:259
+#: views/product/default-product-tab.php:26
+msgid "Tab content"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:219
+msgid "Tab order"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:224
+msgid "Layout"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:229
+msgid "Set the content layout for this tab."
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:232
+msgid "Additional content"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:235
+#: includes/class-yith-tab-manager-assets-premium.php:150
+msgid "Set additional content to show above the video(s)."
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:249
+msgid "Set the tab content for"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:253
+msgid "Customized in each product"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:256
+msgid "If products, will find the tab in the product data metabox"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:260
+msgid "Set the content for this tab."
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:279
+#: views/product/video-product-tab.php:27
+msgid "Videos"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:297
+#: views/product/video-product-tab.php:46
+msgid "Videos per row"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:302
+msgid "Set how many videos to show in each row."
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:319
+#: views/product/gallery-product-tab.php:26
+msgid "Images"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:340
+#: views/product/gallery-product-tab.php:45
+msgid "Images per row"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:345
+msgid "Set how many images to show in each row."
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:362
+#: views/product/map-product-tab.php:29
+msgid "Address"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:365
+msgid ""
+"Set the address (example: \"1600 Amphitheatre Parkway, Mountain View, CA\")."
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:383
+#: views/product/map-product-tab.php:48
+msgid "Full-width map"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:386
+msgid ""
+"Enable this option to show the map in full width. Disable it to set a custom "
+"width."
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:403
+#: views/product/map-product-tab.php:64
+msgid "Width (px)"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:407
+msgid "Set the width of the map."
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:429
+#: views/product/map-product-tab.php:81
+msgid "Height (px)"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:433
+msgid "Set the height of the map."
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:451
+#: views/product/map-product-tab.php:98
+msgid "Map zoom"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:456
+msgid "Set the zoom (0-19)."
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:474
+#: includes/functions.yith-tab-manager-premium.php:47
+#: views/product/contact-product-tab.php:25
+msgid "Contact form"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:492
+#: views/product/faq-product-tab.php:25
+msgid "FAQs"
+msgstr ""
+
+#: includes/admin/meta-boxes/tab-metabox.php:510
+#: includes/functions.yith-tab-manager-premium.php:45
+#: templates/woocommerce/single-product/tabs/download.php:70
+#: views/product/download-product-tab.php:25
+msgid "Download"
+msgstr ""
+
+#: includes/class-yith-tab-manager-ajax.php:121
+msgid "An error occurred while submitting the form"
+msgstr ""
+
+#: includes/class-yith-tab-manager-assets-premium.php:144
+#: includes/class-yith-tab-manager-assets.php:79
+msgid "Are you sure?"
+msgstr ""
+
+#: includes/class-yith-tab-manager-assets-premium.php:145
+#: includes/class-yith-tab-manager-assets.php:80
+msgid ""
+"Do you want to go back to the plugin dashboard? The changes made may not be "
+"saved."
+msgstr ""
+
+#: includes/class-yith-tab-manager-assets-premium.php:146
+#: includes/class-yith-tab-manager-assets.php:81
+msgid "Yes, proceed without saving"
+msgstr ""
+
+#: includes/class-yith-tab-manager-assets-premium.php:151
+msgid "Set additional content to show above the image(s)."
+msgstr ""
+
+#: includes/class-yith-tab-manager-assets-premium.php:152
+msgid "Set additional content to show above the FAQs list."
+msgstr ""
+
+#: includes/class-yith-tab-manager-assets-premium.php:153
+msgid "Set additional content to show above the downloadable file(s)."
+msgstr ""
+
+#: includes/class-yith-tab-manager-assets-premium.php:154
+msgid "Set additional content to show above the map."
+msgstr ""
+
+#: includes/class-yith-tab-manager-assets-premium.php:155
+msgid "Set additional content to show above the form."
+msgstr ""
+
+#: includes/class-yith-tab-manager-assets-premium.php:159
+msgid "Select an image"
+msgstr ""
+
+#: includes/class-yith-tab-manager-assets-premium.php:160
+msgid "No image selected"
+msgstr ""
+
+#: includes/class-yith-tab-manager-assets-premium.php:173
+msgid "This field is required"
+msgstr ""
+
+#: includes/class-yith-tab-manager-install.php:150
+#: includes/functions.yith-tab-manager-premium.php:180
+msgid "Description"
+msgstr ""
+
+#: includes/class-yith-tab-manager-install.php:154
+#: includes/functions.yith-tab-manager-premium.php:184
+msgid "Additional Information"
+msgstr ""
+
+#: includes/class-yith-tab-manager-install.php:158
+msgid "Reviews"
+msgstr ""
+
+#: includes/class-yith-tab-manager-post-type.php:47
+msgid "ywtm_tab"
+msgstr ""
+
+#: includes/class-yith-tab-manager-post-type.php:81
+msgctxt "Post Type General Name"
+msgid "Tab Manager"
+msgstr ""
+
+#: includes/class-yith-tab-manager-post-type.php:82
+msgctxt "Post Type Singular Name"
+msgid "Tab"
+msgstr ""
+
+#: includes/class-yith-tab-manager-post-type.php:84
+msgid "Parent Item:"
+msgstr ""
+
+#: includes/class-yith-tab-manager-post-type.php:85
+msgid "All Tabs"
+msgstr ""
+
+#: includes/class-yith-tab-manager-post-type.php:86
+msgid "View Tabs"
+msgstr ""
+
+#: includes/class-yith-tab-manager-post-type.php:87
+#: includes/class-yith-tab-manager-post-type.php:88
+msgid "Add New Tab"
+msgstr ""
+
+#: includes/class-yith-tab-manager-post-type.php:89
+msgid "Edit Tab"
+msgstr ""
+
+#: includes/class-yith-tab-manager-post-type.php:90
+msgid "Update Tab"
+msgstr ""
+
+#: includes/class-yith-tab-manager-post-type.php:91
+msgid "Search Tab"
+msgstr ""
+
+#: includes/class-yith-tab-manager-post-type.php:92
+msgid "Not found"
+msgstr ""
+
+#: includes/class-yith-tab-manager-post-type.php:93
+msgid "Not found in Trash"
+msgstr ""
+
+#: includes/data-stores/class-yith-tab-manager-data-store.php:81
+msgctxt "Default title of a tab"
+msgid "Product tab"
+msgstr ""
+
+#: includes/data-stores/class-yith-tab-manager-data-store.php:108
+msgid "Invalid tab."
+msgstr ""
+
+#: includes/emails/class-yith-tab-manager-ask-info-email.php:72
+msgid "[YITH Tab Manager] Product info request"
+msgstr ""
+
+#: includes/emails/class-yith-tab-manager-ask-info-email.php:73
+msgid ""
+"This email is sent when a customer clicks \"Send\" on the Tab Manager "
+"contact form."
+msgstr ""
+
+#: includes/emails/class-yith-tab-manager-ask-info-email.php:74
+msgctxt "[Admin panel] Email heading/subject"
+msgid "You’ve got a message about the item \"{product_name}\"!"
+msgstr ""
+
+#: includes/emails/class-yith-tab-manager-ask-info-email.php:75
+msgctxt "[Admin panel] Email heading/subject"
+msgid "{site_title} You have a new information request"
+msgstr ""
+
+#: includes/emails/class-yith-tab-manager-ask-info-email.php:77
+msgctxt "[Admin panel] Email content"
+msgid ""
+"Hi administrator,\n"
+"You have just received an email about the following product:\n"
+msgstr ""
+
+#: includes/emails/class-yith-tab-manager-ask-info-email.php:147
+msgid "Email sent successfully"
+msgstr ""
+
+#: includes/emails/class-yith-tab-manager-ask-info-email.php:147
+msgid "An error occurred while sending your email"
+msgstr ""
+
+#: includes/emails/class-yith-tab-manager-ask-info-email.php:283
+msgctxt "[Admin panel] Email placeholder text"
+msgid "Available placeholders"
+msgstr ""
+
+#: includes/emails/class-yith-tab-manager-ask-info-email.php:288
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/emails/class-yith-tab-manager-ask-info-email.php:290
+msgid "Enable this email notification"
+msgstr ""
+
+#: includes/emails/class-yith-tab-manager-ask-info-email.php:294
+msgid "Recipient(s)"
+msgstr ""
+
+#: includes/emails/class-yith-tab-manager-ask-info-email.php:297
+#, php-format
+msgid ""
+"Enter recipients (separated by commas) for this email. Defaults to <code>%s</"
+"code>"
+msgstr ""
+
+#: includes/emails/class-yith-tab-manager-ask-info-email.php:302
+#: includes/functions.yith-tab-manager-update.php:28
+#: views/meta-boxes/types/contact-form.php:106
+#: views/meta-boxes/types/contact-form.php:110
+msgid "Subject"
+msgstr ""
+
+#: includes/emails/class-yith-tab-manager-ask-info-email.php:304
+msgid ""
+"Set the email subject to use if the customer does not enter a subject in the "
+"contact form."
+msgstr ""
+
+#: includes/emails/class-yith-tab-manager-ask-info-email.php:309
+msgid "Email Heading"
+msgstr ""
+
+#: includes/emails/class-yith-tab-manager-ask-info-email.php:312
+#, php-format
+msgid ""
+"This field lets you change the main heading in email notification. Leave it "
+"blank to use default heading type: <code>%s</code>."
+msgstr ""
+
+#: includes/emails/class-yith-tab-manager-ask-info-email.php:317
+msgid "Send CC copy"
+msgstr ""
+
+#: includes/emails/class-yith-tab-manager-ask-info-email.php:319
+msgid "Send a carbon copy to the user"
+msgstr ""
+
+#: includes/emails/class-yith-tab-manager-ask-info-email.php:323
+msgid "Email Description"
+msgstr ""
+
+#: includes/functions.yith-tab-manager-premium.php:41
+msgid "Default"
+msgstr ""
+
+#: includes/functions.yith-tab-manager-premium.php:42
+msgid "Video Gallery"
+msgstr ""
+
+#: includes/functions.yith-tab-manager-premium.php:43
+msgid "Image Gallery"
+msgstr ""
+
+#: includes/functions.yith-tab-manager-premium.php:44
+msgid "FAQ"
+msgstr ""
+
+#: includes/functions.yith-tab-manager-premium.php:46
+msgid "Map"
+msgstr ""
+
+#: includes/functions.yith-tab-manager-premium.php:188
+#, php-format
+msgid "Reviews (%d)"
+msgstr ""
+
+#: includes/functions.yith-tab-manager-update.php:25
+#: views/meta-boxes/types/contact-form.php:20
+#: views/meta-boxes/types/contact-form.php:24
+msgid "Name"
+msgstr ""
+
+#: includes/functions.yith-tab-manager-update.php:26
+#: views/meta-boxes/types/contact-form.php:47
+#: views/meta-boxes/types/contact-form.php:50
+msgid "Email"
+msgstr ""
+
+#: includes/functions.yith-tab-manager-update.php:27
+#: views/meta-boxes/types/contact-form.php:79
+#: views/meta-boxes/types/contact-form.php:83
+msgid "Website"
+msgstr ""
+
+#: includes/functions.yith-tab-manager-update.php:29
+#: views/meta-boxes/types/contact-form.php:133
+#: views/meta-boxes/types/contact-form.php:136
+msgid "Message"
+msgstr ""
+
+#: init.php:148
+msgid ""
+"YITH WooCommerce Tab Manager is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+
+#: plugin-options/customization-options.php:15
+msgid "FAQ tab"
+msgstr ""
+
+#: plugin-options/customization-options.php:20
+msgid "Icon position"
+msgstr ""
+
+#: plugin-options/customization-options.php:25
+msgid "Left"
+msgstr ""
+
+#: plugin-options/customization-options.php:26
+msgid "Right"
+msgstr ""
+
+#: plugin-options/customization-options.php:32
+#: plugin-options/customization-options.php:107
+#: plugin-options/customization-options.php:161
+msgid "Colors - Default state"
+msgstr ""
+
+#: plugin-options/customization-options.php:39
+#: plugin-options/customization-options.php:67
+#: plugin-options/customization-options.php:114
+#: plugin-options/customization-options.php:141
+#: plugin-options/customization-options.php:168
+#: plugin-options/customization-options.php:208
+msgid "Background"
+msgstr ""
+
+#: plugin-options/customization-options.php:44
+#: plugin-options/customization-options.php:72
+msgid "Text"
+msgstr ""
+
+#: plugin-options/customization-options.php:51
+#: plugin-options/customization-options.php:79
+#: plugin-options/customization-options.php:119
+#: plugin-options/customization-options.php:146
+msgid "Borders"
+msgstr ""
+
+#: plugin-options/customization-options.php:60
+#: plugin-options/customization-options.php:134
+msgid "Colors - Active state"
+msgstr ""
+
+#: plugin-options/customization-options.php:84
+msgid "Answer Text"
+msgstr ""
+
+#: plugin-options/customization-options.php:94
+msgid "Contact tab"
+msgstr ""
+
+#: plugin-options/customization-options.php:101
+msgid "Send emails to:"
+msgstr ""
+
+#: plugin-options/customization-options.php:103
+msgid ""
+"Set the email address to receive the messages sent from the contact form."
+msgstr ""
+
+#: plugin-options/customization-options.php:126
+msgid "Contact form background"
+msgstr ""
+
+#: plugin-options/customization-options.php:157
+msgid "Download tab"
+msgstr ""
+
+#: plugin-options/customization-options.php:173
+#: plugin-options/customization-options.php:213
+msgid "Border"
+msgstr ""
+
+#: plugin-options/customization-options.php:180
+#: plugin-options/customization-options.php:220
+msgid "Button Background"
+msgstr ""
+
+#: plugin-options/customization-options.php:185
+#: plugin-options/customization-options.php:225
+msgid "Button Border"
+msgstr ""
+
+#: plugin-options/customization-options.php:192
+#: plugin-options/customization-options.php:232
+msgid "Button text"
+msgstr ""
+
+#: plugin-options/customization-options.php:201
+msgid "Colors - Hover state"
+msgstr ""
+
+#: plugin-options/customization-options.php:244
+msgid "Extra"
+msgstr ""
+
+#: plugin-options/customization-options.php:247
+msgid "Custom Style"
+msgstr ""
+
+#: plugin-options/customization-options.php:252
+msgid "Insert here your custom CSS"
+msgstr ""
+
+#: plugin-options/settings-options.php:12
+msgid "Insert a valid API KEY or"
+msgstr ""
+
+#: plugin-options/settings-options.php:12
+msgid "Get a Key"
+msgstr ""
+
+#: plugin-options/settings-options.php:18
+msgid "Tabs in mobile devices"
+msgstr ""
+
+#: plugin-options/settings-options.php:22
+msgid "Hide WooCommerce tabs"
+msgstr ""
+
+#: plugin-options/settings-options.php:26
+msgid "Enable to hide the WooCommerce tabs in mobile devices."
+msgstr ""
+
+#: plugin-options/settings-options.php:32
+msgid "Hide plugin's tabs"
+msgstr ""
+
+#: plugin-options/settings-options.php:34
+msgid "Enable to hide the tabs created with this plugin in mobile devices."
+msgstr ""
+
+#: plugin-options/settings-options.php:41
+msgid "Map tab"
+msgstr ""
+
+#: plugin-options/settings-options.php:44
+msgid "Google API KEY"
+msgstr ""
+
+#: templates/woocommerce/emails/ask-product-info.php:23
+msgid "Website:"
+msgstr ""
+
+#: templates/woocommerce/emails/ask-product-info.php:24
+msgid "Name:"
+msgstr ""
+
+#: templates/woocommerce/emails/ask-product-info.php:25
+msgid "Message:"
+msgstr ""
+
+#: templates/woocommerce/emails/ask-product-info.php:26
+msgid "Email:"
+msgstr ""
+
+#: templates/woocommerce/emails/ask-product-info.php:41
+msgid "Customer details"
+msgstr ""
+
+#: templates/woocommerce/single-product/tabs/form.php:62
+msgid "*required fields"
+msgstr ""
+
+#: templates/woocommerce/single-product/tabs/form.php:64
+msgid "Send"
+msgstr ""
+
+#: templates/woocommerce/single-product/tabs/map.php:36
+msgid "Show in Google Map"
+msgstr ""
+
+#: views/meta-boxes/types/contact-form.php:31
+#: views/meta-boxes/types/contact-form.php:58
+#: views/meta-boxes/types/contact-form.php:90
+#: views/meta-boxes/types/contact-form.php:117
+#: views/meta-boxes/types/contact-form.php:142
+msgid "Label"
+msgstr ""
+
+#: views/meta-boxes/types/contact-form.php:36
+#: views/meta-boxes/types/contact-form.php:63
+#: views/meta-boxes/types/contact-form.php:95
+#: views/meta-boxes/types/contact-form.php:122
+#: views/meta-boxes/types/contact-form.php:147
+msgid "Placeholder"
+msgstr ""
+
+#: views/meta-boxes/types/contact-form.php:41
+#: views/meta-boxes/types/contact-form.php:100
+#: views/meta-boxes/types/contact-form.php:127
+msgid "Required"
+msgstr ""
+
+#: views/meta-boxes/types/download.php:24
+#, php-format
+msgctxt "File #1"
+msgid "File #%s"
+msgstr ""
+
+#: views/meta-boxes/types/download.php:39
+#, php-format
+msgid "File #%1$s"
+msgstr ""
+
+#: views/meta-boxes/types/download.php:42
+#, php-format
+msgid "File #%1$s - %2$s"
+msgstr ""
+
+#: views/meta-boxes/types/download.php:67
+#: views/meta-boxes/types/download.php:121
+msgid "File name"
+msgstr ""
+
+#: views/meta-boxes/types/download.php:72
+#: views/meta-boxes/types/download.php:126
+msgid "File description"
+msgstr ""
+
+#: views/meta-boxes/types/download.php:97
+msgid "Add file"
+msgstr ""
+
+#: views/meta-boxes/types/faq.php:44 views/meta-boxes/types/faq.php:90
+msgid "Question"
+msgstr ""
+
+#: views/meta-boxes/types/faq.php:49 views/meta-boxes/types/faq.php:95
+msgid "Answer"
+msgstr ""
+
+#: views/meta-boxes/types/faq.php:69
+msgid "Add FAQ"
+msgstr ""
+
+#: views/meta-boxes/types/icon-list.php:38
+msgid "Icon"
+msgstr ""
+
+#: views/meta-boxes/types/media-gallery.php:28
+#, php-format
+msgid "Drag or %s"
+msgstr ""
+
+#: views/meta-boxes/types/media-gallery.php:29
+msgid "upload images"
+msgstr ""
+
+#: views/meta-boxes/types/modal-editor.php:49
+msgid "Set content"
+msgstr ""
+
+#: views/meta-boxes/types/video.php:39 views/meta-boxes/types/video.php:124
+msgid "Video name"
+msgstr ""
+
+#: views/meta-boxes/types/video.php:54 views/meta-boxes/types/video.php:139
+msgid "Hosting service"
+msgstr ""
+
+#: views/meta-boxes/types/video.php:61 views/meta-boxes/types/video.php:146
+msgid "YouTube"
+msgstr ""
+
+#: views/meta-boxes/types/video.php:62 views/meta-boxes/types/video.php:147
+msgid "Vimeo"
+msgstr ""
+
+#: views/meta-boxes/types/video.php:75 views/meta-boxes/types/video.php:160
+msgid "Video ID"
+msgstr ""
+
+#: views/meta-boxes/types/video.php:90 views/meta-boxes/types/video.php:175
+msgid "Video URL"
+msgstr ""
+
+#: views/meta-boxes/types/video.php:118
+msgid "Add video"
+msgstr ""
+
+#: views/product/woocommerce-tabs.php:30
+msgid "Default WooCommerce Tabs"
+msgstr ""
+
+#: views/product/woocommerce-tabs.php:31
+msgid "Hide or customize the default WooCommerce tabs for this product."
+msgstr ""
+
+#: views/product/woocommerce-tabs.php:59
+msgid "Override"
+msgstr ""
+
+#: views/product/woocommerce-tabs.php:74
+msgid "Hide"
+msgstr ""
+
+#: views/product/woocommerce-tabs.php:93
+msgid "Title"
+msgstr ""
+
+#: views/product/woocommerce-tabs.php:108
+msgid "Content"
+msgstr ""
+
+#: views/product/woocommerce-tabs.php:122
+msgid "Leave empty to show the default content."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "YITH WooCommerce Tab Manager Premium"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://yithemes.com/themes/plugins/yith-woocommerce-tab-manager/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"<strong><code>YITH WooCommerce Tab Manager Premium</code></strong>allows you "
+"to add Tabs to products. You can create a global tab or by product or "
+"product categories! You can choose from different tab types like editor, "
+"faq, contact form, etc. <a href =\"https://yithemes.com\">Get more plugins "
+"for your e-commerce shop on <strong>YITH</strong></a>"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "YITH"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://yithemes.com/"
+msgstr ""

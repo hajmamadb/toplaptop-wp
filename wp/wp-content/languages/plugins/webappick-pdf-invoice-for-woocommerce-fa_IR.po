@@ -1,0 +1,2161 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Challan Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-16 13:39+0330\n"
+"PO-Revision-Date: 2025-08-16 13:43+0330\n"
+"Last-Translator: \n"
+"Language-Team: فارسی\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: woo-invoice-pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Loco-Version: 2.4.0; wp-6.8.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-woo-invoice-pro-admin.php:237
+#: includes/notices/admin-notice-for-review.php:37
+msgid "Challan"
+msgstr "فاکتور ووکامرس ( نوین وردپرس )"
+
+#: admin/class-woo-invoice-pro-admin.php:238
+#: admin/partials/woo-invoice-pro-admin-display.php:160
+#: includes/class-woo-invoice-pro-hooks.php:2329
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: admin/class-woo-invoice-pro-admin.php:239
+msgid "Docs"
+msgstr "اسناد"
+
+#: admin/partials/template/bulk-download-tab.php:10
+msgid "Bulk Download"
+msgstr "دانلود یکجا"
+
+#: admin/partials/template/bulk-download-tab.php:16
+msgid "Bulk Type"
+msgstr "نوع فایل"
+
+#: admin/partials/template/bulk-download-tab.php:19
+#: admin/partials/woo-invoice-pro-admin-display.php:168
+msgid "Invoice"
+msgstr "فاکتور"
+
+#: admin/partials/template/bulk-download-tab.php:20
+#: admin/partials/template/settings-tab.php:594
+#: admin/partials/woo-invoice-pro-admin-display.php:176
+#: includes/class-woo-invoice-pro-hooks.php:727
+#: includes/class-woo-invoice-pro-hooks.php:1184
+msgid "Packing Slip"
+msgstr "برگه بسته بندی"
+
+#: admin/partials/template/bulk-download-tab.php:21
+#: includes/class-woo-invoice-pro-hooks.php:802
+#: includes/class-woo-invoice-pro-hooks.php:1198
+msgid "Credit Note"
+msgstr "یادداشت اعتباری"
+
+#: admin/partials/template/bulk-download-tab.php:22
+msgid "CSV File"
+msgstr "فایل CSV"
+
+#: admin/partials/template/bulk-download-tab.php:28
+#: admin/partials/template/bulk-download-tab.php:32
+#: admin/partials/template/shipping-label-tab.php:33
+msgid "Date From"
+msgstr "تاریخ از"
+
+#: admin/partials/template/bulk-download-tab.php:38
+#: admin/partials/template/bulk-download-tab.php:43
+#: admin/partials/template/shipping-label-tab.php:42
+msgid "Date To"
+msgstr "تاریخ به"
+
+#: admin/partials/template/bulk-download-tab.php:48
+msgid "Order Status"
+msgstr "وضعیت سفارش"
+
+#: admin/partials/template/bulk-download-tab.php:52
+#: admin/partials/template/bulk-download-tab.php:285
+msgid "All"
+msgstr "همه"
+
+#: admin/partials/template/bulk-download-tab.php:118
+msgid "Add Fields"
+msgstr "افزودن زمینه"
+
+#: admin/partials/template/bulk-download-tab.php:267
+msgid "Order Email"
+msgstr "سفارش ایمیل"
+
+#: admin/partials/template/bulk-download-tab.php:274
+msgid "Order User ID"
+msgstr "سفارش شناسه کاربری"
+
+#: admin/partials/template/bulk-download-tab.php:281
+msgid "Order Payment Method"
+msgstr "روش پرداخت سفارش"
+
+#: admin/partials/template/bulk-download-tab.php:304
+msgid "Download As"
+msgstr "دانلود به عنوان"
+
+#: admin/partials/template/bulk-download-tab.php:308
+msgid "Individual"
+msgstr "شخصی"
+
+#: admin/partials/template/bulk-download-tab.php:309
+msgid "Together"
+msgstr "با یکدیگر"
+
+#: admin/partials/template/bulk-download-tab.php:315
+msgid "Enable Compress"
+msgstr "فشرده سازی را فعال کنید"
+
+#: admin/partials/template/bulk-download-tab.php:333
+msgid "Send To"
+msgstr "فرستادن به"
+
+#: admin/partials/template/bulk-download-tab.php:341
+#: admin/partials/template/shipping-label-tab.php:258
+msgid "Download"
+msgstr "دانلود"
+
+#: admin/partials/template/fonts-tab.php:7
+msgid "Upload Fonts For PDF"
+msgstr "آپلود فونت برای پی دی اف"
+
+#: admin/partials/template/fonts-tab.php:16
+msgid "Upload Font"
+msgstr "آپلود فونت"
+
+#: admin/partials/template/fonts-tab.php:31
+msgid "Upload"
+msgstr "بارگذاری"
+
+#: admin/partials/template/fonts-tab.php:34
+msgid "Uploading"
+msgstr "در حال آپلود"
+
+#: admin/partials/template/invoice-tab.php:14
+#: admin/partials/template/invoice-tab.php:18
+#: admin/partials/template/localization-tab.php:10
+#: admin/partials/template/settings-tab.php:580
+msgid "Invoice Template"
+msgstr "الگوی فاکتور"
+
+#: admin/partials/template/invoice-tab.php:21
+msgid "Select Template"
+msgstr "الگو را انتخاب کنید"
+
+#: admin/partials/template/invoice-tab.php:196
+#: admin/partials/template/packing-slip-tab.php:108
+#: admin/partials/template/shipping-label-tab.php:62
+msgid "Paper Size"
+msgstr "اندازه کاغذ"
+
+#: admin/partials/template/invoice-tab.php:214
+#: admin/partials/template/packing-slip-tab.php:126
+#: admin/partials/template/shipping-label-tab.php:79
+msgid "Custom Paper Size"
+msgstr "اندازه کاغذ سفارشی"
+
+#: admin/partials/template/invoice-tab.php:238
+msgid "Invoice Title"
+msgstr "الگوی فاکتور"
+
+#: admin/partials/template/invoice-tab.php:244
+msgid "Enable Invoice Title"
+msgstr "فعال سازی فاکتور"
+
+#: admin/partials/template/invoice-tab.php:260
+msgid "Custom Invoice Title"
+msgstr "فاکتور مشتری"
+
+#: admin/partials/template/invoice-tab.php:275
+msgid "Paid Stamp"
+msgstr "مهر پرداخت شده"
+
+#: admin/partials/template/invoice-tab.php:281
+msgid "Enable Paid Stamp"
+msgstr "فعال کردن مهر پرداخت شده"
+
+#: admin/partials/template/invoice-tab.php:299
+msgid "Select Paid Stamp"
+msgstr "مهر پرداخت شده را انتخاب کنید"
+
+#: admin/partials/template/invoice-tab.php:362
+msgid "Custom Stamp"
+msgstr "مهر سفارشی"
+
+#: admin/partials/template/invoice-tab.php:385
+msgid "Upload Stamp"
+msgstr "بارگذاری مهر"
+
+#: admin/partials/template/invoice-tab.php:395
+msgid "Signature"
+msgstr "امضا"
+
+#: admin/partials/template/invoice-tab.php:401
+msgid "Enable Signature"
+msgstr "فعال سازی امضا"
+
+#: admin/partials/template/invoice-tab.php:418
+#: admin/partials/template/invoice-tab.php:442
+msgid "Upload Signature"
+msgstr "آپلود امضا"
+
+#: admin/partials/template/invoice-tab.php:451
+msgid "Invoice Background Image"
+msgstr "تصویر پس زمینه فاکتور"
+
+#: admin/partials/template/invoice-tab.php:457
+msgid "Enable Invoice Background"
+msgstr "پس زمینه فاکتور را فعال کنید"
+
+#: admin/partials/template/invoice-tab.php:473
+msgid "Upload Invoice Background"
+msgstr "بارگذاری پس‌زمینه فاکتور"
+
+#: admin/partials/template/invoice-tab.php:495
+msgid "Upload Background Image"
+msgstr "آپلود تصویر پس زمینه"
+
+#: admin/partials/template/invoice-tab.php:504
+#: admin/partials/template/packing-slip-tab.php:56
+msgid "Background Image Opacity"
+msgstr "شفافیت پس زمینه"
+
+#: admin/partials/template/invoice-tab.php:513
+#: admin/partials/template/packing-slip-tab.php:438
+msgid "Order Info"
+msgstr "اطلاعات سفارش"
+
+#: admin/partials/template/invoice-tab.php:528
+msgid "Display Order Number"
+msgstr "نمایش شماره سفارش"
+
+#: admin/partials/template/invoice-tab.php:546
+#: admin/partials/template/invoice-tab.php:840
+#: admin/partials/template/settings-tab.php:712
+msgid "Numbering Type"
+msgstr "نوع شماره گذاری"
+
+#: admin/partials/template/invoice-tab.php:550
+#: admin/partials/template/invoice-tab.php:846
+#: admin/partials/template/settings-tab.php:718
+msgid "Order Number"
+msgstr "شماره سفارش"
+
+#: admin/partials/template/invoice-tab.php:551
+msgid "Order ID"
+msgstr "شماره سفارش"
+
+#: admin/partials/template/invoice-tab.php:556
+msgid "Custom Order Numbers for WooCommerce"
+msgstr "شماره سفارش سفارشی برای ووکامرس"
+
+#: admin/partials/template/invoice-tab.php:563
+msgid "Sequential Order Number for WooCommerce"
+msgstr "شماره سفارش متوالی برای ووکامرس"
+
+#: admin/partials/template/invoice-tab.php:570
+msgid "WooCommerce Sequential Order Numbers"
+msgstr "شماره های سفارش متوالی ووکامرس"
+
+#: admin/partials/template/invoice-tab.php:577
+msgid "Woo Custom and Sequential Order Number"
+msgstr "شماره سفارش سفارشی و ترتیبی ووکامرس"
+
+#: admin/partials/template/invoice-tab.php:584
+msgid "Sequential Order Numbers for WooCommerce"
+msgstr "شماره های سفارش متوالی برای ووکامرس"
+
+#: admin/partials/template/invoice-tab.php:591
+msgid "WooCommerce Basic Ordernumbers"
+msgstr "شماره سفارش های پایه ووکامرس"
+
+#: admin/partials/template/invoice-tab.php:606
+msgid "Order No. Prefix"
+msgstr "شماره سفارش پیش شماره"
+
+#: admin/partials/template/invoice-tab.php:618
+msgid "Order No. Suffix"
+msgstr "شماره سفارش. پسوند"
+
+#: admin/partials/template/invoice-tab.php:632
+msgid "Display Shipping Total"
+msgstr "نمایش مجموع حمل و نقل"
+
+#: admin/partials/template/invoice-tab.php:636
+msgid "With Tax"
+msgstr "با مالیات"
+
+#: admin/partials/template/invoice-tab.php:637
+msgid "Without Tax"
+msgstr "بدون مالیات"
+
+#: admin/partials/template/invoice-tab.php:646
+#: admin/partials/template/packing-slip-tab.php:443
+msgid "Display Order Note"
+msgstr "نمایش یادداشت سفارش"
+
+#: admin/partials/template/invoice-tab.php:668
+msgid "Display Order Status"
+msgstr "نمایش وضعیت سفارش"
+
+#: admin/partials/template/invoice-tab.php:689
+#: admin/partials/template/invoice-tab.php:694
+#: admin/partials/template/packing-slip-tab.php:482
+#: admin/partials/template/packing-slip-tab.php:487
+#: admin/partials/template/shipping-label-tab.php:180
+msgid "Add Order Meta"
+msgstr "سفارش متا را اضافه کنید"
+
+#: admin/partials/template/invoice-tab.php:720
+#: admin/partials/template/invoice-tab.php:770
+#: admin/partials/template/packing-slip-tab.php:512
+#: admin/partials/template/packing-slip-tab.php:559
+#: admin/partials/template/shipping-label-tab.php:204
+#: admin/partials/template/shipping-label-tab.php:232
+msgid "Select Order Meta"
+msgstr "Order Meta را انتخاب کنید"
+
+#: admin/partials/template/invoice-tab.php:736
+#: admin/partials/template/invoice-tab.php:786
+#: admin/partials/template/packing-slip-tab.php:527
+#: admin/partials/template/packing-slip-tab.php:574
+msgid "Whare to show ?"
+msgstr "کجا را نشان دهیم؟"
+
+#: admin/partials/template/invoice-tab.php:815
+#: admin/partials/template/settings-tab.php:719
+msgid "Invoice Number"
+msgstr "شماره فاکتور"
+
+#: admin/partials/template/invoice-tab.php:821
+msgid "Display Invoice Number"
+msgstr "نمایش شماره فاکتور"
+
+#: admin/partials/template/invoice-tab.php:844
+#: admin/partials/template/settings-tab.php:716
+msgid "Prefix + Custom Sequence + Suffix"
+msgstr "پیشوند + دنباله سفارشی + پسوند"
+
+#: admin/partials/template/invoice-tab.php:845
+#: admin/partials/template/settings-tab.php:717
+msgid "Prefix + Order Number + Suffix"
+msgstr "پیشوند + شماره سفارش + پسوند"
+
+#: admin/partials/template/invoice-tab.php:870
+msgid "Next Invoice No."
+msgstr "شماره فاکتور بعدی"
+
+#: admin/partials/template/invoice-tab.php:894
+msgid "Invoice No. Prefix"
+msgstr "پیش شماره فاکتور"
+
+#: admin/partials/template/invoice-tab.php:922
+msgid "Invoice No. Suffix"
+msgstr "پسوند شماره فاکتور"
+
+#: admin/partials/template/invoice-tab.php:931
+#: admin/partials/template/invoice-tab.php:948
+msgid "Invoice Date"
+msgstr "الگوی فاکتور"
+
+#: admin/partials/template/invoice-tab.php:936
+msgid "Display Invoice Date"
+msgstr "نمایش شماره فاکتور"
+
+#: admin/partials/template/invoice-tab.php:946
+msgid "Date"
+msgstr "تاریخ به"
+
+#: admin/partials/template/invoice-tab.php:949
+msgid "Order Date"
+msgstr "شماره سفارش"
+
+#: admin/partials/template/invoice-tab.php:954
+msgid "Date & Currency"
+msgstr "تاریخ و واحد پرداخت شده"
+
+#: admin/partials/template/invoice-tab.php:959
+msgid "Date Format"
+msgstr "فرمت تاریخ"
+
+#: admin/partials/template/invoice-tab.php:996
+msgid "Display Currency Code"
+msgstr "نمایش کد ارز"
+
+#: admin/partials/template/invoice-tab.php:1018
+msgid "Display Payment Method"
+msgstr "نمایش روش پرداخت"
+
+#: admin/partials/template/invoice-tab.php:1039
+#: admin/partials/template/packing-slip-tab.php:65
+msgid "Product Info"
+msgstr "اطلاعات محصول"
+
+#: admin/partials/template/invoice-tab.php:1044
+#: admin/partials/template/packing-slip-tab.php:70
+msgid "Product Per Page"
+msgstr "محصول در هر صفحه"
+
+#: admin/partials/template/invoice-tab.php:1055
+#: admin/partials/template/packing-slip-tab.php:80
+msgid "Display ID/SKU"
+msgstr "نمایش ID/SKU"
+
+#: admin/partials/template/invoice-tab.php:1059
+#: admin/partials/template/invoice-tab.php:1193
+#: admin/partials/template/packing-slip-tab.php:84
+#: admin/partials/template/packing-slip-tab.php:253
+msgid "None"
+msgstr "هیچ یک"
+
+#: admin/partials/template/invoice-tab.php:1060
+#: admin/partials/template/packing-slip-tab.php:85
+msgid "SKU"
+msgstr "شناسه"
+
+#: admin/partials/template/invoice-tab.php:1061
+#: admin/partials/template/packing-slip-tab.php:86
+msgid "ID"
+msgstr "شناسه"
+
+#: admin/partials/template/invoice-tab.php:1075
+msgid "Display Parent SKU"
+msgstr "نمایش روش پرداخت"
+
+#: admin/partials/template/invoice-tab.php:1078
+msgid "To display the Parent SKU for product variations."
+msgstr "برای نمایش SKU والد برای انواع محصولات."
+
+#: admin/partials/template/invoice-tab.php:1095
+#: admin/partials/template/packing-slip-tab.php:91
+msgid "Keep Empty for no limit."
+msgstr "خالی نگه دارید بدون محدودیت."
+
+#: admin/partials/template/invoice-tab.php:1098
+#: admin/partials/template/packing-slip-tab.php:94
+msgid "Product Title Length"
+msgstr "طول عنوان محصول"
+
+#: admin/partials/template/invoice-tab.php:1109
+msgid "Display Serial Number"
+msgstr "نمایش شماره سفارش"
+
+#: admin/partials/template/invoice-tab.php:1142
+#: admin/partials/template/packing-slip-tab.php:160
+msgid "Display Product Image"
+msgstr "نمایش تصویر محصول"
+
+#: admin/partials/template/invoice-tab.php:1166
+#: admin/partials/template/packing-slip-tab.php:179
+msgid "Display Product Category"
+msgstr "نمایش دسته محصول"
+
+#: admin/partials/template/invoice-tab.php:1188
+#: admin/partials/template/packing-slip-tab.php:249
+msgid "Display Description"
+msgstr "توضیحات نمایش"
+
+#: admin/partials/template/invoice-tab.php:1194
+#: admin/partials/template/packing-slip-tab.php:254
+msgid "Short Description"
+msgstr "توضیح کوتاه"
+
+#: admin/partials/template/invoice-tab.php:1195
+#: admin/partials/template/packing-slip-tab.php:255
+msgid "Long Description"
+msgstr "توضیحات طولانی"
+
+#: admin/partials/template/invoice-tab.php:1201
+msgid "Description Limit"
+msgstr "محدودیت توضیحات"
+
+#: admin/partials/template/invoice-tab.php:1212
+msgid "Display Sale Price"
+msgstr "نمایش قیمت فروش"
+
+#: admin/partials/template/invoice-tab.php:1235
+msgid "Display Attributes"
+msgstr "نمایش ویژگی ها"
+
+#: admin/partials/template/invoice-tab.php:1264
+#: admin/partials/template/packing-slip-tab.php:197
+msgid "Select Product Column"
+msgstr "ستون محصول را انتخاب کنید"
+
+#: admin/partials/template/invoice-tab.php:1315
+#: admin/partials/template/packing-slip-tab.php:604
+msgid "Display Product Dimension"
+msgstr "نمایش ابعاد محصول"
+
+#: admin/partials/template/invoice-tab.php:1337
+#: admin/partials/template/invoice-tab.php:1341
+#: admin/partials/template/packing-slip-tab.php:274
+#: admin/partials/template/packing-slip-tab.php:278
+msgid "Add Product Meta"
+msgstr "افزودن متا محصول"
+
+#: admin/partials/template/invoice-tab.php:1365
+#: admin/partials/template/invoice-tab.php:1393
+#: admin/partials/template/packing-slip-tab.php:301
+#: admin/partials/template/packing-slip-tab.php:329
+msgid "Select Post Meta"
+msgstr "Post Meta را انتخاب کنید"
+
+#: admin/partials/template/invoice-tab.php:1421
+#: admin/partials/template/invoice-tab.php:1425
+#: admin/partials/template/packing-slip-tab.php:356
+#: admin/partials/template/packing-slip-tab.php:360
+msgid "Add Order Item Meta"
+msgstr "افزودن متا مورد سفارش"
+
+#: admin/partials/template/invoice-tab.php:1448
+#: admin/partials/template/invoice-tab.php:1477
+#: admin/partials/template/packing-slip-tab.php:383
+#: admin/partials/template/packing-slip-tab.php:411
+msgid "Select Order Item Meta"
+msgstr "Order Item Meta را انتخاب کنید"
+
+#: admin/partials/template/invoice-tab.php:1501
+msgid "Proforma Invoice"
+msgstr "پیش فاکتور"
+
+#: admin/partials/template/invoice-tab.php:1507
+msgid "Enable Proforma Invoicing"
+msgstr "Proforma Invoicing را فعال کنید"
+
+#: admin/partials/template/invoice-tab.php:1528
+msgid "Tax & Fees"
+msgstr "مالیات و ارزش افزوده"
+
+#: admin/partials/template/invoice-tab.php:1533
+msgid "Total Column Inc. TAX"
+msgstr "کل ستون شرکت مالیات"
+
+#: admin/partials/template/invoice-tab.php:1599
+msgid "Fees"
+msgstr "هزینه ها"
+
+#: admin/partials/template/invoice-tab.php:1621
+msgid "Display Total Without Tax"
+msgstr "نمایش مجموع بدون مالیات"
+
+#: admin/partials/template/invoice-tab.php:1624
+msgid "Display total amount without tax into invoice summery section."
+msgstr "نمایش مبلغ کل بدون مالیات در بخش اصلی فاکتور."
+
+#: admin/partials/template/invoice-tab.php:1642
+msgid "VAT ID & SSN"
+msgstr "شناسه مالیات"
+
+#: admin/partials/template/invoice-tab.php:1647
+msgid "Enable VAT ID"
+msgstr "فعال سازی شناسه مالیات"
+
+#: admin/partials/template/invoice-tab.php:1650
+msgid "Enable this option to add the VAT ID input field into checkout page."
+msgstr ""
+"برای افزودن فیلد ورودی شناسه مالیات بر ارزش افزوده به صفحه پرداخت، این گزینه "
+"را فعال کنید."
+
+#: admin/partials/template/invoice-tab.php:1669
+msgid "Enable SSN"
+msgstr "SSN را فعال کنید"
+
+#: admin/partials/template/invoice-tab.php:1672
+msgid "Enable this option to add the SSN input field into checkout page"
+msgstr "برای افزودن فیلد ورودی SSN به صفحه پرداخت، این گزینه را فعال کنید"
+
+#: admin/partials/template/invoice-tab.php:1692
+msgid "Show Total Without Discount"
+msgstr "نمایش مجموع بدون تخفیف"
+
+#: admin/partials/template/invoice-tab.php:1714
+msgid "Enable GSTIN"
+msgstr "SSN را فعال کنید"
+
+#: admin/partials/template/invoice-tab.php:1717
+msgid "Enable this option to add the GSTIN input field into the checkout page."
+msgstr "برای افزودن فیلد ورودی SSN به صفحه پرداخت، این گزینه را فعال کنید"
+
+#: admin/partials/template/invoice-tab.php:1735
+msgid "Bank Accounts"
+msgstr "حساب های بانکی"
+
+#: admin/partials/template/invoice-tab.php:1740
+msgid "Show Bank Accounts"
+msgstr "نمایش حساب های بانکی"
+
+#: admin/partials/template/invoice-tab.php:1764
+#: admin/partials/template/localization-tab.php:197
+#: admin/partials/template/localization-tab.php:299
+#: admin/partials/template/packing-slip-tab.php:697
+#: admin/partials/template/seller-and-buyer-tab.php:165
+#: admin/partials/template/seller-and-buyer-tab.php:324
+#: admin/partials/template/settings-tab.php:980
+#: admin/partials/template/static-files-tab.php:56
+msgid "Save Changes"
+msgstr "ذخیره تغییرات"
+
+#: admin/partials/template/invoice-tab.php:1779
+msgid "SELECTED TEMPLATE"
+msgstr "الگوی انتخاب شده"
+
+#: admin/partials/template/invoice-tab.php:1802
+#: admin/partials/template/invoice-tab.php:1812
+msgid "PREVIEW"
+msgstr "پیشنمایش"
+
+#: admin/partials/template/localization-tab.php:212
+msgid "Packing Slip Template"
+msgstr "قالب بسته بندی"
+
+#: admin/partials/template/packing-slip-tab.php:17
+msgid "Packingslip Background"
+msgstr "پس زمینه برگه بسته بندی"
+
+#: admin/partials/template/packing-slip-tab.php:23
+msgid "Enable Background Image"
+msgstr "تصویر پس زمینه را فعال کنید"
+
+#: admin/partials/template/packing-slip-tab.php:40
+msgid "Upload Background"
+msgstr "آپلود پس زمینه"
+
+#: admin/partials/template/packing-slip-tab.php:223
+msgid "Display Vendor"
+msgstr "فروشنده نمایشگر"
+
+#: admin/partials/template/packing-slip-tab.php:261
+msgid "Description Limit Words"
+msgstr "توضیحات محدود کردن کلمات"
+
+#: admin/partials/template/packing-slip-tab.php:462
+msgid "Display Refund Address"
+msgstr "نمایش آدرس بازپرداخت"
+
+#: admin/partials/template/packing-slip-tab.php:598
+#: includes/class-woo-invoice-pro-template.php:1414
+msgid "Weight"
+msgstr "وزن"
+
+#: admin/partials/template/packing-slip-tab.php:623
+msgid "Display Product Width"
+msgstr "نمایش عرض محصول"
+
+#: admin/partials/template/packing-slip-tab.php:642
+msgid "Display Product Height"
+msgstr "نمایش ارتفاع محصول"
+
+#: admin/partials/template/packing-slip-tab.php:660
+msgid "Display Product Weight"
+msgstr "نمایش وزن محصول"
+
+#: admin/partials/template/packing-slip-tab.php:678
+msgid "Display Product Total Weight"
+msgstr "نمایش وزن محصول"
+
+#: admin/partials/template/packing-slip-tab.php:710
+msgid "PACKINGSLIP BACKGROUND"
+msgstr "PACKINGSLIP پس زمینه"
+
+#: admin/partials/template/seller-and-buyer-tab.php:8
+msgid "Seller Info"
+msgstr "اطلاعات فروشنده"
+
+#: admin/partials/template/seller-and-buyer-tab.php:16
+msgid "Logo image"
+msgstr "تصویر لوگو"
+
+#: admin/partials/template/seller-and-buyer-tab.php:44
+msgid "Upload Logo"
+msgstr "اپلود لوگو"
+
+#: admin/partials/template/seller-and-buyer-tab.php:55
+msgid "Logo size(Ex:20%)"
+msgstr "اندازه لوگو"
+
+#: admin/partials/template/seller-and-buyer-tab.php:64
+msgid "Block title (From)"
+msgstr "عنوان مسدود کردن (از)"
+
+#: admin/partials/template/seller-and-buyer-tab.php:73
+msgid "Company Name"
+msgstr "نام شرکت"
+
+#: admin/partials/template/seller-and-buyer-tab.php:82
+msgid "Company VAT Number"
+msgstr "شماره مالیات بر ارزش افزوده شرکت"
+
+#: admin/partials/template/seller-and-buyer-tab.php:91
+msgid "Company GSTIN Number"
+msgstr "شماره مالیات بر ارزش افزوده شرکت"
+
+#: admin/partials/template/seller-and-buyer-tab.php:101
+msgid "Company Details"
+msgstr "جزئیات شرکت"
+
+#: admin/partials/template/seller-and-buyer-tab.php:112
+msgid "Footer 1"
+msgstr "پاورقی 1"
+
+#: admin/partials/template/seller-and-buyer-tab.php:124
+msgid "Footer 2"
+msgstr "پاورقی 2"
+
+#: admin/partials/template/seller-and-buyer-tab.php:134
+msgid "Footer Font Size( px )"
+msgstr "اندازه فونت پاورقی (px)"
+
+#: admin/partials/template/seller-and-buyer-tab.php:144
+msgid "Show Footer Line"
+msgstr "نمایش خط پاورقی"
+
+#: admin/partials/template/seller-and-buyer-tab.php:147
+msgid "Show Footer Horizontal Line"
+msgstr "نمایش خط افقی پاورقی"
+
+#: admin/partials/template/seller-and-buyer-tab.php:184
+msgid "Buyer Info"
+msgstr "اطلاعات خریدار"
+
+#: admin/partials/template/seller-and-buyer-tab.php:192
+msgid "Billing Title"
+msgstr "عنوان فاکتور"
+
+#: admin/partials/template/seller-and-buyer-tab.php:201
+msgid "Shipping Title"
+msgstr "عنوان حمل و نقل"
+
+#: admin/partials/template/seller-and-buyer-tab.php:210
+msgid "Enable Shipping Address"
+msgstr "آدرس حمل و نقل را فعال کنید"
+
+#: admin/partials/template/seller-and-buyer-tab.php:213
+msgid "Show Shipping Address into invoice"
+msgstr "نشانی حمل و نقل را در فاکتور نشان دهید"
+
+#: admin/partials/template/seller-and-buyer-tab.php:232
+msgid "Disable Place of Supply"
+msgstr "غیرفعال کردن محل تأمین"
+
+#: admin/partials/template/seller-and-buyer-tab.php:235
+msgid "Disable showing the Place of Supply in the invoice."
+msgstr "نمایش محل تأمین کالا در فاکتور را غیرفعال کنید."
+
+#: admin/partials/template/seller-and-buyer-tab.php:254
+msgid "Hide for Same Address"
+msgstr "برای همان آدرس پنهان شود"
+
+#: admin/partials/template/seller-and-buyer-tab.php:257
+msgid "Hide for Same Billing & Shipping Address"
+msgstr "مخفی سازی اطلاعات پرداخت و آدرس حمل و نقل"
+
+#: admin/partials/template/seller-and-buyer-tab.php:278
+#: admin/partials/template/seller-and-buyer-tab.php:281
+msgid "Disable Phone Number"
+msgstr "شماره تلفن را غیرفعال کنید"
+
+#: admin/partials/template/seller-and-buyer-tab.php:301
+#: admin/partials/template/seller-and-buyer-tab.php:304
+msgid "Disable Email Address"
+msgstr "آدرس ایمیل را غیرفعال کنید"
+
+#: admin/partials/template/settings-tab.php:7
+msgid "Invoice Settings"
+msgstr "تنظیمات فاکتور"
+
+#: admin/partials/template/settings-tab.php:20
+msgid "Enable Invoicing"
+msgstr "فعال سازی فاکتور"
+
+#: admin/partials/template/settings-tab.php:38
+msgid "Document Language"
+msgstr "زبان داکیومنت"
+
+#: admin/partials/template/settings-tab.php:43
+msgid "Site Language"
+msgstr "زبان سایت"
+
+#: admin/partials/template/settings-tab.php:46
+msgid "Order / Customer Language"
+msgstr "سفارش / زبان مشتری"
+
+#: admin/partials/template/settings-tab.php:93
+msgid "Choose Font Family"
+msgstr "خانواده فونت را انتخاب کنید"
+
+#: admin/partials/template/settings-tab.php:99
+#: admin/partials/template/settings-tab.php:343
+msgid "Default"
+msgstr "پیش فرض"
+
+#: admin/partials/template/settings-tab.php:114
+msgid "Download Invoice From My Account"
+msgstr "امکان دانلود از حساب من"
+
+#: admin/partials/template/settings-tab.php:117
+msgid "Allow customer to download invoice from My Account order list table"
+msgstr "به مشتری اجازه دهید فاکتور را از جدول فهرست سفارشات حساب من دانلود کند"
+
+#: admin/partials/template/settings-tab.php:152
+msgid "Invoice Attach to Email"
+msgstr "پیوست فاکتور به ایمیل"
+
+#: admin/partials/template/settings-tab.php:155
+msgid "Automatically attach invoice with order email."
+msgstr "به صورت خودکار فاکتور را با ایمیل سفارش پیوست کنید."
+
+#: admin/partials/template/settings-tab.php:189
+msgid "Attach Packing Slip"
+msgstr "پیوست به پکیج"
+
+#: admin/partials/template/settings-tab.php:192
+msgid "Attach packing slip only with completed order email."
+msgstr "برگه بسته بندی را فقط با ایمیل سفارش تکمیل شده پیوست کنید."
+
+#: admin/partials/template/settings-tab.php:225
+msgid "Enable Print Button on My Account"
+msgstr "فعال کردن دکمه چاپ در حساب من"
+
+#: admin/partials/template/settings-tab.php:228
+msgid ""
+"Enable or disable the Print button in My Account for invoices and credit "
+"notes."
+msgstr ""
+"دکمه چاپ را در حساب من برای فاکتورها و یادداشت‌های اعتباری فعال یا غیرفعال "
+"کنید."
+
+#: admin/partials/template/settings-tab.php:276
+msgid "Allow Free Products"
+msgstr "فعال سازی برای محصولات رایگان"
+
+#: admin/partials/template/settings-tab.php:279
+msgid "Generate invoice for free products"
+msgstr "برای محصولات رایگان فاکتور ایجاد کنید"
+
+#: admin/partials/template/settings-tab.php:297
+msgid "Invoice Download as"
+msgstr "دانلود فاکتور به عنوان"
+
+#: admin/partials/template/settings-tab.php:302
+msgid "Open in new tab"
+msgstr "در برگه جدیدی باز کن"
+
+#: admin/partials/template/settings-tab.php:305
+msgid "Direct download"
+msgstr "دانلود مستقیم"
+
+#: admin/partials/template/settings-tab.php:314
+msgid "Output Template as HTML"
+msgstr "قالب خروجی به صورت HTML"
+
+#: admin/partials/template/settings-tab.php:317
+msgid "Display document output as html."
+msgstr "نمایش خروجی سند به صورت html"
+
+#: admin/partials/template/settings-tab.php:353
+msgid "Enable For Saudi Arabia (ZATCA)"
+msgstr "فعال کردن برای عربستان سعودی"
+
+#: admin/partials/template/settings-tab.php:363
+msgid "Enable For India (GST Invoice)"
+msgstr "Proforma Invoicing را فعال کنید"
+
+#: admin/partials/template/settings-tab.php:372
+msgid "Bar Code and QR code Settings"
+msgstr "تنظیمات بارکد و کیو آر کد"
+
+#: admin/partials/template/settings-tab.php:378
+msgid "Enable BarCode"
+msgstr "فعالسازی بارکد"
+
+#: admin/partials/template/settings-tab.php:381
+msgid "BarCode will show only for completed orders."
+msgstr "بارکد فقط برای سفارشات تکمیل شده نشان داده می شود."
+
+#: admin/partials/template/settings-tab.php:399
+msgid "Enable QRcode"
+msgstr "فعال سازی کیو آر کد"
+
+#: admin/partials/template/settings-tab.php:402
+msgid "QR code will show only for all orders."
+msgstr "کیو آر کد فقط برای همه سفارش‌ها نشان داده می‌شود."
+
+#: admin/partials/template/settings-tab.php:438
+msgid "Display To Email Template"
+msgstr "نمایش به ایمیل الگو"
+
+#: admin/partials/template/settings-tab.php:441
+msgid "Display QR code to email template."
+msgstr "نمایش کیو آر کد به قالب ایمیل."
+
+#: admin/partials/template/settings-tab.php:458
+msgid "Override third party mPDF Library"
+msgstr "نادیده گرفتن کتابخانه ام پی دی اف شخص ثالث"
+
+#: admin/partials/template/settings-tab.php:461
+msgid "Override third party mPDF Library."
+msgstr "نادیده گرفتن کتابخانه mپی دی اف شخص ثالث."
+
+#: admin/partials/template/settings-tab.php:500
+msgid "Shipping Label Bar Code and QR Code Settings"
+msgstr "تنظیمات بارکد و کیو آر کد"
+
+#: admin/partials/template/settings-tab.php:505
+msgid "Enable Barcode on Shipping Labels"
+msgstr "برچسب حمل و نقل بسازید"
+
+#: admin/partials/template/settings-tab.php:507
+msgid "Enable to include a barcode on shipping labels for completed orders."
+msgstr "فعال کردن امکان درج بارکد روی برچسب‌های ارسال برای سفارش‌های تکمیل‌شده."
+
+#: admin/partials/template/settings-tab.php:518
+msgid "Enable QR Code on Shipping Labels"
+msgstr "برچسب حمل و نقل بسازید"
+
+#: admin/partials/template/settings-tab.php:520
+msgid "Enable to include a QR code on shipping labels for all orders."
+msgstr "فعال کردن امکان درج کد QR روی برچسب‌های ارسال برای همه سفارش‌ها."
+
+#: admin/partials/template/settings-tab.php:534
+msgid "Pagination Settings"
+msgstr "تنظیمات صفحه بندی"
+
+#: admin/partials/template/settings-tab.php:538
+msgid "Add Page Number"
+msgstr "اضافه کردن شماره صفحه"
+
+#: admin/partials/template/settings-tab.php:541
+msgid "Add page number to invoice and packing slip template."
+msgstr "شماره صفحه را به قالب فاکتور و برگه بسته بندی اضافه کنید."
+
+#: admin/partials/template/settings-tab.php:607
+msgid "Credit Note Template"
+msgstr "قالب یادداشت اعتباری"
+
+#: admin/partials/template/settings-tab.php:614
+msgid "Choose Page Number Style"
+msgstr "سبک شماره صفحه را انتخاب کنید"
+
+#: admin/partials/template/settings-tab.php:619
+msgid "Choose page number style"
+msgstr "سبک شماره صفحه را انتخاب کنید"
+
+#: admin/partials/template/settings-tab.php:660
+msgid "Stop Repeating Header and Footer"
+msgstr "تکرار سرصفحه و پاورقی را متوقف کنید"
+
+#: admin/partials/template/settings-tab.php:663
+msgid "If invoice is more then 1 page, stop repeating header and footer."
+msgstr "اگر فاکتور بیشتر از 1 صفحه است، تکرار سرصفحه و پاورقی را متوقف کنید."
+
+#: admin/partials/template/settings-tab.php:680
+msgid "Credit Note Number"
+msgstr "یادداشت اعتباری"
+
+#: admin/partials/template/settings-tab.php:697
+msgid "Display Credit Note Number"
+msgstr "نمایش شماره سفارش"
+
+#: admin/partials/template/settings-tab.php:728
+msgid "Next Credit Note No."
+msgstr "یادداشت اعتباری"
+
+#: admin/partials/template/settings-tab.php:742
+msgid "Credit Note No. Prefix"
+msgstr "شماره سفارش پیش شماره"
+
+#: admin/partials/template/settings-tab.php:756
+msgid "Credit Note No. Suffix"
+msgstr "شماره سفارش. پسوند"
+
+#: admin/partials/template/settings-tab.php:771
+msgid "PDF CSS Style"
+msgstr "سبک پی دی اف سی اس اس"
+
+#: admin/partials/template/settings-tab.php:774
+msgid "Font Size( px )"
+msgstr "اندازه فونت (px)"
+
+#: admin/partials/template/settings-tab.php:786
+msgid "Invoice Template CSS"
+msgstr "سی اس اس قالب فاکتور"
+
+#: admin/partials/template/settings-tab.php:789
+msgid "Write Invoice Template CSS"
+msgstr "سی اس اس قالب فاکتور بنویسید"
+
+#: admin/partials/template/settings-tab.php:805
+#: admin/partials/template/settings-tab.php:808
+msgid "Packing Slip and Shipping Label Template CSS"
+msgstr "سی اس اس قالب بسته بندی و برچسب حمل"
+
+#: admin/partials/template/settings-tab.php:824
+msgid "Invoice Configuration"
+msgstr "پیکربندی فاکتور"
+
+#: admin/partials/template/settings-tab.php:828
+msgid "Enable Debug Mode"
+msgstr "حالت Debug Mode را فعال کنید"
+
+#: admin/partials/template/settings-tab.php:831
+msgid "Enable debug mode to show errors."
+msgstr "حالت اشکال زدایی را برای نمایش خطاها فعال کنید."
+
+#: admin/partials/template/settings-tab.php:851
+msgid "Enable DropBox Upload"
+msgstr "آپلود دراپ باکس را فعال کنید"
+
+#: admin/partials/template/settings-tab.php:857
+msgid "Upload Invoice to DropBox."
+msgstr "فاکتور را در دراپ باکس بارگذاری کنید."
+
+#: admin/partials/template/settings-tab.php:892
+msgid "DropBox Client ID"
+msgstr "شناسه مشتری دراپ باکس"
+
+#: admin/partials/template/settings-tab.php:902
+msgid "DropBox Client Secret"
+msgstr "راز مشتری دراپ باکس"
+
+#: admin/partials/template/settings-tab.php:912
+msgid "DropBox Access Token"
+msgstr "توکن دسترسی دراپ باکس"
+
+#: admin/partials/template/settings-tab.php:923
+msgid "Destination Folder Name(optional)"
+msgstr "نام پوشه مقصد (اختیاری)"
+
+#: admin/partials/template/settings-tab.php:949
+msgid "Send Debug Info"
+msgstr "ارسال اطلاعات اشکال زدایی"
+
+#: admin/partials/template/settings-tab.php:965
+msgid ""
+"To opt out, leave this box unchecked. Your Feed Data remains un-tracked, and "
+"no data will be collected. No sensitive data is tracked."
+msgstr ""
+"برای انصراف، این کادر را بدون علامت بگذارید. داده‌های فید شما ردیابی نشده "
+"باقی می‌ماند و هیچ داده‌ای جمع‌آوری نخواهد شد. هیچ داده حساسی ردیابی نمی شود."
+
+#: admin/partials/template/settings-tab.php:968
+msgid "See What We Collect"
+msgstr "آنچه را که ما جمع آوری می کنیم را ببینید"
+
+#: admin/partials/template/shipping-label-tab.php:12
+msgid "Shipping Label Print"
+msgstr "چاپ لیبل حمل و نقل"
+
+#: admin/partials/template/shipping-label-tab.php:20
+msgid "Number of Column Per Row"
+msgstr "تعداد ستون در هر ردیف"
+
+#: admin/partials/template/shipping-label-tab.php:25
+msgid "Number of Row"
+msgstr "تعداد ردیف"
+
+#: admin/partials/template/shipping-label-tab.php:50
+msgid "Font Size"
+msgstr "اندازه فونت"
+
+#: admin/partials/template/shipping-label-tab.php:100
+msgid "Block Title"
+msgstr "عنوان بلوک"
+
+#: admin/partials/template/shipping-label-tab.php:109
+msgid "Buyer Details Layout"
+msgstr "طرح بندی جزئیات خریدار"
+
+#: admin/partials/template/shipping-label-tab.php:175
+msgid "Display Meta"
+msgstr "نمایش متا"
+
+#: admin/partials/template/static-files-tab.php:9
+#: admin/partials/woo-invoice-pro-admin-display.php:184
+msgid "Static Files"
+msgstr "فایل های استاتیک"
+
+#: admin/partials/template/static-files-tab.php:22
+#: admin/partials/template/static-files-tab.php:33
+#: admin/partials/template/static-files-tab.php:44
+msgid "Set File"
+msgstr "تنظیم فایل"
+
+#: admin/partials/template/static-files-tab.php:48
+msgid "Attach to"
+msgstr "ضمیمه شده به"
+
+#: admin/partials/template/status-tab.php:7
+msgid "System Status"
+msgstr "وضعیت سیستم"
+
+#: admin/partials/template/status-tab.php:151
+msgid "PHP Version"
+msgstr "نسخه پی اچ پی"
+
+#: admin/partials/template/status-tab.php:152
+msgid "Current Version:  "
+msgstr "نسخه فعلی:  "
+
+#: admin/partials/template/status-tab.php:154
+#: admin/partials/template/status-tab.php:162
+#: admin/partials/template/status-tab.php:170
+#: admin/partials/template/status-tab.php:178
+#: admin/partials/template/status-tab.php:186
+msgid "- ok"
+msgstr "- خوب"
+
+#: admin/partials/template/status-tab.php:155
+msgid "Required Version: "
+msgstr "نسخه مورد نیاز:"
+
+#: admin/partials/template/status-tab.php:159
+msgid "WordPress Version"
+msgstr "نسخه وردپرس"
+
+#: admin/partials/template/status-tab.php:163
+#: admin/partials/template/status-tab.php:171
+msgid "Required: "
+msgstr "ضروری:"
+
+#: admin/partials/template/status-tab.php:167
+msgid "Woocommerce Version"
+msgstr "نسخه ووکامرس"
+
+#: admin/partials/template/status-tab.php:175
+msgid "WordPress Upload Limit"
+msgstr "محدودیت آپلود وردپرس"
+
+#: admin/partials/template/status-tab.php:179
+#: admin/partials/template/status-tab.php:187
+#: admin/partials/template/status-tab.php:195
+msgid "Required:"
+msgstr "ضروری:"
+
+#: admin/partials/template/status-tab.php:183
+msgid "WordPress Upload Limit Set By Hosting Provider"
+msgstr "محدودیت آپلود وردپرس توسط ارائه دهنده هاست تعیین شده است"
+
+#: admin/partials/template/status-tab.php:191
+msgid "PHP Limit Time"
+msgstr "زمان محدود پی اچ پی"
+
+#: admin/partials/template/status-tab.php:192
+msgid "Current Limit Time: "
+msgstr "زمان محدود فعلی:"
+
+#: admin/partials/template/status-tab.php:194
+msgid "- Ok"
+msgstr "- خوب"
+
+#: admin/partials/template/status-tab.php:200
+msgid "WordPress Upload Directory Writable Permission"
+msgstr "لایسنس نوشتن دایرکتوری آپلود وردپرس"
+
+#: admin/partials/template/status-tab.php:203
+msgid "Writable - Ok"
+msgstr "قابل نوشتن - باشه"
+
+#: admin/partials/template/status-tab.php:204
+msgid "Upload folder not writable permission"
+msgstr "پوشه آپلود اجازه نوشتن ندارد"
+
+#: admin/partials/template/status-tab.php:208
+msgid "WordPress Debug Mode"
+msgstr "حالت اشکال زدایی وردپرس"
+
+#: admin/partials/template/status-tab.php:211
+msgid "WordPress Debug Mode is On"
+msgstr "حالت اشکال زدایی وردپرس روشن است"
+
+#: admin/partials/template/status-tab.php:212
+msgid ""
+"<b>WP_DEBUG_LOG</b> is false. Plugin can not write error logs if "
+"WP_DEBUG_LOG is set to false. You can learn more about debugging in "
+"WordPress from <a target=\"_blank\" href=\"https://wordpress.org/support/"
+"article/debugging-in-wordpress/\">here</a>"
+msgstr ""
+"‏<b>WP_DEBUG_LOG</b> نادرست است. اگر WP_DEBUG_LOG روی نادرست تنظیم شده باشد، "
+"پلاگین نمی تواند گزارش های خطا را بنویسد. می‌توانید درباره اشکال‌زدایی در "
+"وردپرس از <a target=\"_blank\" href=\"https://wordpress.org/support/article/"
+"debugging-in-wordpress/\">اینجا</a> اطلاعات بیشتری کسب کنید."
+
+#: admin/partials/template/status-tab.php:216
+msgid "zipArchive Extension"
+msgstr "پسوند zipArchive"
+
+#: admin/partials/template/status-tab.php:219
+#: admin/partials/template/status-tab.php:227
+#: admin/partials/template/status-tab.php:235
+msgid "Enable"
+msgstr "فعال کردن"
+
+#: admin/partials/template/status-tab.php:220
+msgid "Please enable zip extension from hosting."
+msgstr "لطفا پسوند zip را از میزبانی فعال کنید."
+
+#: admin/partials/template/status-tab.php:224
+msgid "MBString extension"
+msgstr "پسوند MBString"
+
+#: admin/partials/template/status-tab.php:228
+msgid "Please enable MBString extension from hosting."
+msgstr "لطفاً پسوند MBString را از میزبانی فعال کنید."
+
+#: admin/partials/template/status-tab.php:232
+msgid "Dom extension"
+msgstr "پسوند Dom"
+
+#: admin/partials/template/status-tab.php:236
+msgid "Dom extension is not enable from hosting."
+msgstr "پسوند Dom از میزبانی فعال نیست."
+
+#: admin/partials/woo-invoice-pro-admin-display.php:80
+msgid "Always Allow"
+msgstr "همیشه اجازه دهید"
+
+#. Plugin Name of the plugin/theme
+#: admin/partials/woo-invoice-pro-admin-display.php:97
+msgid "Challan Pro"
+msgstr "فاکتور ووکامرس"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:109
+msgid "Version: "
+msgstr "نسخه:"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:121
+#: includes/class-woo-invoice-webappick-api.php:240
+msgid "Documentation"
+msgstr "مستندات"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:133
+msgid "Get free support"
+msgstr "پشتیبانی رایگان دریافت کنید"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:192
+msgid "Seller & Buyer"
+msgstr "فروشنده و خریدار"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:200
+msgid "Bulk download"
+msgstr "دانلود یکجا"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:208
+#: includes/class-woo-invoice-pro-hooks.php:1191
+msgid "Shipping Label"
+msgstr "برچسب حمل و نقل"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:217
+msgid "Status"
+msgstr "وضعیت"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:225
+msgid "Upload Fonts"
+msgstr "آپلود فونت"
+
+#: includes/class-woo-invoice-pro-helper.php:603
+msgid "GSTIN: "
+msgstr "جیستین:"
+
+#: includes/class-woo-invoice-pro-hooks.php:999
+msgid "Download Credit Note"
+msgstr "یادداشت اعتباری"
+
+#: includes/class-woo-invoice-pro-hooks.php:1009
+msgid "Print Credit Note"
+msgstr "یادداشت اعتباری"
+
+#: includes/class-woo-invoice-pro-hooks.php:1027
+msgid "Challan Invoice"
+msgstr "فاکتور فاکتور ووکامرس ( نوین وردپرس )"
+
+#: includes/class-woo-invoice-pro-hooks.php:1153
+msgid "Make PDF Invoice"
+msgstr "فاکتور پی دی اف تهیه کنید"
+
+#: includes/class-woo-invoice-pro-hooks.php:1154
+msgid "Make Packing Slip"
+msgstr "بسته بندی را تهیه کنید"
+
+#: includes/class-woo-invoice-pro-hooks.php:1155
+msgid "Make Shipping Label"
+msgstr "برچسب حمل و نقل بسازید"
+
+#: includes/class-woo-invoice-pro-hooks.php:1156
+msgid "Make Order List (PDF)"
+msgstr "لیست سفارشات (پی دی اف)"
+
+#: includes/class-woo-invoice-pro-hooks.php:1157
+msgid "Make Order List (CSV)"
+msgstr "لیست سفارش (CSV)"
+
+#: includes/class-woo-invoice-pro-hooks.php:1177
+msgid "PDF Invoice"
+msgstr "فاکتور پی دی اف"
+
+#: includes/class-woo-invoice-pro-hooks.php:1256
+msgid "Print"
+msgstr "چاپ"
+
+#: includes/class-woo-invoice-pro-hooks.php:1319
+#: includes/notices/admin-notice-for-review.php:101
+msgid "Invalid Request."
+msgstr "درخواست نامعتبر"
+
+#: includes/class-woo-invoice-pro-hooks.php:1925
+#: includes/class-woo-invoice-pro-hooks.php:1981
+#: includes/class-woo-invoice-pro-hooks.php:2046
+msgid "VAT Number"
+msgstr "شماره مالیات بر ارزش افزوده"
+
+#: includes/class-woo-invoice-pro-hooks.php:1931
+#: includes/class-woo-invoice-pro-hooks.php:1992
+#: includes/class-woo-invoice-pro-hooks.php:2062
+msgid "SSN"
+msgstr "SSN"
+
+#: includes/class-woo-invoice-pro-hooks.php:1937
+#: includes/class-woo-invoice-pro-hooks.php:2003
+#: includes/class-woo-invoice-pro-hooks.php:2074
+msgid "GSTIN"
+msgstr "گاستین"
+
+#: includes/class-woo-invoice-pro-hooks.php:1976
+msgid "Vat & SSN information"
+msgstr "اطلاعات مالیاتی"
+
+#: includes/class-woo-invoice-pro-hooks.php:1987
+msgid "Please enter your Vat Id for invoice."
+msgstr "لطفاً شناسه مالیات بر ارزش افزوده خود را برای فاکتور وارد کنید."
+
+#: includes/class-woo-invoice-pro-hooks.php:1998
+msgid "Please enter your SSN for Invoice."
+msgstr "لطفا SSN خود را برای فاکتور وارد کنید."
+
+#: includes/class-woo-invoice-pro-hooks.php:2009
+msgid "Please enter your GSTIN for Invoice."
+msgstr "لطفا SSN خود را برای فاکتور وارد کنید."
+
+#: includes/class-woo-invoice-pro-hooks.php:2116
+msgid "HSN/SAC Code"
+msgstr "کد HSN/SAC"
+
+#: includes/class-woo-invoice-pro-hooks.php:2117
+msgid "Enter the HSN/SAC code for this product."
+msgstr "کد HSN/SAC این محصول را وارد کنید."
+
+#: includes/class-woo-invoice-pro-hooks.php:2330
+msgid "Support"
+msgstr "پشتیبانی"
+
+#: includes/class-woo-invoice-pro-orders.php:247
+msgid "Type"
+msgstr "نوع"
+
+#: includes/class-woo-invoice-pro-orders.php:250
+#, php-format
+msgid "Booking #%s"
+msgstr "رزرو #%s"
+
+#: includes/class-woo-invoice-pro-orders.php:255
+#, php-format
+msgid "%1$s"
+msgstr "‏%1$s"
+
+#: includes/class-woo-invoice-pro-orders.php:257
+#, php-format
+msgid "%1$s - %2$s"
+msgstr "‏%1$s - %2$s"
+
+#. translators: %s: timezone name
+#: includes/class-woo-invoice-pro-orders.php:263
+#, php-format
+msgid "in timezone: %s"
+msgstr "در منطقه زمانی: %s"
+
+#: includes/class-woo-invoice-pro-orders.php:268
+#, php-format
+msgid "%1$s: %2$s"
+msgstr "‏%1$s: %2$s"
+
+#: includes/class-woo-invoice-pro-orders.php:281
+#, php-format
+msgid "%1$s: %2$d"
+msgstr "‏%1$s: %2$d"
+
+#. translators: 1: person count
+#: includes/class-woo-invoice-pro-orders.php:286
+#, php-format
+msgid "%d Persons"
+msgstr "%d نفر"
+
+#: includes/class-woo-invoice-pro-orders.php:652
+#, php-format
+msgid "<br/><span class=\"product-meta\"><b>%1$s : </b> %2$u</span>"
+msgstr "‏<br/><span class=\"product-meta\"><b>%1$s : </b> %2$u</span>"
+
+#: includes/class-woo-invoice-pro-orders.php:656
+#, php-format
+msgid "<br/><span class=\"product-meta\"><b>%1$s : </b> %2$s</span>"
+msgstr "‏<br/><span class=\"product-meta\"><b>%1$s : </b> %2$s</span>"
+
+#: includes/class-woo-invoice-pro-orders.php:662
+#, php-format
+msgid "<br/><span class=\"product-meta\"><b>%1$s : </b>  %2$s</span>"
+msgstr "‏<br/><span class=\"product-meta\"><b>%1$s : </b>  %2$s</span>"
+
+#: includes/class-woo-invoice-pro-orders.php:990
+#: libs/WebAppick/AppServices/License.php:904
+msgid "N/A"
+msgstr "نامعلوم"
+
+#: includes/class-woo-invoice-pro-pdf.php:244
+msgid ""
+"Please go to Challan Pro plugins setting page to download the missing fonts. "
+msgstr "لطفاً برای دانلود فونت های گم شده خود، سند را بخوانید."
+
+#: includes/class-woo-invoice-pro-pdf.php:246
+msgid "Please notify site admin to download invoice."
+msgstr "لطفاً شناسه مالیات بر ارزش افزوده خود را برای فاکتور وارد کنید."
+
+#: includes/class-woo-invoice-pro-template.php:1333
+msgid "Tax"
+msgstr "مالیات"
+
+#: includes/class-woo-invoice-pro-template.php:1339
+#: includes/class-woo-invoice-pro-template.php:1344
+#: includes/class-woo-invoice-pro-template.php:1350
+msgid "مالیات"
+msgstr "مالیات"
+
+#: includes/class-woo-invoice-pro-template.php:1340
+#: includes/class-woo-invoice-pro-template.php:1357
+msgid "نرخ مالیات"
+msgstr "نرخ مالیات"
+
+#: includes/class-woo-invoice-pro-template.php:1347
+msgid "هزینه"
+msgstr "هزینه"
+
+#: includes/class-woo-invoice-pro-template.php:1348
+msgid "تعداد"
+msgstr "تعداد"
+
+#: includes/class-woo-invoice-pro-template.php:1351
+msgid " تخفیف شرکت"
+msgstr " تخفیف شرکت"
+
+#: includes/class-woo-invoice-pro-template.php:1352
+msgid " تخفیف مثال"
+msgstr " تخفیف مثال"
+
+#: includes/class-woo-invoice-pro-template.php:1353
+msgid "همه"
+msgstr "همه"
+
+#: includes/class-woo-invoice-pro-template.php:1354
+msgid "تخفیف شرکت همه"
+msgstr "تخفیف شرکت همه"
+
+#: includes/class-woo-invoice-pro-template.php:1355
+msgid "تخفیف جمع کل"
+msgstr "تخفیف جمع کل"
+
+#: includes/class-woo-invoice-pro-template.php:1358
+msgid "Regular Price"
+msgstr "قیمت معمولی"
+
+#: includes/class-woo-invoice-pro-template.php:1359
+msgid "Regular Price with Tax"
+msgstr "قیمت معمولی با احتساب مالیات"
+
+#: includes/class-woo-invoice-pro-template.php:1360
+msgid "Sale Price with Tax"
+msgstr "قیمت فروش با احتساب مالیات"
+
+#: includes/class-woo-invoice-pro-template.php:1361
+msgid "Price with Tax"
+msgstr "با مالیات"
+
+#: includes/class-woo-invoice-pro-template.php:1362
+msgid "Sale Price"
+msgstr "نمایش قیمت فروش"
+
+#: includes/class-woo-invoice-pro-template.php:1363
+msgid "Unit Price"
+msgstr "قیمت واحد"
+
+#: includes/class-woo-invoice-pro-template.php:1364
+msgid "Discount"
+msgstr "تخفیف"
+
+#: includes/class-woo-invoice-pro-template.php:1365
+msgid "Total Discount"
+msgstr "تخفیف"
+
+#: includes/class-woo-invoice-pro-template.php:1366
+msgid "HSN/SAC"
+msgstr "HSN/SAC"
+
+#: includes/class-woo-invoice-pro-template.php:1367
+msgid "Total Inc. "
+msgstr "کل ستون شرکت مالیات"
+
+#: includes/class-woo-invoice-pro-template.php:1368
+msgid "Total Ex. "
+msgstr "مجموع سابق"
+
+#: includes/class-woo-invoice-pro-template.php:1369
+msgid "Taxable Value"
+msgstr "ارزش مشمول مالیات"
+
+#: includes/class-woo-invoice-pro-template.php:1413
+msgid "Qty"
+msgstr "تعداد"
+
+#: includes/class-woo-invoice-pro-template.php:1415
+msgid "Dimension"
+msgstr "پسوند Dom"
+
+#: includes/class-woo-invoice-pro-template.php:1523
+msgid "Fee"
+msgstr "هزینه"
+
+#: includes/class-woo-invoice-pro-template.php:1599
+msgid " :"
+msgstr ":"
+
+#: includes/class-woo-invoice-pro.php:159
+msgid ""
+"Your uploads folder is not writable. Please make <strong>wp-content/uploads</"
+"strong> folder writable to generate and save invoices."
+msgstr ""
+"‏<h1>فاکتور ووکامرس ( نوین وردپرس )</h1> <b>پوشه آپلودهای شما قابل نوشتن "
+"نیست. لطفاً پوشه <code style=“color: red;”>wp-content/uploads</code> را برای "
+"تولید و ذخیره فاکتورها قابل نوشتن کنید.</b>"
+
+#: includes/class-woo-invoice-pro.php:181
+msgid ""
+"<strong>Mpdf</strong> and <strong>fonts</strong> were missing. Now it is "
+"downloaded. <strong>Please reload again</strong> "
+msgstr ""
+
+#: includes/class-woo-invoice-webappick-api.php:99
+msgid "Yearly"
+msgstr "سالانه"
+
+#: includes/class-woo-invoice-webappick-api.php:101
+msgid "Single Site Yearly"
+msgstr "تک سایت سالانه"
+
+#: includes/class-woo-invoice-webappick-api.php:102
+msgid "Five Sites Yearly"
+msgstr "پنج سایت سالانه"
+
+#: includes/class-woo-invoice-webappick-api.php:103
+msgid "Ten Sites Yearly"
+msgstr "ده سایت در سال"
+
+#: includes/class-woo-invoice-webappick-api.php:107
+msgid "Lifetime"
+msgstr "مادام العمر"
+
+#: includes/class-woo-invoice-webappick-api.php:109
+#: includes/class-woo-invoice-webappick-api.php:117
+msgid "Single Site Lifetime"
+msgstr "مادام العمر یک سایت"
+
+#: includes/class-woo-invoice-webappick-api.php:110
+#: includes/class-woo-invoice-webappick-api.php:118
+msgid "Five Sites Lifetime"
+msgstr "پنج سایت مادام العمر"
+
+#: includes/class-woo-invoice-webappick-api.php:111
+#: includes/class-woo-invoice-webappick-api.php:119
+msgid "Ten Sites Lifetime"
+msgstr "طول عمر ده سایت"
+
+#: includes/class-woo-invoice-webappick-api.php:115
+msgid "Lifetime (From May, 2024)"
+msgstr "مادام العمر (از ماه مه 2024)"
+
+#: includes/class-woo-invoice-webappick-api.php:128
+msgid "License"
+msgstr "لایسنس"
+
+#: includes/class-woo-invoice-webappick-api.php:153
+msgid "Cloning is forbidden."
+msgstr "شبیه سازی ممنوع"
+
+#: includes/class-woo-invoice-webappick-api.php:234
+#: libs/WebAppick/AppServices/Insights.php:939
+msgid "Thank you -- Support Ticket Submitted."
+msgstr "با تشکر -- تیکت پشتیبانی ارسال شد."
+
+#: includes/class-woo-invoice-webappick-api.php:235
+msgid "Your ticket has been successfully submitted."
+msgstr "تیکت شما با موفقیت ارسال شد."
+
+#: includes/class-woo-invoice-webappick-api.php:236
+msgid "24 hours"
+msgstr "24 ساعت"
+
+#: includes/class-woo-invoice-webappick-api.php:237
+#, php-format
+msgid ""
+"You will receive an email notification from \"support@webappick.com\" in "
+"your inbox within %s."
+msgstr ""
+"یک اعلان ایمیل از “wpnovin@gmail‪.‬com\" در صندوق ورودی خود در %s دریافت "
+"خواهید کرد."
+
+#: includes/class-woo-invoice-webappick-api.php:238
+msgid ""
+"Please Follow the email and WebAppick Support Team will get back with you "
+"shortly."
+msgstr ""
+"لطفا ایمیل را دنبال کنید و تیم پشتیبانی WebAppick به زودی با شما تماس خواهد "
+"گرفت."
+
+#: includes/class-woo-invoice-webappick-api.php:241
+msgid "Video Tutorials"
+msgstr "آموزش های تصویری"
+
+#: includes/class-woo-invoice-webappick-api.php:244
+msgid "Terms & Conditions"
+msgstr "قوانین و مقررات"
+
+#: includes/class-woo-invoice-webappick-api.php:245
+msgid "Privacy Policy"
+msgstr "سیاست حفظ حریم خصوصی"
+
+#: includes/class-woo-invoice-webappick-api.php:246
+#, php-format
+msgid "Please read our %1$s and %2$s"
+msgstr "لطفا بخوانید %1$s و %2$s"
+
+#: includes/class-woo-invoice-webappick-api.php:259
+msgid ""
+"Something Went Wrong. Please Try The Support Ticket Form On Our Website."
+msgstr "چیزی اشتباه شد. لطفا فرم تیکت پشتیبانی را در وب سایت ما امتحان کنید."
+
+#: includes/class-woo-invoice-webappick-api.php:260
+msgid "Get Support"
+msgstr "دریافت پشتیبانی"
+
+#: includes/class-woo-invoice-webappick-api.php:261
+msgid "Support Ticket form will open in new tab in 5 seconds."
+msgstr "فرم پشتیبانی تیکت ظرف 5 ثانیه در تب جدید باز می شود."
+
+#: includes/class-woo-invoice-webappick-api.php:276
+msgid "Number of products in your site."
+msgstr "تعداد محصولات موجود در سایت شما"
+
+#: includes/class-woo-invoice-webappick-api.php:277
+msgid "Number of Orders in your site."
+msgstr "تعداد سفارشات در سایت شما"
+
+#: includes/class-woo-invoice-webappick-api.php:278
+msgid "Site name, language and url."
+msgstr "نام سایت، زبان و آدرس."
+
+#: includes/class-woo-invoice-webappick-api.php:279
+msgid "Number of active and inactive plugins."
+msgstr "تعداد افزونه های فعال و غیر فعال"
+
+#: includes/class-woo-invoice-webappick-api.php:280
+msgid "Your name and email address."
+msgstr "نام و آدرس ایمیل شما"
+
+#: includes/notices/admin-notice-downloading-font-background-process-in-progress-info.php:31
+msgid ""
+"From Challan plugin, background process for downloading the fonts in "
+"progress for PDF invoice, Packing Slip, and delivery address."
+msgstr ""
+"از افزونه فاکتور ووکامرس ( نوین وردپرس )، فرآیند پس‌زمینه برای دانلود فونت‌ها "
+"در حال انجام برای فاکتور پی دی اف، برگه بسته‌بندی و آدرس تحویل است."
+
+#: includes/notices/admin-notice-for-review.php:46
+msgid ""
+"<a class=\"_winvoice_deal_notice\" href=\"https://webappick.com/plugin/"
+"woocommerce-pdf-invoice-packing-slips/?utm_source=challan"
+"+Plugin&utm_medium=HH_banner&utm_campaign=HH_24&utm_id=2024\" target=\"_blank"
+"\">\n"
+"<img  src=\""
+msgstr ""
+"‏<a class=\"_winvoice_price_update\" href=\"https://webappick.com/plugin/"
+"woocommerce-pdf-invoice-packing-slips/?"
+"utm_source=customer_site&utm_medium=free_vs_pro&utm_campaign=woo_invoice_free"
+"\" target=\"_blank\">\n"
+"‏<img  src=\""
+
+#: includes/notices/admin-notice-invoice-dir-is-not-writeable-error.php:26
+msgid "An error has occurred the directory of <strong style=\"color: red;\">"
+msgstr "خطایی در دایرکتوری <strong style=\"color: red;\"> رخ داده است"
+
+#: includes/notices/admin-notice-wp-content-dir-is-not-writeable-error.php:28
+msgid ""
+"An error has occurred, the directory of <strong style=\"color: red;\">wp-"
+"content/uploads/</strong> is not writeable. The WordPress system wont't work "
+"well without write permission. More details about "
+msgstr ""
+"خطایی روی داده است، دایرکتوری <strong style=\"color: red;\">wp-content/"
+"uploads/</strong> قابل نوشتن نیست. سیستم وردپرس بدون اجازه نوشتن به خوبی کار "
+"نخواهد کرد. جزئیات بیشتر در مورد"
+
+#: includes/settings.php:24
+msgid ""
+"<h1>Challan</h1>  <b>Your uploads folder is not writable. Please make <code "
+"style=\"color: #ff0000;\">wp-content/uploads</code> folder writable to "
+"generate and save invoices.</b>"
+msgstr ""
+"‏<h1>فاکتور ووکامرس ( نوین وردپرس )</h1> <b>پوشه آپلودهای شما قابل نوشتن "
+"نیست. لطفاً پوشه <code style=“color: #ff0000;”>wp-content/uploads</code> را "
+"برای تولید و ذخیره فاکتورها قابل نوشتن کنید.</b>"
+
+#: includes/widget.php:23
+msgid "Latest News from WebAppick Blog"
+msgstr "آخرین اخبار از وبلاگ WebAppick"
+
+#: includes/widget.php:54
+msgid "WEBAPPICK.COM"
+msgstr "https://wpnovin.com"
+
+#: includes/widget.php:62
+msgid "Paid Stamp, QR & BAR Code "
+msgstr ""
+
+#: includes/widget.php:63
+msgid "Image,Signature & Watermark"
+msgstr ""
+
+#: includes/widget.php:65
+msgid "30-Day Money Back Guarantee"
+msgstr "ضمانت بازگشت وجه ۳۰ روزه"
+
+#: includes/widget.php:69
+msgid "Multiple Tax Classes Support"
+msgstr "پشتیبانی از کلاس‌های مالیاتی چندگانه"
+
+#: includes/widget.php:70
+msgid "Multilingual Invoice"
+msgstr "فاکتور فاکتور ووکامرس ( نوین وردپرس )"
+
+#: includes/widget.php:71
+msgid "ZATCA-compliant(Saudi Arabia)"
+msgstr "مطابق با ZATCA (عربستان سعودی)"
+
+#: includes/widget.php:85
+msgid "Unlock Exclusive Features for PDF Invoice & Packing Slip!"
+msgstr ""
+
+#: includes/widget.php:119
+msgid "Get Your Challan Pro"
+msgstr "فاکتور ووکامرس"
+
+#: includes/widget.php:140
+msgid "Get more woocommerce tips & news on our blog..."
+msgstr "نکات و اخبار ووکامرس بیشتری را در وبلاگ ما دریافت کنید..."
+
+#: libs/WebAppick/AppServices/Insights.php:341
+msgid "Server environment details (php, mysql, server, WordPress versions)."
+msgstr "جزئیات محیط سرور (نسخه های php، mysql، سرور، وردپرس)."
+
+#. translators: 1: plugin name
+#: libs/WebAppick/AppServices/Insights.php:466
+#, php-format
+msgid ""
+"Want to help make %1$s even more awesome? Allow %1$s to collect non-"
+"sensitive diagnostic data and usage information."
+msgstr ""
+"می‌خواهید کمک کنید تا %1$s عالی‌تر شود؟ به %1$s اجازه دهید داده‌های تشخیصی غیر "
+"حساس و اطلاعات استفاده را جمع‌آوری کند."
+
+#: libs/WebAppick/AppServices/Insights.php:474
+msgid "what we collect"
+msgstr "چیزی که جمع می کنیم"
+
+#: libs/WebAppick/AppServices/Insights.php:475
+msgid "No sensitive data is tracked."
+msgstr "هیچ داده حساسی ردیابی نمی شود."
+
+#: libs/WebAppick/AppServices/Insights.php:479
+msgid "Allow"
+msgstr "اجازه"
+
+#: libs/WebAppick/AppServices/Insights.php:480
+msgid "No thanks"
+msgstr "نه ممنون"
+
+#: libs/WebAppick/AppServices/Insights.php:701
+msgid "Once Weekly"
+msgstr "یک بار در هفته"
+
+#: libs/WebAppick/AppServices/Insights.php:766
+msgid "I couldn't understand how to make it work"
+msgstr "نتونستم بفهمم چطوری کار کنم"
+
+#: libs/WebAppick/AppServices/Insights.php:768
+msgid "Would you like us to assist you?"
+msgstr "آیا می خواهید ما به شما کمک کنیم؟"
+
+#: libs/WebAppick/AppServices/Insights.php:772
+msgid "I found a better plugin"
+msgstr "پلاگین بهتری پیدا کردم"
+
+#: libs/WebAppick/AppServices/Insights.php:774
+msgid "Which plugin?"
+msgstr "کدام افزونه؟"
+
+#: libs/WebAppick/AppServices/Insights.php:778
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr ""
+"افزونه عالی است، اما من به ویژگی خاصی نیاز دارم که شما از آن پشتیبانی نکنید"
+
+#: libs/WebAppick/AppServices/Insights.php:780
+msgid "Could you tell us more about that feature?"
+msgstr "ممکن است در مورد این ویژگی بیشتر به ما بگویید؟"
+
+#: libs/WebAppick/AppServices/Insights.php:784
+msgid "The plugin is not working"
+msgstr "افزونه کار نمی کند"
+
+#: libs/WebAppick/AppServices/Insights.php:786
+msgid "Could you tell us a bit more whats not working?"
+msgstr "ممکن است کمی بیشتر به ما بگویید چه چیزی کار نمی کند؟"
+
+#: libs/WebAppick/AppServices/Insights.php:790
+msgid "It's not what I was looking for"
+msgstr "اون چیزی نیست که من دنبالش بودم"
+
+#: libs/WebAppick/AppServices/Insights.php:796
+msgid "The plugin didn't work as expected"
+msgstr "پلاگین آنطور که انتظار می رفت کار نکرد"
+
+#: libs/WebAppick/AppServices/Insights.php:798
+msgid "What did you expect?"
+msgstr "چه انتظاری داشتی؟"
+
+#: libs/WebAppick/AppServices/Insights.php:802
+msgid "Temporary deactivation for debugging"
+msgstr "غیرفعال سازی موقت برای رفع اشکال"
+
+#: libs/WebAppick/AppServices/Insights.php:808
+msgid "Other"
+msgstr "دیگر"
+
+#: libs/WebAppick/AppServices/Insights.php:810
+msgid "Could you tell us a bit more?"
+msgstr "ممکن است کمی بیشتر به ما بگویید؟"
+
+#: libs/WebAppick/AppServices/Insights.php:830
+#: libs/WebAppick/AppServices/Promotions.php:390
+msgid "Invalid Request"
+msgstr "درخواست نامعتبر"
+
+#: libs/WebAppick/AppServices/Insights.php:881
+msgid "Something Went Wrong."
+msgstr "چیزی اشتباه شد."
+
+#: libs/WebAppick/AppServices/Insights.php:882
+msgid "Please try again after sometime."
+msgstr "لطفا بعد از مدتی دوباره امتحان کنید."
+
+#: libs/WebAppick/AppServices/Insights.php:957
+msgid "Something Went Wrong. Please Try Again After Sometime."
+msgstr "چیزی اشتباه شد. لطفا بعد از مدتی دوباره امتحان کنید."
+
+#: libs/WebAppick/AppServices/Insights.php:963
+msgid "Missing Required Fields."
+msgstr "فیلدهای مورد نیاز از دست رفته"
+
+#. translators: 1: Plugin Name
+#: libs/WebAppick/AppServices/Insights.php:983
+#, php-format
+msgid "&ldquo;%s&rdquo; Uninstall Confirmation"
+msgstr "تأیید حذف نصب «%s»."
+
+#: libs/WebAppick/AppServices/Insights.php:987
+msgid "Submit Support Ticket."
+msgstr "ارسال تیکت پشتیبانی"
+
+#: libs/WebAppick/AppServices/Insights.php:988
+#: libs/WebAppick/AppServices/Insights.php:1041
+msgid "Close"
+msgstr "نزدیک"
+
+#: libs/WebAppick/AppServices/Insights.php:997
+msgid "Name"
+msgstr "نام"
+
+#: libs/WebAppick/AppServices/Insights.php:1003
+msgid "Email"
+msgstr "پست الکترونیک"
+
+#: libs/WebAppick/AppServices/Insights.php:1010
+msgid "Subject"
+msgstr "موضوع"
+
+#: libs/WebAppick/AppServices/Insights.php:1016
+msgid "Website"
+msgstr "سایت اینترنتی"
+
+#: libs/WebAppick/AppServices/Insights.php:1023
+msgid "Message"
+msgstr "پیام"
+
+#: libs/WebAppick/AppServices/Insights.php:1033
+msgid "Send Message"
+msgstr "ارسال پیام"
+
+#: libs/WebAppick/AppServices/Insights.php:1034
+#: libs/WebAppick/AppServices/Insights.php:1071
+msgid "Cancel"
+msgstr "لغو کنید"
+
+#: libs/WebAppick/AppServices/Insights.php:1040
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr "اگر فرصت دارید، لطفاً دلیل غیرفعال کردن را به ما بگویید:"
+
+#: libs/WebAppick/AppServices/Insights.php:1059
+msgid "In trouble? Please submit a support request."
+msgstr "در مشکل؟ لطفا یک درخواست پشتیبانی ارسال کنید."
+
+#: libs/WebAppick/AppServices/Insights.php:1061
+msgid "Not Interested"
+msgstr "علاقه مند نیست"
+
+#: libs/WebAppick/AppServices/Insights.php:1062
+msgid "Open Support Ticket"
+msgstr "باز کردن تیکت پشتیبانی"
+
+#: libs/WebAppick/AppServices/Insights.php:1069
+msgid "I rather wouldn't say"
+msgstr "ترجیح می دهم نگویم"
+
+#: libs/WebAppick/AppServices/Insights.php:1070
+msgid "Submit & Deactivate"
+msgstr "ارسال و غیرفعال‌سازی"
+
+#: libs/WebAppick/AppServices/Insights.php:1170
+msgid "Processing..."
+msgstr "در حال پردازش..."
+
+#. translators: 1: Warning in bold tag, 2: This plugin name, 3: API Host Name, 4: WP_ACCESSIBLE_HOSTS constant
+#: libs/WebAppick/AppServices/License.php:187
+#, php-format
+msgid ""
+"%1$s You're blocking external requests which means you won't be able to get "
+"%2$s updates. Please add %3$s to %4$s."
+msgstr ""
+"‏%1$s شما درخواست‌های خارجی را مسدود می‌کنید، به این معنی که نمی‌توانید "
+"به‌روزرسانی‌های %2$s را دریافت کنید. لطفاً %3$s را به %4$s اضافه کنید."
+
+#: libs/WebAppick/AppServices/License.php:188
+msgid "Warning!"
+msgstr "هشدار!"
+
+#. translators: 1: This plugin name, 2: Plugin/Theme, 3: Activation Page URL, 4: This Plugin Name
+#: libs/WebAppick/AppServices/License.php:206
+#, php-format
+msgid ""
+"The %1$s API Key has not been activated, so the %2$s is inactive! %3$s to "
+"activate %4$s."
+msgstr ""
+"کلید %1$s API فعال نشده است، بنابراین %2$s غیرفعال است! %3$s برای فعال کردن "
+"%4$s."
+
+#: libs/WebAppick/AppServices/License.php:209
+msgid "Click here"
+msgstr "کلیک کنید"
+
+#: libs/WebAppick/AppServices/License.php:356
+msgid "Invalid Request Action."
+msgstr "اقدام درخواست نامعتبر."
+
+#: libs/WebAppick/AppServices/License.php:365
+msgid "Invalid/Empty License Data."
+msgstr "اطلاعات لایسنس نامعتبر/خالی است."
+
+#: libs/WebAppick/AppServices/License.php:402
+msgid "Unknown error occurred, Please try again."
+msgstr "خطای ناشناخته رخ داد، لطفاً دوباره امتحان کنید."
+
+#: libs/WebAppick/AppServices/License.php:461
+#: libs/WebAppick/AppServices/License.php:462
+#: libs/WebAppick/AppServices/License.php:627
+msgid "Manage License"
+msgstr "مدیریت لایسنس"
+
+#: libs/WebAppick/AppServices/License.php:512
+msgid "License Settings"
+msgstr "تنظیمات لایسنس"
+
+#. translators: %s: This Plugin Name
+#: libs/WebAppick/AppServices/License.php:522
+#, php-format
+msgid ""
+"Active %s by your license key to get professional support and automatic "
+"update from your WordPress dashboard."
+msgstr ""
+"برای دریافت پشتیبانی حرفه ای و به روز رسانی خودکار از داشبورد وردپرس خود، %s "
+"را با کلید لایسنس خود فعال کنید."
+
+#: libs/WebAppick/AppServices/License.php:535
+msgid "License Key"
+msgstr "کلید لایسنس"
+
+#: libs/WebAppick/AppServices/License.php:538
+msgid "Enter your license key to activate"
+msgstr "کلید لایسنس خود را برای فعال کردن وارد کنید"
+
+#: libs/WebAppick/AppServices/License.php:561
+#: libs/WebAppick/AppServices/License.php:564
+msgid "Product ID"
+msgstr "شناسه محصول"
+
+#: libs/WebAppick/AppServices/License.php:585
+msgid "Select License Type"
+msgstr "نوع لایسنس را انتخاب کنید"
+
+#: libs/WebAppick/AppServices/License.php:588
+msgid "Select A License Type"
+msgstr "نوع لایسنس را انتخاب کنید"
+
+#: libs/WebAppick/AppServices/License.php:624
+#: libs/WebAppick/AppServices/License.php:931
+msgid "Activate License"
+msgstr "لایسنس را فعال کنید"
+
+#: libs/WebAppick/AppServices/License.php:624
+msgid "Deactivate License"
+msgstr "غیرفعال کردن لایسنس"
+
+#: libs/WebAppick/AppServices/License.php:883
+msgid "Status:"
+msgstr "وضعیت:"
+
+#: libs/WebAppick/AppServices/License.php:884
+msgid "Active"
+msgstr "فعال"
+
+#: libs/WebAppick/AppServices/License.php:884
+msgid "Inactive"
+msgstr "غیر فعال"
+
+#: libs/WebAppick/AppServices/License.php:888
+msgid "Activation Limit:"
+msgstr "محدودیت فعال سازی:"
+
+#: libs/WebAppick/AppServices/License.php:889
+msgid "Unlimited"
+msgstr "نامحدود"
+
+#: libs/WebAppick/AppServices/License.php:892
+msgid "Total Activation:"
+msgstr "کل فعال سازی:"
+
+#: libs/WebAppick/AppServices/License.php:897
+msgid "Activation Remaining:"
+msgstr "فعال سازی باقی مانده:"
+
+#. translators: 1: Remaining activation, 2: Total activation
+#: libs/WebAppick/AppServices/License.php:902
+#, php-format
+msgid "%1$d out of %2$d"
+msgstr "‏%1$d از %2$d"
+
+#: libs/WebAppick/AppServices/License.php:911
+msgid "Automatic Update:"
+msgstr "به روز رسانی خودکار:"
+
+#: libs/WebAppick/AppServices/License.php:912
+msgid "Enabled"
+msgstr "فعال شد"
+
+#: libs/WebAppick/AppServices/License.php:912
+msgid "Disabled"
+msgstr "معلول"
+
+#: libs/WebAppick/AppServices/License.php:944
+msgid "The license key field is required."
+msgstr "فیلد کلید لایسنس الزامی است."
+
+#: libs/WebAppick/AppServices/License.php:956
+#: libs/WebAppick/AppServices/License.php:969
+#: libs/WebAppick/AppServices/License.php:1007
+msgid "Unknown error occurred."
+msgstr "خطای ناشناخته رخ داد."
+
+#: libs/WebAppick/AppServices/License.php:987
+msgid "License activated successfully."
+msgstr "لایسنس با موفقیت فعال شد."
+
+#: libs/WebAppick/AppServices/License.php:989
+msgid "License Updated successfully."
+msgstr "لایسنس با موفقیت به روز شد."
+
+#: libs/WebAppick/AppServices/License.php:1000
+msgid "License key not found."
+msgstr "کلید لایسنس پیدا نشد."
+
+#: libs/WebAppick/AppServices/License.php:1013
+msgid "License deactivated successfully."
+msgstr "لایسنس با موفقیت غیرفعال شد."
+
+#: libs/WebAppick/AppServices/Promotions.php:135
+msgid "Promotion Source URL Not Set. see Promotions::set_source( $URL )"
+msgstr "لینک منبع تبلیغات تنظیم نشده است. تبلیغات::set_source ($URL) را ببینید"
+
+#: libs/WebAppick/AppServices/Promotions.php:388
+msgid "Promo hidden"
+msgstr "عدم نمایش"
+
+#: libs/WebAppick/AppServices/Promotions.php:401
+msgid "Method must be invoked inside admin_init action"
+msgstr "متد باید در داخل اکشن admin_init فراخوانی شود"
+
+#: woo-invoice-pro.php:653
+msgid "No order found with your given date range."
+msgstr "هیچ سفارشی با محدوده تاریخ داده شده شما پیدا نشد."
+
+#: woo-invoice-pro.php:711
+msgid "No completed order found with your given date range."
+msgstr "هیچ سفارش تکمیل شده ای با محدوده تاریخ داده شده شما یافت نشد."
+
+#: woo-invoice-pro.php:790
+#, php-format
+msgid "Toggle panel: %s"
+msgstr "تعویض پانل: %s"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://webappick.com"
+msgstr "https://wpnovin.com"
+
+#. Description of the plugin/theme
+msgid ""
+"Automatically email PDF invoice and easily create & print packing slip and "
+"shipping label for woocommerce orders."
+msgstr ""
+"یک افزونه پیشرفته و حرفه ای برای ایجاد فاکتور های پی دی اف ، فاکتور بسته "
+"بندی و برچسب حمل و نقل در ووکامرس"
+
+#. Author of the plugin/theme
+msgid "WebAppick"
+msgstr "نوین وردپرس"

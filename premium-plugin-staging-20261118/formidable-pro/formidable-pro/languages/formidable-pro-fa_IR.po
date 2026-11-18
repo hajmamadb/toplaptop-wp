@@ -1,0 +1,5061 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"Project-Id-Version: Formidable Forms Pro\n"
+"POT-Creation-Date: 2024-02-13 12:49+0330\n"
+"PO-Revision-Date: 2024-02-13 13:35+0330\n"
+"Language-Team: فارسی\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: formidable-pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: fa_IR\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.4.0; wp-6.4.3\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/controllers/FrmProAddonsController.php:63
+msgid "Deactivate"
+msgstr "از کار انداختن"
+
+#: classes/controllers/FrmProAddonsController.php:67
+msgid "Activate"
+msgstr "فعال کنید"
+
+#: classes/controllers/FrmProAddonsController.php:71
+msgid "Uninstall"
+msgstr "حذف نصب کنید"
+
+#: classes/controllers/FrmProAddonsController.php:81
+#: classes/controllers/FrmProAppController.php:789
+msgid "Install"
+msgstr "نصب"
+
+#: classes/controllers/FrmProAddonsController.php:85
+#: classes/controllers/FrmProAddonsController.php:267
+#: classes/controllers/FrmProSiteHealthController.php:117
+#: classes/helpers/FrmProEddHelper.php:76
+#: classes/models/FrmProEmailLicenseExpired.php:45
+#: classes/views/emails/license-expired.php:24
+msgid "Renew Now"
+msgstr "اکنون تمدید کنید"
+
+#: classes/controllers/FrmProAddonsController.php:272
+msgid "Close"
+msgstr "بستن"
+
+#: classes/controllers/FrmProAddonsController.php:353
+msgid ""
+"Your account license has expired and is no longer qualified for important "
+"security updates."
+msgstr ""
+"مجوز حساب شما منقضی شده است و دیگر برای به روز رسانی های امنیتی مهم واجد "
+"شرایط نیست."
+
+#. translators: %s: Duration until license expires (ie 5 days, 1 hour)
+#: classes/controllers/FrmProAddonsController.php:369
+#, php-format
+msgid "Your account license expires in %s."
+msgstr "مجوز حساب شما در %s منقضی می شود."
+
+#: classes/controllers/FrmProAddonsController.php:534
+msgid "Your plugins have been installed and activated."
+msgstr "افزونه های شما نصب و فعال شده اند."
+
+#: classes/controllers/FrmProAddonsController.php:698
+msgid "Heads up! Your license has expired"
+msgstr "سر بالا! مجوز شما منقضی شده است"
+
+#: classes/controllers/FrmProAddonsController.php:699
+msgid ""
+"An active license is needed to access new features, add-ons, plugin updates, "
+"and our world class support!"
+msgstr ""
+"یک مجوز فعال برای دسترسی به ویژگی‌های جدید، افزونه‌ها، به‌روزرسانی‌های افزونه و "
+"پشتیبانی کلاس جهانی ما مورد نیاز است!"
+
+#: classes/controllers/FrmProAddonsController.php:704
+#: classes/controllers/FrmProAddonsController.php:753
+#: classes/controllers/FrmProDashboardController.php:31
+#: classes/controllers/FrmProDashboardController.php:40
+msgid "Learn More"
+msgstr "بیشتر بدانید"
+
+#: classes/controllers/FrmProAddonsController.php:708
+msgid "Renew License Now"
+msgstr "اکنون مجوز را تمدید کنید"
+
+#. translators: %1$s: HTML break line + open link, %2$s: HTML start b tag, %3$s: HTML close b tag & link
+#: classes/controllers/FrmProAddonsController.php:735
+#, php-format
+msgid ""
+"Your version of Formidable Forms has been altered and may contain malware!"
+"%1$sSwitch to the official version now for %2$s50%% off%3$s"
+msgstr ""
+"نسخه Formidable Forms شما تغییر یافته است و ممکن است حاوی بدافزار باشد!"
+"%1$sاکنون با %2$s50%% تخفیف%3$s به نسخه رسمی بروید"
+
+#: classes/controllers/FrmProAddonsController.php:747
+msgid "Heads up! Your plugin has been altered!"
+msgstr "سر بالا! افزونه شما تغییر کرده است!"
+
+#: classes/controllers/FrmProAddonsController.php:758
+msgid "Get 50% Off!"
+msgstr "50% تخفیف بگیرید!"
+
+#: classes/controllers/FrmProAddressesController.php:158
+#: classes/models/fields/FrmProFieldAddress.php:117
+msgid "Line 1"
+msgstr "خط 1"
+
+#: classes/controllers/FrmProAddressesController.php:159
+#: classes/models/fields/FrmProFieldAddress.php:118
+msgid "Line 2"
+msgstr "خط 2"
+
+#: classes/controllers/FrmProAddressesController.php:160
+#: classes/controllers/FrmProAddressesController.php:186
+#: classes/helpers/FrmProFieldsHelper.php:4246
+#: classes/models/fields/FrmProFieldAddress.php:108
+#: classes/models/fields/FrmProFieldAddress.php:119
+msgid "Country"
+msgstr "کشور"
+
+#: classes/controllers/FrmProAddressesController.php:183
+#: classes/models/fields/FrmProFieldAddress.php:105
+msgid "City"
+msgstr "شهر"
+
+#: classes/controllers/FrmProAddressesController.php:184
+#: classes/models/fields/FrmProFieldAddress.php:106
+msgid "State/Province"
+msgstr "ایالت/استان"
+
+#: classes/controllers/FrmProAddressesController.php:185
+#: classes/models/fields/FrmProFieldAddress.php:107
+msgid "Zip/Postal"
+msgstr "پستی/پستی"
+
+#: classes/controllers/FrmProAppController.php:20
+msgid "Formidable Tags"
+msgstr "برچسب های قدرتمند"
+
+#: classes/controllers/FrmProAppController.php:21
+msgid "Formidable Tag"
+msgstr "تگ قدرتمند"
+
+#: classes/controllers/FrmProAppController.php:355
+#: classes/helpers/FrmProEntriesHelper.php:329
+#: classes/views/frmpro-entries/edit.php:13
+#: classes/views/frmpro-entries/edit.php:31
+msgid "Edit Entry"
+msgstr "ویرایش ورودی"
+
+#: classes/controllers/FrmProAppController.php:369
+#: classes/views/frmpro-statistics/select.php:10
+#: classes/views/frmpro-statistics/show.php:9
+#: classes/views/frmpro-statistics/show.php:17
+msgid "Reports"
+msgstr "گزارش ها"
+
+#. translators: %1$s: Start link HTML, %2$s: End link HTML
+#: classes/controllers/FrmProAppController.php:824
+#, php-format
+msgid ""
+"Formidable Forms installed, but not yet activated. %1$sAdd your license key "
+"now%2$s to start enjoying all the premium features."
+msgstr ""
+"Formidable Forms نصب شده است، اما هنوز فعال نشده است. %1$sاکنون کلید مجوز "
+"خود را اضافه کنید%2$s تا از همه ویژگی‌های ممتاز لذت ببرید."
+
+#: classes/controllers/FrmProApplicationTaxonomyController.php:258
+#: classes/views/applications/taxonomy/list.php:7
+msgid "Applications"
+msgstr "برنامه های کاربردی"
+
+#: classes/controllers/FrmProApplicationTaxonomyController.php:259
+#: classes/controllers/FrmProFormsController.php:1416
+msgid "Application"
+msgstr "کاربرد"
+
+#: classes/controllers/FrmProApplicationTaxonomyController.php:260
+msgid "Search Applications"
+msgstr "جستجوی برنامه ها"
+
+#: classes/controllers/FrmProApplicationTaxonomyController.php:262
+msgid "All Applications"
+msgstr "همه برنامه ها"
+
+#: classes/controllers/FrmProApplicationTaxonomyController.php:263
+msgid "Edit Application"
+msgstr "ویرایش برنامه"
+
+#: classes/controllers/FrmProApplicationTaxonomyController.php:264
+msgid "Update Application"
+msgstr "به روز رسانی برنامه"
+
+#: classes/controllers/FrmProApplicationTaxonomyController.php:265
+msgid "Add New Application"
+msgstr "افزودن برنامه جدید"
+
+#: classes/controllers/FrmProApplicationTaxonomyController.php:266
+msgid "New Application Name"
+msgstr "نام برنامه جدید"
+
+#: classes/controllers/FrmProApplicationTaxonomyController.php:270
+msgid "&larr; Go to Applications"
+msgstr "&larr; به برنامه ها بروید"
+
+#: classes/controllers/FrmProApplicationTaxonomyController.php:414
+msgid "(child)"
+msgstr "(کودک)"
+
+#: classes/controllers/FrmProApplicationTaxonomyController.php:415
+msgid "Repeater Form"
+msgstr "فرم تکرار کننده"
+
+#: classes/controllers/FrmProApplicationTaxonomyController.php:418
+msgid "Embedded Form"
+msgstr "فرم تعبیه شده"
+
+#: classes/controllers/FrmProApplicationTaxonomyController.php:421
+msgid "Form"
+msgstr "فرم"
+
+#: classes/controllers/FrmProApplicationTaxonomyController.php:532
+msgid "Unable to create application"
+msgstr "ایجاد برنامه امکان پذیر نیست"
+
+#: classes/controllers/FrmProApplicationXMLController.php:111
+msgid "There was an error creating the application."
+msgstr "خطایی در ایجاد برنامه وجود داشت."
+
+#: classes/controllers/FrmProApplicationXMLController.php:170
+msgid "Go to imported application"
+msgstr "به برنامه وارد شده بروید"
+
+#. translators: %1$s: Number of applications
+#: classes/controllers/FrmProApplicationXMLController.php:184
+#, php-format
+msgid "%1$s Application"
+msgid_plural "%1$s Applications"
+msgstr[0] "%1$s اپلیکیشن ها"
+msgstr[1] "اپلیکیشن  %1$s"
+
+#: classes/controllers/FrmProApplicationsController.php:347
+msgid "Add Item"
+msgstr "این مورد را اضافه کنید"
+
+#: classes/controllers/FrmProApplicationsController.php:459
+msgid "The template you are trying to install could not be validated."
+msgstr "الگویی که می‌خواهید نصب کنید تأیید نشد."
+
+#: classes/controllers/FrmProApplicationsController.php:467
+msgid "There was an error reading the form template"
+msgstr "در خواندن الگوی فرم خطایی روی داد"
+
+#: classes/controllers/FrmProCreditCardsController.php:62
+#: classes/models/fields/FrmProFieldCreditCard.php:92
+#: classes/models/fields/FrmProFieldCreditCard.php:170
+msgid "Month"
+msgstr "ماه"
+
+#: classes/controllers/FrmProCreditCardsController.php:69
+#: classes/models/fields/FrmProFieldCreditCard.php:93
+#: classes/models/fields/FrmProFieldCreditCard.php:171
+msgid "Year"
+msgstr "سال"
+
+#: classes/controllers/FrmProCreditCardsController.php:94
+msgid "Expiration Month"
+msgstr "ماه انقضا"
+
+#: classes/controllers/FrmProCreditCardsController.php:95
+msgid "Expiration Year"
+msgstr "سال انقضا"
+
+#: classes/controllers/FrmProCreditCardsController.php:118
+#: classes/models/fields/FrmProFieldCreditCard.php:49
+msgid "Card Number"
+msgstr "شماره کارت"
+
+#: classes/controllers/FrmProCreditCardsController.php:119
+#: classes/models/fields/FrmProFieldCreditCard.php:50
+msgid "CVC"
+msgstr "CVC"
+
+#: classes/controllers/FrmProDashboardController.php:29
+msgid "All Views"
+msgstr "همه نماها"
+
+#: classes/controllers/FrmProDashboardController.php:38
+msgid "Installed Apps"
+msgstr "برنامه های نصب شده"
+
+#: classes/controllers/FrmProEntriesController.php:96
+msgid "Draft was Successfully Created"
+msgstr "پیش نویس با موفقیت ایجاد شد"
+
+#: classes/controllers/FrmProEntriesController.php:98
+msgid "Entry was Successfully Created"
+msgstr "ورودی با موفقیت ایجاد شد"
+
+#: classes/controllers/FrmProEntriesController.php:133
+msgid "Draft was Successfully Updated"
+msgstr "پیش نویس با موفقیت به روز شد"
+
+#: classes/controllers/FrmProEntriesController.php:135
+msgid "Entry was Successfully Updated"
+msgstr "ورودی با موفقیت به روز شد"
+
+#: classes/controllers/FrmProEntriesController.php:138
+msgid "Go Back to Entries"
+msgstr "بازگشت به ورودی ها"
+
+#: classes/controllers/FrmProEntriesController.php:157
+msgid "Entry was Successfully Duplicated"
+msgstr "ورودی با موفقیت تکرار شد"
+
+#: classes/controllers/FrmProEntriesController.php:159
+msgid "There was a problem duplicating that entry"
+msgstr "مشکلی در کپی کردن آن ورودی وجود داشت"
+
+#: classes/controllers/FrmProEntriesController.php:233
+msgid "Entry was successfully duplicated"
+msgstr "ورودی با موفقیت تکرار شد"
+
+#: classes/controllers/FrmProEntriesController.php:341
+msgid "No entries were specified"
+msgstr "هیچ ورودی مشخص نشد"
+
+#: classes/controllers/FrmProEntriesController.php:368
+msgid "No form was found"
+msgstr "هیچ فرمی پیدا نشد"
+
+#: classes/controllers/FrmProEntriesController.php:1417
+msgid "Create Entry in Form"
+msgstr "ایجاد ورودی در فرم"
+
+#: classes/controllers/FrmProEntriesController.php:1473
+msgid "Copied from Post"
+msgstr "کپی شده از پست"
+
+#: classes/controllers/FrmProEntriesController.php:1517
+#: classes/controllers/FrmProEntriesController.php:1595
+msgid "You are trying to access an entry that does not exist."
+msgstr "شما در حال تلاش برای دسترسی به ورودی هستید که وجود ندارد."
+
+#: classes/controllers/FrmProEntriesController.php:1585
+msgid "Save"
+msgstr "صرفه جویی"
+
+#: classes/controllers/FrmProEntriesController.php:1892
+msgid "Entries Successfully Deleted"
+msgstr "ورودی ها با موفقیت حذف شدند"
+
+#: classes/controllers/FrmProEntriesController.php:1896
+msgid "No Entries Selected"
+msgstr "هیچ ورودی انتخاب نشده است"
+
+#: classes/controllers/FrmProEntriesController.php:1917
+msgid "Post"
+msgstr "پست"
+
+#: classes/controllers/FrmProEntriesController.php:1921
+#: classes/views/displays/where_options.php:31
+msgid "Draft"
+msgstr "پیش نویس"
+
+#: classes/controllers/FrmProEntriesController.php:1924
+msgid "Parent Entry ID"
+msgstr "شناسه ورودی والدین"
+
+#: classes/controllers/FrmProEntriesController.php:1934
+#: classes/controllers/FrmProEntriesController.php:2147
+#: classes/controllers/FrmProEntriesController.php:2700
+#: classes/helpers/FrmProAppHelper.php:415
+#: classes/helpers/FrmProEntriesHelper.php:1121
+#: classes/models/FrmProContent.php:447
+#: classes/models/FrmProSummaryFormatter.php:80
+msgid "Edit"
+msgstr "ویرایش کنید"
+
+#: classes/controllers/FrmProEntriesController.php:1939
+#: classes/helpers/FrmProEntriesHelper.php:288
+#: classes/helpers/FrmProEntriesHelper.php:350
+msgid "Duplicate"
+msgstr "تکراری"
+
+#: classes/controllers/FrmProEntriesController.php:1961
+msgid "No Entries Found"
+msgstr "هیچ ورودی یافت نشد"
+
+#: classes/controllers/FrmProEntriesController.php:1962
+#: classes/controllers/FrmProEntriesController.php:2368
+#: classes/controllers/FrmProEntriesController.php:2444
+#: classes/controllers/FrmProEntriesController.php:2868
+msgid "Are you sure you want to delete that entry?"
+msgstr "آیا مطمئن هستید که می خواهید آن ورودی را حذف کنید؟"
+
+#: classes/controllers/FrmProEntriesController.php:1979
+msgid ""
+"There are no matching fields. Please check your formresults shortcode to "
+"make sure you are using the correct form and field IDs."
+msgstr ""
+"هیچ فیلد منطبقی وجود ندارد. لطفاً کد کوتاه فرم نتایج خود را بررسی کنید تا "
+"مطمئن شوید که از فرم و شناسه فیلد صحیح استفاده می کنید."
+
+#: classes/controllers/FrmProEntriesController.php:2161
+#: classes/controllers/FrmProEntriesController.php:2427
+#: classes/controllers/FrmProEntriesController.php:2867
+#: classes/helpers/FrmProEntriesListHelper.php:11
+#: classes/views/frmpro-fields/back-end/image-selector.php:21
+#: classes/views/frmpro-form-actions/_email_attachment_row.php:46
+#: classes/views/styles/_bg-image.php:15
+msgid "Delete"
+msgstr "حذف"
+
+#: classes/controllers/FrmProEntriesController.php:2316
+#: classes/controllers/FrmProFormsController.php:938
+#: classes/controllers/FrmProFormsController.php:974
+#: classes/helpers/FrmProEntriesListHelper.php:90
+msgid "Search"
+msgstr "جستجو کردن"
+
+#: classes/controllers/FrmProEntriesController.php:2701
+#: classes/views/applications/buttons/settings.php:20
+#: classes/views/frmpro-form-actions/_custom_field_row.php:39
+msgid "Cancel"
+msgstr "لغو کنید"
+
+#: classes/controllers/FrmProEntriesController.php:2808
+#: classes/controllers/FrmProEntriesController.php:3575
+#: classes/models/FrmProSettings.php:27
+msgid "Update"
+msgstr "به روز رسانی"
+
+#: classes/controllers/FrmProEntriesController.php:2818
+msgid "You are missing options in your shortcode. A field_id is required."
+msgstr ""
+"شما گزینه هایی را در کد کوتاه خود از دست داده اید. Field_id مورد نیاز است."
+
+#: classes/controllers/FrmProEntriesController.php:2919
+#: classes/controllers/FrmProEntriesController.php:3249
+msgid "Your entry was successfully deleted"
+msgstr "ورودی شما با موفقیت حذف شد"
+
+#: classes/controllers/FrmProEntriesController.php:2973
+msgid "You are missing options in your shortcode. field_id is required."
+msgstr ""
+"شما گزینه هایی را در کد کوتاه خود از دست داده اید. field_id مورد نیاز است."
+
+#: classes/controllers/FrmProEntriesController.php:3265
+msgid "There was an error deleting that entry"
+msgstr "هنگام حذف آن ورودی خطایی روی داد"
+
+#: classes/controllers/FrmProEntriesController.php:3286
+msgid "no one"
+msgstr "هیچکس"
+
+#: classes/controllers/FrmProEntriesController.php:3289
+#, php-format
+msgid "Resent to %s"
+msgstr "ارسال مجدد به %s"
+
+#: classes/controllers/FrmProEntriesController.php:3292
+msgid "Resent to No one! You do not have permission"
+msgstr "رنجش به هیچ کس! تو اجازه نداری"
+
+#: classes/controllers/FrmProEntriesController.php:3313
+msgid "Not receiving emails?"
+msgstr "ایمیل دریافت نمی کنید؟"
+
+#: classes/controllers/FrmProEntriesController.php:3315
+msgid "Setup SMTP."
+msgstr "SMTP را راه اندازی کنید."
+
+#: classes/controllers/FrmProFieldsController.php:322
+msgid "Select options"
+msgstr "گزینه مورد نظر را انتخاب کنید"
+
+#: classes/controllers/FrmProFieldsController.php:322
+msgid "Select an option"
+msgstr "یک گزینه را انتخاب کنید"
+
+#: classes/controllers/FrmProFieldsController.php:449
+msgid "Other"
+msgstr "دیگر"
+
+#: classes/controllers/FrmProFieldsController.php:514
+msgid "One Column"
+msgstr "یک ستون"
+
+#: classes/controllers/FrmProFieldsController.php:515
+msgid "Two Columns"
+msgstr "دو ستون"
+
+#: classes/controllers/FrmProFieldsController.php:516
+msgid "Three Columns"
+msgstr "سه ستون"
+
+#: classes/controllers/FrmProFieldsController.php:517
+msgid "Four Columns"
+msgstr "چهار ستون"
+
+#: classes/controllers/FrmProFieldsController.php:518
+msgid "Inline Options"
+msgstr "گزینه های درون خطی"
+
+#: classes/controllers/FrmProFieldsController.php:566
+msgid "Default Value (Date Calculation)"
+msgstr "مقدار پیش فرض (محاسبه تاریخ)"
+
+#: classes/controllers/FrmProFieldsController.php:612
+#: classes/views/frmpro-fields/back-end/autopopulate.php:8
+#: classes/views/frmpro-fields/back-end/calculations.php:8
+#: classes/views/frmpro-fields/back-end/default-placeholder.php:27
+msgid "Default Value"
+msgstr "مقدار پیش فرض"
+
+#: classes/controllers/FrmProFieldsController.php:697
+#: classes/views/frmpro-fields/options-form-before.php:50
+msgid "Select a taxonomy on the Form Actions tab of the Form Settings page"
+msgstr "یک طبقه بندی را در برگه اقدامات فرم در صفحه تنظیمات فرم انتخاب کنید"
+
+#: classes/controllers/FrmProFieldsController.php:1354
+#: classes/controllers/FrmProFieldsController.php:1360
+msgid "Show form uploads"
+msgstr "نمایش آپلودهای فرم"
+
+#: classes/controllers/FrmProFieldsController.php:1359
+msgid "Hide form uploads"
+msgstr "پنهان کردن آپلودهای فرم"
+
+#: classes/controllers/FrmProFormActionsController.php:42
+msgid "Send"
+msgstr "ارسال"
+
+#: classes/controllers/FrmProFormActionsController.php:43
+msgid "Stop"
+msgstr "متوقف کردن"
+
+#: classes/controllers/FrmProFormActionsController.php:44
+msgid "this notification if"
+msgstr "این اطلاعیه اگر"
+
+#: classes/controllers/FrmProFormActionsController.php:46
+msgid "Create"
+msgstr "ايجاد كردن"
+
+#: classes/controllers/FrmProFormActionsController.php:47
+msgid "Don't create"
+msgstr "ایجاد نکن"
+
+#: classes/controllers/FrmProFormActionsController.php:48
+msgid "this post if"
+msgstr "این پست اگر"
+
+#: classes/controllers/FrmProFormActionsController.php:50
+msgid "Register"
+msgstr "ثبت نام"
+
+#: classes/controllers/FrmProFormActionsController.php:51
+msgid "Don't register"
+msgstr "ثبت نام نکن"
+
+#: classes/controllers/FrmProFormActionsController.php:52
+msgid "user if"
+msgstr "کاربر اگر"
+
+#: classes/controllers/FrmProFormActionsController.php:54
+msgid "Do"
+msgstr "انجام دادن"
+
+#: classes/controllers/FrmProFormActionsController.php:55
+msgid "Don't do"
+msgstr "انجام نده"
+
+#: classes/controllers/FrmProFormActionsController.php:56
+msgid "this action if"
+msgstr "این اقدام اگر"
+
+#: classes/controllers/FrmProFormActionsController.php:609
+#: classes/controllers/FrmProFormActionsController.php:637
+msgid "Post type is empty"
+msgstr "نوع پست خالی است"
+
+#: classes/controllers/FrmProFormActionsController.php:659
+msgid "Forms to PDF"
+msgstr "فرم ها به PDF"
+
+#: classes/controllers/FrmProFormActionsController.php:674
+msgid "Attach PDF of entry to email"
+msgstr "PDF ورودی را به ایمیل ضمیمه کنید"
+
+#: classes/controllers/FrmProFormActionsController.php:700
+msgid "ACF integration"
+msgstr "ادغام ACF"
+
+#: classes/controllers/FrmProFormActionsController.php:715
+msgid "Map form fields to Advanced Custom Fields"
+msgstr "نقشه فیلدهای فرم به فیلدهای سفارشی پیشرفته"
+
+#: classes/controllers/FrmProFormsController.php:265
+msgid "Form Permissions"
+msgstr "مجوزهای فرم"
+
+#: classes/controllers/FrmProFormsController.php:272
+msgid "Form Scheduling"
+msgstr "زمان بندی فرم"
+
+#: classes/controllers/FrmProFormsController.php:331
+msgid "Button Label"
+msgstr "برچسب دکمه"
+
+#: classes/controllers/FrmProFormsController.php:374
+msgid "Current Date"
+msgstr "تاریخ فعلی"
+
+#: classes/controllers/FrmProFormsController.php:375
+msgid "Current Time"
+msgstr "زمان فعلی"
+
+#: classes/controllers/FrmProFormsController.php:376
+#: classes/helpers/FrmProFieldsHelper.php:4249
+msgid "Email"
+msgstr "پست الکترونیک"
+
+#: classes/controllers/FrmProFormsController.php:377
+msgid "Login"
+msgstr "وارد شدن"
+
+#: classes/controllers/FrmProFormsController.php:378
+msgid "Display Name"
+msgstr "نام نمایشی"
+
+#: classes/controllers/FrmProFormsController.php:379
+msgid "First Name"
+msgstr "نام کوچک"
+
+#: classes/controllers/FrmProFormsController.php:380
+msgid "Last Name"
+msgstr "نام خانوادگی"
+
+#: classes/controllers/FrmProFormsController.php:381
+#: classes/models/FrmProForm.php:520
+msgid "User ID"
+msgstr "شناسه کاربر"
+
+#: classes/controllers/FrmProFormsController.php:382
+msgid "User Meta"
+msgstr "متای کاربر"
+
+#: classes/controllers/FrmProFormsController.php:383
+msgid "User Role"
+msgstr "نقش کاربر"
+
+#: classes/controllers/FrmProFormsController.php:384
+#: classes/helpers/FrmProFieldsHelper.php:3251
+#: classes/views/displays/where_row.php:24
+#: classes/views/xml/map_csv_fields.php:116
+msgid "Post ID"
+msgstr "شناسه پست"
+
+#: classes/controllers/FrmProFormsController.php:385
+#: classes/views/frmpro-form-actions/post_options.php:34
+msgid "Post Title"
+msgstr "عنوان پست"
+
+#: classes/controllers/FrmProFormsController.php:386
+msgid "Author Email"
+msgstr "ایمیل نویسنده"
+
+#: classes/controllers/FrmProFormsController.php:387
+msgid "Post Meta"
+msgstr "پست متا"
+
+#: classes/controllers/FrmProFormsController.php:388
+#: classes/views/frmpro-forms/add_form_options.php:37
+#: classes/views/xml/map_csv_fields.php:130
+msgid "IP Address"
+msgstr "آدرس آی پی"
+
+#: classes/controllers/FrmProFormsController.php:389
+msgid "Increment"
+msgstr "افزایش"
+
+#: classes/controllers/FrmProFormsController.php:391
+msgid "GET/POST"
+msgstr "GET/POST"
+
+#: classes/controllers/FrmProFormsController.php:392
+msgid "A variable from the URL or value posted from previous page."
+msgstr "متغیری از URL یا مقدار ارسال شده از صفحه قبل."
+
+#: classes/controllers/FrmProFormsController.php:392
+msgid ""
+"Replace 'whatever' with the parameter name. In url.com?product=form, the "
+"variable is 'product'. You would use [get param=product] in your field."
+msgstr ""
+"\"whatever\" را با نام پارامتر جایگزین کنید. در url.com?product=form، متغیر "
+"\"product\" است. شما می توانید از [get param=product] در زمینه خود استفاده "
+"کنید."
+
+#: classes/controllers/FrmProFormsController.php:396
+msgid "A variable from the PHP SERVER array."
+msgstr "متغیری از آرایه PHP SERVER."
+
+#: classes/controllers/FrmProFormsController.php:396
+msgid ""
+"Replace 'whatever' with the parameter name. To get the url of the current "
+"page, use [server param=\"REQUEST_URI\"] in your field."
+msgstr ""
+"\"whatever\" را با نام پارامتر جایگزین کنید. برای دریافت url صفحه فعلی، از "
+"[server param=\"REQUEST_URI\"] در فیلد خود استفاده کنید."
+
+#: classes/controllers/FrmProFormsController.php:620
+#: classes/helpers/FrmProFormsHelper.php:695
+#: classes/models/fields/FrmProFieldBreak.php:71
+msgid "Previous"
+msgstr "قبلی"
+
+#: classes/controllers/FrmProFormsController.php:639
+#: classes/helpers/FrmProFormsHelper.php:696
+#: classes/views/frmpro-forms/save-draft-options.php:47
+msgid "Save Draft"
+msgstr "ذخیره پیش نویس"
+
+#: classes/controllers/FrmProFormsController.php:662
+#: classes/views/frmpro-forms/add_form_button_options.php:87
+msgid "Start Over"
+msgstr "شروع دوباره"
+
+#: classes/controllers/FrmProFormsController.php:707
+msgid "Equals"
+msgstr "برابر است"
+
+#: classes/controllers/FrmProFormsController.php:708
+msgid "Does not equal"
+msgstr "برابر نیست"
+
+#: classes/controllers/FrmProFormsController.php:709
+msgid "Contains"
+msgstr "حاوی"
+
+#: classes/controllers/FrmProFormsController.php:710
+msgid "Does not contain"
+msgstr "شامل نمی شود"
+
+#: classes/controllers/FrmProFormsController.php:711
+msgid "Is greater than"
+msgstr "بزرگتر است از"
+
+#: classes/controllers/FrmProFormsController.php:712
+msgid "Is greater than or equal to"
+msgstr "بزرگتر یا مساوی است"
+
+#: classes/controllers/FrmProFormsController.php:713
+msgid "Is less than"
+msgstr "کمتر است از"
+
+#: classes/controllers/FrmProFormsController.php:714
+msgid "Is less than or equal to"
+msgstr "کمتر یا مساوی است"
+
+#: classes/controllers/FrmProFormsController.php:721
+msgid "Clickable Links"
+msgstr "لینک های قابل کلیک"
+
+#: classes/controllers/FrmProFormsController.php:722
+msgid "Remove Links"
+msgstr "پیوندها را حذف کنید"
+
+#: classes/controllers/FrmProFormsController.php:722
+msgid "Removes the automatic links to category pages"
+msgstr "پیوندهای خودکار صفحات دسته را حذف می کند"
+
+#: classes/controllers/FrmProFormsController.php:723
+msgid "Sanitize"
+msgstr "ضدعفونی کنید"
+
+#: classes/controllers/FrmProFormsController.php:723
+msgid ""
+"Replaces spaces with dashes and lowercases all. Use if adding an HTML class "
+"or ID"
+msgstr ""
+"فاصله ها را با خط تیره و حروف کوچک جایگزین می کند. در صورت اضافه کردن یک "
+"کلاس HTML یا شناسه استفاده کنید"
+
+#: classes/controllers/FrmProFormsController.php:725
+msgid "Sanitize URL"
+msgstr "URL را ضد عفونی کنید"
+
+#: classes/controllers/FrmProFormsController.php:726
+msgid "Replaces all HTML entities with a URL safe string."
+msgstr "همه موجودات HTML را با یک رشته امن URL جایگزین می کند."
+
+#: classes/controllers/FrmProFormsController.php:728
+msgid "Truncate"
+msgstr "کوتاه کردن"
+
+#: classes/controllers/FrmProFormsController.php:728
+msgid ""
+"Truncate text with a link to view more. If using Both (dynamic), the link "
+"goes to the detail page. Otherwise, it will show in-place."
+msgstr ""
+"برای مشاهده بیشتر، متن را با پیوند کوتاه کنید. در صورت استفاده از Both "
+"(پویا)، پیوند به صفحه جزئیات می رود. در غیر این صورت در جای خود نشان داده می "
+"شود."
+
+#: classes/controllers/FrmProFormsController.php:729
+msgid "More Text"
+msgstr "متن بیشتر"
+
+#: classes/controllers/FrmProFormsController.php:731
+msgid "Time Ago"
+msgstr "چند وقت پیش"
+
+#: classes/controllers/FrmProFormsController.php:732
+msgid "How long ago a date was in minutes, hours, days, months, or years."
+msgstr "چند وقت پیش یک تاریخ بر حسب دقیقه، ساعت، روز، ماه یا سال بود."
+
+#: classes/controllers/FrmProFormsController.php:735
+msgid "Date Offset"
+msgstr "افست تاریخ"
+
+#: classes/controllers/FrmProFormsController.php:736
+msgid "Add or remove time from the selected date for date calculations."
+msgstr "برای محاسبه تاریخ، زمان را از تاریخ انتخابی اضافه یا حذف کنید."
+
+#: classes/controllers/FrmProFormsController.php:738
+msgid "# Format"
+msgstr "#قالب"
+
+#: classes/controllers/FrmProFormsController.php:739
+#: classes/views/frmpro-fields/back-end/product-single-option.php:19
+msgid "Saved Value"
+msgstr "مقدار ذخیره شده"
+
+#: classes/controllers/FrmProFormsController.php:739
+msgid "Show the saved value for fields with separate values."
+msgstr "مقدار ذخیره شده را برای فیلدهایی با مقادیر جداگانه نشان دهید."
+
+#: classes/controllers/FrmProFormsController.php:740
+msgid "Remove HTML"
+msgstr "HTML را حذف کنید"
+
+#: classes/controllers/FrmProFormsController.php:740
+msgid "Remove all HTML added into your form before display"
+msgstr "تمام HTML اضافه شده به فرم خود را قبل از نمایش حذف کنید"
+
+#: classes/controllers/FrmProFormsController.php:741
+msgid "Keep JS"
+msgstr "JS را نگه دارید"
+
+#: classes/controllers/FrmProFormsController.php:741
+msgid ""
+"Javascript from your form entries are automatically removed. Add this option "
+"only if you trust those submitting entries."
+msgstr ""
+"جاوا اسکریپت از ورودی های فرم شما به طور خودکار حذف می شود. این گزینه را فقط "
+"در صورتی اضافه کنید که به ورودی های ارسال کننده اعتماد دارید."
+
+#: classes/controllers/FrmProFormsController.php:937
+msgid "Graph"
+msgstr "نمودار"
+
+#: classes/controllers/FrmProFormsController.php:937
+msgid "Insert a Graph"
+msgstr "درج یک نمودار"
+
+#: classes/controllers/FrmProFormsController.php:938
+msgid "Add a Search Form"
+msgstr "یک فرم جستجو اضافه کنید"
+
+#: classes/controllers/FrmProFormsController.php:939
+msgid "Single Entry"
+msgstr "تک ورودی"
+
+#: classes/controllers/FrmProFormsController.php:939
+msgid "Display a Single Entry"
+msgstr "نمایش یک ورودی"
+
+#: classes/controllers/FrmProFormsController.php:940
+msgid "List of Entries"
+msgstr "لیست ورودی ها"
+
+#: classes/controllers/FrmProFormsController.php:940
+msgid "Display a List of Entries"
+msgstr "نمایش لیست ورودی ها"
+
+#: classes/controllers/FrmProFormsController.php:961
+msgid "Make read-only fields editable"
+msgstr "فیلدهای فقط خواندنی را قابل ویرایش کنید"
+
+#: classes/controllers/FrmProFormsController.php:972
+msgid "Use Formidable styling"
+msgstr "از یک ظاهر طراحی قدرتمند استفاده کنید"
+
+#: classes/controllers/FrmProFormsController.php:975
+msgid "Customize search button"
+msgstr "دکمه جستجو را سفارشی کنید"
+
+#: classes/controllers/FrmProFormsController.php:980
+msgid "The ID of the page with the search results"
+msgstr "شناسه صفحه با نتایج جستجو"
+
+#: classes/controllers/FrmProFormsController.php:995
+msgid "Select a form and field:"
+msgstr "یک فرم و فیلد را انتخاب کنید:"
+
+#: classes/controllers/FrmProFormsController.php:998
+#: classes/views/frmpro-fields/options-form-before.php:31
+#: classes/views/lookup-fields/back-end/get-options-from.php:14
+msgid "Select Form"
+msgstr "فرم را انتخاب کنید"
+
+#: classes/controllers/FrmProFormsController.php:1001
+#: classes/views/xml/csv_opts.php:21
+msgid "(no title)"
+msgstr "(بدون عنوان)"
+
+#: classes/controllers/FrmProFormsController.php:1013
+msgid "Graph Type"
+msgstr "نوع نمودار"
+
+#: classes/controllers/FrmProFormsController.php:1015
+msgid "Column"
+msgstr "ستون"
+
+#: classes/controllers/FrmProFormsController.php:1016
+msgid "Horizontal Bar"
+msgstr "نوار افقی"
+
+#: classes/controllers/FrmProFormsController.php:1017
+msgid "Pie"
+msgstr "پای"
+
+#: classes/controllers/FrmProFormsController.php:1018
+msgid "Line"
+msgstr "خط"
+
+#: classes/controllers/FrmProFormsController.php:1019
+msgid "Area"
+msgstr "حوزه"
+
+#: classes/controllers/FrmProFormsController.php:1020
+msgid "Scatter"
+msgstr "پراکنده کردن"
+
+#: classes/controllers/FrmProFormsController.php:1021
+msgid "Histogram"
+msgstr "هیستوگرام"
+
+#: classes/controllers/FrmProFormsController.php:1022
+msgid "Table"
+msgstr "جدول"
+
+#: classes/controllers/FrmProFormsController.php:1023
+msgid "Stepped Area"
+msgstr "منطقه پلکانی"
+
+#: classes/controllers/FrmProFormsController.php:1024
+msgid "Geographical Map"
+msgstr "نقشه جغرافیایی"
+
+#: classes/controllers/FrmProFormsController.php:1028
+msgid "Data Type"
+msgstr "نوع داده"
+
+#: classes/controllers/FrmProFormsController.php:1030
+msgid "The number of entries"
+msgstr "تعداد ورودی ها"
+
+#: classes/controllers/FrmProFormsController.php:1031
+msgid "Add the field values together"
+msgstr "مقادیر فیلد را با هم اضافه کنید"
+
+#: classes/controllers/FrmProFormsController.php:1032
+msgid "Average the totaled field values"
+msgstr "میانگین مجموع مقادیر فیلد"
+
+#: classes/controllers/FrmProFormsController.php:1035
+msgid "Height"
+msgstr "ارتفاع"
+
+#: classes/controllers/FrmProFormsController.php:1036
+msgid "Width"
+msgstr "عرض"
+
+#: classes/controllers/FrmProFormsController.php:1037
+#: classes/controllers/FrmProFormsController.php:1068
+msgid "Background color"
+msgstr "رنگ پس زمینه"
+
+#: classes/controllers/FrmProFormsController.php:1038
+msgid "Graph title"
+msgstr "عنوان نمودار"
+
+#: classes/controllers/FrmProFormsController.php:1039
+msgid "Title font size"
+msgstr "اندازه فونت عنوان"
+
+#: classes/controllers/FrmProFormsController.php:1040
+msgid "Title font name"
+msgstr "نام فونت عنوان"
+
+#: classes/controllers/FrmProFormsController.php:1042
+msgid "Turn your pie graph three-dimensional"
+msgstr "نمودار پای خود را سه بعدی کنید"
+
+#: classes/controllers/FrmProFormsController.php:1045
+msgid ""
+"When using dates for the x_axis parameter, you can include dates with a zero "
+"value."
+msgstr ""
+"هنگام استفاده از تاریخ ها برای پارامتر x_axis، می توانید تاریخ هایی را با "
+"مقدار صفر درج کنید."
+
+#: classes/controllers/FrmProFormsController.php:1046
+msgid "Include a legend with the graph"
+msgstr "یک افسانه را با نمودار اضافه کنید"
+
+#: classes/controllers/FrmProFormsController.php:1053
+msgid "Insert an entry ID/key:"
+msgstr "شناسه/کلید ورودی را وارد کنید:"
+
+#: classes/controllers/FrmProFormsController.php:1060
+msgid "Include user info like browser and IP"
+msgstr "شامل اطلاعات کاربر مانند مرورگر و IP"
+
+#: classes/controllers/FrmProFormsController.php:1061
+msgid "Include rows for blank fields"
+msgstr "ردیف هایی را برای فیلدهای خالی اضافه کنید"
+
+#: classes/controllers/FrmProFormsController.php:1062
+msgid "Do not include any HTML"
+msgstr "هیچ HTML را درج نکنید"
+
+#: classes/controllers/FrmProFormsController.php:1063
+msgid "Use RTL format"
+msgstr "از فرمت RTL استفاده کنید"
+
+#: classes/controllers/FrmProFormsController.php:1064
+msgid "Font size"
+msgstr "اندازه فونت"
+
+#: classes/controllers/FrmProFormsController.php:1065
+msgid "Text color"
+msgstr "رنگ متن"
+
+#: classes/controllers/FrmProFormsController.php:1066
+msgid "Border width"
+msgstr "عرض حاشیه"
+
+#: classes/controllers/FrmProFormsController.php:1067
+msgid "Border color"
+msgstr "رنگ لبه"
+
+#: classes/controllers/FrmProFormsController.php:1069
+msgid "Alternate background color"
+msgstr "رنگ پس زمینه جایگزین"
+
+#: classes/controllers/FrmProFormsController.php:1078
+msgid "Field ID/key for labels"
+msgstr "شناسه فیلد/کلید برای برچسب ها"
+
+#: classes/controllers/FrmProFormsController.php:1081
+msgid "Display format"
+msgstr "فرمت نمایش"
+
+#: classes/controllers/FrmProFormsController.php:1083
+#: classes/controllers/FrmProLookupFieldsController.php:20
+#: classes/models/fields/FrmProFieldData.php:70
+msgid "List"
+msgstr "فهرست کنید"
+
+#: classes/controllers/FrmProFormsController.php:1084
+msgid "Drop down"
+msgstr "رها کنید"
+
+#: classes/controllers/FrmProFormsController.php:1085
+msgid "Expanding archive"
+msgstr "در حال گسترش آرشیو"
+
+#: classes/controllers/FrmProFormsController.php:1090
+msgid "Privacy"
+msgstr "حریم خصوصی"
+
+#: classes/controllers/FrmProFormsController.php:1092
+msgid "Only include the entries the current user created"
+msgstr "فقط ورودی هایی را که کاربر فعلی ایجاد کرده است درج کنید"
+
+#: classes/controllers/FrmProFormsController.php:1093
+msgid "Include all entries"
+msgstr "شامل تمام ورودی ها"
+
+#: classes/controllers/FrmProFormsController.php:1096
+msgid "The ID of the page to link to"
+msgstr "شناسه صفحه ای که باید به آن پیوند دهید"
+
+#: classes/controllers/FrmProFormsController.php:1099
+msgid "Link action"
+msgstr "عمل پیوند"
+
+#: classes/controllers/FrmProFormsController.php:1101
+msgid "Edit if allowed"
+msgstr "در صورت اجازه ویرایش کنید"
+
+#: classes/controllers/FrmProFormsController.php:1102
+msgid "View only"
+msgstr "فقط مشاهده کنید"
+
+#: classes/controllers/FrmProFormsController.php:1105
+msgid "Delete link label"
+msgstr "حذف برچسب پیوند"
+
+#: classes/controllers/FrmProFormsController.php:1106
+msgid "Delete confirmation message"
+msgstr "پیام تایید را حذف کنید"
+
+#: classes/controllers/FrmProFormsController.php:1109
+msgid "Send users to"
+msgstr "ارسال کاربران به"
+
+#: classes/controllers/FrmProFormsController.php:1111
+msgid "A page"
+msgstr "یک صفحه"
+
+#: classes/controllers/FrmProFormsController.php:1112
+msgid "An anchor on the page with id=\"[key]\""
+msgstr "یک لنگر در صفحه با id=\"[key]\""
+
+#: classes/controllers/FrmProFormsController.php:1113
+msgid "The entry in the back-end"
+msgstr "ورودی در بک‌اند"
+
+#: classes/controllers/FrmProFormsController.php:1116
+msgid "URL parameter (?entry=5)"
+msgstr "پارامتر URL (?entry=5)"
+
+#: classes/controllers/FrmProFormsController.php:1119
+msgid "Identify the entry by"
+msgstr "شناسایی ورودی توسط"
+
+#: classes/controllers/FrmProFormsController.php:1121
+#: classes/views/displays/where_row.php:21
+msgid "Entry key"
+msgstr "کلید ورود"
+
+#: classes/controllers/FrmProFormsController.php:1122
+#: classes/helpers/FrmProEntriesListHelper.php:122
+#: classes/helpers/FrmProFieldsHelper.php:3249
+#: classes/views/displays/order_row.php:11
+#: classes/views/displays/where_row.php:18
+#: classes/views/xml/map_csv_fields.php:135
+#: classes/views/xml/map_csv_fields.php:136
+msgid "Entry ID"
+msgstr "شناسه ورودی"
+
+#: classes/controllers/FrmProFormsController.php:1125
+msgid "Add HTML classes"
+msgstr "اضافه کردن کلاس های HTML"
+
+#: classes/controllers/FrmProFormsController.php:1126
+msgid "Label on first option in the dropdown"
+msgstr "در منوی کشویی روی گزینه اول برچسب بزنید"
+
+#: classes/controllers/FrmProFormsController.php:1127
+msgid "Include draft entries"
+msgstr "شامل نوشته های پیش نویس"
+
+#: classes/controllers/FrmProFormsController.php:1141
+msgid "Detail Link"
+msgstr "لینک جزئیات"
+
+#: classes/controllers/FrmProFormsController.php:1142
+msgid "Edit Entry Link"
+msgstr "ویرایش لینک ورودی"
+
+#: classes/controllers/FrmProFormsController.php:1143
+msgid "Entry Count"
+msgstr "تعداد ورودی"
+
+#: classes/controllers/FrmProFormsController.php:1144
+msgid "Entry Postion"
+msgstr "پست ورودی"
+
+#: classes/controllers/FrmProFormsController.php:1145
+msgid "Even/Odd"
+msgstr "زوج فرد"
+
+#: classes/controllers/FrmProFormsController.php:1146
+msgid "Draft status"
+msgstr "وضعیت پیش نویس"
+
+#: classes/controllers/FrmProFormsController.php:1147
+msgid "Calendar Date"
+msgstr "تاریخ تقویم"
+
+#: classes/controllers/FrmProGraphsController.php:23
+msgid "You must include a field id or key in your graph shortcode."
+msgstr "شما باید یک شناسه یا کلید فیلد را در کد کوتاه گراف خود وارد کنید."
+
+#: classes/controllers/FrmProGraphsController.php:146
+msgid ""
+"Using multiple values in the id graph parameter has been removed as of "
+"version 2.02.04"
+msgstr "استفاده از چندین مقدار در پارامتر id graph از نسخه 2.02.04 حذف شده است"
+
+#: classes/controllers/FrmProGraphsController.php:322
+msgid "No data"
+msgstr "اطلاعاتی وجود ندارد"
+
+#: classes/controllers/FrmProGraphsController.php:788
+#: classes/controllers/FrmProGraphsController.php:1335
+#: classes/controllers/FrmProGraphsController.php:1975
+#: classes/views/frmpro-statistics/show.php:74
+msgid "Submissions"
+msgstr "موارد ارسالی"
+
+#: classes/controllers/FrmProGraphsController.php:1331
+msgid "Total"
+msgstr "جمع"
+
+#: classes/controllers/FrmProGraphsController.php:1333
+#: classes/helpers/FrmProReportsHelper.php:279
+msgid "Average"
+msgstr "میانگین"
+
+#: classes/controllers/FrmProGraphsController.php:1350
+msgid "Fields"
+msgstr "زمینه های"
+
+#: classes/controllers/FrmProGraphsController.php:1942
+#: classes/controllers/FrmProGraphsController.php:1974
+#: classes/controllers/FrmProSettingsController.php:253
+msgid "Creation Date"
+msgstr "تاریخ ایجاد"
+
+#: classes/controllers/FrmProGraphsController.php:1944
+msgid "Updated At"
+msgstr "به روز شده در"
+
+#: classes/controllers/FrmProGraphsController.php:1948
+msgid "Invalid x-axis"
+msgstr "محور x نامعتبر است"
+
+#: classes/controllers/FrmProGraphsController.php:2152
+msgid "Q1"
+msgstr "Q1"
+
+#: classes/controllers/FrmProGraphsController.php:2154
+msgid "Q2"
+msgstr "Q2"
+
+#: classes/controllers/FrmProGraphsController.php:2156
+msgid "Q3"
+msgstr "Q3"
+
+#: classes/controllers/FrmProGraphsController.php:2158
+msgid "Q4"
+msgstr "Q4"
+
+#: classes/controllers/FrmProLookupFieldsController.php:16
+#: classes/models/fields/FrmProFieldData.php:67
+#: classes/models/fields/FrmProFieldProduct.php:71
+msgid "Dropdown"
+msgstr "کشویی"
+
+#: classes/controllers/FrmProLookupFieldsController.php:17
+#: classes/models/fields/FrmProFieldData.php:68
+#: classes/models/fields/FrmProFieldProduct.php:72
+#: classes/views/styles/_sample_form.php:24
+msgid "Radio Buttons"
+msgstr "دکمه های رادیویی"
+
+#: classes/controllers/FrmProLookupFieldsController.php:18
+#: classes/models/fields/FrmProFieldData.php:69
+#: classes/models/fields/FrmProFieldProduct.php:73
+msgid "Checkboxes"
+msgstr "چک باکس ها"
+
+#: classes/controllers/FrmProLookupFieldsController.php:19
+msgid "Single Line Text"
+msgstr "متن تک خطی"
+
+#: classes/controllers/FrmProLookupFieldsController.php:153
+#: classes/views/frmpro-fields/field-selection.php:7
+#: classes/views/frmpro-form-actions/_custom_field_row.php:47
+#: classes/views/lookup-fields/back-end/watch-row.php:8
+msgid "&mdash; Select Field &mdash;"
+msgstr "&mdash; انتخاب فیلد &mdash;"
+
+#: classes/controllers/FrmProLookupFieldsController.php:273
+msgid "No options available: please check this field's options"
+msgstr "هیچ گزینه ای موجود نیست: لطفاً گزینه های این فیلد را بررسی کنید"
+
+#: classes/controllers/FrmProNestedFormsController.php:945
+#: classes/models/fields/FrmProFieldEndDivider.php:52
+#: classes/views/displays/mb_advanced.php:41
+#: classes/views/displays/mb_advanced.php:64
+#: classes/views/frmpro-fields/back-end/logic.php:45
+#: classes/views/frmpro-form-actions/post_options.php:216
+#: classes/views/frmpro-form-actions/post_options.php:252
+#: classes/views/styles/_sample_form.php:51
+msgid "Add"
+msgstr "اضافه کردن"
+
+#: classes/controllers/FrmProNestedFormsController.php:946
+#: classes/models/fields/FrmProFieldEndDivider.php:53
+#: classes/views/styles/_sample_form.php:55
+msgid "Remove"
+msgstr "برداشتن"
+
+#: classes/controllers/FrmProSettingsController.php:81
+msgid "White Labeling"
+msgstr "برچسب زدن سفید"
+
+#: classes/controllers/FrmProSettingsController.php:88
+msgid "Inbox"
+msgstr "صندوق ورودی"
+
+#: classes/controllers/FrmProSettingsController.php:244
+msgid "For Each"
+msgstr "برای هر"
+
+#: classes/controllers/FrmProSettingsController.php:254
+msgid "Field From Entry"
+msgstr "فیلد از ورودی"
+
+#: classes/controllers/FrmProSettingsController.php:260
+msgid "Show image"
+msgstr "نمایش تصویر"
+
+#: classes/controllers/FrmProSettingsController.php:261
+#: classes/views/frmpro-fields/back-end/image-selector.php:13
+msgid "Image ID"
+msgstr "شناسه تصویر"
+
+#: classes/controllers/FrmProSettingsController.php:262
+msgid "Image Name"
+msgstr "نام تصویر"
+
+#: classes/controllers/FrmProSimpleBlocksController.php:31
+#: classes/controllers/FrmProXMLController.php:128
+msgid "Views"
+msgstr "بازدیدها"
+
+#: classes/controllers/FrmProSiteHealthController.php:25
+msgid "License Status"
+msgstr "وضعیت مجوز"
+
+#. translators: %1$s: License status (ie. Expired, Active), %2$s: License Type (ie. Elite, Business, Plus)
+#: classes/controllers/FrmProSiteHealthController.php:29
+#, php-format
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+#: classes/controllers/FrmProSiteHealthController.php:30
+#: classes/helpers/FrmProDashboardHelper.php:84
+msgid "Expired"
+msgstr "منقضی شده"
+
+#: classes/controllers/FrmProSiteHealthController.php:30
+#: classes/helpers/FrmProDashboardHelper.php:81
+msgid "Active"
+msgstr "فعال"
+
+#: classes/controllers/FrmProSiteHealthController.php:79
+msgid "Go to Plugins"
+msgstr "به پلاگین ها بروید"
+
+#. translators: %s: Label for plugin (default is Formidable Forms)
+#: classes/controllers/FrmProSiteHealthController.php:86
+#, php-format
+msgid "Your version of %s is up to date and your license is active"
+msgstr "نسخه %s شما به روز است و مجوز شما فعال است"
+
+#. translators: %1$s: Label for plugin, %2$s: License Type (ie. Elite, Business, Plus)
+#: classes/controllers/FrmProSiteHealthController.php:94
+#, php-format
+msgid "You're using %1$s %2$s. Enjoy!"
+msgstr "شما از %1$s %2$s استفاده می‌کنید. لذت ببرید!"
+
+#: classes/controllers/FrmProSiteHealthController.php:129
+msgid "Forms"
+msgstr "تشکیل می دهد"
+
+#: classes/controllers/FrmProStatisticsController.php:23
+msgid "You must include a valid field id or key in your stats shortcode."
+msgstr "شما باید یک شناسه فیلد یا کلید معتبر در کد کوتاه آمار خود وارد کنید."
+
+#: classes/controllers/FrmProStylesController.php:86
+msgid "Section Fields"
+msgstr "فیلدهای بخش"
+
+#: classes/controllers/FrmProStylesController.php:87
+msgid "Repeater Fields"
+msgstr "فیلدهای تکرار کننده"
+
+#: classes/controllers/FrmProStylesController.php:88
+msgid "Date Fields"
+msgstr "فیلدهای تاریخ"
+
+#: classes/controllers/FrmProStylesController.php:89
+msgid "Toggle Fields"
+msgstr "جابجایی فیلدها"
+
+#: classes/controllers/FrmProStylesController.php:90
+msgid "Slider Fields"
+msgstr "فیلدهای لغزنده"
+
+#: classes/controllers/FrmProStylesController.php:91
+msgid "Progress Bars &amp; Rootline"
+msgstr "نوارهای پیشرفت &amp; خط ریشه"
+
+#: classes/controllers/FrmProStylesController.php:315
+msgid "Unable to delete style"
+msgstr "امکان حذف سبک وجود ندارد"
+
+#: classes/controllers/FrmProStylesController.php:324
+msgid "Missing style ID"
+msgstr "شناسه سبک وجود ندارد"
+
+#: classes/controllers/FrmProStylesController.php:335
+msgid "Style not deleted"
+msgstr "سبک حذف نشده است"
+
+#: classes/controllers/FrmProStylesController.php:344
+msgid "Your styling settings have been deleted."
+msgstr "تنظیمات استایل شما حذف شده است."
+
+#: classes/controllers/FrmProStylesController.php:784
+msgid "Unable to set style as default"
+msgstr "تنظیم سبک به عنوان پیش فرض ممکن نیست"
+
+#: classes/controllers/FrmProStylesController.php:793
+msgid "Missing target style ID"
+msgstr "شناسه سبک هدف موجود نیست"
+
+#: classes/controllers/FrmProStylesController.php:802
+msgid "Invalid target style ID"
+msgstr "شناسه سبک هدف نامعتبر است"
+
+#: classes/controllers/FrmProStylesController.php:919
+msgid ""
+"This style does not yet exist in the database. Click Update to create this "
+"new style."
+msgstr ""
+"این سبک هنوز در پایگاه داده وجود ندارد. برای ایجاد این سبک جدید روی Update "
+"کلیک کنید."
+
+#: classes/controllers/FrmProStylesController.php:923
+msgid "Fields from all pages are shown."
+msgstr "فیلدهای همه صفحات نشان داده شده است."
+
+#: classes/controllers/FrmProStylesController.php:953
+msgid "conditionally hidden fields"
+msgstr "زمینه های پنهان مشروط"
+
+#: classes/controllers/FrmProStylesController.php:956
+msgid "lookup data"
+msgstr "داده های جستجو"
+
+#: classes/controllers/FrmProStylesController.php:959
+msgid "dynamic field data"
+msgstr "داده های میدان پویا"
+
+#: classes/controllers/FrmProStylesController.php:962
+msgid "calculations"
+msgstr "محاسبات"
+
+#: classes/controllers/FrmProStylesController.php:965
+msgid "autocomplete"
+msgstr "تکمیل خودکار"
+
+#. translators: %s: List of disabled features.
+#: classes/controllers/FrmProStylesController.php:971
+#, php-format
+msgid "The following Pro features are disabled: %s."
+msgstr "ویژگی‌های Pro زیر غیرفعال هستند: %s."
+
+#: classes/controllers/FrmProStylesController.php:990
+msgid "Unable to preview style template"
+msgstr "پیش نمایش الگوی سبک ممکن نیست"
+
+#: classes/controllers/FrmProStylesController.php:1004
+msgid "Template key not specified"
+msgstr "کلید الگو مشخص نشده است"
+
+#: classes/controllers/FrmProStylesController.php:1013
+msgid "Template did not match with API"
+msgstr "الگو با API مطابقت نداشت"
+
+#: classes/controllers/FrmProStylesController.php:1036
+msgid "Unable to successfully install template from API data."
+msgstr "نصب با موفقیت الگو از داده های API امکان پذیر نیست."
+
+#: classes/controllers/FrmProStylesController.php:1047
+msgid ""
+"API XML data is not formatted as expected and is not possible to preview."
+msgstr "داده‌های API XML مطابق انتظار قالب‌بندی نشده‌اند و پیش‌نمایش آن ممکن نیست."
+
+#: classes/controllers/FrmProXMLController.php:43
+msgid ""
+"Upload your Formidable XML or CSV file to import forms, entries, and views "
+"into this site. Note: If your imported form/entry/view key and creation date "
+"match an item on your site, that item will be updated. You cannot undo this "
+"action."
+msgstr ""
+"فایل XML یا CSV Formidable خود را برای وارد کردن فرم‌ها، ورودی‌ها و نماها به "
+"این سایت آپلود کنید. توجه: اگر فرم/ورود/کلید مشاهده و تاریخ ایجاد شما با یک "
+"مورد در سایت شما مطابقت داشته باشد، آن مورد به روز می شود. شما نمی توانید "
+"این عمل را واگرد کنید."
+
+#: classes/controllers/FrmProXMLController.php:47
+#, php-format
+msgid ""
+"Upload your %1$s XML or CSV file to import forms, entries, and views into "
+"this site. Note: If your imported form/entry/view key and creation date "
+"match an item on your site, that item will be updated. You cannot undo this "
+"action."
+msgstr ""
+"فایل XML یا CSV %1$s خود را برای وارد کردن فرم‌ها، ورودی‌ها و نماها به این "
+"سایت آپلود کنید. توجه: اگر فرم/ورود/کلید مشاهده و تاریخ ایجاد شما با یک مورد "
+"در سایت شما مطابقت داشته باشد، آن مورد به روز می شود. شما نمی توانید این عمل "
+"را واگرد کنید."
+
+#: classes/controllers/FrmProXMLController.php:60
+msgid "Choose a Formidable XML or any CSV file"
+msgstr "یک XML قدرتمند یا هر فایل CSV را انتخاب کنید"
+
+#: classes/controllers/FrmProXMLController.php:64
+#, php-format
+msgid "Choose a %1$s XML or any CSV file"
+msgstr "یک %1$s XML یا هر فایل CSV را انتخاب کنید"
+
+#: classes/controllers/FrmProXMLController.php:129
+msgid "Styles"
+msgstr "سبک ها"
+
+#: classes/controllers/FrmProXMLController.php:227
+msgid "All Fields are required"
+msgstr "همه فیلدها الزامی است"
+
+#: classes/controllers/FrmProXMLController.php:239
+msgid "That CSV was not uploaded. Are CSV files allowed on your site?"
+msgstr "آن CSV آپلود نشد. آیا فایل های CSV در سایت شما مجاز هستند؟"
+
+#: classes/controllers/FrmProXMLController.php:270
+msgid "CSV cannot be opened."
+msgstr "CSV باز نمی شود."
+
+#: classes/helpers/FrmProAppHelper.php:1058
+msgid "Add/Edit Applications"
+msgstr "افزودن/ویرایش برنامه ها"
+
+#: classes/helpers/FrmProAppHelper.php:1059
+msgid "Access Application Dashboard"
+msgstr "دسترسی به داشبورد برنامه"
+
+#: classes/helpers/FrmProAppHelper.php:1079
+msgid "Add/Edit Views"
+msgstr "افزودن/ویرایش نماها"
+
+#: classes/helpers/FrmProApplicationRelationHelper.php:314
+msgid "PAGE"
+msgstr "PAGE"
+
+#: classes/helpers/FrmProApplicationRelationHelper.php:326
+msgid "VIEW"
+msgstr "چشم انداز"
+
+#: classes/helpers/FrmProApplicationRelationHelper.php:338
+msgid "FORM"
+msgstr "فرم"
+
+#. translators: %s: name of page.
+#: classes/helpers/FrmProApplicationsHelper.php:127
+#, php-format
+msgid "Form found in page \"%s\"."
+msgstr "فرم در صفحه \"%s\" یافت شد."
+
+#. translators: %s: name of form.
+#: classes/helpers/FrmProApplicationsHelper.php:139
+#, php-format
+msgid "Page includes shortcode for form \"%s\"."
+msgstr "صفحه شامل کد کوتاه برای فرم \"%s\" است."
+
+#. translators: %s: name of page.
+#: classes/helpers/FrmProApplicationsHelper.php:166
+#, php-format
+msgid "View found in page \"%s\"."
+msgstr "مشاهده موجود در صفحه \"%s\"."
+
+#. translators: %s: name of view.
+#: classes/helpers/FrmProApplicationsHelper.php:179
+#, php-format
+msgid "Page includes shortcode for view \"%s\"."
+msgstr "صفحه شامل کد کوتاه برای مشاهده \"%s\" است."
+
+#. translators: %s: Name of form with source data.
+#: classes/helpers/FrmProApplicationsHelper.php:263
+#, php-format
+msgid "Form includes options from \"%s\"."
+msgstr "فرم شامل گزینه هایی از \"%s\" است."
+
+#: classes/helpers/FrmProCurrencyHelper.php:193
+msgid "Australian Dollar"
+msgstr "دلار استرالیا"
+
+#: classes/helpers/FrmProCurrencyHelper.php:202
+msgid "Bangladeshi Taka"
+msgstr "تاکا بنگلادشی"
+
+#: classes/helpers/FrmProCurrencyHelper.php:211
+msgid "Brazilian Real"
+msgstr "رئال برزیل"
+
+#: classes/helpers/FrmProCurrencyHelper.php:220
+msgid "Canadian Dollar"
+msgstr "دلار کانادایی"
+
+#: classes/helpers/FrmProCurrencyHelper.php:229
+msgid "Chinese Renminbi Yuan"
+msgstr "رنمینبی یوان چینی"
+
+#: classes/helpers/FrmProCurrencyHelper.php:238
+msgid "Czech Koruna"
+msgstr "کرون چک"
+
+#: classes/helpers/FrmProCurrencyHelper.php:247
+msgid "Danish Krone"
+msgstr "کرون دانمارک"
+
+#: classes/helpers/FrmProCurrencyHelper.php:256
+msgid "Euro"
+msgstr "یورو"
+
+#: classes/helpers/FrmProCurrencyHelper.php:265
+msgid "Hong Kong Dollar"
+msgstr "دلار هنگ کنگ"
+
+#: classes/helpers/FrmProCurrencyHelper.php:274
+msgid "Hungarian Forint"
+msgstr "فورینت مجارستان"
+
+#: classes/helpers/FrmProCurrencyHelper.php:283
+msgid "Indian Rupee"
+msgstr "روپیه هند"
+
+#: classes/helpers/FrmProCurrencyHelper.php:292
+msgid "Israeli New Sheqel"
+msgstr "شکل جدید اسرائیل"
+
+#: classes/helpers/FrmProCurrencyHelper.php:301
+msgid "Japanese Yen"
+msgstr "ین ژاپن"
+
+#: classes/helpers/FrmProCurrencyHelper.php:310
+msgid "Malaysian Ringgit"
+msgstr "رینگیت مالزی"
+
+#: classes/helpers/FrmProCurrencyHelper.php:319
+msgid "Mexican Peso"
+msgstr "پزو مکزیک"
+
+#: classes/helpers/FrmProCurrencyHelper.php:328
+msgid "Norwegian Krone"
+msgstr "کرون نروژ"
+
+#: classes/helpers/FrmProCurrencyHelper.php:337
+msgid "New Zealand Dollar"
+msgstr "دلار نیوزلند"
+
+#: classes/helpers/FrmProCurrencyHelper.php:346
+msgid "Pakistani Rupee"
+msgstr "روپیه پاکستان"
+
+#: classes/helpers/FrmProCurrencyHelper.php:355
+msgid "Philippine Peso"
+msgstr "پزو فیلیپین"
+
+#: classes/helpers/FrmProCurrencyHelper.php:364
+msgid "Polish Zloty"
+msgstr "زلوتی لهستانی"
+
+#: classes/helpers/FrmProCurrencyHelper.php:373
+msgid "Pound Sterling"
+msgstr "پوند استرلینگ"
+
+#: classes/helpers/FrmProCurrencyHelper.php:382
+msgid "Singapore Dollar"
+msgstr "دلار سنگاپور"
+
+#: classes/helpers/FrmProCurrencyHelper.php:391
+msgid "South African Rand"
+msgstr "راند آفریقای جنوبی"
+
+#: classes/helpers/FrmProCurrencyHelper.php:400
+msgid "Sri Lankan Rupee"
+msgstr "روپیه سریلانکا"
+
+#: classes/helpers/FrmProCurrencyHelper.php:409
+msgid "Swedish Krona"
+msgstr "کرون سوئد"
+
+#: classes/helpers/FrmProCurrencyHelper.php:418
+msgid "Swiss Franc"
+msgstr "فرانک سوئیس"
+
+#: classes/helpers/FrmProCurrencyHelper.php:427
+msgid "Taiwan New Dollar"
+msgstr "دلار جدید تایوان"
+
+#: classes/helpers/FrmProCurrencyHelper.php:436
+msgid "Thai Baht"
+msgstr "بات تایلند"
+
+#: classes/helpers/FrmProCurrencyHelper.php:445
+msgid "Turkish Liras"
+msgstr "لیر ترکیه"
+
+#: classes/helpers/FrmProCurrencyHelper.php:454
+msgid "U.S. Dollar"
+msgstr "دلار آمریکا"
+
+#: classes/helpers/FrmProCurrencyHelper.php:463
+msgid "Uruguayan Peso"
+msgstr "پزو اروگوئه"
+
+#: classes/helpers/FrmProDashboardHelper.php:90
+msgid "Expiring soon"
+msgstr "به زودی منقضی می شود"
+
+#: classes/helpers/FrmProDashboardHelper.php:152
+msgid "Weekly Submissions"
+msgstr "ارسال های هفتگی"
+
+#. translators: %1$s: Number of total weekly form submission
+#: classes/helpers/FrmProDashboardHelper.php:155
+#, php-format
+msgid "%1$s Form Submission"
+msgid_plural "%1$s Form Submissions"
+msgstr[0] "%1$s فرم های ارسالی"
+msgstr[1] "%1$s فرم ارسالی"
+
+#: classes/helpers/FrmProDashboardHelper.php:178
+msgid "View More Reports"
+msgstr "مشاهده گزارش های بیشتر"
+
+#: classes/helpers/FrmProDashboardHelper.php:183
+msgid "Check Your Form Performance"
+msgstr "عملکرد فرم خود را بررسی کنید"
+
+#: classes/helpers/FrmProDashboardHelper.php:184
+msgid ""
+"See the number of views and submissions daily and improve your forms "
+"performance. Once you have at least one entry this week you'll see it here"
+msgstr ""
+"تعداد بازدیدها و ارسال‌ها را روزانه ببینید و عملکرد فرم‌های خود را بهبود "
+"ببخشید. هنگامی که حداقل یک ورودی در این هفته داشته باشید، آن را در اینجا "
+"خواهید دید"
+
+#: classes/helpers/FrmProEddHelper.php:61
+msgid "Connect Account"
+msgstr "اتصال حساب"
+
+#: classes/helpers/FrmProEddHelper.php:84
+msgid "Upgrade Account"
+msgstr "ارتقای حساب کاربری"
+
+#: classes/helpers/FrmProEddHelper.php:124
+msgid "Disconnect site"
+msgstr "سایت را قطع کنید"
+
+#: classes/helpers/FrmProEddHelper.php:141
+msgid "Check for a recent purchase"
+msgstr "خرید اخیر را بررسی کنید"
+
+#: classes/helpers/FrmProEddHelper.php:155
+msgid "Verify a different license key"
+msgstr "کلید مجوز دیگری را تأیید کنید"
+
+#: classes/helpers/FrmProEddHelper.php:157
+msgid "Enter your license key here"
+msgstr "کلید مجوز خود را در اینجا وارد کنید"
+
+#: classes/helpers/FrmProEddHelper.php:170
+msgid "License is active"
+msgstr "مجوز فعال است"
+
+#: classes/helpers/FrmProEddHelper.php:176
+msgid "Save License"
+msgstr "ذخیره مجوز"
+
+#: classes/helpers/FrmProEddHelper.php:185
+msgid "Use this license to enable Formidable Pro site-wide"
+msgstr "از این مجوز برای فعال کردن Formidable Pro در سراسر سایت استفاده کنید"
+
+#: classes/helpers/FrmProEddHelper.php:196
+msgid "Add a license manually"
+msgstr "مجوز را به صورت دستی اضافه کنید"
+
+#: classes/helpers/FrmProEntriesHelper.php:268
+msgid "Add New"
+msgstr "جدید اضافه کن"
+
+#: classes/helpers/FrmProEntriesHelper.php:309
+msgid "Add Entry"
+msgstr "ورودی را اضافه کنید"
+
+#: classes/helpers/FrmProEntriesHelper.php:318
+msgid "Resend Emails"
+msgstr "ارسال مجدد ایمیل ها"
+
+#: classes/helpers/FrmProEntriesHelper.php:340
+msgid "Delete without Post"
+msgstr "حذف بدون پست"
+
+#: classes/helpers/FrmProEntriesHelper.php:342
+msgid "Really delete?"
+msgstr "واقعا حذف شود؟"
+
+#: classes/helpers/FrmProEntriesHelper.php:360
+msgid "Resend Email Notifications"
+msgstr "ارسال مجدد اعلان های ایمیل"
+
+#: classes/helpers/FrmProEntriesHelper.php:399
+msgid "Delete All Entries"
+msgstr "حذف همه ورودی ها"
+
+#: classes/helpers/FrmProEntriesHelper.php:425
+msgid "Download CSV"
+msgstr "CSV را دانلود کنید"
+
+#: classes/helpers/FrmProEntriesListHelper.php:20
+msgid "Export to CSV"
+msgstr "صادرات به CSV"
+
+#: classes/helpers/FrmProEntriesListHelper.php:120
+msgid "All Fields"
+msgstr "تمام زمینه ها"
+
+#: classes/helpers/FrmProEntriesListHelper.php:121
+#: classes/helpers/FrmProFieldsHelper.php:3253
+#: classes/views/displays/_calendar_options.php:11
+#: classes/views/displays/_calendar_options.php:28
+#: classes/views/displays/order_row.php:17
+#: classes/views/displays/where_row.php:12
+msgid "Entry creation date"
+msgstr "تاریخ ایجاد ورودی"
+
+#: classes/helpers/FrmProEntryMetaHelper.php:186
+#, php-format
+msgid "View all posts filed under %s"
+msgstr "مشاهده همه پست‌های ثبت شده تحت %s"
+
+#: classes/helpers/FrmProFieldsHelper.php:993
+msgid "The entered values do not match"
+msgstr "مقادیر وارد شده مطابقت ندارند"
+
+#: classes/helpers/FrmProFieldsHelper.php:1565
+msgid "No Categories"
+msgstr "بدون دسته بندی"
+
+#: classes/helpers/FrmProFieldsHelper.php:1775
+msgid "Scheduled"
+msgstr "برنامه ریزی شده است"
+
+#: classes/helpers/FrmProFieldsHelper.php:2612
+msgid "Confirm"
+msgstr "تایید"
+
+#: classes/helpers/FrmProFieldsHelper.php:2866
+msgid "Edit Uploaded File"
+msgstr "ویرایش فایل آپلود شده"
+
+#: classes/helpers/FrmProFieldsHelper.php:3247
+msgid "Select a value to insert into the box below"
+msgstr "مقداری را برای درج در کادر زیر انتخاب کنید"
+
+#: classes/helpers/FrmProFieldsHelper.php:3250
+#: classes/views/displays/order_row.php:14
+#: classes/views/xml/map_csv_fields.php:138
+#: classes/views/xml/map_csv_fields.php:139
+msgid "Entry Key"
+msgstr "کلید ورود"
+
+#: classes/helpers/FrmProFieldsHelper.php:3252
+msgid "User IP"
+msgstr "IP کاربر"
+
+#: classes/helpers/FrmProFieldsHelper.php:3254
+#: classes/views/displays/_calendar_options.php:14
+#: classes/views/displays/_calendar_options.php:31
+#: classes/views/displays/order_row.php:20
+msgid "Entry update date"
+msgstr "تاریخ به روز رسانی ورودی"
+
+#: classes/helpers/FrmProFieldsHelper.php:3256
+msgid "Form Fields"
+msgstr "فیلدهای فرم"
+
+#: classes/helpers/FrmProFieldsHelper.php:3272
+#: classes/helpers/FrmProFieldsHelper.php:3298
+#: classes/views/displays/mb_advanced.php:115
+#: classes/views/frmpro-entries/table.php:10
+#: classes/views/frmpro-entries/table.php:89
+msgid "ID"
+msgstr "شناسه"
+
+#: classes/helpers/FrmProFieldsHelper.php:3273
+#: classes/helpers/FrmProFieldsHelper.php:3299
+#: classes/views/displays/mb_advanced.php:118
+msgid "Key"
+msgstr "کلید"
+
+#: classes/helpers/FrmProFieldsHelper.php:3276
+msgid "Thumbnail"
+msgstr "بند انگشتی"
+
+#: classes/helpers/FrmProFieldsHelper.php:3279
+#: classes/models/FrmProImages.php:65
+msgid "Medium"
+msgstr "متوسط"
+
+#: classes/helpers/FrmProFieldsHelper.php:3282
+#: classes/models/FrmProImages.php:66
+msgid "Large"
+msgstr "بزرگ"
+
+#: classes/helpers/FrmProFieldsHelper.php:3285
+msgid "Full Size"
+msgstr "اندازه کامل"
+
+#: classes/helpers/FrmProFieldsHelper.php:3311
+msgid "Helpers"
+msgstr "یاوران"
+
+#: classes/helpers/FrmProFieldsHelper.php:3312
+msgid "Admin link to edit the entry"
+msgstr "لینک مدیریت برای ویرایش ورودی"
+
+#: classes/helpers/FrmProFieldsHelper.php:3315
+msgid "Link to view single page if showing dynamic entries"
+msgstr "پیوند برای مشاهده یک صفحه در صورت نمایش ورودی های پویا"
+
+#: classes/helpers/FrmProFieldsHelper.php:3323
+msgid "Add a rotating 'even' or 'odd' class"
+msgstr "یک کلاس چرخشی زوج یا فرد اضافه کنید"
+
+#: classes/helpers/FrmProFieldsHelper.php:3327
+msgid "Default Email Message"
+msgstr "پیام ایمیل پیش فرض"
+
+#: classes/helpers/FrmProFieldsHelper.php:3330
+msgid "Site URL"
+msgstr "آدرس سایت"
+
+#: classes/helpers/FrmProFieldsHelper.php:3331
+msgid "Site Name"
+msgstr "نام سایت"
+
+#: classes/helpers/FrmProFieldsHelper.php:4239
+msgid "On"
+msgstr "بر"
+
+#: classes/helpers/FrmProFieldsHelper.php:4240
+msgid "Off"
+msgstr "خاموش"
+
+#: classes/helpers/FrmProFieldsHelper.php:4241
+msgid "Additional name"
+msgstr "نام اضافی"
+
+#: classes/helpers/FrmProFieldsHelper.php:4242
+msgid "Birthday"
+msgstr "روز تولد"
+
+#: classes/helpers/FrmProFieldsHelper.php:4243
+msgid "Birthday day"
+msgstr "روز تولد"
+
+#: classes/helpers/FrmProFieldsHelper.php:4244
+msgid "Birthday month"
+msgstr "ماه تولد"
+
+#: classes/helpers/FrmProFieldsHelper.php:4245
+msgid "Birthday year"
+msgstr "سال تولد"
+
+#: classes/helpers/FrmProFieldsHelper.php:4247
+msgid "Country name"
+msgstr "نام کشور"
+
+#: classes/helpers/FrmProFieldsHelper.php:4248
+msgid "Current password"
+msgstr "رمز عبور فعلی"
+
+#: classes/helpers/FrmProFieldsHelper.php:4250
+msgid "Family name"
+msgstr "نام خانوادگی"
+
+#: classes/helpers/FrmProFieldsHelper.php:4251
+msgid "Given name"
+msgstr "نام داده شده"
+
+#: classes/helpers/FrmProFieldsHelper.php:4252
+msgid "Honoric prefix"
+msgstr "پیشوند افتخاری"
+
+#: classes/helpers/FrmProFieldsHelper.php:4253
+msgid "Honoric suffix"
+msgstr "پسوند افتخاری"
+
+#: classes/helpers/FrmProFieldsHelper.php:4254
+msgid "IMPP"
+msgstr "IMPP"
+
+#: classes/helpers/FrmProFieldsHelper.php:4255
+msgid "Language"
+msgstr "زبان"
+
+#: classes/helpers/FrmProFieldsHelper.php:4256
+#: classes/views/frmpro-form-actions/_custom_field_row.php:11
+#: classes/views/frmpro-form-actions/post_options.php:228
+msgid "Name"
+msgstr "نام"
+
+#: classes/helpers/FrmProFieldsHelper.php:4257
+msgid "New password"
+msgstr "رمز عبور جدید"
+
+#: classes/helpers/FrmProFieldsHelper.php:4258
+msgid "One time code"
+msgstr "کد یکبار مصرف"
+
+#: classes/helpers/FrmProFieldsHelper.php:4259
+msgid "Organization"
+msgstr "سازمان"
+
+#: classes/helpers/FrmProFieldsHelper.php:4260
+msgid "Organization title"
+msgstr "عنوان سازمان"
+
+#: classes/helpers/FrmProFieldsHelper.php:4261
+msgid "Photo"
+msgstr "عکس"
+
+#: classes/helpers/FrmProFieldsHelper.php:4262
+msgid "Postal Code"
+msgstr "کد پستی"
+
+#: classes/helpers/FrmProFieldsHelper.php:4263
+msgid "Sex"
+msgstr "ارتباط جنسی"
+
+#: classes/helpers/FrmProFieldsHelper.php:4264
+msgid "Street address"
+msgstr "آدرس خیابان"
+
+#: classes/helpers/FrmProFieldsHelper.php:4265
+msgid "Tel"
+msgstr "تلفن"
+
+#: classes/helpers/FrmProFieldsHelper.php:4266
+msgid "Tel area code"
+msgstr "کد منطقه تلفن"
+
+#: classes/helpers/FrmProFieldsHelper.php:4267
+msgid "Tel country code"
+msgstr "تلفن کد کشور"
+
+#: classes/helpers/FrmProFieldsHelper.php:4268
+msgid "Tel extension"
+msgstr "داخلی تلفن"
+
+#: classes/helpers/FrmProFieldsHelper.php:4269
+msgid "Tel local"
+msgstr "تلفن محلی"
+
+#: classes/helpers/FrmProFieldsHelper.php:4270
+msgid "Tel national"
+msgstr "تلفن ملی"
+
+#: classes/helpers/FrmProFieldsHelper.php:4271
+msgid "Transaction amount"
+msgstr "مقدار تراکنش"
+
+#: classes/helpers/FrmProFieldsHelper.php:4272
+msgid "Transaction currency"
+msgstr "ارز معاملاتی"
+
+#: classes/helpers/FrmProFieldsHelper.php:4273
+msgid "URL"
+msgstr "URL"
+
+#: classes/helpers/FrmProFieldsHelper.php:4274
+msgid "Username"
+msgstr "نام کاربری"
+
+#: classes/helpers/FrmProFieldsHelper.php:4341
+msgid "Show password"
+msgstr "نمایش رمز عبور"
+
+#: classes/helpers/FrmProFieldsHelper.php:4348
+msgid "Hide password"
+msgstr "پنهان کردن رمز عبور"
+
+#: classes/helpers/FrmProFormsHelper.php:685
+#: classes/helpers/FrmProFormsHelper.php:1066
+msgid "Your draft has been saved."
+msgstr "پیش نویس شما ذخیره شده است."
+
+#: classes/helpers/FrmProFormsHelper.php:707
+msgid "This form is currently closed for submissions."
+msgstr "این فرم در حال حاضر برای ارسال بسته است."
+
+#: classes/helpers/FrmProReportsHelper.php:255
+msgid "Answered"
+msgstr "جواب داد"
+
+#: classes/helpers/FrmProReportsHelper.php:289
+msgid "Median"
+msgstr "میانه"
+
+#: classes/helpers/FrmProReportsHelper.php:386
+msgid "All"
+msgstr "همه"
+
+#: classes/helpers/FrmProReportsHelper.php:451
+msgid "All Time"
+msgstr "همیشه"
+
+#: classes/helpers/FrmProReportsHelper.php:452
+msgid "Custom"
+msgstr "سفارشی"
+
+#: classes/helpers/FrmProReportsHelper.php:453
+msgid "Today"
+msgstr "امروز"
+
+#: classes/helpers/FrmProReportsHelper.php:454
+msgid "Yesterday"
+msgstr "دیروز"
+
+#: classes/helpers/FrmProReportsHelper.php:455
+msgid "This week"
+msgstr "این هفته"
+
+#: classes/helpers/FrmProReportsHelper.php:456
+msgid "Last week"
+msgstr "هفته گذشته"
+
+#: classes/helpers/FrmProReportsHelper.php:457
+msgid "Last 30 days"
+msgstr "30 روز گذشته"
+
+#: classes/helpers/FrmProReportsHelper.php:458
+msgid "Last month"
+msgstr "ماه گذشته"
+
+#: classes/helpers/FrmProReportsHelper.php:459
+msgid "This quarter"
+msgstr "این سه ماهه"
+
+#: classes/helpers/FrmProReportsHelper.php:460
+msgid "Last quarter"
+msgstr "سه ماهه آخر"
+
+#: classes/helpers/FrmProReportsHelper.php:461
+msgid "This year"
+msgstr "امسال"
+
+#: classes/helpers/FrmProReportsHelper.php:462
+msgid "Last year"
+msgstr "سال گذشته"
+
+#: classes/models/FrmProDb.php:820
+msgid "Formidable Style"
+msgstr "سبک ترسناک"
+
+#: classes/models/FrmProEmailLicenseExpired.php:16
+msgid "Your Formidable Forms license is expired"
+msgstr "مجوز Formidable Forms شما منقضی شده است"
+
+#. translators: renew URL.
+#: classes/models/FrmProEmailLicenseExpired.php:48
+#, php-format
+msgid "Renew now at %s"
+msgstr "اکنون در %s تمدید کنید"
+
+#: classes/models/FrmProFieldDynamicValueSelector.php:50
+msgid "Anything"
+msgstr "هر چیزی"
+
+#: classes/models/FrmProFieldUserIDValueSelector.php:25
+msgid "Current User"
+msgstr "کاربر فعلی"
+
+#: classes/models/FrmProFileField.php:90
+msgid "Drop files here to upload"
+msgstr "فایل را اینجا رها کنید تا آپلود شود"
+
+#: classes/models/FrmProFileField.php:91
+msgid "Your browser does not support drag and drop file uploads."
+msgstr "مرورگر شما از بارگذاری فایل با کشیدن و رها کردن پشتیبانی نمی کند."
+
+#: classes/models/FrmProFileField.php:92
+msgid ""
+"Please use the fallback form below to upload your files like in the olden "
+"days."
+msgstr ""
+"لطفاً از فرم بازگشتی زیر برای آپلود فایل های خود مانند گذشته استفاده کنید."
+
+#. translators: %s: File size limit (Megabytes).
+#. translators: %s: File size limit (Megabytes)
+#. translators: %s: File size limit (Megabytes).
+#: classes/models/FrmProFileField.php:94 classes/models/FrmProFileField.php:522
+#: classes/models/FrmProFileField.php:536
+#, php-format
+msgid "That file is too big. It must be less than %sMB."
+msgstr "اون فایل خیلی بزرگه باید کمتر از %sMB باشد."
+
+#. translators: %s: File minimum size limit (Megabytes).
+#: classes/models/FrmProFileField.php:96 classes/models/FrmProFileField.php:541
+#, php-format
+msgid "That file is too small. It must be greater than %sMB."
+msgstr "اون فایل خیلی کمه باید بیشتر از %sMB باشد."
+
+#. translators: %s: Status code
+#: classes/models/FrmProFileField.php:99
+#, php-format
+msgid "Server responded with %s code."
+msgstr "سرور با کد %s پاسخ داد."
+
+#: classes/models/FrmProFileField.php:100
+msgid "Cancel upload"
+msgstr "لغو آپلود"
+
+#: classes/models/FrmProFileField.php:101
+msgid "Are you sure you want to cancel this upload?"
+msgstr "آیا مطمئنید که می خواهید این آپلود را لغو کنید؟"
+
+#: classes/models/FrmProFileField.php:102
+#: classes/views/frmpro-fields/front-end/file.php:75
+#: classes/views/frmpro-form-actions/_email_attachment_row.php:44
+msgid "Remove file"
+msgstr "حذف فایل"
+
+#. translators: %d: File limit number
+#: classes/models/FrmProFileField.php:152
+#, php-format
+msgid "You have uploaded more than %d file(s)."
+msgstr "شما بیش از %d فایل آپلود کرده اید."
+
+#: classes/models/FrmProFileField.php:713
+msgid "This field is invalid"
+msgstr "این فیلد نامعتبر است"
+
+#: classes/models/FrmProFileField.php:714
+msgid "is invalid"
+msgstr "نامعتبر است"
+
+#: classes/models/FrmProFileField.php:717
+msgid "Sorry, this file type is not permitted."
+msgstr "با عرض پوزش، این نوع فایل مجاز نیست."
+
+#: classes/models/FrmProFileField.php:765
+#: classes/models/FrmProFileField.php:929
+msgid "File is spam"
+msgstr "فایل اسپم است"
+
+#: classes/models/FrmProFileField.php:962
+msgid "File upload failed"
+msgstr "آپلود فایل انجام نشد"
+
+#: classes/models/FrmProFileField.php:2056
+msgid "Oops! That file no longer exists"
+msgstr "اوه! آن فایل دیگر وجود ندارد"
+
+#: classes/models/FrmProFileField.php:2058
+msgid "Oops! That file is protected"
+msgstr "اوه! آن فایل محافظت شده است"
+
+#: classes/models/FrmProFileField.php:2320
+msgid "payload is not the right size"
+msgstr "محموله اندازه مناسبی ندارد"
+
+#: classes/models/FrmProFileField.php:2324
+#: classes/models/FrmProFileField.php:2385
+msgid "payload does not match the expected format"
+msgstr "محموله با قالب مورد انتظار مطابقت ندارد"
+
+#: classes/models/FrmProFileField.php:2333
+msgid "if sanitized data is empty, do not try to download"
+msgstr "اگر داده های پاکسازی شده خالی است، سعی نکنید دانلود کنید"
+
+#: classes/models/FrmProFileField.php:2341
+msgid "temporary files can only be accessed by privileged users"
+msgstr "فایل های موقت فقط توسط کاربران ممتاز قابل دسترسی هستند"
+
+#: classes/models/FrmProFileField.php:2365
+msgid "referer value either does not exist or it is unusable"
+msgstr "مقدار مرجع یا وجود ندارد یا غیر قابل استفاده است"
+
+#: classes/models/FrmProFileField.php:2375
+msgid "referer check failed"
+msgstr "بررسی ارجاع ناموفق بود"
+
+#: classes/models/FrmProFileField.php:2402
+msgid "url is not an exact match"
+msgstr "آدرس اینترنتی مطابقت دقیقی ندارد"
+
+#: classes/models/FrmProFileField.php:2410
+msgid "no file found"
+msgstr "هیچ فایلی پیدا نشد"
+
+#: classes/models/FrmProFileField.php:2419
+msgid ""
+"if the filename requested does not match our filename, do not return the file"
+msgstr "اگر نام فایل درخواستی با نام فایل ما مطابقت ندارد، فایل را برنگردانید"
+
+#: classes/models/FrmProFileField.php:2426
+msgid ""
+"prevent downloads for other uploads. We only want to allow valid connected "
+"formidable data"
+msgstr ""
+"جلوگیری از دانلود برای سایر آپلودها ما فقط می خواهیم به داده های قدرتمند "
+"متصل معتبر اجازه دهیم"
+
+#: classes/models/FrmProFileField.php:2433
+msgid "user does not fit any of the set roles, do not serve a file"
+msgstr "کاربر با هیچ یک از نقش های مجموعه مناسب نیست، فایلی را ارائه نمی دهد"
+
+#: classes/models/FrmProFileField.php:2469
+msgid "file does not exist"
+msgstr "فایل موجود نیست"
+
+#: classes/models/FrmProForm.php:200
+#, php-format
+msgid "Unable to write to %s to protect your uploads."
+msgstr "نوشتن در %s برای محافظت از آپلودهای شما امکان پذیر نیست."
+
+#: classes/models/FrmProForm.php:280
+#: classes/views/frmpro-statistics/show.php:28
+msgid "Status"
+msgstr "وضعیت"
+
+#: classes/models/FrmProImages.php:64
+msgid "Small"
+msgstr "کم اهمیت"
+
+#: classes/models/FrmProImages.php:67
+msgid "Extra Large"
+msgstr "فوق العاده بزرگ"
+
+#: classes/models/FrmProPageField.php:168
+#, php-format
+msgid "Page %1$s of %2$s"
+msgstr "صفحه %1$s از %2$s"
+
+#: classes/models/FrmProPageField.php:208
+#: classes/views/styles/_sample_form.php:126
+#, php-format
+msgid "%s Complete"
+msgstr "%s کامل شد"
+
+#: classes/models/FrmProPageField.php:254
+#: classes/views/frmpro-forms/form_page_options.php:49
+#, php-format
+msgid "Page %d"
+msgstr "صفحه %d"
+
+#: classes/models/FrmProPageField.php:281
+#: classes/views/styles/_sample_form.php:127
+#, php-format
+msgid "%1$d of %2$d"
+msgstr "%1$d از %2$d"
+
+#: classes/models/FrmProSettings.php:26
+msgid "Your submission was successfully saved."
+msgstr "ارسال شما با موفقیت ذخیره شد."
+
+#: classes/models/FrmProSettings.php:28
+msgid "You have already submitted that form"
+msgstr "شما قبلاً آن فرم را ارسال کرده اید"
+
+#: classes/models/FrmProSettings.php:40
+msgid "Are you sure you want to delete this row?"
+msgstr "آیا مطمئن هستید که می خواهید این ردیف را حذف کنید؟"
+
+#: classes/models/FrmProSettings.php:103
+msgid "Show unread message count in menu"
+msgstr "نمایش تعداد پیام های خوانده نشده در منو"
+
+#: classes/models/FrmProSettings.php:104
+msgid "Sales and promotions"
+msgstr "فروش و تبلیغات"
+
+#: classes/models/FrmProSettings.php:105
+msgid "New features"
+msgstr "ویژگی های جدید"
+
+#: classes/models/FrmProSettings.php:106
+msgid "Requests for feedback"
+msgstr "درخواست بازخورد"
+
+#: classes/models/fields/FrmProFieldAddress.php:366
+msgid "This value is invalid"
+msgstr "این مقدار نامعتبر است"
+
+#: classes/models/fields/FrmProFieldBreak.php:31
+msgid "Next"
+msgstr "بعد"
+
+#: classes/models/fields/FrmProFieldCaptcha.php:60
+msgid "The captcha is missing from this form"
+msgstr "کپچا در این فرم وجود ندارد"
+
+#: classes/models/fields/FrmProFieldCreditCard.php:157
+msgid "Expiration:"
+msgstr "انقضاء:"
+
+#: classes/models/fields/FrmProFieldCreditCard.php:242
+msgid "That credit card number is invalid"
+msgstr "آن شماره کارت اعتباری نامعتبر است"
+
+#: classes/models/fields/FrmProFieldCreditCard.php:306
+msgid "That credit card is expired"
+msgstr "آن کارت اعتباری منقضی شده است"
+
+#: classes/models/fields/FrmProFieldCreditCard.php:319
+msgid "Please enter a valid CVC"
+msgstr "لطفاً یک CVC معتبر وارد کنید"
+
+#: classes/models/fields/FrmProFieldDate.php:104
+msgid "Extra Datepicker options"
+msgstr "گزینه های اضافی Datepicker"
+
+#: classes/models/fields/FrmProFieldDivider.php:23
+msgid "Repeater"
+msgstr "تکرار کننده"
+
+#: classes/models/fields/FrmProFieldDivider.php:323
+msgid "Toggle fields"
+msgstr "جابجایی فیلدها"
+
+#. translators: %s: File size range, ex. 1MB - 5MB
+#: classes/models/fields/FrmProFieldFile.php:61
+#, php-format
+msgid "Required upload size: %s"
+msgstr "اندازه آپلود مورد نیاز: %s"
+
+#. translators: %s: Maximum File size, ex. 5MB
+#: classes/models/fields/FrmProFieldFile.php:65
+#, php-format
+msgid "Maximum file size: %s"
+msgstr "حداکثر اندازه فایل: %s"
+
+#: classes/models/fields/FrmProFieldFile.php:90
+msgid "Drop a file here or click to upload"
+msgstr "یک فایل را اینجا رها کنید یا برای آپلود کلیک کنید"
+
+#: classes/models/fields/FrmProFieldFile.php:91
+msgid "Choose File"
+msgstr "انتخاب فایل"
+
+#. translators: %s a conditional additional string (and could be indexed by search engines) if indexing is not turned off.
+#: classes/models/fields/FrmProFieldFile.php:146
+#, php-format
+msgid ""
+"Files uploaded with this field can be viewed by anyone with access to a link"
+"%s."
+msgstr ""
+"فایل های آپلود شده با این فیلد توسط هر کسی که به پیوند%s دسترسی دارد قابل "
+"مشاهده است."
+
+#: classes/models/fields/FrmProFieldFile.php:150
+msgid "changing who can access the file"
+msgstr "تغییر افرادی که می توانند به فایل دسترسی داشته باشند"
+
+#: classes/models/fields/FrmProFieldFile.php:150
+msgid "enabling file protection"
+msgstr "فعال کردن حفاظت از فایل"
+
+#: classes/models/fields/FrmProFieldFile.php:152
+msgid " and turning off indexing"
+msgstr "و غیرفعال کردن نمایه سازی"
+
+#. translators: %s recommendation. Can be a few things (changing who can access the file, enabling file protection and turning off indexing)
+#: classes/models/fields/FrmProFieldFile.php:156
+#, php-format
+msgid " If this is a concern, we recommend %s."
+msgstr "اگر نگران کننده است، %s را توصیه می کنیم."
+
+#: classes/models/fields/FrmProFieldLookup.php:110
+msgid "Search In"
+msgstr "جستجو در"
+
+#: classes/models/fields/FrmProFieldLookup.php:112
+msgid "Get Options From"
+msgstr "دریافت گزینه ها از"
+
+#: classes/models/fields/FrmProFieldPassword.php:62
+msgid "Passwords must contain at least one special character"
+msgstr "رمز عبور باید حداقل یک کاراکتر خاص داشته باشد"
+
+#: classes/models/fields/FrmProFieldPassword.php:243
+msgid "Eight characters minimum"
+msgstr "حداقل هشت کاراکتر"
+
+#: classes/models/fields/FrmProFieldPassword.php:245
+msgid "Passwords require at least 8 characters"
+msgstr "رمز عبور حداقل به 8 کاراکتر نیاز دارد"
+
+#: classes/models/fields/FrmProFieldPassword.php:248
+msgid "One lowercase letter"
+msgstr "یک حرف کوچک"
+
+#: classes/models/fields/FrmProFieldPassword.php:250
+msgid "Passwords must include at least one lowercase letter"
+msgstr "رمز عبور باید حداقل یک حرف کوچک داشته باشد"
+
+#: classes/models/fields/FrmProFieldPassword.php:253
+msgid "One uppercase letter"
+msgstr "یک حرف بزرگ"
+
+#: classes/models/fields/FrmProFieldPassword.php:255
+msgid "Passwords must include at least one uppercase letter"
+msgstr "رمز عبور باید حداقل یک حرف بزرگ داشته باشد"
+
+#: classes/models/fields/FrmProFieldPassword.php:258
+msgid "One number"
+msgstr "یک عدد"
+
+#: classes/models/fields/FrmProFieldPassword.php:260
+msgid "Passwords must include at least one number"
+msgstr "رمز عبور باید حداقل شامل یک عدد باشد"
+
+#: classes/models/fields/FrmProFieldPassword.php:263
+msgid "One special character"
+msgstr "یک شخصیت خاص"
+
+#: classes/models/fields/FrmProFieldProduct.php:33
+msgid "Product 1"
+msgstr "محصول 1"
+
+#: classes/models/fields/FrmProFieldProduct.php:74
+msgid "Single Product"
+msgstr "تک محصولی"
+
+#: classes/models/fields/FrmProFieldProduct.php:75
+msgid "User Defined"
+msgstr "تعریف شده توسط کاربر"
+
+#: classes/models/fields/FrmProFieldProduct.php:139
+msgid "Bulk Edit Products"
+msgstr "ویرایش انبوه محصولات"
+
+#: classes/models/fields/FrmProFieldProduct.php:143
+msgid "Add Product"
+msgstr "افزودن محصول"
+
+#: classes/models/fields/FrmProFieldProduct.php:273
+msgid "New Product"
+msgstr "محصول جدید"
+
+#: classes/models/fields/FrmProFieldRange.php:42
+msgid "number"
+msgstr "عدد"
+
+#: classes/models/fields/FrmProFieldRte.php:208
+msgid "Toggle Options"
+msgstr "گزینه ها را تغییر دهید"
+
+#: classes/models/fields/FrmProFieldTextarea.php:52
+#, php-format
+msgctxt "content limitation description"
+msgid "%1$s of %2$s max %3$s"
+msgstr "%1$s از %2$s حداکثر %3$s"
+
+#: classes/models/fields/FrmProFieldTextarea.php:55
+msgid "words"
+msgstr "کلمات"
+
+#: classes/models/fields/FrmProFieldTextarea.php:55
+msgid "characters"
+msgstr "شخصیت ها"
+
+#: classes/models/fields/FrmProFieldTime.php:161
+msgid "hour"
+msgstr "ساعت"
+
+#: classes/models/fields/FrmProFieldTime.php:167
+msgid "minute"
+msgstr "دقیقه"
+
+#: classes/models/fields/FrmProFieldToggle.php:33
+msgid "Yes"
+msgstr "آره"
+
+#: classes/models/fields/FrmProFieldToggle.php:34
+msgid "No"
+msgstr "خیر"
+
+#: classes/models/fields/FrmProFieldUserID.php:79
+msgid "Select a User"
+msgstr "یک کاربر را انتخاب کنید"
+
+#: classes/views/applications/buttons/export.php:7
+msgid "Export"
+msgstr "صادرات"
+
+#: classes/views/applications/buttons/settings.php:9
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: classes/views/applications/buttons/settings.php:15
+msgid "Application Name"
+msgstr "نام نرم افزار"
+
+#: classes/views/applications/buttons/settings.php:23
+msgid "Save Application"
+msgstr "ذخیره برنامه"
+
+#: classes/views/applications/buttons/sync.php:5
+msgid ""
+"Clicking sync will check your site for forms, Views, and pages that contain "
+"embedded items or that are used as data sources, and adds them to this "
+"application."
+msgstr ""
+"با کلیک بر روی همگام‌سازی، سایت شما از نظر فرم‌ها، نماها و صفحاتی که حاوی "
+"موارد جاسازی‌شده یا به‌عنوان منابع داده استفاده می‌شوند، بررسی می‌شود و آنها را "
+"به این برنامه اضافه می‌کند."
+
+#: classes/views/applications/buttons/sync.php:8
+msgid "Sync"
+msgstr "همگام سازی"
+
+#: classes/views/combo-fields/addresses/back-end-field-opts.php:8
+msgid "Address Type"
+msgstr "نوع آدرس"
+
+#: classes/views/combo-fields/addresses/back-end-field-opts.php:13
+msgid "International"
+msgstr "بین المللی"
+
+#: classes/views/combo-fields/addresses/back-end-field-opts.php:16
+msgid "United States"
+msgstr "ایالات متحده"
+
+#: classes/views/combo-fields/addresses/back-end-field-opts.php:19
+msgid "Europe"
+msgstr "اروپا"
+
+#: classes/views/combo-fields/addresses/back-end-field-opts.php:22
+msgid "Other - exclude country field"
+msgstr "سایر - به استثنای زمینه کشور"
+
+#: classes/views/combo-fields/credit-cards/back-end-field-opts.php:8
+msgid "Credit Card Security"
+msgstr "امنیت کارت اعتباری"
+
+#: classes/views/combo-fields/credit-cards/back-end-field-opts.php:9
+msgid ""
+"By default, only the last four digits of a credit card number will be saved. "
+"We recommend that you save as little credit card information on your site as "
+"possible."
+msgstr ""
+"به طور پیش فرض، فقط چهار رقم آخر شماره کارت اعتباری ذخیره می شود. توصیه می "
+"کنیم تا حد امکان اطلاعات کارت اعتباری کمتری را در سایت خود ذخیره کنید."
+
+#: classes/views/combo-fields/credit-cards/back-end-field-opts.php:13
+msgid "Save only the last 4 digits"
+msgstr "فقط 4 رقم آخر را ذخیره کنید"
+
+#: classes/views/combo-fields/credit-cards/back-end-field-opts.php:16
+msgid "Do not store the card number"
+msgstr "شماره کارت را ذخیره نکنید"
+
+#: classes/views/combo-fields/credit-cards/back-end-field-opts.php:19
+msgid "Store the whole card number (not recommended)"
+msgstr "کل شماره کارت را ذخیره کنید (توصیه نمی شود)"
+
+#: classes/views/combo-fields/credit-cards/back-end-field-opts.php:22
+msgid "Do not store or POST card values"
+msgstr "مقادیر کارت POST را ذخیره نکنید"
+
+#: classes/views/dashboard/templates/license-management.php:9
+msgid "License Key"
+msgstr "کلید مجوز"
+
+#: classes/views/displays/_calendar_options.php:8
+msgid "Event Date"
+msgstr "تاریخ رویداد"
+
+#: classes/views/displays/_calendar_options.php:24
+msgid "End Date or Day Count"
+msgstr "تاریخ پایان یا شمارش روز"
+
+#: classes/views/displays/_calendar_options.php:26
+msgid "No multi-day events"
+msgstr "رویدادهای چند روزه وجود ندارد"
+
+#: classes/views/displays/_calendar_options.php:42
+msgid "Repeat"
+msgstr "تکرار"
+
+#: classes/views/displays/_calendar_options.php:43
+msgid ""
+"Select a field from your form that contains values like 1 week, 2 weeks, 1 "
+"year, etc. This will set the repeat period for each event."
+msgstr ""
+"فیلدی را از فرم خود انتخاب کنید که حاوی مقادیری مانند 1 هفته، 2 هفته، 1 سال "
+"و غیره باشد. با این کار دوره تکرار برای هر رویداد تنظیم می شود."
+
+#: classes/views/displays/_calendar_options.php:46
+msgid "No repeating events"
+msgstr "بدون رویدادهای تکراری"
+
+#: classes/views/displays/_calendar_options.php:55
+msgid "End Repeat"
+msgstr "پایان تکرار"
+
+#: classes/views/displays/_calendar_options.php:57
+msgid "Never"
+msgstr "هرگز"
+
+#: classes/views/displays/mb_advanced.php:13
+msgid "Limit"
+msgstr "حد"
+
+#: classes/views/displays/mb_advanced.php:14
+msgid ""
+"If you don’t want all your entries displayed, you can insert the number "
+"limit here. Leave blank if you’d like all entries shown."
+msgstr ""
+"اگر نمی‌خواهید همه ورودی‌های شما نمایش داده شوند، می‌توانید محدودیت تعداد را در "
+"اینجا درج کنید. اگر می‌خواهید همه ورودی‌ها نشان داده شوند، خالی بگذارید."
+
+#: classes/views/displays/mb_advanced.php:22
+msgid "Page Size"
+msgstr "اندازه صفحه"
+
+#: classes/views/displays/mb_advanced.php:23
+msgid ""
+"The number of entries to show per page. Leave blank to not use pagination."
+msgstr ""
+"تعداد ورودی هایی که در هر صفحه نمایش داده می شود. خالی بگذارید تا از صفحه "
+"بندی استفاده نکنید."
+
+#: classes/views/displays/mb_advanced.php:32
+msgid "Sort & Filter"
+msgstr "مرتب سازی و فیلتر کردن"
+
+#: classes/views/displays/mb_advanced.php:37
+#: classes/views/frmpro-form-actions/post_options.php:183
+msgid "Order"
+msgstr "سفارش"
+
+#: classes/views/displays/mb_advanced.php:58
+msgid "Filter Entries"
+msgstr "فیلتر ورودی ها"
+
+#: classes/views/displays/mb_advanced.php:59
+msgid ""
+"Narrow down which entries will be used. The Unique options uses SQL GROUP BY "
+"to make sure only one entry is shown for each value in the selected field(s)."
+msgstr ""
+"ورودی های مورد استفاده را محدود کنید. گزینه های منحصر به فرد از SQL GROUP BY "
+"استفاده می کند تا مطمئن شود که فقط یک ورودی برای هر مقدار در فیلد(های) "
+"انتخاب شده نشان داده می شود."
+
+#: classes/views/displays/mb_advanced.php:80
+msgid "No Entries Message"
+msgstr "پیام ورودی وجود ندارد"
+
+#: classes/views/displays/mb_advanced.php:88
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#: classes/views/displays/mb_advanced.php:93
+msgid "View Key"
+msgstr "نمایش کلید"
+
+#: classes/views/displays/mb_advanced.php:102
+msgid "Detail Page Slug"
+msgstr "جزئیات صفحه Slug"
+
+#: classes/views/displays/mb_advanced.php:103
+#, php-format
+msgid ""
+"Example: If parameter name is 'contact', the url would be like %1$s/selected-"
+"page?contact=2. If this entry is linked to a post, the post permalink will "
+"be used instead."
+msgstr ""
+"مثال: اگر نام پارامتر \"contact\" باشد، نشانی اینترنتی مانند %1$s /selected-"
+"page?contact=2 خواهد بود. اگر این ورودی به یک پست پیوند داده شده باشد، به "
+"جای آن از پیوند ثابت پست استفاده خواهد شد."
+
+#: classes/views/displays/mb_advanced.php:110
+msgid "Parameter Value"
+msgstr "مقدار پارامتر"
+
+#: classes/views/displays/mb_advanced.php:130
+msgid ""
+"Copy this View to other sites when Formidable Forms is activated. (Use only "
+"field keys in the content box(es) above.)"
+msgstr ""
+"هنگامی که Formidable Forms فعال است، این نما را در سایت های دیگر کپی کنید. "
+"(فقط از کلیدهای فیلد در کادر(های) محتوا در بالا استفاده کنید.)"
+
+#: classes/views/displays/mb_dyncontent.php:12
+#: classes/views/displays/mb_dyncontent.php:13
+#: classes/views/displays/mb_dyncontent.php:18
+msgid "Detail Page"
+msgstr "صفحه جزئیات"
+
+#: classes/views/displays/mb_dyncontent.php:12
+#: classes/views/displays/mb_dyncontent.php:13
+msgid "Listing Page"
+msgstr "صفحه فهرست"
+
+#: classes/views/displays/mb_dyncontent.php:23
+msgid ""
+"This page lists multiple entries. Link to a single entry/detail page using "
+"[detaillink]"
+msgstr ""
+"این صفحه چندین ورودی را فهرست می کند. پیوند به یک صفحه ورودی/جزئیات با "
+"استفاده از [detaillink]"
+
+#: classes/views/displays/mb_dyncontent.php:26
+msgid "This is the detail page for a single entry in this form"
+msgstr "این صفحه جزئیات برای یک ورودی واحد در این فرم است"
+
+#: classes/views/displays/mb_dyncontent.php:33
+msgid "Before Content"
+msgstr "قبل از محتوا"
+
+#: classes/views/displays/mb_dyncontent.php:34
+msgid ""
+"This content will not be repeated. This would be a good place to put any "
+"HTML table tags."
+msgstr ""
+"این مطالب تکرار نخواهد شد. این مکان مناسبی برای قرار دادن هر تگ جدول HTML "
+"خواهد بود."
+
+#: classes/views/displays/mb_dyncontent.php:34
+#: classes/views/displays/mb_dyncontent.php:64
+msgid "optional"
+msgstr "اختیاری"
+
+#: classes/views/displays/mb_dyncontent.php:41
+msgid "Content"
+msgstr "محتوا"
+
+#: classes/views/displays/mb_dyncontent.php:42
+msgid ""
+"The HTML for your page. If 'All Entries' is selected above, this content "
+"will be repeated for each entry. The field ID and Key work synonymously, "
+"although there are times one choice may be better. If you are panning to "
+"copy your view settings to other blogs, use the Key since they will be "
+"copied and the ids may differ from blog to blog."
+msgstr ""
+"HTML برای صفحه شما. اگر «همه ورودی‌ها» در بالا انتخاب شده باشد، این محتوا "
+"برای هر ورودی تکرار می‌شود. شناسه فیلد و کلید به صورت مترادف کار می کنند، "
+"اگرچه مواقعی وجود دارد که یک انتخاب ممکن است بهتر باشد. اگر می‌خواهید تنظیمات "
+"مشاهده خود را در وبلاگ‌های دیگر کپی کنید، از کلید استفاده کنید زیرا آنها کپی "
+"می‌شوند و ممکن است شناسه‌ها از وبلاگی به وبلاگ دیگر متفاوت باشد."
+
+#: classes/views/displays/mb_dyncontent.php:49
+msgid "Disable visual editor for this view"
+msgstr "ویرایشگر بصری را برای این نما غیرفعال کنید"
+
+#: classes/views/displays/mb_dyncontent.php:51
+msgid ""
+"It is recommended to check this box if you include a <table> tag in the "
+"Before Content box. If you are editing a view and notice the visual tab is "
+"selected and your table HTML is missing, you can switch to the HTML tab, go "
+"up to your url in your browser and hit enter to reload the page. As long as "
+"the settings have not been saved, your old HTML will be back to way it was "
+"before loading it in the visual tab."
+msgstr ""
+"توصیه می‌شود اگر تگ <table> را در کادر قبل از محتوا وارد می‌کنید، این کادر را "
+"علامت بزنید. اگر در حال ویرایش یک نما هستید و متوجه شدید که برگه بصری انتخاب "
+"شده است و HTML جدول شما وجود ندارد، می‌توانید به برگه HTML بروید، به آدرس "
+"اینترنتی خود در مرورگر خود بروید و برای بارگیری مجدد صفحه را فشار دهید. تا "
+"زمانی که تنظیمات ذخیره نشده باشند، HTML قدیمی شما به حالت قبل از بارگیری در "
+"برگه بصری باز می گردد."
+
+#: classes/views/displays/mb_dyncontent.php:62
+msgid "After Content"
+msgstr "بعد از محتوا"
+
+#: classes/views/displays/mb_dyncontent.php:63
+msgid ""
+"This content will not be repeated. This would be a good place to close any "
+"HTML tags from the Before Content field."
+msgstr ""
+"این مطالب تکرار نخواهد شد. این مکان مناسبی برای بستن هر تگ HTML از قسمت قبل "
+"از محتوا است."
+
+#: classes/views/displays/mb_dyncontent.php:74
+msgid "Dynamic Content"
+msgstr "محتوای پویا"
+
+#: classes/views/displays/mb_dyncontent.php:75
+#, php-format
+msgid ""
+"The HTML for the entry on the dynamic page. This content will NOT be "
+"repeated, and will only show when the %1$s is clicked."
+msgstr ""
+"HTML برای ورودی در صفحه پویا. این محتوا تکرار نخواهد شد و تنها زمانی نشان "
+"داده می شود که %1$s کلیک شود."
+
+#: classes/views/displays/mb_excerpt.php:9
+msgid ""
+"This is not displayed anywhere, but is just for your reference. (optional)"
+msgstr ""
+"این در هیچ کجا نمایش داده نمی شود، اما فقط برای مرجع شما است. (اختیاری)"
+
+#: classes/views/displays/mb_form_disp_type.php:11
+msgid "Use Entries from Form"
+msgstr "از ورودی های فرم استفاده کنید"
+
+#: classes/views/displays/mb_form_disp_type.php:20
+msgid "View Format"
+msgstr "نمایش فرمت"
+
+#: classes/views/displays/mb_form_disp_type.php:28
+msgid "All Entries &mdash; list all entries in the specified form"
+msgstr "همه ورودی ها &mdash; تمام ورودی ها را در فرم مشخص شده لیست کنید"
+
+#: classes/views/displays/mb_form_disp_type.php:33
+msgid "Single Entry &mdash; display one entry"
+msgstr "تک ورودی &mdash; نمایش یک ورودی"
+
+#: classes/views/displays/mb_form_disp_type.php:38
+msgid ""
+"Both (Dynamic) &mdash; list the entries that will link to a single entry page"
+msgstr ""
+"هر دو (پویا) &mdash; ورودی هایی را که به یک صفحه ورودی پیوند می دهند را "
+"فهرست کنید"
+
+#: classes/views/displays/mb_form_disp_type.php:44
+msgid "Calendar &mdash; insert entries into a calendar"
+msgstr "تقویم &mdash; درج ورودی ها در تقویم"
+
+#: classes/views/displays/order_row.php:23
+msgid "Random"
+msgstr "تصادفی"
+
+#: classes/views/displays/order_row.php:34
+msgid "Ascending"
+msgstr "صعودی"
+
+#: classes/views/displays/order_row.php:37
+msgid "Descending"
+msgstr "نزولی"
+
+#. translators: accessibility text
+#: classes/views/displays/publish-box.php:20
+msgid "(opens in a new tab)"
+msgstr "(در یک برگه جدید باز می شود)"
+
+#: classes/views/displays/submitbox_actions.php:11
+msgid "View"
+msgstr "چشم انداز"
+
+#: classes/views/displays/submitbox_actions.php:12
+msgid "Shortcodes"
+msgstr "کدهای کوتاه"
+
+#: classes/views/displays/submitbox_actions.php:15
+msgid "Show"
+msgstr "نمایش دهید"
+
+#: classes/views/displays/submitbox_actions.php:18
+msgid "Save to get ID"
+msgstr "برای دریافت شناسه ذخیره کنید"
+
+#: classes/views/displays/submitbox_actions.php:24
+msgid "Insert with PHP"
+msgstr "درج با PHP"
+
+#: classes/views/displays/submitbox_actions.php:31
+msgid "Hide"
+msgstr "پنهان شدن"
+
+#: classes/views/displays/where_options.php:28
+msgid "Draft or complete entry"
+msgstr "پیش نویس یا ورود کامل"
+
+#: classes/views/displays/where_options.php:34
+msgid "Complete entry"
+msgstr "ورود کامل"
+
+#: classes/views/displays/where_options.php:40
+msgid "Date options: 'NOW' or a date in yyyy-mm-dd format."
+msgstr "گزینه‌های تاریخ: «اکنون» یا یک تاریخ در قالب yyyy-mm-dd."
+
+#: classes/views/displays/where_row.php:10
+#: classes/views/frmpro-fields/_logic_row.php:8
+#: classes/views/frmpro-fields/options-form-before.php:12
+#: classes/views/frmpro-form-actions/_custom_field_row.php:23
+#: classes/views/frmpro-form-actions/post_options.php:36
+#: classes/views/frmpro-form-actions/post_options.php:48
+#: classes/views/frmpro-form-actions/post_options.php:60
+#: classes/views/frmpro-forms/_logic_row.php:14
+#: classes/views/frmpro-forms/_submit_logic_row.php:10
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; انتخاب &mdash;"
+
+#: classes/views/displays/where_row.php:15
+msgid "Entry updated date"
+msgstr "تاریخ به روز رسانی ورودی"
+
+#: classes/views/displays/where_row.php:27
+msgid "Parent entry ID"
+msgstr "شناسه ورود والدین"
+
+#: classes/views/displays/where_row.php:30
+msgid "Entry status"
+msgstr "وضعیت ورود"
+
+#: classes/views/displays/where_row.php:38
+msgid "IP"
+msgstr "IP"
+
+#: classes/views/displays/where_row.php:41
+msgid "is"
+msgstr "است"
+
+#: classes/views/emails/license-expired.php:16
+msgid "Hi there,"
+msgstr "سلام،"
+
+#: classes/views/emails/license-expired.php:18
+msgid ""
+"I hope you have loved the past year of using Formidable Forms! Your "
+"subscription was set to manually renew and has just expired."
+msgstr ""
+"امیدوارم سال گذشته استفاده از Formidable Forms را دوست داشته باشید! اشتراک "
+"شما برای تمدید دستی تنظیم شده است و به تازگی منقضی شده است."
+
+#: classes/views/emails/license-expired.php:20
+msgid ""
+"Renewing your license grants you access to our legendary support services, "
+"form templates, Pro features, and updates for another year."
+msgstr ""
+"تمدید مجوز به شما امکان می دهد تا یک سال دیگر به خدمات پشتیبانی افسانه ای، "
+"قالب های فرم، ویژگی های حرفه ای و به روز رسانی های ما دسترسی داشته باشید."
+
+#: classes/views/emails/license-expired.php:28
+msgid ""
+"If you don't need Formidable Pro right now, that's OK. You can let this "
+"subscription expire and simply resubscribe in the future when needed."
+msgstr ""
+"اگر در حال حاضر به Formidable Pro نیاز ندارید، اشکالی ندارد. می توانید اجازه "
+"دهید این اشتراک منقضی شود و در صورت نیاز به سادگی در آینده دوباره اشتراک "
+"کنید."
+
+#: classes/views/emails/license-expired.php:31
+msgid "Cheers!"
+msgstr "به سلامتی!"
+
+#. translators: %d: Entry ID
+#: classes/views/frmpro-entries/edit.php:36
+#, php-format
+msgid "(ID %d)"
+msgstr "(شناسه %d)"
+
+#: classes/views/frmpro-entries/loading.php:8
+msgid "Uploading Files. Please Wait."
+msgstr "آپلود فایل ها لطفا صبر کنید."
+
+#: classes/views/frmpro-entries/navigation.php:9
+#: classes/views/frmpro-entries/navigation.php:13
+msgid "Previous Entry"
+msgstr "ورودی قبلی"
+
+#. translators: 1: current entry count, 2: total entries count
+#: classes/views/frmpro-entries/navigation.php:21
+#, php-format
+msgid "%1$s of %2$s"
+msgstr "%1$s از %2$s"
+
+#: classes/views/frmpro-entries/navigation.php:30
+#: classes/views/frmpro-entries/navigation.php:34
+msgid "Next page"
+msgstr "صفحه بعد"
+
+#: classes/views/frmpro-entries/new-selection.php:10
+#: classes/views/frmpro-entries/new.php:13
+#: classes/views/frmpro-entries/new.php:26
+msgid "Add New Entry"
+msgstr "افزودن ورودی جدید"
+
+#: classes/views/frmpro-entries/new-selection.php:17
+msgid "Select a form for your new entry."
+msgstr "یک فرم برای ورودی جدید خود انتخاب کنید."
+
+#: classes/views/frmpro-entries/new-selection.php:24
+#: classes/views/frmpro-statistics/select.php:24
+msgid "Go"
+msgstr "برو"
+
+#: classes/views/frmpro-entries/new.php:29
+msgid "Oops!"
+msgstr "اوه!"
+
+#: classes/views/frmpro-entries/new.php:30
+#, php-format
+msgid "You did not add any fields to your form. %1$sGo back%2$s and add some."
+msgstr ""
+"شما هیچ فیلدی به فرم خود اضافه نکردید. %1$sبرگردید%2$s و مقداری اضافه کنید."
+
+#: classes/views/frmpro-entries/show.php:7
+msgid "Comments/Notes"
+msgstr "نظرات/یادداشت ها"
+
+#: classes/views/frmpro-entries/show.php:27
+msgid "Add Note/Comment"
+msgstr "اضافه کردن یادداشت / نظر"
+
+#: classes/views/frmpro-entries/show.php:39
+msgid "Comment/Note"
+msgstr "نظر/یادداشت"
+
+#: classes/views/frmpro-entries/show.php:42
+msgid "Submit"
+msgstr "ارسال"
+
+#: classes/views/frmpro-fields/_logic_row.php:37
+#: classes/views/frmpro-forms/_logic_row.php:37
+#: classes/views/frmpro-forms/_submit_logic_row.php:46
+msgid "equals"
+msgstr "برابر است"
+
+#: classes/views/frmpro-fields/_logic_row.php:40
+#: classes/views/frmpro-forms/_logic_row.php:40
+#: classes/views/frmpro-forms/_submit_logic_row.php:49
+msgid "does not equal"
+msgstr "برابر نیست"
+
+#: classes/views/frmpro-fields/_logic_row.php:43
+#: classes/views/frmpro-forms/_logic_row.php:43
+#: classes/views/frmpro-forms/_submit_logic_row.php:52
+msgid "is greater than"
+msgstr "بزرگتر است از"
+
+#: classes/views/frmpro-fields/_logic_row.php:46
+#: classes/views/frmpro-forms/_logic_row.php:46
+#: classes/views/frmpro-forms/_submit_logic_row.php:55
+msgid "is greater than or equal to"
+msgstr "بزرگتر یا مساوی است"
+
+#: classes/views/frmpro-fields/_logic_row.php:49
+#: classes/views/frmpro-forms/_logic_row.php:49
+#: classes/views/frmpro-forms/_submit_logic_row.php:58
+msgid "is less than"
+msgstr "کمتر است از"
+
+#: classes/views/frmpro-fields/_logic_row.php:52
+#: classes/views/frmpro-forms/_logic_row.php:52
+#: classes/views/frmpro-forms/_submit_logic_row.php:61
+msgid "is less than or equal to"
+msgstr "کمتر یا مساوی است"
+
+#: classes/views/frmpro-fields/_logic_row.php:55
+#: classes/views/frmpro-forms/_logic_row.php:55
+#: classes/views/frmpro-forms/_submit_logic_row.php:64
+msgid "contains"
+msgstr "شامل"
+
+#: classes/views/frmpro-fields/_logic_row.php:58
+#: classes/views/frmpro-forms/_logic_row.php:58
+#: classes/views/frmpro-forms/_submit_logic_row.php:67
+msgid "does not contain"
+msgstr "شامل نمی شود"
+
+#: classes/views/frmpro-fields/_logic_row.php:61
+#: classes/views/frmpro-forms/_logic_row.php:61
+#: classes/views/frmpro-forms/_submit_logic_row.php:70
+msgid "starts with"
+msgstr "شروع می شود با"
+
+#: classes/views/frmpro-fields/_logic_row.php:64
+#: classes/views/frmpro-forms/_logic_row.php:64
+#: classes/views/frmpro-forms/_submit_logic_row.php:73
+msgid "ends with"
+msgstr "به پایان می رسد با"
+
+#: classes/views/frmpro-fields/back-end/alignment.php:22
+msgid "Option Layout"
+msgstr "طرح بندی گزینه"
+
+#: classes/views/frmpro-fields/back-end/auto-grow.php:9
+msgid "Auto Grow"
+msgstr "رشد خودکار"
+
+#: classes/views/frmpro-fields/back-end/auto-grow.php:10
+msgid ""
+"Auto Grow: Automatically expand the height of the field when the text "
+"reaches the maximum rows"
+msgstr ""
+"رشد خودکار: به‌طور خودکار ارتفاع فیلد را زمانی که متن به حداکثر ردیف‌ها می‌رسد، "
+"گسترش می‌دهد"
+
+#: classes/views/frmpro-fields/back-end/autocomplete.php:8
+#: classes/views/frmpro-fields/back-end/multi-select.php:15
+msgid "Autocomplete"
+msgstr "تکمیل خودکار"
+
+#: classes/views/frmpro-fields/back-end/autocomplete.php:9
+msgid ""
+"The autocomplete attribute asks the browser to attempt autocompletion, based "
+"on user history."
+msgstr ""
+"ویژگی تکمیل خودکار از مرورگر می‌خواهد تا بر اساس سابقه کاربر، تکمیل خودکار را "
+"انجام دهد."
+
+#: classes/views/frmpro-fields/back-end/autocomplete.php:19
+msgid "Please select"
+msgstr "لطفا انتخاب کنید"
+
+#: classes/views/frmpro-fields/back-end/autopopulate-values.php:11
+msgid "Watch Lookup Fields"
+msgstr "فیلدهای جستجو را تماشا کنید"
+
+#: classes/views/frmpro-fields/back-end/autopopulate-values.php:28
+#: classes/views/lookup-fields/back-end/watch.php:18
+msgid "Watch a Lookup Field"
+msgstr "یک فیلد جستجو را تماشا کنید"
+
+#: classes/views/frmpro-fields/back-end/autopopulate-values.php:35
+msgid "Get only the most recent value"
+msgstr "فقط جدیدترین مقدار را دریافت کنید"
+
+#: classes/views/frmpro-fields/back-end/autopopulate-values.php:39
+msgid "Dynamically retrieve the value of this field from a lookup field."
+msgstr "به صورت پویا مقدار این فیلد را از یک فیلد جستجو بازیابی کنید."
+
+#: classes/views/frmpro-fields/back-end/autopopulate.php:10
+msgid "Lookup"
+msgstr "جستجو"
+
+#: classes/views/frmpro-fields/back-end/autopopulate.php:18
+msgid "Lookup Default Value"
+msgstr "جستجوی مقدار پیش فرض"
+
+#: classes/views/frmpro-fields/back-end/calculation-settings.php:9
+msgid "Type"
+msgstr "تایپ کنید"
+
+#: classes/views/frmpro-fields/back-end/calculation-settings.php:10
+msgid ""
+"Text calculations are combined literally, as is. Math calculations only use "
+"numbers in the calculation, and any included math operations will be applied."
+msgstr ""
+"محاسبات متن به معنای واقعی کلمه ترکیب می شوند، همانطور که هست. محاسبات ریاضی "
+"فقط از اعداد در محاسبات استفاده می کنند و هر عملیات ریاضی گنجانده شده اعمال "
+"خواهد شد."
+
+#: classes/views/frmpro-fields/back-end/calculation-settings.php:16
+msgid "Text"
+msgstr "متن"
+
+#: classes/views/frmpro-fields/back-end/calculation-settings.php:19
+msgid "Math"
+msgstr "ریاضی"
+
+#: classes/views/frmpro-fields/back-end/calculation-settings.php:25
+msgid "Decimal Places"
+msgstr "مکان های اعشاری"
+
+#: classes/views/frmpro-fields/back-end/calculation-settings.php:34
+msgid "Field List"
+msgstr "لیست فیلد"
+
+#: classes/views/frmpro-fields/back-end/calculation-settings.php:41
+#: classes/views/frmpro-fields/back-end/summary-exclude-fields-settings.php:21
+msgid "Search Fields"
+msgstr "فیلدهای جستجو"
+
+#: classes/views/frmpro-fields/back-end/calculation-settings.php:50
+msgid ""
+"Click fields from the field list above to include them in your calculation. "
+"Example: [12]+[13]"
+msgstr ""
+"روی فیلدها از لیست فیلدهای بالا کلیک کنید تا آنها را در محاسبات خود لحاظ "
+"کنید. مثال: [12]+[13]"
+
+#: classes/views/frmpro-fields/back-end/calculations.php:10
+msgid "Calculation"
+msgstr "محاسبه"
+
+#: classes/views/frmpro-fields/back-end/calculations.php:30
+msgid "Calculate Default Value"
+msgstr "محاسبه مقدار پیش فرض"
+
+#: classes/views/frmpro-fields/back-end/calendar.php:8
+msgid "Year Range"
+msgstr "محدوده سال"
+
+#: classes/views/frmpro-fields/back-end/calendar.php:9
+msgid ""
+"Use four digit years or +/- years to make it dynamic. For example, use -5 "
+"for the start year and +5 for the end year."
+msgstr ""
+"از سال چهار رقمی یا سال +/- برای پویا کردن آن استفاده کنید. به عنوان مثال، "
+"از -5 برای سال شروع و +5 برای سال پایانی استفاده کنید."
+
+#: classes/views/frmpro-fields/back-end/calendar.php:14
+msgid "Start"
+msgstr "شروع کنید"
+
+#: classes/views/frmpro-fields/back-end/calendar.php:18
+msgid "End"
+msgstr "پایان"
+
+#: classes/views/frmpro-fields/back-end/checkbox-limit.php:8
+msgid "Limit Selections"
+msgstr "محدود کردن انتخاب ها"
+
+#: classes/views/frmpro-fields/back-end/checkbox-limit.php:9
+msgid ""
+"The maximum number of options in this field that the end user is allowed to "
+"select"
+msgstr ""
+"حداکثر تعداد گزینه های موجود در این قسمت که کاربر نهایی مجاز به انتخاب است"
+
+#: classes/views/frmpro-fields/back-end/clock-settings.php:7
+msgid "Time Range"
+msgstr "محدوده زمانی"
+
+#: classes/views/frmpro-fields/back-end/clock-settings.php:21
+msgid "Step (min)"
+msgstr "مرحله (دقیقه)"
+
+#: classes/views/frmpro-fields/back-end/clock-settings.php:27
+msgid "Time Format"
+msgstr "فرمت زمان"
+
+#: classes/views/frmpro-fields/back-end/clock-settings.php:31
+msgid "12 hour clock"
+msgstr "ساعت 12 ساعته"
+
+#: classes/views/frmpro-fields/back-end/clock-settings.php:34
+msgid "24 hour clock"
+msgstr "ساعت 24 ساعته"
+
+#: classes/views/frmpro-fields/back-end/clock-settings.php:42
+msgid "show a single time dropdown"
+msgstr "نمایش کشویی تک زمان"
+
+#: classes/views/frmpro-fields/back-end/confirmation-placeholder.php:8
+msgid "Confirmation Placeholder"
+msgstr "محل تایید تایید"
+
+#: classes/views/frmpro-fields/back-end/confirmation-placeholder.php:14
+msgid "Confirmation Description"
+msgstr "توضیحات تایید"
+
+#: classes/views/frmpro-fields/back-end/confirmation.php:8
+msgid "Require Confirmation"
+msgstr "نیاز به تایید"
+
+#: classes/views/frmpro-fields/back-end/confirmation.php:12
+msgid "No Confirmation"
+msgstr "بدون تایید"
+
+#: classes/views/frmpro-fields/back-end/confirmation.php:15
+#: classes/views/frmpro-forms/add_form_button_options.php:44
+msgid "Inline"
+msgstr "درون خطی"
+
+#: classes/views/frmpro-fields/back-end/confirmation.php:18
+msgid "Below Field"
+msgstr "زیر فیلد"
+
+#: classes/views/frmpro-fields/back-end/content-limit.php:16
+msgid "Limit length"
+msgstr "طول را محدود کنید"
+
+#: classes/views/frmpro-fields/back-end/content-limit.php:30
+msgid "Characters"
+msgstr "شخصیت ها"
+
+#: classes/views/frmpro-fields/back-end/content-limit.php:31
+msgid "Words"
+msgstr "کلمات"
+
+#. translators: %s item that will be formatted as currency (calculation, number).
+#: classes/views/frmpro-fields/back-end/currency-format.php:14
+#, php-format
+msgid "Format %s as currency"
+msgstr "%s را به عنوان ارز قالب‌بندی کنید"
+
+#: classes/views/frmpro-fields/back-end/currency-format.php:15
+msgid "calculation"
+msgstr "محاسبه"
+
+#: classes/views/frmpro-fields/back-end/currency-format.php:24
+msgid "Use custom currency format"
+msgstr "از فرمت ارز سفارشی استفاده کنید"
+
+#: classes/views/frmpro-fields/back-end/currency-format.php:33
+msgid "Thousand separator"
+msgstr "جدا کننده هزار"
+
+#: classes/views/frmpro-fields/back-end/currency-format.php:40
+msgid "Decimal separator"
+msgstr "جداکننده اعشاری"
+
+#: classes/views/frmpro-fields/back-end/currency-format.php:51
+msgid "Decimals"
+msgstr "اعداد اعشاری"
+
+#: classes/views/frmpro-fields/back-end/currency-format.php:58
+msgid "Left symbol"
+msgstr "نماد سمت چپ"
+
+#: classes/views/frmpro-fields/back-end/currency-format.php:65
+msgid "Right symbol"
+msgstr "نماد سمت راست"
+
+#: classes/views/frmpro-fields/back-end/dates-advanced.php:9
+msgid "Calendar Localization"
+msgstr "محلی سازی تقویم"
+
+#: classes/views/frmpro-fields/back-end/dates-advanced.php:29
+msgid ""
+"Add blackout dates, inline datepickers, dynamic start and end dates, and "
+"date calculations."
+msgstr ""
+"تاریخ‌های خاموشی، انتخاب‌کننده‌های تاریخ درون خطی، تاریخ‌های شروع و پایان پویا، "
+"و محاسبات تاریخ را اضافه کنید."
+
+#: classes/views/frmpro-fields/back-end/dates-advanced.php:34
+msgid "More Datepicker Options"
+msgstr "گزینه های بیشتر Datepicker"
+
+#: classes/views/frmpro-fields/back-end/default-placeholder.php:34
+msgid "Placeholder Text"
+msgstr "متن جای جای"
+
+#: classes/views/frmpro-fields/back-end/default-placeholder.php:46
+msgid "Description"
+msgstr "شرح"
+
+#: classes/views/frmpro-fields/back-end/default-terms.php:7
+msgid "No options found."
+msgstr "هیچ گزینه ای پیدا نشد"
+
+#: classes/views/frmpro-fields/back-end/default-terms.php:14
+msgid "Search Terms"
+msgstr "شرایط جستجو"
+
+#: classes/views/frmpro-fields/back-end/default-terms.php:37
+#: classes/views/frmpro-forms/instructions.php:43
+msgid ""
+"Click smart value to dynamically populate this field. Smart values are not "
+"used when editing entries."
+msgstr ""
+"روی مقدار smart کلیک کنید تا این فیلد به صورت پویا پر شود. هنگام ویرایش "
+"ورودی ها از مقادیر هوشمند استفاده نمی شود."
+
+#: classes/views/frmpro-fields/back-end/dynamic-field.php:8
+msgid "Display Type"
+msgstr "نوع نمایش"
+
+#. translators: %s: The page number
+#: classes/views/frmpro-fields/back-end/field-break.php:20
+#, php-format
+msgid "Page %s"
+msgstr "صفحه %s"
+
+#: classes/views/frmpro-fields/back-end/field-data.php:15
+#: classes/views/frmpro-fields/back-end/field-form.php:11
+#: classes/views/lookup-fields/back-end/input.php:10
+msgid "This field is not set up yet."
+msgstr "این فیلد هنوز راه اندازی نشده است."
+
+#: classes/views/frmpro-fields/back-end/field-data.php:25
+#: classes/views/lookup-fields/back-end/input.php:48
+#: classes/views/lookup-fields/back-end/input.php:77
+msgid "This field content is dynamic"
+msgstr "محتوای این زمینه پویا است"
+
+#: classes/views/frmpro-fields/back-end/field-data.php:44
+#: classes/views/frmpro-fields/back-end/field-data.php:79
+msgid "This data is dynamic on change"
+msgstr "این داده ها در حال تغییر پویا هستند"
+
+#: classes/views/frmpro-fields/back-end/field-data.php:65
+#: classes/views/frmpro-fields/back-end/field-data.php:76
+msgid "There are no dynamic options"
+msgstr "هیچ گزینه پویا وجود ندارد"
+
+#: classes/views/frmpro-fields/back-end/field-form.php:21
+msgid "Embedded Form: "
+msgstr "فرم تعبیه شده:"
+
+#. translators: %1$s: Form name
+#: classes/views/frmpro-fields/back-end/field-form.php:26
+#, php-format
+msgid "Embedded Form: %1$s"
+msgstr "فرم جاسازی شده: %1$s"
+
+#: classes/views/frmpro-fields/back-end/field-summary.php:13
+msgid ""
+"Summary: This field displays a summary of values entered on previous pages."
+msgstr ""
+"خلاصه: این قسمت خلاصه ای از مقادیر وارد شده در صفحات قبلی را نمایش می دهد."
+
+#: classes/views/frmpro-fields/back-end/file-options.php:7
+msgid "File Upload Options"
+msgstr "گزینه های آپلود فایل"
+
+#: classes/views/frmpro-fields/back-end/file-options.php:19
+msgid "Uploads are public. File access can be updated in "
+msgstr "آپلودها عمومی هستند. دسترسی به فایل را می توان در به روز رسانی کرد"
+
+#: classes/views/frmpro-fields/back-end/file-options.php:20
+msgid "Form Permissions Settings"
+msgstr "تنظیمات مجوزهای فرم"
+
+#: classes/views/frmpro-fields/back-end/file-options.php:29
+msgid "Allow multiple files to be uploaded"
+msgstr "اجازه دهید چندین فایل آپلود شود"
+
+#: classes/views/frmpro-fields/back-end/file-options.php:35
+msgid "Attach this file to the email notification"
+msgstr "این فایل را به اعلان ایمیل پیوست کنید"
+
+#: classes/views/frmpro-fields/back-end/file-options.php:41
+msgid "Permanently delete old files when replaced or when the entry is deleted"
+msgstr ""
+"فایل‌های قدیمی را هنگام جایگزینی یا زمانی که ورودی حذف می‌شود، برای همیشه حذف "
+"کنید"
+
+#: classes/views/frmpro-fields/back-end/file-options.php:47
+msgid "Automatically resize files before upload"
+msgstr "اندازه فایل ها را قبل از آپلود به صورت خودکار تغییر دهید"
+
+#: classes/views/frmpro-fields/back-end/file-options.php:48
+msgid ""
+"When a large image is uploaded, resize it before you save it to your site."
+msgstr ""
+"هنگامی که یک تصویر بزرگ آپلود می شود، قبل از اینکه آن را در سایت خود ذخیره "
+"کنید، اندازه آن را تغییر دهید."
+
+#: classes/views/frmpro-fields/back-end/file-options.php:52
+msgid "New file size"
+msgstr "اندازه فایل جدید"
+
+#: classes/views/frmpro-fields/back-end/file-options.php:55
+msgid "The size the image should be resized to"
+msgstr "اندازه تصویر باید تغییر اندازه داده شود"
+
+#: classes/views/frmpro-fields/back-end/file-options.php:57
+msgid "px"
+msgstr "px"
+
+#: classes/views/frmpro-fields/back-end/file-options.php:61
+msgid "Resize the image by width or height"
+msgstr "اندازه تصویر را با عرض یا ارتفاع تغییر دهید"
+
+#: classes/views/frmpro-fields/back-end/file-options.php:64
+msgid "wide"
+msgstr "وسیع"
+
+#: classes/views/frmpro-fields/back-end/file-options.php:67
+msgid "high"
+msgstr "بالا"
+
+#: classes/views/frmpro-fields/back-end/file-options.php:73
+msgid "Allowed file types"
+msgstr "انواع فایل های مجاز"
+
+#: classes/views/frmpro-fields/back-end/file-options.php:77
+msgid "Allow all file types"
+msgstr "همه انواع فایل را مجاز کنید"
+
+#: classes/views/frmpro-fields/back-end/file-options.php:83
+msgid "Specify allowed types"
+msgstr "انواع مجاز را مشخص کنید"
+
+#: classes/views/frmpro-fields/back-end/file-options.php:97
+msgid "File size limits"
+msgstr "محدودیت اندازه فایل"
+
+#: classes/views/frmpro-fields/back-end/file-options.php:100
+msgid "Min file size (MB)"
+msgstr "حداقل حجم فایل (MB)"
+
+#: classes/views/frmpro-fields/back-end/file-options.php:101
+msgid "Set the minimum file size limit for each file uploaded."
+msgstr "حداقل محدودیت اندازه فایل را برای هر فایل آپلود شده تنظیم کنید."
+
+#: classes/views/frmpro-fields/back-end/file-options.php:107
+msgid "Max file size (MB)"
+msgstr "حداکثر اندازه فایل (MB)"
+
+#: classes/views/frmpro-fields/back-end/file-options.php:108
+#, php-format
+msgid ""
+"Set the file size limit for each file uploaded. Your server settings allow a "
+"maximum of %d MB."
+msgstr ""
+"محدودیت اندازه فایل را برای هر فایل آپلود شده تنظیم کنید. تنظیمات سرور شما "
+"حداکثر %d مگابایت اجازه می دهد."
+
+#: classes/views/frmpro-fields/back-end/file-options.php:115
+msgid "Max files per entry"
+msgstr "حداکثر فایل در هر ورودی"
+
+#: classes/views/frmpro-fields/back-end/file-options.php:121
+msgid "Upload text"
+msgstr "متن را آپلود کنید"
+
+#: classes/views/frmpro-fields/back-end/file-options.php:127
+msgid "Compact upload text"
+msgstr "متن بارگذاری فشرده"
+
+#: classes/views/frmpro-fields/back-end/file-options.php:128
+msgid ""
+"The label shown when the file upload field is compacted with the frm_compact "
+"CSS layout class."
+msgstr ""
+"زمانی که فیلد آپلود فایل با کلاس طرح بندی frm_compact CSS فشرده می شود، "
+"برچسب نشان داده می شود."
+
+#: classes/views/frmpro-fields/back-end/image-options.php:13
+msgid "Use images for options"
+msgstr "از تصاویر برای گزینه ها استفاده کنید"
+
+#: classes/views/frmpro-fields/back-end/image-options.php:14
+msgid "Replace radio buttons or checkboxes with images."
+msgstr "دکمه های رادیویی یا چک باکس ها را با تصاویر جایگزین کنید."
+
+#: classes/views/frmpro-fields/back-end/image-options.php:23
+msgid "Image Size"
+msgstr "اندازه تصویر"
+
+#: classes/views/frmpro-fields/back-end/image-options.php:37
+msgid "Hide option labels"
+msgstr "برچسب های گزینه را پنهان کنید"
+
+#: classes/views/frmpro-fields/back-end/image-selector.php:19
+#: classes/views/styles/_bg-image.php:13
+msgid "Remove image"
+msgstr "حذف تصویر"
+
+#: classes/views/frmpro-fields/back-end/image-selector.php:28
+msgid "Upload image"
+msgstr "آپلود تصویر"
+
+#: classes/views/frmpro-fields/back-end/insert-form.php:7
+msgid "Insert Form"
+msgstr "درج فرم"
+
+#: classes/views/frmpro-fields/back-end/logic.php:10
+#: classes/views/frmpro-fields/back-end/logic.php:15
+msgid "Collapsible Conditional Logic Settings"
+msgstr "تنظیمات منطقی شرطی تاشو"
+
+#: classes/views/frmpro-fields/back-end/logic.php:11
+#: classes/views/frmpro-fields/back-end/logic.php:16
+#: classes/views/frmpro-form-actions/_form_action.php:15
+msgid "Conditional Logic"
+msgstr "منطق شرطی"
+
+#: classes/views/frmpro-fields/back-end/logic.php:22
+msgid "Do not skip next page"
+msgstr "صفحه بعد را رد نکنید"
+
+#: classes/views/frmpro-fields/back-end/logic.php:22
+msgid "Show this field"
+msgstr "این فیلد را نشان دهید"
+
+#: classes/views/frmpro-fields/back-end/logic.php:23
+msgid "Skip next page"
+msgstr "رد شدن از صفحه بعد"
+
+#: classes/views/frmpro-fields/back-end/logic.php:23
+msgid "Hide this field"
+msgstr "این فیلد را مخفی کنید"
+
+#: classes/views/frmpro-fields/back-end/logic.php:29
+#: classes/views/frmpro-form-actions/_form_action.php:29
+#: classes/views/frmpro-forms/_submit_conditional.php:26
+msgid "any"
+msgstr "هر"
+
+#: classes/views/frmpro-fields/back-end/logic.php:30
+#: classes/views/frmpro-form-actions/_form_action.php:32
+#: classes/views/frmpro-forms/_submit_conditional.php:29
+#: classes/views/styles/_section-fields.php:89
+msgid "all"
+msgstr "همه"
+
+#: classes/views/frmpro-fields/back-end/logic.php:33
+#: classes/views/frmpro-forms/_submit_conditional.php:33
+#, php-format
+msgid "if %s of the following match:"
+msgstr "اگر %s از موارد زیر مطابقت داشته باشد:"
+
+#: classes/views/frmpro-fields/back-end/multi-select.php:9
+msgid "Multiselect"
+msgstr "چند انتخابی"
+
+#: classes/views/frmpro-fields/back-end/order.php:14
+msgid "Option order"
+msgstr "سفارش گزینه"
+
+#: classes/views/frmpro-fields/back-end/order.php:15
+msgid "Set the order for the values in your field."
+msgstr "ترتیب مقادیر را در فیلد خود تنظیم کنید."
+
+#: classes/views/frmpro-fields/back-end/order.php:19
+msgid "Ascending (A-Z)"
+msgstr "صعودی (AZ)"
+
+#: classes/views/frmpro-fields/back-end/order.php:22
+msgid "Descending (Z-A)"
+msgstr "نزولی (ZA)"
+
+#: classes/views/frmpro-fields/back-end/order.php:25
+msgid "No order set"
+msgstr "سفارشی تنظیم نشده است"
+
+#: classes/views/frmpro-fields/back-end/other-option.php:9
+msgid "Add Other"
+msgstr "موارد دیگر را اضافه کنید"
+
+#: classes/views/frmpro-fields/back-end/password-options.php:9
+msgid "Require a strong password"
+msgstr "نیاز به رمز عبور قوی"
+
+#: classes/views/frmpro-fields/back-end/password-options.php:10
+msgid ""
+"A strong password is at least 8 characters long and includes a an uppercase "
+"letter, a lowercase letter, a number, and a character."
+msgstr ""
+"یک رمز عبور قوی حداقل 8 کاراکتر طول دارد و شامل یک حرف بزرگ، یک حرف کوچک، یک "
+"عدد و یک کاراکتر است."
+
+#: classes/views/frmpro-fields/back-end/password-options.php:16
+msgid "Show password strength meter"
+msgstr "نمایش قدرت سنج رمز عبور"
+
+#: classes/views/frmpro-fields/back-end/password-options.php:17
+msgid ""
+"Display a meter to the user showing the password requirements and strength "
+"of the typed password. This will only apply when the field is not within a "
+"Repeater."
+msgstr ""
+"یک متر را به کاربر نمایش دهید که الزامات رمز عبور و قدرت رمز عبور تایپ شده "
+"را نشان می دهد. این فقط زمانی اعمال می شود که فیلد در یک Repeater نباشد."
+
+#: classes/views/frmpro-fields/back-end/password-options.php:23
+msgid "Include a show/hide password icon"
+msgstr "شامل یک نماد رمز عبور نمایش/پنهان کردن"
+
+#: classes/views/frmpro-fields/back-end/password-options.php:24
+msgid ""
+"Display an icon in the input box to allow users to make the password visible "
+"as they type."
+msgstr ""
+"نمادی را در کادر ورودی نمایش دهید تا کاربران بتوانند رمز عبور را هنگام تایپ "
+"قابل مشاهده کنند."
+
+#: classes/views/frmpro-fields/back-end/prepend-options.php:8
+msgid "Before Input"
+msgstr "قبل از ورودی"
+
+#: classes/views/frmpro-fields/back-end/prepend-options.php:9
+msgid ""
+"A value entered here will show directly before the input box in the form."
+msgstr ""
+"مقدار وارد شده در اینجا مستقیماً قبل از کادر ورودی در فرم نشان داده می شود."
+
+#: classes/views/frmpro-fields/back-end/prepend-options.php:17
+msgid "After Input"
+msgstr "بعد از ورودی"
+
+#: classes/views/frmpro-fields/back-end/product-options.php:7
+msgid "Product Type"
+msgstr "نوع محصول"
+
+#: classes/views/frmpro-fields/back-end/product-single-option.php:11
+msgid "Product Name"
+msgstr "نام محصول"
+
+#: classes/views/frmpro-fields/back-end/product-single-option.php:12
+msgid "Price"
+msgstr "قیمت"
+
+#: classes/views/frmpro-fields/back-end/quantity-options.php:8
+msgid "Product Field"
+msgstr "زمینه محصول"
+
+#: classes/views/frmpro-fields/back-end/repeat-buttons.php:7
+msgid "Repeat Links"
+msgstr "پیوندهای تکراری"
+
+#: classes/views/frmpro-fields/back-end/repeat-buttons.php:9
+#: classes/views/styles/_repeater-fields.php:7
+#: classes/views/styles/_section-fields.php:98
+msgid "Icons"
+msgstr "نمادها"
+
+#: classes/views/frmpro-fields/back-end/repeat-buttons.php:11
+msgid "Text links"
+msgstr "لینک های متنی"
+
+#: classes/views/frmpro-fields/back-end/repeat-buttons.php:14
+msgid "Text links with icons"
+msgstr "پیوندهای متنی با نمادها"
+
+#: classes/views/frmpro-fields/back-end/repeat-buttons.php:20
+msgid "Add New Label"
+msgstr "برچسب جدید اضافه کنید"
+
+#: classes/views/frmpro-fields/back-end/repeat-buttons.php:25
+msgid "Remove Label"
+msgstr "حذف برچسب"
+
+#: classes/views/frmpro-fields/back-end/repeat-options-top.php:8
+msgid "Repeat Layout"
+msgstr "Layout را تکرار کنید"
+
+#: classes/views/frmpro-fields/back-end/repeat-options-top.php:11
+msgid "Default: No automatic formatting"
+msgstr "پیش‌فرض: بدون قالب‌بندی خودکار"
+
+#: classes/views/frmpro-fields/back-end/repeat-options-top.php:13
+msgid "Inline: Display each field and label in one row"
+msgstr "Inline: هر فیلد و برچسب را در یک ردیف نمایش دهید"
+
+#: classes/views/frmpro-fields/back-end/repeat-options-top.php:16
+msgid "Grid: Display labels as headings above rows of fields"
+msgstr "Grid: برچسب ها را به عنوان سرفصل در بالای ردیف های فیلدها نمایش دهید"
+
+#: classes/views/frmpro-fields/back-end/repeat-options.php:8
+msgid "Repeat Limit"
+msgstr "تکرار حد"
+
+#: classes/views/frmpro-fields/back-end/repeat-options.php:9
+msgid ""
+"The maximum number of times the end user is allowed to duplicate this "
+"section of fields in one entry"
+msgstr ""
+"حداکثر تعداد دفعاتی که کاربر نهایی مجاز است این بخش از فیلدها را در یک ورودی "
+"تکرار کند"
+
+#: classes/views/frmpro-fields/back-end/scale-options.php:7
+msgid "Range"
+msgstr "دامنه"
+
+#: classes/views/frmpro-fields/back-end/scale-options.php:28
+msgid "Step"
+msgstr "گام"
+
+#: classes/views/frmpro-fields/back-end/separate-values.php:9
+msgid "Use separate values"
+msgstr "از مقادیر جداگانه استفاده کنید"
+
+#: classes/views/frmpro-fields/back-end/separate-values.php:10
+#, php-format
+msgid ""
+"Add a separate value to use for calculations, email routing, saving to the "
+"database, and many other uses. The option values are saved while the option "
+"labels are shown in the form. Use [%s] to show the saved value in emails or "
+"views."
+msgstr ""
+"یک مقدار جداگانه برای استفاده برای محاسبات، مسیریابی ایمیل، ذخیره در پایگاه "
+"داده و بسیاری موارد دیگر اضافه کنید. مقادیر گزینه ذخیره می شوند در حالی که "
+"برچسب های گزینه در فرم نشان داده می شوند. از [%s] برای نشان دادن مقدار ذخیره "
+"شده در ایمیل ها یا نماها استفاده کنید."
+
+#: classes/views/frmpro-fields/back-end/star-options.php:8
+msgid "Maximum Rating"
+msgstr "حداکثر امتیاز"
+
+#. translators: %1$s: HTML open link, %2$s: HTML close link
+#: classes/views/frmpro-fields/back-end/summary-exclude-fields-settings.php:10
+#, php-format
+msgid ""
+"Select a field from the list below to exclude it from the summary OR "
+"%1$sLearn which fields are automatically included%2$s."
+msgstr ""
+"فیلدی را از لیست زیر انتخاب کنید تا از خلاصه حذف شود یا %1$sیاد بگیرید که "
+"کدام فیلدها به طور خودکار %2$s گنجانده می‌شوند."
+
+#: classes/views/frmpro-fields/back-end/summary-options.php:8
+msgid "Exclude Fields from Summary"
+msgstr "فیلدها را از خلاصه حذف کنید"
+
+#: classes/views/frmpro-fields/back-end/summary-options.php:26
+msgid "Exclude Fields"
+msgstr "حذف فیلدها"
+
+#: classes/views/frmpro-fields/back-end/summary-options.php:34
+msgid "Show these automatically excluded field types"
+msgstr "این نوع فیلدهای حذف شده به صورت خودکار را نشان دهید"
+
+#: classes/views/frmpro-fields/back-end/toggle-labels.php:9
+msgid "Show Labels"
+msgstr "نمایش برچسب ها"
+
+#: classes/views/frmpro-fields/back-end/toggle-labels.php:14
+msgid "Active Label"
+msgstr "برچسب فعال"
+
+#: classes/views/frmpro-fields/back-end/toggle-labels.php:21
+msgid "Inactive Label"
+msgstr "برچسب غیرفعال"
+
+#: classes/views/frmpro-fields/back-end/visibility.php:8
+msgid "Visibility"
+msgstr "دید"
+
+#: classes/views/frmpro-fields/back-end/visibility.php:9
+msgid "Determines who can see this field."
+msgstr "تعیین می کند چه کسی می تواند این میدان را ببیند."
+
+#: classes/views/frmpro-fields/back-end/visibility.php:21
+#: classes/views/frmpro-forms/file-protection-options.php:35
+msgid "Everyone"
+msgstr "هر کس"
+
+#: classes/views/frmpro-fields/back-end/visibility.php:24
+#: classes/views/frmpro-forms/add_form_options.php:19
+#: classes/views/frmpro-forms/edit-entry-options.php:25
+#: classes/views/frmpro-forms/edit-entry-options.php:53
+#: classes/views/frmpro-forms/save-draft-options.php:18
+msgid "Logged-in Users"
+msgstr "کاربران وارد شده"
+
+#: classes/views/frmpro-fields/back-end/visibility.php:27
+msgid "Logged-out Users"
+msgstr "کاربران از سیستم خارج شده"
+
+#: classes/views/frmpro-fields/field-selection.php:19
+#: classes/views/lookup-fields/back-end/watch-row.php:19
+msgid "(no label)"
+msgstr "(بدون برچسب)"
+
+#: classes/views/frmpro-fields/front-end/star.php:28
+#, php-format
+msgid "%1$s Star"
+msgid_plural "%1$s Stars"
+msgstr[0] "%1$s ستاره ها"
+msgstr[1] "%1$s ستاره"
+
+#: classes/views/frmpro-fields/options-form-before.php:9
+msgid "Load Options From"
+msgstr "بارگذاری گزینه ها از"
+
+#: classes/views/frmpro-fields/options-form-before.php:14
+msgid "Form Entries"
+msgstr "ورودی های فرم"
+
+#: classes/views/frmpro-fields/options-form-before.php:21
+msgid "Category/Taxonomy"
+msgstr "دسته بندی / تاکسونومی"
+
+#: classes/views/frmpro-fields/options-form-before.php:28
+msgid "Select a Form"
+msgstr "یک فرم را انتخاب کنید"
+
+#: classes/views/frmpro-fields/options-form-before.php:43
+#: classes/views/frmpro-form-actions/post_options.php:58
+#: classes/views/lookup-fields/back-end/get-options-from.php:24
+msgid "Select a Field"
+msgstr "یک فیلد را انتخاب کنید"
+
+#: classes/views/frmpro-fields/options-form-before.php:66
+#: classes/views/lookup-fields/back-end/filter.php:9
+msgid "Limit options to those created by the current user"
+msgstr "گزینه ها را به مواردی که توسط کاربر فعلی ایجاد شده است محدود کنید"
+
+#: classes/views/frmpro-fields/options-form-top.php:10
+msgid "Collapsible"
+msgstr "تاشو"
+
+#: classes/views/frmpro-fields/options-form-top.php:11
+msgid "Collapsible: This section will slide open and closed."
+msgstr "تاشو: این بخش به صورت کشویی باز و بسته می شود."
+
+#: classes/views/frmpro-fields/other-option.php:27
+msgid "\"Other\" option"
+msgstr "گزینه \"سایر\"."
+
+#: classes/views/frmpro-form-actions/_custom_field_row.php:38
+msgid "Enter new"
+msgstr "جدید را وارد کنید"
+
+#: classes/views/frmpro-form-actions/_custom_field_row.php:45
+#: classes/views/frmpro-form-actions/post_options.php:231
+msgid "Value"
+msgstr "ارزش"
+
+#: classes/views/frmpro-form-actions/_email_attachment_row.php:10
+msgid "Attachment"
+msgstr "پیوست"
+
+#: classes/views/frmpro-form-actions/_email_attachment_row.php:17
+msgid "Add Attachment"
+msgstr "پیوست را اضافه کنید"
+
+#: classes/views/frmpro-form-actions/_email_attachment_row.php:67
+msgid "Attach CSV export of entry to email"
+msgstr "صادرات CSV ورودی را به ایمیل ضمیمه کنید"
+
+#: classes/views/frmpro-form-actions/_form_action.php:9
+msgid "Add Conditional Logic"
+msgstr "منطق شرطی را اضافه کنید"
+
+#: classes/views/frmpro-form-actions/_form_action.php:35
+msgid "of the following match"
+msgstr "از مسابقه زیر"
+
+#: classes/views/frmpro-form-actions/_post_taxonomy_row.php:16
+#: classes/views/frmpro-form-actions/_post_taxonomy_select.php:7
+msgid "&mdash; Select a Taxonomy &mdash;"
+msgstr "&mdash; انتخاب یک طبقه بندی &mdash;"
+
+#: classes/views/frmpro-form-actions/_post_taxonomy_row.php:31
+msgid "&mdash; Select a Field &mdash;"
+msgstr "&mdash; انتخاب یک فیلد &mdash;"
+
+#: classes/views/frmpro-form-actions/_post_taxonomy_row.php:33
+msgid "A New Checkbox Field"
+msgstr "یک فیلد چک باکس جدید"
+
+#: classes/views/frmpro-form-actions/_post_taxonomy_row.php:68
+msgid "Exclude options"
+msgstr "حذف گزینه ها"
+
+#: classes/views/frmpro-form-actions/_post_taxonomy_row.php:85
+msgid "Check All"
+msgstr "بررسی همه"
+
+#: classes/views/frmpro-form-actions/_post_taxonomy_row.php:95
+#, php-format
+msgid "Check All Level %d"
+msgstr "همه سطح %d را بررسی کنید"
+
+#: classes/views/frmpro-form-actions/_post_taxonomy_row.php:103
+msgid ""
+"NOTE: if the parent is excluded, child categories will be automatically "
+"excluded."
+msgstr "توجه: اگر والد حذف شود، دسته های فرزند به طور خودکار حذف می شوند."
+
+#: classes/views/frmpro-form-actions/_post_taxonomy_select.php:17
+msgid "No taxonomies available"
+msgstr "هیچ طبقه بندی در دسترس نیست"
+
+#: classes/views/frmpro-form-actions/_stripe_address.php:8
+msgid "Address"
+msgstr "نشانی"
+
+#: classes/views/frmpro-form-actions/post_action.php:18
+msgid "Create Post"
+msgstr "ایجاد پست"
+
+#: classes/views/frmpro-form-actions/post_action.php:170
+#: classes/views/frmpro-form-actions/post_action.php:171
+msgid "Select a Post"
+msgstr "یک پست را انتخاب کنید"
+
+#: classes/views/frmpro-form-actions/post_options.php:9
+msgid "Post Type"
+msgstr "نوع پست"
+
+#: classes/views/frmpro-form-actions/post_options.php:10
+msgid ""
+"To setup a new custom post type, install and setup a plugin like 'Custom "
+"Post Type UI', then return to this page to select your new custom post type."
+msgstr ""
+"برای تنظیم یک نوع پست سفارشی جدید، افزونه‌ای مانند 'Custom Post Type UI' را "
+"نصب و راه‌اندازی کنید، سپس به این صفحه بازگردید تا نوع پست سفارشی جدید خود را "
+"انتخاب کنید."
+
+#: classes/views/frmpro-form-actions/post_options.php:46
+msgid "Post Content"
+msgstr "ارسال مطالب"
+
+#: classes/views/frmpro-form-actions/post_options.php:50
+msgid "Use a single field"
+msgstr "از یک فیلد واحد استفاده کنید"
+
+#: classes/views/frmpro-form-actions/post_options.php:53
+msgid "Customize post content"
+msgstr "سفارشی کردن محتوای پست"
+
+#: classes/views/frmpro-form-actions/post_options.php:73
+msgid "Excerpt"
+msgstr "گزیده"
+
+#: classes/views/frmpro-form-actions/post_options.php:75
+#: classes/views/frmpro-form-actions/post_options.php:87
+#: classes/views/frmpro-forms/add_form_button_options.php:47
+#: classes/views/frmpro-forms/add_form_style_options.php:12
+msgid "None"
+msgstr "هیچ یک"
+
+#: classes/views/frmpro-form-actions/post_options.php:84
+msgid "Post Password"
+msgstr "پسورد پست"
+
+#: classes/views/frmpro-form-actions/post_options.php:97
+msgid "Slug"
+msgstr "حلزون حرکت کردن"
+
+#: classes/views/frmpro-form-actions/post_options.php:100
+msgid "Automatically Generate from Post Title"
+msgstr "تولید خودکار از عنوان پست"
+
+#: classes/views/frmpro-form-actions/post_options.php:110
+msgid "Post Date"
+msgstr "تاریخ ارسال"
+
+#: classes/views/frmpro-form-actions/post_options.php:113
+msgid "Date of entry submission"
+msgstr "تاریخ ارسال ورودی"
+
+#: classes/views/frmpro-form-actions/post_options.php:124
+msgid "Post Status"
+msgstr "وضعیت پست"
+
+#: classes/views/frmpro-form-actions/post_options.php:127
+msgid "Create Draft"
+msgstr "پیش نویس ایجاد کنید"
+
+#: classes/views/frmpro-form-actions/post_options.php:130
+msgid "Pending"
+msgstr "انتظار"
+
+#: classes/views/frmpro-form-actions/post_options.php:133
+msgid "Automatically Publish"
+msgstr "انتشار خودکار"
+
+#: classes/views/frmpro-form-actions/post_options.php:136
+msgid "Create New Dropdown Field"
+msgstr "فیلد کشویی جدید ایجاد کنید"
+
+#: classes/views/frmpro-form-actions/post_options.php:155
+msgid "Post Parent"
+msgstr "پست والد"
+
+#: classes/views/frmpro-form-actions/post_options.php:192
+msgid "Taxonomies/Categories"
+msgstr "طبقه بندی / دسته بندی ها"
+
+#: classes/views/frmpro-form-actions/post_options.php:197
+msgid "Taxonomy Type"
+msgstr "نوع تاکسونومی"
+
+#: classes/views/frmpro-form-actions/post_options.php:200
+msgid "Populate Field"
+msgstr "پر کردن فیلد"
+
+#: classes/views/frmpro-form-actions/post_options.php:221
+msgid "Custom Fields"
+msgstr "فیلدهای سفارشی"
+
+#: classes/views/frmpro-form-actions/post_options_for_views_placeholder.php:7
+msgid "Select View"
+msgstr "View را انتخاب کنید"
+
+#: classes/views/frmpro-form-actions/post_options_for_views_placeholder.php:11
+msgid "Pro Tip:"
+msgstr "نکته حرفه ای:"
+
+#: classes/views/frmpro-form-actions/post_options_for_views_placeholder.php:13
+msgid "Need to customize post content?"
+msgstr "آیا نیاز به سفارشی سازی محتوای پست دارید؟"
+
+#: classes/views/frmpro-form-actions/post_options_for_views_placeholder.php:15
+msgid "Add views"
+msgstr "نماها را اضافه کنید"
+
+#: classes/views/frmpro-forms/_submit_conditional.php:10
+msgid "Show submit button"
+msgstr "نمایش دکمه ارسال"
+
+#: classes/views/frmpro-forms/_submit_conditional.php:13
+msgid "Hide submit button"
+msgstr "پنهان کردن دکمه ارسال"
+
+#: classes/views/frmpro-forms/_submit_conditional.php:16
+msgid "Enable submit button"
+msgstr "فعال کردن دکمه ارسال"
+
+#: classes/views/frmpro-forms/_submit_conditional.php:19
+msgid "Disable submit button"
+msgstr "غیر فعال کردن دکمه ارسال"
+
+#: classes/views/frmpro-forms/add_form_ajax_options.php:10
+msgid "Submit this form with AJAX"
+msgstr "این فرم را با AJAX ارسال کنید"
+
+#: classes/views/frmpro-forms/add_form_ajax_options.php:11
+msgid "Submit the form without refreshing the page."
+msgstr "فرم را بدون رفرش کردن صفحه ارسال کنید."
+
+#: classes/views/frmpro-forms/add_form_button_options.php:10
+msgid "Update Button Text"
+msgstr "به روز رسانی متن دکمه"
+
+#: classes/views/frmpro-forms/add_form_button_options.php:20
+msgid "Previous Button Text"
+msgstr "متن دکمه قبلی"
+
+#: classes/views/frmpro-forms/add_form_button_options.php:30
+msgid "Submit Button Position"
+msgstr "ارسال موقعیت دکمه"
+
+#: classes/views/frmpro-forms/add_form_button_options.php:34
+msgid "Default"
+msgstr "پیش فرض"
+
+#: classes/views/frmpro-forms/add_form_button_options.php:36
+msgid "Center"
+msgstr "مرکز"
+
+#: classes/views/frmpro-forms/add_form_button_options.php:40
+msgid "Full Width"
+msgstr "تمام عرض"
+
+#: classes/views/frmpro-forms/add_form_button_options.php:59
+msgid "Add conditional logic to submit button"
+msgstr "اضافه کردن منطق شرطی به دکمه ارسال"
+
+#: classes/views/frmpro-forms/add_form_button_options.php:77
+msgid "Add Start over button"
+msgstr "دکمه Start over را اضافه کنید"
+
+#: classes/views/frmpro-forms/add_form_button_options.php:84
+msgid "Start Over Button Text"
+msgstr "متن دکمه شروع از روی"
+
+#: classes/views/frmpro-forms/add_form_msg_options.php:9
+msgid "On Update"
+msgstr "در به روز رسانی"
+
+#: classes/views/frmpro-forms/add_form_options.php:7
+msgid "Determine who can see, submit, and edit form entries."
+msgstr ""
+"تعیین کنید چه کسی می تواند ورودی های فرم را ببیند، ارسال کند و ویرایش کند."
+
+#: classes/views/frmpro-forms/add_form_options.php:14
+#, php-format
+msgid "Limit form visibility %1$sto%2$s"
+msgstr "محدود کردن نمایان بودن فرم %1$s به %2$s"
+
+#: classes/views/frmpro-forms/add_form_options.php:27
+#, php-format
+msgid "Limit number of entries %1$sto one per%2$s"
+msgstr "تعداد ورودی‌های %1$s را به یک در هر%2$s محدود کنید"
+
+#: classes/views/frmpro-forms/add_form_options.php:33
+msgid "Logged-in User"
+msgstr "کاربر وارد شده"
+
+#: classes/views/frmpro-forms/add_form_options.php:41
+msgid "Saved Cookie"
+msgstr "کوکی ذخیره شده"
+
+#: classes/views/frmpro-forms/add_form_options.php:47
+msgid "Cookie Expiration"
+msgstr "انقضای کوکی"
+
+#: classes/views/frmpro-forms/add_form_options.php:49
+msgid "hours"
+msgstr "ساعت ها"
+
+#: classes/views/frmpro-forms/add_form_options.php:61
+msgid "Copy this form to other blogs when Formidable Forms is activated"
+msgstr ""
+"زمانی که Formidable Forms فعال شد، این فرم را در وبلاگ های دیگر کپی کنید"
+
+#: classes/views/frmpro-forms/add_form_status_options.php:7
+msgid ""
+"Prevent the form from showing when submissions should not be accepted. Close "
+"it now, or schedule the form to open and/or close later."
+msgstr ""
+"از نمایش فرم در زمانی که موارد ارسالی نباید پذیرفته شوند، جلوگیری کنید. "
+"اکنون آن را ببندید، یا زمان‌بندی کنید که فرم بعدا باز و/یا بسته شود."
+
+#: classes/views/frmpro-forms/add_form_status_options.php:12
+msgid "Form Status"
+msgstr "وضعیت فرم"
+
+#: classes/views/frmpro-forms/add_form_status_options.php:16
+msgid "Open"
+msgstr "باز کن"
+
+#: classes/views/frmpro-forms/add_form_status_options.php:19
+msgid "Closed"
+msgstr "بسته شد"
+
+#: classes/views/frmpro-forms/add_form_status_options.php:22
+msgid "Schedule"
+msgstr "برنامه"
+
+#: classes/views/frmpro-forms/add_form_status_options.php:25
+msgid "Limit Entries"
+msgstr "محدودیت ورودی ها"
+
+#: classes/views/frmpro-forms/add_form_status_options.php:28
+msgid "Schedule and Limit Entries"
+msgstr "زمان‌بندی و محدودیت ورودی‌ها"
+
+#: classes/views/frmpro-forms/add_form_status_options.php:35
+msgid "Open Form On"
+msgstr "فرم روشن را باز کنید"
+
+#: classes/views/frmpro-forms/add_form_status_options.php:41
+msgid "Close Form On"
+msgstr "بستن فرم روشن"
+
+#: classes/views/frmpro-forms/add_form_status_options.php:47
+msgid "Entry Limit"
+msgstr "محدودیت ورود"
+
+#: classes/views/frmpro-forms/add_form_status_options.php:48
+msgid "Close the form after a specific number of entries have been received."
+msgstr "پس از دریافت تعداد مشخصی از ورودی ها، فرم را ببندید."
+
+#: classes/views/frmpro-forms/add_form_status_options.php:56
+msgid "Form Closed Message"
+msgstr "فرم بسته پیام"
+
+#: classes/views/frmpro-forms/add_form_status_options.php:57
+msgid "This message is shown when a form is closed for new entries."
+msgstr ""
+"این پیام زمانی نشان داده می شود که یک فرم برای ورودی های جدید بسته شود."
+
+#: classes/views/frmpro-forms/add_form_style_options.php:8
+msgid "Page Turn Transitions"
+msgstr "انتقال چرخش صفحه"
+
+#: classes/views/frmpro-forms/add_form_style_options.php:14
+msgid "Slide horizontally"
+msgstr "به صورت افقی بلغزانید"
+
+#: classes/views/frmpro-forms/add_form_style_options.php:17
+msgid "Slide vertically"
+msgstr "به صورت عمودی بلغزانید"
+
+#: classes/views/frmpro-forms/edit-entry-options.php:7
+msgid "Entry editing"
+msgstr "ویرایش ورودی"
+
+#: classes/views/frmpro-forms/edit-entry-options.php:13
+msgid "Allow front-end editing of entries"
+msgstr "اجازه ویرایش جلویی ورودی‌ها را بدهید"
+
+#: classes/views/frmpro-forms/edit-entry-options.php:19
+msgid "Role required to edit one's own entries"
+msgstr "نقش مورد نیاز برای ویرایش ورودی های خود"
+
+#: classes/views/frmpro-forms/edit-entry-options.php:48
+msgid "Role required to edit other users' entries"
+msgstr "نقش مورد نیاز برای ویرایش ورودی های دیگر کاربران"
+
+#: classes/views/frmpro-forms/file-protection-options.php:11
+msgid "Protect all files uploaded in this form"
+msgstr "از تمامی فایل های آپلود شده در این فرم محافظت کنید"
+
+#: classes/views/frmpro-forms/file-protection-options.php:17
+msgid "( *Locking files is not supported on Windows servers currently. )"
+msgstr "( *در حال حاضر قفل کردن فایل ها در سرورهای ویندوز پشتیبانی نمی شود.)"
+
+#: classes/views/frmpro-forms/file-protection-options.php:19
+msgid "( *Files will still be directly accessible on Windows. )"
+msgstr "(*فایل ها همچنان مستقیماً در ویندوز قابل دسترسی خواهند بود.)"
+
+#: classes/views/frmpro-forms/file-protection-options.php:29
+msgid "Role required to access file"
+msgstr "نقش مورد نیاز برای دسترسی به فایل"
+
+#: classes/views/frmpro-forms/file-protection-options.php:43
+msgid "Prevent search engines from indexing uploads"
+msgstr "از ایندکس کردن آپلودها توسط موتورهای جستجو جلوگیری کنید"
+
+#: classes/views/frmpro-forms/file-protection-options.php:44
+msgid "This feature requires that file protection is turned on."
+msgstr "این ویژگی مستلزم آن است که محافظت از فایل روشن باشد."
+
+#: classes/views/frmpro-forms/form_page_options.php:6
+msgid "Pagination"
+msgstr "صفحه بندی"
+
+#: classes/views/frmpro-forms/form_page_options.php:11
+msgid "Hide Progress bar and Rootline"
+msgstr "نوار پیشرفت و خط ریشه را مخفی کنید"
+
+#: classes/views/frmpro-forms/form_page_options.php:13
+msgid "Show Progress bar"
+msgstr "نمایش نوار پیشرفت"
+
+#: classes/views/frmpro-forms/form_page_options.php:16
+msgid "Show Rootline"
+msgstr "نمایش خط اصلی"
+
+#: classes/views/frmpro-forms/form_page_options.php:24
+msgid "Below form title (default)"
+msgstr "زیر عنوان فرم (پیش‌فرض)"
+
+#: classes/views/frmpro-forms/form_page_options.php:26
+msgid "Above form title"
+msgstr "بالای عنوان فرم"
+
+#: classes/views/frmpro-forms/form_page_options.php:29
+msgid "Above submit button"
+msgstr "بالای دکمه ارسال"
+
+#: classes/views/frmpro-forms/form_page_options.php:32
+msgid "Below submit button"
+msgstr "زیر دکمه ارسال"
+
+#: classes/views/frmpro-forms/form_page_options.php:41
+msgid "Show page titles with steps"
+msgstr "نمایش عناوین صفحه با مراحل"
+
+#: classes/views/frmpro-forms/form_page_options.php:47
+#: classes/views/frmpro-forms/form_page_options.php:49
+#: classes/views/frmpro-forms/form_page_options.php:57
+#, php-format
+msgid "Page %d title"
+msgstr "صفحه %d عنوان"
+
+#: classes/views/frmpro-forms/form_page_options.php:67
+msgid "Hide the page numbers"
+msgstr "شماره صفحات را مخفی کنید"
+
+#: classes/views/frmpro-forms/form_page_options.php:75
+msgid "Hide lines in the rootline or progress bar"
+msgstr "خطوط را در خط ریشه یا نوار پیشرفت پنهان کنید"
+
+#: classes/views/frmpro-forms/instructions.php:9
+msgid "Search Smart Tags"
+msgstr "جستجوی برچسب های هوشمند"
+
+#: classes/views/frmpro-forms/save-draft-options.php:7
+msgid "Save Drafts"
+msgstr "ذخیره پیش نویس ها"
+
+#: classes/views/frmpro-forms/save-draft-options.php:12
+msgid "Allow saving drafts"
+msgstr "اجازه ذخیره پیش نویس ها"
+
+#: classes/views/frmpro-forms/save-draft-options.php:34
+msgid "Saved Draft Message"
+msgstr "پیش نویس پیام ذخیره شده"
+
+#: classes/views/frmpro-forms/save-draft-options.php:43
+msgid "Save Draft Text"
+msgstr "ذخیره پیش نویس متن"
+
+#: classes/views/frmpro-statistics/select.php:17
+msgid "Select a report to view."
+msgstr "گزارشی را برای مشاهده انتخاب کنید."
+
+#: classes/views/frmpro-statistics/show.php:43
+msgid "Date range"
+msgstr "محدوده زمانی"
+
+#: classes/views/frmpro-statistics/show.php:56
+msgid "Start date"
+msgstr "تاریخ شروع"
+
+#: classes/views/frmpro-statistics/show.php:60
+msgid "End date"
+msgstr "تاریخ پایان"
+
+#: classes/views/frmpro-statistics/show.php:66
+msgid "Apply"
+msgstr "درخواست دادن"
+
+#: classes/views/frmpro-statistics/show.php:81
+msgid "Users Submitted"
+msgstr "کاربران ارسال شده"
+
+#: classes/views/frmpro-statistics/show.php:91
+msgid "Responses Over Time"
+msgstr "پاسخ ها در طول زمان"
+
+#: classes/views/frmpro-statistics/show.php:95
+msgid "Pro Tip: Add graphs like this on a page"
+msgstr "نکته حرفه ای: نمودارهایی مانند این را در یک صفحه اضافه کنید"
+
+#: classes/views/lookup-fields/back-end/filter.php:10
+msgid "Does not apply to administrators."
+msgstr "برای مدیران اعمال نمی شود."
+
+#: classes/views/lookup-fields/back-end/input.php:42
+msgid "No options found"
+msgstr "هیچ گزینه ای پیدا نشد"
+
+#: classes/views/lookup-fields/back-end/watch.php:7
+msgid "Filter by Lookup Fields"
+msgstr "فیلتر بر اساس فیلدهای جستجو"
+
+#: classes/views/settings/form.php:19
+msgid "Date Format"
+msgstr "فرمت تاریخ"
+
+#: classes/views/settings/form.php:20
+msgid "Change the format of the date used in the date field."
+msgstr "قالب تاریخ استفاده شده در قسمت تاریخ را تغییر دهید."
+
+#: classes/views/settings/form.php:40
+msgid "Select the currency to be used by Formidable globally."
+msgstr "ارز مورد استفاده Formidable در سطح جهانی را انتخاب کنید."
+
+#: classes/views/settings/form.php:41
+msgid "Currency"
+msgstr "واحد پول"
+
+#: classes/views/settings/general_style.php:9
+msgid "Fade in forms with conditional logic on page load"
+msgstr "محو شدن در اشکال با منطق شرطی در بارگذاری صفحه"
+
+#: classes/views/settings/general_style.php:10
+msgid ""
+"If your form is near the top of the page, you may see a flash of the fields "
+"hidden with conditional logic. Check this box to fade in the whole form. "
+"Note: If you have javascript errors on your page, your form will remain "
+"hidden on the page."
+msgstr ""
+"اگر فرم شما نزدیک بالای صفحه باشد، ممکن است فلش فیلدهایی را ببینید که با "
+"منطق شرطی پنهان شده اند. این کادر را علامت بزنید تا در کل فرم محو شود. توجه: "
+"اگر در صفحه خود خطاهای جاوا اسکریپت داشته باشید، فرم شما در صفحه پنهان می "
+"ماند."
+
+#: classes/views/settings/general_style.php:19
+msgid "Include the jQuery CSS on ALL pages"
+msgstr "jQuery CSS را در همه صفحات قرار دهید"
+
+#: classes/views/settings/general_style.php:21
+msgid ""
+"The styling for the date field calendar. Some users may be using this css on "
+"pages other than just the ones that include a date field."
+msgstr ""
+"یک ظاهر طراحی شده برای تقویم فیلد تاریخ. برخی از کاربران ممکن است از این css "
+"در صفحاتی غیر از صفحاتی که دارای فیلد تاریخ هستند استفاده کنند."
+
+#: classes/views/settings/general_style.php:30
+msgid "Include accordion javascript"
+msgstr "شامل جاوا اسکریپت آکاردئون"
+
+#: classes/views/settings/general_style.php:31
+msgid ""
+"Warning: This option will be removed. Please load accordion javascripts from "
+"your theme."
+msgstr ""
+"هشدار: این گزینه حذف خواهد شد. لطفاً جاوا اسکریپت های آکاردئونی را از موضوع "
+"خود بارگیری کنید."
+
+#: classes/views/settings/general_style.php:33
+msgid ""
+"If you have manually created an accordion form, be sure to include the "
+"javascript for it."
+msgstr ""
+"اگر به صورت دستی فرم آکاردئونی ایجاد کرده اید، حتماً جاوا اسکریپت را برای آن "
+"قرار دهید."
+
+#: classes/views/settings/inbox.php:7
+msgid ""
+"Select the messages you would like to see in your Formidable inbox. Not all "
+"types of messages can be disabled."
+msgstr ""
+"پیام هایی را که می خواهید در صندوق ورودی Formidable خود ببینید انتخاب کنید. "
+"همه انواع پیام ها را نمی توان غیرفعال کرد."
+
+#: classes/views/settings/messages.php:8
+msgid "Edit Message"
+msgstr "ویرایش پیام"
+
+#: classes/views/settings/messages.php:9
+msgid "The default message seen when after an entry is updated."
+msgstr "پیام پیش‌فرض که پس از به‌روزرسانی یک ورودی مشاهده می‌شود."
+
+#: classes/views/settings/messages.php:16
+msgid "Update Button"
+msgstr "دکمه به روز رسانی"
+
+#: classes/views/settings/messages.php:17
+msgid "The label on the submit button when editing and entry."
+msgstr "برچسب روی دکمه ارسال در هنگام ویرایش و ورود."
+
+#: classes/views/settings/messages.php:24
+msgid "Login Message"
+msgstr "پیام ورود"
+
+#: classes/views/settings/messages.php:25
+msgid ""
+"The message seen when a user who is not logged-in views a form only logged-"
+"in users can submit."
+msgstr ""
+"پیامی که زمانی مشاهده می شود که کاربری که وارد نشده است، فرمی را مشاهده می "
+"کند که فقط کاربران وارد شده می توانند ارسال کنند."
+
+#: classes/views/settings/messages.php:32
+msgid "Previously Submitted Message"
+msgstr "پیام ارسال شده قبلی"
+
+#: classes/views/settings/messages.php:33
+msgid ""
+"The message seen when a user attempts to submit a form for a second time if "
+"submissions are limited."
+msgstr ""
+"پیامی که زمانی مشاهده می‌شود که کاربر برای بار دوم سعی می‌کند فرمی را در صورت "
+"محدود بودن ارسال ارسال کند."
+
+#: classes/views/settings/messages.php:39
+msgid "Repeater row delete confirmation"
+msgstr "تأیید حذف ردیف تکرارکننده"
+
+#: classes/views/settings/messages.php:41
+msgid "The confirmation message displayed when deleting a Repeater row."
+msgstr "پیام تأیید هنگام حذف یک ردیف Repeater نمایش داده می شود."
+
+#: classes/views/settings/white-label.php:7
+msgid ""
+"Remove references to Formidable Forms to provide an unbranded experience for "
+"your clients."
+msgstr ""
+"ارجاع به Formidable Forms را حذف کنید تا تجربه ای بدون برند برای مشتریان خود "
+"فراهم کنید."
+
+#: classes/views/settings/white-label.php:10
+msgid "Plugin Label"
+msgstr "برچسب پلاگین"
+
+#: classes/views/settings/white-label.php:15
+msgid "Use this menu name site-wide"
+msgstr "از این نام منو در سراسر سایت استفاده کنید"
+
+#: classes/views/settings/white-label.php:22
+msgid "Plugin Icon"
+msgstr "نماد پلاگین"
+
+#: classes/views/styles/_bg-image-settings.php:8
+msgid "Image Opacity"
+msgstr "کدورت تصویر"
+
+#: classes/views/styles/_bg-image.php:22
+msgid "Upload background image"
+msgstr "آپلود تصویر پس زمینه"
+
+#. translators: %1$s: Start link HTML, %2$s: End link HTML
+#: classes/views/styles/_date-fields.php:26
+#, php-format
+msgid "Make changes to the date themes in the %1$sdefault style%2$s."
+msgstr "تغییراتی را در طرح‌های زمینه تاریخ در %1$sسبک پیش‌فرض%2$s ایجاد کنید."
+
+#: classes/views/styles/_date-fields.php:48
+msgid "Head Color"
+msgstr "رنگ سر"
+
+#: classes/views/styles/_date-fields.php:53
+#: classes/views/styles/_progress-bars.php:12
+msgid "Text Color"
+msgstr "رنگ متن"
+
+#: classes/views/styles/_date-fields.php:58
+msgid "Band Color"
+msgstr "رنگ باند"
+
+#: classes/views/styles/_progress-bars.php:7
+msgid "BG Color"
+msgstr "رنگ BG"
+
+#: classes/views/styles/_progress-bars.php:17
+msgid "Active BG"
+msgstr "فعال BG"
+
+#: classes/views/styles/_progress-bars.php:22
+msgid "Active Text"
+msgstr "متن فعال"
+
+#: classes/views/styles/_progress-bars.php:27
+msgid "Border Color"
+msgstr "رنگ لبه"
+
+#: classes/views/styles/_progress-bars.php:32
+msgid "Border Size"
+msgstr "اندازه حاشیه"
+
+#: classes/views/styles/_progress-bars.php:37
+#: classes/views/styles/_slider-fields.php:27
+msgid "Circle Size"
+msgstr "اندازه دایره"
+
+#: classes/views/styles/_repeater-fields.php:11
+msgid "Icon Color"
+msgstr "رنگ نماد"
+
+#: classes/views/styles/_sample_form.php:13
+msgid "Repeatable Section"
+msgstr "بخش قابل تکرار"
+
+#: classes/views/styles/_sample_form.php:18
+msgid "Text Area"
+msgstr "ناحیه متن"
+
+#: classes/views/styles/_sample_form.php:20
+msgid "Another field with a description"
+msgstr "یک فیلد دیگر با توضیحات"
+
+#: classes/views/styles/_sample_form.php:28
+#: classes/views/styles/_sample_form.php:41
+msgid "Option 1"
+msgstr "انتخاب 1"
+
+#: classes/views/styles/_sample_form.php:32
+#: classes/views/styles/_sample_form.php:44
+msgid "Option 2"
+msgstr "گزینه 2"
+
+#: classes/views/styles/_sample_form.php:38
+msgid "Check Boxes"
+msgstr "چک باکس ها"
+
+#: classes/views/styles/_sample_form.php:63
+msgid "Collapsible Section"
+msgstr "بخش تاشو"
+
+#: classes/views/styles/_sample_form.php:79
+msgid "Toggle"
+msgstr "تغییر وضعیت"
+
+#: classes/views/styles/_sample_form.php:99
+msgid "Slider"
+msgstr "لغزنده"
+
+#: classes/views/styles/_section-fields.php:7
+#: classes/views/styles/_slider-fields.php:7
+msgid "Color"
+msgstr "رنگ"
+
+#: classes/views/styles/_section-fields.php:12
+msgid "Weight"
+msgstr "وزن"
+
+#: classes/views/styles/_section-fields.php:21
+msgid "Size"
+msgstr "اندازه"
+
+#: classes/views/styles/_section-fields.php:26
+msgid "BG color"
+msgstr "رنگ BG"
+
+#: classes/views/styles/_section-fields.php:31
+msgid "Padding"
+msgstr "لایه گذاری"
+
+#: classes/views/styles/_section-fields.php:36
+msgid "Top Margin"
+msgstr "حاشیه بالا"
+
+#: classes/views/styles/_section-fields.php:41
+msgid "Bottom Margin"
+msgstr "حاشیه پایین"
+
+#: classes/views/styles/_section-fields.php:46
+msgid "Border"
+msgstr "مرز"
+
+#: classes/views/styles/_section-fields.php:51
+msgid "Thickness"
+msgstr "ضخامت"
+
+#: classes/views/styles/_section-fields.php:56
+msgid "Style"
+msgstr "سبک"
+
+#: classes/views/styles/_section-fields.php:59
+msgid "solid"
+msgstr "جامد"
+
+#: classes/views/styles/_section-fields.php:62
+msgid "dotted"
+msgstr "خط چین"
+
+#: classes/views/styles/_section-fields.php:65
+msgid "dashed"
+msgstr "نقطه چین"
+
+#: classes/views/styles/_section-fields.php:68
+msgid "double"
+msgstr "دو برابر"
+
+#: classes/views/styles/_section-fields.php:74
+msgid "Border Position"
+msgstr "موقعیت مرزی"
+
+#: classes/views/styles/_section-fields.php:77
+msgid "top"
+msgstr "بالا"
+
+#: classes/views/styles/_section-fields.php:80
+msgid "bottom"
+msgstr "پایین"
+
+#: classes/views/styles/_section-fields.php:83
+msgid "left"
+msgstr "ترک کرد"
+
+#: classes/views/styles/_section-fields.php:86
+msgid "right"
+msgstr "درست"
+
+#: classes/views/styles/_section-fields.php:95
+msgid "Collapse Icon"
+msgstr "نماد جمع کردن"
+
+#: classes/views/styles/_section-fields.php:103
+msgid "Icon Position"
+msgstr "موقعیت آیکون"
+
+#: classes/views/styles/_section-fields.php:106
+msgid "After Heading"
+msgstr "بعد از هدینگ"
+
+#: classes/views/styles/_section-fields.php:109
+msgid "Before Heading"
+msgstr "قبل از شروع"
+
+#: classes/views/styles/_slider-fields.php:12
+msgid "Bar Color"
+msgstr "رنگ نوار"
+
+#: classes/views/styles/_slider-fields.php:17
+#: classes/views/styles/_toggle-fields.php:17
+msgid "Font Size"
+msgstr "اندازه فونت"
+
+#: classes/views/styles/_slider-fields.php:22
+msgid "Track Height"
+msgstr "ارتفاع آهنگ"
+
+#: classes/views/styles/_toggle-fields.php:7
+msgid "On Color"
+msgstr "روی رنگ"
+
+#: classes/views/styles/_toggle-fields.php:12
+msgid "Off Color"
+msgstr "رنگ خاموش"
+
+#: classes/views/xml/csv_opts.php:8
+msgid "CSV Delimiter"
+msgstr "جداکننده CSV"
+
+#: classes/views/xml/csv_opts.php:13
+msgid "Import Into Form"
+msgstr "وارد کردن به فرم"
+
+#: classes/views/xml/csv_opts.php:28
+msgid "Note: Only entries can by imported via CSV."
+msgstr "توجه: فقط ورودی ها می توانند از طریق CSV وارد شوند."
+
+#: classes/views/xml/import_csv.php:10 classes/views/xml/map_csv_fields.php:10
+msgid "View Forms"
+msgstr "مشاهده فرم ها"
+
+#: classes/views/xml/import_csv.php:14 classes/views/xml/map_csv_fields.php:14
+msgid "Import/Export"
+msgstr "واردات/صادرات"
+
+#: classes/views/xml/import_csv.php:24
+msgid "Importing CSV"
+msgstr "در حال وارد کردن CSV"
+
+#: classes/views/xml/import_csv.php:28
+#, php-format
+msgid "%1$s entries are importing"
+msgstr "%1$s ورودی در حال وارد کردن است"
+
+#: classes/views/xml/import_csv.php:42
+msgid ""
+"Entries are imported in batches. Please wait for all entries to import "
+"before leaving the page."
+msgstr ""
+"ورودی ها به صورت دسته ای وارد می شوند. لطفاً قبل از خروج از صفحه منتظر بمانید "
+"تا همه ورودی‌ها وارد شوند."
+
+#: classes/views/xml/import_files.php:9
+msgid "Import files. If you would like to import files, check this box."
+msgstr ""
+"فایل ها را وارد کنید اگر می‌خواهید فایل‌ها را وارد کنید، این کادر را علامت "
+"بزنید."
+
+#: classes/views/xml/map_csv_fields.php:23
+msgid "Map Fields"
+msgstr "فیلدهای نقشه"
+
+#: classes/views/xml/map_csv_fields.php:35
+msgid "CSV header"
+msgstr "هدر CSV"
+
+#: classes/views/xml/map_csv_fields.php:36
+msgid "Sample data"
+msgstr "داده های نمونه"
+
+#: classes/views/xml/map_csv_fields.php:37
+msgid "Corresponding Field"
+msgstr "زمینه مربوطه"
+
+#: classes/views/xml/map_csv_fields.php:117
+msgid "Timestamp"
+msgstr "مهر زمان"
+
+#: classes/views/xml/map_csv_fields.php:117
+#: classes/views/xml/map_csv_fields.php:118
+msgid "Created at"
+msgstr "ایجاد شده در"
+
+#: classes/views/xml/map_csv_fields.php:120
+#: classes/views/xml/map_csv_fields.php:121
+msgid "Created by"
+msgstr "خلق شده توسط"
+
+#: classes/views/xml/map_csv_fields.php:123
+msgid "last updated"
+msgstr "اخرین به روز رسانی"
+
+#: classes/views/xml/map_csv_fields.php:123
+msgid "updated at"
+msgstr "به روز شده در"
+
+#: classes/views/xml/map_csv_fields.php:124
+msgid "Updated at"
+msgstr "به روز شده در"
+
+#: classes/views/xml/map_csv_fields.php:126
+msgid "updated by"
+msgstr "به روز شده توسط"
+
+#: classes/views/xml/map_csv_fields.php:127
+msgid "Updated by"
+msgstr "به روز شده توسط"
+
+#: classes/views/xml/map_csv_fields.php:133
+msgid "Is Draft"
+msgstr "پیش نویس است"
+
+#: classes/views/xml/map_csv_fields.php:149
+msgid "Import"
+msgstr "وارد كردن"
+
+#: classes/views/xml/map_csv_fields.php:151
+msgid ""
+"Note: If you select a field for the Entry ID or Entry Key, the matching "
+"entry with that ID or key will be updated."
+msgstr ""
+"توجه: اگر فیلدی را برای شناسه ورودی یا کلید ورودی انتخاب کنید، ورودی مطابق "
+"با آن شناسه یا کلید به روز می شود."
+
+#: classes/widgets/FrmListEntries.php:12
+msgid "Display a list of Formidable entries"
+msgstr "نمایش لیستی از ورودی های Formidable"
+
+#: classes/widgets/FrmListEntries.php:13
+msgid "Formidable Entries List"
+msgstr "لیست ورودی های قدرتمند"
+
+#: classes/widgets/FrmListEntries.php:220
+msgid "Title"
+msgstr "عنوان"
+
+#: classes/widgets/FrmListEntries.php:223
+msgid "Use Settings from View"
+msgstr "از تنظیمات از View استفاده کنید"
+
+#: classes/widgets/FrmListEntries.php:233
+msgid "Views with a \"Both (Dynamic)\" format will show here."
+msgstr "نماهایی با قالب «هر دو (پویا)» در اینجا نشان داده می‌شوند."
+
+#: classes/widgets/FrmListEntries.php:235
+msgid "Page"
+msgstr "صفحه"
+
+#: classes/widgets/FrmListEntries.php:246
+msgid "Title Field"
+msgstr "فیلد عنوان"
+
+#: classes/widgets/FrmListEntries.php:264
+msgid "List Entries by Category"
+msgstr "فهرست ورودی ها بر اساس دسته"
+
+#: classes/widgets/FrmListEntries.php:268
+msgid "Category Field"
+msgstr "فیلد دسته"
+
+#: classes/widgets/FrmListEntries.php:284
+msgid "Show Entry Counts"
+msgstr "نمایش تعداد ورودی"
+
+#: classes/widgets/FrmListEntries.php:289
+msgid "Show Only Category Name"
+msgstr "نمایش فقط نام دسته"
+
+#: classes/widgets/FrmListEntries.php:294
+msgid "Show Entries Beneath Categories"
+msgstr "نمایش نوشته های زیر دسته ها"
+
+#: classes/widgets/FrmListEntries.php:301
+msgid "Entry Limit (leave blank to list all)"
+msgstr "محدودیت ورودی (برای فهرست کردن همه، خالی بگذارید)"
+
+#: formidable-pro.php:188
+msgid ""
+"Formidable Forms Premium requires Formidable Forms Lite to be installed."
+msgstr ""
+"Formidable Forms Premium به Formidable Forms Lite نیاز دارد تا نصب شود."
+
+#: formidable-pro.php:190
+msgid "Install Formidable Forms"
+msgstr "Formidable Forms را نصب کنید"
+
+#. Plugin Name of the plugin/theme
+msgid "Formidable Forms Pro"
+msgstr "Formidable Forms Pro"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://formidableforms.com/"
+msgstr "https://wpnovin.com/"
+
+#. Description of the plugin/theme
+msgid ""
+"Add more power to your forms, and bring your reports and data management to "
+"the front-end."
+msgstr ""
+"قدرت بیشتری را به فرم‌های خود اضافه کنید و گزارش‌ها و مدیریت داده‌های خود را به "
+"قسمت جلو بیاورید."
+
+#. Author of the plugin/theme
+msgid "Strategy11"
+msgstr "استراتژی 11"

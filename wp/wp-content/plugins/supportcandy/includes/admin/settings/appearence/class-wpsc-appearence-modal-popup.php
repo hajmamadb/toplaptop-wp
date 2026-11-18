@@ -1,0 +1,204 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly!
+}
+
+if ( ! class_exists( 'WPSC_Appearence_Modal_Popup' ) ) :
+
+	final class WPSC_Appearence_Modal_Popup {
+
+		/**
+		 * Initialize this class
+		 *
+		 * @return void
+		 */
+		public static function init() {
+
+			// user interface.
+			add_action( 'wp_ajax_wpsc_get_ap_modal_popup', array( __CLASS__, 'load_settings_ui' ) );
+			add_action( 'wp_ajax_wpsc_set_ap_modal_popup', array( __CLASS__, 'save_settings' ) );
+			add_action( 'wp_ajax_wpsc_reset_ap_modal_popup', array( __CLASS__, 'reset_settings' ) );
+		}
+
+		/**
+		 * Sanitize a posted color value, falling back to the given default when it isn't a valid hex color.
+		 *
+		 * @param string $key - $_POST key.
+		 * @param string $default_color - fallback hex color.
+		 * @return string
+		 */
+		private static function sanitize_color( $key, $default_color ) {
+
+			// phpcs:ignore WordPress.Security.NonceVerification.Missing -- nonce already verified in save_settings() before this is called.
+			if ( ! isset( $_POST[ $key ] ) ) {
+				return $default_color;
+			}
+
+			// phpcs:ignore WordPress.Security.NonceVerification.Missing -- nonce already verified in save_settings() before this is called.
+			$color = sanitize_hex_color( wp_unslash( $_POST[ $key ] ) );
+			return $color ? $color : $default_color;
+		}
+
+		/**
+		 * Reset settings
+		 *
+		 * @return void
+		 */
+		public static function reset() {
+
+			update_option(
+				'wpsc-ap-modal',
+				array(
+					'header-bg-color'   => '#fff8e5',
+					'header-text-color' => '#ff8f2b',
+					'body-bg-color'     => '#fff',
+					'body-label-color'  => '#777',
+					'body-text-color'   => '#2c3e50',
+					'footer-bg-color'   => '#fff',
+					'z-index'           => 900000000,
+				)
+			);
+		}
+
+		/**
+		 * Get general settings
+		 *
+		 * @return void
+		 */
+		public static function load_settings_ui() {
+
+			if ( ! WPSC_Functions::is_site_admin() ) {
+				wp_send_json_error( __( 'Unauthorized access!', 'supportcandy' ), 401 );
+			}
+
+			$settings = get_option( 'wpsc-ap-modal' );?>
+
+			<form action="#" onsubmit="return false;" class="wpsc-frm-ap-modal">
+
+				<div class="wpsc-input-group">
+					<div class="label-container">
+						<label for=""><?php esc_attr_e( 'Header', 'supportcandy' ); ?></label>
+					</div>
+					<p class="wpsc-input-desc"><?php esc_attr_e( 'Colors of the title bar at the top of popup windows.', 'supportcandy' ); ?></p>
+					<table class="wpsc-ap-table">
+						<tr>
+							<td><?php esc_attr_e( 'Background color', 'supportcandy' ); ?></td>
+							<td><?php esc_attr_e( 'Text color', 'supportcandy' ); ?></td>
+						</tr>
+						<tr>
+							<td><input class="wpsc-color-picker" type="text" name="header-bg-color" value="<?php echo esc_attr( $settings['header-bg-color'] ); ?>"></td>
+							<td><input class="wpsc-color-picker" type="text" name="header-text-color" value="<?php echo esc_attr( $settings['header-text-color'] ); ?>"></td>
+						</tr>
+					</table>
+				</div>
+
+				<div class="wpsc-input-group">
+					<div class="label-container">
+						<label for=""><?php esc_attr_e( 'Body', 'supportcandy' ); ?></label>
+					</div>
+					<p class="wpsc-input-desc"><?php esc_attr_e( 'Colors of the content area of popup windows. Label color is used for field names, text color for the rest of the text.', 'supportcandy' ); ?></p>
+					<table class="wpsc-ap-table">
+						<tr>
+							<td><?php esc_attr_e( 'Background color', 'supportcandy' ); ?></td>
+							<td><?php esc_attr_e( 'Label color', 'supportcandy' ); ?></td>
+							<td><?php esc_attr_e( 'Text color', 'supportcandy' ); ?></td>
+						</tr>
+						<tr>
+							<td><input class="wpsc-color-picker" type="text" name="body-bg-color" value="<?php echo esc_attr( $settings['body-bg-color'] ); ?>"></td>
+							<td><input class="wpsc-color-picker" type="text" name="body-label-color" value="<?php echo esc_attr( $settings['body-label-color'] ); ?>"></td>
+							<td><input class="wpsc-color-picker" type="text" name="body-text-color" value="<?php echo esc_attr( $settings['body-text-color'] ); ?>"></td>
+						</tr>
+					</table>
+				</div>
+
+				<div class="wpsc-input-group">
+					<div class="label-container">
+						<label for=""><?php esc_attr_e( 'Footer background color', 'supportcandy' ); ?></label>
+					</div>
+					<p class="wpsc-input-desc"><?php esc_attr_e( 'Background color of the bottom bar of popup windows that holds the action buttons.', 'supportcandy' ); ?></p>
+					<input class="wpsc-color-picker" type="text" name="footer-bg-color" value="<?php echo esc_attr( $settings['footer-bg-color'] ); ?>">
+				</div>
+
+				<div class="wpsc-input-group">
+					<div class="label-container">
+						<label for=""><?php esc_attr_e( 'z-index', 'supportcandy' ); ?></label>
+					</div>
+					<p class="wpsc-input-desc"><?php esc_attr_e( 'Stacking order of popup windows and the mobile menu. Increase it if parts of your theme (for example a sticky header) appear on top of SupportCandy popups.', 'supportcandy' ); ?></p>
+					<input type="text" name="z-index" value="<?php echo esc_attr( $settings['z-index'] ); ?>">
+				</div>
+
+				<input type="hidden" name="action" value="wpsc_set_ap_modal_popup">
+				<input type="hidden" name="_ajax_nonce" value="<?php echo esc_attr( wp_create_nonce( 'wpsc_set_ap_modal_popup' ) ); ?>">
+
+				<script>jQuery('.wpsc-color-picker').wpColorPicker();</script>
+				<style>
+					.wpsc-ap-table td {padding: 5px;}
+				</style>
+
+			</form>
+			<div class="setting-footer-actions">
+				<button 
+					class="wpsc-button normal primary margin-right"
+					onclick="wpsc_set_ap_modal_popup(this);">
+					<?php esc_attr_e( 'Submit', 'supportcandy' ); ?></button>
+				<button 
+					class="wpsc-button normal secondary"
+					onclick="wpsc_reset_ap_modal_popup(this, '<?php echo esc_attr( wp_create_nonce( 'wpsc_reset_ap_modal_popup' ) ); ?>');">
+					<?php esc_attr_e( 'Reset default', 'supportcandy' ); ?></button>
+			</div>
+			<?php
+			wp_die();
+		}
+
+		/**
+		 * Save settings
+		 *
+		 * @return void
+		 */
+		public static function save_settings() {
+
+			if ( check_ajax_referer( 'wpsc_set_ap_modal_popup', '_ajax_nonce', false ) != 1 ) {
+				wp_send_json_error( 'Unauthorized request!', 401 );
+			}
+
+			if ( ! WPSC_Functions::is_site_admin() ) {
+				wp_send_json_error( __( 'Unauthorized access!', 'supportcandy' ), 401 );
+			}
+
+			update_option(
+				'wpsc-ap-modal',
+				array(
+					'header-bg-color'   => self::sanitize_color( 'header-bg-color', '#fff8e5' ),
+					'header-text-color' => self::sanitize_color( 'header-text-color', '#ff8f2b' ),
+					'body-bg-color'     => self::sanitize_color( 'body-bg-color', '#fff' ),
+					'body-label-color'  => self::sanitize_color( 'body-label-color', '#777' ),
+					'body-text-color'   => self::sanitize_color( 'body-text-color', '#2c3e50' ),
+					'footer-bg-color'   => self::sanitize_color( 'footer-bg-color', '#fff' ),
+					'z-index'           => isset( $_POST['z-index'] ) ? intval( $_POST['z-index'] ) : 900000000,
+				)
+			);
+
+			wp_die();
+		}
+
+		/**
+		 * Reset settings to default
+		 *
+		 * @return void
+		 */
+		public static function reset_settings() {
+
+			if ( check_ajax_referer( 'wpsc_reset_ap_modal_popup', '_ajax_nonce', false ) != 1 ) {
+				wp_send_json_error( 'Unauthorized request!', 401 );
+			}
+
+			if ( ! WPSC_Functions::is_site_admin() ) {
+				wp_send_json_error( __( 'Unauthorized access!', 'supportcandy' ), 401 );
+			}
+			self::reset();
+			wp_die();
+		}
+	}
+endif;
+
+WPSC_Appearence_Modal_Popup::init();

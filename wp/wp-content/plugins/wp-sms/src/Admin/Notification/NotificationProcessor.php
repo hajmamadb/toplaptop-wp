@@ -1,0 +1,256 @@
+<?php
+
+namespace WP_SMS\Admin\Notification;
+
+use WP_SMS\Admin\ConditionTagEvaluator;
+use WP_SMS\Decorators\NotificationDecorator;
+
+class NotificationProcessor
+{
+    /**
+     * Filters notifications based on their associated tags.
+     *
+     * @param array $notifications List of notifications to be filtered.
+     * @return array Filtered notifications.
+     */
+    public static function filterNotificationsByTags($notifications)
+    {
+        if (!empty($notifications) && is_array($notifications)) {
+            foreach ($notifications as $key => $notification) {
+                // Switch on and off by the notification's own dates, so a daily fetch cannot show it early or late.
+                $now    = time();
+                $starts = self::utcTimestamp($notification['starts_at'] ?? null);
+                $ends   = self::utcTimestamp($notification['ends_at'] ?? null);
+                if (($starts !== null && $starts > $now) || ($ends !== null && $ends <= $now)) {
+                    unset($notifications[$key]);
+                    continue;
+                }
+
+                if (!empty($notification['tags']) && is_array($notification['tags'])) {
+                    $condition = true;
+                    foreach ($notification['tags'] as $tag) {
+                        if (!ConditionTagEvaluator::checkConditions($tag)) {
+                            $condition = false;
+                            break;
+                        }
+                    }
+                } else {
+                    $condition = true;
+                }
+
+                if (!$condition) {
+                    unset($notifications[$key]);
+                }
+            }
+
+            $notifications = array_values($notifications);
+        }
+
+        return $notifications;
+    }
+
+    /**
+     * Reads a date from the feed as UTC, whatever timezone the site uses.
+     * A date that is empty or cannot be read counts as "not set", so a bad value never hides an offer.
+     *
+     * @param mixed $value ISO 8601 string, with or without a timezone suffix.
+     * @return int|null
+     */
+    private static function utcTimestamp($value)
+    {
+        if (empty($value) || !is_string($value)) {
+            return null;
+        }
+
+        try {
+            return (new \DateTimeImmutable($value, new \DateTimeZone('UTC')))->getTimestamp();
+        } catch (\Exception $e) {
+            return null;
+        }
+    }
+
+    /**
+     * Decorates notifications using the NotificationDecorator.
+     *
+     * @param array $notifications List of notifications to be decorated.
+     * @return array Decorated notifications.
+     */
+    public static function decorateNotifications($notifications)
+    {
+        if (empty($notifications) || !is_array($notifications)) {
+            return [];
+        }
+
+        return array_map(function ($notification) {
+            return new NotificationDecorator((object)$notification);
+        }, $notifications);
+    }
+
+    /**
+     * Dismisses a specific notification by ID.
+     *
+     * @param int $notificationId The ID of the notification to dismiss.
+     * @return bool Returns true on success.
+     */
+    public static function dismissNotification($notificationId)
+    {
+        $notifications  = NotificationFactory::getRawNotificationsData();
+        $notificationId = intval($notificationId);
+
+        if (!empty($notifications['data']) && is_array($notifications['data'])) {
+            foreach ($notifications['data'] as &$notification) {
+                if ($notificationId === $notification['id']) {
+                    $notification['dismiss'] = true;
+                    break;
+                }
+            }
+
+            update_option('wp_sms_notifications', $notifications);
+        }
+
+        return true;
+    }
+
+    /**
+     * Dismisses all notifications.
+     *
+     * @return bool Returns true on success.
+     */
+    public static function dismissAllNotifications()
+    {
+        $notifications = NotificationFactory::getRawNotificationsData();
+
+        if (!empty($notifications['data']) && is_array($notifications['data'])) {
+            foreach ($notifications['data'] as &$notification) {
+                $notification['dismiss'] = true;
+            }
+
+            update_option('wp_sms_notifications', $notifications);
+        }
+
+        return true;
+    }
+
+    /**
+     * Sync new notifications with old notifications.
+     *
+     * @param array $newNotifications
+     *
+     * @return array
+     */
+    public static function syncNotifications($newNotifications)
+    {
+        $oldNotifications = NotificationFactory::getRawNotificationsData();
+
+        $dismissedNotifications = [];
+
+        if (!empty($oldNotifications['data']) && is_array($oldNotifications['data'])) {
+            foreach ($oldNotifications['data'] as $oldNotification) {
+                if (!empty($oldNotification['dismiss']) && !empty($oldNotification['id'])) {
+                    $dismissedNotifications[$oldNotification['id']] = true;
+                }
+            }
+        }
+
+        if (!empty($newNotifications['data']) && is_array($newNotifications['data'])) {
+            foreach ($newNotifications['data'] as &$newNotification) {
+                if (isset($dismissedNotifications[$newNotification['id']])) {
+                    $newNotification['dismiss'] = true;
+                }
+            }
+        }
+
+        return $newNotifications;
+    }
+
+    /**
+     * Checks for updated notifications by comparing new notifications with previously stored ones.
+     *
+     * @param array $newNotifications
+     *
+     * @return array
+     */
+    public static function checkUpdatedNotifications($rawNewNotifications)
+    {
+        $rawOldNotifications = NotificationFactory::getRawNotificationsData();
+        $oldNotifications    = self::filterNotificationsByTags($rawOldNotifications['data'] ?? []);
+        $oldNotificationIds  = [];
+
+        foreach ($oldNotifications as $oldNotification) {
+            if (!empty($oldNotification['id'])) {
+                $oldNotificationIds[$oldNotification['id']] = true;
+            }
+        }
+
+        $newNotifications               = self::filterNotificationsByTags($rawNewNotifications['data'] ?? []);
+        $rawNewNotifications['updated'] = $rawOldNotifications['updated'] ?? false;
+
+        if (!$rawNewNotifications['updated']) {
+            foreach ($newNotifications as $newNotification) {
+                if (!empty($newNotification['id']) && !isset($oldNotificationIds[$newNotification['id']])) {
+                    $rawNewNotifications['updated'] = true;
+                    break;
+                }
+            }
+        }
+
+        return $rawNewNotifications;
+    }
+
+    /**
+     * Returns the new notifications array with an added count of unseen (new) notifications.
+     *
+     * @param array $rawNewNotifications
+     * @return array Modified array including a 'count' key indicating new notifications.
+     */
+    public static function annotateNewNotificationCount($rawNewNotifications)
+    {
+        $rawOldNotifications = NotificationFactory::getRawNotificationsData();
+        $oldNotifications    = self::filterNotificationsByTags($rawOldNotifications['data'] ?? []);
+        $oldNotificationIds  = [];
+
+        foreach ($oldNotifications as $oldNotification) {
+            if (!empty($oldNotification['id'])) {
+                $oldNotificationIds[$oldNotification['id']] = true;
+            }
+        }
+
+        $newNotifications             = self::filterNotificationsByTags($rawNewNotifications['data'] ?? []);
+        $updated                      = $rawNewNotifications['updated'] ?? false;
+        $rawNewNotifications['count'] = $rawOldNotifications['count'] ?? 0;
+
+        if ($updated) {
+            $newCount = 0;
+
+            foreach ($newNotifications as $newNotification) {
+                if (!empty($newNotification['id']) && !isset($oldNotificationIds[$newNotification['id']])) {
+                    $newCount++;
+                }
+            }
+
+            $rawNewNotifications['count'] += $newCount;
+        } else {
+            $rawNewNotifications['count'] = 0;
+        }
+
+        return $rawNewNotifications;
+    }
+
+    /**
+     * Sorts the notifications array by the 'activated_at' field in descending order.
+     *
+     * @param array $notifications
+     *
+     * @return array
+     */
+    public static function sortNotificationsByActivatedAt($notifications)
+    {
+        if (!empty($notifications['data']) && is_array($notifications['data'])) {
+            usort($notifications['data'], function ($a, $b) {
+                return strtotime($b['activated_at']) - strtotime($a['activated_at']);
+            });
+        }
+
+        return $notifications;
+    }
+}

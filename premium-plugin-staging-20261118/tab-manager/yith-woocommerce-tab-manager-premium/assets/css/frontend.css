@@ -1,0 +1,286 @@
+.ywtm_icon.fas {
+  font-family: "FontAwesome" !important;
+  speak: none !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  line-height: 1 !important;
+  font-style: normal !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+
+.woocommerce-tabs .tabs li[class^=ywtm] a {
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.ywtm_downloads_content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.ywtm_downloads_content .ywtm_download_item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid var(--ywtm-download-border);
+  border-radius: 6px;
+  background: var(--ywtm-download-background);
+  color: var(--ywtm-download-button-text);
+  padding: 17px 20px;
+}
+.ywtm_downloads_content .ywtm_download_item .ywtm_download_file_info {
+  flex: 1;
+}
+.ywtm_downloads_content .ywtm_download_item .ywtm_download_file_info .ywtm_dowload_file_size {
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+.ywtm_downloads_content .ywtm_download_item .ywtm_download_file_info .ywtm_dowload_file_info_desc {
+  font-size: 0.6em;
+}
+.ywtm_downloads_content .ywtm_download_item .ywtm_download_action .ywtm_download_btn {
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+  color: var(--ywtm-download-button-text);
+  border: 1px solid var(--ywtm-download-border-btn);
+  background: var(--ywtm-download-background-btn);
+  border-radius: 47px;
+  padding: 8px 15px;
+  font-size: 0.8em;
+  text-decoration: none;
+}
+.ywtm_downloads_content .ywtm_download_item .ywtm_download_action .ywtm_download_btn:hover {
+  cursor: pointer;
+  border: 1px solid var(--ywtm-download-hover-border-btn);
+  background: var(--ywtm-download-hover-background-btn);
+  color: var(--ywtm-download-hover-button-text);
+}
+.ywtm_downloads_content .ywtm_download_item .ywtm_download_action .ywtm_download_btn svg {
+  width: 25px;
+}
+.ywtm_downloads_content .ywtm_download_item:hover {
+  border: 1px solid var(--ywtm-download-hover-border);
+  background: var(--ywtm-download-hover-background);
+}
+.ywtm_downloads_content .ywtm_download_item:hover .ywtm_download_action .ywtm_download_btn {
+  border: 1px solid var(--ywtm-download-hover-border-btn);
+  background: var(--ywtm-download-hover-background-btn);
+  color: var(--ywtm-download-hover-button-text);
+}
+
+.ywtm_faqs_content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.ywtm_faqs_content .ywtm_faq_item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--ywtm-faq-border);
+  border-radius: 6px;
+  background: var(--ywtm-faq-background);
+  color: var(--ywtm-faq-text);
+}
+.ywtm_faqs_content .ywtm_faq_item .ywtm_faq_header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+.ywtm_faqs_content .ywtm_faq_item .ywtm_faq_header .ywtm_faq_question {
+  flex: var(--ywtm-faq-flex);
+}
+.ywtm_faqs_content .ywtm_faq_item .ywtm_faq_header .ywtm_faq_icon {
+  order: var(--ywtm-faq-icon-position);
+  line-height: 0;
+}
+.ywtm_faqs_content .ywtm_faq_item .ywtm_faq_header .ywtm_faq_icon .ywtm_faq_icon_close {
+  display: flex;
+  align-items: center;
+}
+.ywtm_faqs_content .ywtm_faq_item .ywtm_faq_header .ywtm_faq_icon .ywtm_faq_icon_close svg {
+  width: 17px;
+}
+.ywtm_faqs_content .ywtm_faq_item .ywtm_faq_header .ywtm_faq_icon .ywtm_faq_icon_open {
+  display: none;
+}
+.ywtm_faqs_content .ywtm_faq_item .ywtm_faq_header .ywtm_faq_icon .ywtm_faq_icon_open svg {
+  width: 18px;
+}
+.ywtm_faqs_content .ywtm_faq_item .ywtm_faq_header:hover {
+  cursor: pointer;
+}
+.ywtm_faqs_content .ywtm_faq_item .ywtm_faq_answer {
+  display: none;
+  font-size: 0.8em;
+  padding: 0 40px 20px 48px;
+}
+.ywtm_faqs_content .ywtm_faq_item.opened {
+  border: 1px solid var(--ywtm-faq-open-border);
+  background: var(--ywtm-faq-open-background);
+  color: var(--ywtm-faq-open-text);
+}
+.ywtm_faqs_content .ywtm_faq_item.opened .ywtm_faq_header .ywtm_faq_icon .ywtm_faq_icon_open {
+  display: flex;
+  align-items: center;
+}
+.ywtm_faqs_content .ywtm_faq_item.opened .ywtm_faq_header .ywtm_faq_icon .ywtm_faq_icon_close {
+  display: none;
+}
+.ywtm_faqs_content .ywtm_faq_item.opened .ywtm_faq_answer {
+  color: var(--ywtm-faq-open-answer-text);
+}
+
+.ywtm_contact_form_content {
+  background: var(--ywtm-form-form-bg);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+  gap: 20px;
+}
+.ywtm_contact_form_content .ywtm_contact_form_first_row {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.ywtm_contact_form_content .ywtm_contact_form_first_row > * {
+  flex: 1 1 0;
+}
+.ywtm_contact_form_content .ywtm_contact_form_field {
+  display: flex;
+  flex-direction: column;
+}
+.ywtm_contact_form_content .ywtm_contact_form_second_row, .ywtm_contact_form_content .ywtm_contact_form_message {
+  width: 100%;
+}
+.ywtm_contact_form_content .ywtm_contact_form_message textarea {
+  resize: none;
+}
+.ywtm_contact_form_content .ywtm_contact_form_action {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.ywtm_contact_form_content .ywtm_contact_form_action span {
+  flex: 1;
+}
+.ywtm_contact_form_content input[type=text], .ywtm_contact_form_content input[type=email], .ywtm_contact_form_content textarea {
+  border: 1px solid var(--ywtm-form-border);
+  background: var(--ywtm-form-background);
+}
+.ywtm_contact_form_content input[type=text]:focus, .ywtm_contact_form_content input[type=email]:focus, .ywtm_contact_form_content textarea:focus {
+  border: 1px solid var(--ywtm-form-active-border);
+  background: var(--ywtm-form-active-background);
+  box-shadow: 0 0 2px var(--ywtm-form-active-background);
+}
+.ywtm_contact_form_content .ywtm-field-required.ywtm-field-error input, .ywtm_contact_form_content .ywtm-field-required.ywtm-field-error textarea {
+  border-color: red;
+}
+.ywtm_contact_form_content .ywtm-field-required.ywtm-field-error .ywtm-field-error-info {
+  font-size: 0.6em;
+  color: red;
+}
+.ywtm_contact_form_content .yith-plugin-fw__notice {
+  width: 100%;
+}
+
+div.pp_yith_tab_manager a.pp_expand,
+div.pp_yith_tab_manager a.pp_contract,
+div.pp_yith_tab_manager a.pp_close {
+  width: 1.5em !important;
+  height: 1.5em !important;
+  background-color: #656565 !important;
+}
+div.pp_yith_tab_manager a.pp_expand::before {
+  font-family: inherit !important;
+  content: "" !important;
+  background-image: url("../images/icons/expand.svg");
+  background-size: 0.8em 0.8em;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div.pp_yith_tab_manager a.pp_contract::before {
+  font-family: inherit !important;
+  content: "" !important;
+  background-image: url("../images/icons/expand.svg");
+  background-size: 0.8em 0.8em;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotate(180deg);
+}
+div.pp_yith_tab_manager a.pp_close {
+  background-color: #D9D9D9 !important;
+  top: -0.5em !important;
+  right: -0.5em !important;
+}
+div.pp_yith_tab_manager a.pp_close::before {
+  font-family: inherit !important;
+  content: "" !important;
+  background-image: url("../images/icons/close.svg");
+  background-size: 0.8em 0.8em;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div.pp_yith_tab_manager a.pp_next::before,
+div.pp_yith_tab_manager a.pp_arrow_next::before {
+  font-family: inherit !important;
+  content: "" !important;
+  background-image: url("../images/icons/arrow-right.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div.pp_yith_tab_manager a.pp_next::before, div.pp_yith_tab_manager a.pp_previous::before {
+  width: 2.5em !important;
+  height: 2.5em !important;
+  background-size: 1.2em 1.2em;
+  background-color: #D9D9D9 !important;
+  border-radius: 100%;
+}
+div.pp_yith_tab_manager a.pp_arrow_next, div.pp_yith_tab_manager a.pp_arrow_previous {
+  background-color: unset;
+}
+div.pp_yith_tab_manager a.pp_arrow_next:hover, div.pp_yith_tab_manager a.pp_arrow_previous:hover {
+  background-color: unset;
+}
+div.pp_yith_tab_manager a.pp_previous::before,
+div.pp_yith_tab_manager a.pp_arrow_previous::before {
+  font-family: inherit !important;
+  content: "" !important;
+  background-image: url("../images/icons/arrow-left.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div.pp_yith_tab_manager a.pp_arrow_next::before,
+div.pp_yith_tab_manager a.pp_arrow_previous::before {
+  background-size: 0.8em 0.8em;
+}
+div.pp_yith_tab_manager .pp_details {
+  font-weight: bold;
+  display: flex;
+}
+div.pp_yith_tab_manager .pp_details .pp_nav {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  order: 1;
+  padding: 0;
+  margin: 0;
+}
+div.pp_yith_tab_manager .pp_details .pp_description {
+  flex: 1;
+}
+
+.ywtm_additional_content > * {
+  margin-bottom: 30px;
+}
+
+/*# sourceMappingURL=frontend.css.map */

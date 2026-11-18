@@ -1,0 +1,24 @@
+{
+  "scope": "pro",
+  "source_archive": "js-pro.zip",
+  "source_archive_sha256": "b98232ac87d924b5cf58f081152e82b8852e20ae140bd545531c7c86fe710cd6",
+  "files_scanned": 63,
+  "files_with_static_i18n": 36,
+  "static_calls_including_empty": 3214,
+  "empty_msgid_calls": 1,
+  "unique_translated_keys": 1743,
+  "domain_counts": {
+    "%domain%": 3,
+    "default": 6,
+    "rank-math": 63,
+    "rank-math-pro": 1658,
+    "rank-name-pro": 1,
+    "woocommerce": 12
+  },
+  "dynamic_i18n_calls": 0,
+  "parse_error_files": 0,
+  "wizard_js": null,
+  "missing_static_keys": 0,
+  "empty_translations": 0,
+  "placeholder_or_html_errors": 0
+}

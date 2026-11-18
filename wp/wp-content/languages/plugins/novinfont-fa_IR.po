@@ -1,0 +1,632 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NovinFont 3.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-12 15:16+0330\n"
+"PO-Revision-Date: 2026-08-12 15:16+0330\n"
+"Last-Translator: NovinFont\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Domain: novinfont\n"
+
+msgid "%1$s files · %2$s"
+msgstr "%1$s فایل · %2$s"
+
+msgid "%s KB"
+msgstr "%s کیلوبایت"
+
+msgid "%s MB"
+msgstr "%s مگابایت"
+
+msgid "%s bytes"
+msgstr "%s بایت"
+
+msgid "%s files selected"
+msgstr "%s فایل انتخاب شد"
+
+msgid ", "
+msgstr "، "
+
+msgid "0123456789"
+msgstr "۰۱۲۳۴۵۶۷۸۹"
+
+msgid "400"
+msgstr "۴۰۰"
+
+msgid "A copy of the font family was created."
+msgstr "یک نسخه از خانواده فونت ساخته شد."
+
+msgid "Aa"
+msgstr "آا"
+
+msgid "Active"
+msgstr "فعال"
+
+msgid "Active families are registered with the native WordPress font library. On older versions, NovinFont frontend styles remain available."
+msgstr "خانواده‌های فعال در کتابخانه بومی فونت وردپرس ثبت می‌شوند. در نسخه‌های قدیمی‌تر، استایل‌های فرانت‌اند نوین فونت همچنان در دسترس هستند."
+
+msgid "Active font families are also available in WordPress font controls."
+msgstr "خانواده‌های فونت فعال در کنترل‌های فونت وردپرس نیز در دسترس هستند."
+
+msgid "Add Font"
+msgstr "افزودن فونت"
+
+msgid "All changes are saved."
+msgstr "همه تغییرات ذخیره شده‌اند."
+
+msgid "All formats"
+msgstr "همه فرمت‌ها"
+
+msgid "All pages"
+msgstr "همه صفحات"
+
+msgid "All settings were saved successfully."
+msgstr "همه تنظیمات با موفقیت ذخیره شدند."
+
+msgid "All statuses"
+msgstr "همه وضعیت‌ها"
+
+msgid "Apply this rule with higher priority"
+msgstr "این قانون با اولویت بالاتر اعمال شود"
+
+msgid "Are you sure you want to delete this item?"
+msgstr "از حذف این مورد مطمئن هستید؟"
+
+msgid "Auto"
+msgstr "خودکار"
+
+msgid "Block"
+msgstr "مسدود"
+
+msgid "Body text"
+msgstr "متن اصلی"
+
+msgid "Building a real font preview..."
+msgstr "در حال ساخت پیش‌نمایش واقعی فونت..."
+
+msgid "Capitalize"
+msgstr "حرف اول بزرگ"
+
+msgid "Changes are applied only after you click Save Settings."
+msgstr "تغییرات فقط پس از کلیک روی «ذخیره تنظیمات» اعمال می‌شوند."
+
+msgid "Changes are kept as a draft. Click Save Settings to apply them to the site."
+msgstr "تغییرات به‌صورت پیش‌نویس نگه داشته شده‌اند. برای اعمال روی سایت روی «ذخیره تنظیمات» کلیک کنید."
+
+msgid "Changes are not saved yet."
+msgstr "تغییرات هنوز ذخیره نشده‌اند."
+
+msgid "Click an element to select it"
+msgstr "برای انتخاب، روی یک عنصر کلیک کنید"
+
+msgid "Close"
+msgstr "بستن"
+
+msgid "Close tool"
+msgstr "بستن ابزار"
+
+msgid "Compare Two Fonts"
+msgstr "مقایسه هم‌زمان دو فونت"
+
+msgid "Condition value"
+msgstr "مقدار شرط"
+
+msgid "Connect with WordPress and Page Builders"
+msgstr "اتصال به وردپرس و صفحه‌سازها"
+
+msgid "Could not connect to the server. Please try again."
+msgstr "ارتباط با سرور انجام نشد. دوباره تلاش کنید."
+
+msgid "Custom element"
+msgstr "عنصر سفارشی"
+
+msgid "Custom preview text"
+msgstr "متن دلخواه پیش‌نمایش"
+
+msgid "Custom preview text..."
+msgstr "متن دلخواه پیش‌نمایش..."
+
+msgid "Dashboard"
+msgstr "داشبورد"
+
+msgid "Default font"
+msgstr "فونت پیش‌فرض"
+
+msgid "Define an independent font family, weight, responsive size, and loading condition for each element."
+msgstr "برای هر عنصر، خانواده فونت، وزن، اندازه واکنش‌گرا و شرط بارگذاری را به‌صورت مستقل تعیین کنید."
+
+msgid "Delete Family"
+msgstr "حذف خانواده"
+
+msgid "Delete rule"
+msgstr "حذف قانون"
+
+msgid "Delete this typography rule?"
+msgstr "این قانون تایپوگرافی حذف شود؟"
+
+msgid "Desktop size"
+msgstr "اندازه دسکتاپ"
+
+msgid "Detected"
+msgstr "شناسایی شد"
+
+msgid "Disable"
+msgstr "غیرفعال‌سازی"
+
+msgid "Drop font files here or choose files"
+msgstr "فایل‌های فونت را اینجا رها کنید یا انتخاب کنید"
+
+msgid "Duplicate"
+msgstr "ساخت کپی"
+
+msgid "Element selector"
+msgstr "انتخابگر عنصر"
+
+msgid "Elementor Font Picker"
+msgstr "انتخابگر فونت المنتور"
+
+msgid "Embedded OpenType"
+msgstr "فونت EOT"
+
+msgid "Enable"
+msgstr "فعال‌سازی"
+
+msgid "Enable family"
+msgstr "فعال‌سازی خانواده"
+
+msgid "Enable this rule"
+msgstr "فعال‌سازی این قانون"
+
+msgid "Enabled"
+msgstr "فعال"
+
+msgid "Enter more characters to search."
+msgstr "برای جستجو عبارت بیشتری وارد کنید."
+
+msgid "Example: product"
+msgstr "مثال: product"
+
+msgid "External font stylesheet URLs"
+msgstr "نشانی استایل فونت‌های خارجی"
+
+msgid "Fallback"
+msgstr "جایگزین"
+
+msgid "Fallback fonts"
+msgstr "فونت‌های جایگزین"
+
+msgid "Families and weights"
+msgstr "خانواده‌ها و وزن‌ها"
+
+msgid "Family changes are not saved yet. Click Save Settings to apply them to the site."
+msgstr "تغییرات خانواده هنوز ذخیره نشده‌اند. برای اعمال روی سایت روی «ذخیره تنظیمات» کلیک کنید."
+
+msgid "First font"
+msgstr "فونت اول"
+
+msgid "Font"
+msgstr "فونت"
+
+msgid "Font Display Rules"
+msgstr "قوانین نمایش فونت"
+
+msgid "Font Library"
+msgstr "کتابخانه فونت"
+
+msgid "Font display behavior"
+msgstr "رفتار نمایش فونت"
+
+msgid "Font families"
+msgstr "خانواده‌های فونت"
+
+msgid "Font family"
+msgstr "خانواده فونت"
+
+msgid "Font family deleted."
+msgstr "خانواده فونت حذف شد."
+
+msgid "Font family updated."
+msgstr "خانواده فونت به‌روزرسانی شد."
+
+msgid "Font file name"
+msgstr "نام فایل فونت"
+
+msgid "Font files and styles"
+msgstr "فایل‌ها و حالت‌های فونت"
+
+msgid "Font format"
+msgstr "فرمت فونت"
+
+msgid "Font style"
+msgstr "حالت فونت"
+
+msgid "Font upload failed. Please check the files and try again."
+msgstr "آپلود فونت ناموفق بود. فایل‌ها را بررسی کنید و دوباره تلاش کنید."
+
+msgid "Font weight"
+msgstr "وزن فونت"
+
+msgid "Fonts were uploaded and grouped successfully."
+msgstr "فونت‌ها با موفقیت آپلود و گروه‌بندی شدند."
+
+msgid "For better performance and privacy, use local files for your primary fonts whenever possible."
+msgstr "برای عملکرد بهتر و حفظ حریم خصوصی، تا حد امکان برای فونت‌های اصلی از فایل‌های محلی استفاده کنید."
+
+msgid "Force priority"
+msgstr "اولویت اجباری"
+
+msgid "Form not found."
+msgstr "فرم پیدا نشد."
+
+msgid "Front page"
+msgstr "صفحه اصلی"
+
+msgid "Headings"
+msgstr "تیترها"
+
+msgid "Inactive"
+msgstr "غیرفعال"
+
+msgid "Integrations"
+msgstr "یکپارچه‌سازی"
+
+msgid "Italic"
+msgstr "ایتالیک"
+
+msgid "Letter spacing"
+msgstr "فاصله حروف"
+
+msgid "Letters, numbers 1234567890, and punctuation help you evaluate readability and visual rhythm."
+msgstr "حروف، اعداد ۱۲۳۴۵۶۷۸۹۰ و نشانه‌ها به شما کمک می‌کنند خوانایی و ریتم بصری را بهتر ارزیابی کنید."
+
+msgid "Line height"
+msgstr "ارتفاع خط"
+
+msgid "Live Lab"
+msgstr "آزمایشگاه زنده"
+
+msgid "Live rule preview"
+msgstr "پیش‌نمایش زنده قانون"
+
+msgid "Loading condition"
+msgstr "شرط بارگذاری"
+
+msgid "Loading section..."
+msgstr "در حال بارگذاری بخش..."
+
+msgid "Loading..."
+msgstr "در حال بارگذاری..."
+
+msgid "Local font families managed by NovinFont."
+msgstr "خانواده‌های فونت محلی مدیریت‌شده توسط نوین فونت."
+
+msgid "Lowercase"
+msgstr "حروف کوچک"
+
+msgid "Make local fonts available in the WordPress block editor and Elementor."
+msgstr "فونت‌های محلی را در ویرایشگر بلوک وردپرس و المنتور در دسترس قرار دهید."
+
+msgid "Management sections"
+msgstr "بخش‌های مدیریت"
+
+msgid "Maximum weight"
+msgstr "بیشترین وزن"
+
+msgid "Minimum weight"
+msgstr "کمترین وزن"
+
+msgid "Mobile size"
+msgstr "اندازه موبایل"
+
+msgid "Native WordPress Feature"
+msgstr "قابلیت بومی وردپرس"
+
+msgid "Navigation"
+msgstr "منو و ناوبری"
+
+msgid "New Rule"
+msgstr "قانون جدید"
+
+msgid "New typography rule"
+msgstr "قانون تایپوگرافی جدید"
+
+msgid "No file selected yet."
+msgstr "هنوز فایلی انتخاب نشده است."
+
+msgid "No fonts match these filters."
+msgstr "هیچ فونتی با این فیلترها مطابقت ندارد."
+
+msgid "No results found."
+msgstr "نتیجه‌ای پیدا نشد."
+
+msgid "None"
+msgstr "هیچ‌کدام"
+
+msgid "Normal"
+msgstr "عادی"
+
+msgid "Not saved"
+msgstr "ذخیره نشده"
+
+msgid "NovinFont"
+msgstr "افزونه ایرانی نوین فونت"
+
+msgid "NovinFont - Iranian Font Plugin"
+msgstr "افزونه ایرانی نوین فونت"
+
+msgid "NovinFont families are added to the Elementor font list."
+msgstr "خانواده‌های نوین فونت به فهرست فونت‌های المنتور اضافه می‌شوند."
+
+msgid "Oblique"
+msgstr "مایل"
+
+msgid "One URL per line"
+msgstr "در هر خط یک نشانی"
+
+msgid "One or more fields in this section need attention."
+msgstr "یک یا چند فیلد این بخش نیاز به اصلاح دارند."
+
+msgid "OpenType Font"
+msgstr "فونت اوپن‌تایپ"
+
+msgid "Optional"
+msgstr "اختیاری"
+
+msgid "Overview"
+msgstr "نمای کلی"
+
+msgid "Page Builder"
+msgstr "صفحه‌ساز"
+
+msgid "Pick from site"
+msgstr "انتخاب از سایت"
+
+msgid "Please complete the required form fields."
+msgstr "لطفاً فیلدهای ضروری فرم را تکمیل کنید."
+
+msgid "Post type"
+msgstr "نوع نوشته"
+
+msgid "Preload"
+msgstr "پیش‌بارگذاری"
+
+msgid "Preview this text using the font above. 1234567890"
+msgstr "پیش‌نمایش این متن با فونت فوق نمایش داده می‌شود. ۱۲۳۴۵۶۷۸۹۰"
+
+msgid "Professional Font Family Management"
+msgstr "مدیریت حرفه‌ای خانواده‌های فونت"
+
+msgid "Professional local font and typography manager for WordPress."
+msgstr "مدیریت حرفه‌ای فونت‌های محلی و تایپوگرافی وردپرس."
+
+msgid "Professional typography, better readability, and a consistent visual identity"
+msgstr "تایپوگرافی حرفه‌ای، خوانایی بهتر و هویت بصری منسجم"
+
+msgid "Requires a newer WordPress version"
+msgstr "نیازمند نسخه جدیدتر وردپرس"
+
+msgid "Review your font library and typography rules at a glance."
+msgstr "کتابخانه فونت و قوانین تایپوگرافی را در یک نگاه بررسی کنید."
+
+msgid "Rule name"
+msgstr "نام قانون"
+
+msgid "Rules and responsive settings"
+msgstr "قوانین و تنظیمات واکنش‌گرا"
+
+msgid "Rules are applied from top to bottom; lower rules can take higher precedence."
+msgstr "قوانین از بالا به پایین اعمال می‌شوند و قوانین پایین‌تر می‌توانند اولویت بیشتری داشته باشند."
+
+msgid "Sample One"
+msgstr "نمونه اول"
+
+msgid "Sample Two"
+msgstr "نمونه دوم"
+
+msgid "Sans Serif"
+msgstr "بدون سریف"
+
+msgid "Save Changes"
+msgstr "ذخیره تغییرات"
+
+msgid "Save Integrations"
+msgstr "ذخیره یکپارچه‌سازی"
+
+msgid "Save Settings"
+msgstr "ذخیره تنظیمات"
+
+msgid "Save Typography Rules"
+msgstr "ذخیره قوانین تایپوگرافی"
+
+msgid "Saving all changes..."
+msgstr "در حال ذخیره همه تغییرات..."
+
+msgid "Saving..."
+msgstr "در حال ذخیره..."
+
+msgid "Search family or file name..."
+msgstr "جستجوی خانواده یا نام فایل..."
+
+msgid "Searching..."
+msgstr "در حال جستجو..."
+
+msgid "Second font"
+msgstr "فونت دوم"
+
+msgid "Section content could not be loaded."
+msgstr "محتوای بخش دریافت نشد."
+
+msgid "Selected File Preview"
+msgstr "پیش‌نمایش فایل انتخاب‌شده"
+
+msgid "Selected font"
+msgstr "فونت انتخاب‌شده"
+
+msgid "Selector captured. You can close this window."
+msgstr "انتخابگر دریافت شد. می‌توانید این پنجره را ببندید."
+
+msgid "Settings saved successfully."
+msgstr "تنظیمات با موفقیت ذخیره شدند."
+
+msgid "Singular pages"
+msgstr "صفحات تکی"
+
+msgid "Site Font Dashboard"
+msgstr "داشبورد فونت سایت"
+
+msgid "Style"
+msgstr "حالت"
+
+msgid "Supported"
+msgstr "پشتیبانی می‌شود"
+
+msgid "Swap"
+msgstr "تعویض سریع"
+
+msgid "Tablet size"
+msgstr "اندازه تبلت"
+
+msgid "Text transform"
+msgstr "تبدیل حروف"
+
+msgid "The browser could not render this file as a web font."
+msgstr "مرورگر نتوانست این فایل را به‌عنوان فونت وب نمایش دهد."
+
+msgid "The browser rejected this font file, so a fake preview is not shown."
+msgstr "مرورگر این فایل فونت را نپذیرفت؛ بنابراین پیش‌نمایش غیرواقعی نمایش داده نمی‌شود."
+
+msgid "The direct font path is unavailable."
+msgstr "مسیر مستقیم فایل فونت در دسترس نیست."
+
+msgid "The file loads correctly, but it does not contain the standard Persian characters used in this sample."
+msgstr "فایل به‌درستی بارگذاری می‌شود، اما نویسه‌های استاندارد فارسی استفاده‌شده در این نمونه را ندارد."
+
+msgid "The font file URL is missing."
+msgstr "نشانی فایل فونت موجود نیست."
+
+msgid "The font file request failed with status %s."
+msgstr "درخواست فایل فونت با وضعیت %s ناموفق بود."
+
+msgid "The font preview could not be loaded."
+msgstr "پیش‌نمایش فونت بارگذاری نشد."
+
+msgid "The preview is rendered directly from the selected file."
+msgstr "پیش‌نمایش مستقیماً از فایل انتخاب‌شده ساخته شده است."
+
+msgid "The received file size does not match the stored font file."
+msgstr "اندازه فایل دریافت‌شده با فایل فونت ذخیره‌شده یکسان نیست."
+
+msgid "The received response is not a font file."
+msgstr "پاسخ دریافت‌شده فایل فونت نیست."
+
+msgid "The request has expired. Please refresh the page."
+msgstr "درخواست منقضی شده است. لطفاً صفحه را تازه‌سازی کنید."
+
+msgid "The requested action is not recognized."
+msgstr "عملیات درخواستی شناخته نشد."
+
+msgid "The requested font family was not found."
+msgstr "خانواده فونت درخواستی پیدا نشد."
+
+msgid "The server response does not contain a valid font signature."
+msgstr "پاسخ سرور دارای امضای معتبر فایل فونت نیست."
+
+msgid "There are no changes to save."
+msgstr "تغییری برای ذخیره وجود ندارد."
+
+msgid "This file does not contain the standard Persian characters used in the sample. A real Latin sample is shown instead."
+msgstr "این فایل نویسه‌های استاندارد فارسی استفاده‌شده در نمونه را ندارد؛ به‌جای آن نمونه واقعی لاتین فایل نمایش داده می‌شود."
+
+msgid "This file is shown using compatibility mode for legacy Persian fonts."
+msgstr "این فایل با حالت سازگاری فونت‌های فارسی قدیمی نمایش داده شده است."
+
+msgid "This font cannot be previewed in the browser."
+msgstr "پیش‌نمایش این فونت در مرورگر امکان‌پذیر نیست."
+
+msgid "This font is being previewed using legacy Persian font compatibility mode."
+msgstr "این فونت با حالت سازگاری فونت‌های فارسی قدیمی پیش‌نمایش می‌شود."
+
+msgid "TrueType Font"
+msgstr "فونت تروتایپ"
+
+msgid "Typography"
+msgstr "تایپوگرافی"
+
+msgid "Typography Engine"
+msgstr "موتور تایپوگرافی"
+
+msgid "Typography rule"
+msgstr "قانون تایپوگرافی"
+
+msgid "Typography rules"
+msgstr "قوانین تایپوگرافی"
+
+msgid "Typography rules were saved."
+msgstr "قوانین تایپوگرافی ذخیره شدند."
+
+msgid "URL contains"
+msgstr "نشانی شامل"
+
+msgid "Unsaved changes are kept until you click Save Settings."
+msgstr "تغییرات ذخیره‌نشده تا زمان کلیک روی «ذخیره تنظیمات» نگه داشته می‌شوند."
+
+msgid "Upload and Analyze"
+msgstr "آپلود و تحلیل"
+
+msgid "Upload files in batches. Family, weight, style, and variable font data are detected automatically whenever possible."
+msgstr "فایل‌ها را به‌صورت گروهی آپلود کنید. اطلاعات خانواده، وزن، حالت و فونت متغیر تا حد امکان به‌صورت خودکار شناسایی می‌شوند."
+
+msgid "Uploading file..."
+msgstr "در حال آپلود فایل..."
+
+msgid "Uploading font..."
+msgstr "در حال آپلود فونت..."
+
+msgid "Uppercase"
+msgstr "حروف بزرگ"
+
+msgid "Use global setting"
+msgstr "استفاده از تنظیم عمومی"
+
+msgid "Variable"
+msgstr "متغیر"
+
+msgid "Variable font range: %1$s to %2$s"
+msgstr "محدوده وزن فونت متغیر: %1$s تا %2$s"
+
+msgid "Web Open Font"
+msgstr "فونت وب فشرده"
+
+msgid "Web Open Font 2"
+msgstr "فونت وب فشرده ۲"
+
+msgid "Weight"
+msgstr "وزن"
+
+msgid "When Elementor is active, font families appear in its font picker without modifying Elementor files."
+msgstr "وقتی المنتور فعال باشد، خانواده‌های فونت بدون دستکاری فایل‌های المنتور در انتخابگر فونت آن نمایش داده می‌شوند."
+
+msgid "WooCommerce pages"
+msgstr "صفحات ووکامرس"
+
+msgid "WordPress Font Library and Block Editor"
+msgstr "کتابخانه فونت وردپرس و ویرایشگر بلوک"
+
+msgid "WordPress and page builders"
+msgstr "وردپرس و صفحه‌سازها"
+
+msgid "Working..."
+msgstr "در حال انجام عملیات..."
+
+msgid "You can select multiple files at once."
+msgstr "می‌توانید چند فایل را به‌صورت هم‌زمان انتخاب کنید."
+
+msgid "You do not have permission to access this section."
+msgstr "شما اجازه دسترسی به این بخش را ندارید."
+
+msgid "— No custom font —"
+msgstr "— بدون فونت سفارشی —"

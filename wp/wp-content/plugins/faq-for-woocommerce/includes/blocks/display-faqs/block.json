@@ -1,0 +1,136 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "happy-faq/display-faqs",
+  "title": "Happy Prebuilt FAQs",
+  "category": "happy-faq",
+  "icon": "editor-help",
+  "description": "Display FAQs from your Happy FAQs library on any page.",
+  "keywords": [ "faq", "accordion", "help", "questions", "prebuilt", "library" ],
+  "textdomain": "faq-for-woocommerce",
+  "editorScript": "ffw-display-faqs-editor",
+  "style": "ffw-display-faqs-style",
+  "supports": {
+    "align": [ "wide", "full" ],
+    "html": false,
+    "anchor": true
+  },
+  "attributes": {
+    "source": {
+      "type": "string",
+      "default": "all"
+    },
+    "faqCat": {
+      "type": "string",
+      "default": ""
+    },
+    "faqIds": {
+      "type": "string",
+      "default": ""
+    },
+    "productId": {
+      "type": "number",
+      "default": 0
+    },
+    "layout": {
+      "type": "number",
+      "default": 0
+    },
+    "displayMode": {
+      "type": "string",
+      "default": "accordion"
+    },
+    "limit": {
+      "type": "number",
+      "default": 0
+    },
+    "perPage": {
+      "type": "number",
+      "default": 0
+    },
+    "orderBy": {
+      "type": "string",
+      "default": "id"
+    },
+    "order": {
+      "type": "string",
+      "default": "ASC"
+    },
+    "showSearch": {
+      "type": "boolean",
+      "default": true
+    },
+    "showFilter": {
+      "type": "boolean",
+      "default": false
+    },
+    "enableSchema": {
+      "type": "boolean",
+      "default": true
+    },
+    "expandFirst": {
+      "type": "boolean",
+      "default": false
+    },
+    "groupId": {
+      "type": "number",
+      "default": 0
+    },
+    "questionColor": {
+      "type": "string",
+      "default": ""
+    },
+    "questionBgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "questionHoverColor": {
+      "type": "string",
+      "default": ""
+    },
+    "questionFontSize": {
+      "type": "number",
+      "default": 0
+    },
+    "answerColor": {
+      "type": "string",
+      "default": ""
+    },
+    "answerBgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "answerFontSize": {
+      "type": "number",
+      "default": 0
+    },
+    "borderColor": {
+      "type": "string",
+      "default": ""
+    },
+    "borderRadius": {
+      "type": "number",
+      "default": 0
+    },
+    "itemSpacing": {
+      "type": "number",
+      "default": 0
+    },
+    "iconSet": {
+      "type": "string",
+      "default": ""
+    },
+    "iconPosition": {
+      "type": "string",
+      "default": ""
+    },
+    "iconColor": {
+      "type": "string",
+      "default": ""
+    },
+    "iconSize": {
+      "type": "number",
+      "default": 0
+    }
+  }
+}

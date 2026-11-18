@@ -1,0 +1,400 @@
+<?php
+
+use WP_SMS\Admin\AdminManager;
+use WP_SMS\Admin\AnonymizedUsageData\AnonymizedUsageDataManager;
+use WP_SMS\Admin\Dashboard;
+use WP_SMS\Components\Assets;
+use WP_SMS\Service\Assets\AssetsFactory;
+use WP_SMS\BackgroundProcess\Async\RemoteRequestAsync;
+use WP_SMS\BackgroundProcess\Queues\RemoteRequestQueue;
+use WP_SMS\Blocks\BlockAssetsManager;
+use WP_SMS\Components\Logger;
+use WP_SMS\Controller\ControllerManager;
+use WP_SMS\Notice\NoticeManager;
+use WP_SMS\Services\CronJobs\CronJobManager;
+use WP_SMS\Services\Formidable\FormidableManager;
+use WP_SMS\Services\Forminator\ForminatorManager;
+use WP_SMS\Services\Hooks\HooksManager;
+use WP_SMS\Services\MessageButton\MessageButtonManager;
+use WP_SMS\Services\Subscriber\SubscriberManager;
+use WP_SMS\Services\WooCommerce\WooCommerceCheckout;
+use WP_SMS\Shortcode\ShortcodeManager;
+use WP_SMS\User\MobileFieldManager;
+use WP_SMS\Webhook\WebhookManager;
+use WP_SMS\Widget\WidgetsManager;
+use WP_SMS\Admin\Notification\NotificationManager;
+use WP_SMS\Services\CronEventManager;
+
+if (!defined('ABSPATH')) {
+    exit;
+} // Exit if accessed directly
+
+class WP_SMS
+{
+    /**
+     * Plugin instance.
+     *
+     * @see get_instance()
+     * @type object
+     */
+    protected static $instance = null;
+
+    /**
+     * @var RemoteRequestAsync $remoteRequestAsync
+     */
+    private $remoteRequestAsync;
+
+    /**
+     * @var RemoteRequestQueue $remoteRequestQueue
+     */
+    private $remoteRequestQueue;
+
+    public function __construct()
+    {
+        /*
+         * Plugin Loaded Action
+         */
+        add_action('plugins_loaded', array($this, 'plugin_setup'));
+
+        require_once WP_SMS_DIR . 'includes/class-wpsms-install.php';
+        require_once WP_SMS_DIR . 'includes/class-wpsms-uninstall.php';
+
+        register_activation_hook(WP_SMS_DIR . 'wp-sms.php', array($this, 'activate'));
+        register_deactivation_hook(WP_SMS_DIR . 'wp-sms.php', array($this, 'deactivate'));
+    }
+
+    /**
+     * Install And Upgrade plugin
+     */
+    public function activate($network_wide)
+    {
+        $class = new \WP_SMS\Install();
+        $class->install($network_wide);
+    }
+
+    /**
+     * Deactivate & Uninstall plugin
+     */
+    public function deactivate()
+    {
+        $class = new \WP_SMS\Uninstall();
+        $class->deactivate();
+    }
+
+    /**
+     * Access this plugin’s working instance
+     *
+     * @wp-hook plugins_loaded
+     * @return  object of this class
+     * @since   2.2.0
+     */
+    public static function get_instance()
+    {
+        null === self::$instance and self::$instance = new self;
+
+        return self::$instance;
+    }
+
+    /**
+     * Constructors plugin Setup
+     *
+     * The bootstrap is wrapped because a partial or interrupted update can leave
+     * the autoloader in place while individual class files are missing. Without
+     * the guard the first unresolved class raises a fatal error during
+     * plugins_loaded, which takes the entire site down instead of just this
+     * plugin. Degrade to an admin notice and let the rest of the site load.
+     */
+    public function plugin_setup()
+    {
+        try {
+            $this->includes();
+
+            // Initialize default settings if not already present
+            if (!get_option('wpsms_settings')) {
+                require_once WP_SMS_DIR . 'includes/admin/settings/class-wpsms-settings.php';
+                update_option('wpsms_settings', \WP_SMS\Settings::getDefaultSettings());
+            }
+
+            $this->setupBackgroundProcess();
+
+            // Registered last so a failed bootstrap never leaves the init callback
+            // behind, which would run the gateway setup against a plugin whose
+            // managers were never constructed.
+            add_action('init', array($this, 'init'));
+        } catch (\Throwable $error) {
+            $this->handleBootstrapFailure($error);
+        }
+    }
+
+    /**
+     * Reports a bootstrap failure without terminating the request.
+     *
+     * @param \Throwable $error The error raised while loading the plugin.
+     * @return void
+     */
+    private function handleBootstrapFailure($error)
+    {
+        // plugin_setup() runs on every request, so logging unconditionally would
+        // fill the error log and bury the first occurrence, which is the one that
+        // identifies the cause. Record it at most once an hour.
+        if (!get_transient('wp_sms_bootstrap_failure_logged')) {
+            error_log(sprintf('WP SMS could not finish loading: %s', $error->getMessage()));
+            set_transient('wp_sms_bootstrap_failure_logged', 1, HOUR_IN_SECONDS);
+        }
+
+        add_action('admin_notices', function () {
+            if (!current_user_can('activate_plugins')) {
+                return;
+            }
+
+            printf(
+                '<div class="notice notice-error"><p>%s</p></div>',
+                esc_html__('WP SMS could not finish loading because some of its files are missing or unreadable. This usually means an update did not finish. Reinstalling the plugin restores the missing files; your settings and data are not affected.', 'wp-sms')
+            );
+        });
+    }
+
+    /**
+     * The main logging function
+     *
+     * @param string $message The message to be logged.
+     * @param string $level The log level (e.g., 'info', 'warning', 'error'). Default is 'info'.
+     * @uses error_log
+     * @deprecated Use \WP_SMS\Components\Logger::log instead.
+     */
+    public static function log($message, $level = 'info')
+    {
+        _deprecated_function(__METHOD__, '7.0.4', 'WP_SMS\Components\Logger::log()');
+        Logger::log($message, $level);
+    }
+
+    private function setupBackgroundProcess()
+    {
+        $this->remoteRequestAsync = new RemoteRequestAsync();
+        $this->remoteRequestQueue = new RemoteRequestQueue();
+    }
+
+    public function init()
+    {
+        $this->loadTextDomain();
+        $this->initGateway();
+    }
+
+    /**
+     * Load plugin text domain.
+     *
+     * Must run on `init` (or later). Since WordPress 6.7 translations loaded
+     * before `init` are ignored, which previously left wp-sms strings untranslated.
+     *
+     * The WordPress.org language pack (WP_LANG_DIR/plugins/) is loaded first, so its
+     * strings win. The files shipped in languages/ are loaded after it and only fill
+     * the strings the pack does not have yet; on a site without the pack they are the
+     * only translation. The third argument of load_plugin_textdomain() is relative to
+     * the plugins folder, which also registers languages/ for script translations.
+     */
+    private function loadTextDomain()
+    {
+        $locale = function_exists('determine_locale') ? determine_locale() : get_locale();
+        $locale = apply_filters('plugin_locale', $locale, 'wp-sms');
+
+        $relativePath = dirname(plugin_basename(WP_SMS_MAIN_FILE)) . '/languages';
+        $packFile     = WP_LANG_DIR . '/plugins/wp-sms-' . $locale . '.mo';
+        $bundledFile  = WP_SMS_DIR . 'languages/wp-sms-' . $locale . '.mo';
+
+        // Registers languages/ for script translations and loads the catalog on
+        // WordPress before 6.7.
+        load_plugin_textdomain('wp-sms', false, $relativePath);
+
+        if ($locale === 'en_US') {
+            return;
+        }
+
+        // The WordPress.org language pack goes first so it wins; the shipped
+        // file only fills the strings the pack does not have.
+        load_textdomain('wp-sms', $packFile, $locale);
+        load_textdomain('wp-sms', $bundledFile, $locale);
+    }
+
+    private function initGateway()
+    {
+        $GLOBALS['sms'] = wp_sms_initial_gateway();
+    }
+
+    /*
+     * Include file
+     */
+    private function include($file)
+    {
+        $file_path = WP_SMS_DIR . $file;
+
+        if (file_exists($file_path)) {
+            require_once $file_path;
+        }
+    }
+
+    /**
+     * Includes plugin files
+     *
+     * @param Not param
+     */
+    public function includes()
+    {
+        // Autoloader
+        if (file_exists(WP_SMS_DIR . "packages/autoload.php")) {
+            require_once WP_SMS_DIR . "packages/autoload.php";
+        }
+
+        // Initialize asset system
+        Assets::init();
+
+        // Third-party libraries
+        $this->include('includes/libraries/wp-background-processing/wp-async-request.php');
+        $this->include('includes/libraries/wp-background-processing/wp-background-process.php');
+
+        add_action('init', function () {
+            $mobileFieldManager = new MobileFieldManager();
+            $mobileFieldManager->init();
+        });
+
+        // Legacy classes.
+        $this->include('includes/class-wpsms-features.php');
+        $this->include('includes/class-wpsms-notifications.php');
+        $this->include('includes/class-wpsms-integrations.php');
+        $this->include('includes/class-wpsms-gravityforms.php');
+        $this->include('includes/class-wpsms-quform.php');
+        $this->include('includes/class-wpsms-newsletter.php');
+        $this->include('includes/class-wpsms-rest-api.php');
+        $this->include('includes/admin/class-wpsms-version.php');
+
+        // Initializing managers.
+        (new CronJobManager())->init();
+        (new ControllerManager())->init();
+        (new WebhookManager())->init();
+        (new BlockAssetsManager())->init();
+        (new WooCommerceCheckout())->init();
+        (new MessageButtonManager())->init();
+        (new FormidableManager())->init();
+        (new ForminatorManager())->init();
+        (new ShortcodeManager())->init();
+        \WP_SMS\Utils\MenuUtil::init();
+        (new SubscriberManager())->init();
+
+        $notificationManager = new NotificationManager();
+
+        if (is_admin()) {
+            // Admin legacy classes.
+            $this->include('includes/admin/settings/class-wpsms-settings.php');
+            $this->include('includes/admin/settings/class-wpsms-settings-integration.php');
+            $this->include('includes/admin/class-wpsms-admin.php');
+            $this->include('includes/admin/class-wpsms-admin-helper.php');
+
+            // Initialize admin asset handlers
+            AssetsFactory::admin();
+            AssetsFactory::dashboard();
+
+            WidgetsManager::init();
+            NoticeManager::getInstance();
+            $licenseManagementManager = new \WP_SMS\Admin\LicenseManagement\LicenseManagementManager();
+            $adminManager             = new AdminManager();
+
+            // Initialize dashboard
+            Dashboard::getInstance()->init();
+
+        }
+
+        if (!is_admin()) {
+            // Frontend asset handler
+            AssetsFactory::frontend();
+
+            // Front Class.
+            $this->include('includes/class-front.php');
+        }
+
+        new  HooksManager();
+
+        $cronEventManager = new CronEventManager();
+
+        // API traits
+        $this->include('includes/api/traits/trait-date-formatter.php');
+
+        // API class.
+        $this->include('includes/api/v1/class-wpsms-api-newsletter.php');
+        $this->include('includes/api/v1/class-wpsms-api-send.php');
+        $this->include('includes/api/v1/class-wpsms-api-webhook.php');
+        $this->include('includes/api/v1/class-wpsms-api-credit.php');
+        $this->include('includes/api/v1/class-wpsms-api-settings.php');
+
+        // Dashboard API endpoints
+        $this->include('includes/api/v1/class-wpsms-api-subscribers.php');
+        $this->include('includes/api/v1/class-wpsms-api-groups.php');
+        $this->include('includes/api/v1/class-wpsms-api-outbox.php');
+        $this->include('includes/api/v1/class-wpsms-api-privacy.php');
+        $this->include('includes/api/v1/class-wpsms-api-notifications.php');
+        $this->include('includes/api/v1/class-wpsms-api-admin-notices.php');
+        $this->include('includes/api/v1/class-wpsms-api-addons.php');
+
+        // Anonymous Data sharing
+        $anonymizedUsageDataManager = new AnonymizedUsageDataManager();
+    }
+
+    /**
+     * @return \WP_SMS\Pro\Scheduled
+     */
+    public function scheduled()
+    {
+        return new \WP_SMS\Pro\Scheduled();
+    }
+
+    /**
+     * @return \WP_SMS\Newsletter
+     */
+    public function newsletter()
+    {
+        return new \WP_SMS\Newsletter();
+    }
+
+    /**
+     * @return \WP_SMS\Notification\NotificationFactory
+     */
+    public function notification()
+    {
+        return new \WP_SMS\Notification\NotificationFactory();
+    }
+
+    /**
+     * @return NoticeManager
+     */
+    public function notice()
+    {
+        return NoticeManager::getInstance();
+    }
+
+    /**
+     * @return RemoteRequestAsync
+     */
+    public function getRemoteRequestAsync()
+    {
+        // Stays null when the bootstrap aborted before setupBackgroundProcess().
+        // Callers chain straight onto the result, so build it on demand rather
+        // than handing back null and turning a contained failure into a fatal.
+        if ($this->remoteRequestAsync === null) {
+            $this->remoteRequestAsync = new RemoteRequestAsync();
+        }
+
+        return $this->remoteRequestAsync;
+    }
+
+    /**
+     * @return RemoteRequestQueue
+     */
+    public function getRemoteRequestQueue()
+    {
+        // See getRemoteRequestAsync(): built on demand so a failed bootstrap does
+        // not leave callers dereferencing null.
+        if ($this->remoteRequestQueue === null) {
+            $this->remoteRequestQueue = new RemoteRequestQueue();
+        }
+
+        return $this->remoteRequestQueue;
+    }
+}

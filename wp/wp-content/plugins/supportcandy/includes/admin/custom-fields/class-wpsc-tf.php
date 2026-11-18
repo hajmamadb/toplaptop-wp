@@ -1,0 +1,178 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly!
+}
+
+if ( ! class_exists( 'WPSC_TF' ) ) :
+
+	final class WPSC_TF {
+
+		/**
+		 * Allowed custom field properties
+		 *
+		 * @var array
+		 */
+		public static $allowed_properties = array(
+			'extra_info',
+			'default_value',
+			'placeholder_text',
+			'char_limit',
+			'date_format',
+			'date_range',
+			'start_range',
+			'end_range',
+			'time_format',
+			'is_personal_info',
+			'is_auto_fill',
+			'tl_width',
+			'number_type',
+		);
+
+		/**
+		 * Initialize this class
+		 */
+		public static function init() {
+
+			// Register this field category (ticket).
+			add_filter( 'wpsc_custom_field_categories', array( __CLASS__, 'register_field' ) );
+
+			// List.
+			add_action( 'wp_ajax_wpsc_get_ticket_fields', array( __CLASS__, 'get_ticket_fields' ) );
+		}
+
+		/**
+		 * Register field category
+		 *
+		 * @param array $fields - ticket fields.
+		 * @return array
+		 */
+		public static function register_field( $fields ) {
+
+			$fields['ticket'] = __CLASS__;
+			return $fields;
+		}
+
+		/**
+		 * Get ticket fields
+		 */
+		public static function get_ticket_fields() {
+
+			if ( ! WPSC_Functions::is_site_admin() ) {
+				wp_send_json_error( __( 'Unauthorized access!', 'supportcandy' ), 401 );
+			}
+			$custom_fields_types = array_merge( WPSC_Custom_Field::$cf_types, WPSC_Custom_Field::$default_cf_types );
+			?>
+
+			<div class="wpsc-setting-header">
+				<h2><?php esc_attr_e( 'Ticket Fields', 'supportcandy' ); ?></h2>
+				<?php WPSC_Functions::docs_button( 'https://supportcandy.net/docs/ticket-fields/' ); ?>
+			</div>
+
+			<div class="wpsc-setting-section-body">
+				<table class="ticket-fields wpsc-setting-tbl">
+					<thead>
+						<tr>
+							<th style="width: 30px;"><?php esc_attr_e( 'Sort', 'supportcandy' ); ?></th>
+							<th><?php esc_attr_e( 'Field', 'supportcandy' ); ?></th>
+							<th><?php esc_attr_e( 'Extra info', 'supportcandy' ); ?></th>
+							<th><?php esc_attr_e( 'Type', 'supportcandy' ); ?></th>
+							<th><?php esc_attr_e( 'Auto Fill', 'supportcandy' ); ?></th>
+							<th><?php esc_attr_e( 'Personal Info', 'supportcandy' ); ?></th>
+							<th><?php esc_attr_e( 'Actions', 'supportcandy' ); ?></th>
+						</tr>
+					</thead>
+					<tbody>
+						<?php
+						foreach ( WPSC_Custom_Field::$custom_fields as $cf ) {
+							if ( $cf->field != 'ticket' ) {
+								continue;
+							}
+							?>
+							<tr data-id="<?php echo esc_attr( $cf->id ); ?>">
+								<td class="sort-handle"><?php WPSC_Icons::get( 'sort' ); ?></td>
+								<td><?php echo esc_attr( $cf->name ); ?></td>
+								<td><?php echo esc_attr( $cf->extra_info ); ?></td>
+								<td><?php echo esc_attr( $custom_fields_types[ $cf->type::$slug ]['label'] ); ?></td>
+								<td><?php echo esc_attr( $cf->is_auto_fill ? __( 'Yes', 'supportcandy' ) : __( 'No', 'supportcandy' ) ); ?></td>
+								<td><?php echo esc_attr( $cf->is_personal_info ? __( 'Yes', 'supportcandy' ) : __( 'No', 'supportcandy' ) ); ?></td>
+								<td>
+									<span class="wpsc-link" onclick="wpsc_get_edit_custom_field(<?php echo esc_attr( $cf->id ); ?>, '<?php echo esc_attr( wp_create_nonce( 'wpsc_get_edit_custom_field' ) ); ?>');"><?php esc_attr_e( 'Edit', 'supportcandy' ); ?></span>
+									<?php
+									if ( ! $cf->type::$is_default ) {
+										echo esc_attr( ' | ' );
+										?>
+										<span class="wpsc-link" onclick="wpsc_delete_custom_field(<?php echo esc_attr( $cf->id ); ?>, '<?php echo esc_attr( wp_create_nonce( 'wpsc_delete_custom_field' ) ); ?>');"><?php esc_attr_e( 'Delete', 'supportcandy' ); ?></span>
+										<?php
+									}
+									?>
+								</td>
+							</tr>
+							<?php
+						}
+						?>
+					</tbody>
+				</table>
+				<script>
+					jQuery('table.ticket-fields').DataTable({
+						ordering: false,
+						autoWidth: false,
+						pageLength: 20,
+						bLengthChange: false,
+						columnDefs: [
+							{ targets: 0, width: '30px', searchable: false },
+							{ targets: -1, searchable: false },
+							{ targets: '_all', className: 'dt-left' }
+						],
+						layout: {
+							topStart: {
+								buttons: [
+									{
+										text: '<?php esc_attr_e( 'Add new', 'supportcandy' ); ?>',
+										className: 'wpsc-button small primary',
+										action: function ( e, dt, node, config ) {
+											wpsc_get_add_new_custom_field('ticket', '<?php echo esc_attr( wp_create_nonce( 'wpsc_get_add_new_custom_field' ) ); ?>');
+										}
+									}
+								],
+						},
+					},
+						language: supportcandy.translations.datatables
+					});
+
+					jQuery(function() {
+						// Enable sorting with jQuery UI.
+						jQuery('table.ticket-fields tbody').sortable({
+							handle: '.sort-handle',
+							helper: function(e, tr) {
+								var $originals = tr.children();
+								var $helper = tr.clone();
+								$helper.children().each(function(index) {
+									jQuery(this).width($originals.eq(index).width());
+								});
+								return $helper;
+							},
+							update: function(event, ui) {
+								var ids = jQuery(this).sortable('toArray', { attribute: 'data-id' });
+								jQuery.post(
+									supportcandy.ajax_url,
+									{
+										action: 'wpsc_set_custom_field_load_order',
+										_ajax_nonce: '<?php echo esc_attr( wp_create_nonce( 'wpsc_set_custom_field_load_order' ) ); ?>',
+										ids: ids
+									},
+									function(response) {
+
+									}
+								);
+							}
+						});
+					});
+				</script>
+			</div>
+			<?php
+			wp_die();
+		}
+	}
+endif;
+
+WPSC_TF::init();

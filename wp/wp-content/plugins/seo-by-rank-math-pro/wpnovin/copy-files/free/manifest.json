@@ -1,0 +1,33 @@
+{
+  "scope": "free",
+  "source_archive": "js-free.zip",
+  "source_archive_sha256": "49bc2d7c1d88ba58de613a4bb3814dafca136fbe68b83e85b37b3c3f794e1a93",
+  "files_scanned": 128,
+  "files_with_static_i18n": 82,
+  "static_calls_including_empty": 5017,
+  "empty_msgid_calls": 6,
+  "unique_translated_keys": 2821,
+  "domain_counts": {
+    "default": 9,
+    "rank-math": 601,
+    "rank-math-pro": 9,
+    "rank-mth": 2,
+    "seo-by-rank-math": 2188,
+    "woocommerce": 12
+  },
+  "dynamic_i18n_calls": 2,
+  "parse_error_files": 0,
+  "wizard_js": {
+    "file": "wizard.js",
+    "size_bytes": 126677,
+    "sha256": "ff5c2e8b280a59b22d40ea66735434dadf99a6bfbe8e1d1274900eaf0edeabe1",
+    "static_translation_calls": 247,
+    "unique_static_keys": 227,
+    "dynamic_i18n_calls": 0,
+    "domains": "seo-by-rank-math",
+    "parse_errors": 0
+  },
+  "missing_static_keys": 0,
+  "empty_translations": 0,
+  "placeholder_or_html_errors": 0
+}

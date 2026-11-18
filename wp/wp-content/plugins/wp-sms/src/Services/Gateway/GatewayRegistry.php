@@ -1,0 +1,352 @@
+<?php
+
+namespace WP_SMS\Services\Gateway;
+
+if (!defined('ABSPATH')) {
+    exit;
+}
+
+class GatewayRegistry
+{
+    const API_BASE_URL = 'https://gateways.wsms.io/v1';
+    const CACHE_KEY_GATEWAYS = 'wpsms_gateway_registry';
+    const CACHE_KEY_REGIONS = 'wpsms_gateway_regions';
+    const CACHE_DURATION = 43200; // 12 hours
+    /**
+     * Gateways moved from Pro into the free plugin. They are free from the release
+     * that ships them, whatever an older registry entry or cache says.
+     */
+    const MOVED_TO_FREE = ['messente'];
+
+    const GATEWAY_METADATA_OVERRIDES = [
+        'instantalerts' => [
+            'name'        => 'Spring Edge',
+            'description' => 'Spring Edge is an SMS gateway providing SMS messaging services via API integration for businesses worldwide.',
+            'website'     => 'https://www.springedge.com/',
+        ],
+    ];
+
+    /**
+     * Get gateways and regions from API with local fallback
+     *
+     * @return array
+     */
+    public static function getGateways()
+    {
+        $cached = get_transient(self::CACHE_KEY_GATEWAYS);
+
+        if ($cached !== false) {
+            return apply_filters('wpsms_gateway_registry', self::applyMetadataOverrides(self::promoteMovedGateways($cached)));
+        }
+
+        $result = self::fetchFromApi();
+
+        if ($result !== null) {
+            $result = self::appendLocalGateways($result);
+            $result = self::promoteMovedGateways($result);
+            $result = self::filterPremiumGateways($result);
+            $result = self::applyMetadataOverrides($result);
+            set_transient(self::CACHE_KEY_GATEWAYS, $result, self::CACHE_DURATION);
+            return apply_filters('wpsms_gateway_registry', $result);
+        }
+
+        $fallback = self::applyMetadataOverrides(self::getLocalFallback());
+        // Cache fallback for 1 hour (shorter, so we retry API sooner)
+        set_transient(self::CACHE_KEY_GATEWAYS, $fallback, 3600);
+
+        return apply_filters('wpsms_gateway_registry', $fallback);
+    }
+
+    /**
+     * Fetch gateways and regions from the remote API
+     *
+     * @return array|null Null on failure
+     */
+    private static function fetchFromApi()
+    {
+        $gatewaysResponse = wp_remote_get(self::API_BASE_URL . '/gateways.json', [
+            'timeout' => 10,
+        ]);
+
+        if (is_wp_error($gatewaysResponse) || wp_remote_retrieve_response_code($gatewaysResponse) !== 200) {
+            return null;
+        }
+
+        $gatewaysBody = wp_remote_retrieve_body($gatewaysResponse);
+        $gateways = json_decode($gatewaysBody, true);
+
+        if (!is_array($gateways)) {
+            return null;
+        }
+
+        // Fetch regions
+        $regionsResponse = wp_remote_get(self::API_BASE_URL . '/regions.json', [
+            'timeout' => 10,
+        ]);
+
+        $regions = [];
+        if (!is_wp_error($regionsResponse) && wp_remote_retrieve_response_code($regionsResponse) === 200) {
+            $regionsBody = wp_remote_retrieve_body($regionsResponse);
+            $decoded = json_decode($regionsBody, true);
+            if (is_array($decoded)) {
+                $regions = $decoded;
+            }
+        }
+
+        // API returns envelope: { version, generated, gateways: [...] }
+        $gatewayList = isset($gateways['gateways']) && is_array($gateways['gateways'])
+            ? $gateways['gateways']
+            : $gateways;
+
+        $regionList = isset($regions['regions']) && is_array($regions['regions'])
+            ? $regions['regions']
+            : $regions;
+
+        return [
+            'source'   => 'api',
+            'gateways' => $gatewayList,
+            'regions'  => $regionList,
+        ];
+    }
+
+    /**
+     * Build a local fallback by scanning gateway PHP files on disk
+     *
+     * Discovers gateways from includes/gateways/class-wpsms-gateway-*.php
+     * and wp-sms-pro/includes/gateways/class-wpsms-pro-gateway-*.php.
+     * Returns basic data (slug, name) without metadata.
+     *
+     * @return array
+     */
+    public static function getLocalFallback()
+    {
+        $gateways = [];
+        $seen = [];
+
+        // Scan core gateway files
+        $corePattern = WP_SMS_DIR . 'includes/gateways/class-wpsms-gateway-*.php';
+        foreach (glob($corePattern) as $file) {
+            $slug = self::extractSlugFromFilename($file, 'class-wpsms-gateway-');
+            if ($slug && $slug !== 'default' && !isset($seen[$slug])) {
+                // Skip test gateway when WP_DEBUG is off
+                if ($slug === 'test' && !(defined('WP_DEBUG') && WP_DEBUG)) {
+                    continue;
+                }
+
+                $seen[$slug] = true;
+                $gateways[] = self::buildFallbackEntry($slug, false);
+            }
+        }
+
+        return [
+            'source'   => 'local',
+            'gateways' => $gateways,
+            'regions'  => [],
+        ];
+    }
+
+    /**
+     * Extract gateway slug from a filename
+     *
+     * @param string $filepath Full file path
+     * @param string $prefix   Filename prefix before the slug
+     * @return string|null
+     */
+    private static function extractSlugFromFilename($filepath, $prefix)
+    {
+        $basename = basename($filepath, '.php');
+        if (strpos($basename, $prefix) === 0) {
+            return substr($basename, strlen($prefix));
+        }
+        return null;
+    }
+
+    /**
+     * Build a minimal gateway entry for the fallback list
+     *
+     * @param string $slug
+     * @param bool $premium
+     * @return array
+     */
+    private static function buildFallbackEntry($slug, $premium)
+    {
+        // Derive a display name from the slug
+        $name = str_replace(['_', '-'], ' ', $slug);
+        $name = ltrim($name);
+        $name = ucwords($name);
+
+        return [
+            'slug'        => $slug,
+            'name'        => $name,
+            'regions'     => [],
+            'recommended' => false,
+            'premium'     => $premium,
+            'description' => '',
+            'logo'        => '',
+            'brand_color' => '',
+            'website'     => '',
+            'features'    => [],
+        ];
+    }
+
+    /**
+     * Apply customer-facing metadata changes without changing gateway slugs.
+     *
+     * @param array $data
+     * @return array
+     */
+    private static function applyMetadataOverrides($data)
+    {
+        foreach (['gateways', 'premium_gateways'] as $list) {
+            if (empty($data[$list]) || !is_array($data[$list])) {
+                continue;
+            }
+
+            foreach ($data[$list] as &$gateway) {
+                $slug = $gateway['slug'] ?? '';
+
+                if (isset(self::GATEWAY_METADATA_OVERRIDES[$slug])) {
+                    $gateway = array_merge($gateway, self::GATEWAY_METADATA_OVERRIDES[$slug]);
+                }
+            }
+            unset($gateway);
+        }
+
+        return $data;
+    }
+
+    /**
+     * Append local-only gateways (custom, test) if they exist on disk but are missing from the API list
+     *
+     * @param array $data
+     * @return array
+     */
+    private static function appendLocalGateways($data)
+    {
+        $localGateways = [
+            'custom' => [
+                'file'      => 'class-wpsms-gateway-custom.php',
+                'name'      => esc_html__('Custom Gateway', 'wp-sms'),
+                'condition' => true,
+            ],
+            'test' => [
+                'file'      => 'class-wpsms-gateway-test.php',
+                'name'      => esc_html__('Test Gateway', 'wp-sms'),
+                'condition' => defined('WP_DEBUG') && WP_DEBUG,
+            ],
+        ];
+
+        $existingSlugs = array_column($data['gateways'], 'slug');
+
+        foreach ($localGateways as $slug => $config) {
+            if (!$config['condition']) {
+                continue;
+            }
+
+            if (!file_exists(WP_SMS_DIR . 'includes/gateways/' . $config['file'])) {
+                continue;
+            }
+
+            if (in_array($slug, $existingSlugs, true)) {
+                continue;
+            }
+
+            $entry         = self::buildFallbackEntry($slug, false);
+            $entry['name'] = $config['name'];
+            array_unshift($data['gateways'], $entry);
+        }
+
+        return $data;
+    }
+
+    /**
+     * Treat the gateways in MOVED_TO_FREE as free, whatever the registry says.
+     *
+     * They are free from the release that ships them, without waiting for the
+     * registry, and a cached list from an older version is corrected too. Only
+     * listed gateways move: the registry stays the source of truth for the rest.
+     *
+     * @param array $data
+     * @return array
+     */
+    private static function promoteMovedGateways($data)
+    {
+        $isBundled = function ($slug) {
+            return in_array($slug, self::MOVED_TO_FREE, true)
+                && is_file(WP_SMS_DIR . 'includes/gateways/class-wpsms-gateway-' . $slug . '.php');
+        };
+
+        $data['gateways']         = isset($data['gateways']) && is_array($data['gateways']) ? $data['gateways'] : [];
+        $data['premium_gateways'] = isset($data['premium_gateways']) && is_array($data['premium_gateways']) ? $data['premium_gateways'] : [];
+        $freeSlugs                = [];
+
+        foreach ($data['gateways'] as &$gateway) {
+            $slug = $gateway['slug'] ?? '';
+
+            if ($isBundled($slug)) {
+                $gateway['premium'] = false;
+            }
+
+            $freeSlugs[] = $slug;
+        }
+        unset($gateway);
+
+        $stillPremium = [];
+
+        foreach ($data['premium_gateways'] as $gateway) {
+            $slug = $gateway['slug'] ?? '';
+
+            if ($isBundled($slug)) {
+                if (!in_array($slug, $freeSlugs, true)) {
+                    $gateway['premium'] = false;
+                    $data['gateways'][] = $gateway;
+                    $freeSlugs[]         = $slug;
+                }
+            } else {
+                $stillPremium[] = $gateway;
+            }
+        }
+
+        foreach (self::MOVED_TO_FREE as $slug) {
+            if ($isBundled($slug) && !in_array($slug, $freeSlugs, true)) {
+                $data['gateways'][] = self::buildFallbackEntry($slug, false);
+                $freeSlugs[]         = $slug;
+            }
+        }
+
+        $data['premium_gateways'] = $stillPremium;
+        $data['premium_count']    = count($stillPremium);
+
+        return $data;
+    }
+
+    /**
+     * Remove premium gateways from the list
+     *
+     * @param array $data
+     * @return array
+     */
+    private static function filterPremiumGateways($data)
+    {
+        $premiumGateways = array_values(array_filter($data['gateways'], function ($gateway) {
+            return !empty($gateway['premium']);
+        }));
+
+        $data['premium_count']    = count($premiumGateways);
+        $data['premium_gateways'] = $premiumGateways;
+        $data['gateways']         = array_values(array_filter($data['gateways'], function ($gateway) {
+            return empty($gateway['premium']);
+        }));
+
+        return $data;
+    }
+
+    /**
+     * Clear cached gateway data
+     */
+    public static function clearCache()
+    {
+        delete_transient(self::CACHE_KEY_GATEWAYS);
+        delete_transient(self::CACHE_KEY_REGIONS);
+    }
+}

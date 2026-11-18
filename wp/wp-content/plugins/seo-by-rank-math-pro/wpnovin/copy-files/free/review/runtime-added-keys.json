@@ -1,0 +1,7 @@
+[
+  {
+    "domain": "rank-math",
+    "msgid": "Post Id",
+    "reason": "Runtime result of startCase(post_id) in blocks.js"
+  }
+]

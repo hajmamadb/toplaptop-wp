@@ -1,0 +1,1179 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: YITH WooCommerce Multi-step Checkout Premium\n"
+"POT-Creation-Date: 2025-08-27 10:56+0330\n"
+"PO-Revision-Date: 2025-08-27 12:53+0330\n"
+"Language-Team: فارسی\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: init.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: fa_IR\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.8.0; wp-6.8.2; php-8.1.30\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class.yith-multistep-checkout-admin-premium.php:50
+msgctxt "Admin: Page title"
+msgid "Pages Options"
+msgstr "تنظیمات صفحات"
+
+#: includes/class.yith-multistep-checkout-admin-premium.php:141
+msgid "Upload/Add Icon"
+msgstr "آپلود/افزودن آیکون"
+
+#: includes/class.yith-multistep-checkout-admin-premium.php:145
+msgid "Restore default icon"
+msgstr "بازیابی آیکون پیش‌فرض"
+
+#: includes/class.yith-multistep-checkout-admin.php:116
+msgctxt "Admin: Page title"
+msgid "Steps options"
+msgstr "تنظیمات مراحل"
+
+#: includes/class.yith-multistep-checkout-admin.php:117
+msgctxt "Admin: Page title"
+msgid "Buttons options"
+msgstr "تنظیمات دکمه‌ها"
+
+#: includes/class.yith-multistep-checkout-admin.php:122
+msgid "Premium Version"
+msgstr "نسخه پریمیوم"
+
+#: includes/class.yith-multistep-checkout-frontend-premium.php:280
+#: plugin-options/buttons-options.php:71
+msgctxt "Frontend: button label"
+msgid "Skip Login"
+msgstr "گذشتن از ورود"
+
+#: includes/class.yith-multistep-checkout-frontend-premium.php:464
+#: plugin-options/steps-options.php:1032
+msgid "Order total amount"
+msgstr "مبلغ کل سفارش"
+
+#: includes/class.yith-multistep-checkout-frontend.php:405
+#: includes/class.yith-multistep-checkout-frontend.php:406
+#: includes/class.yith-multistep-checkout-frontend.php:440
+#: templates/woocommerce/checkout/form-checkout.php:59
+#: templates/woocommerce/checkout/form-checkout.php:60
+msgid "Next"
+msgstr "بعدی"
+
+#: includes/class.yith-multistep-checkout-frontend.php:407
+#: templates/woocommerce/checkout/form-checkout.php:61
+msgid "Previous"
+msgstr "قبلی"
+
+#: includes/class.yith-multistep-checkout-frontend.php:408
+#: templates/woocommerce/checkout/form-checkout.php:62
+msgctxt "Checkout: user timeline"
+msgid "Login"
+msgstr "ورود"
+
+#: includes/class.yith-multistep-checkout-frontend.php:409
+#: templates/woocommerce/checkout/form-checkout.php:63
+msgctxt "Checkout: user timeline"
+msgid "Billing"
+msgstr "صورتحساب"
+
+#: includes/class.yith-multistep-checkout-frontend.php:410
+#: templates/woocommerce/checkout/form-checkout.php:64
+msgctxt "Checkout: user timeline"
+msgid "Shipping"
+msgstr "حمل و نقل"
+
+#: includes/class.yith-multistep-checkout-frontend.php:411
+#: templates/woocommerce/checkout/form-checkout.php:65
+msgctxt "Checkout: user timeline"
+msgid "Order Info"
+msgstr "اطلاعات سفارش"
+
+#: includes/class.yith-multistep-checkout-frontend.php:412
+#: templates/woocommerce/checkout/form-checkout.php:66
+msgctxt "Checkout: user timeline"
+msgid "Payment Info"
+msgstr "اطلاعات پرداخت"
+
+#: includes/class.yith-multistep-checkout-frontend.php:413
+#: plugin-options/buttons-options.php:200
+#: templates/woocommerce/checkout/form-checkout.php:67
+msgctxt "Frontend: button label"
+msgid "Back to cart"
+msgstr "بازگشت به سبد خرید"
+
+#: includes/class.yith-multistep-checkout-privacy.php:48
+msgid ""
+"We collect information about you during the checkout process on our store."
+msgstr ""
+"ما در طول فرآیند پرداخت در فروشگاه خود، اطلاعات مربوط به شما را جمع‌آوری "
+"می‌کنیم."
+
+#: includes/class.yith-multistep-checkout-privacy.php:49
+msgid "While you visit our site, we’ll track:"
+msgstr "در حین بازدید شما از سایت ما، ما موارد زیر را پیگیری خواهیم کرد:"
+
+#: includes/class.yith-multistep-checkout-privacy.php:51
+msgid ""
+"Customer information on checkout page: we use a cookie to save customer "
+"information on checkout page. These data are used to restore the current "
+"checkout state in case the customer abandones the payment process for a "
+"while."
+msgstr ""
+"اطلاعات مشتری در صفحه پرداخت: ما از کوکی برای ذخیره اطلاعات مشتری در صفحه "
+"پرداخت استفاده می‌کنیم. این داده‌ها برای بازیابی وضعیت فعلی پرداخت در صورتی که "
+"مشتری برای مدتی از فرآیند پرداخت منصرف شود، استفاده می‌شوند."
+
+#: includes/class.yith-multistep-checkout-privacy.php:52
+msgid ""
+"Data saved are: your name, billing address, shipping address, email address, "
+"phone number, credit card/payment type (no credit card/payment information) "
+"and other fields added by 3rd-party plugins"
+msgstr ""
+"داده‌های ذخیره‌شده عبارتند از: نام، آدرس صورتحساب، آدرس ارسال، آدرس ایمیل، "
+"شماره تلفن، نوع کارت اعتباری/پرداخت (اطلاعات کارت اعتباری/پرداخت وجود ندارد) "
+"و سایر فیلدهای اضافه‌شده توسط افزونه‌های شخص ثالث"
+
+#: includes/class.yith-multistep-checkout-privacy.php:57
+msgid ""
+"Members of our team haven't access to the information you provide us because "
+"this cookie are stored on your browser software."
+msgstr ""
+"اعضای تیم ما به اطلاعاتی که شما در اختیار ما قرار می‌دهید دسترسی ندارند زیرا "
+"این کوکی در نرم‌افزار مرورگر شما ذخیره می‌شود."
+
+#: includes/class.yith-multistep-checkout-privacy.php:57
+msgid ""
+"Our team members have access to this information to help fulfill orders, "
+"process refunds and support you."
+msgstr ""
+"اعضای تیم ما به این اطلاعات دسترسی دارند تا به شما در انجام سفارشات، پردازش "
+"بازپرداخت‌ها و پشتیبانی از شما کمک کنند."
+
+#: init.php:42
+msgctxt "Alert Message: WooCommerce requires"
+msgid "is enabled but not effective. It requires WooCommerce in order to work."
+msgstr "فعال است اما مؤثر نیست. برای کار کردن به WooCommerce نیاز دارد."
+
+#: plugin-options/buttons-options.php:16
+msgctxt "Admin: section title"
+msgid "Prev/Next buttons options"
+msgstr "تنظیمات دکمه‌های قبلی/بعدی"
+
+#: plugin-options/buttons-options.php:19
+msgctxt "Panel: section title"
+msgid "Show Prev/Next buttons"
+msgstr "نمایش دکمه‌های قبلی/بعدی"
+
+#: plugin-options/buttons-options.php:23
+msgctxt "Admin: option description"
+msgid ""
+"Enable to show navigation buttons at the bottom of the step page. If "
+"disabled, the customer can move to the another step by clicking on the step "
+"tabs"
+msgstr ""
+"برای نمایش دکمه‌های ناوبری در پایین صفحه هر مرحله، این گزینه را فعال کنید. در "
+"صورت غیرفعال بودن، مشتری می‌تواند با کلیک روی زبانه‌های هر مرحله به مرحله "
+"دیگری برود."
+
+#: plugin-options/buttons-options.php:27
+msgctxt "Panel: section title"
+msgid "Hide Prev button in last step"
+msgstr "دکمه قبلی را در آخرین مرحله پنهان کنید"
+
+#: plugin-options/buttons-options.php:31
+msgctxt "Admin: option description"
+msgid "Enable to hide the previous button in the last step"
+msgstr "برای مخفی کردن دکمه قبلی در آخرین مرحله، فعال کنید"
+
+#: plugin-options/buttons-options.php:40
+msgctxt "Admin option title"
+msgid "Label for prev button"
+msgstr "برچسب برای دکمه قبلی"
+
+#: plugin-options/buttons-options.php:44
+msgctxt "Short text: Navigation Button label"
+msgid "Previous"
+msgstr "قبلی"
+
+#: plugin-options/buttons-options.php:45
+msgctxt "Admin option description"
+msgid "Enter a text for prev button"
+msgstr "یک متن برای دکمه قبلی وارد کنید"
+
+#: plugin-options/buttons-options.php:53
+msgctxt "Admin option title"
+msgid "Label for next button"
+msgstr "برچسب برای دکمه بعدی"
+
+#: plugin-options/buttons-options.php:57
+msgctxt "Short text: Navigation Button label"
+msgid "Next"
+msgstr "بعدی"
+
+#: plugin-options/buttons-options.php:58
+msgctxt "Admin option description"
+msgid "Enter a text for next button"
+msgstr "یک متن برای دکمه بعدی وارد کنید"
+
+#: plugin-options/buttons-options.php:66
+msgctxt "Frontend: button label"
+msgid "Label for skip login button"
+msgstr "برچسب برای رد کردن دکمه ورود"
+
+#: plugin-options/buttons-options.php:70
+msgctxt "Admin: option description"
+msgid "Enter a text for skip login button"
+msgstr "متنی برای دکمه‌ی رد شدن از ورود وارد کنید"
+
+#: plugin-options/buttons-options.php:79
+msgctxt "Panel: Section title"
+msgid "Buttons style"
+msgstr "سبک دکمه‌ها"
+
+#: plugin-options/buttons-options.php:84 plugin-options/buttons-options.php:214
+msgctxt "Panel: option label"
+msgid "Use theme buttons"
+msgstr "استفاده از دکمه‌های تم"
+
+#: plugin-options/buttons-options.php:85 plugin-options/buttons-options.php:215
+msgctxt "Panel: option label"
+msgid "Set custom style"
+msgstr "تنظیم سبک سفارشی"
+
+#: plugin-options/buttons-options.php:95
+msgid "Buttons colors"
+msgstr "رنگ دکمه‌ها"
+
+#: plugin-options/buttons-options.php:98 plugin-options/buttons-options.php:228
+msgid "Set background color for normal and hover step"
+msgstr "تنظیم رنگ پس‌زمینه برای حالت عادی و حالت شناور"
+
+#: plugin-options/buttons-options.php:102
+#: plugin-options/buttons-options.php:126
+#: plugin-options/buttons-options.php:232
+#: plugin-options/buttons-options.php:256
+msgid "Default color"
+msgstr "رنگ پیش‌فرض"
+
+#: plugin-options/buttons-options.php:107
+#: plugin-options/buttons-options.php:131
+#: plugin-options/buttons-options.php:237
+#: plugin-options/buttons-options.php:261 plugin-options/steps-options.php:182
+#: plugin-options/steps-options.php:234 plugin-options/steps-options.php:268
+#: plugin-options/steps-options.php:302 plugin-options/steps-options.php:336
+#: plugin-options/steps-options.php:388 plugin-options/steps-options.php:422
+#: plugin-options/steps-options.php:456 plugin-options/steps-options.php:490
+#: plugin-options/steps-options.php:524 plugin-options/steps-options.php:558
+#: plugin-options/steps-options.php:610 plugin-options/steps-options.php:644
+#: plugin-options/steps-options.php:678 plugin-options/steps-options.php:712
+msgid "Hover color"
+msgstr "رنگ هاور"
+
+#: plugin-options/buttons-options.php:119
+msgid "Buttons label colors"
+msgstr "رنگ‌های برچسب دکمه‌ها"
+
+#: plugin-options/buttons-options.php:122
+#: plugin-options/buttons-options.php:252
+msgid "Set label color for normal and hover step"
+msgstr "تنظیم رنگ برچسب برای حالت عادی و حالت شناور"
+
+#: plugin-options/buttons-options.php:143
+msgctxt "Panel: section title"
+msgid "Enable \"Scroll to top\" effect"
+msgstr "فعال کردن جلوه «رفتن به بالا»"
+
+#: plugin-options/buttons-options.php:147
+msgctxt "Admin: option description"
+msgid ""
+"Enable to add a \"scroll to top\" effect when customer click on the next/"
+"prev buttons"
+msgstr ""
+"فعال کردن افزودن جلوه «رفتن به بالا» هنگام کلیک مشتری روی دکمه‌های بعدی/قبلی"
+
+#: plugin-options/buttons-options.php:151
+msgctxt "Frontend: button label"
+msgid "\"Scroll to top\" anchor"
+msgstr "لنگر «به بالا بروید»"
+
+#: plugin-options/buttons-options.php:155
+msgctxt "Admin: option description"
+msgid "Set the anchor of scroll to top effect. Default is #checkout_timeline"
+msgstr ""
+
+#: plugin-options/buttons-options.php:171
+msgctxt "Admin: section title"
+msgid "Back to cart button options"
+msgstr "تنظیمات دکمه بازگشت به سبد خرید"
+
+#: plugin-options/buttons-options.php:174
+msgctxt "Panel: section title"
+msgid "Show Back to cart button"
+msgstr "نمایش دکمه بازگشت به سبد خرید"
+
+#: plugin-options/buttons-options.php:178
+msgctxt "Admin: option description"
+msgid "Enable to display the 'back to cart' button in the checkout page"
+msgstr "فعال کردن نمایش دکمه «بازگشت به سبد خرید» در صفحه پرداخت"
+
+#: plugin-options/buttons-options.php:182
+msgctxt "Panel: section title"
+msgid "Hide back to cart button in last step"
+msgstr "دکمه بازگشت به سبد خرید را در آخرین مرحله پنهان کنید"
+
+#: plugin-options/buttons-options.php:186
+msgctxt "Admin: option description"
+msgid "Enable to hide Back to cart button in last step"
+msgstr "فعال کردن پنهان کردن دکمه بازگشت به سبد خرید در آخرین مرحله"
+
+#: plugin-options/buttons-options.php:195
+msgctxt "Frontend: button label"
+msgid "Label for Back to cart button"
+msgstr "برچسب برای دکمه بازگشت به سبد خرید"
+
+#: plugin-options/buttons-options.php:199
+msgctxt "Admin: option description"
+msgid "Enter a text for back to cart button"
+msgstr "متن دکمه بازگشت به سبد خرید را وارد کنید"
+
+#: plugin-options/buttons-options.php:208
+msgctxt "Panel: Section title"
+msgid "Button style"
+msgstr "سبک دکمه"
+
+#: plugin-options/buttons-options.php:209
+msgctxt "Panel: option description"
+msgid ""
+"Set if you want to use the theme style or a custom style for the navigation "
+"buttons"
+msgstr ""
+"تنظیم کنید که آیا می‌خواهید از سبک تم یا یک سبک سفارشی برای دکمه‌های ناوبری "
+"استفاده کنید یا خیر"
+
+#: plugin-options/buttons-options.php:225
+msgid "Button colors"
+msgstr "رنگ دکمه‌ها"
+
+#: plugin-options/buttons-options.php:249
+msgid "Button label colors"
+msgstr "رنگ‌های برچسب دکمه"
+
+#: plugin-options/steps-options.php:11
+msgctxt "Frontend: Step title"
+msgid "Login"
+msgstr "ورود"
+
+#: plugin-options/steps-options.php:15
+msgctxt "Frontend: Step title"
+msgid "Billing"
+msgstr "صورتحساب"
+
+#: plugin-options/steps-options.php:19
+msgctxt "Frontend: Step title"
+msgid "Shipping"
+msgstr "حمل و نقل"
+
+#: plugin-options/steps-options.php:23
+msgctxt "Frontend: Step title"
+msgid "Order info"
+msgstr "اطلاعات سفارش"
+
+#: plugin-options/steps-options.php:27
+msgctxt "Frontend: Step title"
+msgid "Payment info"
+msgstr "اطلاعات پرداخت"
+
+#: plugin-options/steps-options.php:32
+msgctxt "Admin: part of label string, i.e. Login Icon, Billing Icon"
+msgid "Icon"
+msgstr "آیکون"
+
+#: plugin-options/steps-options.php:65
+msgctxt "Panel: section title"
+msgid "Steps Style"
+msgstr "سبک پله‌ها"
+
+#: plugin-options/steps-options.php:71
+msgctxt "Option: Title"
+msgid "Step position"
+msgstr "موقعیت گام"
+
+#: plugin-options/steps-options.php:72
+msgctxt "Option: description"
+msgid "Set if you want to display the steps horizontally or vertically"
+msgstr "تنظیم کنید که آیا می‌خواهید مراحل را به صورت افقی یا عمودی نمایش دهید"
+
+#: plugin-options/steps-options.php:75
+msgctxt "Option: timeline display"
+msgid "Horizontal"
+msgstr "افقی"
+
+#: plugin-options/steps-options.php:76
+msgctxt "Option: timeline display"
+msgid "Vertical"
+msgstr "عمودی"
+
+#: plugin-options/steps-options.php:83
+msgctxt "Option: title"
+msgid "Step style"
+msgstr "سبک گام"
+
+#: plugin-options/steps-options.php:84
+msgctxt "Option: description"
+msgid "Choose the step design style to apply"
+msgstr "سبک طراحی پله را برای اعمال انتخاب کنید"
+
+#: plugin-options/steps-options.php:89 plugin-options/steps-options.php:122
+msgctxt "Option: Timeline Style"
+msgid "Text"
+msgstr "متن"
+
+#: plugin-options/steps-options.php:94 plugin-options/steps-options.php:123
+msgctxt "Option: Timeline Style"
+msgid "Style 1"
+msgstr "سبک ۱"
+
+#: plugin-options/steps-options.php:99 plugin-options/steps-options.php:124
+msgctxt "Option: Timeline Style"
+msgid "Style 2"
+msgstr "سبک ۲"
+
+#: plugin-options/steps-options.php:104 plugin-options/steps-options.php:125
+msgctxt "Option: Timeline Style"
+msgid "Style 3"
+msgstr "سبک ۳"
+
+#: plugin-options/steps-options.php:109 plugin-options/steps-options.php:126
+msgctxt "Option: Timeline Style"
+msgid "Style 4"
+msgstr "سبک ۴"
+
+#: plugin-options/steps-options.php:119
+msgctxt "Option: title"
+msgid "Step style on mobile"
+msgstr "استایل قدم زدن روی موبایل"
+
+#: plugin-options/steps-options.php:120
+msgctxt "Option: description"
+msgid "Choose the step design style to apply on mobile devices"
+msgstr "سبک طراحی مرحله را برای اعمال در دستگاه‌های تلفن همراه انتخاب کنید"
+
+#: plugin-options/steps-options.php:131
+msgctxt "Panel: section title"
+msgid "Show a graphic separator between steps"
+msgstr "نمایش جداکننده گرافیکی بین مراحل"
+
+#: plugin-options/steps-options.php:135
+msgctxt "Admin: option description"
+msgid "Enable to show a graphic separator between steps"
+msgstr "فعال کردن برای نمایش جداکننده گرافیکی بین مراحل"
+
+#: plugin-options/steps-options.php:139
+msgctxt "Panel: section title"
+msgid "Separate step with"
+msgstr "مرحله جداگانه با"
+
+#: plugin-options/steps-options.php:143
+msgctxt "Admin: option description"
+msgid "Enter the separator element for steps. For example, you can use / or -."
+msgstr ""
+"برای مراحل، عنصر جداکننده را وارد کنید. برای مثال، می‌توانید از / یا - "
+"استفاده کنید."
+
+#: plugin-options/steps-options.php:151
+msgctxt "Panel: section title"
+msgid "Show the step number"
+msgstr "نمایش شماره مرحله"
+
+#: plugin-options/steps-options.php:155
+msgctxt "Admin: option description"
+msgid "Enable to show the step number before the step label"
+msgstr "فعال کردن برای نمایش شماره مرحله قبل از برچسب مرحله"
+
+#: plugin-options/steps-options.php:160 plugin-options/steps-options.php:246
+#: plugin-options/steps-options.php:400 plugin-options/steps-options.php:622
+#: plugin-options/steps-options.php:690
+msgid "Step text color"
+msgstr "رنگ متن مرحله"
+
+#: plugin-options/steps-options.php:163
+msgid "Set text color for past, current, future and hover step"
+msgstr "تنظیم رنگ متن برای گذشته، حال، آینده و مرحله شناور"
+
+#: plugin-options/steps-options.php:167 plugin-options/steps-options.php:219
+#: plugin-options/steps-options.php:253 plugin-options/steps-options.php:287
+#: plugin-options/steps-options.php:321 plugin-options/steps-options.php:373
+#: plugin-options/steps-options.php:407 plugin-options/steps-options.php:441
+#: plugin-options/steps-options.php:475 plugin-options/steps-options.php:509
+#: plugin-options/steps-options.php:543 plugin-options/steps-options.php:595
+#: plugin-options/steps-options.php:629 plugin-options/steps-options.php:663
+#: plugin-options/steps-options.php:697
+msgid "Prev color"
+msgstr "رنگ قبلی"
+
+#: plugin-options/steps-options.php:172 plugin-options/steps-options.php:224
+#: plugin-options/steps-options.php:258 plugin-options/steps-options.php:292
+#: plugin-options/steps-options.php:326 plugin-options/steps-options.php:378
+#: plugin-options/steps-options.php:412 plugin-options/steps-options.php:446
+#: plugin-options/steps-options.php:480 plugin-options/steps-options.php:514
+#: plugin-options/steps-options.php:548 plugin-options/steps-options.php:600
+#: plugin-options/steps-options.php:634 plugin-options/steps-options.php:668
+#: plugin-options/steps-options.php:702
+msgid "Current color"
+msgstr "رنگ فعلی"
+
+#: plugin-options/steps-options.php:177 plugin-options/steps-options.php:229
+#: plugin-options/steps-options.php:263 plugin-options/steps-options.php:297
+#: plugin-options/steps-options.php:331 plugin-options/steps-options.php:383
+#: plugin-options/steps-options.php:417 plugin-options/steps-options.php:451
+#: plugin-options/steps-options.php:485 plugin-options/steps-options.php:519
+#: plugin-options/steps-options.php:553 plugin-options/steps-options.php:605
+#: plugin-options/steps-options.php:639 plugin-options/steps-options.php:673
+#: plugin-options/steps-options.php:707
+msgid "Future color"
+msgstr "رنگ آینده"
+
+#: plugin-options/steps-options.php:197 plugin-options/steps-options.php:351
+#: plugin-options/steps-options.php:573
+msgctxt "Panel: Option title"
+msgid "Step text alignment"
+msgstr "ترازبندی متن مرحله‌ای"
+
+#: plugin-options/steps-options.php:198 plugin-options/steps-options.php:352
+#: plugin-options/steps-options.php:574
+msgctxt "Admin: option description"
+msgid "Set the text alignment"
+msgstr "تنظیم ترازبندی متن"
+
+#: plugin-options/steps-options.php:200 plugin-options/steps-options.php:354
+#: plugin-options/steps-options.php:576
+msgctxt "Admin option: Left alignment"
+msgid "Left"
+msgstr "چپ"
+
+#: plugin-options/steps-options.php:201 plugin-options/steps-options.php:355
+#: plugin-options/steps-options.php:577
+msgctxt "Admin option: Left alignment"
+msgid "Center"
+msgstr "مرکز"
+
+#: plugin-options/steps-options.php:202 plugin-options/steps-options.php:356
+#: plugin-options/steps-options.php:578
+msgctxt "Admin option: Left alignment"
+msgid "Right"
+msgstr "راست"
+
+#: plugin-options/steps-options.php:212 plugin-options/steps-options.php:366
+#: plugin-options/steps-options.php:588
+msgid "Step background color"
+msgstr "رنگ پس زمینه پله"
+
+#: plugin-options/steps-options.php:215 plugin-options/steps-options.php:369
+#: plugin-options/steps-options.php:591
+msgid "Set the background color for the past, current, future and hover steps"
+msgstr "رنگ پس‌زمینه را برای مراحل گذشته، حال، آینده و نشانگر ماوس تنظیم کنید"
+
+#: plugin-options/steps-options.php:249 plugin-options/steps-options.php:403
+#: plugin-options/steps-options.php:625 plugin-options/steps-options.php:693
+msgid "Set the text color for the past, current, future and hover steps"
+msgstr "رنگ متن را برای مراحل گذشته، حال، آینده و هاور تنظیم کنید"
+
+#: plugin-options/steps-options.php:280
+msgid "Square color"
+msgstr "رنگ مربعی"
+
+#: plugin-options/steps-options.php:283
+msgid "Set the square color for the past, current, future and hover steps"
+msgstr "رنگ مربع را برای مراحل گذشته، حال، آینده و نشانگر موس تنظیم کنید"
+
+#: plugin-options/steps-options.php:314
+msgid "Square text color"
+msgstr "رنگ متن مربع"
+
+#: plugin-options/steps-options.php:317 plugin-options/steps-options.php:539
+msgid "Set the square text color for the past, current, future and hover steps"
+msgstr "رنگ متن مربعی را برای مراحل گذشته، حال، آینده و نشانگر موس تنظیم کنید"
+
+#: plugin-options/steps-options.php:434 plugin-options/steps-options.php:656
+msgid "Step border color"
+msgstr "رنگ حاشیه پله"
+
+#: plugin-options/steps-options.php:437 plugin-options/steps-options.php:659
+msgid "Set the border color for the past, current, future and hover steps"
+msgstr "رنگ حاشیه را برای مراحل گذشته، حال، آینده و نشانگر ماوس تنظیم کنید"
+
+#: plugin-options/steps-options.php:468
+msgid "Circle color"
+msgstr "رنگ دایره"
+
+#: plugin-options/steps-options.php:471
+msgid "Set the circle color for the past, current, future and hover steps"
+msgstr "رنگ دایره را برای مراحل گذشته، حال، آینده و شناور تنظیم کنید"
+
+#: plugin-options/steps-options.php:502
+msgid "Circle border color"
+msgstr "رنگ حاشیه دایره"
+
+#: plugin-options/steps-options.php:505
+msgid ""
+"Set the circle border color for the past, current, future and hover steps"
+msgstr ""
+"رنگ حاشیه دایره را برای مراحل گذشته، حال، آینده و نشانگر موس تنظیم کنید"
+
+#: plugin-options/steps-options.php:536
+msgid "Circle text color"
+msgstr "رنگ متن دایره‌ای"
+
+#: plugin-options/steps-options.php:724
+msgid "Step separator color"
+msgstr "رنگ جداکننده پله"
+
+#: plugin-options/steps-options.php:727
+msgid "Set the color for step separator"
+msgstr "رنگ جداکننده‌ی پله‌ها را تنظیم کنید"
+
+#: plugin-options/steps-options.php:739
+msgctxt "Option: Title. Please, do not translate FadeIn/FadeOut"
+msgid "FadeIn and FadeOut Transition speed"
+msgstr "سرعت انتقال FadeIn و FadeOut"
+
+#: plugin-options/steps-options.php:740
+msgctxt "Option: description"
+msgid ""
+"Set the speed of fade animation during transition from one step to the next"
+msgstr ""
+"سرعت محو شدن انیمیشن را در حین انتقال از یک مرحله به مرحله دیگر تنظیم کنید"
+
+#: plugin-options/steps-options.php:750
+msgctxt "Admin option: Enable plugin"
+msgid "Activate Ajax Validation"
+msgstr "فعال‌سازی اعتبارسنجی آژاکس"
+
+#: plugin-options/steps-options.php:753
+msgctxt "Admin option description: Enable live validation"
+msgid ""
+"If enabled users can't proceed to the next step if they haven't first filled "
+"in mandatory fields"
+msgstr ""
+"اگر فعال باشد، کاربران نمی‌توانند به مرحله بعدی بروند، مگر اینکه ابتدا "
+"فیلدهای اجباری را پر کرده باشند."
+
+#: plugin-options/steps-options.php:758
+msgctxt "Admin option: Enable plugin"
+msgid "Use cookies in checkout"
+msgstr "استفاده از کوکی‌ها در پرداخت"
+
+#: plugin-options/steps-options.php:761
+msgctxt "Admin option description: Enable live validation"
+msgid ""
+"Enable to save the checkout fields when users leave the checkout. In this "
+"way they will not have to start the checkout process from the very beginning "
+"and fill in all the details again."
+msgstr ""
+"این گزینه را فعال کنید تا فیلدهای پرداخت پس از خروج کاربران از مرحله پرداخت، "
+"ذخیره شوند. به این ترتیب، آنها مجبور نخواهند بود فرآیند پرداخت را از ابتدا "
+"شروع کرده و دوباره تمام جزئیات را پر کنند."
+
+#: plugin-options/steps-options.php:772
+msgctxt "Panel: section title"
+msgid "Steps Customization"
+msgstr "مراحل سفارشی سازی"
+
+#: plugin-options/steps-options.php:776 plugin-options/steps-options.php:788
+msgid "Login"
+msgstr "ورود"
+
+#: plugin-options/steps-options.php:785
+msgid "Login label"
+msgstr "برچسب ورود"
+
+#: plugin-options/steps-options.php:786
+msgid "Enter a label for the login step"
+msgstr "برای مرحله ورود، یک برچسب وارد کنید"
+
+#: plugin-options/steps-options.php:792
+msgid "Allow guest checkout"
+msgstr "امکان پرداخت مهمان"
+
+#: plugin-options/steps-options.php:793
+msgid "Enable this to allow a customer to place an order without an account"
+msgstr "این را فعال کنید تا مشتری بتواند بدون حساب کاربری سفارش ثبت کند"
+
+#: plugin-options/steps-options.php:799
+msgid "Allow customer login"
+msgstr "اجازه ورود به سیستم مشتری"
+
+#: plugin-options/steps-options.php:800
+msgid "Enable this to allow the customer to login during the checkout process"
+msgstr "این را فعال کنید تا مشتری بتواند در طول فرآیند پرداخت وارد سیستم شود"
+
+#: plugin-options/steps-options.php:806
+msgctxt "Admin option: text"
+msgid ""
+"Message for returning customers (not available if you enable the same style "
+"as in \"My Account\", see below)."
+msgstr ""
+"پیام برای مشتریان قدیمی (اگر همان سبکی را که در «حساب من» فعال کرده‌اید فعال "
+"کنید، در زیر مشاهده می‌کنید)"
+
+#: plugin-options/steps-options.php:809
+msgctxt "[Frontend] Message for returning customer on checkout page"
+msgid ""
+"If you already have an account on this site, please enter your credentials "
+"below. If you don't have an account yet, please go to the billing step."
+msgstr ""
+"اگر از قبل در این سایت حساب کاربری دارید، لطفاً اطلاعات خود را در زیر وارد "
+"کنید. اگر هنوز حساب کاربری ندارید، لطفاً به مرحله پرداخت بروید."
+
+#: plugin-options/steps-options.php:813
+msgctxt "Admin: Option title"
+msgid "Use the \"My Account\" login/register box"
+msgstr "از کادر ورود/ثبت‌نام «حساب من» استفاده کنید"
+
+#: plugin-options/steps-options.php:816
+msgctxt "Admin: option description"
+msgid ""
+"Enable to show the \"My Account login/register\" form instead of the default "
+"'returning customer' box"
+msgstr ""
+"فعال کنید تا فرم \"ورود/ثبت‌نام حساب من\" به جای کادر پیش‌فرض \"مشتری بازگشتی"
+"\" نمایش داده شود."
+
+#: plugin-options/steps-options.php:820
+msgid "Enable customer registration with \"My Account\" Style"
+msgstr "فعال کردن ثبت نام مشتری با استایل «حساب من»"
+
+#: plugin-options/steps-options.php:821
+msgid "Enable the customer registration on the login step."
+msgstr "ثبت نام مشتری را در مرحله ورود فعال کنید."
+
+#: plugin-options/steps-options.php:827
+msgid "Login icon"
+msgstr "آیکون ورود"
+
+#: plugin-options/steps-options.php:828 plugin-options/steps-options.php:880
+#: plugin-options/steps-options.php:932 plugin-options/steps-options.php:984
+#: plugin-options/steps-options.php:1048
+msgid "Choose to hide or set a default or a custom icon, to identify this step"
+msgstr ""
+"برای شناسایی این مرحله، گزینه پنهان کردن یا تنظیم پیش‌فرض یا آیکون سفارشی را "
+"انتخاب کنید."
+
+#: plugin-options/steps-options.php:833 plugin-options/steps-options.php:885
+#: plugin-options/steps-options.php:937 plugin-options/steps-options.php:989
+#: plugin-options/steps-options.php:1053
+msgctxt "Admin: option description"
+msgid "No icon"
+msgstr "بدون آیکون"
+
+#: plugin-options/steps-options.php:834 plugin-options/steps-options.php:886
+#: plugin-options/steps-options.php:938 plugin-options/steps-options.php:990
+#: plugin-options/steps-options.php:1054
+msgctxt "Admin: option description"
+msgid "Use default icon"
+msgstr "استفاده از آیکون پیش‌فرض"
+
+#: plugin-options/steps-options.php:835 plugin-options/steps-options.php:847
+#: plugin-options/steps-options.php:887 plugin-options/steps-options.php:899
+#: plugin-options/steps-options.php:939 plugin-options/steps-options.php:951
+#: plugin-options/steps-options.php:991 plugin-options/steps-options.php:1003
+#: plugin-options/steps-options.php:1055 plugin-options/steps-options.php:1067
+msgctxt "Admin: option description"
+msgid "Upload custom icon"
+msgstr "آپلود آیکون سفارشی"
+
+#: plugin-options/steps-options.php:840 plugin-options/steps-options.php:892
+#: plugin-options/steps-options.php:944 plugin-options/steps-options.php:996
+#: plugin-options/steps-options.php:1060
+msgctxt "Option: title"
+msgid "Default icon"
+msgstr "آیکون پیش‌فرض"
+
+#: plugin-options/steps-options.php:841
+msgctxt "Option: description"
+msgid "Choose the default icon for login step"
+msgstr "آیکون پیش‌فرض را برای مرحله ورود انتخاب کنید"
+
+#: plugin-options/steps-options.php:851
+msgid "Upload your custom icon for login step"
+msgstr "آیکون دلخواه خود را برای مرحله ورود آپلود کنید"
+
+#: plugin-options/steps-options.php:856 plugin-options/steps-options.php:875
+msgid "Billing"
+msgstr "صورتحساب"
+
+#: plugin-options/steps-options.php:865
+msgid "Merge billing and shipping in a single step"
+msgstr "ادغام صورتحساب و ارسال در یک مرحله"
+
+#: plugin-options/steps-options.php:866
+msgid "If enabled, you will have a single step with billing and shipping info"
+msgstr "در صورت فعال بودن، یک مرحله با اطلاعات صورتحساب و ارسال خواهید داشت"
+
+#: plugin-options/steps-options.php:872
+msgid "Billing label"
+msgstr "برچسب صورتحساب"
+
+#: plugin-options/steps-options.php:873
+msgid "Enter a label for the billing step"
+msgstr "برای مرحله صورتحساب، برچسبی وارد کنید"
+
+#: plugin-options/steps-options.php:879
+msgid "Billing icon"
+msgstr "آیکون صورتحساب"
+
+#: plugin-options/steps-options.php:893
+msgctxt "Option: description"
+msgid "Choose the default icon for billing step"
+msgstr "آیکون پیش‌فرض را برای مرحله پرداخت انتخاب کنید"
+
+#: plugin-options/steps-options.php:903
+msgid "Upload your custom icon for billing step"
+msgstr "آیکون دلخواه خود را برای مرحله صورتحساب بارگذاری کنید"
+
+#: plugin-options/steps-options.php:908 plugin-options/steps-options.php:927
+msgid "Shipping"
+msgstr "حمل و نقل"
+
+#: plugin-options/steps-options.php:917
+msgctxt "Admin: Option title"
+msgid "Hide shipping step"
+msgstr "مرحله ارسال را مخفی کنید"
+
+#: plugin-options/steps-options.php:920
+msgctxt "Admin: option description"
+msgid ""
+"Choose to show or hide the shipping step on the checkout page. (For example: "
+"you can hide this for digital products)"
+msgstr ""
+"نمایش یا عدم نمایش مرحله ارسال در صفحه پرداخت را انتخاب کنید. (به عنوان "
+"مثال: می‌توانید این مورد را برای محصولات دیجیتال پنهان کنید)"
+
+#: plugin-options/steps-options.php:924
+msgid "Shipping label"
+msgstr "برچسب حمل و نقل"
+
+#: plugin-options/steps-options.php:925
+msgid "Enter a label for the shipping step"
+msgstr "برای مرحله ارسال، برچسبی وارد کنید"
+
+#: plugin-options/steps-options.php:931
+msgid "Shipping icon"
+msgstr "آیکون حمل و نقل"
+
+#: plugin-options/steps-options.php:945
+msgctxt "Option: description"
+msgid "Choose the default icon for shipping step"
+msgstr "آیکون پیش‌فرض را برای مرحله ارسال انتخاب کنید"
+
+#: plugin-options/steps-options.php:955
+msgid "Upload your custom icon for shipping step"
+msgstr "آیکون سفارشی خود را برای مرحله ارسال آپلود کنید"
+
+#: plugin-options/steps-options.php:960 plugin-options/steps-options.php:979
+msgid "Order Info"
+msgstr "اطلاعات سفارش"
+
+#: plugin-options/steps-options.php:969
+msgid "Merge order info and payment in a single step"
+msgstr "ادغام اطلاعات سفارش و پرداخت در یک مرحله"
+
+#: plugin-options/steps-options.php:970
+msgid ""
+"If enabled, you will have a single step with the order info and payment "
+"detail"
+msgstr ""
+"در صورت فعال بودن، یک مرحله با اطلاعات سفارش و جزئیات پرداخت خواهید داشت."
+
+#: plugin-options/steps-options.php:976
+msgid "Order Info label"
+msgstr "برچسب اطلاعات سفارش"
+
+#: plugin-options/steps-options.php:977
+msgid "Enter a label for the order info step"
+msgstr "برای مرحله اطلاعات سفارش، برچسبی وارد کنید"
+
+#: plugin-options/steps-options.php:983
+msgid "Order info icon"
+msgstr "آیکون اطلاعات سفارش"
+
+#: plugin-options/steps-options.php:997
+msgctxt "Option: description"
+msgid "Choose the default icon for order info step"
+msgstr "آیکون پیش‌فرض را برای مرحله اطلاعات سفارش انتخاب کنید"
+
+#: plugin-options/steps-options.php:1007
+msgid "Upload your custom icon for order info step"
+msgstr "برای مرحله اطلاعات سفارش، آیکون سفارشی خود را آپلود کنید"
+
+#: plugin-options/steps-options.php:1012 plugin-options/steps-options.php:1043
+#: templates/woocommerce/checkout/form-checkout.php:231
+msgid "Payment"
+msgstr "پرداخت"
+
+#: plugin-options/steps-options.php:1021
+msgctxt "Admin option: Enable featrues"
+msgid "Show order total amount in Payment tab"
+msgstr "نمایش مبلغ کل سفارش در تب پرداخت"
+
+#: plugin-options/steps-options.php:1022
+msgctxt "[Admin]Option example"
+msgid "Choose if want to show the 'order total amount' in this step"
+msgstr ""
+"انتخاب کنید که آیا می‌خواهید «مبلغ کل سفارش» در این مرحله نمایش داده شود یا "
+"خیر."
+
+#: plugin-options/steps-options.php:1028
+msgctxt "Admin option: Enable featrues"
+msgid "Order total label"
+msgstr "برچسب مجموع سفارش"
+
+#: plugin-options/steps-options.php:1030
+msgctxt "[Admin]Option example"
+msgid "e.g.: Order total amount: 13,00$ (includes 0,60$ VAT)"
+msgstr ""
+"مثال: مبلغ کل سفارش: ۱۳.۰۰ دلار (شامل ۰.۶۰ دلار مالیات بر مقدار افزوده)"
+
+#: plugin-options/steps-options.php:1040
+msgid "Payment label"
+msgstr "برچسب پرداخت"
+
+#: plugin-options/steps-options.php:1041
+msgid "Enter a label for the payment info step"
+msgstr "برای مرحله اطلاعات پرداخت، برچسبی وارد کنید"
+
+#: plugin-options/steps-options.php:1047
+msgid "Payment icon"
+msgstr "آیکون پرداخت"
+
+#: plugin-options/steps-options.php:1061
+msgctxt "Option: description"
+msgid "Choose the default icon for payment info step"
+msgstr "آیکون پیش‌فرض را برای مرحله اطلاعات پرداخت انتخاب کنید"
+
+#: plugin-options/steps-options.php:1071
+msgid "Upload your custom icon for payment info step"
+msgstr "آیکون سفارشی خود را برای مرحله اطلاعات پرداخت آپلود کنید"
+
+#: plugin-options/thankyou-options.php:27
+msgctxt "Panel: page title"
+msgid "Checkout page"
+msgstr "صفحه تسویه حساب"
+
+#: plugin-options/thankyou-options.php:34
+msgctxt "Option: Title. Please, do not translate FadeIn/FadeOut"
+msgid "Checkout container width"
+msgstr "عرض کانتینتر پرداخت"
+
+#: plugin-options/thankyou-options.php:35
+msgctxt "Option: description"
+msgid ""
+"Set the checkout page width in relation to the width of the steps timeline. "
+"Ex.  If your timeline is 100% and you set it to 50%, the form fields will "
+"take 50% of the space in the centre."
+msgstr ""
+
+#: plugin-options/thankyou-options.php:51
+msgctxt "Panel: page title"
+msgid "\"Order received\" and \"My account\" page"
+msgstr "صفحه «سفارش دریافت شد» و «حساب من»"
+
+#: plugin-options/thankyou-options.php:56
+msgctxt "Admin option: \"Order Received\" page style"
+msgid "Select style for \"Order received\" page"
+msgstr "انتخاب سبک برای صفحه \"سفارش دریافت شد\""
+
+#: plugin-options/thankyou-options.php:59
+msgctxt ""
+"Admin option description: choose between applying theme or plugin style"
+msgid "Select plugin style or theme style"
+msgstr "انتخاب سبک افزونه یا سبک قالب"
+
+#: plugin-options/thankyou-options.php:61
+msgctxt "Admin: Option style"
+msgid "Theme style"
+msgstr "سبک تم"
+
+#: plugin-options/thankyou-options.php:62
+msgctxt "Admin: Option style"
+msgid "Plugin style"
+msgstr "سبک افزونه"
+
+#: plugin-options/thankyou-options.php:68
+msgctxt "Admin: Option"
+msgid "Order details background color"
+msgstr "رنگ پس زمینه جزئیات سفارش"
+
+#: plugin-options/thankyou-options.php:76
+msgctxt "Admin: Option description"
+msgid ""
+"Select the background color for \"Order details\" in \"Order received\" page"
+msgstr ""
+"رنگ پس‌زمینه را برای «جزئیات سفارش» در صفحه «سفارش دریافت شده» انتخاب کنید"
+
+#: plugin-options/thankyou-options.php:81
+msgctxt "Admin: Option"
+msgid "Order details highlight color"
+msgstr "جزئیات سفارش با رنگ هایلایت"
+
+#: plugin-options/thankyou-options.php:89
+msgctxt "Admin: Option description"
+msgid ""
+"Select text highlight color for \"Order details\" in \"Order review\" pages"
+msgstr "انتخاب رنگ هایلایت متن برای «جزئیات سفارش» در صفحات «بررسی سفارش»"
+
+#: plugin-options/thankyou-options.php:94
+msgctxt "Admin: Option"
+msgid "Table header background color"
+msgstr "رنگ پس زمینه سربرگ جدول"
+
+#: plugin-options/thankyou-options.php:102
+msgctxt "Admin: Option description"
+msgid ""
+"Select background highlight color for the header of \"Order\" table in "
+"\"Order received\" page and \"Order review\" page"
+msgstr ""
+"انتخاب رنگ هایلایت پس‌زمینه برای سربرگ جدول «سفارش» در صفحه «سفارش دریافت "
+"شده» و صفحه «بررسی سفارش»"
+
+#: plugin-options/thankyou-options.php:107
+msgctxt "Admin: Option"
+msgid "Text table header color"
+msgstr "رنگ هدر جدول متن"
+
+#: plugin-options/thankyou-options.php:115
+msgctxt "Admin: Option description"
+msgid ""
+"Select text color for the header of order table in \"Order received\" page "
+"and \"Order review\" page"
+msgstr ""
+"رنگ متن را برای سربرگ جدول سفارش در صفحه \"سفارش دریافت شده\" و صفحه \"بررسی "
+"سفارش\" انتخاب کنید"
+
+#: plugin-options/thankyou-options.php:120
+msgctxt "Admin: Option"
+msgid "Table row background color"
+msgstr "رنگ پس زمینه ردیف جدول"
+
+#: plugin-options/thankyou-options.php:128
+msgctxt "Admin: Option description"
+msgid ""
+"Select background color for rows in \"Orders\" table in \"Order received\" "
+"page and \"Order review\" page"
+msgstr ""
+"رنگ پس‌زمینه را برای ردیف‌های جدول «سفارش‌ها» در صفحه «سفارش دریافت شده» و صفحه "
+"«بررسی سفارش» انتخاب کنید"
+
+#: plugin-options/thankyou-options.php:133
+msgctxt "Admin: Option"
+msgid "\"Order details\" color"
+msgstr "رنگ \"جزئیات سفارش\""
+
+#: plugin-options/thankyou-options.php:141
+msgctxt "Admin: Option description"
+msgid ""
+"Select color for \"Order details\" text in \"Order received\" page and "
+"\"Order review\" page"
+msgstr ""
+"رنگ متن «جزئیات سفارش» را در صفحه «سفارش دریافت شد» و صفحه «بررسی سفارش» "
+"انتخاب کنید"
+
+#: templates/woocommerce/checkout/form-checkout.php:100
+msgctxt "[Frontend] Default message for returning customer on checkout page"
+msgid ""
+"If you have already registered, please, enter your details below. If you are "
+"a new customer, please, go to the Billing &amp; Shipping section."
+msgstr ""
+"اگر قبلاً ثبت نام کرده‌اید، لطفاً اطلاعات خود را در زیر وارد کنید. اگر مشتری "
+"جدید هستید، لطفاً به بخش صورتحساب و ارسال مراجعه کنید."
+
+#: templates/woocommerce/checkout/form-checkout.php:152
+msgid "You must be logged in before proceeding to checkout."
+msgstr "قبل از ادامه پرداخت، باید وارد سیستم شوید."
+
+#: templates/woocommerce/checkout/form-checkout.php:196
+msgid "Your order"
+msgstr "سفارش شما"
+
+#: templates/woocommerce/checkout/thankyou.php:18
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction."
+msgstr ""
+"متأسفانه سفارش شما قابل پردازش نیست زیرا بانک/فروشنده مبدا تراکنش شما را رد "
+"کرده است."
+
+#: templates/woocommerce/checkout/thankyou.php:23
+msgid "Please, either submit your order again or go to your account page."
+msgstr ""
+"لطفا یا سفارش خود را دوباره ارسال کنید یا به صفحه حساب کاربری خود مراجعه "
+"کنید."
+
+#: templates/woocommerce/checkout/thankyou.php:25
+msgid "Please submit your order again."
+msgstr "لطفا دوباره سفارشتون رو ثبت کنید."
+
+#: templates/woocommerce/checkout/thankyou.php:31
+msgid "Pay"
+msgstr "پرداخت"
+
+#: templates/woocommerce/checkout/thankyou.php:33
+msgid "My Account"
+msgstr "حساب کاربری من"
+
+#: templates/woocommerce/checkout/thankyou.php:40
+#: templates/woocommerce/checkout/thankyou.php:77
+msgid "Thank you. We have received your order."
+msgstr "متشکرم. سفارش شما دریافت شد."
+
+#: templates/woocommerce/checkout/thankyou.php:45
+msgid "Order number:"
+msgstr "شماره سفارش:"
+
+#: templates/woocommerce/checkout/thankyou.php:49
+msgid "Date:"
+msgstr "تاریخ:"
+
+#: templates/woocommerce/checkout/thankyou.php:53
+msgid "Total:"
+msgstr "مجموع:"
+
+#: templates/woocommerce/checkout/thankyou.php:63
+msgid "Payment method:"
+msgstr "روش پرداخت:"
+
+#. Plugin Name of the plugin/theme
+msgid "YITH WooCommerce Multi-step Checkout Premium"
+msgstr "پرداخت چند مرحله‌ای ووکامرس YITH نسخه پریمیوم"
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://yithemes.com/themes/plugins/yith-woocommerce-multi-step-checkout/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Thanks to <code><strong>YITH WooCommerce Multi-step Checkout</strong></code> "
+"you can split your checkout process into steps. Assist your customers during "
+"the purchase and make them feel safe by showing them where in the process "
+"they are and what the next step is. <a href=\"https://yithemes.com/\" target="
+"\"_blank\">Get more plugins for your e-commerce shop on <strong>YITH</"
+"strong></a>"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "YITH"
+msgstr "فناوری اطلاعات"
+
+#. Author URI of the plugin/theme
+msgid "https://yithemes.com/"
+msgstr ""

@@ -1,0 +1,8 @@
+{
+  "description": "Independent AST audit of every known text-domain string literal. in_i18n matches all explicit-domain translation calls; other occurrences are hooks, stores, slugs, selectors, or plugin identifiers rather than translation calls.",
+  "counts": {
+    "known_domain_literals_total": 5572,
+    "inside_translation_calls": 5010,
+    "outside_translation_calls": 562
+  }
+}

@@ -1,0 +1,627 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NovinFont 3.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-12 15:16+0330\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: novinfont\n"
+
+msgid "%1$s files · %2$s"
+msgstr ""
+
+msgid "%s KB"
+msgstr ""
+
+msgid "%s MB"
+msgstr ""
+
+msgid "%s bytes"
+msgstr ""
+
+msgid "%s files selected"
+msgstr ""
+
+msgid ", "
+msgstr ""
+
+msgid "0123456789"
+msgstr ""
+
+msgid "400"
+msgstr ""
+
+msgid "A copy of the font family was created."
+msgstr ""
+
+msgid "Aa"
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Active families are registered with the native WordPress font library. On older versions, NovinFont frontend styles remain available."
+msgstr ""
+
+msgid "Active font families are also available in WordPress font controls."
+msgstr ""
+
+msgid "Add Font"
+msgstr ""
+
+msgid "All changes are saved."
+msgstr ""
+
+msgid "All formats"
+msgstr ""
+
+msgid "All pages"
+msgstr ""
+
+msgid "All settings were saved successfully."
+msgstr ""
+
+msgid "All statuses"
+msgstr ""
+
+msgid "Apply this rule with higher priority"
+msgstr ""
+
+msgid "Are you sure you want to delete this item?"
+msgstr ""
+
+msgid "Auto"
+msgstr ""
+
+msgid "Block"
+msgstr ""
+
+msgid "Body text"
+msgstr ""
+
+msgid "Building a real font preview..."
+msgstr ""
+
+msgid "Capitalize"
+msgstr ""
+
+msgid "Changes are applied only after you click Save Settings."
+msgstr ""
+
+msgid "Changes are kept as a draft. Click Save Settings to apply them to the site."
+msgstr ""
+
+msgid "Changes are not saved yet."
+msgstr ""
+
+msgid "Click an element to select it"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Close tool"
+msgstr ""
+
+msgid "Compare Two Fonts"
+msgstr ""
+
+msgid "Condition value"
+msgstr ""
+
+msgid "Connect with WordPress and Page Builders"
+msgstr ""
+
+msgid "Could not connect to the server. Please try again."
+msgstr ""
+
+msgid "Custom element"
+msgstr ""
+
+msgid "Custom preview text"
+msgstr ""
+
+msgid "Custom preview text..."
+msgstr ""
+
+msgid "Dashboard"
+msgstr ""
+
+msgid "Default font"
+msgstr ""
+
+msgid "Define an independent font family, weight, responsive size, and loading condition for each element."
+msgstr ""
+
+msgid "Delete Family"
+msgstr ""
+
+msgid "Delete rule"
+msgstr ""
+
+msgid "Delete this typography rule?"
+msgstr ""
+
+msgid "Desktop size"
+msgstr ""
+
+msgid "Detected"
+msgstr ""
+
+msgid "Disable"
+msgstr ""
+
+msgid "Drop font files here or choose files"
+msgstr ""
+
+msgid "Duplicate"
+msgstr ""
+
+msgid "Element selector"
+msgstr ""
+
+msgid "Elementor Font Picker"
+msgstr ""
+
+msgid "Embedded OpenType"
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid "Enable family"
+msgstr ""
+
+msgid "Enable this rule"
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "Enter more characters to search."
+msgstr ""
+
+msgid "Example: product"
+msgstr ""
+
+msgid "External font stylesheet URLs"
+msgstr ""
+
+msgid "Fallback"
+msgstr ""
+
+msgid "Fallback fonts"
+msgstr ""
+
+msgid "Families and weights"
+msgstr ""
+
+msgid "Family changes are not saved yet. Click Save Settings to apply them to the site."
+msgstr ""
+
+msgid "First font"
+msgstr ""
+
+msgid "Font"
+msgstr ""
+
+msgid "Font Display Rules"
+msgstr ""
+
+msgid "Font Library"
+msgstr ""
+
+msgid "Font display behavior"
+msgstr ""
+
+msgid "Font families"
+msgstr ""
+
+msgid "Font family"
+msgstr ""
+
+msgid "Font family deleted."
+msgstr ""
+
+msgid "Font family updated."
+msgstr ""
+
+msgid "Font file name"
+msgstr ""
+
+msgid "Font files and styles"
+msgstr ""
+
+msgid "Font format"
+msgstr ""
+
+msgid "Font style"
+msgstr ""
+
+msgid "Font upload failed. Please check the files and try again."
+msgstr ""
+
+msgid "Font weight"
+msgstr ""
+
+msgid "Fonts were uploaded and grouped successfully."
+msgstr ""
+
+msgid "For better performance and privacy, use local files for your primary fonts whenever possible."
+msgstr ""
+
+msgid "Force priority"
+msgstr ""
+
+msgid "Form not found."
+msgstr ""
+
+msgid "Front page"
+msgstr ""
+
+msgid "Headings"
+msgstr ""
+
+msgid "Inactive"
+msgstr ""
+
+msgid "Integrations"
+msgstr ""
+
+msgid "Italic"
+msgstr ""
+
+msgid "Letter spacing"
+msgstr ""
+
+msgid "Letters, numbers 1234567890, and punctuation help you evaluate readability and visual rhythm."
+msgstr ""
+
+msgid "Line height"
+msgstr ""
+
+msgid "Live Lab"
+msgstr ""
+
+msgid "Live rule preview"
+msgstr ""
+
+msgid "Loading condition"
+msgstr ""
+
+msgid "Loading section..."
+msgstr ""
+
+msgid "Loading..."
+msgstr ""
+
+msgid "Local font families managed by NovinFont."
+msgstr ""
+
+msgid "Lowercase"
+msgstr ""
+
+msgid "Make local fonts available in the WordPress block editor and Elementor."
+msgstr ""
+
+msgid "Management sections"
+msgstr ""
+
+msgid "Maximum weight"
+msgstr ""
+
+msgid "Minimum weight"
+msgstr ""
+
+msgid "Mobile size"
+msgstr ""
+
+msgid "Native WordPress Feature"
+msgstr ""
+
+msgid "Navigation"
+msgstr ""
+
+msgid "New Rule"
+msgstr ""
+
+msgid "New typography rule"
+msgstr ""
+
+msgid "No file selected yet."
+msgstr ""
+
+msgid "No fonts match these filters."
+msgstr ""
+
+msgid "No results found."
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Normal"
+msgstr ""
+
+msgid "Not saved"
+msgstr ""
+
+msgid "NovinFont"
+msgstr ""
+
+msgid "NovinFont - Iranian Font Plugin"
+msgstr ""
+
+msgid "NovinFont families are added to the Elementor font list."
+msgstr ""
+
+msgid "Oblique"
+msgstr ""
+
+msgid "One URL per line"
+msgstr ""
+
+msgid "One or more fields in this section need attention."
+msgstr ""
+
+msgid "OpenType Font"
+msgstr ""
+
+msgid "Optional"
+msgstr ""
+
+msgid "Overview"
+msgstr ""
+
+msgid "Page Builder"
+msgstr ""
+
+msgid "Pick from site"
+msgstr ""
+
+msgid "Please complete the required form fields."
+msgstr ""
+
+msgid "Post type"
+msgstr ""
+
+msgid "Preload"
+msgstr ""
+
+msgid "Preview this text using the font above. 1234567890"
+msgstr ""
+
+msgid "Professional Font Family Management"
+msgstr ""
+
+msgid "Professional local font and typography manager for WordPress."
+msgstr ""
+
+msgid "Professional typography, better readability, and a consistent visual identity"
+msgstr ""
+
+msgid "Requires a newer WordPress version"
+msgstr ""
+
+msgid "Review your font library and typography rules at a glance."
+msgstr ""
+
+msgid "Rule name"
+msgstr ""
+
+msgid "Rules and responsive settings"
+msgstr ""
+
+msgid "Rules are applied from top to bottom; lower rules can take higher precedence."
+msgstr ""
+
+msgid "Sample One"
+msgstr ""
+
+msgid "Sample Two"
+msgstr ""
+
+msgid "Sans Serif"
+msgstr ""
+
+msgid "Save Changes"
+msgstr ""
+
+msgid "Save Integrations"
+msgstr ""
+
+msgid "Save Settings"
+msgstr ""
+
+msgid "Save Typography Rules"
+msgstr ""
+
+msgid "Saving all changes..."
+msgstr ""
+
+msgid "Saving..."
+msgstr ""
+
+msgid "Search family or file name..."
+msgstr ""
+
+msgid "Searching..."
+msgstr ""
+
+msgid "Second font"
+msgstr ""
+
+msgid "Section content could not be loaded."
+msgstr ""
+
+msgid "Selected File Preview"
+msgstr ""
+
+msgid "Selected font"
+msgstr ""
+
+msgid "Selector captured. You can close this window."
+msgstr ""
+
+msgid "Settings saved successfully."
+msgstr ""
+
+msgid "Singular pages"
+msgstr ""
+
+msgid "Site Font Dashboard"
+msgstr ""
+
+msgid "Style"
+msgstr ""
+
+msgid "Supported"
+msgstr ""
+
+msgid "Swap"
+msgstr ""
+
+msgid "Tablet size"
+msgstr ""
+
+msgid "Text transform"
+msgstr ""
+
+msgid "The browser could not render this file as a web font."
+msgstr ""
+
+msgid "The browser rejected this font file, so a fake preview is not shown."
+msgstr ""
+
+msgid "The direct font path is unavailable."
+msgstr ""
+
+msgid "The file loads correctly, but it does not contain the standard Persian characters used in this sample."
+msgstr ""
+
+msgid "The font file URL is missing."
+msgstr ""
+
+msgid "The font file request failed with status %s."
+msgstr ""
+
+msgid "The font preview could not be loaded."
+msgstr ""
+
+msgid "The preview is rendered directly from the selected file."
+msgstr ""
+
+msgid "The received file size does not match the stored font file."
+msgstr ""
+
+msgid "The received response is not a font file."
+msgstr ""
+
+msgid "The request has expired. Please refresh the page."
+msgstr ""
+
+msgid "The requested action is not recognized."
+msgstr ""
+
+msgid "The requested font family was not found."
+msgstr ""
+
+msgid "The server response does not contain a valid font signature."
+msgstr ""
+
+msgid "There are no changes to save."
+msgstr ""
+
+msgid "This file does not contain the standard Persian characters used in the sample. A real Latin sample is shown instead."
+msgstr ""
+
+msgid "This file is shown using compatibility mode for legacy Persian fonts."
+msgstr ""
+
+msgid "This font cannot be previewed in the browser."
+msgstr ""
+
+msgid "This font is being previewed using legacy Persian font compatibility mode."
+msgstr ""
+
+msgid "TrueType Font"
+msgstr ""
+
+msgid "Typography"
+msgstr ""
+
+msgid "Typography Engine"
+msgstr ""
+
+msgid "Typography rule"
+msgstr ""
+
+msgid "Typography rules"
+msgstr ""
+
+msgid "Typography rules were saved."
+msgstr ""
+
+msgid "URL contains"
+msgstr ""
+
+msgid "Unsaved changes are kept until you click Save Settings."
+msgstr ""
+
+msgid "Upload and Analyze"
+msgstr ""
+
+msgid "Upload files in batches. Family, weight, style, and variable font data are detected automatically whenever possible."
+msgstr ""
+
+msgid "Uploading file..."
+msgstr ""
+
+msgid "Uploading font..."
+msgstr ""
+
+msgid "Uppercase"
+msgstr ""
+
+msgid "Use global setting"
+msgstr ""
+
+msgid "Variable"
+msgstr ""
+
+msgid "Variable font range: %1$s to %2$s"
+msgstr ""
+
+msgid "Web Open Font"
+msgstr ""
+
+msgid "Web Open Font 2"
+msgstr ""
+
+msgid "Weight"
+msgstr ""
+
+msgid "When Elementor is active, font families appear in its font picker without modifying Elementor files."
+msgstr ""
+
+msgid "WooCommerce pages"
+msgstr ""
+
+msgid "WordPress Font Library and Block Editor"
+msgstr ""
+
+msgid "WordPress and page builders"
+msgstr ""
+
+msgid "Working..."
+msgstr ""
+
+msgid "You can select multiple files at once."
+msgstr ""
+
+msgid "You do not have permission to access this section."
+msgstr ""
+
+msgid "— No custom font —"
+msgstr ""

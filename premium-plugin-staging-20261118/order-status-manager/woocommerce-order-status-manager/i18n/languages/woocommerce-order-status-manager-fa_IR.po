@@ -1,0 +1,1386 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Order Status Manager\n"
+"Report-Msgid-Bugs-To: https://woocommerce.com/my-account/marketplace-ticket-"
+"form/\n"
+"POT-Creation-Date: 2021-11-02 01:06+0330\n"
+"PO-Revision-Date: 2021-11-02 01:07+0330\n"
+"Last-Translator: \n"
+"Language-Team: wpnovin\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+
+#: class-wc-order-status-manager.php:412
+#, php-format
+msgid ""
+"Thanks for installing Order Status Manager! Before you get started, please "
+"take a moment to %1$sread through the documentation%2$s."
+msgstr ""
+"با تشکر برای نصب مدیریت وضعیت سفارش! قبل از شروع ، لطفاً کمی وقت بگذارید تا "
+"%1$s را از طریق مستندات %2$s بخوانید."
+
+#: class-wc-order-status-manager.php:427
+#, php-format
+msgid ""
+"%1$sHeads up!%2$s Order Status Manager now requires the \"Pending Payment\" "
+"status to only refer to orders that are awaiting payment, to avoid payment "
+"processing issues for your orders. We have automatically made this change in "
+"the %3$sPending Payment status settings%4$s."
+msgstr ""
+"%1$s توجه کنید ! %2$s مدیر وضعیت سفارش اکنون برای جلوگیری از مشکلات پردازش "
+"پرداخت سفارشات ، به وضعیت \"معلق پرداخت\" فقط برای سفارشاتی که در انتظار "
+"پرداخت هستند اشاره می کند. ما به طور خودکار این تغییر را در %3$s تنظیمات "
+"وضعیت پرداخت در حال پرداخت %4$s انجام داده ایم."
+
+#. Plugin Name of the plugin/theme
+#: class-wc-order-status-manager.php:470
+msgid "WooCommerce Order Status Manager"
+msgstr "WooCommerce Order Status Manager"
+
+#: class-wc-order-status-manager.php:575
+msgid "Heads up!"
+msgstr "سر بالا!"
+
+#: class-wc-order-status-manager.php:578
+msgid ""
+"When you deactivate Order Status Manager, all orders in a custom status will "
+"be hidden. If this deactivation is not temporary, please first:"
+msgstr ""
+"با غیرفعال کردن مدیریت وضعیت سفارش، همه سفارشات در یک وضعیت سفارشی پنهان می "
+"شوند. اگر این غیرفعال سازی موقت نیست ، لطفاً ابتدا :"
+
+#: class-wc-order-status-manager.php:585
+#, php-format
+msgid ""
+"%1$sReassign orders%2$s with a custom status to a WooCommerce core status."
+msgstr ""
+"%1$s وضعیت سفارشات %2$s را با وضعیت سفارشی به وضعیت اصلی ووکامرس اختصاص دهید."
+
+#: class-wc-order-status-manager.php:591
+#, php-format
+msgid ""
+"%1$sDelete custom statuses%2$s and select a replacement status for orders."
+msgstr ""
+"%1$s وضعیت های سفارش را حذف کنید %2$s و وضعیت جایگزینی را برای سفارشات "
+"انتخاب کنید."
+
+#: class-wc-order-status-manager.php:602
+msgid "Don't show me this again"
+msgstr "اینو دیگه بهم نشون نده"
+
+#: class-wc-order-status-manager.php:606
+msgid "Cancel"
+msgstr "لغو"
+
+#: class-wc-order-status-manager.php:607
+msgid "Deactivate plugin"
+msgstr "غیرفعال کردن افزونه"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-status-emails.php:48
+#: includes/class-wc-order-status-manager-order-status-email.php:98
+msgid "Customer"
+msgstr "مشتری"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-status-emails.php:49
+msgid "Admin"
+msgstr "مدیرسایت"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-status-emails.php:77
+#: includes/admin/class-wc-order-status-manager-admin-order-status-emails.php:162
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:73
+msgid "Type"
+msgstr "نوع"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-status-emails.php:78
+#: includes/admin/class-wc-order-status-manager-admin-order-status-emails.php:171
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:70
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:185
+msgid "Description"
+msgstr "توضیح"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-status-emails.php:79
+msgid "Status"
+msgstr "وضعیت‌"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-status-emails.php:97
+#: includes/admin/class-wc-order-status-manager-admin-order-status-emails.php:99
+#: includes/admin/class-wc-order-status-manager-admin-order-status-emails.php:301
+#: includes/class-wc-order-status-manager-post-types.php:172
+msgid "Customize Email"
+msgstr "ایمیل را سفارشی کنید"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-status-emails.php:116
+msgid "Order Status Email Data"
+msgstr "داده ایمیل وضعیت سفارش"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-status-emails.php:126
+msgid "Order Status Email Actions"
+msgstr "عمل ایمیل وضعیت سفارش"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-status-emails.php:155
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:152
+#: includes/admin/class-wc-order-status-manager-admin.php:399
+msgid "Name"
+msgstr "نام"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-status-emails.php:165
+msgid ""
+"A customer email is dispatched to the order's customer, and admin email is "
+"sent to the store admin (you can define individual recipient's)."
+msgstr ""
+"ایمیل مشتری به مشتری سفارش ارسال می شود و ایمیل مدیر به مدیر فروشگاه ارسال "
+"می شود (می توانید تک تک گیرنده ها را تعریف کنید)."
+
+#: includes/admin/class-wc-order-status-manager-admin-order-status-emails.php:173
+msgid "Optional email description. This is for informational purposes only."
+msgstr "شرح ایمیل اختیاری این فقط برای مقاصد اطلاعاتی."
+
+#: includes/admin/class-wc-order-status-manager-admin-order-status-emails.php:180
+#: includes/admin/class-wc-order-status-manager-admin.php:328
+msgid "Any"
+msgstr "هر"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-status-emails.php:203
+msgid "When to dispatch"
+msgstr "چه زمانی باید ارسال شود"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-status-emails.php:209
+#: includes/admin/class-wc-order-status-manager-admin.php:325
+msgid "From Status"
+msgstr "از وضعیت"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-status-emails.php:210
+#: includes/admin/class-wc-order-status-manager-admin.php:326
+msgid "To Status"
+msgstr "به وضعیت"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-status-emails.php:238
+#: includes/admin/class-wc-order-status-manager-admin.php:327
+msgid "Remove"
+msgstr "حذف"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-status-emails.php:254
+msgid "Add Condition"
+msgstr "افزودن قانون"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-status-emails.php:268
+msgid "Dispatch when a new order is created"
+msgstr "هنگام ایجاد سفارش جدید،ارسال کنید"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-status-emails.php:307
+#: includes/admin/class-wc-order-status-manager-admin.php:430
+msgid "Delete Permanently"
+msgstr "حذف دائمی"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-status-emails.php:314
+msgid "Save Email"
+msgstr "ذخیره ایمیل"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-status-emails.php:315
+msgid "Save/update the order status email"
+msgstr "ایمیل وضعیت سفارش را ذخیره یا بروز کنید"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-status-emails.php:395
+msgid "Inactive"
+msgstr "غیرفعال"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-status-emails.php:396
+msgid "No dispatch rules set for this email."
+msgstr "هیچ قانونی برای ارسال این ایمیل تعیین نشده است."
+
+#: includes/admin/class-wc-order-status-manager-admin-order-status-emails.php:401
+msgid "Enabled"
+msgstr "فعال شده است"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-status-emails.php:402
+msgid "This email is enabled."
+msgstr "این ایمیل فعال است."
+
+#: includes/admin/class-wc-order-status-manager-admin-order-status-emails.php:406
+msgid "Disabled"
+msgstr "غیرفعال"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-status-emails.php:407
+msgid "This email is disabled."
+msgstr "این ایمیل غیرفعال است."
+
+#: includes/admin/class-wc-order-status-manager-admin-order-status-emails.php:458
+msgid ""
+"Emails will not be sent while a dispatch condition's To and From statuses "
+"are both 'Any'"
+msgstr ""
+"در حالی که قوانین ارسال به و از وضعیت هر دو \"هرگونه\" هستند ، ایمیل ها "
+"ارسال نمی شوند"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:69
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:175
+msgid "Slug"
+msgstr "پیوند یکتا"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:71
+msgid "Paid"
+msgstr "پرداختی"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:72
+msgid "Reports"
+msgstr "گزارش ها"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:75
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:217
+msgid "Icon"
+msgstr "آیکون"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:111
+msgid "Order Status Data"
+msgstr "داده های وضعیت سفارش"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:121
+msgid "Order Status Actions"
+msgstr "اقدامات وضعیت سفارش"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:158
+msgid "Maximum 35 characters."
+msgstr "حداکثر 35 حرف."
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:179
+msgid ""
+"Optional. If left blank, the slug will be automatically generated from the "
+"name. Maximum: 17 characters, cannot contain leading numbers."
+msgstr ""
+"اختیاری. اگر خالی بماند ، پیوند یکتا به طور خودکار از نام تولید می شود. "
+"حداکثر : 17 حرف ، نمی تواند حاوی اعداد اصلی باشد."
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:187
+msgid ""
+"Optional status description. If set, this will be shown to customers while "
+"viewing an order."
+msgstr ""
+"شرح وضعیت اختیاری. در صورت تنظیم ، هنگام مشاهده سفارش ، این مورد به مشتریان "
+"نشان داده می شود."
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:200
+msgid "Color"
+msgstr "رنگ‌"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:204
+msgid "Color displayed behind the order status image or name"
+msgstr "رنگی که در پشت تصویر یا نام وضعیت سفارش نشان داده شده است"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:228
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:256
+msgid "Set as status icon"
+msgstr "به عنوان آیکون وضعیت تنظیم کنید"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:228
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:256
+msgid "Select File"
+msgstr "انتخاب فایل"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:229
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:257
+#: includes/admin/class-wc-order-status-manager-admin.php:329
+msgid "Remove Icon"
+msgstr "حذف آیکون"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:230
+msgid ""
+"Optional status icon. If not supplied, then Name will be displayed to "
+"represent the status"
+msgstr ""
+"آیکون وضعیت اختیاری. در صورت عدم ارائه ، نام برای نمایش وضعیت نمایش داده می "
+"شود"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:245
+msgid "Action Icon"
+msgstr "آیکون عمل"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:258
+msgid ""
+"Optional action icon displayed in the action buttons for the next statuses."
+msgstr ""
+"آیکون اقدام اختیاری در دکمه های عملکرد برای وضعیت های بعدی نمایش داده می شود."
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:279
+msgid "Next Statuses"
+msgstr "وضعیت های بعدی"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:283
+msgid "Choose statuses that follow this one in your workflow."
+msgstr "وضعیت هایی را انتخاب کنید که این وضعیت را در جریان کار خود دنبال کنید."
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:289
+msgid ""
+"Zero or more statuses that would be considered next during normal order "
+"status flow. Action buttons will be available to move an order with this "
+"custom status to these next statuses."
+msgstr ""
+"وضعیت های صفر یا بیشتر که در جریان جریان وضعیت سفارش بعدی مورد بررسی قرار می "
+"گیرند. دکمه های عملکرد برای انتقال سفارش با این وضعیت سفارشی به این وضعیت "
+"های بعدی در دسترس خواهند بود."
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:296
+msgid "Bulk action"
+msgstr "اقدام گروهی"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:297
+msgid ""
+"Check this to add this order status to the Orders list table Bulk Actions "
+"list."
+msgstr ""
+"این مورد را علامت بزنید تا این وضعیت سفارش به لیست سفارشات به لیست اقدامات "
+"انبوه اضافه شود."
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:304
+msgid "Include in reports"
+msgstr "در گزارشات بگنجانید"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:305
+msgid ""
+"Check this to include orders with this order status in the order reports."
+msgstr ""
+"این مورد را بررسی کنید تا سفارشاتی با این وضعیت سفارش در گزارشات سفارش وارد "
+"شود."
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:311
+msgid ""
+"Choose whether this status implies a payment that has been received or not."
+msgstr ""
+"انتخاب کنید آیا این وضعیت به منزله پرداختی است که دریافت شده است یا خیر."
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:321
+#, php-format
+msgid ""
+"The Paid setting for %s cannot be changed to avoid order processing issues."
+msgstr ""
+"برای جلوگیری از مشکلات پردازش سفارش ، تنظیمات پرداخت شده برای %s قابل تغییر "
+"نیست."
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:333
+msgctxt "Order status has had payment received"
+msgid "Paid"
+msgstr "پرداختی"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:338
+msgid "Orders with this status have been paid."
+msgstr "سفارشات با این وضعیت پرداخت شده است."
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:339
+msgid "Orders with this status require payment (similar to \"pending\")."
+msgstr "سفارشات با این وضعیت نیاز به پرداخت دارند (مشابه \"در انتظار\")."
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:340
+msgid ""
+"Orders are neither paid nor require payment (similar to \"on-hold\" or "
+"\"refunded\")."
+msgstr ""
+"سفارشات نه پرداخت می شوند و نه نیاز به پرداخت دارند (مشابه \"در حالت تعلیق\" "
+"یا \"بازپرداخت\")."
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:378
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:581
+msgid "Delete"
+msgstr "پاک کردن"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:385
+msgid "Save Order Status"
+msgstr "ذخیره وضعیت سفارش"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:386
+msgid "Save/update the order status"
+msgstr "وضعیت سفارش را ذخیره یا بروز کنید"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:445
+msgid "Add statuses that may have been added by other plugins or custom code."
+msgstr ""
+"وضعیت هایی را که ممکن است توسط افزونه های دیگر یا کد سفارشی اضافه شده اند "
+"اضافه کنید."
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:446
+msgid "Import custom statuses"
+msgstr "درون ریزی وضعیت های سفارشی"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:525
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:529
+msgid "Yes"
+msgstr "بله"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:525
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:529
+msgid "No"
+msgstr "خیر"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:561
+msgid "Are you sure that you want to delete this order status?"
+msgstr "آیا مطمئن هستید که می خواهید این وضعیت سفارش را حذف کنید؟"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:566
+#, php-format
+msgid "There is currently %1$s order marked as %2$s."
+msgstr "در حال حاضر %1$s سفارش به عنوان %2$s مشخص شده است."
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:571
+#, php-format
+msgid "There are currently %1$s orders marked as %2$s."
+msgstr "در حال حاضر %1$s سفارش با علامت گذاری شده به عنوان %2$s وجود دارد."
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:574
+msgid ""
+"You can choose to reassign the status of existing orders with another before "
+"deleting or have it reassigned automatically."
+msgstr ""
+"می توانید وضعیت سفارشات موجود را قبل از حذف به دیگری اختصاص دهید یا به صورت "
+"خودکار تعیین شود."
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:578
+msgid "Reassign and delete"
+msgstr "دوباره تعیین و حذف کنید"
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:584
+msgid "Either operation cannot be undone automatically."
+msgstr "هر دو عملیات به طور خودکار قابل واگرد نیستند."
+
+#: includes/admin/class-wc-order-status-manager-admin-order-statuses.php:585
+msgid "Emails and other actions will not be triggered automatically."
+msgstr "ایمیل ها و سایر اقدامات به طور خودکار فعال نمی شوند."
+
+#: includes/admin/class-wc-order-status-manager-admin-orders.php:122
+#, php-format
+msgid "Send %s custom email"
+msgstr "برای %s ایمیلی سفارشی ارسال کنید"
+
+#: includes/admin/class-wc-order-status-manager-admin-orders.php:165
+#, php-format
+msgid "%s email notification manually sent."
+msgstr "%s از طریق ایمیل به صورت دستی اطلاع داده می‌شود."
+
+#: includes/admin/class-wc-order-status-manager-admin-orders.php:173
+#, php-format
+msgid "%s email notification couldn't be sent."
+msgstr "ایمیل اعلان %s ارسال نشد."
+
+#: includes/admin/class-wc-order-status-manager-admin-orders.php:481
+#, php-format
+msgid "Mark %s"
+msgstr "%s را علامت گذاری کنید"
+
+#: includes/admin/class-wc-order-status-manager-admin.php:114
+#: includes/class-wc-order-status-manager-post-types.php:81
+msgid "Order Statuses"
+msgstr "وضعیت های سفارش"
+
+#: includes/admin/class-wc-order-status-manager-admin.php:168
+msgid "Statuses"
+msgstr "وضعیت ها"
+
+#: includes/admin/class-wc-order-status-manager-admin.php:169
+msgid "Emails"
+msgstr "ایمیل ھا"
+
+#: includes/admin/class-wc-order-status-manager-admin.php:324
+msgid "Remove this condition?"
+msgstr "این شرط حذف شود؟"
+
+#: includes/admin/class-wc-order-status-manager-admin.php:330
+msgid "Select Icon"
+msgstr "انتخاب آیکون"
+
+#: includes/admin/class-wc-order-status-manager-admin.php:331
+msgid "All icon packages"
+msgstr "همه بسته های آیکون"
+
+#: includes/admin/class-wc-order-status-manager-admin.php:332
+msgid "Search Icons"
+msgstr "جستجوی آیکون‌ها"
+
+#: includes/admin/class-wc-order-status-manager-admin.php:333
+msgid "Choose a file"
+msgstr "انتخاب فایل"
+
+#: includes/admin/class-wc-order-status-manager-admin.php:334
+msgid "Close"
+msgstr "بسته"
+
+#: includes/admin/class-wc-order-status-manager-admin.php:335
+msgid ""
+"Emails will not be sent for dispatch conditions where the To and From "
+"statuses are both 'Any'. Continue anyway?"
+msgstr ""
+"در صورتی که وضعیت به و از هر دو \"هر\" باشد ، ایمیل برای شرایط ارسال نمی "
+"شود. ادامه دادن به هر طریق؟"
+
+#: includes/admin/class-wc-order-status-manager-admin.php:336
+msgid ""
+"Please be sure to remove custom statuses from orders before deactivating the "
+"plugin. Continue?"
+msgstr ""
+"لطفا قبل از غیرفعال کردن افزونه ، حتما وضعیتهای سفارشی را از سفارشات حذف "
+"کنید. ادامه هید؟"
+
+#: includes/admin/class-wc-order-status-manager-admin.php:337
+msgid "Sorry, slugs can't begin with \"wc-\"."
+msgstr "با عرض پوزش،پیوندهای یکتا نمی توانند با \"wc-\" شروع شوند."
+
+#: includes/admin/class-wc-order-status-manager-admin.php:428
+msgid "Delete this item permanently"
+msgstr "این مورد را به طور دائمی حذف کنید"
+
+#: includes/admin/class-wc-order-status-manager-admin.php:533
+#, php-format
+msgid ""
+"Sorry, slugs can't begin with \"wc-\". Order status has been renamed \"%s\"."
+msgstr ""
+"با عرض پوزش،پیوند های یکتا نمی توانند با \"wc-\" شروع شوند. وضعیت سفارش به "
+"\"%s\" تغییر نام داده است."
+
+#: includes/class-wc-order-status-manager-ajax.php:228
+msgid "Change status: "
+msgstr "تغییر وضعیت : "
+
+#: includes/class-wc-order-status-manager-order-status-email.php:93
+#: includes/class-wc-order-status-manager-order-status-email.php:105
+msgid "Order has been updated"
+msgstr "سفارش بروز شده است"
+
+#: includes/class-wc-order-status-manager-order-status-email.php:94
+msgid "Regarding your {site_title} order from {order_date}"
+msgstr "در مورد سفارش {site_title} خود از {order_date}"
+
+#: includes/class-wc-order-status-manager-order-status-email.php:95
+msgid ""
+"Your order is now {order_status}. Order details are shown below for your "
+"reference:"
+msgstr ""
+"سفارش شما اکنون {order_status} است. جزئیات سفارش برای مرجع شما در زیر نشان "
+"داده شده است :"
+
+#: includes/class-wc-order-status-manager-order-status-email.php:106
+msgid "[{site_title}] Customer order ({order_number}) updated"
+msgstr "[{site_title}] سفارش مشتری ({order_number}) ب روز شد"
+
+#: includes/class-wc-order-status-manager-order-status-email.php:107
+msgid "This order is now {order_status}. Order details are as follows:"
+msgstr "این سفارش اکنون {order_status} است. جزئیات سفارش به شرح زیر است :"
+
+#: includes/class-wc-order-status-manager-order-status-email.php:157
+msgid "Enable/Disable"
+msgstr "فعال سازی/غیرفعال سازی"
+
+#: includes/class-wc-order-status-manager-order-status-email.php:159
+msgid "Enable this email notification"
+msgstr "فعال‌سازی اعلان ایمیلی"
+
+#: includes/class-wc-order-status-manager-order-status-email.php:164
+msgid "Recipient(s)"
+msgstr "گیرنده‌ها"
+
+#: includes/class-wc-order-status-manager-order-status-email.php:167
+#, php-format
+msgid ""
+"Enter recipients (comma separated) for this email. Defaults to <code>%s</"
+"code>."
+msgstr ""
+"گیرندگان را وارد کنید (با کاما از هم جدا نمایید) برای این ایمیل. پیشفرض به "
+"<code>%s</code>."
+
+#: includes/class-wc-order-status-manager-order-status-email.php:173
+msgid "Subject"
+msgstr "موضوع"
+
+#: includes/class-wc-order-status-manager-order-status-email.php:176
+#, php-format
+msgid ""
+"This controls the email subject line. Leave blank to use the default "
+"subject: <code>%s</code>."
+msgstr ""
+"این موضوع خط ایمیل موضوع را کنترل می کند. برای استفاده از موضوع پیشفرض خالی "
+"بگذارید : <code>%s</code>."
+
+#: includes/class-wc-order-status-manager-order-status-email.php:182
+msgid "Email Heading"
+msgstr "عنوان ایمیل"
+
+#: includes/class-wc-order-status-manager-order-status-email.php:185
+#, php-format
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+"این قسمت اصلی که درون اطلاع رسانی ایمیل کنترل می شود را کنترل می کند. "
+"استفاده از عنوان پیشفرض را خالی بگذارید : <code>%s</code>."
+
+#: includes/class-wc-order-status-manager-order-status-email.php:191
+msgid "Email Body"
+msgstr "بدنه ایمیل"
+
+#: includes/class-wc-order-status-manager-order-status-email.php:193
+msgid ""
+"Optional email body text. You can use the following placeholders: "
+"<code>{order_date}, {order_number}, {order_status}, {billing_first_name}, "
+"{billing_last_name}, {billing_company}, {blogname}, {site_title}</code>"
+msgstr ""
+"متن اصلی ایمیل اختیاری. می توانید از متغیرهایی زیر استفاده کنید : "
+"<code>{order_date}, {order_number}, {order_status}, {billing_first_name}, "
+"{billing_last_name}, {billing_company}, {blogname}, {site_title}</code>"
+
+#: includes/class-wc-order-status-manager-order-status-email.php:199
+msgid "Email type"
+msgstr "نوع ایمیل"
+
+#: includes/class-wc-order-status-manager-order-status-email.php:201
+msgid "Choose which format of email to send."
+msgstr "فرمت ایمیل ارسالی را انتخاب کنید."
+
+#: includes/class-wc-order-status-manager-order-status-email.php:205
+msgid "Plain text"
+msgstr "متن ساده"
+
+#: includes/class-wc-order-status-manager-order-status-email.php:206
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/class-wc-order-status-manager-order-status-email.php:207
+msgid "Multipart"
+msgstr "چند بخشی"
+
+#: includes/class-wc-order-status-manager-order-status.php:258
+msgid "Custom"
+msgstr "دلخواه"
+
+#: includes/class-wc-order-status-manager-order-status.php:272
+msgid "Core"
+msgstr "هسته"
+
+#: includes/class-wc-order-status-manager-order-status.php:274
+msgid "Third Party"
+msgstr "شخص ثالث"
+
+#: includes/class-wc-order-status-manager-order-statuses.php:727
+#, php-format
+msgid ""
+"Order status updated from %1$s to %2$s because the former status was deleted."
+msgstr "وضعیت سفارش از %1$s به %2$s بروز شد زیرا وضعیت قبلی حذف شد."
+
+#: includes/class-wc-order-status-manager-order-statuses.php:763
+msgid "%d order that was previously %1$s is now %2$s."
+msgid_plural "%d orders that were previously %1$s are now %2$s."
+msgstr[0] "%d سفارشاتی که قبلا %1$s بودند،اکنون %2$s هستند."
+msgstr[1] "%d سفارشی که قبلا %1$s بوده،اکنون %2$s هست."
+
+#: includes/class-wc-order-status-manager-post-types.php:82
+msgid "Order Status"
+msgstr "وضعیت سفارش"
+
+#: includes/class-wc-order-status-manager-post-types.php:83
+msgctxt "Admin menu name"
+msgid "Order Statuses"
+msgstr "وضعیت های سفارش"
+
+#: includes/class-wc-order-status-manager-post-types.php:84
+msgid "Add Order Status"
+msgstr "افزودن وضعیت سفارش"
+
+#: includes/class-wc-order-status-manager-post-types.php:85
+msgid "Add New Order Status"
+msgstr "افزودن وضعیت سفارش جدید"
+
+#: includes/class-wc-order-status-manager-post-types.php:86
+#: includes/class-wc-order-status-manager-post-types.php:120
+msgid "Edit"
+msgstr "ویرایش"
+
+#: includes/class-wc-order-status-manager-post-types.php:87
+msgid "Edit Order Status"
+msgstr "ویرایش وضعیت سفارش"
+
+#: includes/class-wc-order-status-manager-post-types.php:88
+msgid "New Order Status"
+msgstr "افزودن وضعیت سفارش جدید"
+
+#: includes/class-wc-order-status-manager-post-types.php:89
+msgid "View Order Statuses"
+msgstr "مشاهده وضعیت های سفارش"
+
+#: includes/class-wc-order-status-manager-post-types.php:90
+msgid "View Order Status"
+msgstr "مشاهده وضعیت سفارش"
+
+#: includes/class-wc-order-status-manager-post-types.php:91
+msgid "Search Order Statuses"
+msgstr "جستجو وضعیت های سفارش"
+
+#: includes/class-wc-order-status-manager-post-types.php:92
+msgid "No Order Statuses found"
+msgstr "هیچ وضعیت سفارشی یافت نشد"
+
+#: includes/class-wc-order-status-manager-post-types.php:93
+msgid "No Order Statuses found in trash"
+msgstr "هیچ وضعیت سفارشی در زباله دان یافت نشد"
+
+#: includes/class-wc-order-status-manager-post-types.php:115
+msgid "Order Status Emails"
+msgstr "ایمیل های وضعیت سفارش"
+
+#: includes/class-wc-order-status-manager-post-types.php:116
+msgid "Order Status Email"
+msgstr "ایمیل وضعیت سفارش"
+
+#: includes/class-wc-order-status-manager-post-types.php:117
+msgctxt "Admin menu name"
+msgid "Order Status Emails"
+msgstr "ایمیل های وضعیت سفارش"
+
+#: includes/class-wc-order-status-manager-post-types.php:118
+msgid "Add Order Status Email"
+msgstr "افزودن ایمیل وضعیت سفارش"
+
+#: includes/class-wc-order-status-manager-post-types.php:119
+msgid "Add New Order Status Email"
+msgstr "افزودن ایمیل وضعیت سفارش جدید"
+
+#: includes/class-wc-order-status-manager-post-types.php:121
+msgid "Edit Order Status Email"
+msgstr "ویرایش ایمیل وضعیت سفارش"
+
+#: includes/class-wc-order-status-manager-post-types.php:122
+msgid "New Order Status Email"
+msgstr "ایمیل وضعیت سفارش جدید"
+
+#: includes/class-wc-order-status-manager-post-types.php:123
+msgid "View Order Status Emails"
+msgstr "مشاهده ایمیل های وضعیت سفارش"
+
+#: includes/class-wc-order-status-manager-post-types.php:124
+msgid "View Order Status Email"
+msgstr "مشاهده ایمیل وضعیت سفارش"
+
+#: includes/class-wc-order-status-manager-post-types.php:125
+msgid "Search Order Status Emails"
+msgstr "جستجو ایمیل های وضعیت سفارش"
+
+#: includes/class-wc-order-status-manager-post-types.php:126
+msgid "No Order Status Emails found"
+msgstr "هیچ ایمیل وضعیت سفارشی یافت نشد"
+
+#: includes/class-wc-order-status-manager-post-types.php:127
+msgid "No Order Status Emails found in trash"
+msgstr "هیچ ایمیل وضعیت سفارشی در زباله دان یافت نشد"
+
+#: includes/class-wc-order-status-manager-post-types.php:160
+#: includes/class-wc-order-status-manager-post-types.php:163
+#: includes/class-wc-order-status-manager-post-types.php:165
+#: includes/class-wc-order-status-manager-post-types.php:166
+#: includes/class-wc-order-status-manager-post-types.php:169
+msgid "Order Status saved."
+msgstr "وضعیت سفارش ذخیره شد."
+
+#: includes/class-wc-order-status-manager-post-types.php:161
+#: includes/class-wc-order-status-manager-post-types.php:177
+msgid "Custom field updated."
+msgstr "زمینه سفارشی به روز شد."
+
+#: includes/class-wc-order-status-manager-post-types.php:162
+#: includes/class-wc-order-status-manager-post-types.php:178
+msgid "Custom field deleted."
+msgstr "زمینه سفارشی حذف شد."
+
+#: includes/class-wc-order-status-manager-post-types.php:176
+#: includes/class-wc-order-status-manager-post-types.php:179
+#: includes/class-wc-order-status-manager-post-types.php:181
+#: includes/class-wc-order-status-manager-post-types.php:182
+#: includes/class-wc-order-status-manager-post-types.php:185
+msgid "Order Status Email saved."
+msgstr "ایمیل وضیعت سفارش ذخیره شد."
+
+#: includes/class-wc-order-status-manager-post-types.php:203
+#, php-format
+msgid "%s order status updated."
+msgid_plural "%s order statuses updated."
+msgstr[0] "%s وضعیت سفارش بروز شد."
+msgstr[1] "%s وضعیت سفارش بروز شد."
+
+#: includes/class-wc-order-status-manager-post-types.php:204
+#, php-format
+msgid "%s order status not updated, somebody is editing it."
+msgid_plural "%s order statuses not updated, somebody is editing them."
+msgstr[0] "%s وضعیت سفارش بروز نشده است ، کسی آنها را ویرایش می کند."
+msgstr[1] "%s وضعیت سفارش بروز نشده است ، کسی آنها را ویرایش می کند."
+
+#: includes/class-wc-order-status-manager-post-types.php:205
+#, php-format
+msgid "%s order status permanently deleted."
+msgid_plural "%s order statuses permanently deleted."
+msgstr[0] "%s وضعیت سفارش برای همیشه حذف شد."
+msgstr[1] "%s وضعیت سفارش برای همیشه حذف شد."
+
+#: includes/class-wc-order-status-manager-post-types.php:206
+#, php-format
+msgid "%s order status moved to the Trash."
+msgid_plural "%s order statuses moved to the Trash."
+msgstr[0] "%s وضعیت سفارش به سطل زباله منتقل شد."
+msgstr[1] "%s وضعیت سفارش به سطل زباله منتقل شد."
+
+#: includes/class-wc-order-status-manager-post-types.php:207
+#, php-format
+msgid "%s order status restored from the Trash."
+msgid_plural "%s order statuses restored from the Trash."
+msgstr[0] "%s وضعیت سفارش از سطل زباله بازیابی شد."
+msgstr[1] "%s وضعیت سفارش از سطل زباله بازیابی شد."
+
+#: includes/class-wc-order-status-manager-post-types.php:211
+#, php-format
+msgid "%s order status email updated."
+msgid_plural "%s order status emails updated."
+msgstr[0] "%s ایمیل وضعیت سفارش بروز شدند."
+msgstr[1] "%s ایمیل وضعیت سفارش بروز شدند."
+
+#: includes/class-wc-order-status-manager-post-types.php:212
+#, php-format
+msgid "%s order status email not updated, somebody is editing it."
+msgid_plural "%s order status emails not updated, somebody is editing them."
+msgstr[0] "%s ایمیل وضعیت سفارش بروز نشده است ، کسی در حال ویرایش آنها است."
+msgstr[1] "%s ایمیل وضعیت سفارش بروز نشده است ، کسی در حال ویرایش آنها است."
+
+#: includes/class-wc-order-status-manager-post-types.php:213
+#, php-format
+msgid "%s order status email permanently deleted."
+msgid_plural "%s order status emails permanently deleted."
+msgstr[0] "%s ایمیل سفارش برای همیشه حذف شد."
+msgstr[1] "%s ایمیل سفارش برای همیشه حذف شد."
+
+#: includes/class-wc-order-status-manager-post-types.php:214
+#, php-format
+msgid "%s order status email moved to the Trash."
+msgid_plural "%s order status emails moved to the Trash."
+msgstr[0] "%s ایمیل وضعیت سفارش به سطل زباله منتقل شد."
+msgstr[1] "%s ایمیل وضعیت سفارش به سطل زباله منتقل شد."
+
+#: includes/class-wc-order-status-manager-post-types.php:215
+#, php-format
+msgid "%s order status email restored from the Trash."
+msgid_plural "%s order status emails restored from the Trash."
+msgstr[0] "%s ایمیل وضعیت سفارش از سطل زباله بازیابی شد."
+msgstr[1] "%s ایمیل وضعیت سفارش از سطل زباله بازیابی شد."
+
+#: includes/class-wc-order-status-manager-post-types.php:242
+#, php-format
+msgid " <span class=\"count\">(%s)</span>"
+msgid_plural " <span class=\"count\">(%s)</span>"
+msgstr[0] " <span class=\"count\">(%s)</span>"
+msgstr[1] " <span class=\"count\">(%s)</span>"
+
+#: templates/emails/admin-order-status-email.php:56
+#, php-format
+msgid "Order: %s"
+msgstr "سفارش : %s"
+
+#: templates/emails/admin-order-status-email.php:68
+#: templates/emails/customer-order-status-email.php:58
+msgid "Product"
+msgstr "محصول"
+
+#: templates/emails/admin-order-status-email.php:69
+#: templates/emails/customer-order-status-email.php:59
+msgid "Quantity"
+msgstr "مقدار"
+
+#: templates/emails/admin-order-status-email.php:70
+#: templates/emails/customer-order-status-email.php:60
+msgid "Price"
+msgstr "قیمت"
+
+#: templates/emails/admin-order-status-email.php:104
+#: templates/emails/customer-order-status-email.php:96
+#: templates/emails/plain/admin-order-status-email.php:88
+msgid "Customer details"
+msgstr "مشخصات مشتری"
+
+#: templates/emails/admin-order-status-email.php:107
+#: templates/emails/customer-order-status-email.php:99
+#: templates/emails/plain/admin-order-status-email.php:91
+#: templates/emails/plain/customer-order-status-email.php:89
+msgid "Email:"
+msgstr "ایمیل :"
+
+#: templates/emails/admin-order-status-email.php:111
+#: templates/emails/customer-order-status-email.php:102
+#: templates/emails/plain/admin-order-status-email.php:95
+#: templates/emails/plain/customer-order-status-email.php:93
+msgid "Tel:"
+msgstr "تلفن :"
+
+#: templates/emails/customer-order-status-email.php:53
+msgid "Order:"
+msgstr "ترتیب :"
+
+#: templates/emails/plain/admin-order-status-email.php:54
+#: templates/emails/plain/customer-order-status-email.php:53
+#, php-format
+msgid "Order number: %s"
+msgstr "شماره سفارش: %s"
+
+#: templates/emails/plain/admin-order-status-email.php:57
+#, php-format
+msgid "Order link: %s"
+msgstr "پیوند سفارش : %s"
+
+#: templates/emails/plain/admin-order-status-email.php:62
+#: templates/emails/plain/customer-order-status-email.php:58
+#, php-format
+msgid "Order date: %s"
+msgstr "تاریخ سفارش : %s"
+
+#: templates/emails/plain/admin-order-status-email.php:62
+msgid "jS F Y"
+msgstr "jS F Y"
+
+#: templates/emails/plain/customer-order-status-email.php:86
+msgid "Your details"
+msgstr "جزییات شما"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/Lifecycle.php:377
+msgid "Awesome"
+msgstr "عالی"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/Lifecycle.php:378
+msgid "Fantastic"
+msgstr "خارق العاده"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/Lifecycle.php:379
+msgid "Cowabunga"
+msgstr "کوابابونگا"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/Lifecycle.php:380
+msgid "Congratulations"
+msgstr "تبریک می گویم"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/Lifecycle.php:381
+msgid "Hot dog"
+msgstr "هات داگ"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/Lifecycle.php:388
+#, php-format
+msgid ""
+"Are you having a great experience with %1$s so far? Please consider "
+"%2$sleaving a review%3$s! If things aren't going quite as expected, we're "
+"happy to help -- please %4$sreach out to our support team%5$s."
+msgstr ""
+"آیا تاکنون تجربه خوبی با %1$s دارید؟ لطفا %2$s را در نظر بگیرید تا یک بررسی "
+"%3$s را بررسی کنید! اگر همه چیز مطابق انتظار پیش نرود ، ما خوشحال می شویم که "
+"به شما کمک کنیم - لطفا %4$s به تیم پشتیبانی ما %5$s دسترسی پیدا کنید."
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:182
+#, php-format
+msgid ""
+"Thanks for installing %1$s! To get started, take a minute to %2$sread the "
+"documentation%3$s :)"
+msgstr ""
+"بابت نصب %1$s متشکریم! برای شروع ، یک دقیقه وقت بگذارید تا %2$s مستندات %3$s "
+"را بخوانید :)"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:210
+#, php-format
+msgid ""
+"Thanks for installing %1$s! To get started, take a minute to complete these "
+"%2$squick and easy setup steps%3$s :)"
+msgstr ""
+"بابت نصب %1$s متشکریم! برای شروع ، یک دقیقه وقت بگذارید تا این %2$s مراحل "
+"ساده و راه اندازی آسان %3$s را انجام دهید :)"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:235
+msgid "Setup"
+msgstr "نصب"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:303
+#, php-format
+msgid "%s &rsaquo; Setup"
+msgstr "%s &rsaquo; نصب"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:351
+msgid "Oops! An error occurred, please try again."
+msgstr "اوه! خطایی روی داد ، لطفاً دوباره امتحان کنید."
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:396
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr "جستجو حاصلی دربرنداشت"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:397
+msgctxt "enhanced select"
+msgid "Loading failed"
+msgstr "بارگیری انجام نشد"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:398
+msgctxt "enhanced select"
+msgid "Please enter 1 or more characters"
+msgstr "لطفاً 1 یا چند نویسه وارد کنید"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:399
+msgctxt "enhanced select"
+msgid "Please enter %qty% or more characters"
+msgstr "لطفا %qty% یا بیشتر نویسه وارد کنید"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:400
+msgctxt "enhanced select"
+msgid "Please delete 1 character"
+msgstr "لطفا 1 نویسه را حذف کنید"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:401
+msgctxt "enhanced select"
+msgid "Please delete %qty% characters"
+msgstr "لطفا %qty% نویسه ها را حذف کنید"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:402
+msgctxt "enhanced select"
+msgid "You can only select 1 item"
+msgstr "فقط می توانید 1 مورد را انتخاب کنید"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:403
+msgctxt "enhanced select"
+msgid "You can only select %qty% items"
+msgstr "شما فقط می توانید %qty% موارد را انتخاب کنید"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:404
+msgctxt "enhanced select"
+msgid "Loading more results&hellip;"
+msgstr "بارگیری نتایج بیشتر &hellip;"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:405
+msgctxt "enhanced select"
+msgid "Searching&hellip;"
+msgstr "جستجوکردن &hellip;"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:489
+msgid "Ready!"
+msgstr "آماده!"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:582
+#, php-format
+msgid "Welcome to %s!"
+msgstr "خوش آمدید به %s!"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:595
+msgid ""
+"This quick setup wizard will help you configure the basic settings and get "
+"you started."
+msgstr ""
+"این راه اندازی سریع به شما کمک می کند تا تنظیمات اصلی را پیکربندی کرده و "
+"شروع کنید."
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:609
+#, php-format
+msgid "%s is ready!"
+msgstr "%s آماده است!"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:661
+msgid "Next step"
+msgstr "مرحله بعد"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:687
+msgid "You can also:"
+msgstr "شما همچنین می توانید :"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:731
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:761
+msgid "View the Docs"
+msgstr "مشاهده اسناد"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:732
+msgid "See more setup options"
+msgstr "گزینه های بیشتر نصب را مشاهده کنید"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:733
+msgid "Learn more about customizing the plugin"
+msgstr "درباره شخصی سازی افزونه بیشتر بدانید"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:757
+msgid "Review Your Settings"
+msgstr "تنظیمات خود را مرور کنید"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:765
+msgid "Leave a Review"
+msgstr "یک بررسی بگذارید"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:789
+msgid "Continue"
+msgstr "ادامه هید"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:949
+msgid "Return to the WordPress Dashboard"
+msgstr "بازگشت به پیشخوان وردپرس"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:951
+msgid "Not right now"
+msgstr "الان نه"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:953
+msgid "Skip this step"
+msgstr "از این مرحله بگذر"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-framework-bootstrap.php:268
+msgid ""
+"The following plugin is disabled because it is out of date and incompatible "
+"with newer plugins on your site:"
+msgid_plural ""
+"The following plugins are disabled because they are out of date and "
+"incompatible with newer plugins on your site:"
+msgstr[0] ""
+"افزونه های زیر غیرفعال شده اند زیرا قدیمی هستند و با افزونه های جدید سایت "
+"شما سازگار نیستند :"
+msgstr[1] ""
+"افزونه زیر غیر فعال شده است زیرا قدیمی است و با افزونه های جدید سایت شما "
+"سازگار نیست :"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-framework-bootstrap.php:282
+#, php-format
+msgid ""
+"To resolve this, please %1$supdate%2$s (recommended) %3$sor%4$s "
+"%5$sdeactivate%6$s the above plugin, or %7$sdeactivate the following%8$s:"
+msgid_plural ""
+"To resolve this, please %1$supdate%2$s (recommended) %3$sor%4$s "
+"%5$sdeactivate%6$s the above plugins, or %7$sdeactivate the following%8$s:"
+msgstr[0] ""
+"برای حل این مشکل ، لطفا %1$sرا بروز کنید %2$s (توصیه می شود) %3$sیا %4$s "
+"افزونه فوق را %5$s غیرفعال کنید%6$s, یا %7$sزیر را غیرفعال کنید %8$s:"
+msgstr[1] ""
+"برای حل این مشکل ، لطفا %1$sرا بروز کنید %2$s (توصیه می شود) %3$sیا %4$s "
+"افزونه فوق را %5$s غیرفعال کنید%6$s, یا %7$sزیر را غیرفعال کنید %8$s:"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-framework-bootstrap.php:303
+msgid ""
+"The following plugins are inactive because they require a newer version of "
+"WooCommerce:"
+msgstr ""
+"افزونه های زیر غیرفعال هستند زیرا به نسخه جدیدتری از ووکامرس نیاز دارند:"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-framework-bootstrap.php:303
+msgid ""
+"The following plugin is inactive because it requires a newer version of "
+"WooCommerce:"
+msgstr "افزونه زیر غیرفعال است زیرا به نسخه جدیدتری از ووکامرس نیاز دارد:"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-framework-bootstrap.php:308
+#, php-format
+msgid "%1$s requires WooCommerce %2$s or newer"
+msgstr "%1$s به %2$s ووکامرس یا جدیدتر نیاز دارد"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-framework-bootstrap.php:312
+#, php-format
+msgid "Please %1$supdate WooCommerce%2$s"
+msgstr "لطفا  %1$s ووکامرس را بروز رسانی کنید %2$s"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-helper.php:408
+msgctxt "coordinating conjunction for a list of items: a, b, and c"
+msgid "and"
+msgstr "و"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin-compatibility.php:334
+msgid "WooCommerce"
+msgstr "ووکامرس"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin-dependencies.php:157
+#, php-format
+msgid ""
+"%1$s requires the %2$s PHP extension to function. Contact your host or "
+"server administrator to install and configure the missing extension."
+msgid_plural ""
+"%1$s requires the following PHP extensions to function: %2$s. Contact your "
+"host or server administrator to install and configure the missing extensions."
+msgstr[0] ""
+"%1$s برای عملکرد به پسوند PHP%2$s نیاز دارد. برای نصب و پیکربندی افزونه "
+"گمشده با میزبان یا سرور خود تماس بگیرید."
+msgstr[1] ""
+"%1$s برای عملکرد به پسوند PHP%2$s نیاز دارد. برای نصب و پیکربندی افزونه "
+"گمشده با میزبان یا سرور خود تماس بگیرید."
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin-dependencies.php:185
+#, php-format
+msgid ""
+"%1$s requires the %2$s PHP function to exist.  Contact your host or server "
+"administrator to install and configure the missing function."
+msgid_plural ""
+"%1$s requires the following PHP functions to exist: %2$s.  Contact your host "
+"or server administrator to install and configure the missing functions."
+msgstr[0] ""
+"%1$s نیاز به عملکرد  %2$s PHP دارد. برای نصب و پیکربندی عملکرد گمشده با "
+"میزبان یا سرور خود تماس بگیرید."
+msgstr[1] ""
+"%1$s نیاز به عملکرد  %2$s PHP دارد. برای نصب و پیکربندی عملکرد گمشده با "
+"میزبان یا سرور خود تماس بگیرید."
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin-dependencies.php:214
+#, php-format
+msgid ""
+"%s may behave unexpectedly because the following PHP configuration settings "
+"are required:"
+msgstr ""
+"%s ممکن است غیرمنتظره رفتار کند زیرا به تنظیمات پیکربندی PHP زیر نیاز است:"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin-dependencies.php:228
+#, php-format
+msgid "%s or higher"
+msgstr "%s یا بالاتر"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin-dependencies.php:238
+msgid ""
+"Please contact your hosting provider or server administrator to configure "
+"these settings."
+msgstr ""
+"برای پیکربندی این تنظیمات لطفا با ارائه دهنده میزبانی یا سرور خود تماس "
+"بگیرید."
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin-dependencies.php:260
+#, php-format
+msgid ""
+"Hey there! We've noticed that your server is running %1$san outdated version "
+"of PHP%2$s, which is the programming language that WooCommerce and its "
+"extensions are built on.\n"
+"\t\t\t\t\tThe PHP version that is currently used for your site is no longer "
+"maintained, nor %1$sreceives security updates%2$s; newer versions are faster "
+"and more secure.\n"
+"\t\t\t\t\tAs a result, %3$s no longer supports this version and you should "
+"upgrade PHP as soon as possible.\n"
+"\t\t\t\t\tYour hosting provider can do this for you. %4$sHere are some "
+"resources to help you upgrade%5$s and to explain PHP versions further."
+msgstr ""
+"سلام! ما متوجه شده ایم که سرور شما  %1$s نسخه قدیمی   PHP%2$s را اجرا می "
+"کند ، این زبان برنامه نویسی است که ووکامرس و پسوندهای آن بر روی آن ساخته شده "
+"است.\n"
+"نسخه PHP که در حال حاضر برای سایت شما استفاده می شود دیگر حفظ نمی شود و "
+"همچنین %1$s به روزرسانی های امنیتی %2$s را به دست نمی آورد. نسخه های جدید "
+"سریعتر و ایمن تر هستند.\n"
+"در نتیجه ، %3$s دیگر از این نسخه پشتیبانی نمی کند و شما باید PHP را در اسرع "
+"وقت ارتقا دهید.\n"
+"ارائه دهنده میزبانی شما می تواند این کار را برای شما انجام دهد.  %4$s در "
+"اینجا برخی منابع برای کمک به شما در ارتقا %5$s و توضیح بیشتر نسخه های PHP "
+"وجود دارد."
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin.php:306
+#, php-format
+msgid "You cannot clone instances of %s."
+msgstr "نمی توانید نمونه های %s را شبیه سازی کنید."
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin.php:317
+#, php-format
+msgid "You cannot unserialize instances of %s."
+msgstr "نمی توانید نمونه های %s را غیرمجاز کنید."
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin.php:564
+#, php-format
+msgid ""
+"Heads up! %1$s will soon discontinue support for WooCommerce %2$s. Please "
+"%3$supdate WooCommerce%4$s to take advantage of the latest updates and "
+"features."
+msgstr ""
+"%1$s بزودی پشتیبانی از %2$s ووکامرس را قطع می کند. لطفاً برای استفاده از "
+"جدیدترین بروزرسانی ها و ویژگی ها ، %3$s تاریخ جدید %4$s  ووکامرس را به روز "
+"کنید."
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin.php:607
+msgid "Docs"
+msgstr "مستندات"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin.php:612
+msgctxt "noun"
+msgid "Support"
+msgstr "پشتیبانی"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin.php:617
+msgctxt "verb"
+msgid "Review"
+msgstr "بررسی"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin.php:700
+#, php-format
+msgid "%1$s - A minimum of %2$s is required."
+msgstr "%1$s - حداقل %2$s لازم است ."
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin.php:709
+#, php-format
+msgid "Set as %1$s - %2$s is required."
+msgstr "تنظیم به عنوان %1$s - %2$s لازم است."
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin.php:932
+msgid "Configure"
+msgstr "پیکربندی"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/utilities/class-sv-wp-background-job-handler.php:644
+#, php-format
+msgid "Job data key \"%s\" not set"
+msgstr "کلید داده شغلی  \"%s\" تنظیم نشده است"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/utilities/class-sv-wp-background-job-handler.php:648
+#, php-format
+msgid "Job data key \"%s\" is not an array"
+msgstr "کلید داده کار  \"%s\"  آرایه ای نیست"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/utilities/class-sv-wp-background-job-handler.php:884
+#, php-format
+msgid "Every %d Minutes"
+msgstr "هر %d دقیقه"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/utilities/class-sv-wp-background-job-handler.php:1048
+msgid "Background Processing Test"
+msgstr "تست پردازش پس زمینه"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/utilities/class-sv-wp-background-job-handler.php:1049
+msgid "Run Test"
+msgstr "اجرای تست"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/utilities/class-sv-wp-background-job-handler.php:1050
+msgid ""
+"This tool will test whether your server is capable of processing background "
+"jobs."
+msgstr ""
+"این ابزار بررسی خواهد کرد که آیا سرور شما قادر به پردازش کارهای  پس زمینه "
+"است."
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/utilities/class-sv-wp-background-job-handler.php:1068
+msgid "Success! You should be able to process background jobs."
+msgstr "موفق باشید! باید بتوانید کارهای پس زمینه را پردازش کنید."
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/utilities/class-sv-wp-background-job-handler.php:1071
+msgid ""
+"Could not connect. Please ask your hosting company to ensure your server has "
+"loopback connections enabled."
+msgstr ""
+"نتوانست متصل شود. لطفاً از شرکت میزبان خود بخواهید اطمینان حاصل کند که سرور "
+"شما اتصالات برگشتی را فعال کرده است."
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://wpnovin.com/product/woocommerce-order-status-manager/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"افزونه WooCommerce Order Status Manager یکی از افزونه های کاربردی ووکامرس "
+"است که با کمک آن می توانید کنترل کاملی روی وضعیت سفارش های خود داشته باشید. "
+"این افزونه اعلان وضعیت ووکامرس به شما این امکان را می دهد تا وضعیت اضافی "
+"برای صفحات سفارشات خود ایجاد کنید و وضعیت های قدیم خود را ویرایش کنید"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "نوین وردپرس"
+msgstr ""
+
+#~ msgid ""
+#~ "Easily create custom order statuses and trigger custom emails when order "
+#~ "status changes"
+#~ msgstr ""
+#~ "به راحتی وضعیت سفارشات سفارشی ایجاد کنید و با تغییر وضعیت سفارش ، ایمیل "
+#~ "های سفارشی را طراحی و ارسال کنید"
+
+#~ msgid "SkyVerge"
+#~ msgstr "بومی سازی لرن دی ال"
+
+#~ msgid "http://www.woocommerce.com"
+#~ msgstr "https://learndl.ir"
+
+#~ msgid ""
+#~ "http://www.woocommerce.com/products/woocommerce-order-status-manager/"
+#~ msgstr ""
+#~ "http://www.woocommerce.com/products/woocommerce-order-status-manager/"

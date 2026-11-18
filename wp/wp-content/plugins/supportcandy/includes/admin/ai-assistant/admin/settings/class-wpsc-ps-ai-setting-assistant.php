@@ -1,0 +1,166 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly!
+}
+
+if ( ! class_exists( 'WPSC_PS_AI_Setting_Assistant' ) ) :
+
+	final class WPSC_PS_AI_Setting_Assistant {
+
+		/**
+		 * Initialize this class
+		 *
+		 * @return void
+		 */
+		public static function init() {
+
+			// List.
+			add_action( 'wp_ajax_wpsc_get_aia_assistant_setting', array( __CLASS__, 'get_aia_assistant_setting' ) );
+
+			// Save settings.
+			add_action( 'wp_ajax_wpsc_set_ai_assistant_settings', array( __CLASS__, 'save_settings' ) );
+		}
+
+		/**
+		 * Get AI assistant tab setting
+		 *
+		 * @return void
+		 */
+		public static function get_aia_assistant_setting() {
+
+			if ( ! WPSC_Functions::is_site_admin() ) {
+				wp_send_json_error( __( 'Unauthorized access!', 'supportcandy' ), 401 );
+			}
+
+			$ai_settings = get_option( 'wpsc-ps-ai-assistant-settings', array() );
+			if ( empty( $ai_settings ) ) {
+				wp_send_json_error( __( 'Something went wrong.', 'supportcandy' ), 404 );
+			}
+
+			if ( ! isset( $ai_settings['status'] ) ) {
+				$ai_settings['status'] = '0';
+			}
+			?>
+			<form action="#" onsubmit="return false;" class="wpsc-frm-ai-assistant-settings">
+
+				<div class="wpsc-input-group">
+					<div class="label-container">
+						<label for="wpsc-ai-service-status"><?php esc_attr_e( 'AI Assistant Status', 'supportcandy' ); ?></label>
+					</div>
+					<p class="wpsc-input-desc"><?php esc_attr_e( 'Turns on AI draft replies, the "Polish (AI)" button and ticket summaries. When disabled, these features are not loaded.', 'supportcandy' ); ?></p>
+					<select id="wpsc-ai-service-status" name="wpsc-ai-service-status">
+						<option value="1" <?php selected( $ai_settings['status'], '1' ); ?>><?php esc_html_e( 'Enable', 'supportcandy' ); ?></option>
+						<option value="0" <?php selected( $ai_settings['status'], '0' ); ?>><?php esc_html_e( 'Disable', 'supportcandy' ); ?></option>
+					</select>
+				</div>
+
+				<div class="wpsc-input-group">
+					<div class="label-container">
+						<label for="custom-prompt"><?php esc_attr_e( 'Polish (AI) Custom Prompt (Additional instructions)', 'supportcandy' ); ?></label>
+					</div>
+					<p class="wpsc-input-desc"><?php esc_attr_e( 'Extra instructions added to the end of the prompt used when text is improved with the "Polish (AI)" button. Leave empty to use only the built-in prompt.', 'supportcandy' ); ?></p>
+					<textarea class="wpsc_textarea" id="custom-prompt" name="custom-prompt" style="height: 100px !important;"><?php echo esc_textarea( $ai_settings['custom-prompt'] ?? '' ); ?></textarea>
+				</div>
+
+				<div class="wpsc-input-group">
+					<div class="label-container">
+						<label for="summary-custom-prompt"><?php esc_attr_e( 'Summary Custom Prompt (Additional instructions)', 'supportcandy' ); ?></label>
+					</div>
+					<p class="wpsc-input-desc"><?php esc_attr_e( 'Extra instructions added to the end of the prompt used to create ticket summaries. Leave empty to use only the built-in prompt.', 'supportcandy' ); ?></p>
+					<textarea class="wpsc_textarea" id="summary-custom-prompt" name="summary-custom-prompt" style="height: 100px !important;"><?php echo esc_textarea( $ai_settings['summary-custom-prompt'] ?? '' ); ?></textarea>
+				</div>
+
+				<div class="wpsc-input-group">
+					<div class="label-container">
+						<label for="auto-draft-custom-prompt"><?php esc_attr_e( 'Auto Draft Custom Prompt (Additional instructions)', 'supportcandy' ); ?></label>
+					</div>
+					<p class="wpsc-input-desc"><?php esc_attr_e( 'Extra instructions added to the end of the prompt used to create AI draft replies. Leave empty to use only the built-in prompt.', 'supportcandy' ); ?></p>
+					<textarea class="wpsc_textarea" id="auto-draft-custom-prompt" name="auto-draft-custom-prompt" style="height: 100px !important;"><?php echo esc_textarea( $ai_settings['auto-draft-custom-prompt'] ?? '' ); ?></textarea>
+				</div>
+
+				<div class="wpsc-input-group">
+					<div class="label-container">
+						<label for="wpsc-ai-auto-delete-logs-time"><?php esc_attr_e( 'Auto delete AI logs', 'supportcandy' ); ?></label>
+					</div>
+					<p class="wpsc-input-desc"><?php esc_attr_e( 'Entries in the AI Logs tab older than this are deleted automatically. Enter 0 to keep logs forever.', 'supportcandy' ); ?></p>
+					<div class="divide-bar">
+						<input type="number" class="wpsc-ai-auto-delete-logs-time" id="wpsc-ai-auto-delete-logs-time" name="auto-delete-ai-logs-time" value="<?php echo esc_attr( $ai_settings['auto-delete-ai-logs-time'] ?? '' ); ?>">
+						<select id="wpsc-ai-auto-delete-logs-unit" name="auto-delete-ai-logs-unit" class="wpsc-ai-auto-delete-logs-unit">
+							<option <?php selected( $ai_settings['auto-delete-ai-logs-unit'] ?? '', 'days' ); ?> value="days"><?php esc_attr_e( 'Day(s)', 'supportcandy' ); ?></option>
+							<option <?php selected( $ai_settings['auto-delete-ai-logs-unit'] ?? '', 'month' ); ?> value="month"><?php esc_attr_e( 'Month(s)', 'supportcandy' ); ?></option>
+							<option <?php selected( $ai_settings['auto-delete-ai-logs-unit'] ?? '', 'year' ); ?> value="year"><?php esc_attr_e( 'Year(s)', 'supportcandy' ); ?></option>
+						</select>
+					</div>
+				</div>
+
+				<input type="hidden" name="action" value="wpsc_set_ai_assistant_settings">
+				<input type="hidden" name="_ajax_nonce" value="<?php echo esc_attr( wp_create_nonce( 'wpsc_set_ai_assistant_settings' ) ); ?>">
+
+				<div class="setting-footer-actions">
+					<button
+						class="wpsc-button normal primary margin-right"
+						onclick="wpsc_set_ai_assistant_settings(this);">
+						<?php esc_attr_e( 'Submit', 'supportcandy' ); ?>
+					</button>
+				</div>
+			</form>
+			<?php
+			wp_die();
+		}
+
+		/**
+		 * Save AI assistant tab setting
+		 *
+		 * @return void
+		 */
+		public static function save_settings() {
+
+			if ( ! check_ajax_referer( 'wpsc_set_ai_assistant_settings', '_ajax_nonce', false ) ) {
+				wp_send_json_error( 'Unauthorized request!', 401 );
+			}
+
+			if ( ! WPSC_Functions::is_site_admin() ) {
+				wp_send_json_error( __( 'Unauthorized access!', 'supportcandy' ), 401 );
+			}
+
+			$ai_settings = get_option( 'wpsc-ps-ai-assistant-settings', array() );
+
+			$status = isset( $_POST['wpsc-ai-service-status'] ) ? sanitize_text_field( wp_unslash( $_POST['wpsc-ai-service-status'] ) ) : '';
+			if ( '' === $status || ! in_array( $status, array( '1', '0' ), true ) ) {
+				wp_send_json_error( __( 'Invalid or missing AI assistant status!', 'supportcandy' ), 400 );
+			}
+
+			$auto_delete_ai_logs_time = isset( $_POST['auto-delete-ai-logs-time'] ) ? intval( $_POST['auto-delete-ai-logs-time'] ) : 0;
+			if ( $auto_delete_ai_logs_time < 0 ) {
+				wp_send_json_error( __( 'Auto delete AI logs time must be zero or a positive integer.', 'supportcandy' ), 400 );
+			}
+
+			$auto_delete_ai_logs_unit = isset( $_POST['auto-delete-ai-logs-unit'] ) ? sanitize_text_field( wp_unslash( $_POST['auto-delete-ai-logs-unit'] ) ) : '';
+			if ( empty( $auto_delete_ai_logs_unit ) ) {
+				wp_send_json_error( __( 'Invalid or missing auto delete AI logs unit!', 'supportcandy' ), 400 );
+			}
+
+			$custom_prompt            = isset( $_POST['custom-prompt'] ) ? sanitize_textarea_field( wp_unslash( $_POST['custom-prompt'] ) ) : '';
+			$summary_custom_prompt    = isset( $_POST['summary-custom-prompt'] ) ? sanitize_textarea_field( wp_unslash( $_POST['summary-custom-prompt'] ) ) : '';
+			$auto_draft_custom_prompt = isset( $_POST['auto-draft-custom-prompt'] ) ? sanitize_textarea_field( wp_unslash( $_POST['auto-draft-custom-prompt'] ) ) : '';
+
+			// Only update fields owned by this tab; leave other tabs' settings untouched.
+			$ai_settings['status'] = $status;
+			$ai_settings['auto-delete-ai-logs-time'] = $auto_delete_ai_logs_time;
+			$ai_settings['auto-delete-ai-logs-unit'] = $auto_delete_ai_logs_unit;
+			$ai_settings['custom-prompt'] = $custom_prompt;
+			$ai_settings['summary-custom-prompt'] = $summary_custom_prompt;
+			$ai_settings['auto-draft-custom-prompt'] = $auto_draft_custom_prompt;
+
+			update_option( 'wpsc-ps-ai-assistant-settings', $ai_settings );
+
+			wp_send_json_success(
+				array(
+					'message' => __( 'Settings saved successfully.', 'supportcandy' ),
+				)
+			);
+			wp_die();
+		}
+	}
+endif;
+WPSC_PS_AI_Setting_Assistant::init();

@@ -1,0 +1,302 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly!
+}
+
+if ( ! class_exists( 'WPSC_ACB_General_Setting' ) ) :
+
+	final class WPSC_ACB_General_Setting {
+
+		/**
+		 * Initialize this class
+		 *
+		 * @return void
+		 */
+		public static function init() {
+
+			// List.
+			add_action( 'wp_ajax_wpsc_get_acb_general_setting', array( __CLASS__, 'get_acb_general_setting' ) );
+
+			// Save, reset & test settings.
+			add_action( 'wp_ajax_wpsc_set_acb_settings', array( __CLASS__, 'save_settings' ) );
+			add_action( 'wp_ajax_wpsc_reset_acb_settings', array( __CLASS__, 'reset_settings' ) );
+		}
+
+		/**
+		 * Get AI ChatBot general setting
+		 *
+		 * @return void
+		 */
+		public static function get_acb_general_setting() {
+
+			if ( ! WPSC_Functions::is_site_admin() ) {
+				wp_send_json_error( __( 'Unauthorized access!', 'supportcandy' ), 401 );
+			}
+
+			$acb_settings = get_option( 'wpsc-ps-acb-chatbot-settings', array() );
+			$ai_settings = get_option( 'wpsc-ps-ai-assistant-settings', array() );
+			if ( empty( $acb_settings ) ) {
+				wp_send_json_error( __( 'Something went wrong.', 'supportcandy' ), 404 );
+			}
+
+			if ( ! isset( $acb_settings['status'] ) ) {
+				$acb_settings['status'] = '0';
+			}
+
+			if ( ! isset( $acb_settings['popup-delay-status'] ) ) {
+				$acb_settings['popup-delay-status'] = '1';
+			}
+
+			if ( ! isset( $acb_settings['popup-delay'] ) ) {
+				$acb_settings['popup-delay'] = 10;
+			}
+
+			if ( ! isset( $acb_settings['popup-display-limit'] ) ) {
+				$acb_settings['popup-display-limit'] = 3;
+			}
+
+			if ( ! isset( $acb_settings['custom-prompt'] ) ) {
+				$acb_settings['custom-prompt'] = '';
+			}
+			?>
+			<form action="#" onsubmit="return false;" class="wpsc-frm-acb-settings">
+
+				<div class="wpsc-setting-group">
+					<h3 class="wpsc-setting-group-title"><?php echo esc_html__( 'Chatbot', 'supportcandy' ); ?></h3>
+					<div class="wpsc-setting-group-body">
+						<div class="wpsc-input-group">
+							<div class="label-container">
+								<label for="wpsc-acb-service-status"><?php esc_attr_e( 'AI Chatbot Status', 'supportcandy' ); ?></label>
+							</div>
+							<p class="wpsc-input-desc"><?php esc_attr_e( 'Shows the AI chatbot on your website. The chatbot only appears when this is enabled and your AI provider is connected.', 'supportcandy' ); ?></p>
+							<select id="wpsc-acb-service-status" name="acb-service-status" style="max-width: 250px;">
+								<option value="1" <?php selected( $acb_settings['status'], '1' ); ?>><?php esc_html_e( 'Enable', 'supportcandy' ); ?></option>
+								<option value="0" <?php selected( $acb_settings['status'], '0' ); ?>><?php esc_html_e( 'Disable', 'supportcandy' ); ?></option>
+							</select>
+						</div>
+						<div class="wpsc-input-group wpsc-acb-status-dependent" <?php echo '0' === (string) $acb_settings['status'] ? 'style="display:none;"' : ''; ?>>
+							<div class="label-container">
+								<label for="wpsc-acb-chat-show-footer-branding"><?php esc_attr_e( 'Show footer branding', 'supportcandy' ); ?></label>
+							</div>
+							<p class="wpsc-input-desc"><?php esc_attr_e( 'Shows a "Powered by" SupportCandy link at the bottom of the chat window, below the message box.', 'supportcandy' ); ?></p>
+							<div class="divide-bar">
+								<select id="wpsc-acb-chat-show-footer-branding" name="show-footer-branding" class="wpsc-acb-chat-show-footer-branding" style="max-width: 250px;">
+									<option <?php selected( $acb_settings['show-footer-branding'], '1' ); ?> value="1"><?php esc_attr_e( 'Yes', 'supportcandy' ); ?></option>
+									<option <?php selected( $acb_settings['show-footer-branding'], '0' ); ?> value="0"><?php esc_attr_e( 'No', 'supportcandy' ); ?></option>
+								</select>
+							</div>
+						</div>
+						<div class="wpsc-input-group wpsc-acb-status-dependent" <?php echo '0' === (string) $acb_settings['status'] ? 'style="display:none;"' : ''; ?>>
+							<div class="label-container">
+								<label for="wpsc-acb-custom-prompt"><?php esc_attr_e( 'Chatbot Custom Prompt (Additional instructions)', 'supportcandy' ); ?></label>
+							</div>
+							<p class="wpsc-input-desc"><?php esc_attr_e( 'Extra instructions added to the chatbot\'s built-in prompt for every conversation. Leave empty to use only the built-in prompt.', 'supportcandy' ); ?></p>
+							<textarea id="wpsc-acb-custom-prompt" name="custom-prompt" rows="4"><?php echo esc_textarea( $acb_settings['custom-prompt'] ); ?></textarea>
+						</div>
+					</div>
+				</div>
+
+				<div class="wpsc-setting-group">
+					<h3 class="wpsc-setting-group-title"><?php echo esc_html__( 'Greeting Bubble', 'supportcandy' ); ?></h3>
+					<div class="wpsc-setting-group-body">
+						<div class="wpsc-input-group">
+							<div class="label-container">
+								<label for="wpsc-acb-sessions-popup-delay-status"><?php esc_attr_e( 'Greeting Bubble Status', 'supportcandy' ); ?></label>
+							</div>
+							<p class="wpsc-input-desc"><?php esc_attr_e( 'Shows the greeting message in a small bubble next to the chatbot launcher, inviting visitors to open the chat. It is not shown if the visitor already has an active chat session.', 'supportcandy' ); ?></p>
+							<select id="wpsc-acb-sessions-popup-delay-status" name="popup-delay-status" style="max-width: 250px;">
+								<option value="1" <?php selected( $acb_settings['popup-delay-status'], '1' ); ?>><?php esc_html_e( 'Enable', 'supportcandy' ); ?></option>
+								<option value="0" <?php selected( $acb_settings['popup-delay-status'], '0' ); ?>><?php esc_html_e( 'Disable', 'supportcandy' ); ?></option>
+							</select>
+						</div>
+						<div class="wpsc-input-group wpsc-acb-popup-delay-dependent" <?php echo '0' === (string) $acb_settings['popup-delay-status'] ? 'style="display:none;"' : ''; ?>>
+							<div class="label-container">
+								<label for="wpsc-acb-sessions-popup-delay"><?php esc_attr_e( 'Greeting Bubble Delay', 'supportcandy' ); ?></label>
+							</div>
+							<p class="wpsc-input-desc"><?php esc_attr_e( 'Number of seconds to wait after the page loads before the greeting bubble appears.', 'supportcandy' ); ?></p>
+							<input type="number" id="wpsc-acb-sessions-popup-delay" name="popup-delay" value="<?php echo esc_attr( $acb_settings['popup-delay'] ); ?>" min="1" style="max-width: 100px;" />
+						</div>
+						<div class="wpsc-input-group wpsc-acb-popup-delay-dependent" <?php echo '0' === (string) $acb_settings['popup-delay-status'] ? 'style="display:none;"' : ''; ?>>
+							<div class="label-container">
+								<label for="wpsc-acb-sessions-popup-display-limit"><?php esc_attr_e( 'Greeting Bubble Display Limit', 'supportcandy' ); ?></label>
+							</div>
+							<p class="wpsc-input-desc"><?php esc_attr_e( 'Maximum number of times the greeting bubble is shown to the same visitor within 24 hours.', 'supportcandy' ); ?></p>
+							<input type="number" id="wpsc-acb-sessions-popup-display-limit" name="popup-display-limit" value="<?php echo esc_attr( $acb_settings['popup-display-limit'] ); ?>" min="1" style="max-width: 100px;" />
+						</div>
+					</div>
+				</div>
+
+				<div class="wpsc-setting-group wpsc-acb-status-dependent" <?php echo '0' === (string) $acb_settings['status'] ? 'style="display:none;"' : ''; ?>>
+					<h3 class="wpsc-setting-group-title"><?php echo esc_html__( 'Sessions', 'supportcandy' ); ?></h3>
+					<div class="wpsc-setting-group-body">
+						<div class="wpsc-input-group">
+							<div class="label-container">
+								<label for="wpsc-acb-delete-session"><?php esc_attr_e( 'Auto delete AI chatbot sessions', 'supportcandy' ); ?></label>
+							</div>
+							<p class="wpsc-input-desc"><?php esc_attr_e( 'Chat sessions with no activity for longer than this are deleted automatically. Enter 0 to keep sessions forever.', 'supportcandy' ); ?></p>
+							<div class="divide-bar">
+								<input type="number" class="wpsc-acb-delete-session" id="wpsc-acb-delete-session" name="delete-acb-session-time" value="<?php echo esc_attr( $acb_settings['delete-acb-session-time'] ); ?>" style="max-width: 100px;">
+								<select id="wpsc-acb-auto-delete-logs-unit" name="delete-acb-session-unit" class="wpsc-acb-auto-delete-logs-unit" style="max-width: 250px;">
+									<option <?php selected( $acb_settings['delete-acb-session-unit'], 'days' ); ?> value="days"><?php esc_attr_e( 'Day(s)', 'supportcandy' ); ?></option>
+									<option <?php selected( $acb_settings['delete-acb-session-unit'], 'month' ); ?> value="month"><?php esc_attr_e( 'Month(s)', 'supportcandy' ); ?></option>
+									<option <?php selected( $acb_settings['delete-acb-session-unit'], 'year' ); ?> value="year"><?php esc_attr_e( 'Year(s)', 'supportcandy' ); ?></option>
+								</select>
+							</div>
+						</div>
+						<div class="wpsc-input-group">
+							<div class="label-container">
+								<label for="wpsc-acb-sessions-per-page"><?php esc_attr_e( 'Number of sessions per page', 'supportcandy' ); ?></label>
+							</div>
+							<p class="wpsc-input-desc"><?php esc_attr_e( 'How many chat sessions are listed per page on the AI Chatbot "Chat Sessions" admin page.', 'supportcandy' ); ?></p>
+							<input type="number" id="wpsc-acb-sessions-per-page" name="sessions-per-page" value="<?php echo esc_attr( $acb_settings['sessions-per-page'] ); ?>" min="1" style="max-width: 100px;" />
+						</div>
+					</div>
+				</div>
+
+				<input type="hidden" name="action" value="wpsc_set_acb_settings">
+				<input type="hidden" name="_ajax_nonce" value="<?php echo esc_attr( wp_create_nonce( 'wpsc_set_acb_settings' ) ); ?>">
+			
+				<div class="setting-footer-actions">
+					<button 
+						class="wpsc-button normal primary margin-right"
+						onclick="wpsc_set_acb_settings(this);">
+						<?php esc_attr_e( 'Submit', 'supportcandy' ); ?>
+					</button>
+					<button 
+						class="wpsc-button normal secondary margin-right"
+						onclick="wpsc_reset_acb_settings(this, '<?php echo esc_attr( wp_create_nonce( 'wpsc_reset_acb_settings' ) ); ?>');">
+						<?php esc_attr_e( 'Reset', 'supportcandy' ); ?>
+					</button>
+				</div>
+			</form>
+			<?php
+			if ( ! $ai_settings['is-active'] ) {
+				?>
+				<div style="margin-top: 15px; color: #ff0000;"><?php esc_html_e( 'Your AI provider is not connected. Please connect AI provider to use AI chatbot', 'supportcandy' ); ?></div>
+				<?php
+			}
+			?>
+			<?php
+			wp_die();
+		}
+
+		/**
+		 * Save AI assistant settings
+		 *
+		 * @return void
+		 */
+		public static function save_settings() {
+
+			if ( ! check_ajax_referer( 'wpsc_set_acb_settings', '_ajax_nonce', false ) ) {
+				wp_send_json_error( 'Unauthorized request!', 401 );
+			}
+
+			if ( ! WPSC_Functions::is_site_admin() ) {
+				wp_send_json_error( __( 'Unauthorized access!', 'supportcandy' ), 401 );
+			}
+
+			$acb_settings = get_option( 'wpsc-ps-acb-chatbot-settings', array() );
+
+			$status = isset( $_POST['acb-service-status'] ) ? sanitize_text_field( wp_unslash( $_POST['acb-service-status'] ) ) : '';
+			if ( '' === $status || ! in_array( $status, array( '1', '0' ), true ) ) {
+				wp_send_json_error( __( 'Invalid or missing AI chatbot status!', 'supportcandy' ), 400 );
+			}
+
+			$retention_policy_time = isset( $_POST['delete-acb-session-time'] ) ? intval( $_POST['delete-acb-session-time'] ) : 0;
+			if ( $retention_policy_time < 0 ) {
+				wp_send_json_error( __( 'Retention time must be zero or a positive integer.', 'supportcandy' ), 400 );
+			}
+
+			$retention_policy_unit = isset( $_POST['delete-acb-session-unit'] ) ? sanitize_text_field( wp_unslash( $_POST['delete-acb-session-unit'] ) ) : '';
+			if ( empty( $retention_policy_unit ) ) {
+				wp_send_json_error( __( 'Invalid or missing retention policy unit!', 'supportcandy' ), 400 );
+			}
+
+			$show_footer_branding = isset( $_POST['show-footer-branding'] ) ? intval( $_POST['show-footer-branding'] ) : 1;
+			if ( $show_footer_branding !== 0 && $show_footer_branding !== 1 ) {
+				wp_send_json_error( __( 'Invalid or missing footer branding option!', 'supportcandy' ), 400 );
+			}
+
+			$sessions_per_page = isset( $_POST['sessions-per-page'] ) ? sanitize_text_field( wp_unslash( $_POST['sessions-per-page'] ) ) : '';
+			if ( empty( $sessions_per_page ) || ! is_numeric( $sessions_per_page ) || $sessions_per_page < 1 ) {
+				wp_send_json_error( __( 'Invalid or missing sessions per page!', 'supportcandy' ), 400 );
+			}
+
+			$popup_delay_status = isset( $_POST['popup-delay-status'] ) ? sanitize_text_field( wp_unslash( $_POST['popup-delay-status'] ) ) : '';
+			if ( '' === $popup_delay_status || ! in_array( $popup_delay_status, array( '1', '0' ), true ) ) {
+				wp_send_json_error( __( 'Invalid or missing popup delay status!', 'supportcandy' ), 400 );
+			}
+
+			$popup_delay = isset( $_POST['popup-delay'] ) ? intval( $_POST['popup-delay'] ) : '';
+			if ( empty( $popup_delay ) || ! is_numeric( $popup_delay ) || $popup_delay < 1 ) {
+				wp_send_json_error( __( 'Invalid or missing popup delay!', 'supportcandy' ), 400 );
+			}
+
+			$popup_display_limit = isset( $_POST['popup-display-limit'] ) ? intval( $_POST['popup-display-limit'] ) : '';
+			if ( empty( $popup_display_limit ) || ! is_numeric( $popup_display_limit ) || $popup_display_limit < 1 ) {
+				wp_send_json_error( __( 'Invalid or missing popup display limit!', 'supportcandy' ), 400 );
+			}
+
+			$custom_prompt = isset( $_POST['custom-prompt'] ) ? sanitize_textarea_field( wp_unslash( $_POST['custom-prompt'] ) ) : '';
+
+			$acb_settings = array(
+				'status'                  => $status,
+				'delete-acb-session-time' => $retention_policy_time,
+				'delete-acb-session-unit' => $retention_policy_unit,
+				'show-footer-branding'    => $show_footer_branding,
+				'sessions-per-page'       => $sessions_per_page,
+				'popup-delay-status'      => $popup_delay_status,
+				'popup-delay'             => $popup_delay,
+				'popup-display-limit'     => $popup_display_limit,
+				'custom-prompt'           => $custom_prompt,
+			);
+			update_option( 'wpsc-ps-acb-chatbot-settings', $acb_settings );
+
+			wp_send_json_success(
+				array(
+					'message' => __( 'Settings saved successfully.', 'supportcandy' ),
+				)
+			);
+			wp_die();
+		}
+
+		/**
+		 * Reset AI chatbot settings
+		 *
+		 * @return void
+		 */
+		public static function reset_settings() {
+
+			if ( ! check_ajax_referer( 'wpsc_reset_acb_settings', '_ajax_nonce', false ) ) {
+				wp_send_json_error( 'Unauthorized request!', 401 );
+			}
+
+			if ( ! WPSC_Functions::is_site_admin() ) {
+				wp_send_json_error( __( 'Unauthorized access!', 'supportcandy' ), 401 );
+			}
+
+			update_option(
+				'wpsc-ps-acb-chatbot-settings',
+				array(
+					'status'                  => '0',
+					'delete-acb-session-time' => 1,
+					'delete-acb-session-unit' => 'year',
+					'show-footer-branding'    => '1',
+					'sessions-per-page'       => 30,
+					'popup-delay-status'      => '0',
+					'popup-delay'             => 10,
+					'popup-display-limit'     => 3,
+					'custom-prompt'           => '',
+				)
+			);
+
+			wp_send_json_success(
+				array(
+					'message' => __( 'Settings reset successfully.', 'supportcandy' ),
+				)
+			);
+			wp_die();
+		}
+	}
+endif;
+WPSC_ACB_General_Setting::init();

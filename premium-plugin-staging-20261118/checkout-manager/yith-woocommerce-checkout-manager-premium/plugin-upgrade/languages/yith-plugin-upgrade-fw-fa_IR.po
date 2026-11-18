@@ -1,0 +1,524 @@
+# Copyright (C) 2024
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: YITH <plugins@yithemes.com>\n"
+"POT-Creation-Date: 2025-08-12 18:40+0330\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2025-08-12 15:33+0000\n"
+"Language-Team: فارسی\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Last-Translator: \n"
+"Language: fa_IR\n"
+"X-Loco-Version: 2.8.0; wp-6.8.2; php-8.1.30\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/admin/panel.php:82
+msgid "License Panel"
+msgstr "پنل مجوز"
+
+#: includes/admin/panel.php:244
+msgid "Required param missing"
+msgstr "پارامتر مورد نیاز موجود نیست"
+
+#: includes/admin/panel.php:251
+msgid "Requested product is not available"
+msgstr "محصول مورد نظر موجود نیست"
+
+#. translators: You can find the License e-mail and the License key in your
+#. License & Download page.
+#: includes/admin/panel.php:402
+msgid "You can find the License e-mail and the License key in your"
+msgstr "می‌توانید ایمیل لایسنس و کلید لایسنس را در آدرس ایمیل خود پیدا کنید."
+
+#: includes/admin/panel.php:426
+msgid "Confirm action"
+msgstr "تأیید اقدام"
+
+#. translators: Modal title. Shown on activation license page to help the
+#. customer to find the license information.
+#: includes/admin/panel.php:430
+msgid "Where to find the e-mail and license ?"
+msgstr "ایمیل و لایسنس رو از کجا میشه پیدا کرد؟"
+
+#: includes/legacy/upgrade.php:104 includes/upgrade.php:668
+msgid "Invalid URL Provided."
+msgstr "آدرس اینترنتی نامعتبر ارائه شده است."
+
+#: includes/legacy/upgrade.php:116 includes/upgrade.php:682
+msgid "Could not create Temporary file."
+msgstr "نتوانست فایل موقت ایجاد کند."
+
+#: includes/licences/yith.php:372
+msgid "Invalid Request"
+msgstr "درخواست نامعتبر"
+
+#: includes/licences/yith.php:373
+msgid ""
+"Matching license key not found. Be sure to use the email used for the order "
+"in YITH and the correct license serial number."
+msgstr ""
+"کلید لایسنس منطبق پیدا نشد. حتماً از ایمیلی که برای سفارش در YITH استفاده "
+"کرده‌اید و شماره سریال لایسنس صحیح استفاده کنید."
+
+#: includes/licences/yith.php:374
+msgid "Software has been deactivated"
+msgstr "نرم‌افزار غیرفعال شده است"
+
+#: includes/licences/yith.php:375
+msgid "Maximum number of license activations reached"
+msgstr "حداکثر تعداد فعال‌سازی‌های لایسنس انجام شد"
+
+#: includes/licences/yith.php:376
+msgid "Invalid instance ID"
+msgstr "شناسه نمونه نامعتبر است"
+
+#: includes/licences/yith.php:377
+msgid "Invalid security key"
+msgstr "کلید امنیتی نامعتبر"
+
+#: includes/licences/yith.php:378
+msgid "License key has expired"
+msgstr "کلید مجوز منقضی شده است"
+
+#: includes/licences/yith.php:379
+msgid "License key has been revoked"
+msgstr "کلید مجوز باطل شده است"
+
+#: includes/licences/yith.php:380
+msgid "This product is not included in your YITH Club Subscription Plan"
+msgstr "این محصول در طرح اشتراک YITH Club شما گنجانده نشده است."
+
+#: includes/licences/yith.php:381
+msgid "Great"
+msgstr "عالی"
+
+#: includes/licences/yith.php:381
+msgid "License successfully activated"
+msgstr "لایسنس با موفقیت فعال شد"
+
+#: includes/licences/yith.php:397
+msgid "Error"
+msgstr "خطا"
+
+#: includes/onboarding.php:70 includes/onboarding.php:71
+msgid "YITH Licence Activation"
+msgstr "فعال‌سازی لایسنس YITH"
+
+#: includes/onboarding.php:231
+msgid ""
+"Unable to contact remote server: this occurs when there are issues with "
+"connecting to our own servers. Trying again after a few minutes should solve "
+"the issue. If the problem persists please submit a support ticket and we "
+"will be happy to help you."
+msgstr ""
+"عدم امکان تماس با سرور راه دور: این خطا زمانی رخ می‌دهد که در اتصال به "
+"سرورهای خودمان مشکلی وجود دارد. تلاش مجدد پس از چند دقیقه باید مشکل را حل "
+"کند. اگر مشکل همچنان ادامه داشت، لطفاً یک تیکت پشتیبانی ارسال کنید و ما "
+"خوشحال خواهیم شد که به شما کمک کنیم."
+
+#: includes/onboarding.php:232
+msgid "email address"
+msgstr "آدرس ایمیل"
+
+#: includes/onboarding.php:233
+msgid "licence key"
+msgstr "کلید مجوز"
+
+#: includes/services.php:84
+msgid "Impossible to proceed with token request. Licence is not active"
+msgstr "ادامه درخواست توکن غیرممکن است. مجوز فعال نیست."
+
+#: includes/services.php:152
+msgid "YITH_External_Services not found"
+msgstr "YITH_External_Services یافت نشد"
+
+#: includes/upgrade.php:147
+msgid "An unexpected error occurred, please try again later. Thanks!"
+msgstr "خطای غیرمنتظره‌ای رخ داد، لطفاً بعداً دوباره امتحان کنید. متشکرم!"
+
+#. translators: %1$s, %3$s are placeholders for the plugin name, %2$s the link
+#. to open changelog modal, %4$s is the new plugin version.
+#: includes/upgrade.php:193
+msgid ""
+"There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox "
+"yith-changelog-button open-plugin-details-modal\" title=\"%3$s\">View "
+"version %4$s details</a>"
+msgstr ""
+"نسخه جدیدی از %1$s موجود است. <a href=\"%2$s\" class=\"thickbox yith-"
+"changelog-button open-plugin-details-modal\" title=\"%3$s\">مشاهده جزئیات "
+"نسخه %4$s</a>"
+
+#. translators: %1$s, %3$s are placeholders for the plugin name, %2$s the link
+#. to open changelog modal, %4$s is the new plugin version.
+#: includes/upgrade.php:208
+msgid ""
+"There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox "
+"yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">View version "
+"%4$s details</a>. <em>Make sure the plugin license has been activated on "
+"each site of the network to benefits from automatic updates.</em>"
+msgstr ""
+"نسخه جدیدی از %1$s موجود است. <a href=\"%2$s\" class=\"thickbox yit-"
+"changelog-button open-plugin-details-modal\" title=\"%3$s\">جزئیات نسخه %4$s "
+"را مشاهده کنید</a>. <em>برای بهره‌مندی از به‌روزرسانی‌های خودکار، مطمئن شوید "
+"که مجوز افزونه در هر سایت شبکه فعال شده است.</em>"
+
+#. translators: %1$s, %3$s, %6$s are placeholders for the plugin name, %2$s the
+#. link to open changelog modal, %4$s is the new plugin version, %5$s is the
+#. link to activation page.
+#: includes/upgrade.php:217
+msgid ""
+"There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox "
+"yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">View version "
+"%4$s details</a>. <em>Automatic update is unavailable for this plugin, "
+"please <a href=\"%5$s\" title=\"License activation\">activate</a> your copy "
+"of %1$s.</em>"
+msgstr ""
+"نسخه جدیدی از %1$s موجود است. <a href=\"%2$s\" class=\"thickbox yit-"
+"changelog-button open-plugin-details-modal\" title=\"%3$s\">جزئیات نسخه %4$s "
+"را مشاهده کنید</a>. <em>به‌روزرسانی خودکار برای این افزونه در دسترس نیست، "
+"لطفاً <a href=\"%5$s\" title=\"فعال‌سازی مجوز\">نسخه %1$s خود را فعال "
+"کنید</em>"
+
+#: includes/upgrade.php:226
+msgid ""
+"There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox "
+"yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">View version "
+"%4$s details</a> or <a href=\"%5$s\" class=\"%6$s\" data-plugin=\"%7$s\" "
+"data-slug=\"%8$s\" data-name=\"%1$s\">update now</a>."
+msgstr ""
+"نسخه جدیدی از %1$s موجود است. <a href=\"%2$s\" class=\"thickbox yit-"
+"changelog-button open-plugin-details-modal\" title=\"%3$s\">جزئیات نسخه %4$s "
+"را مشاهده کنید</a> یا <a href=\"%5$s\" class=\"%6$s\" data-plugin=\"%7$s\" "
+"data-slug=\"%8$s\" data-name=\"%1$s\">اکنون به‌روزرسانی کنید</a>."
+
+#: includes/upgrade.php:241
+msgid ""
+"<br/><b>Please note:</b> You are using a higher version than the latest "
+"available one. </em>Please, make sure you've downloaded the latest version "
+"of <em>%1$s</em> from the only <a href=\"https://yithemes.com\" "
+"target=\"_blank\">YITH official website</a>, specifically, from your <a "
+"href=\"https://yithemes.com/my-account/recent-downloads/\" target=\"_blank\">"
+"Downloads page</a>. This is the only way to be sure the version you are "
+"using is 100%% malware-free."
+msgstr ""
+"‏<br/><b>لطفاً توجه داشته باشید:</b> شما از نسخه‌ای بالاتر از آخرین نسخه "
+"موجود استفاده می‌کنید.</em>لطفاً مطمئن شوید که آخرین نسخه <em>%1$s</em> را "
+"از تنها <a href=\"https://yithemes.com\" target=\"_blank\">وب‌سایت رسمی "
+"YITH</a>، به‌ویژه از <a href=\"https://yithemes.com/my-account/recent-"
+"downloads/\" target=\"_blank\">صفحه دانلودها</a> خود دانلود کرده‌اید. این "
+"تنها راه برای اطمینان از این است که نسخه‌ای که استفاده می‌کنید ۱۰۰٪ عاری از "
+"بدافزار است."
+
+#: includes/upgrade.php:504
+msgid "YITH Repository"
+msgstr "مخزن YITH"
+
+#: templates/banner/banner.php:25
+msgid "Please, enter a license key to use"
+msgstr "لطفا، یک کلید مجوز برای استفاده وارد کنید"
+
+#: templates/banner/banner.php:26
+msgid "Please, enter a license key to use this plugin."
+msgstr "لطفا برای استفاده از این افزونه، کلید مجوز را وارد کنید."
+
+#: templates/banner/banner.php:31
+msgid ""
+"<mark>Remember:</mark> If you don't have a license, you may have a non-"
+"official plugin version; <strong>non-official plugins can damage your "
+"shop</strong> and pose serious security risks, from installing backdoors to "
+"hijacking your shop for criminal purposes. Only with an official plugin and "
+"an active license you'll be able to keep your shop secure and get regular "
+"updates and support."
+msgstr ""
+"‏<mark>به یاد داشته باشید:</mark> اگر مجوز ندارید، ممکن است یک نسخه افزونه "
+"غیررسمی داشته باشید؛ <strong>افزونه‌های غیررسمی می‌توانند به فروشگاه شما "
+"آسیب بزنند</strong> و خطرات امنیتی جدی ایجاد کنند، از نصب درهای پشتی گرفته "
+"تا ربودن فروشگاه شما برای اهداف مجرمانه. فقط با یک افزونه رسمی و یک مجوز "
+"فعال می‌توانید فروشگاه خود را ایمن نگه دارید و به‌روزرسانی‌ها و پشتیبانی "
+"منظم دریافت کنید."
+
+#: templates/banner/banner.php:34
+msgid ""
+"<mark>Remember:</mark> Only with an active license you'll be able <strong>to "
+"get support and to keep the plugin updated</strong> to prevent bugs and "
+"errors."
+msgstr ""
+"‏<mark>به یاد داشته باشید:</mark> فقط با یک مجوز فعال می‌توانید <strong>"
+"پشتیبانی دریافت کنید و افزونه را به‌روز نگه دارید</strong> تا از بروز "
+"اشکالات و خطاها جلوگیری شود."
+
+#: templates/banner/banner.php:39
+msgid "Enter your license key"
+msgstr "کلید مجوز خود را وارد کنید"
+
+#: templates/banner/banner.php:40
+msgid "Buy a license"
+msgstr "خرید لایسنس"
+
+#: templates/onboarding/onboarding-activation.php:27
+msgid "YITH License Activation"
+msgstr "فعال‌سازی مجوز YITH"
+
+#: templates/onboarding/onboarding-activation.php:37
+msgid "Thank you for choosing to install"
+msgstr "از انتخاب شما برای نصب متشکریم"
+
+#: templates/onboarding/onboarding-activation.php:43
+msgid "Activate your license now to"
+msgstr "همین حالا لایسنس خود را فعال کنید تا"
+
+#: templates/onboarding/onboarding-activation.php:46
+msgid "Unblock <b>advanced features</b> available only with a valid license"
+msgstr "رفع انسداد <b>ویژگی‌های پیشرفته</b> فقط با مجوز معتبر در دسترس است"
+
+#: templates/onboarding/onboarding-activation.php:49
+msgid ""
+"Get <b>automatic and regular updates</b> to remain compatible with the "
+"latest WordPress and WooCommerce versions, and to keep you shop safe"
+msgstr ""
+"به‌روزرسانی‌های خودکار و منظم را دریافت کنید تا با آخرین نسخه‌های وردپرس و "
+"ووکامرس سازگار بمانید و خریدی ایمن داشته باشید"
+
+#: templates/onboarding/onboarding-activation.php:52
+msgid "Get <b>dedicated expert help</b> in our support desk"
+msgstr "از میز پشتیبانی ما <b>کمک تخصصی تخصصی</b> دریافت کنید"
+
+#: templates/onboarding/onboarding-activation.php:72
+msgid "Activate license"
+msgstr "فعال کردن لایسنس"
+
+#: templates/onboarding/onboarding-activation.php:76
+msgid "Return to the dashboard and activate the license later"
+msgstr "به داشبورد برگردید و بعداً مجوز را فعال کنید"
+
+#: templates/onboarding/onboarding-activation.php:87
+msgid "All done!"
+msgstr "تمام شد!"
+
+#: templates/onboarding/onboarding-activation.php:88
+msgid "Thank you for activating the plugin license."
+msgstr "از فعال‌سازی مجوز افزونه متشکریم."
+
+#: templates/onboarding/onboarding-activation.php:89
+msgid "Go to plugin dashboard"
+msgstr "به داشبورد افزونه بروید"
+
+#: templates/panel/activation-form.php:28
+msgid "Please activate your license"
+msgstr "لطفا لایسنس خود را فعال کنید"
+
+#: templates/panel/activation-panel.php:35
+msgid "Your licenses"
+msgstr ""
+"لایسنس محصول بصورت نامحدود و مادالعمر توسط سایت \" نوین وردپرس | WPNOVIN.COM "
+"\" فعال شده است"
+
+#: templates/panel/activation-panel.php:38
+msgid ""
+"Only with an active license you’ll be able to keep your shop secure and get "
+"regular updates and support."
+msgstr ""
+"فقط با یک لایسنس فعال می‌توانید فروشگاه خود را ایمن نگه دارید و "
+"به‌روزرسانی‌ها و پشتیبانی منظم دریافت کنید."
+
+#: templates/panel/activation-panel.php:42
+msgid ""
+"%1$sClick here%3$s to learn where to find the email and the license key of "
+"your plugins and %2$sread this article%3$s if you have any issue with the "
+"license activation."
+msgstr ""
+"%1$sاینجا%3$s برای اطلاع از محل یافتن ایمیل و کلید مجوز افزونه‌هایتان اینجا "
+"کلیک کنید %2$sاین مقاله را بخوانید%3$s و اگر در فعال‌سازی مجوز مشکلی دارید"
+
+#: templates/panel/activation-panel.php:55
+msgid "Some of your licenses have expired."
+msgstr "برخی از مجوزهای شما منقضی شده‌اند."
+
+#: templates/panel/activation-panel.php:56
+msgid ""
+"If you have already renewed your subscription, click the button to update "
+"your license information."
+msgstr ""
+"اگر قبلاً اشتراک خود را تمدید کرده‌اید، برای به‌روزرسانی اطلاعات مجوز خود، "
+"روی دکمه کلیک کنید."
+
+#: templates/panel/activation-panel.php:59
+msgid "Update licence information"
+msgstr "به‌روزرسانی اطلاعات مجوز"
+
+#: templates/panel/activation-panel.php:60
+msgid "Update"
+msgstr "به‌روزرسانی"
+
+#: templates/panel/activation-panel.php:72
+#: templates/panel/activation-row.php:24
+msgid "Plugin:"
+msgstr "افزونه:"
+
+#: templates/panel/activation-panel.php:75
+#: templates/panel/activation-row.php:27
+msgid "Email associated with license:"
+msgstr "ایمیل مرتبط با مجوز:"
+
+#: templates/panel/activation-panel.php:78
+#: templates/panel/activation-row.php:30
+msgid "License key:"
+msgstr "کلید مجوز:"
+
+#: templates/panel/activation-panel.php:81
+#: templates/panel/activation-row.php:33
+msgid "Licenses used:"
+msgstr "مجوزهای مورد استفاده:"
+
+#: templates/panel/activation-panel.php:84
+#: templates/panel/activation-row.php:43
+msgid "Expire on:"
+msgstr "منقضی شدن در:"
+
+#. translators: %1$1s: Number of activations for the licence. %2$2s: The
+#. activations number limit
+#: templates/panel/activation-row.php:37
+msgid "%1$1s out of %2$2s"
+msgstr "%1$1s از %2$2s"
+
+#: templates/panel/activation-upsell.php:21
+msgid ""
+"Suggested tools to improve UX, increase conversions, and loyalize customers"
+msgstr ""
+"ابزارهای پیشنهادی برای بهبود تجربه کاربری، افزایش نرخ تبدیل و وفادارسازی "
+"مشتریان"
+
+#: templates/panel/activation-upsell.php:35
+msgid "Get it"
+msgstr "بگیرش."
+
+#. Author of the plugin/theme
+msgid "YITHEMES"
+msgstr "تم‌ها"
+
+#: includes/admin/panel.php:385
+msgctxt "Button text"
+msgid "Confirm"
+msgstr "تأیید"
+
+#: includes/admin/panel.php:386
+msgctxt "Button text"
+msgid "Cancel"
+msgstr "لغو"
+
+#. translators: Button label, use a short text please.
+#: includes/admin/panel.php:409
+msgctxt "Button text"
+msgid "Go to your Licenses page"
+msgstr "به صفحه مجوزهای خود بروید"
+
+#. translators: My account section name. Use the same translation of the
+#. yithemes.com website.
+#: includes/admin/panel.php:404
+msgctxt "yithemes.com website section"
+msgid "Licenses and Downloads page >"
+msgstr "صفحه مجوزها و دانلودها >"
+
+#. translators: %s is a placeholder for an HTML tag.
+#: includes/admin/panel.php:423
+msgctxt "error message for activation panel"
+msgid ""
+"Please, insert a valid email address.%sBe sure you entered the e-mail used "
+"for your order in YITH"
+msgstr ""
+"لطفاً یک آدرس ایمیل معتبر وارد کنید.%sمطمئن شوید که ایمیلی را که برای سفارش "
+"خود در YITH استفاده کرده‌اید، وارد کرده‌اید."
+
+#: includes/admin/panel.php:424
+msgctxt "error message for activation panel"
+msgid "Please, insert a valid license key"
+msgstr "لطفاً یک کلید مجوز معتبر وارد کنید"
+
+#: includes/admin/panel.php:427
+msgctxt "{{plugin_name}} is a placeholder for the plugin name"
+msgid ""
+"Are you sure you want to deactivate the {{plugin_name}} license for current "
+"site?"
+msgstr ""
+"آیا مطمئن هستید که می‌خواهید مجوز {{plugin_name}} را برای سایت فعلی غیرفعال "
+"کنید؟"
+
+#. translators: $s stand for the field name.
+#: includes/onboarding.php:230
+msgctxt "%s = field name"
+msgid "Please, insert a valid %s"
+msgstr "لطفا، یک %s معتبر وارد کنید"
+
+#. translators: %s: Plugin name and version
+#: includes/upgrade.php:118
+msgctxt "plugin-fw"
+msgid "Updating %s..."
+msgstr "در حال به‌روزرسانی %s..."
+
+#. translators: %s: Plugin name and version
+#: includes/upgrade.php:120
+msgctxt "plugin-fw"
+msgid "%s updated!"
+msgstr "%s به‌روزرسانی شد!"
+
+#. translators: %s: Plugin name and version
+#: includes/upgrade.php:122
+msgctxt "plugin-fw"
+msgid "%s update failed"
+msgstr "به‌روزرسانی %s ناموفق بود"
+
+#: includes/upgrade.php:502
+msgctxt "[Update Plugin Message: License not enabled]"
+msgid "You have to activate the plugin to benefit from automatic updates."
+msgstr "برای بهره‌مندی از به‌روزرسانی‌های خودکار، باید افزونه را فعال کنید."
+
+#: templates/onboarding/onboarding-activation.php:57
+msgctxt "Link on activation license panel"
+msgid "Email associated with order"
+msgstr "ایمیل مرتبط با سفارش"
+
+#: templates/onboarding/onboarding-activation.php:64
+msgctxt "Link on activation license panel"
+msgid "License key"
+msgstr "کلید مجوز"
+
+#: templates/onboarding/onboarding-activation.php:65
+msgctxt "Link on activation license panel"
+msgid "Where to find your license key?"
+msgstr "کلید مجوز خود را از کجا پیدا کنیم؟"
+
+#: templates/panel/activation-form.php:32
+msgctxt "Placeholder"
+msgid "Enter e-mail address"
+msgstr "آدرس ایمیل را وارد کنید"
+
+#: templates/panel/activation-form.php:35
+msgctxt "Placeholder"
+msgid "Enter license key"
+msgstr "کلید مجوز را وارد کنید"
+
+#: templates/panel/activation-form.php:39
+msgctxt "Button Label"
+msgid "Activate"
+msgstr "فعال کردن"
+
+#: templates/panel/activation-row.php:46
+msgctxt "Licence status"
+msgid "Banned"
+msgstr "ممنوع شده"
+
+#: templates/panel/activation-row.php:48
+msgctxt "Licence status"
+msgid "Expired"
+msgstr "منقضی شده"

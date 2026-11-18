@@ -1,0 +1,51 @@
+<div class="ffw-layout-container">
+    <div class="<?php echo esc_attr($ffw_wrapper_classes); ?>" id="ffw-wrapper">
+        <div style="position: absolute; width: 0px; height: 0px;" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg">
+                <symbol viewBox="0 0 24 24" id="expand-more">
+                    <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/><path d="M0 0h24v24H0z" fill="none"/>
+                </symbol>
+                <symbol viewBox="0 0 24 24" id="close">
+                    <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/><path d="M0 0h24v24H0z" fill="none"/>
+                </symbol>
+            </svg>
+        </div>
+        <?php
+        if ( is_array($faqs) && ! empty($faqs) ) {
+            $counter = 0;
+            foreach ( $faqs as $faq ) {
+                do_action('ffw_before_display_faq_item', array('faqs' => $faqs, 'counter' => $counter));
+                $ffw_open_item = ( isset($ffw_display_all_answers) && '1' === $ffw_display_all_answers )
+                    || ( ! empty( $ffw_expand_first ) && 0 === $counter );
+                ?>
+                <details <?php echo $ffw_open_item ? 'open' : ''; ?> <?php echo ffw_get_faq_item_html_attrs( (int) $faq['id'] ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>>
+                    <summary>
+                        <?php echo sprintf('<span>%s</span>', esc_html( $faq['question'] ) ); ?>
+                        <?php
+                        // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- static icon markup.
+                        echo ffw_get_toggle_icon(
+                            '<svg class="control-icon control-icon-expand" width="24" height="24" aria-hidden="true" focusable="false"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>'
+                            . '<svg class="control-icon control-icon-close" width="24" height="24" aria-hidden="true" focusable="false"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>'
+                        );
+                        ?>
+                    </summary>
+                    <div class="ffw-trip-answer">
+                        <?php
+                        $post_id = get_the_ID();
+                        $faq_id = (int) $faq['id'];
+                        ffw_show_content($faq_id, $id);
+                        ?>
+                    </div>
+                    <?php
+                        //faq comment
+                        ffw_comments($post_id, $faq);
+                    ?>
+                </details>
+                <?php
+                do_action('ffw_after_display_faq_item', array('faqs' => $faqs, 'counter' => $counter));
+                $counter++;
+            }
+        }
+        ?>
+    </div>
+</div>

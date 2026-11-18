@@ -1,0 +1,690 @@
+/* Setting Screen */
+.wpsc-settings-page {
+  display: flex;
+}
+.wpsc-setting-section-container {
+  width: 250px;
+  min-width: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 10px 10px;
+  margin-left: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: -6px 6px 10px 0px #ced6e0;
+}
+.wpsc-setting-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  min-width: 0;
+}
+.wpsc-setting-header,
+.wpsc-setting-tab-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.wpsc-setting-header h2 {
+  font-size: 22px;
+  font-weight: 300;
+  margin: 15px 0 15px 5px;
+}
+.wpsc-setting-header-xs {
+  margin-bottom: 15px;
+}
+.wpsc-setting-tab-container button {
+  padding: 7px 15px;
+  font-size: 16px;
+  font-weight: normal;
+  border: none !important;
+  color: #6a6a6a;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 16px;
+  margin: 0 0 5px 5px;
+}
+.wpsc-setting-tab-container button.active,
+.wpsc-setting-tab-container button:hover {
+  color: #fff;
+  background-color: #ffa04a;
+}
+.wpsc-docs-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-right: auto;
+  padding: 5px 12px;
+  font-size: 14px;
+  color: #ffa04a;
+  text-decoration: none;
+  border: 1px solid #ffa04a;
+  border-radius: 16px;
+  background-color: #fff5ec;
+}
+.wpsc-setting-tab-container .wpsc-docs-btn {
+  margin-bottom: 5px;
+}
+.wpsc-docs-btn svg {
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
+}
+.wpsc-docs-btn:hover,
+.wpsc-docs-btn:focus {
+  color: #fff;
+  background-color: #ffa04a;
+}
+.wpsc-setting-section-body {
+  width: 100%;
+  flex-grow: 1;
+  border: none;
+  box-shadow: 0 0 3px 0 #a4b0be;
+  border-radius: 5px;
+  padding: 25px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+/* Setting Cards */
+.wpsc-setting-cards-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.wpsc-setting-card {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #c7ecee;
+  padding: 10px;
+  color: #2d9ba1;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.wpsc-setting-card .actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 1;
+  padding-right: 10px;
+  gap: 10px;
+}
+.wpsc-setting-card span.title {
+  font-size: 14px;
+  font-weight: 600;
+}
+.wpsc-setting-card span.card-subtitle {
+  font-size: 12px;
+  font-weight: 300;
+  font-style: italic;
+}
+.wpsc-setting-card span.wpsc-sort-handle {
+  cursor: move !important;
+}
+.wpsc-setting-card span.action-btn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.wpsc-setting-card svg {
+  height: 14px;
+  margin-left: 5px;
+}
+.wpsc-setting-card img {
+  border-radius: 5px;
+  margin-left: 5px;
+}
+table.wpsc-setting-tbl td.sort-handle {
+  width: 30px;
+  max-width: 30px;
+  text-align: center;
+  cursor: move;
+}
+table.wpsc-setting-tbl td.sort-handle svg {
+  width: 11px;
+  color: #c3c3c3;
+}
+.wpsc-setting-card .title-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.wpsc-setting-card .title-container span.title {
+  margin-bottom: 2px;
+}
+
+/* Dashboard cards enable/disable toggle switch (scoped/unique names to avoid
+   colliding with the Productivity Suite add-on's own .wpsc-toggle-switch/.wpsc-slider) */
+.wpsc-dbc-toggle-switch {
+  display: inline-block;
+  position: relative;
+  width: 32px;
+  height: 16px;
+  flex: none;
+}
+.wpsc-dbc-toggle-switch input {
+  display: none;
+}
+.wpsc-dbc-toggle-switch .wpsc-dbc-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #ccc;
+  border-radius: 16px;
+  transition: 0.2s;
+}
+.wpsc-dbc-toggle-switch .wpsc-dbc-slider:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  right: 1px;
+  top: 1px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+.wpsc-dbc-toggle-switch input:checked + .wpsc-dbc-slider {
+  background-color: #2271b1;
+}
+.wpsc-dbc-toggle-switch input:checked + .wpsc-dbc-slider:before {
+  transform: translateX(-16px);
+}
+
+/* Setting cards enable all / disable all switcher */
+.wpsc-setting-cards-toggle-all {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+/* When placed next to the "Add widget" button (Dashboard > Widgets), the
+   parent .wpsc-actions-btn-setting already handles spacing/alignment. */
+.wpsc-actions-btn-setting .wpsc-setting-cards-toggle-all {
+  width: auto;
+  margin-bottom: 0;
+}
+.wpsc-setting-cards-toggle-all .wpsc-toggle-all-label {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* CF Option UI */
+.wpsc-option-item {
+  display: flex;
+  margin-bottom: 5px;
+  padding: 5px 5px 0 5px;
+  background-color: #dcdcdc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+.wpsc-option-item .content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+.wpsc-option-item .remove-container {
+  display: flex;
+  align-items: center;
+  padding-right: 5px;
+}
+.wpsc-add-option-container,
+.wpsc-edit-option-container,
+.wpsc-option-listing-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.wpsc-option-item .remove-container svg,
+.wpsc-option-listing-container .edit svg {
+  width: 16px;
+  color: #c3c3c3;
+  cursor: pointer;
+}
+.wpsc-option-item .remove-container svg:hover,
+.wpsc-option-listing-container .edit svg:hover {
+  color: #665b5b;
+}
+.wpsc-option-item .content input,
+.wpsc-option-item .content button {
+  margin-bottom: 5px;
+}
+.wpsc-option-item .content button {
+  margin-right: 2px;
+  width: 50px !important;
+}
+.wpsc-option-item .content button svg {
+  height: 18px;
+  color: #00b894;
+}
+.wpsc-option-listing-container {
+  padding-bottom: 5px;
+}
+.wpsc-option-listing-container span {
+  display: flex;
+  align-items: center;
+}
+.wpsc-option-listing-container .sort svg {
+  height: 16px;
+  color: #665b5b;
+  cursor: pointer;
+}
+.wpsc-option-listing-container .text {
+  padding: 0 5px;
+  flex-grow: 1;
+  color: #665b5b;
+}
+.wpsc-edit-option-container button.cancel svg {
+  color: #ff0000 !important;
+}
+.wpsc-input-group .checkboxes-group {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.wpsc-input-group .checkboxes-group .inner-group {
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 0 5px 10px;
+}
+.wpsc-setting-filter-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.wpsc-setting-filter-container .setting-filter-item {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 5px 5px;
+}
+.wpsc-setting-filter-container .label {
+  font-size: 12px;
+  font-weight: 600;
+}
+.wpsc-setting-filter-container .select2-container {
+  width: 200px !important;
+}
+
+/* Date range */
+.wpsc-date-range {
+  display: flex;
+}
+.wpsc-date-range .wpsc-input-close-group {
+  flex-grow: 1;
+}
+
+/* Licenses */
+.wpsc-licenses-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wpsc-licenses-container .license-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #777;
+  border-radius: 5px;
+  margin: 0 0 15px 15px;
+  padding: 10px;
+  width: 300px;
+  background-color: #fff;
+}
+.wpsc-licenses-container img {
+  margin-bottom: 10px;
+}
+.wpsc-licenses-container button {
+  margin: 0 0 10px;
+}
+.wpsc-licenses-container input {
+  margin: 0 0 5px;
+}
+.wpsc-licenses-container button {
+  width: fit-content;
+}
+.wpsc-licenses-container p {
+  margin: 0;
+}
+.wpsc-licenses-container p.expired {
+  color: #ff0000;
+}
+
+/* Accordion */
+.wpsc-accordion {
+  margin-bottom: 15px;
+}
+
+/* Documentation link */
+.wpsc-dock-container {
+  padding: 10px;
+  background-color: #f0f0f1;
+  margin-bottom: 15px;
+  border-radius: 3px;
+}
+
+/* Customer list */
+#wpsc-customer-list .dt-search,
+#wpsc-session-list .dt-search  {
+  display: none !important;
+}
+
+/* Recent Activities timeline */
+.wpsc-ra-timeline {
+  margin-top: 20px;
+}
+.wpsc-ra-day {
+  margin-bottom: 24px;
+}
+.wpsc-ra-day-label {
+  display: inline-block;
+  margin-bottom: 12px;
+  padding: 4px 12px;
+  border-radius: 12px;
+  background: #f0f0f1;
+  color: #50575e;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.wpsc-ra-day-items {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.wpsc-ra-day-items::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  inset-inline-start: 15px;
+  width: 2px;
+  background: #e5e7eb;
+}
+.wpsc-ra-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 10px;
+}
+.wpsc-ra-marker {
+  position: relative;
+  z-index: 1;
+  flex: 0 0 32px;
+  height: 32px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #c3c4c7;
+  border-radius: 50%;
+  background: #fff;
+  color: #8c8f94;
+}
+.wpsc-ra-marker svg {
+  width: 13px;
+  height: 13px;
+  fill: currentColor;
+}
+.wpsc-ra-type-report .wpsc-ra-marker {
+  border-color: #2271b1;
+  color: #2271b1;
+}
+.wpsc-ra-type-reply .wpsc-ra-marker {
+  border-color: #00a32a;
+  color: #00a32a;
+}
+.wpsc-ra-type-note .wpsc-ra-marker {
+  border-color: #dba617;
+  color: #dba617;
+}
+.wpsc-ra-card {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  background: #fff;
+}
+.wpsc-ra-avatar img {
+  display: block;
+  border-radius: 50%;
+}
+.wpsc-ra-avatar .wpsc-av {
+  margin: 0;
+}
+.wpsc-ra-log-desc {
+  flex: 1;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.wpsc-ra-log-desc a {
+  text-decoration: none;
+}
+.wpsc-ra-log-time {
+  flex-shrink: 0;
+  color: #646970;
+  font-size: 12px;
+  white-space: nowrap;
+}
+.wpsc-ra-empty {
+  padding: 30px;
+  color: #646970;
+  text-align: center;
+}
+.wpsc-ra-load-more {
+  margin: 10px 0 20px;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .wpsc-ra-card {
+    flex-wrap: wrap;
+  }
+  .wpsc-ra-log-time {
+    width: 100%;
+    padding-inline-start: 42px;
+  }
+}
+/* Filter toolbar (Customers list, Recent Activities). */
+.wpsc-customers-toolbar,
+.wpsc-ra-toolbar {
+  display: flex;
+  gap: 8px;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  background: #fff;
+  border: 1px solid #dcdcde;
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+.wpsc-customers-toolbar-item,
+.wpsc-ra-toolbar-item {
+  display: flex;
+  flex-direction: column;
+}
+.wpsc-customers-toolbar-item label,
+.wpsc-ra-toolbar-item label {
+  font-size: 12px;
+  color: #646970;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.wpsc-customers-toolbar-item select,
+.wpsc-customers-toolbar-item input,
+.wpsc-ra-toolbar-item select,
+.wpsc-ra-toolbar-item input {
+  min-width: 200px;
+}
+.wpsc-customers-toolbar-item .select2-container,
+.wpsc-ra-toolbar-item .select2-container {
+  min-width: 200px;
+}
+.wpsc-customers-toolbar-reset,
+.wpsc-ra-toolbar-reset {
+  flex: 1;
+}
+.wpsc-customers-toolbar-reset button,
+.wpsc-ra-toolbar-reset button {
+  width: fit-content;
+}
+.wpsc-customers-toolbar-search input {
+  width: 100%;
+}
+@media (max-width: 782px) {
+  .wpsc-customers-toolbar-item,
+  .wpsc-customers-toolbar-reset,
+  .wpsc-ra-toolbar-item,
+  .wpsc-ra-toolbar-reset {
+    width: 100%;
+  }
+  .wpsc-customers-toolbar-item select,
+  .wpsc-customers-toolbar-item input,
+  .wpsc-ra-toolbar-item select,
+  .wpsc-ra-toolbar-item input {
+    min-width: 0;
+    width: 100%;
+  }
+}
+/* Customers list "Name" column - avatar next to the customer's name. */
+.wpsc-cust-name-cell {
+  display: flex;
+  align-items: center;
+}
+.wpsc-cust-avatar img {
+  border-radius: 50%;
+  margin: 0px 0px 0px 10px;
+}
+.wpsc-cust-avatar .wpsc-av {
+  margin: 0 0 0 10px;
+}
+/* Customer profile "Tickets" tab - whole row opens the ticket. */
+.my-profile-ticket-list .wpsc-cust-ticket-row {
+  cursor: pointer;
+}
+.my-profile-ticket-list .wpsc-cust-ticket-row:hover {
+  background-color: #f5f5f5;
+}
+/* Customer profile "Custom fields" tab - empty state when there are none. */
+.wpsc-cust-cf-empty {
+  padding: 20px;
+  text-align: center;
+  color: #646970;
+}
+
+/* Setting groups */
+.wpsc-setting-group {
+  width: 100%;
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid #e5e7eb;
+}
+.wpsc-setting-group:first-of-type {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+.wpsc-setting-group-title {
+  margin: 0 0 14px;
+  padding: 0;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+.wpsc-setting-warning {
+  margin: 5px 0px 0px 0px;
+  padding: 5px 10px;
+  border-inline-start: 4px solid #d97706;
+  border-radius: 4px;
+  background: #fffbeb;
+  color: #92400e;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* Copy to clipboard */
+.wpsc-copy-field {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.wpsc-copy-field input {
+  flex: 1;
+  min-width: 0;
+}
+.wpsc-copy-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid #c3c4c7;
+  border-radius: 4px;
+  background: #fff;
+  color: #50575e;
+  cursor: pointer;
+}
+.wpsc-copy-btn:hover {
+  border-color: #8c8f94;
+  color: #1d2327;
+}
+.wpsc-copy-btn svg {
+  width: 14px;
+  height: 14px;
+}
+.wpsc-copy-btn .wpsc-copied-icon,
+.wpsc-copy-btn.copied .wpsc-copy-icon {
+  display: none;
+}
+.wpsc-copy-btn .wpsc-copy-icon,
+.wpsc-copy-btn.copied .wpsc-copied-icon {
+  display: inline-flex;
+}
+.wpsc-copy-btn.copied .wpsc-copied-icon {
+  color: #009432;
+}
+
+/* Page setting actions (create / view page) */
+.wpsc-page-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 6px;
+}
+.wpsc-page-actions a {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  text-decoration: none;
+}
+.wpsc-page-actions a:hover {
+  text-decoration: underline;
+}

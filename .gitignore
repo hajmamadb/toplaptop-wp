@@ -1,0 +1,13 @@
+downloads/
+mysql-data/
+*.phar
+*.zip
+*.rar
+*.exe
+*.msi
+*.log
+*.sqlite
+*.db
+node_modules/
+wp-content/uploads/
+wp-content/cache/

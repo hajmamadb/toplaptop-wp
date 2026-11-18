@@ -1,0 +1,156 @@
+<?php
+/**
+ * FAQ Woocommerce Public
+ *
+ * @class    FAQ_Woocommerce_Public
+ * @package  FAQ_Woocommerce\Public
+ * @version  1.0.0
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+    exit; // Exit if accessed directly.
+}
+
+/**
+ * FAQ_Woocommerce_Public class.
+ */
+class FAQ_Woocommerce_Public {
+
+    /**
+     * Get settings option.
+     *
+     * @since 1.0.0
+     */
+    public $options = [];
+
+    /**
+     * Instance.
+     *
+     * The instance will be created if it does not exist yet.
+     *
+     * @return self The main instance.
+     * @since  1.0.0
+     */
+    public static function instance(): self
+    {
+        static $instance = null;
+        if (is_null($instance) ) {
+            $instance = new self();
+        }
+
+        return $instance;
+    }
+
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        $options = get_option( 'ffw_general_settings' );
+		$this->options = ! empty( $options ) ? $options : [];
+
+        // Hooks.
+        add_action( 'wp_enqueue_scripts', array( $this, 'ffw_public_styles' ), 999 );
+        add_action( 'wp_enqueue_scripts', array( $this, 'ffw_public_scripts' ), true );
+        add_action( 'init', array( $this, 'includes' ) );
+        add_filter( 'the_content', array( $this, 'inject_faq_page_content' ) );
+    }
+
+    /**
+     * Append FAQs to the page selected in Settings → FAQs Page.
+     *
+     * @since 1.8.18
+     *
+     * @param string $content Page content.
+     * @return string
+     */
+    public function inject_faq_page_content( $content ) {
+        if ( is_admin() || ! is_singular( 'page' ) || ! in_the_loop() || ! is_main_query() ) {
+            return $content;
+        }
+
+        $faq_page_id = ffw_get_faq_page_id();
+        if ( ! $faq_page_id || get_the_ID() !== $faq_page_id ) {
+            return $content;
+        }
+
+        if ( has_shortcode( $content, 'ffw_template' ) ) {
+            return $content;
+        }
+
+        return $content . do_shortcode( '[ffw_template]' );
+    }
+
+    /**
+     * Include any classes we need within admin.
+     */
+    public function includes() {
+        //include_once dirname( __FILE__ ) . '/faq-woocommerce-admin-functions.php';
+
+        //Comment page
+        include_once FFW_FILE_DIR . '/includes/class-ffw-walker-comment.php';
+
+        //Schema page
+        include_once dirname(__FILE__) . '/class-faq-woocommerce-schema.php';
+    }
+
+    /**
+     * Enqueue styles.
+     */
+    public function ffw_public_styles() {
+
+        // Register template styles.
+        wp_register_style( 'ffw_classic_styles', FFW_PLUGIN_URL . '/assets/public/css/ffw-classic.min.css', array(), FFW_PLUGIN_VERSION );
+        wp_register_style( 'ffw_whitish_styles', FFW_PLUGIN_URL . '/assets/public/css/ffw-whitish.min.css', array(), FFW_PLUGIN_VERSION );
+        wp_register_style( 'ffw_trip_styles', FFW_PLUGIN_URL . '/assets/public/css/ffw-trip.min.css', array(), FFW_PLUGIN_VERSION );
+        wp_register_style( 'ffw_pop_styles', FFW_PLUGIN_URL . '/assets/public/css/ffw-pop.min.css', array(), FFW_PLUGIN_VERSION );
+        wp_register_style( 'ffw_basic_styles', FFW_PLUGIN_URL . '/assets/public/css/ffw-basic.css', array(), FFW_PLUGIN_VERSION );
+
+        // public style
+        wp_register_style( 'ffw_public_styles', FFW_PLUGIN_URL . '/assets/public/css/style.min.css', array(), FFW_PLUGIN_VERSION );
+        wp_register_style( 'ffw-display-faqs-style', FFW_PLUGIN_URL . '/includes/blocks/display-faqs/style.css', array(), FFW_VERSION );
+        wp_register_style( 'ffw-block-styles', FFW_PLUGIN_URL . '/assets/public/css/ffw-styles.css', array( 'ffw_basic_styles' ), FFW_VERSION );
+
+        // do_action("ffw_register_template_js", $layout);
+
+        // Add RTL support for admin styles.
+        //wp_style_add_data( 'ffw_admin_menu_styles', 'rtl', 'replace' );
+
+    }
+
+
+    /**
+     * Register scripts. Nothing is enqueued here: each FAQ render enqueues
+     * what its layout needs through ffw_enqueue_display_faq_assets().
+     */
+    public function ffw_public_scripts() {
+        if ( wp_script_is( 'ffw_public_js', 'registered' ) ) {
+            return;
+        }
+
+        // Register scripts.
+        wp_register_script( 'ffw_public_js', FFW_PLUGIN_URL . '/assets/public/js/faq-woocommerce-public.min.js', array( 'jquery' ), FFW_PLUGIN_VERSION, true );
+        wp_register_script( 'ffw_classic_js', FFW_PLUGIN_URL . '/assets/public/js/ffw-classic.min.js', array( 'jquery' ), FFW_PLUGIN_VERSION, true );
+        wp_register_script( 'ffw_pop_js', FFW_PLUGIN_URL . '/assets/public/js/ffw-pop.min.js', array( 'jquery' ), FFW_PLUGIN_VERSION, true );
+        wp_register_script( 'ffw_basic_js', FFW_PLUGIN_URL . '/assets/public/js/ffw-basic.js', array( 'jquery' ), FFW_PLUGIN_VERSION, true );
+        wp_register_script( 'ffw-inline-search', FFW_PLUGIN_URL . '/assets/public/js/ffw-inline-search.js', array( 'jquery' ), FFW_VERSION, true );
+
+        wp_localize_script( 'ffw_public_js', 'ffw_public_js', [
+            'ajaxurl'               => admin_url( 'admin-ajax.php' ),
+            'nonce'                 => wp_create_nonce( 'ffw_public_js' ),
+            // Page or product the FAQs are on, for analytics.
+            'object_id'             => is_singular() ? (int) get_queried_object_id() : 0,
+            // Search terms are only sent when an add-on (Happy FAQs Pro analytics) asks for them.
+            'track_search'          => (bool) apply_filters( 'ffw_track_searches', false ),
+            'search_empty'          => esc_html__( 'No FAQs match your search.', 'faq-for-woocommerce' ),
+            /* translators: 1: category name, 2: number of FAQs shown */
+            'filter_status'         => esc_html__( '%1$s: %2$d FAQs shown', 'faq-for-woocommerce' ),
+            'helpful_thanks'        => esc_html__( 'Thanks for your feedback!', 'faq-for-woocommerce' ),
+            /* translators: %d: number of FAQs not shown yet */
+            'show_more_count'       => esc_html__( '(%d more)', 'faq-for-woocommerce' ),
+        ] );
+    }
+
+}
+
+// One shared instance; instance() is also used by templates and helpers.
+return FAQ_Woocommerce_Public::instance();

@@ -1,0 +1,2701 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Product Reviews Pro\n"
+"POT-Creation-Date: 2019-08-11 01:08+0430\n"
+"PO-Revision-Date: 2019-11-11 17:04+0330\n"
+"Last-Translator: \n"
+"Language-Team: WwW.Samandon.CoM | وبسایـــت سمنــــــدون\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woocommerce-product-reviews-pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: class-wc-product-reviews-pro.php:352
+#, php-format
+msgid ""
+"Thanks for installing Product Reviews Pro! Before getting started, please "
+"take a moment to %1$sread the documentation%2$s, configure %3$ssettings%4$s "
+"or %5$semails%6$s :) "
+msgstr ""
+"از اینکه افزونه WooCommerce Product Reviews Pro را نصب کرده اید سپاسگذاریم! "
+"قبل از شروع، لطفا زمان کوتاهی را برای %1$s خواندن راهنما ، %2$s پیکربندی "
+"%3$s تنظیمات %4$s و یا %5$s ایمیل %6$s :) "
+
+#. Plugin Name of the plugin/theme
+#: class-wc-product-reviews-pro.php:397
+msgid "WooCommerce Product Reviews Pro"
+msgstr "WooCommerce Product Reviews Pro"
+
+#: includes/Lifecycle.php:100 includes/Lifecycle.php:177
+#: includes/admin/class-wc-product-reviews-pro-admin.php:711
+msgid "Admin"
+msgstr "مدیر"
+
+#: includes/Lifecycle.php:101 includes/Lifecycle.php:178
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:337
+msgid "Vendor"
+msgstr "فروشنده"
+
+#. translators: Placeholders: %1$s - plugin name, %2$s - error message(s)
+#: includes/Lifecycle.php:126
+#, php-format
+msgid "Error activating and installing %1$s: %2$s"
+msgstr "خطای نصب و فعالسازی %1$s: %2$s"
+
+#: includes/Lifecycle.php:129
+msgid "&laquo; Go Back"
+msgstr "بازگشت به عقب"
+
+#. translators: Placeholders: %s contribution flagged n times
+#: includes/admin/class-wc-product-reviews-pro-admin.php:159
+#, php-format
+msgid ""
+"Flagged <span class=\"count\">(<span class=\"flagged-count\">%s</span>)</"
+"span>"
+msgid_plural ""
+"Flagged <span class=\"count\">(<span class=\"flagged-count\">%s</span>)</"
+"span>"
+msgstr[0] ""
+"گزارش شده <span class=\"count\">(<span class=\"flagged-count\">%s</span>)</"
+"span>"
+msgstr[1] ""
+"گزارش شده <span class=\"count\">(<span class=\"flagged-count\">%s</span>)</"
+"span>"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:213
+#: includes/admin/class-wc-product-reviews-pro-admin.php:1013
+#: templates/myaccount/contribution-list.php:56
+#: templates/myaccount/contribution-list.php:132
+msgid "Type"
+msgstr "نوع"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:214
+msgid "Votes"
+msgstr "رای ها"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:215
+msgctxt "number of times contribution has been flagged"
+msgid "Flags"
+msgstr "گزارشات"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:261
+#: includes/admin/class-wc-reviews-list-table.php:69
+#: includes/admin/class-wc-reviews-list-table.php:552
+#: includes/class-wc-product-reviews-pro-contribution-type.php:65
+#: includes/class-wc-product-reviews-pro-contribution-type.php:572
+msgid "Review"
+msgstr "نقد و بررسی"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:261
+#: includes/class-wc-product-reviews-pro-contribution-type.php:82
+#: includes/class-wc-product-reviews-pro-contribution-type.php:718
+#: templates/myaccount/contribution-list.php:103
+msgid "Comment"
+msgstr "دیدگاه"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:269
+msgid "attached"
+msgstr "فایل پیوست شده"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:276
+msgid "Positive votes"
+msgstr "رای های مثبت"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:277
+msgid "Negative votes"
+msgstr "رای های منفی"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:318
+msgid ""
+"Are you sure you want to remove this flag? This action cannot be undone."
+msgstr ""
+"آیا شما مطمئن هستید که می خواهید این گزارش را حذف کنید؟ این عمل غیر قابل "
+"بازگشت است."
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:319
+msgid ""
+"Are you sure you want to remove these flags? This action cannot be undone."
+msgstr ""
+"آیا شما مطمئن هستید که می خواهید این گزارشات را حذف کنید؟ این عمل غیر قابل "
+"بازگشت است."
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:320
+msgid "Are you sure you want to remove the attachment from this contribution?"
+msgstr "آیا شما مطئن هستید که می خواهید فایل پیوست این دیدگاه را حذف کنید؟"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:321
+msgid "There was an error removing the attachment. Please try again later."
+msgstr "یک خطا در هنگام حذف فایل پیوست وجود دارد. لطفا بعدا سعی کنید."
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:358
+msgid "All contribution types"
+msgstr "تمام دیدگاه ها"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:401
+msgid "All media"
+msgstr "تمام رسانه ها"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:402
+#: includes/class-wc-product-reviews-pro-contribution-type.php:73
+#: includes/class-wc-product-reviews-pro-contribution-type.php:732
+msgid "Photo"
+msgstr "تصویر"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:403
+#: includes/class-wc-product-reviews-pro-contribution-type.php:77
+#: includes/class-wc-product-reviews-pro-contribution-type.php:733
+msgid "Video"
+msgstr "ویدئو"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:531
+msgid "Oops, no comment with this ID."
+msgstr "متاسفیم! هیچ نظری با این آی دی وجود ندارد."
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:531
+msgid "Go back"
+msgstr "برگشت به عقب"
+
+#. translators: Placeholders: %s count of contributions flagged
+#: includes/admin/class-wc-product-reviews-pro-admin.php:611
+#, php-format
+msgid "%s contribution flagged"
+msgid_plural "%s contributions flagged"
+msgstr[0] "%s دیدگاه گزارش شده"
+msgstr[1] "%s دیدگاه گزارش شده"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:640
+#, php-format
+msgctxt "[contribution type] by [author name]"
+msgid "%1$s by %2$s"
+msgstr "%1$s با %2$s"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:669
+msgid "Contributions types"
+msgstr "نوع نقد و بررسی"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:670
+msgid "Select which contribution types to enable"
+msgstr "نوع نقد و بررسی را برای فعال شدن انتخاب کنید"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:678
+msgid "Enable all contribution types"
+msgstr "فعال کردن همه نوع نقد و بررسی"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:679
+msgid "Enable specific contribution types only"
+msgstr "فعال کردن فقط نقد و بررسی های خاص"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:683
+msgid "Specific contribution types"
+msgstr "نوع نقد و بررسی ها"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:693
+msgid "Admins can always reply"
+msgstr "مدیران همیشه می توانند پاسخ دهند"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:694
+msgid ""
+"Allow administrators and shop managers to leave replies to contributions"
+msgstr "اجازه دادن به مدیران و مدیران فروشگاه برای پاسخ دادن به کاربران"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:699
+msgid "Allow Attachments"
+msgstr "اجازه پیوست فایل"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:700
+msgid ""
+"Enable to allow customers to add photo and video attachments as part of a "
+"review or question"
+msgstr ""
+"فعال کردن امکان افزودن پیوست های تصویر و ویدئو به عنوان بخشی از نقد و بررسی "
+"و یا سوال توسط مشتریان"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:706
+msgid "Admin badges"
+msgstr "نام مدیر"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:708
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:334
+msgid "Leave blank to disable badges."
+msgstr "این گزینه را خالی بگذارید تا نام دلخواه شما غیر فعال شود."
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:709
+msgid ""
+"Enter the text to use on badges displayed on admin and shop manager "
+"contributions."
+msgstr ""
+"متنی را برای نمایش به عنوان نام مدیر و مدیران فروشگاه برای نمایش در دیدگاه "
+"ها وارد نمائید."
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:714
+msgid "Sorting order"
+msgstr "نوع مرتب سازی"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:715
+msgid "Choose how contributions are sorted on product pages"
+msgstr "انتخاب کنید که دیدگاه ها چگونه در صفحه محصول نمایش داده شوند"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:723
+msgid "Most helpful first"
+msgstr "مفید ترین ها اول"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:724
+msgid "Newest first"
+msgstr "جدیدترین ها اول"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:728
+msgid "Minimum word count"
+msgstr "تعداد حداقل کلمه"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:729
+msgid ""
+"Users need to enter at least this amount of words when posting a contribution"
+msgstr "کاربران باید حداقل چه تعداد کلمه را برای ارسال دیدگاه وارد کنند"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:734
+msgid "Maximum word count"
+msgstr "تعداد حداکثر کلمه"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:735
+msgid "Maximum number of words users can enter when posting a contribution"
+msgstr "حداکثر تعداد کلماتی که کاربر می تواند در هنگام ارسال دیدگاه وارد کند"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:740
+msgid "Threshold for publication"
+msgstr "آستانه برای عمومی شدن"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:741
+msgid ""
+"Show contributions to public only after a minimum amount of submission is met"
+msgstr "نمایش عمومی دیدگاه زمانی  که به یک حد نصاب رسیده باشد"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:751
+msgid "Flagged contributions"
+msgstr "دیدگاه های گزارش شده"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:752
+msgid ""
+"Change publication status should a contribution be flagged as inappropriate"
+msgstr ""
+"تغییر وضعیت دیدگاه زمانی که به عنوان نامناسب گزارش شده باشد باید انجام شود"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:759
+msgid "Keep published"
+msgstr "منتشر شده یافته نگه دار"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:760
+msgid "Set to pending approval when flagged by a registered customer"
+msgstr "زمانی که توسط یک کاربر عضو سایت گزارش شد، در انتظار تایید قرار بگیرد"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:761
+msgid "Set to pending approval when flagged by anyone"
+msgstr "زمانی که توسط هر کسی گزارش شد، در انتظار تایید قرار بگیرد"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:765
+msgid "Moderation"
+msgstr "اعتدال"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:766
+msgid "Contributions must be manually approved"
+msgstr "دیدگاه باید به صورت دستی پذیرفته شود"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:812
+#: includes/admin/class-wc-reviews-list-table.php:68
+#: includes/admin/class-wc-reviews.php:87
+#: includes/admin/views/html-report-product-reviews.php:13
+#: includes/class-wc-product-reviews-pro-contribution-type.php:65
+msgid "Reviews"
+msgstr "نقد و بررسی ها"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:815
+msgid "Most Reviews"
+msgstr "بیشترین بررسی ها"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:821
+#: includes/admin/views/html-report-product-reviews.php:14
+msgid "Highest Rating"
+msgstr "بیشترین امتیاز"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:827
+#: includes/admin/views/html-report-product-reviews.php:15
+msgid "Lowest Rating"
+msgstr "کمترین امتیاز"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:899
+#: includes/class-wc-product-reviews-pro-contribution-type.php:713
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:766
+#: includes/widgets/class-wc-product-reviews-pro-recent-photos-widget.php:51
+#: includes/widgets/class-wc-product-reviews-pro-recent-questions-widget.php:51
+#: includes/widgets/class-wc-product-reviews-pro-recent-reviews-widget.php:51
+#: includes/widgets/class-wc-product-reviews-pro-recent-videos-widget.php:51
+#: templates/emails/plain/review-update-confirmation.php:77
+#: templates/emails/review-update-confirmation.php:90
+msgid "Title"
+msgstr "عنوان"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:902
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:812
+msgid "Stats"
+msgstr "جایگاه ها"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:903
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:819
+msgid "Flags"
+msgstr "گزارشات"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:906
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:803
+msgid "Attached media"
+msgstr "رسانه پیوست شده"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:1017
+#: includes/admin/class-wc-reviews-list-table.php:553
+#: includes/admin/views/html-report-product-reviews.php:12
+msgid "Product"
+msgstr "محصول"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:1021
+msgid "Upvotes"
+msgstr "امتیاز بالا"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:1025
+msgid "Downvotes"
+msgstr "امتیاز پایین"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:1029
+msgid "Active Flags"
+msgstr "پرچم های فعال"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:1052
+msgid "Qualifiers"
+msgstr "نظارت کننده ها"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:1095
+#: includes/admin/class-wc-product-reviews-pro-admin.php:1195
+msgid "Bulk Actions"
+msgstr "عملیات دسته ایی"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:1096
+#: includes/admin/class-wc-product-reviews-pro-admin.php:1159
+#: includes/admin/class-wc-product-reviews-pro-admin.php:1196
+msgid "Resolve"
+msgstr "حل کردن"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:1097
+#: includes/admin/class-wc-product-reviews-pro-admin.php:1166
+#: includes/admin/class-wc-product-reviews-pro-admin.php:1197
+#: includes/admin/class-wc-reviews-list-table.php:841
+msgid "Delete"
+msgstr "حذف"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:1099
+#: includes/admin/class-wc-product-reviews-pro-admin.php:1199
+msgid "Apply"
+msgstr "به کاربردن"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:1106
+#: includes/admin/class-wc-product-reviews-pro-admin.php:1185
+msgid "Flagged by"
+msgstr "گزارش شده بوسیله"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:1107
+#: includes/admin/class-wc-product-reviews-pro-admin.php:1186
+msgid "Reason"
+msgstr "دلیل"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:1108
+#: includes/admin/class-wc-product-reviews-pro-admin.php:1187
+#: includes/admin/views/html-report-product-reviews.php:17
+#: templates/myaccount/contribution-list.php:186
+msgid "Actions"
+msgstr "عملیات ها"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:1135
+msgid "Guest"
+msgstr "مهمان"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:1147
+msgid "No flag reasons given"
+msgstr "هیچ دلیلی برای گزارش داده نشد"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:1177
+msgid "No one has flagged this contribution for removal."
+msgstr "هیچ کس این دیدگاه را برای حذف گزارش نکرده است."
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:1235
+msgid "View Source"
+msgstr "مشاهده سورس"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:1239
+msgid "Edit attachment"
+msgstr "ویرایش فایل پیوست"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:1241
+msgid "Remove attachment"
+msgstr "حذف فایل پیوست"
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:1264
+msgid "Attachment has been removed"
+msgstr "فایل پیوست حذف شد"
+
+#: includes/admin/class-wc-reviews-list-table.php:213
+msgid "All ratings"
+msgstr "تمام امتیازها"
+
+#: includes/admin/class-wc-reviews-list-table.php:214
+#: includes/class-wc-product-reviews-pro-contribution-type.php:552
+msgid "Perfect"
+msgstr "عالی"
+
+#: includes/admin/class-wc-reviews-list-table.php:215
+#: includes/class-wc-product-reviews-pro-contribution-type.php:553
+msgid "Good"
+msgstr "خوب"
+
+#: includes/admin/class-wc-reviews-list-table.php:216
+#: includes/class-wc-product-reviews-pro-contribution-type.php:554
+msgid "Average"
+msgstr "متوسط"
+
+#: includes/admin/class-wc-reviews-list-table.php:217
+#: includes/class-wc-product-reviews-pro-contribution-type.php:555
+msgid "Mediocre"
+msgstr "متوسط رو به پایین"
+
+#: includes/admin/class-wc-reviews-list-table.php:218
+#: includes/class-wc-product-reviews-pro-contribution-type.php:556
+msgid "Poor"
+msgstr "بد"
+
+#: includes/admin/class-wc-reviews-list-table.php:245
+msgid "Search for a product&hellip;"
+msgstr "جستجو برای یک محصول &hellip;"
+
+#: includes/admin/class-wc-reviews-list-table.php:339
+msgid "No reviews awaiting moderation."
+msgstr "هیچ نقدی در انتظار تایید نیست."
+
+#: includes/admin/class-wc-reviews-list-table.php:341
+msgid "No reviews found."
+msgstr "هیچ نقد و بررسی نیست."
+
+#. translators: Placeholder: %s total contributions, singular not used
+#: includes/admin/class-wc-reviews-list-table.php:354
+#, php-format
+msgctxt "comments"
+msgid "All <span class=\"count\">(<span class=\"all-count\">%s</span>)</span>"
+msgid_plural ""
+"All <span class=\"count\">(<span class=\"all-count\">%s</span>)</span>"
+msgstr[0] ""
+"همه <span class=\"count\">(<span class=\"all-count\">%s</span>)</span>"
+msgstr[1] ""
+"همه <span class=\"count\">(<span class=\"all-count\">%s</span>)</span>"
+
+#. translators: Placeholder: %s count of pending contributions
+#: includes/admin/class-wc-reviews-list-table.php:356
+#, php-format
+msgctxt "Reviews"
+msgid ""
+"Pending <span class=\"count\">(<span class=\"pending-count\">%s</span>)</"
+"span>"
+msgid_plural ""
+"Pending <span class=\"count\">(<span class=\"pending-count\">%s</span>)</"
+"span>"
+msgstr[0] ""
+"در انتظار تایید <span class=\"count\">(<span class=\"pending-count\">%s</"
+"span>)</span>"
+msgstr[1] ""
+"معلق <span class=\"count\">(<span class=\"pending-count\">%s</span>)</span>"
+
+#. translators: Placeholder: %s Approved contributions, singular not used
+#: includes/admin/class-wc-reviews-list-table.php:358
+#, php-format
+msgctxt "Reviews"
+msgid ""
+"Approved <span class=\"count\">(<span class=\"approved-count\">%s</span>)</"
+"span>"
+msgid_plural ""
+"Approved <span class=\"count\">(<span class=\"all-count\">%s</span>)</span>"
+msgstr[0] ""
+"پذیرفته شده <span class=\"count\">(<span class=\"all-count\">%s</span>)</"
+"span>"
+msgstr[1] ""
+"پذیرفته شده  <span class=\"count\">(<span class=\"approved-count\">%s</"
+"span>)</span>"
+
+#. translators: Placeholder: %s count of spam contributions, singular not used
+#: includes/admin/class-wc-reviews-list-table.php:360
+#, php-format
+msgctxt "Reviews"
+msgid ""
+"Spam <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
+msgid_plural ""
+"Spam <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
+msgstr[0] ""
+"اسپم <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
+msgstr[1] ""
+"اسپم <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
+
+#. translators: Placeholder: %s count of trashed contributions, singular not used
+#: includes/admin/class-wc-reviews-list-table.php:362
+#, php-format
+msgctxt "Reviews"
+msgid ""
+"Trash <span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
+msgid_plural ""
+"Trash <span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
+msgstr[0] ""
+"سطل زباله <span class=\"count\">(<span class=\"trash-count\">%s</span>)</"
+"span>"
+msgstr[1] ""
+"سطل زباله <span class=\"count\">(<span class=\"trash-count\">%s</span>)</"
+"span>"
+
+#: includes/admin/class-wc-reviews-list-table.php:448
+#: includes/admin/class-wc-reviews-list-table.php:826
+msgid "Unapprove"
+msgstr "عدم پذیرش"
+
+#: includes/admin/class-wc-reviews-list-table.php:452
+#: includes/admin/class-wc-reviews-list-table.php:823
+msgid "Approve"
+msgstr "پذیرش"
+
+#: includes/admin/class-wc-reviews-list-table.php:456
+msgctxt "comment"
+msgid "Mark as Spam"
+msgstr "ارسال گزارش به عنوان اسپم"
+
+#: includes/admin/class-wc-reviews-list-table.php:460
+#: includes/admin/class-wc-reviews-list-table.php:838
+msgid "Restore"
+msgstr "بازگردانی"
+
+#: includes/admin/class-wc-reviews-list-table.php:462
+msgctxt "comment"
+msgid "Not Spam"
+msgstr "اسپم نیست"
+
+#: includes/admin/class-wc-reviews-list-table.php:466
+msgid "Delete Permanently"
+msgstr "پاک کردن برای همیشه"
+
+#: includes/admin/class-wc-reviews-list-table.php:468
+msgid "Move to Trash"
+msgstr "انتقال به زباله دان"
+
+#: includes/admin/class-wc-reviews-list-table.php:498
+msgctxt "verb"
+msgid "Filter"
+msgstr "فیلتر"
+
+#: includes/admin/class-wc-reviews-list-table.php:505
+msgid "Empty Spam"
+msgstr "خالی کردن اسپم"
+
+#: includes/admin/class-wc-reviews-list-table.php:505
+msgid "Empty Trash"
+msgstr "خالی کردن سطل زباه"
+
+#: includes/admin/class-wc-reviews-list-table.php:551
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:599
+msgid "Author"
+msgstr "نویسنده"
+
+#: includes/admin/class-wc-reviews-list-table.php:554
+msgctxt "Review parent item"
+msgid "Parent"
+msgstr "مادر"
+
+#: includes/admin/class-wc-reviews-list-table.php:646
+msgid "Select comment"
+msgstr "انتخاب دیدگاه"
+
+#. translators: Placeholders: %1$s opening <a> link tag, %2$s comment date, %3$s comment time, %4$s closing <a> link tag
+#: includes/admin/class-wc-reviews-list-table.php:745
+#, php-format
+msgid "On %1$s%2$s at %3$s%4$s"
+msgstr "در %1$s%2$s در %3$s%4$s"
+
+#. translators: Placeholder %d - rating (e.g. 'Rated 4 out of 5')
+#: includes/admin/class-wc-reviews-list-table.php:758
+#: templates/single-product/contributions/contribution-review-legacy.php:60
+#, php-format
+msgid "Rated %d out of 5"
+msgstr "امتیاز  %d از 5"
+
+#. translators: Placeholder %d - rating (e.g. '4 out of 5')
+#: includes/admin/class-wc-reviews-list-table.php:760
+#, php-format
+msgid "%d out of 5"
+msgstr "%d از 5"
+
+#: includes/admin/class-wc-reviews-list-table.php:775
+msgid "show more"
+msgstr "نمایش بیشتر"
+
+#. translators: Placeholder: %s contribution type name
+#: includes/admin/class-wc-reviews-list-table.php:822
+#, php-format
+msgid "Approve this %s"
+msgstr "پذیرش این %s"
+
+#. translators: Placeholder: %s contribution type name
+#: includes/admin/class-wc-reviews-list-table.php:825
+#, php-format
+msgid "Unapprove this %s"
+msgstr "عدم پذیرش این %s"
+
+#. translators: Placeholder: %s contribution type name
+#: includes/admin/class-wc-reviews-list-table.php:828
+#, php-format
+msgid "Mark this %s as spam"
+msgstr "گزارش این %s به عنوان اسپم"
+
+#: includes/admin/class-wc-reviews-list-table.php:829
+msgctxt "Mark as spam"
+msgid "Spam"
+msgstr "اسپم"
+
+#: includes/admin/class-wc-reviews-list-table.php:832
+msgctxt "Mark as not spam"
+msgid "Not spam"
+msgstr "اسپم نیست"
+
+#. translators: Placeholder: %s contribution type name
+#: includes/admin/class-wc-reviews-list-table.php:834
+#, php-format
+msgid "Move this %s to the trash"
+msgstr "انتقال این %s به زباله دان"
+
+#: includes/admin/class-wc-reviews-list-table.php:835
+msgctxt "Verb"
+msgid "Trash"
+msgstr "سطل زباله"
+
+#. translators: Placeholder: %s contribution type name
+#: includes/admin/class-wc-reviews-list-table.php:837
+#, php-format
+msgid "Restore %s from trash"
+msgstr "بازگردانی  %s از سطل زباله"
+
+#. translators: Placeholder: %s contribution type name
+#: includes/admin/class-wc-reviews-list-table.php:840
+#, php-format
+msgid "Delete this %s permanently"
+msgstr "حذف این %s برای همیشه"
+
+#. translators: Placeholder: %s contribution type name
+#: includes/admin/class-wc-reviews-list-table.php:843
+#, php-format
+msgid "Edit this %s"
+msgstr "ویرایش این %s"
+
+#: includes/admin/class-wc-reviews-list-table.php:844
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:1118
+msgid "Edit"
+msgstr "ویرایش"
+
+#. translators: Placeholder: %s contribution type name
+#: includes/admin/class-wc-reviews-list-table.php:846
+#, php-format
+msgid "Reply to this %s"
+msgstr "پاسخ دادن به این %s"
+
+#: includes/admin/class-wc-reviews-list-table.php:847
+msgid "Reply"
+msgstr "پاسخ دادن"
+
+#. translators: Placeholders: %1$s opening <a> link tag, %2$s review author, %3$s closing <a> link tag
+#: includes/admin/class-wc-reviews-list-table.php:968
+#, php-format
+msgid "%1$sReview by %2$s%3$s"
+msgstr "%1$s  بررسی شده بوسیله  %2$s%3$s"
+
+#. translators: Placeholder: %s - product title
+#: includes/admin/class-wc-reviews.php:92
+#, php-format
+msgid "Reviews for %s"
+msgstr "نقد و بررسی برای %s"
+
+#: includes/admin/class-wc-reviews.php:194
+msgctxt "reviews per page (screen options)"
+msgid "Reviews"
+msgstr "نقد و بررسی ها"
+
+#: includes/admin/class-wc-reviews.php:223
+msgid "Search reviews"
+msgstr "جستجوی نقد و بررسی ها"
+
+#: includes/admin/class-wc-reviews.php:257
+#, php-format
+msgid "%s comment approved"
+msgid_plural "%s comments approved"
+msgstr[0] "%s دیدگاه پذیرفته شد"
+msgstr[1] "%s نظرات پذیرفته شد"
+
+#: includes/admin/class-wc-reviews.php:262
+#, php-format
+msgid "%s comment marked as spam."
+msgid_plural "%s comments marked as spam."
+msgstr[0] "%s دیدگاه به عنوان اسپم شناخته شد."
+msgstr[1] "%s  دیدگاه به عنوان اسپم شناخته شد."
+
+#: includes/admin/class-wc-reviews.php:262
+#: includes/admin/class-wc-reviews.php:271
+msgid "Undo"
+msgstr "عقب گرد"
+
+#: includes/admin/class-wc-reviews.php:266
+#, php-format
+msgid "%s comment restored from the spam"
+msgid_plural "%s comments restored from the spam"
+msgstr[0] "%s دیدگاه از اسپم خارج شد"
+msgstr[1] "%s دیدگاه از اسپم خارج شد"
+
+#: includes/admin/class-wc-reviews.php:271
+#, php-format
+msgid "%s comment moved to the Trash."
+msgid_plural "%s comments moved to the Trash."
+msgstr[0] "%s دیدگاه به سطل زباله منتقل شد."
+msgstr[1] "%s دیدگاه به سطل زباله منتقل شد."
+
+#: includes/admin/class-wc-reviews.php:275
+#, php-format
+msgid "%s comment restored from the Trash"
+msgid_plural "%s comments restored from the Trash"
+msgstr[0] "%s دیدگاه از سطل زباله برگشت داده شد"
+msgstr[1] "%s دیدگاه از سطل زباله برگشت داده شد"
+
+#: includes/admin/class-wc-reviews.php:279
+#, php-format
+msgid "%s comment permanently deleted"
+msgid_plural "%s comments permanently deleted"
+msgstr[0] "%s دیدگاه برای همیشه پاک شد"
+msgstr[1] "%s دیدگاه برای همیشه پاک شد"
+
+#: includes/admin/class-wc-reviews.php:285
+msgid "This comment is already approved."
+msgstr "این دیدگاه پذیرفته شده است."
+
+#: includes/admin/class-wc-reviews.php:285
+#: includes/admin/class-wc-reviews.php:291
+msgid "Edit comment"
+msgstr "ویرایش دیدگاه"
+
+#: includes/admin/class-wc-reviews.php:288
+msgid "This comment is already in the Trash."
+msgstr "این دیدگاه به سطل زباله رفت."
+
+#: includes/admin/class-wc-reviews.php:288
+msgid "View Trash"
+msgstr "مشاهده سطل زباله"
+
+#: includes/admin/class-wc-reviews.php:291
+msgid "This comment is already marked as spam."
+msgstr "این دیدگاه قبلا به عنوان اسپم گزارش شده است."
+
+#: includes/admin/class-wc-reviews.php:322
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin-compatibility.php:328
+msgid "WooCommerce"
+msgstr "ووکامرس"
+
+#: includes/admin/class-wc-reviews.php:364
+#: includes/class-wc-product-reviews-pro-contribution-type.php:442
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:580
+msgid "Edit Review"
+msgstr "ویرایش نقد و بررسیی"
+
+#: includes/admin/class-wc-reviews.php:368
+#: includes/class-wc-product-reviews-pro-contribution-type.php:485
+msgid "Moderate Review"
+msgstr "تایید نقد و بررسیی"
+
+#: includes/admin/views/html-report-product-reviews.php:16
+msgid "Average Rating"
+msgstr "میانگین امتیازها"
+
+#: includes/admin/views/html-report-product-reviews.php:34
+msgid "View Product"
+msgstr "مشاهده محصول"
+
+#: includes/admin/views/html-report-product-reviews.php:37
+msgid "View Reviews"
+msgstr "مشاهده نقد و بررسی"
+
+#: includes/class-wc-product-reviews-pro-ajax.php:115
+#: includes/class-wc-product-reviews-pro-emails.php:259
+msgid "You have taken too long, please go back and try again."
+msgstr "خیلی طول کشیده است، لطفا به عقب برگردید و از اول شروع کنید."
+
+#: includes/class-wc-product-reviews-pro-ajax.php:138
+msgid "You need to be logged in to vote."
+msgstr "شما برای رای دادن باید وارد شوید."
+
+#: includes/class-wc-product-reviews-pro-ajax.php:146
+#: includes/class-wc-product-reviews-pro-ajax.php:195
+#: includes/class-wc-product-reviews-pro-ajax.php:248
+#: includes/class-wc-product-reviews-pro-ajax.php:484
+#: includes/class-wc-product-reviews-pro-ajax.php:654
+#: includes/class-wc-product-reviews-pro-ajax.php:766
+#: includes/class-wc-product-reviews-pro-ajax.php:866
+#: includes/class-wc-product-reviews-pro-ajax.php:918
+#: includes/class-wc-product-reviews-pro-ajax.php:1020
+msgid "Invalid request."
+msgstr "در خواست نامعتبر است."
+
+#: includes/class-wc-product-reviews-pro-ajax.php:156
+#: includes/class-wc-product-reviews-pro-ajax.php:204
+#: includes/class-wc-product-reviews-pro-ajax.php:256
+#: includes/class-wc-product-reviews-pro-ajax.php:493
+msgid "Invalid request. Contribution not found."
+msgstr "ذرخواست نامعتبر است. نقد و بررسی پیدا نشد."
+
+#: includes/class-wc-product-reviews-pro-ajax.php:168
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:540
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:1071
+msgid "Could not cast your vote. Please try again later."
+msgstr "شما نمی توانید رای دهید . بعدا امتحان کنید."
+
+#: includes/class-wc-product-reviews-pro-ajax.php:174
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:1066
+msgid "Vote has been cast. Thanks!"
+msgstr "رای ثبت شد ممنونیم!"
+
+#: includes/class-wc-product-reviews-pro-ajax.php:216
+#: includes/class-wc-product-reviews-pro-ajax.php:1048
+msgid "You'll be notified when there are replies."
+msgstr "اگر پاسخی داده شد شما رو مطلع خواهیم کرد."
+
+#: includes/class-wc-product-reviews-pro-ajax.php:220
+msgid "You are no longer following replies."
+msgstr "شما مدت زیادی نیست این پاسخ های را دنبال می کنید."
+
+#: includes/class-wc-product-reviews-pro-ajax.php:229
+#: includes/class-wc-product-reviews-pro-ajax.php:1052
+#: includes/class-wc-product-reviews-pro-emails.php:238
+#: includes/class-wc-product-reviews-pro-emails.php:268
+#: includes/class-wc-product-reviews-pro-emails.php:278
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:539
+msgid "An error occurred. Your request could not be processed."
+msgstr "یک خطا اتفاق افتاد. درخواست شما قابل انجام نیست."
+
+#: includes/class-wc-product-reviews-pro-ajax.php:268
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:538
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:1023
+msgid "Could not flag contribution. Please try again later."
+msgstr "این دیدگاه قابل گزارش نیست. لطفا بعدا تلاش کنید."
+
+#: includes/class-wc-product-reviews-pro-ajax.php:273
+msgid "Contribution has been flagged. Thanks!"
+msgstr "دیدگاه گزارش شد. متشکریم!"
+
+#: includes/class-wc-product-reviews-pro-ajax.php:384
+msgid "Error"
+msgstr "خطا"
+
+#: includes/class-wc-product-reviews-pro-ajax.php:514
+msgid "Attachment successfully removed."
+msgstr "فایل پیوست با موفقیت حذف شد."
+
+#: includes/class-wc-product-reviews-pro-ajax.php:661
+#: includes/class-wc-product-reviews-pro-ajax.php:728
+#: includes/class-wc-product-reviews-pro-ajax.php:773
+#: includes/class-wc-product-reviews-pro-ajax.php:858
+#: includes/class-wc-product-reviews-pro-ajax.php:925
+msgid "Invalid request. Product not found."
+msgstr "در خواست نامعتبر. محصول پیدا نشد."
+
+#: includes/class-wc-product-reviews-pro-ajax.php:669
+#: includes/class-wc-product-reviews-pro-ajax.php:675
+#: includes/class-wc-product-reviews-pro-ajax.php:781
+msgid "Invalid request. Review not found."
+msgstr "در خواست نامعتبر. نقد و بررسی  پیدا نشد."
+
+#: includes/class-wc-product-reviews-pro-ajax.php:743
+msgid "Invalid request. No review found."
+msgstr "در خواست نامعتبر. هیچ نقد و بررسی پیدا نشد."
+
+#: includes/class-wc-product-reviews-pro-ajax.php:788
+msgid "Invalid request. Review content can't be empty."
+msgstr "در خواست نامعتبر. محتوای نقد و بررسی نمی تواند خالی باشد."
+
+#: includes/class-wc-product-reviews-pro-ajax.php:805
+msgid "You did not make any changes to your review!"
+msgstr "شما هیچ تغییری در این نقد و بررسی نداده اید!"
+
+#: includes/class-wc-product-reviews-pro-ajax.php:835
+msgid "Review updated!"
+msgstr "نقد و بررسی آپدیت شد!"
+
+#: includes/class-wc-product-reviews-pro-ajax.php:839
+msgid "Something went wrong. Please try again!"
+msgstr "بعضی چیزها اشتباه شدند. مجدد امتحان کنید!"
+
+#: includes/class-wc-product-reviews-pro-ajax.php:893
+msgid ""
+"Whoops, looks like you've already reviewed this product! Please contact the "
+"store if you’d like to update your review."
+msgstr ""
+"یک لحظه، به دیدگاه میاد شما همین الان این محصول را نقد و بررسی کردید! لطفا "
+"با مدیریت تماس بگیرید اگر می خواهید نقد شما به روز شود."
+
+#: includes/class-wc-product-reviews-pro-ajax.php:964
+msgid "Invalid request. File is not updated."
+msgstr "در خواست نامعتبر. فایل آپدیت نیست."
+
+#: includes/class-wc-product-reviews-pro-ajax.php:997
+msgid "Confirmation mail sent!"
+msgstr "ایمیل تایید رسال شد!"
+
+#: includes/class-wc-product-reviews-pro-ajax.php:1001
+msgid "Something went wrong. Please try again."
+msgstr "بعضی چیزهای اشتباه شدند. مجددا امتحان کنید."
+
+#: includes/class-wc-product-reviews-pro-ajax.php:1027
+msgid "Email is required."
+msgstr "ایمیل ضروری است."
+
+#: includes/class-wc-product-reviews-pro-ajax.php:1036
+msgid "An account is already registered with your email address. Please login."
+msgstr "یک حساب کاربری با ایمیل شما وجود دارد. لطفا با آن لاگین کنید."
+
+#. translators: Placeholder: %s - IP address of the visitor in parenthesis
+#: includes/class-wc-product-reviews-pro-contribution-flag.php:252
+#, php-format
+msgid "Visitor %s"
+msgstr "بازدیدکننده %s"
+
+#: includes/class-wc-product-reviews-pro-contribution-flag.php:260
+msgid "Customer"
+msgstr "مشتری"
+
+#. translators: Placeholder: %s - customer's profile edit screen URL in parenthesis
+#: includes/class-wc-product-reviews-pro-contribution-flag.php:263
+#, php-format
+msgid "Customer %s"
+msgstr "مشتری %s"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:69
+msgid "Questions"
+msgstr "گزینه ها"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:69
+#: includes/class-wc-product-reviews-pro-contribution-type.php:587
+#: templates/single-product/contributions/contribution-question-legacy.php:50
+#: templates/single-product/contributions/contribution-question.php:48
+msgid "Question"
+msgstr "سوال"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:73
+msgid "Photos"
+msgstr "تصاویر"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:77
+msgid "Videos"
+msgstr "ویدئو ها"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:82
+msgid "Comments"
+msgstr "نظرات"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:117
+msgid "Update my Review"
+msgstr "بروز کردن نقد و بررسی من"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:119
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:766
+msgid "Leave a Review"
+msgstr "یک نقد و بررسی بنویسید"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:125
+msgid "Ask a Question"
+msgstr "یک سوال بپرسید"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:129
+msgid "Post a Photo"
+msgstr "یک تصویر ارسال کنید"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:133
+msgid "Post a Video"
+msgstr "یک ویدئو ارسال کنید"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:165
+#, php-format
+msgid "One review with a %2$d-star rating"
+msgid_plural "%1$d reviews with a %2$d-star rating"
+msgstr[0] "%1$d نقد و بررسی با رتبه بندی %2$d ستاره"
+msgstr[1] "یک نقد و بررسی با رتبه بندی %2$d ستاره"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:167
+#, php-format
+msgid "One review"
+msgid_plural "%d reviews"
+msgstr[0] "%d نقد و بررسی"
+msgstr[1] "نقد و بررسی"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:173
+#, php-format
+msgid "One question"
+msgid_plural "%d questions"
+msgstr[0] "%d سوال"
+msgstr[1] "سوال"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:177
+#, php-format
+msgid "One photo"
+msgid_plural "%d photos"
+msgstr[0] "%d تصویر"
+msgstr[1] "یک  تصویر"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:181
+#, php-format
+msgid "One video"
+msgid_plural "%d videos"
+msgstr[0] "%d ویدئو"
+msgstr[1] "یک ویدئو"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:210
+#, php-format
+msgid "Reviews (%d)"
+msgstr "دیدگاه ها (%d)"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:214
+#, php-format
+msgid "Questions (%d)"
+msgstr "سوال ها (%d)"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:218
+#, php-format
+msgid "Photos (%d)"
+msgstr "تصاویر (%d)"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:222
+#, php-format
+msgid "Videos (%d)"
+msgstr "ویدئوها(%d)"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:226
+#, php-format
+msgid "Discussion (%d)"
+msgstr "بحث ها (%d)"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:255
+msgid "Show all reviews"
+msgstr "نمایش تمام نقد و بررسی ها"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:259
+msgid "Show all questions"
+msgstr "نمایش تمام سوالات"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:263
+msgid "Show all photos"
+msgstr "نمایش تمام تصاویر"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:267
+msgid "Show all videos"
+msgstr "نمایش تمام ویدئوها"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:296
+msgid "Show my reviews"
+msgstr "نمایش تمام نقدهای من"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:300
+msgid "Show my questions"
+msgstr "نمایش تمام سوالات من"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:304
+msgid "Show my photos"
+msgstr "نمایش تمام تصاویر من"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:308
+msgid "Show my videos"
+msgstr "نمایش تمام ویدئوهای من"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:335
+msgid "Save Review"
+msgstr "ارسال نقد و بررسی"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:339
+msgid "Save Question"
+msgstr "ارسال سوال"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:343
+msgid "Save Photo"
+msgstr "ارسال تصویر"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:347
+msgid "Save Video"
+msgstr "ارسال ویدئو"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:351
+#, php-format
+msgid "Save %s"
+msgstr "ارسال %s"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:374
+#: includes/class-wc-product-reviews-pro-contribution-type.php:395
+msgid "There are no reviews yet"
+msgstr "هیچ نقد و بررسی وجود نداره"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:384
+msgid "There are no helpful reviews yet"
+msgstr "هیچ نقد و بررسی مفیدی تا الان وجود نداره"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:387
+msgid "There are no helpful positive reviews yet"
+msgstr "هیچ نقد و بررسی مثبت مفیدی تا الان وجود نداره"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:389
+msgid "There are no helpful negative reviews yet"
+msgstr "هیچ نقد و بررسی منفی مفیدی تا الان وجود نداره"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:393
+#, php-format
+msgid " There are no reviews with a %d-star rating yet"
+msgstr " هیچ نقد و بررسی با %d ستاره تا الان وجود ندارد"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:403
+msgid "There are no unanswered questions"
+msgstr "هیچ سوال بدون پاسخی  وجود نداره"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:405
+msgid "There are no questions yet"
+msgstr "هیچ سوالی تاکنون  وجود نداره"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:411
+msgid "There are no photos yet"
+msgstr "هیچ تصویری تاکنون  وجود نداره"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:415
+msgid "There are no videos yet"
+msgstr "هیچ ویدئویی تا الان وجود نداره"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:446
+msgid "Edit Question"
+msgstr "ویرایش سوال"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:450
+msgid "Edit Photo"
+msgstr "ویرایش تصویر"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:454
+msgid "Edit Video"
+msgstr "ویرایش ویدئو"
+
+#. translators: Placeholder: %s - contribution type (e.g. review, photo, video...)
+#: includes/class-wc-product-reviews-pro-contribution-type.php:458
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:1117
+#, php-format
+msgid "Edit %s"
+msgstr "ویرایش  %s"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:489
+msgid "Moderate Question"
+msgstr "کنترل کردن سوال"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:493
+msgid "Moderate Photo"
+msgstr "کنترل کردن تصویر"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:497
+msgid "Moderate Video"
+msgstr "کنترل کردن ویدئو"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:501
+#, php-format
+msgid "Moderate %s"
+msgstr "کنترل کردن  %s"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:537
+msgid "Change your recent rating"
+msgstr "تغییر آخرین امتیاز خود"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:541
+msgid "How would you rate this product?"
+msgstr "به این محصول چه امتیازی می دهید؟"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:569
+msgid "What is the title of your review?"
+msgstr "عنوان نقد و بررسی چی باشه؟"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:590
+msgid "What is your question?"
+msgstr "سوال شما چی هست؟"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:597
+msgid "What is the title of your photo?"
+msgstr "عنوان تصویر شما چیست؟"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:600
+#: includes/class-wc-product-reviews-pro-contribution-type.php:628
+msgid "Description"
+msgstr "توضیحات"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:603
+msgid "Your photo's description"
+msgstr "توضیحات تصاویر شما"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:625
+msgid "What is the title of your video?"
+msgstr "عنوان ویدئوی شما چیست؟"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:631
+msgid "Your video's description"
+msgstr "توضیحات ویدئوی شما"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:657
+msgid "What is your comment?"
+msgstr "نظر شما در مورد این نقد و بررسی چیست؟"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:719
+msgid "Tell us what you think of this product..."
+msgstr "به ما بگویید در مورد این محصول چی فکر می کنید ..."
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:729
+msgid "Attach a photo or video"
+msgstr "یک عکس و یا ویدئو پیوست کنید"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:739
+msgid "Enter a URL"
+msgstr "یک لینک وارد کنید"
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:746
+msgid "Choose a file"
+msgstr "یک فایل انتخاب کنید"
+
+#: includes/class-wc-product-reviews-pro-emails.php:236
+msgid ""
+"You will be no longer receiving email notifications for comments on the "
+"review you had subscribed to."
+msgstr ""
+"شما به زودی ایمیل های اطلاع رسانی مربوط به این نقد  و بررسی را دریافت می "
+"کنید وقتی که مشتری آن شدید."
+
+#: includes/class-wc-product-reviews-pro-emails.php:276
+msgid "Review updated successfully!"
+msgstr "نقد و بررسی با موفقیت به روز شد!"
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:67
+msgctxt "taxonomy general name"
+msgid "Review Qualifiers"
+msgstr "نقد و بررسی ناظران کیفی"
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:68
+msgctxt "taxonomy singular name"
+msgid "Review Qualifier"
+msgstr "نقد و بررسی ناظر کیفی"
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:69
+msgid "Search Review Qualifiers"
+msgstr "جستجوی نقد و بررسی ناظران کیفی"
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:70
+msgid "All Review Qualifiers"
+msgstr "تمام نقد و بررسی ناظران کیفی"
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:71
+msgid "Edit Review Qualifier"
+msgstr "ویرایش نقد و بررسی ناظر کیفی"
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:72
+msgid "View Review Qualifier"
+msgstr "مشاهده نقد و بررسی ناظر کیفی"
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:73
+msgid "Update Review Qualifier"
+msgstr "بروزرسانی نقد و بررسی ناظر کیفی"
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:74
+msgid "Add New Review Qualifier"
+msgstr "اضافه کردن یک نقد و بررسی ناظر کیفی"
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:75
+msgid "New Review Qualifier Name"
+msgstr "نام جدید نقد و بررسی ناظر کیفی"
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:76
+msgid "Separate qualifiers with commas"
+msgstr "جدا کردن ناظران کیفی با کاما"
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:77
+msgid "Add or remove review qualifiers"
+msgstr "اضافه و یا حذف کردن نقد و بررسی ناظران کیفی"
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:78
+msgid "Choose from the most used review qualifiers"
+msgstr "انتخاب از بین نقد و بررسی ناظران کیفی بیشتر استفاده شده"
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:79
+msgid "No review qualifiers found."
+msgstr "هیچ  نقد و بررسی ناظر کیفی پیدا نشد."
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:80
+msgid "Review Qualifiers"
+msgstr "نقد و بررسی ناظران کیفی"
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:81
+msgid "Most used Qualifiers"
+msgstr "بیشترین ناظران کیفی استفاده شده"
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:116
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:136
+msgctxt "Review qualifier options"
+msgid "Options"
+msgstr "گزینه ها"
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:118
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:138
+msgid "List review qualifier options above (1 per line)."
+msgstr "گزینه های ناظران کیفی را لیست کنید ( هر خط یکی )"
+
+#: includes/contributions/abstract-wc-contribution.php:591
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:1450
+msgid "You must be logged in to vote"
+msgstr "برای رای دادن باید اول وارد شوید"
+
+#: includes/contributions/abstract-wc-contribution.php:598
+msgid "You can't vote for yourself"
+msgstr "شما نمی توانید به خودتان رای دهید :)"
+
+#: includes/contributions/abstract-wc-contribution.php:776
+msgid "You have already flagged this contribution"
+msgstr "شما قبلا این دیدگاه را گزارش کرده اید"
+
+#: includes/contributions/abstract-wc-contribution.php:781
+msgid "You can't flag your own contributions!"
+msgstr "شما نمی توانید دیدگاه خود را گزارش کنید!"
+
+#: includes/contributions/abstract-wc-contribution.php:857
+msgid "An error occurred. Please try again."
+msgstr "یک خطا اتفاق افتاد. مجددا امتحان کنید."
+
+#: includes/emails/class-wc-product-reviews-pro-emails-flagged-contribution.php:53
+msgid "Flagged Contribution"
+msgstr "دیدگاه گزارش شده"
+
+#: includes/emails/class-wc-product-reviews-pro-emails-flagged-contribution.php:54
+msgid ""
+"Notifies the admin when a contribution is flagged for removal by a customer."
+msgstr "اطلاع به مدیر زمانی که یک یک دیدگاه برای حذف توسط کاربر گزارش شد."
+
+#: includes/emails/class-wc-product-reviews-pro-emails-flagged-contribution.php:61
+msgid "A {contribution_type} on {site_title} has been flagged for removal!"
+msgstr "یک {contribution_type} در {site_title} برای حذف گزارش شده است!"
+
+#: includes/emails/class-wc-product-reviews-pro-emails-flagged-contribution.php:62
+msgid "A {contribution_type} for {product_name} was marked as inappropriate."
+msgstr "یک {contribution_type} در {site_title} به عنوان نامناسب گزارش شده است."
+
+#: includes/emails/class-wc-product-reviews-pro-emails-flagged-contribution.php:226
+msgid "Recipients"
+msgstr "دریافت کنندگان"
+
+#: includes/emails/class-wc-product-reviews-pro-emails-flagged-contribution.php:227
+msgid ""
+"The recipients that will be notified whenever a contribution is flagged for "
+"removal."
+msgstr "دریافت کنندگان مطلع خواهند شد زمانی که یک دیدگاه برای حذف گزارش شود."
+
+#: includes/emails/class-wc-product-reviews-pro-emails-new-comment.php:56
+msgid "Contribution reply"
+msgstr "پاسخ دیدگاه"
+
+#: includes/emails/class-wc-product-reviews-pro-emails-new-comment.php:57
+msgid ""
+"Email users that wish to be notified whenever there is a new comment on a "
+"product contribution they subscribed to."
+msgstr ""
+"ارسال ایمیل اطلاع رسانی برای کاربرانی که یک دیدگاه جدید برای محصول دیدگاه که "
+"در آن مشترک شدند ارسال شده."
+
+#: includes/emails/class-wc-product-reviews-pro-emails-new-comment.php:62
+msgid "New reply posted on a {product_name} {contribution_type}"
+msgstr "یک دیدگاه جدید برای {product_name} {contribution_type} ارسال شد"
+
+#: includes/emails/class-wc-product-reviews-pro-emails-new-comment.php:63
+msgid "A reply has been added to a {contribution_type} on {site_title}"
+msgstr "یک پاسخ به یک  {contribution_type}  در {site_title} اضافه شد"
+
+#: includes/emails/class-wc-product-reviews-pro-emails-review-update-confirmation.php:53
+msgid "Review Update Confirmation"
+msgstr "تاییدیه به روزرسانی نقد و بررسی"
+
+#: includes/emails/class-wc-product-reviews-pro-emails-review-update-confirmation.php:54
+msgid ""
+"Email users when they try to leave a review with an email tied to a "
+"registered user."
+msgstr ""
+"ارسال ایمیل برای کاربران وقتی که می خواهند یک نقد و بررسی ارسال کنند با یک "
+"ایمیل که به یک حساب کاربری ثبت شده متصل است."
+
+#: includes/emails/class-wc-product-reviews-pro-emails-review-update-confirmation.php:59
+msgid "Review update confirmation needed on a {product_name}"
+msgstr "تاییدیه به روزرسانی نقد و بررسی نیاز به یک {product_name} دارد"
+
+#: includes/emails/class-wc-product-reviews-pro-emails-review-update-confirmation.php:60
+msgid "A review update confirmation needed on a {product_name} on {site_title}"
+msgstr ""
+"تاییدیه به روزرسانی نقد و بررسی نیاز به یک {product_name} در {site_title}  "
+"دارد"
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:531
+msgid "Loading..."
+msgstr "در حال بارگزاری ..."
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:532
+msgid "Attach a photo"
+msgstr "یک تصویر ضممیه کنید"
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:533
+msgid "Attach a video"
+msgstr "یک ویدئو ضممیه کنید"
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:534
+msgid "Rather attach photo from another website?"
+msgstr "آیا ترجیح می دهید یک تصویر را از سایت دیگر  ضممیه کنید؟"
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:535
+msgid "Rather attach photo from your computer?"
+msgstr "آیا ترجیح می دهید یک تصویر را از کامپیوتر خود ضممیه کنید؟"
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:536
+msgid "Rather attach video from another website?"
+msgstr "آیا ترجیح می دهید یک ویدئو را از وبسایت دیگری ضممیه کنید؟"
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:537
+msgid "Rather attach video from your computer?"
+msgstr "آیا ترجیح می دهید یک ویدئو را از کامپیوتر خود ضممیه کنید؟"
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:541
+#, php-format
+msgid "%1$d out of %2$d people found this helpful"
+msgstr "%1$d از %2$d مردم این را مفید دانسته اند"
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:543
+msgid "Please attach a file."
+msgstr "لطفا یک فایل پیوست کنید."
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:544
+msgid "This is a required field."
+msgstr "این یک فیلد ضروری است."
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:545
+#, php-format
+msgid "Please enter at least %d words."
+msgstr "لطفا حداقل %d کلمه وارد کنید."
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:546
+#, php-format
+msgid "Please enter less than %d words."
+msgstr "لطفا کمتر از %d کلمه وارد کنید."
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:547
+msgid "Only jpg, png, gif, bmp and tiff files, please"
+msgstr "لطفا فقط فایل های با پسوند  jpg, png, gif, bmp, tiff"
+
+#. translators: Placeholders: %s Size of file in human readable format (e.g. 2M, 200Kb, etc.)
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:549
+#, php-format
+msgid "File is too large. Size must be less than %s."
+msgstr "فایل خیلی بزرگه. حداکثر حجمش %s نباشه."
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:550
+msgid "An error occurred, please try again."
+msgstr "یه مشکلییش اومد، مجدد امتحان کنید."
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:551
+msgid "Remove Attachment"
+msgstr "حذف کردن فایل پیوست"
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:553
+msgid ""
+"Hold up -- it looks like you've already left a review for this product. You "
+"can update your existing review instead."
+msgstr ""
+"دست نگه دارید -- شما قبلا یک نقد و بررسی برای این محصول گذاشتید. شما می "
+"توانید همان نقدو بررسی را ویرایش و به روز کنید."
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:553
+msgid ""
+"Please click \"OK\" to send a confirmation email to update your existing "
+"review, or \"Cancel\" to go back."
+msgstr ""
+"لطفا برای ارسال ایمیل تاییدیه به روز رسانی نقد و بررسی روی دکمه ok  کلیک "
+"کنید و یا برای برگست به قبل روی cancel  کلیک کنید."
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:581
+msgid "required"
+msgstr "ضروری"
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:723
+#, php-format
+msgid "%s is a required field."
+msgstr "این فیلد %s  ضروری هست."
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:734
+msgid "is not a valid email address."
+msgstr "این آدرس ایمیل معتبر نیست."
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:744
+msgid "Please rate the product."
+msgstr "لطفا به این محصول امتیاز دهید."
+
+#. translators: Placeholders: %s - error description
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:784
+#, php-format
+msgid "Unable to upload file: %s"
+msgstr "قادر به آپلود فایل نیست :%s"
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:795
+msgid "Only photo uploads are supported at the moment"
+msgstr "در این لحظه، فقط آپلود تصاویر پشتیبانی می شود"
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:805
+msgid "Please attach a photo."
+msgstr "لطفا یک تصویر ضممیه کنید."
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:828
+msgid "Thank you! Your contribution has been received and is being reviewed."
+msgstr "با تشکر! دیدگاه شما دریافت شد و مورد نقد و بررسی قرار گرفت."
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:830
+msgid "Thank you! Your contribution has been received."
+msgstr "با تشکر! دیدگاه شما دریافت شد."
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:1018
+msgid "Contribution was flagged. Thanks!"
+msgstr "دیدگاه گزارش شد. با تشکر!"
+
+#. translators: Placeholders: %s contribution type name (e.g. 'My Reviews' or 'My Contributions')
+#: includes/frontend/class-wc-product-reviews-pro-my-account-contributions.php:67
+#, php-format
+msgid "My %s"
+msgstr "%s من"
+
+#: includes/functions/wc-product-reviews-pro-functions-template.php:303
+msgid "What others are saying"
+msgstr "نظرات دیگر کاربران"
+
+#: includes/functions/wc-product-reviews-pro-functions-template.php:328
+msgid "There are no contributions yet."
+msgstr "هیچ دیدگاهی وجود نداره."
+
+#: includes/functions/wc-product-reviews-pro-functions-template.php:346
+msgid "Contributions"
+msgstr "دیدگاه ها"
+
+#. translators: Placeholder: %s - contribution type (plural)
+#: includes/functions/wc-product-reviews-pro-functions-template.php:368
+#, php-format
+msgid ""
+"We are accepting %s for this product, and will display them when we get a "
+"few more!"
+msgstr "ما این %s برای محصول را پذیرفتم و به زودی نمایش داده خواهد شد!"
+
+#: includes/functions/wc-product-reviews-pro-functions-template.php:518
+msgid "contributions"
+msgstr "دیدگاه ها"
+
+#. translators: Placeholder: %s - enabled contributions name, e.g., "contributions" or "reviews"
+#: includes/integrations/jetpack/class-wc-product-reviews-pro-integration-jetpack.php:84
+#, php-format
+msgid "Show buttons on product %s"
+msgstr "نمایش دکمه ها در محصولات  %s"
+
+#: includes/integrations/jetpack/class-wc-product-reviews-pro-integration-jetpack.php:93
+msgid "Yes"
+msgstr "بله"
+
+#: includes/integrations/jetpack/class-wc-product-reviews-pro-integration-jetpack.php:151
+msgid "Copied URL - ready to share!"
+msgstr "لینک کپی شد. آماده برای اشتراک گذاری !"
+
+#: includes/integrations/jetpack/class-wc-product-reviews-pro-integration-jetpack.php:212
+msgctxt "share on a social network"
+msgid "Share:"
+msgstr "اشتراک گذاری:"
+
+#: includes/integrations/jetpack/class-wc-product-reviews-pro-integration-jetpack.php:235
+#: includes/integrations/jetpack/class-wc-product-reviews-pro-integration-jetpack.php:238
+#, php-format
+msgid "Click to share on %s"
+msgstr "کلیک برای اشتراک گذاری در %s"
+
+#: includes/integrations/jetpack/class-wc-product-reviews-pro-integration-jetpack.php:239
+msgid " (Opens in new window)"
+msgstr " (باز کردن در پنجره جدید)"
+
+#: includes/integrations/jetpack/class-wc-product-reviews-pro-integration-jetpack.php:252
+msgid "Click to copy link"
+msgstr "برای کپی کردن لینک ، کلیک کنید"
+
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:332
+msgid "Vendor badges"
+msgstr "نام فروشنده"
+
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:335
+msgid ""
+"Enter the text to use on badges displayed on vendor admin and vendor manager "
+"contributions."
+msgstr ""
+"متنی را برای نمایش به عنوان نام مدیر فروش برای نمایش در دیدگاه ها وارد "
+"نمائید."
+
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:368
+msgid "Product Reviews"
+msgstr "نقد و بررسی های محصول"
+
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:375
+msgid "New Contributions"
+msgstr "دیدگاه های جدید"
+
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:384
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:406
+msgid "Enable notifications"
+msgstr "فعال کردن اطلاع رسانی ها"
+
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:387
+msgid ""
+"Receive email notifications whenever an administrator is notified of new "
+"contributions placed for one of the products you manage."
+msgstr ""
+"دریافت ایمیل اطلاع رسانی زمانی که یک مدیر از ایجاد یک دیدگاه جد.ید برای "
+"محصولی که مدیریت می کند آگاه می شود."
+
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:397
+msgid "Flagged Contributions"
+msgstr "دیدگاه های گزارش شده"
+
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:409
+msgid ""
+"Receive email notifications whenever someone flags a contribution to one of "
+"the products you manage as inappropriate."
+msgstr ""
+"دریافت ایمیل اطلاع رسانی زمانی که کسی یک دیدگاه را به عنوان نامناسب گزارش می "
+"کند برای یک محصول را که شما مدیریت می کنید."
+
+#. translators: Placeholders: %1$s - reviews screen title (usually "Reviews"), %2$s vendor name
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:536
+#, php-format
+msgid "%1$s (Vendor: \"%2$s\")"
+msgstr "%1$s (فروشنده: \"%2$s\")"
+
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:590
+msgid "Permalink:"
+msgstr "لینک دائمی:"
+
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:605
+msgctxt "Comment author name"
+msgid "Name:"
+msgstr "نام:"
+
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:620
+msgid "Email:"
+msgstr "ایمیل:"
+
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:635
+msgid "URL:"
+msgstr "لینک:"
+
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:682
+msgid "Status"
+msgstr "وضعیت"
+
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:696
+msgctxt "Set comment to approved status"
+msgid "Approved"
+msgstr "پذیرفته شده"
+
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:697
+msgctxt "Set comment to pending approval status"
+msgid "Pending"
+msgstr "در حال انتظار برای تایید"
+
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:698
+msgctxt "Mark comment as spam"
+msgid "Spam"
+msgstr "اسپم"
+
+#. translators: Placeholder: %s - date and time of publication
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:720
+#, php-format
+msgid "Submitted on: %s"
+msgstr "ثبت شده در : %s"
+
+#. translators: Placeholder: %s - product the contribution comment is placed for
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:733
+#, php-format
+msgid "In response to: %s"
+msgstr "در جواب به: %s"
+
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:749
+msgid "Update"
+msgstr "به روزرسانی"
+
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:784
+#: templates/emails/plain/review-update-confirmation.php:76
+#: templates/emails/review-update-confirmation.php:85
+#: templates/myaccount/contribution-list.php:68
+#: templates/myaccount/contribution-list.php:146
+msgid "Rating"
+msgstr "رتبه بندی"
+
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:895
+msgid "Search for a vendor&hellip;"
+msgstr "جستجو برای فروشنده &hellip;"
+
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:1340
+msgid "Product Vendor"
+msgstr "فروشنده محصول"
+
+#. translators: Placeholder: %s - product vendor's profile edit screen URL in parenthesis
+#: includes/integrations/woocommerce-product-vendors/class-wc-product-reviews-pro-integration-product-vendors.php:1343
+#, php-format
+msgid "Product Vendor %s"
+msgstr "فروشنده محصول %s"
+
+#: includes/widgets/class-wc-product-reviews-pro-recent-photos-widget.php:44
+msgid ""
+"Display a list of most recent photo contributions from Product Reviews Pro "
+"on your site."
+msgstr ""
+"نمایش لیست بیشترین تصاویر دیدگاه ها از نقد و بررسی ها محصول بر روی سایت شما."
+
+#: includes/widgets/class-wc-product-reviews-pro-recent-photos-widget.php:46
+msgid "WooCommerce Product Reviews Pro: Photos"
+msgstr "نقد و بررسی پیشرفته محصول ووکامرس : تصاویر"
+
+#: includes/widgets/class-wc-product-reviews-pro-recent-photos-widget.php:50
+msgid "Recent Photos"
+msgstr "تصاویر اخیر"
+
+#: includes/widgets/class-wc-product-reviews-pro-recent-photos-widget.php:59
+msgid "Number of photo contributions to show"
+msgstr "تعداد تصاویر دیدگاه ها برای نمایش"
+
+#: includes/widgets/class-wc-product-reviews-pro-recent-photos-widget.php:155
+#: includes/widgets/class-wc-product-reviews-pro-recent-questions-widget.php:140
+#: includes/widgets/class-wc-product-reviews-pro-recent-reviews-widget.php:156
+#: includes/widgets/class-wc-product-reviews-pro-recent-videos-widget.php:155
+#, php-format
+msgctxt "by comment author"
+msgid "by %1$s"
+msgstr "به وسیله %1$s"
+
+#: includes/widgets/class-wc-product-reviews-pro-recent-questions-widget.php:44
+msgid ""
+"Display a list of most recent questions from Product Reviews Pro on your "
+"site."
+msgstr "نمایش لیست بیشترین سوالات از نقد و بررسی ها محصول بر روی سایت شما."
+
+#: includes/widgets/class-wc-product-reviews-pro-recent-questions-widget.php:46
+msgid "WooCommerce Product Reviews Pro: Questions"
+msgstr "نقد و بررسی پیشرفته محصول ووکامرس : سوالات"
+
+#: includes/widgets/class-wc-product-reviews-pro-recent-questions-widget.php:50
+msgid "Recent Questions"
+msgstr "سوالات اخیر"
+
+#: includes/widgets/class-wc-product-reviews-pro-recent-questions-widget.php:59
+msgid "Number of questions to show"
+msgstr "تعداد سوالات برای نمایش"
+
+#: includes/widgets/class-wc-product-reviews-pro-recent-reviews-widget.php:44
+msgid ""
+"Display a list of most recent reviews from Product Reviews Pro on your site."
+msgstr "نمایش یک لیست از نقد و بررسی های محصول اخیر بر روی سایت شما."
+
+#: includes/widgets/class-wc-product-reviews-pro-recent-reviews-widget.php:46
+msgid "WooCommerce Product Reviews Pro: Reviews"
+msgstr "نقد و بررسی پیشرفته محصول ووکامرس : نقد و بررسی ها"
+
+#: includes/widgets/class-wc-product-reviews-pro-recent-reviews-widget.php:50
+msgid "Recent Reviews"
+msgstr "نقد و بررسی های اخیر"
+
+#: includes/widgets/class-wc-product-reviews-pro-recent-reviews-widget.php:59
+msgid "Number of reviews to show"
+msgstr "تعداد  نقد و بررسی برای نمایش"
+
+#: includes/widgets/class-wc-product-reviews-pro-recent-videos-widget.php:44
+msgid ""
+"Display a list of most recent video contributions from Product Reviews Pro "
+"on your site."
+msgstr "نمایش یک لیست از ویدئوهای دیدگاه  اخیر بر روی سایت شما."
+
+#: includes/widgets/class-wc-product-reviews-pro-recent-videos-widget.php:46
+msgid "WooCommerce Product Reviews Pro: Videos"
+msgstr "نقد و بررسی پیشرفته محصول ووکامرس : ویدئوها"
+
+#: includes/widgets/class-wc-product-reviews-pro-recent-videos-widget.php:50
+msgid "Recent Videos"
+msgstr "ویدئوهای اخیر"
+
+#: includes/widgets/class-wc-product-reviews-pro-recent-videos-widget.php:59
+msgid "Number of video contributions to show"
+msgstr "تعداد ویدئوهای  دیدگاه برای نمایش"
+
+#. translators: Placeholders: %1$s user name - %2$s product title - %3$s contribution type - %4$s site title
+#: templates/emails/contribution-comment-notification.php:49
+#: templates/emails/plain/contribution-comment-notification.php:45
+#, php-format
+msgid ""
+"Hello %1$s, a new comment has been posted to a %2$s %3$s you are watching on "
+"%4$s."
+msgstr ""
+"سلام %1$s، یک دیدگاه جدید در %2$s %3$s ارسال شد . شما به آن در %4$s نگاه می "
+"کنید."
+
+#: templates/emails/contribution-comment-notification.php:59
+msgid "View new comment."
+msgstr "مشاهده دیدگاه جدید."
+
+#. translators: Placeholders: %1$s contribution type - %2$s <a> html opening tag - %3$s </a> html closing tag
+#: templates/emails/contribution-comment-notification.php:66
+#, php-format
+msgid ""
+"If you no longer wish to receive notifications for new replies to this %1$s, "
+"please %2$sfollow this link%3$s."
+msgstr ""
+"اگر نمی خواهید اطلاع رسانی های جدید دریافت کنید برای پاسخ های جدید در %1$s ، "
+"لطفا %2$s روی این لینک کلیک کنید %3$s.."
+
+#. translators: Placeholders: %1$s - formatted name of the user setting the flag, %2$s - linked contribution type name with link to contribution, %3$s - linked product name
+#. translators: Placeholders: %1$s - formatted name of the user setting the flag, %2$s - contribution type name, %3$s - product name
+#: templates/emails/flagged-contribution.php:47
+#: templates/emails/plain/flagged-contribution.php:43
+#, php-format
+msgid ""
+"Hello, a %1$s flagged a %2$s on %3$s as inappropriate and thinks it should "
+"be moderated."
+msgstr ""
+"سلام، یک %1$s گزارش شد. در %2$s در %3$s به عنوان نامناسب گزارش شد. باید مورد "
+"توجه قرار بگیرد."
+
+#. translators: Placeholder: %s - reason given for flagging a contribution as inappropriate
+#: templates/emails/flagged-contribution.php:54
+#, php-format
+msgid "Reason given: %s"
+msgstr "دلیل ارائه شده : %s"
+
+#. translators: Placeholders: %1$s - opening <a> link tag, %2$s - contribution type name, %3$s - closing </a> link tag
+#: templates/emails/flagged-contribution.php:61
+#, php-format
+msgid "You can %1$sdismiss this flag or moderate the related %2$s%3$s."
+msgstr "شما می توانید رد کنید این گزارش %1$s یا تعدیل کنید در %2$s%3$s مرتبط."
+
+#. translators: Placeholders: %s - url to go to a product comment
+#: templates/emails/plain/contribution-comment-notification.php:55
+#, php-format
+msgid "Comment link: %s"
+msgstr "لینک دیدگاه :  %s"
+
+#. translators: Placeholders: %1$s url to unsubscribe from email notifications - %2$s contribution type
+#: templates/emails/plain/contribution-comment-notification.php:60
+#, php-format
+msgid "Stop notifications for this %1$s: %2$s"
+msgstr "توقف اطلاع رسانی برای این :  %1$s: %2$s"
+
+#. translators: Placeholder: %s - reason given for flagging a contribution as inappropriate
+#: templates/emails/plain/flagged-contribution.php:47
+#, php-format
+msgid "Reason given: \"%s\""
+msgstr "دلیل ارائه شده : \"%s\""
+
+#. translators: Placeholders: %1$s - the contribution type name, %2$s - URL to the contribution's admin edit screen
+#: templates/emails/plain/flagged-contribution.php:51
+#, php-format
+msgid "You can dismiss this flag or moderate the related %1$s: %2$s"
+msgstr ""
+"شما می توانید این گزارش را ندیده بگیرید و یا آن را تعدیل کنید با %1$s "
+"مرتبط : %2$s"
+
+#. translators: Placeholders: %s user name
+#: templates/emails/plain/review-update-confirmation.php:42
+#: templates/emails/review-update-confirmation.php:47
+#, php-format
+msgid "Hello %s,"
+msgstr "سلام %s,"
+
+#. translators: Placeholders: %1$s <a> html opening tag - %2$s </a> html closing tag - %3$s product title
+#: templates/emails/plain/review-update-confirmation.php:47
+#, php-format
+msgid "Update your review for %1$s: %2$s"
+msgstr "به روز رسانی نقد و بررسی شما برای %1$s: %2$s"
+
+#: templates/emails/plain/review-update-confirmation.php:52
+#: templates/emails/review-update-confirmation.php:61
+msgid ""
+"Please note that your updated review won't be published unless you click "
+"this link."
+msgstr ""
+"لطفا توجه داشته باشید که نقد و بررسی شما منتشر نخواهد شد تا زمانی که شما روی "
+"این لینک کلیک کنید."
+
+#: templates/emails/plain/review-update-confirmation.php:58
+#: templates/emails/review-update-confirmation.php:72
+msgid "For reference, here's your review:"
+msgstr "برای مراجعه، نقد و بررسی شما اینجاست :"
+
+#: templates/emails/plain/review-update-confirmation.php:75
+#: templates/emails/review-update-confirmation.php:79
+msgid "Old Content"
+msgstr "محتوای قدیمی"
+
+#: templates/emails/plain/review-update-confirmation.php:75
+#: templates/emails/review-update-confirmation.php:80
+msgid "New Content"
+msgstr "محتوای جدید"
+
+#: templates/emails/plain/review-update-confirmation.php:78
+#: templates/emails/review-update-confirmation.php:95
+#: templates/myaccount/contribution-list.php:74
+msgid "Content"
+msgstr "محتوا"
+
+#: templates/emails/plain/review-update-confirmation.php:79
+#: templates/emails/review-update-confirmation.php:100
+msgid "Attachment Type"
+msgstr "نوع فایل پیوست"
+
+#: templates/emails/plain/review-update-confirmation.php:80
+#: templates/emails/review-update-confirmation.php:105
+msgid "Attachment"
+msgstr "ضممیه"
+
+#. translators: Placeholders: %1$s <a> html opening tag - %2$s </a> html closing tag - %3$s product title
+#: templates/emails/review-update-confirmation.php:53
+#, php-format
+msgid ""
+"Please %1$sclick this confirmation link%2$s to update your review for %3$s."
+msgstr ""
+"لطفا %1$s  کلیک کنید روی لینک تاییدیه  %2$s برای به روز رسانی نقد و بررسی "
+"شما برای %3$s."
+
+#. translators: Placeholders: %s - contribution type name for product
+#. translators: Placeholder: %s - contribution type name (e.g. 'Review')
+#: templates/myaccount/contribution-list.php:49
+#: templates/myaccount/contribution-list.php:124
+#, php-format
+msgid "%s for"
+msgstr "%s برای"
+
+#: templates/myaccount/contribution-list.php:62
+msgid "Left on"
+msgstr "رفتن به"
+
+#: templates/myaccount/contribution-list.php:116
+msgid "Product photo"
+msgstr "تصویر محصول"
+
+#. translators: Placeholder: %s - contribution date
+#: templates/myaccount/contribution-list.php:140
+#, php-format
+msgid "%s date"
+msgstr "%s تاریخ"
+
+#: templates/myaccount/contribution-list.php:156
+msgid "none"
+msgstr "هیچ کدام"
+
+#. translators: Placeholder: %s contribution type name
+#: templates/myaccount/contribution-list.php:172
+#, php-format
+msgid "%s content"
+msgstr "%s محتوا"
+
+#: templates/myaccount/contribution-list.php:193
+msgid "View"
+msgstr "مشاهده"
+
+#. translators: Placeholders: %1$s - contribution type name, %2$s - opening <a> link tag, %3$s - closing </a> link tag
+#: templates/myaccount/contribution-list.php:228
+#, php-format
+msgid "You have not added any %1$s yet. %2$sAdd one now%3$s"
+msgstr "شما هنوز %1$s  اضافه نکرده اید. %2$s اضافه کنید یک مورد هم اکنون %3$s"
+
+#: templates/myaccount/form-guest.php:36
+msgid "Continue as a Guest"
+msgstr "ادامه دادن به عنوان مهمان"
+
+#: templates/myaccount/form-guest.php:50
+msgid "Email address"
+msgstr "آدرس ایمیل"
+
+#: templates/myaccount/form-guest.php:65
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:790
+msgid "Continue"
+msgstr "ادامه"
+
+#: templates/single-product/contributions.php:50
+msgid "Share your thoughts!"
+msgstr "لطفا نظر خود را درباره این محصول با بقیه کاربران به اشتراک بگذارید !"
+
+#. translators: Placeholders: %s - average rating stars count (float casted as string to avoid trailing zeroes), %d - 5 stars total (integer) -- (e.g "4.2 out of 5 stars")
+#: templates/single-product/contributions.php:72
+#, php-format
+msgid "%s out of %d stars"
+msgstr "%s از %d ستاره"
+
+#: templates/single-product/contributions.php:76
+#, php-format
+msgctxt "noun"
+msgid "%d review"
+msgid_plural "%d reviews"
+msgstr[0] "%d نقد و بررسی"
+msgstr[1] "%d نقد و بررسی"
+
+#: templates/single-product/contributions.php:132
+msgid "Let us know what you think..."
+msgstr "لطفا یک دیدگاه برای این محصول ثبت نمائید ..."
+
+#: templates/single-product/contributions.php:165
+#: templates/single-product/form-contribution.php:157
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to join the discussion."
+msgstr "شما باید <a href=\"%s\">وارد شوید</a> تا به بحث وارد شوید."
+
+#: templates/single-product/contributions.php:178
+msgid "Show everything"
+msgstr "نمایش همه چیز"
+
+#: templates/single-product/contributions.php:214
+#, php-format
+msgid "Show all reviews that said %s is \"%s\""
+msgstr "نمایش تمام نقد و بررسی ها که گفت شد است  %s هست \"%s\""
+
+#: templates/single-product/contributions.php:220
+msgid "Show helpful positive reviews"
+msgstr "نمایش نقد و بررسی های مفید مثبت"
+
+#: templates/single-product/contributions.php:221
+msgid "Show helpful negative reviews"
+msgstr "نمایش نقد و بررسی های مفید منفی"
+
+#: templates/single-product/contributions.php:222
+msgid "Show unanswered questions"
+msgstr "نمایش سوالات بدون جواب"
+
+#: templates/single-product/contributions.php:242
+msgid "Click to clear filters"
+msgstr "برای پاک کردن فیلترها کلیک کنید"
+
+#: templates/single-product/contributions.php:242
+msgid "(clear)"
+msgstr "(پاک کردن)"
+
+#: templates/single-product/contributions.php:246
+msgid "Go"
+msgstr "رفتن"
+
+#. translators: Placeholders: %1$s - opening <a> link tag, %2$s - closing </a> link tag
+#: templates/single-product/contributions.php:269
+#, php-format
+msgid "Already have an account? %1$sLog In%2$s"
+msgstr "آیا حساب کاربری دارید ؟ %1$s ورود  %2$s"
+
+#. translators: Placeholders: %1$s - opening <a> link tag, %2$s - closing </a> link tag
+#: templates/single-product/contributions.php:271
+#, php-format
+msgid "Don't have an account? %1$sSign Up%2$s"
+msgstr "حساب کاربری ندارید؟ %1$s ثبت نام %2$s"
+
+#. translators: Placeholders: %1$s - opening <a> link tag, %2$s - closing </a> link tag
+#: templates/single-product/contributions.php:276
+#, php-format
+msgid "%1$sContinue as a Guest%2$s"
+msgstr "%1$s ادام دادن به عنوان مهمان %2$s"
+
+#: templates/single-product/contributions/actions-legacy.php:40
+#: templates/single-product/contributions/actions.php:38
+msgid "Upvote if this was helpful"
+msgstr "می پسندم"
+
+#: templates/single-product/contributions/actions-legacy.php:44
+#: templates/single-product/contributions/actions.php:42
+msgid "Downvote if this was not helpful"
+msgstr "نمی پسندم"
+
+#: templates/single-product/contributions/actions-legacy.php:51
+#: templates/single-product/contributions/actions.php:49
+msgid "Receive email notifications when there are replies"
+msgstr "دریافت ایمیل اطلاع رسانی زمانی که برای این نقد و بررسی پاسخی ارسال شد"
+
+#: templates/single-product/contributions/actions-legacy.php:52
+#: templates/single-product/contributions/actions.php:50
+msgctxt "Subscribe to contribution thread"
+msgid "Watch"
+msgstr "پیگیری"
+
+#: templates/single-product/contributions/actions-legacy.php:54
+#: templates/single-product/contributions/actions.php:52
+msgid "Stop receiving email notifications when there are replies"
+msgstr ""
+"توقف دریافت ایمیل های اطلاع رسانی وقتی که برای این نقد و بررسی پاسخی ارسال شد"
+
+#: templates/single-product/contributions/actions-legacy.php:55
+#: templates/single-product/contributions/actions.php:53
+msgctxt "Unsubscribe from contribution thread"
+msgid "Unwatch"
+msgstr "عدم پیگیری"
+
+#: templates/single-product/contributions/actions-legacy.php:61
+#: templates/single-product/contributions/actions.php:59
+msgid "Edit your comment"
+msgstr "ویراش دیدگاه شما"
+
+#: templates/single-product/contributions/actions-legacy.php:63
+#: templates/single-product/contributions/actions.php:61
+msgctxt "Edit your comment"
+msgid "Edit"
+msgstr "ویراش"
+
+#: templates/single-product/contributions/actions-legacy.php:69
+#: templates/single-product/contributions/actions.php:67
+#: templates/single-product/form-flag-contribution.php:57
+msgid "Flag for removal"
+msgstr "گزارش این دیدگاه به عنوان هرزنامه"
+
+#: templates/single-product/contributions/attachments-legacy.php:56
+#: templates/single-product/contributions/attachments.php:43
+msgid "Photo has been removed"
+msgstr "تصویر پاک شد"
+
+#: templates/single-product/contributions/attachments-legacy.php:69
+#: templates/single-product/contributions/attachments.php:56
+msgid "Video has been removed"
+msgstr "ویدئو پاک شد"
+
+#. translators: Placeholder: %d contribution rating
+#: templates/single-product/contributions/contribution-review-legacy.php:63
+#, php-format
+msgid "<strong itemprop=\"ratingValue\">%d</strong> out of 5"
+msgstr "<strong itemprop=\"ratingValue\">%d</strong> از 5"
+
+#. translators: Number of users that found a contibution useful - %1$d number of users, %2$d - total number of users that found the contribution useful
+#: templates/single-product/contributions/karma.php:39
+#, php-format
+msgid "One person found this helpful"
+msgid_plural "%1$d out of %2$d people found this helpful"
+msgstr[0] "%1$d از %2$d نفر این را مفید دانستند"
+msgstr[1] "یک نفر این را مفید دانست"
+
+#: templates/single-product/contributions/meta-legacy.php:39
+#: templates/single-product/contributions/meta.php:39
+msgid "Your contribution is awaiting approval"
+msgstr "دیدگاه شما در انتظار تایید مدیریت می باشد"
+
+#: templates/single-product/contributions/meta-legacy.php:55
+msgid "verified owner"
+msgstr "مالک تایید شده"
+
+#: templates/single-product/form-contribution.php:75
+msgid "Name"
+msgstr "نام"
+
+#: templates/single-product/form-contribution.php:79
+msgid "Email"
+msgstr "ایمیل"
+
+#: templates/single-product/form-contribution.php:112
+msgid "Notify me of replies"
+msgstr "مرا از پاسخ ها آگاه کن"
+
+#: templates/single-product/form-contribution.php:129
+msgid "Update Review"
+msgstr "به روزرسانی نقد و بررسی"
+
+#: templates/single-product/form-contribution.php:137
+msgid ""
+"Looks like you've already reviewed this product! Please contact the store if "
+"you’d like to update your review."
+msgstr ""
+"به دیدگاه می رسد شما قبلا برای این محصول نقد و بررسی داشتید! لطفا با مدیریت "
+"تماس بگیرید اگر می خواهید نقد و بررسی خود را به روز کنید."
+
+#: templates/single-product/form-contribution.php:165
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+"تنها مشتریان وارد شده ای که این محصول را خریده اند می توانند دیدگاه خود را "
+"بگذارند."
+
+#: templates/single-product/form-contribution.php:166
+msgid "Log in now"
+msgstr "هم اکنون وارد شوید"
+
+#: templates/single-product/form-contribution.php:168
+msgid "Only customers who have purchased this product may leave a review."
+msgstr ""
+"تنها مشتریانی که این محصول را خریده اند می توانند دیدگاه خود را بگذارند."
+
+#: templates/single-product/form-contribution_comment.php:63
+msgid "Save Comment"
+msgstr "ارسال دیدگاه"
+
+#: templates/single-product/form-flag-contribution.php:38
+msgid ""
+"Something wrong with this post? Thanks for letting us know. If you can point "
+"us in the right direction..."
+msgstr ""
+"چیزی در این پست اشتباه است؟ ممنون می شویم اگر به ما اطلاع دهید. اگر می "
+"توانید مستقیم به آن مورد اشاره کنید..."
+
+#: templates/single-product/form-flag-contribution.php:41
+msgid "This post was..."
+msgstr "مورد هرزنامه بود ..."
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/Lifecycle.php:374
+msgid "Awesome"
+msgstr "عالی"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/Lifecycle.php:375
+msgid "Fantastic"
+msgstr "فوق العاده"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/Lifecycle.php:376
+msgid "Cowabunga"
+msgstr "Cowabunga"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/Lifecycle.php:377
+msgid "Congratulations"
+msgstr "تبریک"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/Lifecycle.php:378
+msgid "Hot dog"
+msgstr "هات داگ"
+
+#. translators: Placeholders: %1$s - plugin name, %2$s - <a> tag, %3$s - </a> tag, %4$s - <a> tag, %5$s - </a> tag
+#: vendor/skyverge/wc-plugin-framework/woocommerce/Lifecycle.php:385
+#, php-format
+msgid ""
+"Are you having a great experience with %1$s so far? Please consider "
+"%2$sleaving a review%3$s! If things aren't going quite as expected, we're "
+"happy to help -- please %4$sreach out to our support team%5$s."
+msgstr ""
+"آیا شما تجربه استفاده از  %1$s را دارید؟ لطفا محبت کنید  %2$s  یک نقد و "
+"بررسی بگذارید %3$s ! اگر چیزها طبق انتظار پیش نمی رود ، ما برای کمک و "
+"راهنمایی آماده ایم .%4$s جستجو برای تیم پشتیبانی  %5$s ."
+
+#. translators: Placeholders: %1$s - plugin name, %2$s - <a> tag, %3$s - </a> tag
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:183
+#, php-format
+msgid ""
+"Thanks for installing %1$s! To get started, take a minute to %2$sread the "
+"documentation%3$s :)"
+msgstr ""
+"تشکر برای نصب %1$s ! برای شروع، چند دقیه وقت برای %2$s مطالعه اسناد %3$s وقت "
+"بگذارید :)"
+
+#. translators: Placeholders: %1$s - plugin name, %2$s - <a> tag, %3$s - </a> tag
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:211
+#, php-format
+msgid ""
+"Thanks for installing %1$s! To get started, take a minute to complete these "
+"%2$squick and easy setup steps%3$s :)"
+msgstr ""
+"با تشکر از نصب %1$s ! برای شروع ، چند دقیقه برای کامل کردن %2$s راه اندازی "
+"سریع و آسان %3$s وقت اختصاص دهید :)"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:236
+msgid "Setup"
+msgstr "راه اندازی"
+
+#. translators: Placeholders: %s - plugin name
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:304
+#, php-format
+msgid "%s &rsaquo; Setup"
+msgstr "راه اندازی %s &rsaquo;"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:352
+msgid "Oops! An error occurred, please try again."
+msgstr "یک خطا اتفاق افتاد، مجدد امتحان کنید."
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:397
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr "هیچ چیزی پیدا نشد"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:398
+msgctxt "enhanced select"
+msgid "Loading failed"
+msgstr "بارگزاری موفق نبود"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:399
+msgctxt "enhanced select"
+msgid "Please enter 1 or more characters"
+msgstr "یک یا چند کاراکتر وارد کنید"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:400
+msgctxt "enhanced select"
+msgid "Please enter %qty% or more characters"
+msgstr "لطفا %qty%  یا بیشتر کاراکتر وارد کنید"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:401
+msgctxt "enhanced select"
+msgid "Please delete 1 character"
+msgstr "لطفا یک کارکتر را حذف کنید"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:402
+msgctxt "enhanced select"
+msgid "Please delete %qty% characters"
+msgstr "لطفا  %qty% کاراکتر را حذف کنید"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:403
+msgctxt "enhanced select"
+msgid "You can only select 1 item"
+msgstr "شما فقط می توانید یک آیتم انتخاب کنید"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:404
+msgctxt "enhanced select"
+msgid "You can only select %qty% items"
+msgstr "شما فقط می توانید %qty% آیتم انتخاب کنید"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:405
+msgctxt "enhanced select"
+msgid "Loading more results&hellip;"
+msgstr "بارگزاری نتایج بیشتر &hellip;"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:406
+msgctxt "enhanced select"
+msgid "Searching&hellip;"
+msgstr "در حال جستجو &hellip;"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:490
+msgid "Ready!"
+msgstr "آماده اید !"
+
+#. translators: Placeholder: %s - plugin name
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:583
+#, php-format
+msgid "Welcome to %s!"
+msgstr "به  %s  خوش آمدید!"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:596
+msgid ""
+"This quick setup wizard will help you configure the basic settings and get "
+"you started."
+msgstr ""
+"راه اندازی سریع به شما کمک می کند که تنظیمات اولیه را انجام دهید و شروع کنید."
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:610
+#, php-format
+msgid "%s is ready!"
+msgstr "%s  آماده است!"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:662
+msgid "Next step"
+msgstr "مرحله قبل"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:688
+msgid "You can also:"
+msgstr "شما همچنن می توانید:"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:732
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:762
+msgid "View the Docs"
+msgstr "مشاهده اسناد"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:733
+msgid "See more setup options"
+msgstr "مشاهده گزینه های راه اندازی بیشتر"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:734
+msgid "Learn more about customizing the plugin"
+msgstr "درباره سفارشی سازی این افزونه بیشتر بدانید"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:758
+msgid "Review Your Settings"
+msgstr "بازبینی تنظیمات شما"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:950
+msgid "Return to the WordPress Dashboard"
+msgstr "بازگشت به پنل وردپرس"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:952
+msgid "Not right now"
+msgstr "الان نه"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php:954
+msgid "Skip this step"
+msgstr "این مرحله را رد کن"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-framework-bootstrap.php:268
+msgid ""
+"The following plugin is disabled because it is out of date and incompatible "
+"with newer plugins on your site:"
+msgid_plural ""
+"The following plugins are disabled because they are out of date and "
+"incompatible with newer plugins on your site:"
+msgstr[0] ""
+"این افزونه غیر فعال شد به این دلیل که قدیمی شده بود و با افزونه های جدید روی "
+"سایت شما سازگار نبود :"
+msgstr[1] ""
+"این افزونه ها غیر فعال شدند به این دلیل که قدیمی شده بودند و با افزونه های "
+"جدید روی سایت شما سازگار نبودند :"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag, %3$s - <em> tag, %4$s - </em> tag, %5$s - <a> tag, %6$s - </a> tag, %7$s - <a> tag, %8$s - </a> tag
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-framework-bootstrap.php:282
+#, php-format
+msgid ""
+"To resolve this, please %1$supdate%2$s (recommended) %3$sor%4$s "
+"%5$sdeactivate%6$s the above plugin, or %7$sdeactivate the following%8$s:"
+msgid_plural ""
+"To resolve this, please %1$supdate%2$s (recommended) %3$sor%4$s "
+"%5$sdeactivate%6$s the above plugins, or %7$sdeactivate the following%8$s:"
+msgstr[0] ""
+"برای حل این مورد، لطفا %1$s به روز کنید %2$s (توصیه شده) %3$s یا  %4$s   "
+"%5$s  غیر فعال کنید%6$s افزونه ها بالا را و یا %7$s غیر فعال کنید موارد زیر "
+"را %8$s:"
+msgstr[1] ""
+"برای حل این مورد، لطفا %1$s به روز کنید %2$s (توصیه شده) %3$s یا  %4$s   "
+"%5$s  غیر فعال کنید%6$s افزونه بالا را و یا %7$s غیر فعال کنید موارد زیر را "
+"%8$s:"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-framework-bootstrap.php:303
+msgid ""
+"The following plugins are inactive because they require a newer version of "
+"WooCommerce:"
+msgstr "افزونه های زیر غیرفعال شدند برای اینکه نیاز به نسخه جدید ووکامرس است:"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-framework-bootstrap.php:303
+msgid ""
+"The following plugin is inactive because it requires a newer version of "
+"WooCommerce:"
+msgstr "این افزونه غیرفعال شد برای اینکه نیاز به ورژن جدیدتر ووکامرس می باشد:"
+
+#. translators: Placeholders: %1$s - plugin name, %2$s - WooCommerce version number
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-framework-bootstrap.php:308
+#, php-format
+msgid "%1$s requires WooCommerce %2$s or newer"
+msgstr "%1$s  نیاز به ووکامرس %2$s یا جدیدتر دارد"
+
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-framework-bootstrap.php:312
+#, php-format
+msgid "Please %1$supdate WooCommerce%2$s"
+msgstr "لطفا %1$s ووکامرس را به %2$s  آپدیت کنید"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-helper.php:408
+msgctxt "coordinating conjunction for a list of items: a, b, and c"
+msgid "and"
+msgstr "و"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin-dependencies.php:149
+#, php-format
+msgid ""
+"%1$s requires the %2$s PHP extension to function. Contact your host or "
+"server administrator to install and configure the missing extension."
+msgid_plural ""
+"%1$s requires the following PHP extensions to function: %2$s. Contact your "
+"host or server administrator to install and configure the missing extensions."
+msgstr[0] ""
+"%1$s توسعه دهنده های  PHP زیر مورد نیاز است :    %2$s  . یا شرکت هاستینگ خود "
+"تماس بگیرید تا برای شما این توسعه دهنده های php را نصب و پیکربندی کند."
+msgstr[1] ""
+"%1$s  نیاز به %2$s  اکستنشن pph  برای اجرا است. یا شرکت هاستینگ خود تماس "
+"بگیرید تا برای شما این توسعه دهنده php را نصب و پیکربندی کند."
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin-dependencies.php:177
+#, php-format
+msgid ""
+"%1$s requires the %2$s PHP function to exist.  Contact your host or server "
+"administrator to install and configure the missing function."
+msgid_plural ""
+"%1$s requires the following PHP functions to exist: %2$s.  Contact your host "
+"or server administrator to install and configure the missing functions."
+msgstr[0] ""
+"%1$s نیاز به فانشکن های زیر دارد: %2$s . لطفا با شرکت هاستینگ خود تماس "
+"بگیرید  تا این فانکشن را برای شما نصب و  تنظیم کنند."
+msgstr[1] ""
+"%1$s به وجود فانکشن %2$s برای اجرا نیاز دارد. لطفا با شرکت هاستینگ خود تماس "
+"بگیرید  تا این فانکشن را برای شما نصب و  تنظیم کنند."
+
+#. translators: Placeholders: %s - plugin name
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin-dependencies.php:206
+#, php-format
+msgid ""
+"%s may behave unexpectedly because the following PHP configuration settings "
+"are required:"
+msgstr "%s دارای عملکرد غیرمتعارف است برای اینکه پیکربندی php  زیر ضروری است:"
+
+#. translators: Placeholders: %s - a PHP setting value
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin-dependencies.php:220
+#, php-format
+msgid "%s or higher"
+msgstr "%s یا بیشتر"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin-dependencies.php:230
+msgid ""
+"Please contact your hosting provider or server administrator to configure "
+"these settings."
+msgstr ""
+"لطفا با شرکت هاستینگ خود تماس بگیرید  تا این این تنظیمات را برای شما انجام "
+"دهند."
+
+#. translators: Placeholders: %1$s - <strong>, %2$s - </strong>
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin-dependencies.php:252
+#, php-format
+msgid ""
+"Hey there! We've noticed that your server is running %1$san outdated version "
+"of PHP%2$s, which is the programming language that WooCommerce and its "
+"extensions are built on.\n"
+"\t\t\t\t\tThe PHP version that is currently used for your site is no longer "
+"maintained, nor %1$sreceives security updates%2$s; newer versions are faster "
+"and more secure.\n"
+"\t\t\t\t\tAs a result, %3$s no longer supports this version and you should "
+"upgrade PHP as soon as possible.\n"
+"\t\t\t\t\tYour hosting provider can do this for you. %4$sHere are some "
+"resources to help you upgrade%5$s and to explain PHP versions further."
+msgstr ""
+"یک لحظه! ما متوجه شدیم سرور شما در حال اجرای %1$s  php  نسخه %2$s است که "
+"قدیمی شده و از رده خارج هست، که با ووکامرس و افزودنی های آن ممکن است مشکل "
+"داشته باشد.\n"
+"اسن نسخه فعلی که شما در حال استفاده هستید دیگر پشتیبانی نمی شود و بدون "
+"هرگونه  %1$s به روز رسانی امنیتی %2$s در حالیکه نسخه جدیدتر و سریع تر است.\n"
+"در نتیجه ، %3$s این ورژن پیشتیبانی نمی شود و هر چه زودتر باید آپگرید انجام "
+"دهید.\n"
+"\t\t\t\t\t شرکت هاستینگ شما می تواند این کار را برای شما انجام دهد.%4$s "
+"اینجا مطالبی هست که ممکن است برای آپگرید به شما کمک کند%5$s\n"
+" و نسخه های php را برای شما توضیح دهد."
+
+#. translators: Placeholders: %1$s - WooCommerce version number, %2$s - <strong>, %3$s - </strong>, %4$s - Plugin name, %5$s - <a> tag, %6$s - </a> tag
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin-dependencies.php:271
+#, php-format
+msgid ""
+"Hey there! We've noticed that your site is running version %1$s of "
+"WooCommerce, but %2$sWooCommerce 3.0 or higher will soon be required%3$s by "
+"%4$s. We recommend you %5$supdate WooCommerce%6$s to the latest version as "
+"soon as possible."
+msgstr ""
+"یک لحظه! ما متوجه شدیم شما در حال استفاده از نسخه %1$s  ووکامرس هستید ،اما "
+"%2$s ووکامرس 3.0 و یا بالاتر مورد نیاز است %3$s با  %4$s. ما توصیه می کنیم "
+"%5$s به روز رسانی ووکامرس %6$s به اخرین ورژن هر چه سریع تر."
+
+#. translators: Placeholders: %s - plugin name
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin.php:303
+#, php-format
+msgid "You cannot clone instances of %s."
+msgstr "شما نمی توانید شبیه سازی کنید نمونه های  %s."
+
+#. translators: Placeholders: %s - plugin name
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin.php:314
+#, php-format
+msgid "You cannot unserialize instances of %s."
+msgstr "شما نمی توانید غیر نوبتی کنید نمونه های %s ."
+
+#. translators: Placeholders: %1$s - plugin name, %2$s - WooCommerce version number, %3$s - opening <a> HTML link tag, %4$s - closing </a> HTML link tag
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin.php:560
+#, php-format
+msgid ""
+"Heads up! %1$s will soon discontinue support for WooCommerce %2$s. Please "
+"%3$supdate WooCommerce%4$s to take advantage of the latest updates and "
+"features."
+msgstr ""
+"%1$s به زودی پشتیبانی WooCommerce %2$s را قطع می کند. لطفاً %3$s WooCommerce "
+"%4$s را به روز کنید تا از آخرین به روزرسانی ها و ویژگی ها استفاده کنید."
+
+#. translators: Docs as in Documentation
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin.php:603
+msgid "Docs"
+msgstr "اسناد"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin.php:608
+msgctxt "noun"
+msgid "Support"
+msgstr "پشتیبانی"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin.php:613
+msgctxt "verb"
+msgid "Review"
+msgstr "نقد و بررسی"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin.php:696
+#, php-format
+msgid "%1$s - A minimum of %2$s is required."
+msgstr "%1$s - یک مقدار حداقل از %2$s ضروری است."
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin.php:705
+#, php-format
+msgid "Set as %1$s - %2$s is required."
+msgstr "تنظیم یک %1$s - %2$s ضروری است."
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin.php:928
+msgid "Configure"
+msgstr "پیکر بندی"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/utilities/class-sv-wp-background-job-handler.php:643
+#, php-format
+msgid "Job data key \"%s\" not set"
+msgstr "کلید دیتای جاب \"%s\" تعیین نشده است"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/utilities/class-sv-wp-background-job-handler.php:647
+#, php-format
+msgid "Job data key \"%s\" is not an array"
+msgstr "کلید دیتای جاب \"%s\" یک آرایه نیست"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/utilities/class-sv-wp-background-job-handler.php:883
+#, php-format
+msgid "Every %d Minutes"
+msgstr "هر %d دقیقه"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/utilities/class-sv-wp-background-job-handler.php:1047
+msgid "Background Processing Test"
+msgstr "تست عملیات بک گراند"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/utilities/class-sv-wp-background-job-handler.php:1048
+msgid "Run Test"
+msgstr "اجرای تست"
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/utilities/class-sv-wp-background-job-handler.php:1049
+msgid ""
+"This tool will test whether your server is capable of processing background "
+"jobs."
+msgstr ""
+"این ابزار بررسی می کند که آیا سرور شما قادر به انجام وظایف در بک گراند هست و "
+"یا خیر."
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/utilities/class-sv-wp-background-job-handler.php:1067
+msgid "Success! You should be able to process background jobs."
+msgstr "عالی ! شما قادر به انجام وظایف در بک گراند هستید."
+
+#: vendor/skyverge/wc-plugin-framework/woocommerce/utilities/class-sv-wp-background-job-handler.php:1070
+msgid ""
+"Could not connect. Please ask your hosting company to ensure your server has "
+"loopback connections enabled."
+msgstr ""
+"امکان اتصال نیست. لطفا از طریق شرکت هاستینگ خود مطمئن شوید که قابلیت "
+"loopback  اتصال سرور شما فعال است."
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.woocommerce.com/products/woocommerce-product-reviews-pro/"
+msgstr "http://www.woocommerce.com/products/woocommerce-product-reviews-pro/"
+
+#. Description of the plugin/theme
+msgid ""
+"Extend WooCommerce product reviews to add video, photo, comment, and "
+"question contribution types, as well as review filtering, voting, and "
+"flagging."
+msgstr ""
+"توسعه نقد و بررسی محصولات ووکامرس با اضافه کردن ویدئو، تصویر، نظر، و انواع "
+"سوال برای جداسازی نقد و بررسی ها، رای گیری ها و گزارش ها."
+
+#. Author of the plugin/theme
+msgid "SkyVerge"
+msgstr "SkyVerge"
+
+#. Author URI of the plugin/theme
+msgid "http://www.woocommerce.com"
+msgstr "http://www.woocommerce.com"

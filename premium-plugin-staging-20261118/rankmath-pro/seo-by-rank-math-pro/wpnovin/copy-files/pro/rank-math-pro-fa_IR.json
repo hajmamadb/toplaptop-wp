@@ -1,0 +1,5289 @@
+{
+  "translation-revision-date": "2026-07-22 12:00+0400",
+  "generator": "WPNovin Rank Math JS AST Translation Builder v2",
+  "locale": "fa_IR",
+  "version_scope": "pro",
+  "domains": {
+    "%domain%": {
+      "": {
+        "domain": "%domain%",
+        "lang": "fa_IR",
+        "plural-forms": "nplurals=2; plural=(n > 1);"
+      },
+      "Imagify installed! Click here to start using it.": [
+        "Imagify نصب شد! برای شروع استفاده اینجا کلیک کنید."
+      ],
+      "Install Imagify Now": [
+        "اکنون Imagify را نصب کنید"
+      ],
+      "Optimize Your Images": [
+        "تصاویر خود را بهینه کنید"
+      ]
+    },
+    "default": {
+      "": {
+        "domain": "default",
+        "lang": "fa_IR",
+        "plural-forms": "nplurals=2; plural=(n > 1);"
+      },
+      "Block rendered as empty.": [
+        "بلوک به‌صورت خالی نمایش داده شد."
+      ],
+      "Error loading block: %s": [
+        "خطا در بارگذاری بلوک: %s"
+      ],
+      "Link edited.": [
+        "لینک ویرایش شد."
+      ],
+      "Link inserted.": [
+        "لینک درج شد."
+      ],
+      "Link removed.": [
+        "لینک حذف شد."
+      ],
+      "Warning: the link has been inserted but may have errors. Please test it.": [
+        "هشدار: لینک درج شده است، اما ممکن است خطا داشته باشد. لطفاً آن را آزمایش کنید."
+      ]
+    },
+    "rank-math": {
+      "": {
+        "domain": "rank-math",
+        "lang": "fa_IR",
+        "plural-forms": "nplurals=2; plural=(n > 1);"
+      },
+      "#": [
+        "#"
+      ],
+      "%s (opens in a new tab)": [
+        "%s (در زبانه جدید باز می‌شود)"
+      ],
+      "AI Only": [
+        "فقط هوش مصنوعی"
+      ],
+      "All": [
+        "همه"
+      ],
+      "All Traffic": [
+        "همه ترافیک"
+      ],
+      "An unknown error occurred. Please try refreshing.": [
+        "خطای ناشناخته‌ای رخ داد. لطفاً صفحه را تازه‌سازی کنید."
+      ],
+      "Button URL": [
+        "نشانی دکمه"
+      ],
+      "Button text": [
+        "متن دکمه"
+      ],
+      "CTR": [
+        "نرخ کلیک"
+      ],
+      "Clicks": [
+        "کلیک‌ها"
+      ],
+      "Content": [
+        "محتوا"
+      ],
+      "Daily": [
+        "روزانه"
+      ],
+      "Delete": [
+        "حذف"
+      ],
+      "Delete?": [
+        "حذف شود؟"
+      ],
+      "Edit": [
+        "ویرایش"
+      ],
+      "Export": [
+        "برون‌بری"
+      ],
+      "Export CSV": [
+        "برون‌بری CSV"
+      ],
+      "Failed to load related posts.": [
+        "بارگذاری نوشته‌های مرتبط ناموفق بود."
+      ],
+      "Image size": [
+        "اندازه تصویر"
+      ],
+      "Import CSV": [
+        "درون‌ریزی CSV"
+      ],
+      "Impressions": [
+        "نمایش‌ها"
+      ],
+      "Index Status": [
+        "وضعیت نمایه‌سازی"
+      ],
+      "Large": [
+        "بزرگ"
+      ],
+      "Link": [
+        "لینک"
+      ],
+      "Loading…": [
+        "در حال بارگذاری…"
+      ],
+      "Medium": [
+        "متوسط"
+      ],
+      "Monthly": [
+        "ماهانه"
+      ],
+      "No": [
+        "خیر"
+      ],
+      "No data found.": [
+        "هیچ داده‌ای یافت نشد."
+      ],
+      "No data to display. Check back later or try to update data manually from %s": [
+        "داده‌ای برای نمایش وجود ندارد. بعداً دوباره بررسی کنید یا داده‌ها را به‌صورت دستی از %s به‌روزرسانی کنید"
+      ],
+      "Number of posts": [
+        "تعداد نوشته‌ها"
+      ],
+      "Position": [
+        "جایگاه"
+      ],
+      "Posts": [
+        "نوشته‌ها"
+      ],
+      "Presence on Google": [
+        "حضور در گوگل"
+      ],
+      "Preview": [
+        "پیش‌نمایش"
+      ],
+      "Rank Math > General Settings > Analytics > Click 'Update data manually' button.": [
+        "رنک مث ← تنظیمات عمومی ← آنالیتیکس ← روی دکمه «به‌روزرسانی دستی داده‌ها» کلیک کنید."
+      ],
+      "Refresh related posts": [
+        "تازه‌سازی نوشته‌های مرتبط"
+      ],
+      "Refreshing…": [
+        "در حال تازه‌سازی…"
+      ],
+      "Retry": [
+        "تلاش دوباره"
+      ],
+      "Save": [
+        "ذخیره"
+      ],
+      "Saved": [
+        "ذخیره شد"
+      ],
+      "Saving": [
+        "در حال ذخیره"
+      ],
+      "Schema in Use": [
+        "اسکیمای در حال استفاده"
+      ],
+      "Select Page": [
+        "انتخاب برگه"
+      ],
+      "Select Repeat Frequency": [
+        "انتخاب تناوب تکرار"
+      ],
+      "Show date": [
+        "نمایش تاریخ"
+      ],
+      "Show excerpt": [
+        "نمایش چکیده"
+      ],
+      "Show image": [
+        "نمایش تصویر"
+      ],
+      "Show taxonomy chips": [
+        "نمایش برچسب‌های طبقه‌بندی"
+      ],
+      "Side By Side": [
+        "کنار هم"
+      ],
+      "Texts": [
+        "متن‌ها"
+      ],
+      "Thumbnail": [
+        "تصویر بندانگشتی"
+      ],
+      "Title": [
+        "عنوان"
+      ],
+      "Total Clicks": [
+        "کل کلیک‌ها"
+      ],
+      "Total Impressions": [
+        "کل نمایش‌ها"
+      ],
+      "Traffic": [
+        "ترافیک"
+      ],
+      "URL Inspection Status": [
+        "وضعیت بررسی نشانی اینترنتی"
+      ],
+      "UX": [
+        "تجربه کاربری"
+      ],
+      "Unlink": [
+        "لغو پیوند"
+      ],
+      "Weekly": [
+        "هفتگی"
+      ],
+      "WooCommerce Product": [
+        "محصول ووکامرس"
+      ],
+      "Yearly": [
+        "سالانه"
+      ],
+      "Yes": [
+        "بله"
+      ]
+    },
+    "rank-math-pro": {
+      "": {
+        "domain": "rank-math-pro",
+        "lang": "fa_IR",
+        "plural-forms": "nplurals=2; plural=(n > 1);"
+      },
+      " Only include this property if the dataset has a spatial dimension.": [
+        " این ویژگی را فقط زمانی وارد کنید که مجموعه‌داده دارای بُعد مکانی باشد."
+      ],
+      " links. Please review the changes carefully before applying.": [
+        " لینک. لطفاً پیش از اعمال، تغییرات را با دقت بررسی کنید."
+      ],
+      " or ": [
+        " یا "
+      ],
+      "#": [
+        "#"
+      ],
+      "%1$s to exclude for %2$s": [
+        "%1$s برای مستثناکردن از %2$s"
+      ],
+      "%s It is recommended to save a database backup before using this option because importing malformed CSV can result in loss of data.": [
+        "%s توصیه می‌شود پیش از استفاده از این گزینه، از پایگاه داده نسخه پشتیبان تهیه کنید؛ زیرا درون‌ریزی فایل CSV معیوب ممکن است باعث از دست رفتن داده‌ها شود."
+      ],
+      "%s Please wait while the plugin is being installed and activated.": [
+        "%s لطفاً تا نصب و فعال‌سازی افزونه صبر کنید."
+      ],
+      "(Deleted)": [
+        "(حذف‌شده)"
+      ],
+      "(empty)": [
+        "(خالی)"
+      ],
+      "(link removed)": [
+        "(لینک حذف شد)"
+      ],
+      "(no title)": [
+        "(بدون عنوان)"
+      ],
+      "(plain text)": [
+        "(متن ساده)"
+      ],
+      "1 Year": [
+        "۱ سال"
+      ],
+      "15 Days": [
+        "۱۵ روز"
+      ],
+      "200 (OK)": [
+        "۲۰۰ (موفق)"
+      ],
+      "30 Days": [
+        "۳۰ روز"
+      ],
+      "301 (Moved Permanently)": [
+        "۳۰۱ (انتقال دائمی)"
+      ],
+      "302 (Found/Temporary Redirect)": [
+        "۳۰۲ (یافت شد/تغییر مسیر موقت)"
+      ],
+      "303 (See Other)": [
+        "۳۰۳ (مشاهده نشانی دیگر)"
+      ],
+      "307 (Temporary Redirect)": [
+        "۳۰۷ (تغییر مسیر موقت)"
+      ],
+      "308 (Permanent Redirect)": [
+        "۳۰۸ (تغییر مسیر دائمی)"
+      ],
+      "401 (Unauthorized)": [
+        "۴۰۱ (احراز هویت نشده)"
+      ],
+      "403 (Forbidden)": [
+        "۴۰۳ (دسترسی ممنوع)"
+      ],
+      "404 (Not Found)": [
+        "۴۰۴ (یافت نشد)"
+      ],
+      "410 (Gone)": [
+        "۴۱۰ (حذف شده)"
+      ],
+      "500 (Server Error)": [
+        "۵۰۰ (خطای سرور)"
+      ],
+      "502 (Bad Gateway)": [
+        "۵۰۲ (درگاه نامعتبر)"
+      ],
+      "503 (Service Unavailable)": [
+        "۵۰۳ (سرویس در دسترس نیست)"
+      ],
+      "6 Months": [
+        "۶ ماه"
+      ],
+      "7 Days": [
+        "۷ روز"
+      ],
+      "90 Days": [
+        "۹۰ روز"
+      ],
+      "<strong>Min Size: 1400x1400px, Max Size: 3000x3000px</strong>.<br /> The filesize should not exceed 0.5MB.": [
+        "<strong>حداقل اندازه: 1400x1400 پیکسل، حداکثر اندازه: 3000x3000 پیکسل</strong>.<br /> حجم فایل نباید بیشتر از 0.5MB باشد."
+      ],
+      "A URL pointing to the actual video media file": [
+        "نشانی اینترنتی فایل اصلی ویدیو"
+      ],
+      "A URL pointing to the actual video media file like MP4, MOV, etc. Please leave it empty if you don't know the URL.": [
+        "نشانی اینترنتی فایل اصلی ویدیو مانند MP4، MOV و موارد مشابه. اگر نشانی را نمی‌دانید، این قسمت را خالی بگذارید."
+      ],
+      "A URL pointing to the embeddable player for the video. Example: <code>https://www.youtube.com/embed/VIDEOID</code>": [
+        "نشانی اینترنتی پخش‌کننده قابل جاسازی ویدیو. نمونه: <code>https://www.youtube.com/embed/VIDEOID</code>"
+      ],
+      "A URL that points to the start time of the clip. The clip URL must point to the same URL path as the video with additional query parameters that specify the time.": [
+        "نشانی اینترنتی‌ای که به زمان شروع کلیپ اشاره می‌کند. نشانی کلیپ باید همان مسیر نشانی ویدیو را با پارامترهای پرس‌وجوی اضافی برای تعیین زمان داشته باشد."
+      ],
+      "A descriptive name for this keyword map (e.g., \"SEO Guide Link\")": [
+        "نامی توصیفی برای این نگاشت کلمه کلیدی؛ برای نمونه «لینک راهنمای سئو»"
+      ],
+      "A descriptive name of a dataset.": [
+        "نامی توصیفی برای مجموعه‌داده."
+      ],
+      "A license under which the dataset is distributed.": [
+        "مجوزی که مجموعه‌داده براساس آن منتشر می‌شود."
+      ],
+      "A plaintext description of the episode without HTML tags.": [
+        "توضیح متنی ساده برای قسمت، بدون تگ‌های HTML."
+      ],
+      "A plaintext description of the podcast.": [
+        "توضیحات متنی ساده برای پادکست."
+      ],
+      "A recipe video Description": [
+        "توضیحات ویدیوی دستور پخت"
+      ],
+      "A recipe video Name": [
+        "نام ویدیوی دستور پخت"
+      ],
+      "A recipe video thumbnail URL": [
+        "نشانی تصویر بندانگشتی ویدیوی دستور پخت"
+      ],
+      "A short description of the broad category that the video belongs to. Add coma separated video categories. (Used in the Video Sitemap only)": [
+        "توضیح کوتاهی از دسته‌بندی کلی ویدیو. دسته‌های ویدیو را با کاما جدا کنید. (فقط در نقشه سایت ویدیو استفاده می‌شود)"
+      ],
+      "A short summary describing a dataset.": [
+        "خلاصه‌ای کوتاه برای توصیف مجموعه‌داده."
+      ],
+      "A video URL. Optional.": [
+        "نشانی اینترنتی ویدیو؛ اختیاری است."
+      ],
+      "A video thumbnail URL": [
+        "نشانی اینترنتی تصویر بندانگشتی ویدیو"
+      ],
+      "AI": [
+        "هوش مصنوعی"
+      ],
+      "AI Link Genius": [
+        "لینک جنیوس هوش مصنوعی"
+      ],
+      "AI Suggestions": [
+        "پیشنهادهای هوش مصنوعی"
+      ],
+      "AI-Generated Variations": [
+        "گونه‌های تولیدشده با هوش مصنوعی"
+      ],
+      "ALL UPPERCASE": [
+        "همه با حروف بزرگ"
+      ],
+      "Account": [
+        "حساب"
+      ],
+      "Action": [
+        "عملیات"
+      ],
+      "AdSense": [
+        "ادسنس"
+      ],
+      "Add": [
+        "افزودن"
+      ],
+      "Add <code>alt</code> attributes for commenter profile pictures (avatars) automatically. The alt attribute value will be the username.": [
+        "ویژگی <code>alt</code> را به‌صورت خودکار به تصاویر نمایه دیدگاه‌گذاران (آواتارها) اضافه کنید. مقدار ویژگی alt نام کاربری خواهد بود."
+      ],
+      "Add ALT attributes for avatars": [
+        "افزودن ویژگی ALT به آواتارها"
+      ],
+      "Add Image": [
+        "افزودن تصویر"
+      ],
+      "Add Manufacturer": [
+        "افزودن سازنده"
+      ],
+      "Add New": [
+        "افزودن جدید"
+      ],
+      "Add New Condition": [
+        "افزودن شرط جدید"
+      ],
+      "Add Variations": [
+        "افزودن گونه‌ها"
+      ],
+      "Add Watermark": [
+        "افزودن واترمارک"
+      ],
+      "Add a caption for all images without a caption automatically. The caption is dynamically applied when the content is displayed, the stored content is not changed.": [
+        "برای همه تصاویر بدون کپشن، به‌صورت خودکار کپشن اضافه کنید. کپشن هنگام نمایش محتوا به‌صورت پویا اعمال می‌شود و محتوای ذخیره‌شده تغییر نمی‌کند."
+      ],
+      "Add a description for all images without a description automatically. The description is dynamically applied when the content is displayed, the stored content is not changed.": [
+        "برای همه تصاویر بدون توضیحات، به‌صورت خودکار توضیح اضافه کنید. توضیح هنگام نمایش محتوا به‌صورت پویا اعمال می‌شود و محتوای ذخیره‌شده تغییر نمی‌کند."
+      ],
+      "Add another": [
+        "افزودن مورد دیگر"
+      ],
+      "Add copyright details if your show is copyrighted.": [
+        "اگر برنامه شما دارای حق نشر است، جزئیات آن را اضافه کنید."
+      ],
+      "Add dropdown to filter results by category": [
+        "افزودن فهرست کشویی برای فیلتر نتایج براساس دسته‌بندی"
+      ],
+      "Add in Keyword Manager": [
+        "افزودن به مدیر کلمات کلیدی"
+      ],
+      "Add missing image caption": [
+        "افزودن کپشن‌های ناقص تصاویر"
+      ],
+      "Add missing image description": [
+        "افزودن توضیحات ناقص تصاویر"
+      ],
+      "Add more image watermarks to choose from for the social thumbnails.": [
+        "واترمارک‌های بیشتری برای انتخاب در تصاویر بندانگشتی شبکه‌های اجتماعی اضافه کنید."
+      ],
+      "Add one supply element per line.": [
+        "در هر خط یک مورد از لوازم مصرفی اضافه کنید."
+      ],
+      "Add one tool per line.": [
+        "در هر خط یک ابزار اضافه کنید."
+      ],
+      "Add rel=\"nofollow\" attribute": [
+        "افزودن ویژگی rel=\"nofollow\""
+      ],
+      "Add speakable attributes to Article Schema.": [
+        "افزودن ویژگی‌های قابل‌خواندن به اسکیمای مقاله."
+      ],
+      "Add the URI prefixes you use for affiliate (cloaked) links, which redirect to external sites. These will not count as internal links in the content analysis. Add one per line.": [
+        "پیشوندهای URI مورد استفاده برای لینک‌های همکاری در فروش (پنهان‌شده) را که به سایت‌های خارجی هدایت می‌شوند اضافه کنید. این لینک‌ها در تحلیل محتوا به‌عنوان لینک داخلی شمرده نمی‌شوند. در هر خط یک مورد وارد کنید."
+      ],
+      "Add the tracking prefix provided by your tracking service like Chartable, Podsights, Podtrac, etc.": [
+        "پیشوند ردیابی ارائه‌شده توسط سرویس‌هایی مانند Chartable، Podsights، Podtrac و موارد مشابه را اضافه کنید."
+      ],
+      "Add to graph": [
+        "افزودن به نمودار"
+      ],
+      "Add variations now. They will be saved when you create the keyword map.": [
+        "اکنون گونه‌ها را اضافه کنید. هنگام ساخت نگاشت کلمه کلیدی ذخیره خواهند شد."
+      ],
+      "Add your local business's details here with \"Local Business\" Schema Markup in order to be eligible for local SERP features.": [
+        "جزئیات کسب‌وکار محلی خود را همراه با نشانه‌گذاری اسکیمای «کسب‌وکار محلی» اینجا وارد کنید تا واجد نمایش در قابلیت‌های نتایج جستجوی محلی شوید."
+      ],
+      "Added": [
+        "افزوده شد"
+      ],
+      "Added in Keyword Manager": [
+        "به مدیر کلمات کلیدی افزوده شد"
+      ],
+      "Adding Focus Keywords..": [
+        "در حال افزودن کلمات کلیدی اصلی…"
+      ],
+      "Adding links to posts…": [
+        "در حال افزودن لینک به نوشته‌ها…"
+      ],
+      "Adding…": [
+        "در حال افزودن…"
+      ],
+      "Additional CSS code": [
+        "کد CSS اضافی"
+      ],
+      "Additional CSS code to customize the appearance of the reports. Insert the CSS code directly, without the wrapping style tag. Please note that the CSS support is limited in email clients and the appearance may vary greatly.": [
+        "کد CSS اضافی برای سفارشی‌کردن ظاهر گزارش‌ها. کد CSS را مستقیماً و بدون برچسب style وارد کنید. توجه داشته باشید پشتیبانی CSS در نرم‌افزارهای ایمیل محدود است و ظاهر گزارش ممکن است تفاوت زیادی داشته باشد."
+      ],
+      "Additional Type": [
+        "نوع تکمیلی"
+      ],
+      "Address": [
+        "نشانی"
+      ],
+      "Address Settings": [
+        "تنظیمات نشانی"
+      ],
+      "Address where the reports will be sent. You can add multiple recipients separated with commas.": [
+        "نشانی ایمیلی که گزارش‌ها به آن ارسال می‌شوند. می‌توانید چند گیرنده را با کاما از هم جدا کنید."
+      ],
+      "Adsense": [
+        "ادسنس"
+      ],
+      "Affiliate Link Prefix": [
+        "پیشوند لینک همکاری در فروش"
+      ],
+      "Afghanistan": [
+        "افغانستان"
+      ],
+      "Albania": [
+        "آلبانی"
+      ],
+      "Algeria": [
+        "الجزایر"
+      ],
+      "All": [
+        "همه"
+      ],
+      "All Anchor Types": [
+        "همه انواع متن لنگر"
+      ],
+      "All Archives": [
+        "همه بایگانی‌ها"
+      ],
+      "All Links": [
+        "همه لینک‌ها"
+      ],
+      "All Locations": [
+        "همه مکان‌ها"
+      ],
+      "All Locations are part of the same Organization": [
+        "همه مکان‌ها بخشی از یک سازمان هستند"
+      ],
+      "All Post Types": [
+        "همه انواع نوشته"
+      ],
+      "All Posts": [
+        "همه نوشته‌ها"
+      ],
+      "All Scores": [
+        "همه امتیازها"
+      ],
+      "All Statuses": [
+        "همه وضعیت‌ها"
+      ],
+      "All Time": [
+        "همه زمان‌ها"
+      ],
+      "All Types": [
+        "همه انواع"
+      ],
+      "All links have been checked.": [
+        "همه لینک‌ها بررسی شده‌اند."
+      ],
+      "All variations already exist.": [
+        "همه گونه‌ها از قبل وجود دارند."
+      ],
+      "Allow Dragging": [
+        "اجازه جابه‌جایی"
+      ],
+      "Allow Zoom": [
+        "اجازه بزرگ‌نمایی"
+      ],
+      "Allow Zoom by scroll": [
+        "اجازه بزرگ‌نمایی با پیمایش"
+      ],
+      "Allowed": [
+        "مجاز"
+      ],
+      "Already linked": [
+        "از قبل لینک شده"
+      ],
+      "Alt": [
+        "متن جایگزین"
+      ],
+      "Alternate Name": [
+        "نام جایگزین"
+      ],
+      "An arbitrary string tag describing the video. Add coma separated video tags. (Used in the Video Sitemap only)": [
+        "برچسب متنی دلخواه برای توصیف ویدیو. برچسب‌های ویدیو را با کاما جدا کنید. (فقط در نقشه سایت ویدیو استفاده می‌شود)"
+      ],
+      "An error occurred": [
+        "خطایی رخ داد"
+      ],
+      "An error occurred while fetching related posts.": [
+        "هنگام دریافت نوشته‌های مرتبط خطایی رخ داد."
+      ],
+      "An error occurred while refreshing the score.": [
+        "هنگام تازه‌سازی امتیاز خطایی رخ داد."
+      ],
+      "An error occurred while refreshing the scores for the following tests:": [
+        "هنگام تازه‌سازی امتیاز آزمون‌های زیر خطایی رخ داد:"
+      ],
+      "An identifier, such as a DOI or a Compact Identifier. Add one identifier per line.": [
+        "یک شناسه مانند DOI یا شناسه فشرده. در هر خط یک شناسه اضافه کنید."
+      ],
+      "An unknown error occurred.": [
+        "خطای ناشناخته‌ای رخ داد."
+      ],
+      "Analytics": [
+        "آنالیتیکس"
+      ],
+      "Analyzing links and generating preview… Please wait.": [
+        "در حال تحلیل لینک‌ها و ساخت پیش‌نمایش… لطفاً صبر کنید."
+      ],
+      "Analyzing posts for keyword matches…": [
+        "در حال تحلیل نوشته‌ها برای یافتن تطابق کلمات کلیدی…"
+      ],
+      "Anchor Text": [
+        "متن لنگر"
+      ],
+      "Anchor Text Change": [
+        "تغییر متن لنگر"
+      ],
+      "Anchor Text Only": [
+        "فقط متن لنگر"
+      ],
+      "Anchor Text Settings": [
+        "تنظیمات متن لنگر"
+      ],
+      "Anchor Text:": [
+        "متن لنگر:"
+      ],
+      "Anchor Type": [
+        "نوع متن لنگر"
+      ],
+      "Anchor Type:": [
+        "نوع متن لنگر:"
+      ],
+      "Anchor text is required": [
+        "متن لنگر الزامی است"
+      ],
+      "Andorra": [
+        "آندورا"
+      ],
+      "Angola": [
+        "آنگولا"
+      ],
+      "Anguilla": [
+        "آنگویلا"
+      ],
+      "Answer": [
+        "پاسخ"
+      ],
+      "Antarctica": [
+        "جنوبگان"
+      ],
+      "Antigua and Barbuda": [
+        "آنتیگوا و باربودا"
+      ],
+      "Any": [
+        "هرکدام"
+      ],
+      "Appearance": [
+        "ظاهر"
+      ],
+      "Application Category": [
+        "دسته‌بندی برنامه"
+      ],
+      "Applied Filters": [
+        "فیلترهای اعمال‌شده"
+      ],
+      "Apply": [
+        "اعمال"
+      ],
+      "Apply Changes": [
+        "اعمال تغییرات"
+      ],
+      "Applying Changes": [
+        "در حال اعمال تغییرات"
+      ],
+      "Applying Changes…": [
+        "در حال اعمال تغییرات…"
+      ],
+      "Archives": [
+        "بایگانی‌ها"
+      ],
+      "Are you sure you want to change the Schema type for the selected posts? Doing so may irreversibly delete the existing Schema data.": [
+        "آیا مطمئن هستید که می‌خواهید نوع اسکیما را برای نوشته‌های انتخاب‌شده تغییر دهید؟ این کار ممکن است داده‌های اسکیمای موجود را به‌صورت برگشت‌ناپذیر حذف کند."
+      ],
+      "Are you sure you want to delete all the Manually Tracked keywords from Rank Tracker? This action is irreversible.": [
+        "آیا مطمئن هستید که می‌خواهید همه کلمات کلیدی ردیابی‌شده دستی را از ردیاب رتبه حذف کنید؟ این کار قابل بازگشت نیست."
+      ],
+      "Are you sure you want to delete these keyword maps?": [
+        "آیا مطمئن هستید که می‌خواهید این نگاشت‌های کلمه کلیدی را حذف کنید؟"
+      ],
+      "Are you sure you want to delete this history record? This action cannot be undone.": [
+        "آیا مطمئن هستید که می‌خواهید این سابقه را حذف کنید؟ این کار قابل بازگشت نیست."
+      ],
+      "Are you sure you want to delete this keyword map?": [
+        "آیا مطمئن هستید که می‌خواهید این نگاشت کلمه کلیدی را حذف کنید؟"
+      ],
+      "Are you sure you want to import meta data from this CSV file?": [
+        "آیا مطمئن هستید که می‌خواهید فراداده را از این فایل CSV درون‌ریزی کنید؟"
+      ],
+      "Are you sure you want to import redirections from this CSV file?": [
+        "آیا مطمئن هستید که می‌خواهید تغییر مسیرها را از این فایل CSV درون‌ریزی کنید؟"
+      ],
+      "Are you sure you want to remove": [
+        "آیا مطمئن هستید که می‌خواهید حذف کنید"
+      ],
+      "Are you sure you want to remove this link? The anchor text will remain but will no longer be hyperlinked.": [
+        "آیا مطمئن هستید که می‌خواهید این لینک را حذف کنید؟ متن لنگر باقی می‌ماند، اما دیگر پیوند نخواهد بود."
+      ],
+      "Are you sure you want to stop the import process?": [
+        "آیا مطمئن هستید که می‌خواهید فرایند درون‌ریزی را متوقف کنید؟"
+      ],
+      "Area Served": [
+        "محدوده خدمات"
+      ],
+      "Argentina": [
+        "آرژانتین"
+      ],
+      "Armenia": [
+        "ارمنستان"
+      ],
+      "Article": [
+        "مقاله"
+      ],
+      "Article Section": [
+        "بخش مقاله"
+      ],
+      "Article Type": [
+        "نوع مقاله"
+      ],
+      "Arts": [
+        "هنر"
+      ],
+      "Aruba": [
+        "آروبا"
+      ],
+      "As above, but the label that would be applicable for more than one location (default: RM Locations).": [
+        "مانند مورد بالا، اما برچسب مناسب برای بیش از یک مکان (پیش‌فرض: مکان‌های RM)."
+      ],
+      "Audio File URL": [
+        "نشانی فایل صوتی"
+      ],
+      "Audit Filter Options": [
+        "گزینه‌های فیلتر ممیزی"
+      ],
+      "Auditing links… Please wait.": [
+        "در حال ممیزی لینک‌ها… لطفاً صبر کنید."
+      ],
+      "Australia": [
+        "استرالیا"
+      ],
+      "Austria": [
+        "اتریش"
+      ],
+      "Author": [
+        "نویسنده"
+      ],
+      "Author Name": [
+        "نام نویسنده"
+      ],
+      "Auto Add Focus Keywords": [
+        "افزودن خودکار کلمات کلیدی اصلی"
+      ],
+      "Auto-Link": [
+        "لینک‌سازی خودکار"
+      ],
+      "Auto-Link on Publish": [
+        "لینک‌سازی خودکار هنگام انتشار"
+      ],
+      "Auto-generate image for the auto detected video.": [
+        "برای ویدیوی تشخیص‌داده‌شده به‌صورت خودکار تصویر تولید کنید."
+      ],
+      "Autodetect Video": [
+        "تشخیص خودکار ویدیو"
+      ],
+      "Autogenerate Image": [
+        "تولید خودکار تصویر"
+      ],
+      "Automatically apply links to new content; links appear within 1-2 minutes after publishing.": [
+        "لینک‌ها به‌صورت خودکار روی محتوای جدید اعمال می‌شوند و یک تا دو دقیقه پس از انتشار نمایش داده خواهند شد."
+      ],
+      "Automatically detect the user's location as the starting point.": [
+        "موقعیت کاربر را به‌صورت خودکار به‌عنوان نقطه آغاز تشخیص دهید."
+      ],
+      "Availability": [
+        "موجودی"
+      ],
+      "Average Position": [
+        "میانگین جایگاه"
+      ],
+      "Average click-through rate. Total clicks divided by total impressions.": [
+        "میانگین نرخ کلیک؛ تعداد کل کلیک‌ها تقسیم بر تعداد کل نمایش‌ها."
+      ],
+      "Average position of all the keywords ranking within top 100 positions.": [
+        "میانگین جایگاه همه کلمات کلیدی که در ۱۰۰ رتبه نخست قرار دارند."
+      ],
+      "Avg.CTR": [
+        "میانگین نرخ کلیک"
+      ],
+      "Azerbaijan": [
+        "جمهوری آذربایجان"
+      ],
+      "Background Process": [
+        "فرایند پس‌زمینه"
+      ],
+      "Bad": [
+        "ضعیف"
+      ],
+      "Bahamas": [
+        "باهاما"
+      ],
+      "Bahrain": [
+        "بحرین"
+      ],
+      "Bangladesh": [
+        "بنگلادش"
+      ],
+      "Barbados": [
+        "باربادوس"
+      ],
+      "Basic Summary": [
+        "خلاصه پایه"
+      ],
+      "Belarus": [
+        "بلاروس"
+      ],
+      "Belau": [
+        "پالائو"
+      ],
+      "Belgium": [
+        "بلژیک"
+      ],
+      "Belize": [
+        "بلیز"
+      ],
+      "Benin": [
+        "بنین"
+      ],
+      "Bermuda": [
+        "برمودا"
+      ],
+      "Bhutan": [
+        "بوتان"
+      ],
+      "Blocked by robots.txt": [
+        "مسدودشده توسط robots.txt"
+      ],
+      "Bolivia": [
+        "بولیوی"
+      ],
+      "Bonaire, Sint Eustatius and Saba": [
+        "جزایر کارائیب هلند"
+      ],
+      "Book": [
+        "کتاب"
+      ],
+      "Book Format": [
+        "قالب کتاب"
+      ],
+      "Bosnia and Herzegovina": [
+        "بوسنی و هرزگوین"
+      ],
+      "Both": [
+        "هردو"
+      ],
+      "Both Anchor Text & URL": [
+        "متن لنگر و نشانی اینترنتی"
+      ],
+      "Botswana": [
+        "بوتسوانا"
+      ],
+      "Bottom Center": [
+        "پایین وسط"
+      ],
+      "Bottom Left": [
+        "پایین چپ"
+      ],
+      "Bottom Right": [
+        "پایین راست"
+      ],
+      "Bouvet Island": [
+        "جزیرهٔ بووه"
+      ],
+      "Brand": [
+        "برند"
+      ],
+      "Brand Name": [
+        "نام برند"
+      ],
+      "Brand URL": [
+        "نشانی اینترنتی برند"
+      ],
+      "Brand value to use in Schema.org & OpenGraph markup.": [
+        "مقدار برند برای استفاده در نشانه‌گذاری Schema.org و OpenGraph."
+      ],
+      "Brazil": [
+        "برزیل"
+      ],
+      "British Indian Ocean Territory": [
+        "قلمرو بریتانیا در اقیانوس هند"
+      ],
+      "British Virgin Islands": [
+        "جزایر ویرجین بریتانیا"
+      ],
+      "Broken": [
+        "خراب"
+      ],
+      "Broken Links": [
+        "لینک‌های خراب"
+      ],
+      "Brunei": [
+        "برونئی"
+      ],
+      "Bulgaria": [
+        "بلغارستان"
+      ],
+      "Bulk Actions": [
+        "کارهای گروهی"
+      ],
+      "Bulk Delete Links": [
+        "حذف گروهی لینک‌ها"
+      ],
+      "Bulk Mark Links as Not Broken": [
+        "علامت‌گذاری گروهی لینک‌ها به‌عنوان خراب‌نبودن"
+      ],
+      "Bulk Update": [
+        "به‌روزرسانی گروهی"
+      ],
+      "Bulk Update History": [
+        "سابقه به‌روزرسانی گروهی"
+      ],
+      "Bulk Update Progress": [
+        "پیشرفت به‌روزرسانی گروهی"
+      ],
+      "Bulk action failed. Please try again.": [
+        "کار گروهی ناموفق بود. دوباره تلاش کنید."
+      ],
+      "Bulk delete all is not yet implemented": [
+        "حذف گروهی همه موارد هنوز پیاده‌سازی نشده است"
+      ],
+      "Bulk delete completed successfully!": [
+        "حذف گروهی با موفقیت تکمیل شد!"
+      ],
+      "Bulk enable/disable all is not yet implemented. Please select specific items.": [
+        "فعال/غیرفعال‌سازی گروهی همه موارد هنوز پیاده‌سازی نشده است. لطفاً موارد مشخصی را انتخاب کنید."
+      ],
+      "Bulk mark safe completed successfully!": [
+        "علامت‌گذاری گروهی به‌عنوان سالم با موفقیت تکمیل شد!"
+      ],
+      "Bulk update completed successfully!": [
+        "به‌روزرسانی گروهی با موفقیت تکمیل شد!"
+      ],
+      "Burkina Faso": [
+        "بورکینافاسو"
+      ],
+      "Burundi": [
+        "بوروندی"
+      ],
+      "Business": [
+        "کسب‌وکار"
+      ],
+      "Business FAX": [
+        "فکس کسب‌وکار"
+      ],
+      "Business Type": [
+        "نوع کسب‌وکار"
+      ],
+      "By default, current post URL is used.": [
+        "به‌صورت پیش‌فرض، نشانی نوشته فعلی استفاده می‌شود."
+      ],
+      "CSV File": [
+        "فایل CSV"
+      ],
+      "CTR": [
+        "نرخ کلیک"
+      ],
+      "Calories": [
+        "کالری"
+      ],
+      "Cambodia": [
+        "کامبوج"
+      ],
+      "Cameroon": [
+        "کامرون"
+      ],
+      "Canada": [
+        "کانادا"
+      ],
+      "Cancel": [
+        "لغو"
+      ],
+      "Cancel Delete": [
+        "لغو حذف"
+      ],
+      "Cancel Import": [
+        "لغو درون‌ریزی"
+      ],
+      "Cancel Operation": [
+        "لغو عملیات"
+      ],
+      "Cancel Restore": [
+        "لغو بازیابی"
+      ],
+      "Canceling…": [
+        "در حال لغو…"
+      ],
+      "Canonical": [
+        "کنونیکال"
+      ],
+      "Cape Verde": [
+        "کیپ‌ورد"
+      ],
+      "Capitalization settings for the <code>alt</code> attribute values. This will be applied for <strong>all</strong> <code>alt</code> attributes.": [
+        "تنظیمات بزرگی و کوچکی حروف برای مقادیر ویژگی <code>alt</code>. این تنظیم برای <strong>همه</strong> ویژگی‌های <code>alt</code> اعمال می‌شود."
+      ],
+      "Capitalization settings for the <code>title</code> attribute values. This will be applied for <strong>all</strong> <code>title</code> attributes.": [
+        "تنظیمات بزرگی و کوچکی حروف برای مقادیر ویژگی <code>title</code>. این تنظیم برای <strong>همه</strong> ویژگی‌های <code>title</code> اعمال می‌شود."
+      ],
+      "Capitalization settings for the image captions. This will be applied for <strong>all</strong> image captions.": [
+        "تنظیمات بزرگی و کوچکی حروف برای کپشن تصاویر. این تنظیم برای کپشن <strong>همه</strong> تصاویر اعمال می‌شود."
+      ],
+      "Capitalization settings for the image descriptions. This will be applied for <strong>all</strong> image descriptions.": [
+        "تنظیمات بزرگی و کوچکی حروف برای توضیحات تصاویر. این تنظیم برای توضیحات <strong>همه</strong> تصاویر اعمال می‌شود."
+      ],
+      "Caption": [
+        "کپشن"
+      ],
+      "Caption format": [
+        "قالب کپشن"
+      ],
+      "Case Sensitive": [
+        "حساس به بزرگی و کوچکی حروف"
+      ],
+      "Category": [
+        "دسته‌بندی"
+      ],
+      "Cayman Islands": [
+        "جزایر کِیمن"
+      ],
+      "Central African Republic": [
+        "جمهوری افریقای مرکزی"
+      ],
+      "Chad": [
+        "چاد"
+      ],
+      "Chamber of Commerce ID": [
+        "شناسه اتاق بازرگانی"
+      ],
+      "Change alt attribute casing": [
+        "تغییر حالت حروف ویژگی alt"
+      ],
+      "Change caption casing": [
+        "تغییر حالت حروف کپشن"
+      ],
+      "Change description casing": [
+        "تغییر حالت حروف توضیحات"
+      ],
+      "Change title casing": [
+        "تغییر حالت حروف عنوان"
+      ],
+      "Changes Made": [
+        "تغییرات انجام‌شده"
+      ],
+      "Changes applied successfully!": [
+        "تغییرات با موفقیت اعمال شدند!"
+      ],
+      "Changes can be rolled back from the history table below.": [
+        "تغییرات را می‌توان از جدول سابقه زیر بازگردانی کرد."
+      ],
+      "Changes will be saved to history and can be rolled back if needed.": [
+        "تغییرات در سابقه ذخیره می‌شوند و در صورت نیاز قابل بازگردانی خواهند بود."
+      ],
+      "Check all links": [
+        "بررسی همه لینک‌ها"
+      ],
+      "Check this to import meta fields only if their current meta value is empty.": [
+        "برای درون‌ریزی فیلدهای متا فقط زمانی که مقدار فعلی آن‌ها خالی است، این گزینه را فعال کنید."
+      ],
+      "Checked:": [
+        "بررسی‌شده:"
+      ],
+      "Chile": [
+        "شیلی"
+      ],
+      "China": [
+        "چین"
+      ],
+      "Choose File": [
+        "انتخاب فایل"
+      ],
+      "Choose a country": [
+        "یک کشور انتخاب کنید"
+      ],
+      "Choose the object types to export.": [
+        "نوع اشیایی را که می‌خواهید برون‌بری شوند انتخاب کنید."
+      ],
+      "Christmas Island": [
+        "جزیرهٔ کریسمس"
+      ],
+      "Claim": [
+        "ادعا"
+      ],
+      "Clear": [
+        "پاک‌کردن"
+      ],
+      "Clicks": [
+        "کلیک‌ها"
+      ],
+      "Clip Name": [
+        "نام کلیپ"
+      ],
+      "Clip URL": [
+        "نشانی کلیپ"
+      ],
+      "Close": [
+        "بستن"
+      ],
+      "Close & use selected keywords": [
+        "بستن و استفاده از کلمات کلیدی انتخاب‌شده"
+      ],
+      "Closed label": [
+        "برچسب بسته"
+      ],
+      "Closing Time": [
+        "ساعت تعطیلی"
+      ],
+      "Closing…": [
+        "در حال بستن…"
+      ],
+      "Cocos (Keeling) Islands": [
+        "جزایر کوکوس"
+      ],
+      "Colombia": [
+        "کلمبیا"
+      ],
+      "Color hex code or any other valid value for the <code>background:</code> CSS property.": [
+        "کد هگز رنگ یا هر مقدار معتبر دیگر برای ویژگی CSS‏ <code>background:</code>."
+      ],
+      "Comedy": [
+        "کمدی"
+      ],
+      "Comma-separated values": [
+        "مقادیر جداشده با کاما"
+      ],
+      "Commercial": [
+        "تجاری"
+      ],
+      "Comoros": [
+        "کومور"
+      ],
+      "Competitor Analysis": [
+        "تحلیل رقیب"
+      ],
+      "Competitor Site": [
+        "سایت رقیب"
+      ],
+      "Competitor View": [
+        "نمای رقیب"
+      ],
+      "Complete": [
+        "کامل"
+      ],
+      "Completed": [
+        "تکمیل‌شده"
+      ],
+      "Configuration Summary": [
+        "خلاصه پیکربندی"
+      ],
+      "Configure Update": [
+        "پیکربندی به‌روزرسانی"
+      ],
+      "Configure auto-linking exclusions for Keyword Maps feature.": [
+        "موارد مستثنا از لینک‌دهی خودکار قابلیت نگاشت کلمات کلیدی را پیکربندی کنید."
+      ],
+      "Configure settings now": [
+        "اکنون تنظیمات را پیکربندی کنید"
+      ],
+      "Congo (Brazzaville)": [
+        "کنگو - برازویل"
+      ],
+      "Congo (Kinshasa)": [
+        "کنگو - کینشاسا"
+      ],
+      "Cons": [
+        "معایب"
+      ],
+      "Contains": [
+        "شامل"
+      ],
+      "Content": [
+        "محتوا"
+      ],
+      "Content AI is not properly configured. Please check your Content AI settings.": [
+        "هوش مصنوعی محتوا به‌درستی پیکربندی نشده است. تنظیمات هوش مصنوعی محتوا را بررسی کنید."
+      ],
+      "Content Score": [
+        "امتیاز محتوا"
+      ],
+      "Content URL": [
+        "نشانی اینترنتی محتوا"
+      ],
+      "Cook Islands": [
+        "جزایر کوک"
+      ],
+      "Cooking Time": [
+        "زمان پخت"
+      ],
+      "Copied": [
+        "کپی شد"
+      ],
+      "Copied!": [
+        "کپی شد!"
+      ],
+      "Copy": [
+        "کپی"
+      ],
+      "Copy & paste this shortcode in the content.": [
+        "این کد کوتاه را در محتوا کپی و جای‌گذاری کنید."
+      ],
+      "Copy Link URL": [
+        "کپی نشانی لینک"
+      ],
+      "Copyright Text": [
+        "متن حق نشر"
+      ],
+      "Cost": [
+        "هزینه"
+      ],
+      "Costa Rica": [
+        "کاستاریکا"
+      ],
+      "Country": [
+        "کشور"
+      ],
+      "Course": [
+        "دوره آموزشی"
+      ],
+      "Course Instance": [
+        "نمونه دوره آموزشی"
+      ],
+      "Course Mode": [
+        "شیوه برگزاری دوره"
+      ],
+      "Course Provider": [
+        "ارائه‌دهنده دوره"
+      ],
+      "Course Provider Name": [
+        "نام ارائه‌دهنده دوره"
+      ],
+      "Course Provider URL": [
+        "نشانی اینترنتی ارائه‌دهنده دوره"
+      ],
+      "Course Schedule": [
+        "برنامه زمانی دوره"
+      ],
+      "Course Workload": [
+        "حجم کاری دوره"
+      ],
+      "Crawl": [
+        "خزش"
+      ],
+      "Crawled As": [
+        "خزش‌شده به‌عنوان"
+      ],
+      "Create Keyword Map": [
+        "ساخت نگاشت کلمه کلیدی"
+      ],
+      "Create reusable link rules that automatically apply to your content. Add AI-generated variations to catch different keyword phrases.": [
+        "قوانین لینک قابل‌استفاده مجددی بسازید که به‌صورت خودکار روی محتوای شما اعمال شوند. برای پوشش عبارت‌های متفاوت کلمات کلیدی، گونه‌های تولیدشده با هوش مصنوعی را اضافه کنید."
+      ],
+      "Creator": [
+        "سازنده"
+      ],
+      "Croatia": [
+        "کرواسی"
+      ],
+      "Cuba": [
+        "کوبا"
+      ],
+      "Cuisine": [
+        "نوع آشپزی"
+      ],
+      "Curaçao": [
+        "کوراسائو"
+      ],
+      "Currencies Accepted": [
+        "ارزهای پذیرفته‌شده"
+      ],
+      "Currency": [
+        "واحد پول"
+      ],
+      "Current Position": [
+        "جایگاه فعلی"
+      ],
+      "Current Post ID:": [
+        "شناسه نوشته فعلی:"
+      ],
+      "Current Status:": [
+        "وضعیت فعلی:"
+      ],
+      "Current status of the event (optional)": [
+        "وضعیت فعلی رویداد (اختیاری)"
+      ],
+      "Custom": [
+        "سفارشی"
+      ],
+      "Custom Fields": [
+        "فیلدهای سفارشی"
+      ],
+      "Custom Image Watermarks": [
+        "واترمارک‌های سفارشی تصویر"
+      ],
+      "Custom JSON-LD Code": [
+        "کد سفارشی JSON-LD"
+      ],
+      "Custom Mode": [
+        "حالت سفارشی"
+      ],
+      "Custom Range": [
+        "بازه سفارشی"
+      ],
+      "Custom Reason": [
+        "دلیل سفارشی"
+      ],
+      "Custom Schema": [
+        "اسکیمای سفارشی"
+      ],
+      "Custom reason": [
+        "دلیل سفارشی"
+      ],
+      "Customize the label of the option users can use can click to get directions to your business location on the frontend.": [
+        "برچسب گزینه‌ای را سفارشی کنید که کاربران در بخش کاربری برای دریافت مسیر رسیدن به محل کسب‌وکار روی آن کلیک می‌کنند."
+      ],
+      "Cyprus": [
+        "قبرس"
+      ],
+      "Czech Republic": [
+        "چک"
+      ],
+      "Czechia": [
+        "جمهوری چک"
+      ],
+      "Data Catalog": [
+        "فهرست داده‌ها"
+      ],
+      "Data Set": [
+        "مجموعه‌داده"
+      ],
+      "DataSets": [
+        "مجموعه‌داده‌ها"
+      ],
+      "Date": [
+        "تاریخ"
+      ],
+      "Date Created": [
+        "تاریخ ایجاد"
+      ],
+      "Date Executed": [
+        "تاریخ اجرا"
+      ],
+      "Date Modified": [
+        "تاریخ ویرایش"
+      ],
+      "Date Posted": [
+        "تاریخ ارسال"
+      ],
+      "Date Published": [
+        "تاریخ انتشار"
+      ],
+      "Date Range:": [
+        "بازه تاریخ:"
+      ],
+      "Date and time of the event": [
+        "تاریخ و زمان رویداد"
+      ],
+      "Date of first publication of this tome": [
+        "تاریخ نخستین انتشار این جلد"
+      ],
+      "Default Thumbnail Watermark": [
+        "واترمارک پیش‌فرض تصویر بندانگشتی"
+      ],
+      "Delete": [
+        "حذف"
+      ],
+      "Delete All": [
+        "حذف همه"
+      ],
+      "Delete from Keyword Manager": [
+        "حذف از مدیریت کلمات کلیدی"
+      ],
+      "Deleted": [
+        "حذف‌شده"
+      ],
+      "Deleting links… Please wait.": [
+        "در حال حذف لینک‌ها… لطفاً صبر کنید."
+      ],
+      "Denmark": [
+        "دانمارک"
+      ],
+      "Description": [
+        "توضیحات"
+      ],
+      "Description format": [
+        "قالب توضیحات"
+      ],
+      "Deselect All": [
+        "لغو انتخاب همه"
+      ],
+      "Desktop Score": [
+        "امتیاز دسکتاپ"
+      ],
+      "Destination": [
+        "مقصد"
+      ],
+      "Determine the Keyword's Search Intent for Writing Tailored Content. %s": [
+        "برای نوشتن محتوای متناسب، هدف جستجوی کلمه کلیدی را تشخیص دهید. %s"
+      ],
+      "Disable": [
+        "غیرفعال‌کردن"
+      ],
+      "Discard Variations": [
+        "کنارگذاشتن گونه‌ها"
+      ],
+      "Dismiss": [
+        "نادیده‌گرفتن"
+      ],
+      "Display Conditions": [
+        "شرایط نمایش"
+      ],
+      "Display the Global Identified on Product Page along with other product details.": [
+        "شناسه جهانی را همراه سایر جزئیات محصول در صفحه محصول نمایش دهید."
+      ],
+      "Distribution": [
+        "توزیع"
+      ],
+      "Djibouti": [
+        "جیبوتی"
+      ],
+      "Do not overwrite existing data": [
+        "داده‌های موجود بازنویسی نشوند"
+      ],
+      "Dofollow": [
+        "دوفالو"
+      ],
+      "Domain Match": [
+        "تطابق دامنه"
+      ],
+      "Dominica": [
+        "دومینیکا"
+      ],
+      "Dominican Republic": [
+        "جمهوری دومینیکن"
+      ],
+      "Don't add opening hours data in Schema": [
+        "داده‌های ساعات کاری را به اسکیما اضافه نکن"
+      ],
+      "Dun & Bradstreet DUNS number": [
+        "شماره DUNS شرکت Dun & Bradstreet"
+      ],
+      "Duration": [
+        "مدت‌زمان"
+      ],
+      "Ecuador": [
+        "اکوادور"
+      ],
+      "Edit": [
+        "ویرایش"
+      ],
+      "Edit Keyword Map": [
+        "ویرایش نگاشت کلمه کلیدی"
+      ],
+      "Edit Link": [
+        "ویرایش پیوند"
+      ],
+      "Editing:": [
+        "در حال ویرایش:"
+      ],
+      "Edition": [
+        "ویرایش"
+      ],
+      "Editions": [
+        "ویرایش‌ها"
+      ],
+      "Education": [
+        "آموزش"
+      ],
+      "Education Required": [
+        "تحصیلات موردنیاز"
+      ],
+      "Egypt": [
+        "مصر"
+      ],
+      "Either a specific edition of the written work, or the volume of the work": [
+        "یک ویرایش مشخص از اثر مکتوب یا یکی از جلدهای آن"
+      ],
+      "El Salvador": [
+        "السالوادور"
+      ],
+      "Email": [
+        "ایمیل"
+      ],
+      "Embed URL": [
+        "نشانی اینترنتی جاسازی"
+      ],
+      "Employment Type (Recommended)": [
+        "نوع استخدام (پیشنهادشده)"
+      ],
+      "Empty for All Authors, or User IDs separated by comma": [
+        "برای همه نویسندگان خالی بگذارید یا شناسه‌های کاربری را با کاما جدا کنید"
+      ],
+      "Enable": [
+        "فعال‌کردن"
+      ],
+      "Enable Auto Import": [
+        "فعال‌کردن درون‌ریزی خودکار"
+      ],
+      "Enable Content AI Module": [
+        "فعال‌کردن ماژول هوش مصنوعی محتوا"
+      ],
+      "Enable Search Intent": [
+        "فعال‌کردن هدف جستجو"
+      ],
+      "Enable Speakable": [
+        "فعال‌کردن محتوای قابل‌خواندن"
+      ],
+      "Enable if all of the locations where you serve customers are a part of the same legal entity.": [
+        "اگر همه مکان‌های ارائه خدمات به مشتریان زیرمجموعه یک شخصیت حقوقی هستند، این گزینه را فعال کنید."
+      ],
+      "Enabled": [
+        "فعال"
+      ],
+      "Enabling…": [
+        "در حال فعال‌سازی…"
+      ],
+      "Encoding Format": [
+        "قالب رمزگذاری"
+      ],
+      "End Date": [
+        "تاریخ پایان"
+      ],
+      "End Offset": [
+        "آفست پایان"
+      ],
+      "End date and time of the event": [
+        "تاریخ و زمان پایان رویداد"
+      ],
+      "Enhanced Search": [
+        "جستجوی پیشرفته"
+      ],
+      "Enter 2 or more characters": [
+        "دو نویسه یا بیشتر وارد کنید"
+      ],
+      "Enter 2 or more characters to search": [
+        "برای جستجو ۲ نویسه یا بیشتر وارد کنید"
+      ],
+      "Enter Keyword": [
+        "کلمه کلیدی را وارد کنید"
+      ],
+      "Enter Schema Type": [
+        "نوع اسکیما را وارد کنید"
+      ],
+      "Enter URL": [
+        "نشانی اینترنتی را وارد کنید"
+      ],
+      "Enter a site URL to see how it ranks for the same SEO criteria as your site.": [
+        "نشانی یک سایت را وارد کنید تا ببینید براساس همان معیارهای سئوی سایت شما چه رتبه‌ای دارد."
+      ],
+      "Enter anchor text": [
+        "متن لنگر را وارد کنید"
+      ],
+      "Enter comma-separated post IDs to exclude from auto-linking. Useful for bulk exclusion without editing individual posts.": [
+        "شناسه نوشته‌ها را با کاما جدا کنید تا از لینک‌دهی خودکار مستثنا شوند. این گزینه برای مستثناکردن گروهی بدون ویرایش تک‌تک نوشته‌ها کاربرد دارد."
+      ],
+      "Enter variations separated by commas or new lines…": [
+        "گونه‌ها را با کاما یا خط جدید از هم جدا کنید…"
+      ],
+      "Enter your %s to fetch video details automatically. Leave blank to use the default public API, which may have limitations and lower reliability.": [
+        "برای دریافت خودکار جزئیات ویدیو، %s خود را وارد کنید. برای استفاده از API عمومی پیش‌فرض که ممکن است محدودیت و پایداری کمتری داشته باشد، این قسمت را خالی بگذارید."
+      ],
+      "Enter your custom reason…": [
+        "دلیل سفارشی خود را وارد کنید…"
+      ],
+      "Entire Site": [
+        "کل سایت"
+      ],
+      "Episode Description": [
+        "توضیحات قسمت"
+      ],
+      "Episode Duration": [
+        "مدت قسمت"
+      ],
+      "Episode Image URL": [
+        "نشانی تصویر قسمت"
+      ],
+      "Episode Name": [
+        "نام قسمت"
+      ],
+      "Episode Number": [
+        "شماره قسمت"
+      ],
+      "Episode URL": [
+        "نشانی قسمت"
+      ],
+      "Equatorial Guinea": [
+        "گینهٔ استوایی"
+      ],
+      "Eritrea": [
+        "اریتره"
+      ],
+      "Est. Completion:": [
+        "زمان تخمینی تکمیل:"
+      ],
+      "Estimated Cost": [
+        "هزینه تخمینی"
+      ],
+      "Estonia": [
+        "استونی"
+      ],
+      "Ethiopia": [
+        "اتیوپی"
+      ],
+      "Event": [
+        "رویداد"
+      ],
+      "Event Attendance Mode": [
+        "شیوه حضور در رویداد"
+      ],
+      "Event Status": [
+        "وضعیت رویداد"
+      ],
+      "Event Type": [
+        "نوع رویداد"
+      ],
+      "Every 15 days": [
+        "هر ۱۵ روز"
+      ],
+      "Every 30 days": [
+        "هر ۳۰ روز"
+      ],
+      "Every 7 days": [
+        "هر ۷ روز"
+      ],
+      "Exact Match": [
+        "تطابق دقیق"
+      ],
+      "Exact URL Match": [
+        "تطابق دقیق نشانی اینترنتی"
+      ],
+      "Example: /get/": [
+        "نمونه: /get/"
+      ],
+      "Example: 123, 456, 789": [
+        "نمونه: 123، 456، 789"
+      ],
+      "Example: P12DT23H15M": [
+        "نمونه: P12DT23H15M"
+      ],
+      "Exclude": [
+        "مستثناکردن"
+      ],
+      "Exclude %s Terms": [
+        "مستثناکردن عبارت‌های %s"
+      ],
+      "Exclude %s Terms ": [
+        "مستثناکردن عبارت‌های %s "
+      ],
+      "Exclude from Auto-Linking": [
+        "مستثنا از لینک‌سازی خودکار"
+      ],
+      "Excluded": [
+        "مستثناشده"
+      ],
+      "Excluded Post IDs": [
+        "شناسه نوشته‌های مستثناشده"
+      ],
+      "Excluded Post Types": [
+        "انواع نوشته مستثناشده"
+      ],
+      "Executions": [
+        "اجراها"
+      ],
+      "Existing links will NOT be updated. Run bulk update to change existing links.": [
+        "لینک‌های موجود به‌روزرسانی نمی‌شوند. برای تغییر لینک‌های موجود، به‌روزرسانی گروهی را اجرا کنید."
+      ],
+      "Experience Required": [
+        "سابقه کاری موردنیاز"
+      ],
+      "Export": [
+        "برون‌بری"
+      ],
+      "Export as CSV": [
+        "برون‌بری به‌صورت CSV"
+      ],
+      "Export as Excel": [
+        "برون‌بری به‌صورت Excel"
+      ],
+      "Export as JSON": [
+        "برون‌بری به‌صورت JSON"
+      ],
+      "Export table data": [
+        "برون‌بری داده‌های جدول"
+      ],
+      "Exporting": [
+        "در حال برون‌بری"
+      ],
+      "Exporting…": [
+        "در حال برون‌بری…"
+      ],
+      "External": [
+        "خارجی"
+      ],
+      "External Links": [
+        "پیوندهای خارجی"
+      ],
+      "External only": [
+        "فقط خارجی"
+      ],
+      "FAQ": [
+        "سؤالات متداول"
+      ],
+      "FROM": [
+        "از"
+      ],
+      "Failed": [
+        "ناموفق"
+      ],
+      "Failed to add variation": [
+        "افزودن گونه ناموفق بود"
+      ],
+      "Failed to add variations": [
+        "افزودن گونه‌ها ناموفق بود"
+      ],
+      "Failed to apply bulk update": [
+        "اعمال به‌روزرسانی گروهی ناموفق بود"
+      ],
+      "Failed to apply changes": [
+        "اعمال تغییرات ناموفق بود"
+      ],
+      "Failed to cancel preview": [
+        "لغو پیش‌نمایش ناموفق بود"
+      ],
+      "Failed to cancel update": [
+        "لغو به‌روزرسانی ناموفق بود"
+      ],
+      "Failed to delete history": [
+        "حذف سابقه ناموفق بود"
+      ],
+      "Failed to delete keyword map": [
+        "حذف نگاشت کلمه کلیدی ناموفق بود"
+      ],
+      "Failed to delete keyword maps": [
+        "حذف نگاشت‌های کلمه کلیدی ناموفق بود"
+      ],
+      "Failed to delete variation": [
+        "حذف گونه ناموفق بود"
+      ],
+      "Failed to export history. Please try again.": [
+        "برون‌بری سابقه ناموفق بود. دوباره تلاش کنید."
+      ],
+      "Failed to fetch batch changes": [
+        "دریافت تغییرات دسته ناموفق بود"
+      ],
+      "Failed to fetch data for export. Please try again.": [
+        "دریافت داده‌ها برای برون‌بری ناموفق بود. دوباره تلاش کنید."
+      ],
+      "Failed to fetch history": [
+        "دریافت سابقه ناموفق بود"
+      ],
+      "Failed to fetch link suggestions. Please try again.": [
+        "دریافت پیشنهادهای لینک ناموفق بود. دوباره تلاش کنید."
+      ],
+      "Failed to fetch links": [
+        "دریافت لینک‌ها ناموفق بود"
+      ],
+      "Failed to fetch posts": [
+        "دریافت نوشته‌ها ناموفق بود"
+      ],
+      "Failed to fetch preview progress": [
+        "دریافت پیشرفت پیش‌نمایش ناموفق بود"
+      ],
+      "Failed to fetch preview results": [
+        "دریافت نتایج پیش‌نمایش ناموفق بود"
+      ],
+      "Failed to generate AI variations": [
+        "تولید گونه‌ها با هوش مصنوعی ناموفق بود"
+      ],
+      "Failed to generate preview": [
+        "ساخت پیش‌نمایش ناموفق بود"
+      ],
+      "Failed to generate rollback preview": [
+        "ساخت پیش‌نمایش بازگردانی ناموفق بود"
+      ],
+      "Failed to get preview progress": [
+        "دریافت پیشرفت پیش‌نمایش ناموفق بود"
+      ],
+      "Failed to get preview results": [
+        "دریافت نتایج پیش‌نمایش ناموفق بود"
+      ],
+      "Failed to get progress": [
+        "دریافت پیشرفت ناموفق بود"
+      ],
+      "Failed to insert": [
+        "درج ناموفق بود"
+      ],
+      "Failed to load changes": [
+        "بارگذاری تغییرات ناموفق بود"
+      ],
+      "Failed to load link details": [
+        "بارگذاری جزئیات لینک ناموفق بود"
+      ],
+      "Failed to mark link as not broken. Please try again.": [
+        "علامت‌گذاری لینک به‌عنوان خراب‌نبودن ناموفق بود. دوباره تلاش کنید."
+      ],
+      "Failed to recheck link. Please try again.": [
+        "بررسی دوباره لینک ناموفق بود. دوباره تلاش کنید."
+      ],
+      "Failed to refresh related posts.": [
+        "تازه‌سازی نوشته‌های مرتبط ناموفق بود."
+      ],
+      "Failed to refresh suggestions.": [
+        "تازه‌سازی پیشنهادها ناموفق بود."
+      ],
+      "Failed to remove link. Please try again.": [
+        "حذف لینک ناموفق بود. دوباره تلاش کنید."
+      ],
+      "Failed to remove nofollow. Please try again.": [
+        "حذف nofollow ناموفق بود. دوباره تلاش کنید."
+      ],
+      "Failed to restore link.": [
+        "بازیابی لینک ناموفق بود."
+      ],
+      "Failed to revert link status. Please try again.": [
+        "بازگردانی وضعیت لینک ناموفق بود. دوباره تلاش کنید."
+      ],
+      "Failed to rollback batch": [
+        "بازگردانی دسته ناموفق بود"
+      ],
+      "Failed to save keyword map": [
+        "ذخیره نگاشت کلمه کلیدی ناموفق بود"
+      ],
+      "Failed to schedule export. Please try again.": [
+        "زمان‌بندی برون‌بری ناموفق بود. دوباره تلاش کنید."
+      ],
+      "Failed to start regeneration. Please try again.": [
+        "شروع بازتولید ناموفق بود. دوباره تلاش کنید."
+      ],
+      "Failed to start rollback": [
+        "شروع بازگردانی ناموفق بود"
+      ],
+      "Failed to update keyword map": [
+        "به‌روزرسانی نگاشت کلمه کلیدی ناموفق بود"
+      ],
+      "Failed to update link. Please try again.": [
+        "به‌روزرسانی لینک ناموفق بود. دوباره تلاش کنید."
+      ],
+      "Falkland Islands": [
+        "جزایر فالکلند"
+      ],
+      "Faroe Islands": [
+        "جزایر فارو"
+      ],
+      "Fiji": [
+        "فیجی"
+      ],
+      "Filter Links": [
+        "فیلتر لینک‌ها"
+      ],
+      "Find": [
+        "یافتن"
+      ],
+      "Find This Text": [
+        "یافتن این متن"
+      ],
+      "Find This URL": [
+        "یافتن این نشانی اینترنتی"
+      ],
+      "Finish": [
+        "پایان"
+      ],
+      "Finland": [
+        "فنلاند"
+      ],
+      "First Checked:": [
+        "نخستین بررسی:"
+      ],
+      "For example, Game, Multimedia": [
+        "برای مثال: بازی، چندرسانه‌ای"
+      ],
+      "For example, Windows 7, OSX 10.6, Android 1.6": [
+        "برای مثال: ویندوز ۷، OSX 10.6، اندروید 1.6"
+      ],
+      "Format used for the new captions.": [
+        "قالب مورد استفاده برای کپشن‌های جدید."
+      ],
+      "Format used for the new descriptions.": [
+        "قالب مورد استفاده برای توضیحات جدید."
+      ],
+      "Found in:": [
+        "یافت‌شده در:"
+      ],
+      "Founding Date": [
+        "تاریخ تأسیس"
+      ],
+      "France": [
+        "فرانسه"
+      ],
+      "French Guiana": [
+        "گویان فرانسه"
+      ],
+      "French Polynesia": [
+        "پلی‌نزی فرانسه"
+      ],
+      "French Southern Territories": [
+        "سرزمین‌های جنوبی فرانسه"
+      ],
+      "From Date": [
+        "از تاریخ"
+      ],
+      "Full URL:": [
+        "نشانی کامل:"
+      ],
+      "Fully-qualified URL of the episode audio file, including the format extension (for example, .wav, .mp3)": [
+        "نشانی کامل فایل صوتی قسمت همراه با پسوند قالب؛ برای نمونه ‎.wav یا ‎.mp3"
+      ],
+      "GTIN": [
+        "GTIN"
+      ],
+      "GTIN-12": [
+        "GTIN-12"
+      ],
+      "GTIN-13": [
+        "GTIN-13"
+      ],
+      "GTIN-14": [
+        "GTIN-14"
+      ],
+      "GTIN-8": [
+        "GTIN-8"
+      ],
+      "Gabon": [
+        "گابن"
+      ],
+      "Gambia": [
+        "گامبیا"
+      ],
+      "Games &amp; Hobbies": [
+        "بازی‌ها و سرگرمی‌ها"
+      ],
+      "Gender": [
+        "جنسیت"
+      ],
+      "Generate": [
+        "تولید"
+      ],
+      "Generate AI Variations": [
+        "تولید گونه‌ها با هوش مصنوعی"
+      ],
+      "Generate Link": [
+        "ساخت لینک"
+      ],
+      "Generating Preview": [
+        "در حال ساخت پیش‌نمایش"
+      ],
+      "Generating Preview…": [
+        "در حال ساخت پیش‌نمایش…"
+      ],
+      "Generating preview…": [
+        "در حال ساخت پیش‌نمایش…"
+      ],
+      "Generating…": [
+        "در حال تولید…"
+      ],
+      "Geo Coordinates": [
+        "مختصات جغرافیایی"
+      ],
+      "Georgia": [
+        "گرجستان"
+      ],
+      "Germany": [
+        "آلمان"
+      ],
+      "Ghana": [
+        "غنا"
+      ],
+      "Gibraltar": [
+        "جبل‌الطارق"
+      ],
+      "Give your business's new location a name here. This field is required and will be visible to users.": [
+        "در اینجا برای مکان جدید کسب‌وکار خود نامی وارد کنید. این فیلد الزامی است و برای کاربران نمایش داده می‌شود."
+      ],
+      "Global Identifier": [
+        "شناسه جهانی"
+      ],
+      "Global Identifier key to use in the Product Schema.": [
+        "کلید شناسه جهانی برای استفاده در اسکیمای محصول."
+      ],
+      "Global Identifier label": [
+        "برچسب شناسه جهانی"
+      ],
+      "Global Identifier label to show on Product Page.": [
+        "برچسب شناسه جهانی برای نمایش در صفحه محصول."
+      ],
+      "Global Location Number": [
+        "شماره جهانی مکان"
+      ],
+      "Global Templates in Use": [
+        "الگوهای سراسری در حال استفاده"
+      ],
+      "Good": [
+        "خوب"
+      ],
+      "Google": [
+        "گوگل"
+      ],
+      "Google Canonical": [
+        "کنونیکال گوگل"
+      ],
+      "Google Core Updates": [
+        "به‌روزرسانی‌های هسته گوگل"
+      ],
+      "Google Core Updates in the Graphs": [
+        "نمایش به‌روزرسانی‌های هسته گوگل در نمودارها"
+      ],
+      "Google News Publication Name": [
+        "نام نشریه در Google News"
+      ],
+      "Google PageSpeed score for desktop and mobile.": [
+        "امتیاز Google PageSpeed برای دسکتاپ و موبایل."
+      ],
+      "Google Trends": [
+        "گوگل ترندز"
+      ],
+      "Google does not allow Person as the Publisher for articles. Organization will be used instead.": [
+        "گوگل اجازه نمی‌دهد «شخص» به‌عنوان ناشر مقاله انتخاب شود؛ بنابراین «سازمان» استفاده خواهد شد."
+      ],
+      "Google: ": [
+        "گوگل: "
+      ],
+      "Googlebot-News index": [
+        "ایندکس Googlebot-News"
+      ],
+      "Government &amp; Organizations": [
+        "دولت و سازمان‌ها"
+      ],
+      "Great": [
+        "عالی"
+      ],
+      "Greece": [
+        "یونان"
+      ],
+      "Greenland": [
+        "گرینلند"
+      ],
+      "Grenada": [
+        "گرنادا"
+      ],
+      "Guadeloupe": [
+        "گوادلوپ"
+      ],
+      "Guatemala": [
+        "گواتمالا"
+      ],
+      "Guernsey": [
+        "گرنزی"
+      ],
+      "Guinea": [
+        "گینه"
+      ],
+      "Guinea-Bissau": [
+        "گینهٔ بیسائو"
+      ],
+      "Guyana": [
+        "گویان"
+      ],
+      "HTML Code": [
+        "کد HTML"
+      ],
+      "HTTP Status:": [
+        "وضعیت HTTP:"
+      ],
+      "Haiti": [
+        "هائیتی"
+      ],
+      "Heading of the report emails.": [
+        "عنوان ایمیل‌های گزارش."
+      ],
+      "Headline": [
+        "تیتر"
+      ],
+      "Health": [
+        "سلامت"
+      ],
+      "Heard Island and McDonald Islands": [
+        "هرد و جزایر مک‌دونالد"
+      ],
+      "Height": [
+        "ارتفاع"
+      ],
+      "Hide Closed Days": [
+        "پنهان‌کردن روزهای تعطیل"
+      ],
+      "Hide Opening Hours": [
+        "پنهان‌کردن ساعات کاری"
+      ],
+      "Hide Sitemap": [
+        "پنهان‌کردن نقشه سایت"
+      ],
+      "Hide the sitemap from normal visitors?": [
+        "نقشه سایت از بازدیدکنندگان عادی پنهان شود؟"
+      ],
+      "Hiring Organization": [
+        "سازمان استخدام‌کننده"
+      ],
+      "History record deleted successfully!": [
+        "سابقه با موفقیت حذف شد!"
+      ],
+      "Honduras": [
+        "هندوراس"
+      ],
+      "Hong Kong": [
+        "هنگ‌کنگ"
+      ],
+      "How many times your site showed up in the search results.": [
+        "تعداد دفعاتی که سایت شما در نتایج جستجو نمایش داده شده است."
+      ],
+      "How many times your site was clicked on in the search results.": [
+        "تعداد دفعاتی که کاربران در نتایج جستجو روی سایت شما کلیک کرده‌اند."
+      ],
+      "HowTo": [
+        "راهنمای انجام کار"
+      ],
+      "Hreflang": [
+        "Hreflang"
+      ],
+      "Hungary": [
+        "مجارستان"
+      ],
+      "Hybrid": [
+        "ترکیبی"
+      ],
+      "Hyperlink": [
+        "پیوند"
+      ],
+      "ISBN": [
+        "ISBN"
+      ],
+      "ISO 4217 Currency code. Example: EUR": [
+        "کد ارز ISO 4217؛ برای مثال: EUR"
+      ],
+      "ISO 6523": [
+        "ISO 6523"
+      ],
+      "ISO 8601 duration format. Example: PT1H30M": [
+        "قالب مدت‌زمان ISO 8601؛ برای مثال: PT1H30M"
+      ],
+      "ISO 8601 duration format. Example: PT37M. Refer to the <a href=https://rankmath.com/kb/iso-8601-format/?utm_source=Plugin&utm_medium=Schema%20Builder&utm_campaign=WP target=_blank>Knowledge Base</a> for details on converting standard time to ISO8601 format.": [
+        "قالب مدت‌زمان ISO 8601. نمونه: PT37M. برای جزئیات تبدیل زمان استاندارد به قالب ISO8601 به <a href=https://rankmath.com/kb/iso-8601-format/?utm_source=Plugin&utm_medium=Schema%20Builder&utm_campaign=WP target=_blank>پایگاه دانش</a> مراجعه کنید."
+      ],
+      "Iceland": [
+        "ایسلند"
+      ],
+      "Identifier": [
+        "شناسه"
+      ],
+      "If checked, post status will be changed to Draft and its URL will return a 404 error, as required by the Rich Result guidelines": [
+        "با فعال‌کردن این گزینه، وضعیت نوشته به پیش‌نویس تغییر می‌کند و نشانی آن مطابق دستورالعمل نتایج غنی، خطای ۴۰۴ برمی‌گرداند."
+      ],
+      "If empty, podcast channel image will be used from the Settings page.": [
+        "اگر خالی باشد، تصویر کانال پادکست از صفحه تنظیمات استفاده می‌شود."
+      ],
+      "If set to true, this property indicates whether a job posting will accept experience in place of its formal educational qualifications. If set to true, you must include both the experienceRequirements and educationRequirements properties.": [
+        "اگر روی true تنظیم شود، این ویژگی مشخص می‌کند که آیا آگهی استخدام، سابقه کاری را به‌جای مدارک رسمی تحصیلی می‌پذیرد یا نه. در این حالت باید هر دو ویژگی experienceRequirements و educationRequirements را وارد کنید."
+      ],
+      "Image": [
+        "تصویر"
+      ],
+      "Image URL": [
+        "نشانی اینترنتی تصویر"
+      ],
+      "Imagify has been successfully activated! %s.": [
+        "Imagify با موفقیت فعال شد! %s."
+      ],
+      "Import": [
+        "درون‌ریزی"
+      ],
+      "Import SEO meta data for posts, terms, and users from a CSV file.": [
+        "درون‌ریزی فراداده سئو برای نوشته‌ها، موارد طبقه‌بندی و کاربران از فایل CSV."
+      ],
+      "Import Schema Code from": [
+        "درون‌ریزی کد اسکیما از"
+      ],
+      "Import failed. ": [
+        "درون‌ریزی ناموفق بود. "
+      ],
+      "Import finished. In the next steps you can review the settings.": [
+        "درون‌ریزی پایان یافت. در مراحل بعد می‌توانید تنظیمات را بررسی کنید."
+      ],
+      "Import process has started, this may take a few moments to complete.": [
+        "فرایند درون‌ریزی آغاز شده است و تکمیل آن ممکن است چند لحظه زمان ببرد."
+      ],
+      "Importing…": [
+        "در حال درون‌ریزی…"
+      ],
+      "Impressions": [
+        "نمایش‌ها"
+      ],
+      "In Author (on Single Posts)": [
+        "در نویسنده (در نوشته‌های تکی)"
+      ],
+      "In Publisher (Organization or Person Schema)": [
+        "در ناشر (اسکیمای سازمان یا شخص)"
+      ],
+      "In WebPage Schema": [
+        "در اسکیمای WebPage"
+      ],
+      "In WebSite Schema": [
+        "در اسکیمای WebSite"
+      ],
+      "Include": [
+        "شامل‌کردن"
+      ],
+      "Include Images from the ACF Fields.": [
+        "شامل تصاویر فیلدهای ACF."
+      ],
+      "Include KML File in the Sitemap": [
+        "افزودن فایل KML به نقشه سایت"
+      ],
+      "Include Only Tracked Keywords": [
+        "فقط کلمات کلیدی ردیابی‌شده"
+      ],
+      "Include Secondary KWs": [
+        "شامل کلمات کلیدی فرعی"
+      ],
+      "Include Sections": [
+        "بخش‌های قابل نمایش"
+      ],
+      "Include business locations in site-wide search results.": [
+        "مکان‌های کسب‌وکار را در نتایج جستجوی سراسری سایت قرار دهید."
+      ],
+      "Include images added in the ACF fields.": [
+        "تصاویر افزوده‌شده در فیلدهای ACF را نیز در نظر بگیرید."
+      ],
+      "Incoming Links": [
+        "پیوندهای ورودی"
+      ],
+      "Index": [
+        "ایندکس"
+      ],
+      "Index Status": [
+        "وضعیت نمایه‌سازی"
+      ],
+      "Index Status Result": [
+        "نتیجه وضعیت ایندکس"
+      ],
+      "Indexing Allowed": [
+        "نمایه‌سازی مجاز است"
+      ],
+      "Indexing State": [
+        "وضعیت ایندکس"
+      ],
+      "India": [
+        "هند"
+      ],
+      "Indicates whether the event occurs online, offline at a physical location, or a mix of both online and offline.": [
+        "مشخص می‌کند رویداد آنلاین، حضوری در یک مکان فیزیکی یا به‌صورت ترکیبی برگزار می‌شود."
+      ],
+      "Indicates whether the podcast is explicit language or adult content.": [
+        "مشخص می‌کند پادکست دارای زبان صریح یا محتوای بزرگسالان است یا خیر."
+      ],
+      "Indonesia": [
+        "اندونزی"
+      ],
+      "Informational": [
+        "اطلاعاتی"
+      ],
+      "Initializing preview generation…": [
+        "در حال آماده‌سازی ساخت پیش‌نمایش…"
+      ],
+      "Insert": [
+        "درج"
+      ],
+      "Insert Link": [
+        "درج لینک"
+      ],
+      "Insert Related Posts": [
+        "درج نوشته‌های مرتبط"
+      ],
+      "Insert amount, e.g. 50.00, or a salary range, e.g. 40.00-50.00": [
+        "مبلغ را وارد کنید؛ برای مثال 50.00، یا بازه حقوق مانند 40.00-50.00"
+      ],
+      "Inserted!": [
+        "درج شد!"
+      ],
+      "Install Imagify to automatically optimize all your images to improve site performance and enhance your SEO visibility.": [
+        "برای بهینه‌سازی خودکار همه تصاویر، بهبود عملکرد سایت و افزایش دیده‌شدن در نتایج سئو، Imagify را نصب کنید."
+      ],
+      "Install Now": [
+        "اکنون نصب کنید"
+      ],
+      "Install WP Rocket to get the Performance Boost": [
+        "برای افزایش عملکرد، WP Rocket را نصب کنید"
+      ],
+      "Installing Imagify…": [
+        "در حال نصب Imagify…"
+      ],
+      "Instruction Texts": [
+        "متن دستورها"
+      ],
+      "Instruction Type": [
+        "نوع دستور"
+      ],
+      "Instruction name of the recipe.": [
+        "نام دستور این مرحله از دستور پخت."
+      ],
+      "Interest": [
+        "علاقه‌مندی"
+      ],
+      "Intermittent issue - confirmed working": [
+        "مشکل مقطعی — عملکرد صحیح تأیید شده است"
+      ],
+      "Internal": [
+        "داخلی"
+      ],
+      "Internal Links": [
+        "پیوندهای داخلی"
+      ],
+      "Internal only": [
+        "فقط داخلی"
+      ],
+      "Inventory Level": [
+        "موجودی انبار"
+      ],
+      "Iran": [
+        "ایران"
+      ],
+      "Iraq": [
+        "عراق"
+      ],
+      "Ireland": [
+        "ایرلند"
+      ],
+      "Is Explicit": [
+        "دارای محتوای صریح"
+      ],
+      "Is Family Friendly Video": [
+        "ویدیوی مناسب خانواده است"
+      ],
+      "Is Telecommute Job": [
+        "شغل دورکاری است"
+      ],
+      "Is episode family friendly?": [
+        "آیا این قسمت مناسب خانواده است؟"
+      ],
+      "Isle of Man": [
+        "جزیرهٔ من"
+      ],
+      "Israel": [
+        "اسرائیل"
+      ],
+      "Issue Message": [
+        "پیام مشکل"
+      ],
+      "Issues": [
+        "مشکلات"
+      ],
+      "Italy": [
+        "ایتالیا"
+      ],
+      "Items": [
+        "موارد"
+      ],
+      "Ivory Coast": [
+        "ساحل عاج"
+      ],
+      "JSON-LD Code": [
+        "کد JSON-LD"
+      ],
+      "JSON-LD/Custom Code": [
+        "JSON-LD/کد سفارشی"
+      ],
+      "Jamaica": [
+        "جامائیکا"
+      ],
+      "Japan": [
+        "ژاپن"
+      ],
+      "JavaScript Object Notation": [
+        "نشانه‌گذاری شیء جاوااسکریپت"
+      ],
+      "Jersey": [
+        "جرزی"
+      ],
+      "Job Posting": [
+        "آگهی استخدام"
+      ],
+      "Job title": [
+        "عنوان شغلی"
+      ],
+      "Jordan": [
+        "اردن"
+      ],
+      "KML is a file format used to display geographic data in an Earth browser such as Google Earth. More information:": [
+        "KML قالب فایلی برای نمایش داده‌های جغرافیایی در مرورگرهای زمین مانند Google Earth است. اطلاعات بیشتر:"
+      ],
+      "Kazakhstan": [
+        "قزاقستان"
+      ],
+      "Keep this section empty if this is an <a href=https://rankmath.com/kb/review-schema/#editorial-reviews?utm_source=Plugin&utm_medium=Review+Schema&utm_campaign=WP target=_blank>editorial reviews</a>.": [
+        "اگر این یک <a href=https://rankmath.com/kb/review-schema/#editorial-reviews?utm_source=Plugin&utm_medium=Review+Schema&utm_campaign=WP target=_blank>نقد تحریریه</a> است، این بخش را خالی بگذارید."
+      ],
+      "Kenya": [
+        "کنیا"
+      ],
+      "Keyword": [
+        "کلمه کلیدی"
+      ],
+      "Keyword Manager": [
+        "مدیریت کلمات کلیدی"
+      ],
+      "Keyword Map": [
+        "نگاشت کلمه کلیدی"
+      ],
+      "Keyword Maps": [
+        "نقشه‌های کلمات کلیدی"
+      ],
+      "Keyword Maps History": [
+        "سابقه نگاشت‌های کلمه کلیدی"
+      ],
+      "Keyword Variations": [
+        "گونه‌های کلمه کلیدی"
+      ],
+      "Keyword map created successfully!": [
+        "نگاشت کلمه کلیدی با موفقیت ساخته شد!"
+      ],
+      "Keyword map deleted successfully!": [
+        "نگاشت کلمه کلیدی با موفقیت حذف شد!"
+      ],
+      "Keyword map disabled!": [
+        "نگاشت کلمه کلیدی غیرفعال شد!"
+      ],
+      "Keyword map enabled!": [
+        "نگاشت کلمه کلیدی فعال شد!"
+      ],
+      "Keyword map not found": [
+        "نگاشت کلمه کلیدی یافت نشد"
+      ],
+      "Keyword map updated successfully!": [
+        "نگاشت کلمه کلیدی با موفقیت به‌روزرسانی شد!"
+      ],
+      "Keyword maps deleted successfully!": [
+        "نگاشت‌های کلمه کلیدی با موفقیت حذف شدند!"
+      ],
+      "Keyword:": [
+        "کلمه کلیدی:"
+      ],
+      "Keywords": [
+        "کلمات کلیدی"
+      ],
+      "Keywords Found": [
+        "کلمات کلیدی یافت‌شده"
+      ],
+      "Keywords summarizing the dataset. Add one keyword per line.": [
+        "کلمات کلیدی خلاصه‌کننده مجموعه‌داده. در هر خط یک کلمه کلیدی اضافه کنید."
+      ],
+      "Kids &amp; Family": [
+        "کودکان و خانواده"
+      ],
+      "Kilometers": [
+        "کیلومتر"
+      ],
+      "Kiribati": [
+        "کیریباتی"
+      ],
+      "Kuwait": [
+        "کویت"
+      ],
+      "Kyrgyzstan": [
+        "قرقیزستان"
+      ],
+      "LEI Code": [
+        "کد LEI"
+      ],
+      "Laos": [
+        "لائوس"
+      ],
+      "Last 30 Days": [
+        "۳۰ روز گذشته"
+      ],
+      "Last 6 Months": [
+        "۶ ماه گذشته"
+      ],
+      "Last Checked": [
+        "آخرین بررسی"
+      ],
+      "Last Checked:": [
+        "آخرین بررسی:"
+      ],
+      "Last Crawl Time": [
+        "زمان آخرین خزش"
+      ],
+      "Last Crawl: ": [
+        "آخرین خزش: "
+      ],
+      "Last Year": [
+        "سال گذشته"
+      ],
+      "Last:": [
+        "آخرین:"
+      ],
+      "Latitude": [
+        "عرض جغرافیایی"
+      ],
+      "Latvia": [
+        "لتونی"
+      ],
+      "Learn More.": [
+        "بیشتر بدانید."
+      ],
+      "Lebanon": [
+        "لبنان"
+      ],
+      "Legal Name": [
+        "نام حقوقی"
+      ],
+      "Lesotho": [
+        "لسوتو"
+      ],
+      "Liberia": [
+        "لیبریا"
+      ],
+      "Libya": [
+        "لیبی"
+      ],
+      "License": [
+        "مجوز"
+      ],
+      "Liechtenstein": [
+        "لیختن‌اشتاین"
+      ],
+      "Limit the number of locations shown on your website to those nearest your user.": [
+        "تعداد مکان‌های نمایش‌داده‌شده در وب‌سایت را به نزدیک‌ترین موارد به کاربر محدود کنید."
+      ],
+      "Limit the number of times this link appears per post": [
+        "محدودکردن تعداد دفعات نمایش این لینک در هر نوشته"
+      ],
+      "Link": [
+        "لینک"
+      ],
+      "Link Details": [
+        "جزئیات لینک"
+      ],
+      "Link Genius": [
+        "نابغه پیوند"
+      ],
+      "Link Health": [
+        "سلامت لینک"
+      ],
+      "Link Opportunities": [
+        "فرصت‌های لینک‌سازی"
+      ],
+      "Link Status": [
+        "وضعیت لینک"
+      ],
+      "Link Status Audit": [
+        "ممیزی وضعیت لینک"
+      ],
+      "Link Suggestions": [
+        "پیشنهادهای لینک"
+      ],
+      "Link Type": [
+        "نوع پیوند"
+      ],
+      "Link Type:": [
+        "نوع لینک:"
+      ],
+      "Link deleted successfully.": [
+        "لینک با موفقیت حذف شد."
+      ],
+      "Link deleted.": [
+        "لینک حذف شد."
+      ],
+      "Link marked as not broken.": [
+        "لینک به‌عنوان خراب‌نبودن علامت‌گذاری شد."
+      ],
+      "Link rechecked successfully.": [
+        "لینک با موفقیت دوباره بررسی شد."
+      ],
+      "Link regeneration completed successfully!": [
+        "بازتولید لینک‌ها با موفقیت تکمیل شد!"
+      ],
+      "Link restored successfully.": [
+        "لینک با موفقیت بازیابی شد."
+      ],
+      "Link status audit completed successfully!": [
+        "ممیزی وضعیت لینک با موفقیت تکمیل شد!"
+      ],
+      "Link status reverted successfully.": [
+        "وضعیت لینک با موفقیت بازگردانی شد."
+      ],
+      "Link to Full Report": [
+        "لینک گزارش کامل"
+      ],
+      "Link updated successfully.": [
+        "لینک با موفقیت به‌روزرسانی شد."
+      ],
+      "Link:": [
+        "لینک:"
+      ],
+      "Links": [
+        "پیوندها"
+      ],
+      "Links blocked by robots.txt. These URLs cannot be crawled by search engines.": [
+        "لینک‌هایی که توسط robots.txt مسدود شده‌اند. موتورهای جستجو نمی‌توانند این نشانی‌ها را بخزند."
+      ],
+      "Links restored successfully!": [
+        "لینک‌ها با موفقیت بازیابی شدند!"
+      ],
+      "Links that have not been checked yet. Run a crawl to check these links.": [
+        "لینک‌هایی که هنوز بررسی نشده‌اند. برای بررسی آن‌ها یک خزش اجرا کنید."
+      ],
+      "Links that were marked as not broken by a user. These links are excluded from the broken links count.": [
+        "لینک‌هایی که کاربر آن‌ها را به‌عنوان خراب‌نبودن علامت‌گذاری کرده است. این لینک‌ها در شمار لینک‌های خراب محاسبه نمی‌شوند."
+      ],
+      "Links with HTTP 3xx redirect status codes. Review these to ensure redirects are intentional.": [
+        "لینک‌های دارای کد وضعیت تغییر مسیر HTTP 3xx. آن‌ها را بررسی کنید تا مطمئن شوید تغییر مسیرها عمدی هستند."
+      ],
+      "Links with HTTP 4xx/5xx errors, timeouts, or connection issues. These need immediate attention.": [
+        "لینک‌های دارای خطاهای HTTP 4xx/5xx، پایان زمان انتظار یا مشکلات اتصال. این موارد نیازمند رسیدگی فوری هستند."
+      ],
+      "Links with successful HTTP 2xx status codes. These links are working properly.": [
+        "لینک‌های دارای کد وضعیت موفق HTTP 2xx. این لینک‌ها به‌درستی کار می‌کنند."
+      ],
+      "List of custom fields name to check for video content. Add one per line.": [
+        "فهرست نام فیلدهای سفارشی برای بررسی محتوای ویدیویی. در هر خط یک نام وارد کنید."
+      ],
+      "Lithuania": [
+        "لیتوانی"
+      ],
+      "Loading details…": [
+        "در حال بارگذاری جزئیات…"
+      ],
+      "Loading link statistics…": [
+        "در حال بارگذاری آمار لینک‌ها…"
+      ],
+      "Loading links…": [
+        "در حال بارگذاری لینک‌ها…"
+      ],
+      "Loading overview…": [
+        "در حال بارگذاری نمای کلی…"
+      ],
+      "Loading posts…": [
+        "در حال بارگذاری نوشته‌ها…"
+      ],
+      "Loading progress…": [
+        "در حال بارگذاری پیشرفت…"
+      ],
+      "Loading…": [
+        "در حال بارگذاری…"
+      ],
+      "Local Business": [
+        "کسب‌وکار محلی"
+      ],
+      "Local Business Name": [
+        "نام کسب‌وکار محلی"
+      ],
+      "Local Business Schema": [
+        "اسکیمای کسب‌وکار محلی"
+      ],
+      "Local Sitemap": [
+        "نقشه سایت محلی"
+      ],
+      "Locality": [
+        "محله/ناحیه"
+      ],
+      "Location": [
+        "مکان"
+      ],
+      "Location Categories": [
+        "دسته‌بندی‌های مکان"
+      ],
+      "Location Detection": [
+        "تشخیص موقعیت مکانی"
+      ],
+      "Location Post Type Name": [
+        "نام نوع نوشته مکان"
+      ],
+      "Location Type": [
+        "نوع مکان"
+      ],
+      "Location of a page describing the dataset.": [
+        "نشانی صفحه‌ای که مجموعه‌داده را توضیح می‌دهد."
+      ],
+      "Locations": [
+        "مکان‌ها"
+      ],
+      "Locations Category Base": [
+        "پایه دسته‌بندی مکان‌ها"
+      ],
+      "Locations KML": [
+        "KML مکان‌ها"
+      ],
+      "Locations Post Type Base": [
+        "پایه نوع نوشته مکان‌ها"
+      ],
+      "Locations Post Type Name (Plural)": [
+        "نام نوع نوشته مکان‌ها (جمع)"
+      ],
+      "Logo Link": [
+        "لینک لوگو"
+      ],
+      "Logo URL of the organization offering the job position. Leave empty to use your own company information": [
+        "نشانی لوگوی سازمان ارائه‌دهنده موقعیت شغلی. برای استفاده از اطلاعات شرکت خودتان، این قسمت را خالی بگذارید"
+      ],
+      "Logo appearing in the header part of the report.": [
+        "لوگویی که در سربرگ گزارش نمایش داده می‌شود."
+      ],
+      "Longitude": [
+        "طول جغرافیایی"
+      ],
+      "Luxembourg": [
+        "لوکزامبورگ"
+      ],
+      "MPN": [
+        "MPN"
+      ],
+      "Macao S.A.R., China": [
+        "ماکائو، منطقهٔ ویژهٔ اداری چین"
+      ],
+      "Macedonia": [
+        "مقدونیهٔ شمالی"
+      ],
+      "Madagascar": [
+        "ماداگاسکار"
+      ],
+      "Make schema Primary": [
+        "اصلی‌کردن اسکیما"
+      ],
+      "Make sure to add the Local Business Block or %s to display your business data.": [
+        "برای نمایش اطلاعات کسب‌وکار خود، حتماً بلوک کسب‌وکار محلی یا %s را اضافه کنید."
+      ],
+      "Make your podcasts discoverable via Google Podcasts, Apple Podcasts, and similar services.": [
+        "پادکست‌های خود را در Google Podcasts، Apple Podcasts و سرویس‌های مشابه قابل یافتن کنید."
+      ],
+      "Malawi": [
+        "مالاوی"
+      ],
+      "Malaysia": [
+        "مالزی"
+      ],
+      "Maldives": [
+        "مالدیو"
+      ],
+      "Mali": [
+        "مالی"
+      ],
+      "Malta": [
+        "مالت"
+      ],
+      "Manage Categories": [
+        "مدیریت دسته‌بندی‌ها"
+      ],
+      "Manually create and edit your own custom Schema – fully control all of your properties, property groups, and the associated attributes. Please proceed with caution and validate your code to ensure it aligns with Google's Structured Data guidelines and standards.": [
+        "اسکیمای سفارشی خود را به‌صورت دستی بسازید و ویرایش کنید و کنترل کامل ویژگی‌ها، گروه‌های ویژگی و مشخصه‌های مرتبط را در دست بگیرید. با احتیاط ادامه دهید و کد خود را اعتبارسنجی کنید تا با دستورالعمل‌ها و استانداردهای داده ساختاریافته گوگل هماهنگ باشد."
+      ],
+      "Map": [
+        "نقشه"
+      ],
+      "Map Height": [
+        "ارتفاع نقشه"
+      ],
+      "Map Settings": [
+        "تنظیمات نقشه"
+      ],
+      "Map Style": [
+        "سبک نقشه"
+      ],
+      "Map Type": [
+        "نوع نقشه"
+      ],
+      "Map Width": [
+        "عرض نقشه"
+      ],
+      "Mark": [
+        "علامت‌گذاری"
+      ],
+      "Mark Link as Not Broken": [
+        "علامت‌گذاری لینک به‌عنوان خراب‌نبودن"
+      ],
+      "Mark as Not Broken": [
+        "علامت‌گذاری به‌عنوان خراب‌نبودن"
+      ],
+      "Mark this video as Family-friendly": [
+        "علامت‌گذاری این ویدیو به‌عنوان مناسب خانواده"
+      ],
+      "Marked Safe": [
+        "ایمن علامت‌گذاری شد"
+      ],
+      "Marking links as not broken… Please wait.": [
+        "در حال علامت‌گذاری لینک‌ها به‌عنوان خراب‌نبودن… لطفاً صبر کنید."
+      ],
+      "Marshall Islands": [
+        "جزایر مارشال"
+      ],
+      "Martinique": [
+        "مارتینیک"
+      ],
+      "Match complete words only": [
+        "فقط تطابق با واژه‌های کامل"
+      ],
+      "Match exact letter casing": [
+        "تطابق دقیق بزرگی و کوچکی حروف"
+      ],
+      "Material": [
+        "مواد"
+      ],
+      "Mauritania": [
+        "موریتانی"
+      ],
+      "Mauritius": [
+        "موریس"
+      ],
+      "Max Links Per Post": [
+        "بیشترین تعداد لینک در هر نوشته"
+      ],
+      "Maximum number of locations to show": [
+        "بیشترین تعداد مکان قابل‌نمایش"
+      ],
+      "Mayotte": [
+        "مایوت"
+      ],
+      "Measurement system": [
+        "سیستم اندازه‌گیری"
+      ],
+      "Menu URL": [
+        "نشانی اینترنتی منو"
+      ],
+      "Mexico": [
+        "مکزیک"
+      ],
+      "Micronesia": [
+        "میکرونزی"
+      ],
+      "Microsoft Excel format": [
+        "قالب Microsoft Excel"
+      ],
+      "Middle Center": [
+        "میانه وسط"
+      ],
+      "Middle Left": [
+        "میانه چپ"
+      ],
+      "Middle Right": [
+        "میانه راست"
+      ],
+      "Miles": [
+        "مایل"
+      ],
+      "Missing filters or update configuration. Please generate a new preview.": [
+        "فیلترها یا پیکربندی به‌روزرسانی وجود ندارد. لطفاً پیش‌نمایش جدیدی بسازید."
+      ],
+      "Mobile Score": [
+        "امتیاز موبایل"
+      ],
+      "Modified Date": [
+        "تاریخ ویرایش"
+      ],
+      "Moldova": [
+        "مولداوی"
+      ],
+      "Monaco": [
+        "موناکو"
+      ],
+      "Mongolia": [
+        "مغولستان"
+      ],
+      "Monitor SEO Performance": [
+        "پایش عملکرد سئو"
+      ],
+      "Montenegro": [
+        "مونته‌نگرو"
+      ],
+      "Months of Experience": [
+        "ماه‌های سابقه کاری"
+      ],
+      "Montserrat": [
+        "مونت‌سرات"
+      ],
+      "More information": [
+        "اطلاعات بیشتر"
+      ],
+      "Morocco": [
+        "مراکش"
+      ],
+      "Move down": [
+        "انتقال به پایین"
+      ],
+      "Move up": [
+        "انتقال به بالا"
+      ],
+      "Movie Director": [
+        "کارگردان فیلم"
+      ],
+      "Movie Name": [
+        "نام فیلم"
+      ],
+      "Mozambique": [
+        "موزامبیک"
+      ],
+      "Music": [
+        "موسیقی"
+      ],
+      "Myanmar": [
+        "میانمار (برمه)"
+      ],
+      "N/A": [
+        "در دسترس نیست"
+      ],
+      "NAICS Code": [
+        "کد NAICS"
+      ],
+      "NULL/Unchecked": [
+        "NULL/علامت‌نخورده"
+      ],
+      "Name": [
+        "نام"
+      ],
+      "Name is required": [
+        "نام الزامی است"
+      ],
+      "Name of the podcast.": [
+        "نام پادکست."
+      ],
+      "Name*": [
+        "نام*"
+      ],
+      "Namibia": [
+        "نامیبیا"
+      ],
+      "Narrow down which links to update. Leave empty to update all matching links.": [
+        "لینک‌هایی را که باید به‌روزرسانی شوند محدود کنید. برای به‌روزرسانی همه لینک‌های منطبق، خالی بگذارید."
+      ],
+      "Nauru": [
+        "نائورو"
+      ],
+      "Navigational": [
+        "ناوبری"
+      ],
+      "Negative notes, add one item per line": [
+        "نکات منفی؛ در هر خط یک مورد اضافه کنید"
+      ],
+      "Nepal": [
+        "نپال"
+      ],
+      "Netherlands": [
+        "هلند"
+      ],
+      "Netherlands Antilles": [
+        "آنتیل هلند"
+      ],
+      "New Anchor": [
+        "متن لنگر جدید"
+      ],
+      "New Caledonia": [
+        "کالدونیای جدید"
+      ],
+      "New Category": [
+        "دسته‌بندی جدید"
+      ],
+      "New Tab": [
+        "زبانه جدید"
+      ],
+      "New URL": [
+        "نشانی جدید"
+      ],
+      "New Zealand": [
+        "نیوزیلند"
+      ],
+      "News &amp; Politics": [
+        "اخبار و سیاست"
+      ],
+      "News Post Type": [
+        "نوع نوشته خبری"
+      ],
+      "News Sitemap": [
+        "نقشه سایت خبری"
+      ],
+      "News Sitemaps": [
+        "نقشه‌های سایت خبری"
+      ],
+      "News Sitemaps allow you to control which content you submit to Google News.": [
+        "نقشه‌های سایت خبری به شما امکان می‌دهند محتوایی را که برای Google News ارسال می‌کنید کنترل کنید."
+      ],
+      "News Sitemaps allow you to control which content you submit to Google News. More information:": [
+        "نقشه‌های سایت خبری به شما امکان می‌دهند محتوای ارسالی به Google News را کنترل کنید. اطلاعات بیشتر:"
+      ],
+      "News Sitemaps overview": [
+        "نمای کلی نقشه‌های سایت خبری"
+      ],
+      "Next": [
+        "بعدی"
+      ],
+      "Nicaragua": [
+        "نیکاراگوئه"
+      ],
+      "Niger": [
+        "نیجر"
+      ],
+      "Nigeria": [
+        "نیجریه"
+      ],
+      "Niue": [
+        "نیوئه"
+      ],
+      "No": [
+        "خیر"
+      ],
+      "No AI suggestions found": [
+        "هیچ پیشنهاد هوش مصنوعی یافت نشد"
+      ],
+      "No Index": [
+        "نوایندکس"
+      ],
+      "No Keywords Selected": [
+        "هیچ کلمه کلیدی انتخاب نشده است"
+      ],
+      "No applicable posts found for the specified filters and update configuration.": [
+        "برای فیلترها و پیکربندی به‌روزرسانی مشخص‌شده، نوشته قابل‌اعمالی یافت نشد."
+      ],
+      "No applicable posts found for this keyword map.": [
+        "برای این نگاشت کلمه کلیدی، نوشته قابل‌اعمالی یافت نشد."
+      ],
+      "No broken links found. Great job!": [
+        "هیچ لینک خرابی یافت نشد. عالی است!"
+      ],
+      "No bulk update history found.": [
+        "هیچ سابقه به‌روزرسانی گروهی یافت نشد."
+      ],
+      "No change": [
+        "بدون تغییر"
+      ],
+      "No changes found to export.": [
+        "تغییری برای برون‌بری یافت نشد."
+      ],
+      "No changes found.": [
+        "هیچ تغییری یافت نشد."
+      ],
+      "No data found.": [
+        "هیچ داده‌ای یافت نشد."
+      ],
+      "No keyword maps found. Create your first one to get started.": [
+        "هیچ نگاشت کلمه کلیدی یافت نشد. برای شروع، نخستین مورد را بسازید."
+      ],
+      "No keyword maps history found.": [
+        "هیچ سابقه‌ای برای نگاشت‌های کلمه کلیدی یافت نشد."
+      ],
+      "No link data available": [
+        "داده‌ای برای لینک موجود نیست"
+      ],
+      "No links have been marked as safe.": [
+        "هیچ لینکی به‌عنوان سالم علامت‌گذاری نشده است."
+      ],
+      "No new Focus Keywords found.": [
+        "هیچ کلمه کلیدی اصلی جدیدی یافت نشد."
+      ],
+      "No new suggestions available. All variations may already exist.": [
+        "پیشنهاد جدیدی موجود نیست. ممکن است همه گونه‌ها از قبل وجود داشته باشند."
+      ],
+      "No posts with incoming links found. Start linking your content!": [
+        "هیچ نوشته‌ای با لینک ورودی یافت نشد. لینک‌سازی محتوای خود را آغاز کنید!"
+      ],
+      "No process in progress.": [
+        "هیچ فرایندی در حال اجرا نیست."
+      ],
+      "No redirect links detected.": [
+        "هیچ لینک تغییر مسیری شناسایی نشد."
+      ],
+      "No related posts found. Your content may not have enough context, or try again later.": [
+        "نوشته مرتبطی یافت نشد. ممکن است محتوای شما زمینه کافی نداشته باشد؛ بعداً دوباره تلاش کنید."
+      ],
+      "No related posts yet. Click Generate to fetch.": [
+        "هنوز نوشته مرتبطی وجود ندارد. برای دریافت، روی «تولید» کلیک کنید."
+      ],
+      "No results found matching your search query.": [
+        "نتیجه‌ای مطابق عبارت جستجوی شما یافت نشد."
+      ],
+      "No suggestion found for": [
+        "پیشنهادی یافت نشد برای"
+      ],
+      "No suggestions found. Your content may not have enough context, or try again later.": [
+        "پیشنهادی یافت نشد. ممکن است محتوای شما زمینه کافی نداشته باشد؛ بعداً دوباره تلاش کنید."
+      ],
+      "No suggestions yet. Click Generate to create suggestions.": [
+        "هنوز پیشنهادی وجود ندارد. برای ساخت پیشنهادها روی «تولید» کلیک کنید."
+      ],
+      "No variations added yet. Add some manually or generate them using AI.": [
+        "هنوز گونه‌ای اضافه نشده است. چند مورد را دستی اضافه کنید یا با هوش مصنوعی بسازید."
+      ],
+      "Nofollow": [
+        "نوفالو"
+      ],
+      "Nofollow Links": [
+        "لینک‌های نوفالو"
+      ],
+      "Nofollow Status": [
+        "وضعیت نوفالو"
+      ],
+      "Nofollow Status:": [
+        "وضعیت نوفالو:"
+      ],
+      "Nofollow attribute removed successfully.": [
+        "ویژگی nofollow با موفقیت حذف شد."
+      ],
+      "Noindex Hidden Products": [
+        "نوایندکس‌کردن محصولات مخفی"
+      ],
+      "None": [
+        "هیچ‌کدام"
+      ],
+      "Norfolk Island": [
+        "جزیرهٔ نورفولک"
+      ],
+      "North Korea": [
+        "کرهٔ شمالی"
+      ],
+      "Norway": [
+        "نروژ"
+      ],
+      "Not Available": [
+        "در دسترس نیست"
+      ],
+      "Not Broken": [
+        "خراب نیست"
+      ],
+      "Not Set": [
+        "تنظیم نشده"
+      ],
+      "Not available in your plan.": [
+        "در پلن شما در دسترس نیست."
+      ],
+      "Note:": [
+        "توجه:"
+      ],
+      "Note: Please save the post as a draft first to see the actual data.": [
+        "توجه: برای مشاهده داده واقعی، ابتدا نوشته را به‌صورت پیش‌نویس ذخیره کنید."
+      ],
+      "Number of Employees": [
+        "تعداد کارکنان"
+      ],
+      "Offer availability": [
+        "وضعیت موجودبودن پیشنهاد"
+      ],
+      "Offers": [
+        "پیشنهادها"
+      ],
+      "Old Anchor": [
+        "متن لنگر قبلی"
+      ],
+      "Old URL": [
+        "نشانی قبلی"
+      ],
+      "Oman": [
+        "عمان"
+      ],
+      "Once you save the changes, we will create a new custom post type called \"Locations\" where you can add multiple locations of your business/organization.": [
+        "پس از ذخیره تغییرات، نوع نوشته سفارشی جدیدی با نام «مکان‌ها» ایجاد می‌شود که می‌توانید چندین مکان کسب‌وکار یا سازمان خود را در آن اضافه کنید."
+      ],
+      "Online Event URL": [
+        "نشانی اینترنتی رویداد آنلاین"
+      ],
+      "Only 6 keywords can be added in the graph": [
+        "فقط ۶ کلمه کلیدی را می‌توان به نمودار اضافه کرد"
+      ],
+      "Only errors (4xx, 5xx, timeout, failed)": [
+        "فقط خطاها (4xx، 5xx، پایان زمان انتظار، ناموفق)"
+      ],
+      "Only match keywords with exact casing": [
+        "فقط کلمات کلیدی با همان بزرگی و کوچکی حروف منطبق شوند"
+      ],
+      "Only unchecked": [
+        "فقط بررسی‌نشده‌ها"
+      ],
+      "Open 24/7": [
+        "شبانه‌روزی باز است"
+      ],
+      "Open 24/7 label": [
+        "برچسب بازبودن شبانه‌روزی"
+      ],
+      "Open 24h label": [
+        "برچسب بازبودن ۲۴ ساعته"
+      ],
+      "Open Days": [
+        "روزهای بازبودن"
+      ],
+      "Open Report": [
+        "بازکردن گزارش"
+      ],
+      "Open in new tab.": [
+        "بازکردن در زبانه جدید."
+      ],
+      "Open link in new tab": [
+        "بازکردن لینک در زبانه جدید"
+      ],
+      "Opening Hours": [
+        "ساعات کاری"
+      ],
+      "Opening Hours Settings": [
+        "تنظیمات ساعات کاری"
+      ],
+      "Opening Time": [
+        "زمان بازشدن"
+      ],
+      "Operating System": [
+        "سیستم‌عامل"
+      ],
+      "Operation": [
+        "عملیات"
+      ],
+      "Optimize Images: ": [
+        "بهینه‌سازی تصاویر: "
+      ],
+      "Optional description of what this rule does": [
+        "توضیح اختیاری درباره کاری که این قانون انجام می‌دهد"
+      ],
+      "Options will be applied to old & new posts. By default, only Primary keyword will be imported.": [
+        "گزینه‌ها روی نوشته‌های قدیمی و جدید اعمال می‌شوند. به‌صورت پیش‌فرض فقط کلمه کلیدی اصلی درون‌ریزی می‌شود."
+      ],
+      "Organization Logo (Recommended)": [
+        "لوگوی سازمان (پیشنهاد می‌شود)"
+      ],
+      "Organization URL (Recommended)": [
+        "نشانی اینترنتی سازمان (پیشنهاد می‌شود)"
+      ],
+      "Organize your redirections in categories.": [
+        "تغییر مسیرهای خود را در دسته‌بندی‌ها سازماندهی کنید."
+      ],
+      "Orphan Posts": [
+        "نوشته‌های یتیم"
+      ],
+      "Other terms for your recipe such as the season, the holiday, or other descriptors. Separate multiple entries with commas.": [
+        "اصطلاحات دیگر مرتبط با دستور پخت، مانند فصل، مناسبت یا توضیحات دیگر را وارد کنید. موارد متعدد را با ویرگول جدا کنید."
+      ],
+      "Overview": [
+        "نمای کلی"
+      ],
+      "Owner Email": [
+        "ایمیل مالک"
+      ],
+      "Owner Name": [
+        "نام مالک"
+      ],
+      "PRO TIP": [
+        "نکته حرفه‌ای"
+      ],
+      "Page": [
+        "صفحه"
+      ],
+      "Page Fetch": [
+        "واکشی صفحه"
+      ],
+      "Page Fetch State": [
+        "وضعیت دریافت صفحه"
+      ],
+      "Page Score": [
+        "امتیاز صفحه"
+      ],
+      "Page URL": [
+        "نشانی صفحه"
+      ],
+      "PageSpeed": [
+        "پیج‌اسپید"
+      ],
+      "Pageviews": [
+        "بازدید صفحات"
+      ],
+      "Pakistan": [
+        "پاکستان"
+      ],
+      "Palestinian Territory": [
+        "سرزمین‌های فلسطینی"
+      ],
+      "Panama": [
+        "پاناما"
+      ],
+      "Papua New Guinea": [
+        "پاپوا گینهٔ نو"
+      ],
+      "Paraguay": [
+        "پاراگوئه"
+      ],
+      "Partial Match (Contains)": [
+        "تطابق جزئی (شامل)"
+      ],
+      "Past 12 months": [
+        "۱۲ ماه گذشته"
+      ],
+      "Past 30 days": [
+        "۳۰ روز گذشته"
+      ],
+      "Past 5 years": [
+        "۵ سال گذشته"
+      ],
+      "Past 7 days": [
+        "۷ روز گذشته"
+      ],
+      "Past 90 days": [
+        "۹۰ روز گذشته"
+      ],
+      "Past day": [
+        "روز گذشته"
+      ],
+      "Payment Accepted": [
+        "روش‌های پرداخت پذیرفته‌شده"
+      ],
+      "Payroll (Recommended)": [
+        "حقوق و دستمزد (پیشنهاد می‌شود)"
+      ],
+      "Pending": [
+        "در انتظار"
+      ],
+      "Performer": [
+        "اجراکننده"
+      ],
+      "Performer Information": [
+        "اطلاعات اجراکننده"
+      ],
+      "Person": [
+        "شخص"
+      ],
+      "Peru": [
+        "پرو"
+      ],
+      "Philippines": [
+        "فیلیپین"
+      ],
+      "Phone Number": [
+        "شماره تلفن"
+      ],
+      "Pitcairn": [
+        "جزایر پیت‌کرن"
+      ],
+      "Please consider using %1$s Block instead.": [
+        "لطفاً به‌جای آن از بلوک %1$s استفاده کنید."
+      ],
+      "Please enter a valid URL": [
+        "لطفاً یک نشانی اینترنتی معتبر وارد کنید"
+      ],
+      "Please enter both search and replace values for URL": [
+        "لطفاً برای نشانی اینترنتی، هر دو مقدار جستجو و جایگزینی را وارد کنید"
+      ],
+      "Please enter both search and replace values for anchor text": [
+        "لطفاً برای متن لنگر، هر دو مقدار جستجو و جایگزینی را وارد کنید"
+      ],
+      "Please select a file to import.": [
+        "یک فایل برای درون‌ریزی انتخاب کنید."
+      ],
+      "Please set the Focus Keyword for this page.": [
+        "لطفاً کلمه کلیدی کانونی این صفحه را تنظیم کنید."
+      ],
+      "Podcast": [
+        "پادکست"
+      ],
+      "Podcast Category": [
+        "دسته‌بندی پادکست"
+      ],
+      "Podcast Description": [
+        "توضیحات پادکست"
+      ],
+      "Podcast Episode": [
+        "قسمت پادکست"
+      ],
+      "Podcast Image": [
+        "تصویر پادکست"
+      ],
+      "Podcast Name": [
+        "نام پادکست"
+      ],
+      "Poland": [
+        "لهستان"
+      ],
+      "Populate automatic Video Schema by auto-detecting any video in the content.": [
+        "با تشخیص خودکار ویدیوهای محتوا، اسکیمای ویدیو را به‌صورت خودکار تکمیل کنید."
+      ],
+      "Portugal": [
+        "پرتغال"
+      ],
+      "Position": [
+        "جایگاه"
+      ],
+      "Position History": [
+        "تاریخچه جایگاه"
+      ],
+      "Position of the episode within an ordered group of episodes (1, 2, 3, etc).": [
+        "جایگاه قسمت در یک مجموعه مرتب از قسمت‌ها (۱، ۲، ۳ و مانند آن)."
+      ],
+      "Position of the season within an ordered group of seasons (1, 2, 3, etc).": [
+        "جایگاه فصل در یک مجموعه مرتب از فصل‌ها (۱، ۲، ۳ و مانند آن)."
+      ],
+      "Positions Summary": [
+        "خلاصه جایگاه‌ها"
+      ],
+      "Positive notes, add one item per line": [
+        "نکات مثبت؛ در هر خط یک مورد اضافه کنید"
+      ],
+      "Post ID": [
+        "شناسه نوشته"
+      ],
+      "Post Occurrences": [
+        "تعداد رخدادها در نوشته"
+      ],
+      "Post Publication Date": [
+        "تاریخ انتشار نوشته"
+      ],
+      "Post Title": [
+        "عنوان نوشته"
+      ],
+      "Post Type": [
+        "نوع نوشته"
+      ],
+      "Post Types": [
+        "انواع نوشته"
+      ],
+      "Post Types:": [
+        "انواع نوشته:"
+      ],
+      "Post types:": [
+        "انواع نوشته:"
+      ],
+      "Postal Code": [
+        "کد پستی"
+      ],
+      "Posting Expiry Date": [
+        "تاریخ انقضای آگهی"
+      ],
+      "Posting ID (Recommended)": [
+        "شناسه آگهی (پیشنهاد می‌شود)"
+      ],
+      "Posts": [
+        "نوشته‌ها"
+      ],
+      "Posts Affected": [
+        "نوشته‌های تحت‌تأثیر"
+      ],
+      "Posts of these types will not receive auto-links from Keyword Maps.": [
+        "نوشته‌های این انواع، از نگاشت کلمات کلیدی لینک خودکار دریافت نمی‌کنند."
+      ],
+      "Posts with External Links": [
+        "نوشته‌های دارای لینک خارجی"
+      ],
+      "Posts with Internal Links": [
+        "نوشته‌های دارای لینک داخلی"
+      ],
+      "Preparation Time": [
+        "زمان آماده‌سازی"
+      ],
+      "Prevent Link Genius Keyword Maps from adding links to this post.": [
+        "جلوگیری از افزودن لینک به این نوشته توسط نگاشت‌های کلمه کلیدی Link Genius."
+      ],
+      "Preview": [
+        "پیش‌نمایش"
+      ],
+      "Preview & Execute": [
+        "پیش‌نمایش و اجرا"
+      ],
+      "Preview Changes": [
+        "پیش‌نمایش تغییرات"
+      ],
+      "Preview Generation": [
+        "ساخت پیش‌نمایش"
+      ],
+      "Preview Generation Progress": [
+        "پیشرفت ساخت پیش‌نمایش"
+      ],
+      "Preview Image": [
+        "تصویر پیش‌نمایش"
+      ],
+      "Preview Keyword Map Links": [
+        "پیش‌نمایش لینک‌های نگاشت کلمه کلیدی"
+      ],
+      "Preview generation completed!": [
+        "ساخت پیش‌نمایش تکمیل شد!"
+      ],
+      "Previous": [
+        "قبلی"
+      ],
+      "Price": [
+        "قیمت"
+      ],
+      "Price Range": [
+        "بازه قیمت"
+      ],
+      "Price Valid From": [
+        "شروع اعتبار قیمت"
+      ],
+      "Price Valid Until": [
+        "پایان اعتبار قیمت"
+      ],
+      "Primary Country": [
+        "کشور اصلی"
+      ],
+      "Primary Keyword": [
+        "کلمه کلیدی اصلی"
+      ],
+      "Primary Number": [
+        "شماره اصلی"
+      ],
+      "Print": [
+        "چاپ"
+      ],
+      "Process Code": [
+        "کد فرایند"
+      ],
+      "Process HTML": [
+        "پردازش HTML"
+      ],
+      "Process completed successfully!": [
+        "فرایند با موفقیت تکمیل شد!"
+      ],
+      "Processed": [
+        "پردازش‌شده"
+      ],
+      "Processed Links": [
+        "لینک‌های پردازش‌شده"
+      ],
+      "Processed Posts": [
+        "نوشته‌های پردازش‌شده"
+      ],
+      "Processing": [
+        "در حال پردازش"
+      ],
+      "Processing bulk update…": [
+        "در حال پردازش به‌روزرسانی گروهی…"
+      ],
+      "Processing links… Please wait.": [
+        "در حال پردازش لینک‌ها… لطفاً صبر کنید."
+      ],
+      "Processing rollback…": [
+        "در حال پردازش بازگردانی…"
+      ],
+      "Processing… Please wait.": [
+        "در حال پردازش… لطفاً صبر کنید."
+      ],
+      "Product": [
+        "محصول"
+      ],
+      "Product SKU": [
+        "شناسه SKU محصول"
+      ],
+      "Product URL": [
+        "نشانی محصول"
+      ],
+      "Product name": [
+        "نام محصول"
+      ],
+      "Progress": [
+        "پیشرفت"
+      ],
+      "Pros": [
+        "مزایا"
+      ],
+      "Publish your location!": [
+        "مکان خود را منتشر کنید!"
+      ],
+      "Published Date": [
+        "تاریخ انتشار"
+      ],
+      "Qatar": [
+        "قطر"
+      ],
+      "Quantity produced by the recipe, for example 4 servings": [
+        "مقدار خروجی دستور پخت؛ برای مثال ۴ وعده"
+      ],
+      "Question": [
+        "پرسش"
+      ],
+      "Questions": [
+        "پرسش‌ها"
+      ],
+      "Rank Math SEO score.": [
+        "امتیاز سئوی رنک مث."
+      ],
+      "Rank Math’s SEO Analyzer Score.": [
+        "امتیاز تحلیلگر سئوی رنک مث."
+      ],
+      "Ranked for most Clicks": [
+        "بیشترین رتبه برای کلیک‌ها"
+      ],
+      "Ranked for most Impressions": [
+        "بیشترین رتبه برای نمایش‌ها"
+      ],
+      "Ranked for most Keywords": [
+        "بیشترین رتبه برای کلمات کلیدی"
+      ],
+      "Ranked for most Search Traffic": [
+        "بیشترین رتبه برای ترافیک جستجو"
+      ],
+      "Ranking Keywords": [
+        "کلمات کلیدی رتبه‌دار"
+      ],
+      "Rating": [
+        "امتیازدهی"
+      ],
+      "Rating Maximum": [
+        "حداکثر امتیاز"
+      ],
+      "Rating Minimum": [
+        "حداقل امتیاز"
+      ],
+      "Rating maximum score": [
+        "بیشترین امتیاز قابل ثبت"
+      ],
+      "Rating minimum score": [
+        "کمترین امتیاز قابل ثبت"
+      ],
+      "Rating score": [
+        "امتیاز"
+      ],
+      "Read more": [
+        "بیشتر بخوانید"
+      ],
+      "Reason (optional)": [
+        "دلیل (اختیاری)"
+      ],
+      "Recheck": [
+        "بررسی دوباره"
+      ],
+      "Recipe": [
+        "دستور پخت"
+      ],
+      "Recipe Ingredients": [
+        "مواد اولیه دستور پخت"
+      ],
+      "Recipe Instructions": [
+        "دستورالعمل پخت"
+      ],
+      "Recipe Video Thumbnail": [
+        "تصویر بندانگشتی ویدیوی دستور پخت"
+      ],
+      "Recipe Yield": [
+        "مقدار خروجی دستور پخت"
+      ],
+      "Recipe ingredients, add one item per line": [
+        "مواد اولیه دستور پخت؛ هر مورد را در یک خط وارد کنید"
+      ],
+      "Redirection Category": [
+        "دسته‌بندی تغییر مسیر"
+      ],
+      "Redirection will be activated on this date (optional)": [
+        "تغییر مسیر در این تاریخ فعال خواهد شد (اختیاری)"
+      ],
+      "Redirection will be deactivated on this date (optional)": [
+        "تغییر مسیر در این تاریخ غیرفعال خواهد شد (اختیاری)"
+      ],
+      "Redirects": [
+        "تغییر مسیرها"
+      ],
+      "Redirects (3xx)": [
+        "تغییر مسیرها (3xx)"
+      ],
+      "Referring URLs": [
+        "نشانی‌های ارجاع‌دهنده"
+      ],
+      "Refresh": [
+        "تازه‌سازی"
+      ],
+      "Refresh Score": [
+        "تازه‌سازی امتیاز"
+      ],
+      "Refreshing %s": [
+        "در حال تازه‌سازی %s"
+      ],
+      "Regenerate Links": [
+        "بازتولید لینک‌ها"
+      ],
+      "Regenerating links for all posts… Please wait.": [
+        "در حال بازتولید لینک‌های همه نوشته‌ها… لطفاً صبر کنید."
+      ],
+      "Regenerating…": [
+        "در حال تولید دوباره…"
+      ],
+      "Regex Pattern": [
+        "الگوی عبارت منظم"
+      ],
+      "Region": [
+        "منطقه"
+      ],
+      "Related Posts": [
+        "نوشته‌های مرتبط"
+      ],
+      "Religion &amp; Spirituality": [
+        "دین و معنویت"
+      ],
+      "Remaining": [
+        "باقی‌مانده"
+      ],
+      "Remote Job Location": [
+        "مکان شغل دورکاری"
+      ],
+      "Remove": [
+        "حذف"
+      ],
+      "Remove Media Data from RSS feed": [
+        "حذف داده‌های رسانه از خوراک RSS"
+      ],
+      "Remove from graph": [
+        "حذف از نمودار"
+      ],
+      "Remove nofollow": [
+        "حذف nofollow"
+      ],
+      "Repeat Count": [
+        "تعداد تکرار"
+      ],
+      "Repeat Frequency": [
+        "تناوب تکرار"
+      ],
+      "Replace": [
+        "جایگزینی"
+      ],
+      "Replace With": [
+        "جایگزینی با"
+      ],
+      "Replace characters or words in the alt tags, title tags, or in the captions.": [
+        "نویسه‌ها یا واژه‌ها را در برچسب‌های alt، برچسب‌های title یا کپشن‌ها جایگزین کنید."
+      ],
+      "Replacement URL": [
+        "نشانی جایگزین"
+      ],
+      "Replacement text": [
+        "متن جایگزین"
+      ],
+      "Replacements": [
+        "جایگزینی‌ها"
+      ],
+      "Report Email Address": [
+        "نشانی ایمیل گزارش"
+      ],
+      "Report Email Heading": [
+        "عنوان ایمیل گزارش"
+      ],
+      "Report Email Subject": [
+        "موضوع ایمیل گزارش"
+      ],
+      "Report Footer Text": [
+        "متن پایین گزارش"
+      ],
+      "Report Header Background": [
+        "پس‌زمینه سربرگ گزارش"
+      ],
+      "Report Logo": [
+        "لوگوی گزارش"
+      ],
+      "Report Top Text": [
+        "متن بالای گزارش"
+      ],
+      "Republic of Ireland": [
+        "ایرلند"
+      ],
+      "Requires authentication": [
+        "نیازمند احراز هویت"
+      ],
+      "Response Headers": [
+        "سربرگ‌های پاسخ"
+      ],
+      "Rest of the Keywords": [
+        "سایر کلمات کلیدی"
+      ],
+      "Restaurant": [
+        "رستوران"
+      ],
+      "Restore": [
+        "بازیابی"
+      ],
+      "Restore Deleted Links": [
+        "بازیابی لینک‌های حذف‌شده"
+      ],
+      "Restored": [
+        "بازیابی‌شده"
+      ],
+      "Restoring links… Please wait.": [
+        "در حال بازیابی لینک‌ها… لطفاً صبر کنید."
+      ],
+      "Reunion": [
+        "رئونیون"
+      ],
+      "Revert": [
+        "بازگردانی"
+      ],
+      "Review": [
+        "بررسی"
+      ],
+      "Review & Apply Changes": [
+        "بررسی و اعمال تغییرات"
+      ],
+      "Review Bulk Update Changes": [
+        "بررسی تغییرات به‌روزرسانی گروهی"
+      ],
+      "Review Location": [
+        "مکان بررسی"
+      ],
+      "Review Rollback Changes": [
+        "بررسی تغییرات بازگردانی"
+      ],
+      "Review the changes below and deselect any you don't want to apply": [
+        "تغییرات زیر را بررسی کنید و مواردی را که نمی‌خواهید اعمال شوند از انتخاب خارج کنید"
+      ],
+      "Review the keyword matches below. Deselect any you don't want to link.": [
+        "تطابق‌های کلمه کلیدی زیر را بررسی کنید. مواردی را که نمی‌خواهید لینک شوند از انتخاب خارج کنید."
+      ],
+      "Review your configuration and generate a preview of changes.": [
+        "پیکربندی خود را بررسی کنید و پیش‌نمایشی از تغییرات بسازید."
+      ],
+      "Rich Result Types": [
+        "انواع نتایج غنی"
+      ],
+      "Rich Results": [
+        "نتایج غنی"
+      ],
+      "Roadmap": [
+        "نقشه راه"
+      ],
+      "Robots Blocked": [
+        "مسدودشده توسط ربات‌ها"
+      ],
+      "Robots state": [
+        "وضعیت ربات‌ها"
+      ],
+      "Robots.txt State": [
+        "وضعیت Robots.txt"
+      ],
+      "Robots.txt Status:": [
+        "وضعیت robots.txt:"
+      ],
+      "Rollback": [
+        "بازگردانی"
+      ],
+      "Rollback Progress": [
+        "پیشرفت بازگردانی"
+      ],
+      "Rollback Selected": [
+        "بازگردانی انتخاب‌شده‌ها"
+      ],
+      "Rollback completed successfully!": [
+        "بازگردانی با موفقیت تکمیل شد!"
+      ],
+      "Rolled Back": [
+        "بازگردانی‌شده"
+      ],
+      "Romania": [
+        "رومانی"
+      ],
+      "Route Label": [
+        "برچسب مسیر"
+      ],
+      "Rule Settings": [
+        "تنظیمات قانون"
+      ],
+      "Russia": [
+        "روسیه"
+      ],
+      "Rwanda": [
+        "رواندا"
+      ],
+      "SEO Data": [
+        "داده‌های سئو"
+      ],
+      "SEO Score": [
+        "امتیاز سئو"
+      ],
+      "Saint Barthélemy": [
+        "سن بارتلمی"
+      ],
+      "Saint Helena": [
+        "سنت هلن"
+      ],
+      "Saint Kitts and Nevis": [
+        "سنت کیتس و نویس"
+      ],
+      "Saint Lucia": [
+        "سنت لوسیا"
+      ],
+      "Saint Martin (Dutch part)": [
+        "سنت مارتن"
+      ],
+      "Saint Martin (French part)": [
+        "سنت مارتین"
+      ],
+      "Saint Pierre and Miquelon": [
+        "سن پیر و میکلن"
+      ],
+      "Saint Vincent and the Grenadines": [
+        "سنت وینسنت و گرنادین"
+      ],
+      "Salary": [
+        "حقوق"
+      ],
+      "Salary (Recommended)": [
+        "حقوق (پیشنهاد می‌شود)"
+      ],
+      "Salary Currency": [
+        "واحد پول حقوق"
+      ],
+      "Salary amount is for": [
+        "مبلغ حقوق برای این بازه است:"
+      ],
+      "Same As": [
+        "همانند"
+      ],
+      "San Marino": [
+        "سان‌مارینو"
+      ],
+      "Satellite": [
+        "ماهواره‌ای"
+      ],
+      "Saudi Arabia": [
+        "عربستان سعودی"
+      ],
+      "Save": [
+        "ذخیره"
+      ],
+      "Save Changes": [
+        "ذخیره تغییرات"
+      ],
+      "Save Settings": [
+        "ذخیره تنظیمات"
+      ],
+      "Saving…": [
+        "در حال ذخیره…"
+      ],
+      "Scheduled Activation": [
+        "فعال‌سازی زمان‌بندی‌شده"
+      ],
+      "Scheduled Deactivation": [
+        "غیرفعال‌سازی زمان‌بندی‌شده"
+      ],
+      "Schema": [
+        "اسکیما"
+      ],
+      "Schema Builder": [
+        "سازنده اسکیما"
+      ],
+      "Schema Found": [
+        "اسکیما یافت شد"
+      ],
+      "Schema type of the post.": [
+        "نوع اسکیمای نوشته."
+      ],
+      "Science &amp; Medicine": [
+        "علم و پزشکی"
+      ],
+      "Search": [
+        "جستجو"
+      ],
+      "Search Keyword…": [
+        "جستجوی کلمه کلیدی…"
+      ],
+      "Search Locations within the radius": [
+        "جستجوی مکان‌ها در محدوده شعاع"
+      ],
+      "Search Post URL": [
+        "جستجوی نشانی نوشته"
+      ],
+      "Search Traffic": [
+        "ترافیک جستجو"
+      ],
+      "Search Type": [
+        "نوع جستجو"
+      ],
+      "Search:": [
+        "جستجو:"
+      ],
+      "Season Name": [
+        "نام فصل"
+      ],
+      "Season Number": [
+        "شماره فصل"
+      ],
+      "Season URL": [
+        "نشانی فصل"
+      ],
+      "Secondary Number": [
+        "شماره دوم"
+      ],
+      "Select Account": [
+        "انتخاب حساب"
+      ],
+      "Select All": [
+        "انتخاب همه"
+      ],
+      "Select Post Types": [
+        "انتخاب انواع نوشته"
+      ],
+      "Select Timezone": [
+        "انتخاب منطقه زمانی"
+      ],
+      "Select a Rank Math settings file on your computer and upload it to use the custom settings. Allowed filetypes: %1$s %2$s": [
+        "یک فایل تنظیمات رنک مث را از رایانه خود انتخاب و بارگذاری کنید تا از تنظیمات سفارشی استفاده شود. انواع فایل مجاز: %1$s %2$s"
+      ],
+      "Select a reason (optional)": [
+        "انتخاب دلیل (اختیاری)"
+      ],
+      "Select date range": [
+        "انتخاب بازه تاریخ"
+      ],
+      "Select the category that best reflects the content of your show.": [
+        "دسته‌ای را انتخاب کنید که بهترین بازتاب را از محتوای برنامه شما دارد."
+      ],
+      "Select the default watermark that will be applied if no specific watermark is selected.": [
+        "واترمارک پیش‌فرضی را انتخاب کنید که در صورت انتخاب‌نشدن واترمارک خاص اعمال شود."
+      ],
+      "Select the map style you wish to use on the frontend of your website.": [
+        "سبک نقشه موردنظر برای استفاده در بخش کاربری وب‌سایت را انتخاب کنید."
+      ],
+      "Select the post type where you use videos and want them to be shown in the Video search.": [
+        "نوع نوشته‌ای را انتخاب کنید که در آن از ویدیو استفاده می‌کنید و می‌خواهید در جستجوی ویدیو نمایش داده شود."
+      ],
+      "Select the post type you use for News articles.": [
+        "نوع نوشته مورد استفاده برای مقاله‌های خبری را انتخاب کنید."
+      ],
+      "Select the text to display alongside your opening hours when your store is open 24/7.": [
+        "متنی را انتخاب کنید که هنگام بازبودن شبانه‌روزی فروشگاه در کنار ساعات کاری نمایش داده شود."
+      ],
+      "Select this if you have a custom Rank Math settings file you want to use.": [
+        "اگر فایل تنظیمات سفارشی رنک مث دارید و می‌خواهید از آن استفاده کنید، این گزینه را انتخاب کنید."
+      ],
+      "Select whether to include a link to the Full Report admin page in the email or not.": [
+        "مشخص کنید لینک صفحه مدیریت گزارش کامل در ایمیل قرار بگیرد یا خیر."
+      ],
+      "Select which links you want to check during this audit.": [
+        "لینک‌هایی را که می‌خواهید در این ممیزی بررسی شوند انتخاب کنید."
+      ],
+      "Select which tables to show in the report.": [
+        "جدول‌هایی را که باید در گزارش نمایش داده شوند انتخاب کنید."
+      ],
+      "Select why this link should not be considered broken": [
+        "مشخص کنید چرا این لینک نباید خراب در نظر گرفته شود"
+      ],
+      "Select your organization’s primary country of operation. This helps improve the accuracy of the store locator.": [
+        "کشور اصلی فعالیت سازمان را انتخاب کنید. این کار دقت مکان‌یاب فروشگاه را بهبود می‌دهد."
+      ],
+      "Select your preferred measurement system (miles or kilometers).": [
+        "سیستم اندازه‌گیری دلخواه خود را انتخاب کنید (مایل یا کیلومتر)."
+      ],
+      "Selected for Update": [
+        "انتخاب‌شده برای به‌روزرسانی"
+      ],
+      "Selected variations will be added to your keyword map.": [
+        "گونه‌های انتخاب‌شده به نگاشت کلمه کلیدی شما اضافه خواهند شد."
+      ],
+      "Selecting 'Anchor Text Only' will scan the visible text of your links.": [
+        "انتخاب «فقط متن لنگر» متن قابل‌مشاهده لینک‌های شما را اسکن می‌کند."
+      ],
+      "Selecting 'Both' will scan both the visible text and href of your links.": [
+        "انتخاب «هردو» هم متن قابل‌مشاهده و هم href لینک‌ها را اسکن می‌کند."
+      ],
+      "Selecting 'URL Only' will scan the href attribute of your links.": [
+        "انتخاب «فقط نشانی اینترنتی» ویژگی href لینک‌ها را اسکن می‌کند."
+      ],
+      "Senegal": [
+        "سنگال"
+      ],
+      "Sentence casing": [
+        "حالت جمله"
+      ],
+      "Serbia": [
+        "صربستان"
+      ],
+      "Serves Cuisine": [
+        "نوع غذای ارائه‌شده"
+      ],
+      "Set Product Pages to noindex when WooCommerce Catalog visibility is set to hidden.": [
+        "هنگامی که وضعیت نمایش در کاتالوگ ووکامرس روی مخفی تنظیم شده است، صفحات محصول را noindex کنید."
+      ],
+      "Set to about.": [
+        "تنظیم به‌عنوان درباره."
+      ],
+      "Set to mentions.": [
+        "تنظیم به‌عنوان اشاره‌ها."
+      ],
+      "Set to nofollow.": [
+        "تنظیم به‌عنوان nofollow."
+      ],
+      "Set to sponsored.": [
+        "تنظیم به‌عنوان sponsored."
+      ],
+      "Set up display rules to control where this Schema template is used on your website. For example, choose \"Entire Site\" to use the template on all pages on your website.": [
+        "قوانین نمایش را تنظیم کنید تا محل استفاده از این الگوی اسکیما در وب‌سایت کنترل شود. برای نمونه، برای استفاده از الگو در همه صفحات سایت، «کل سایت» را انتخاب کنید."
+      ],
+      "Settings": [
+        "تنظیمات"
+      ],
+      "Severity": [
+        "شدت"
+      ],
+      "Seychelles": [
+        "سیشل"
+      ],
+      "Shortcode": [
+        "کد کوتاه"
+      ],
+      "Show %s": [
+        "نمایش %s"
+      ],
+      "Show Business Information": [
+        "نمایش اطلاعات کسب‌وکار"
+      ],
+      "Show Business URL": [
+        "نمایش نشانی اینترنتی کسب‌وکار"
+      ],
+      "Show COC number": [
+        "نمایش شماره اتاق بازرگانی"
+      ],
+      "Show Category filter": [
+        "نمایش فیلتر دسته‌بندی"
+      ],
+      "Show Company Address": [
+        "نمایش نشانی شرکت"
+      ],
+      "Show Company Name": [
+        "نمایش نام شرکت"
+      ],
+      "Show Country": [
+        "نمایش کشور"
+      ],
+      "Show Email": [
+        "نمایش ایمیل"
+      ],
+      "Show FAX number": [
+        "نمایش شماره فکس"
+      ],
+      "Show Global Identifier": [
+        "نمایش شناسه جهانی"
+      ],
+      "Show InfoWindow": [
+        "نمایش پنجره اطلاعات"
+      ],
+      "Show Intent": [
+        "نمایش هدف جستجو"
+      ],
+      "Show Logo": [
+        "نمایش لوگو"
+      ],
+      "Show Map": [
+        "نمایش نقشه"
+      ],
+      "Show Marker Clustering": [
+        "نمایش خوشه‌بندی نشانگرها"
+      ],
+      "Show Opening Hours": [
+        "نمایش ساعات کاری"
+      ],
+      "Show Price Indication": [
+        "نمایش بازه قیمت"
+      ],
+      "Show Primary number": [
+        "نمایش شماره اصلی"
+      ],
+      "Show Route Planner": [
+        "نمایش مسیریاب"
+      ],
+      "Show Route label": [
+        "برچسب نمایش مسیر"
+      ],
+      "Show Secondary number": [
+        "نمایش شماره دوم"
+      ],
+      "Show State": [
+        "نمایش استان"
+      ],
+      "Show TAX ID": [
+        "نمایش شناسه مالیاتی"
+      ],
+      "Show VAT number": [
+        "نمایش شماره VAT"
+      ],
+      "Show address on one line": [
+        "نمایش نشانی در یک خط"
+      ],
+      "Show nearest location if none is found within radius": [
+        "اگر مکانی در محدوده شعاع یافت نشد، نزدیک‌ترین مکان نمایش داده شود"
+      ],
+      "Show open now label after opening hour for current day": [
+        "نمایش برچسب «اکنون باز است» پس از ساعات کاری روز جاری"
+      ],
+      "Show radius": [
+        "نمایش شعاع"
+      ],
+      "Showing": [
+        "در حال نمایش"
+      ],
+      "Side-by-Side Comparison": [
+        "مقایسه کنارهم"
+      ],
+      "Sierra Leone": [
+        "سیرالئون"
+      ],
+      "Singapore": [
+        "سنگاپور"
+      ],
+      "Singular": [
+        "مفرد"
+      ],
+      "Site blocks crawlers": [
+        "سایت خزنده‌ها را مسدود می‌کند"
+      ],
+      "Sitemaps": [
+        "نقشه‌های سایت"
+      ],
+      "Skip Step": [
+        "ردکردن مرحله"
+      ],
+      "Slovakia": [
+        "اسلواکی"
+      ],
+      "Slovenia": [
+        "اسلوونی"
+      ],
+      "Society &amp; Culture": [
+        "جامعه و فرهنگ"
+      ],
+      "Software": [
+        "نرم‌افزار"
+      ],
+      "Solomon Islands": [
+        "جزایر سلیمان"
+      ],
+      "Somalia": [
+        "سومالی"
+      ],
+      "Source Post": [
+        "نوشته مبدأ"
+      ],
+      "South Africa": [
+        "آفریقای جنوبی"
+      ],
+      "South Georgia/Sandwich Islands": [
+        "جورجیای جنوبی و جزایر ساندویچ جنوبی"
+      ],
+      "South Korea": [
+        "کره جنوبی"
+      ],
+      "South Sudan": [
+        "سودان جنوبی"
+      ],
+      "Spain": [
+        "اسپانیا"
+      ],
+      "Spatial Coverage": [
+        "پوشش مکانی"
+      ],
+      "Speakable": [
+        "قابل‌خواندن"
+      ],
+      "Special Sitemaps:": [
+        "نقشه‌های سایت ویژه:"
+      ],
+      "Specify another Schema.org type to further describe the product that is referenced. You can also insert a URL to an external vocabulary such as Wikidata or Wikipedia.": [
+        "نوع دیگری از Schema.org را برای توصیف دقیق‌تر محصول ارجاع‌شده مشخص کنید. همچنین می‌توانید نشانی یک واژگان خارجی مانند Wikidata یا Wikipedia را وارد کنید."
+      ],
+      "Specify what to update and define the find and replace rules.": [
+        "مشخص کنید چه چیزی به‌روزرسانی شود و قوانین یافتن و جایگزینی را تعریف کنید."
+      ],
+      "Sports &amp; Recreation": [
+        "ورزش و تفریح"
+      ],
+      "Sri Lanka": [
+        "سری‌لانکا"
+      ],
+      "Start": [
+        "شروع"
+      ],
+      "Start Audit": [
+        "شروع ممیزی"
+      ],
+      "Start Date": [
+        "تاریخ شروع"
+      ],
+      "Start Offset": [
+        "آفست شروع"
+      ],
+      "Started:": [
+        "آغازشده:"
+      ],
+      "Starting…": [
+        "در حال شروع…"
+      ],
+      "Status": [
+        "وضعیت"
+      ],
+      "Status Distribution": [
+        "توزیع وضعیت"
+      ],
+      "Step": [
+        "مرحله"
+      ],
+      "Step 1: Filter Links (Optional)": [
+        "مرحله ۱: فیلتر لینک‌ها (اختیاری)"
+      ],
+      "Step 2: Configure Update": [
+        "مرحله ۲: پیکربندی به‌روزرسانی"
+      ],
+      "Step 3: Preview Changes": [
+        "مرحله ۳: پیش‌نمایش تغییرات"
+      ],
+      "Steps": [
+        "مراحل"
+      ],
+      "Store Locator": [
+        "مکان‌یاب فروشگاه"
+      ],
+      "Street Address": [
+        "نشانی خیابان"
+      ],
+      "Subject of the report emails.": [
+        "موضوع ایمیل‌های گزارش."
+      ],
+      "Submit now with Instant Indexing": [
+        "اکنون با ایندکس فوری ارسال کنید"
+      ],
+      "Success": [
+        "موفق"
+      ],
+      "Success (2xx)": [
+        "موفق (2xx)"
+      ],
+      "Successfully Completed.": [
+        "با موفقیت تکمیل شد."
+      ],
+      "Sudan": [
+        "سودان"
+      ],
+      "Suggested pacing in repeatFrequency units (8601 duration format). For example, PT5H monthly means 5 hours per month. Use courseWorkload for total length.": [
+        "فاصله زمانی پیشنهادی براساس واحد repeatFrequency (قالب مدت‌زمان 8601). برای مثال، PT5H ماهانه یعنی ۵ ساعت در ماه. برای طول کل از courseWorkload استفاده کنید."
+      ],
+      "Summary": [
+        "خلاصه"
+      ],
+      "Supplies": [
+        "لوازم مصرفی"
+      ],
+      "Supply": [
+        "لوازم مصرفی"
+      ],
+      "Suriname": [
+        "سورینام"
+      ],
+      "Svalbard and Jan Mayen": [
+        "سوالبارد و یان ماین"
+      ],
+      "Swaziland": [
+        "اسواتینی"
+      ],
+      "Sweden": [
+        "سوئد"
+      ],
+      "Switzerland": [
+        "سوئیس"
+      ],
+      "Syria": [
+        "سوریه"
+      ],
+      "São Tomé and Príncipe": [
+        "سائوتومه و پرینسیپ"
+      ],
+      "TO": [
+        "به"
+      ],
+      "TV &amp; Film": [
+        "تلویزیون و فیلم"
+      ],
+      "Taiwan": [
+        "تایوان"
+      ],
+      "Tajikistan": [
+        "تاجیکستان"
+      ],
+      "Tanzania": [
+        "تانزانیا"
+      ],
+      "Target URL": [
+        "نشانی مقصد"
+      ],
+      "Target URL is required": [
+        "نشانی مقصد الزامی است"
+      ],
+      "Tax ID": [
+        "شناسه مالیاتی"
+      ],
+      "Taxonomies:": [
+        "طبقه‌بندی‌ها:"
+      ],
+      "Technology": [
+        "فناوری"
+      ],
+      "Temporal Coverage": [
+        "پوشش زمانی"
+      ],
+      "Terms": [
+        "موارد طبقه‌بندی"
+      ],
+      "Terrain": [
+        "ناهمواری زمین"
+      ],
+      "Test": [
+        "آزمون"
+      ],
+      "Test with Google": [
+        "آزمایش با گوگل"
+      ],
+      "Text": [
+        "متن"
+      ],
+      "Text or basic HTML to insert below the title.": [
+        "متن یا HTML ساده‌ای که زیر عنوان درج می‌شود."
+      ],
+      "Text or basic HTML to insert in the footer area.": [
+        "متن یا HTML ساده‌ای که در بخش پابرگ درج می‌شود."
+      ],
+      "Text to find": [
+        "متن مورد جستجو"
+      ],
+      "Text to show in Opening hours when business is closed.": [
+        "متنی که هنگام بسته‌بودن کسب‌وکار در بخش ساعات کاری نمایش داده می‌شود."
+      ],
+      "Thailand": [
+        "تایلند"
+      ],
+      "The ISBN of the print book": [
+        "ISBN نسخه چاپی کتاب"
+      ],
+      "The URL of the online event, where people can join. This property is required if your event is happening online": [
+        "نشانی اینترنتی رویداد آنلاین که افراد از طریق آن وارد می‌شوند. اگر رویداد آنلاین است، این ویژگی الزامی است"
+      ],
+      "The URL of the organization offering the job position. Leave empty to use your own company information": [
+        "نشانی اینترنتی سازمان ارائه‌دهنده موقعیت شغلی. برای استفاده از اطلاعات شرکت خودتان، خالی بگذارید"
+      ],
+      "The URL that matching keywords will link to": [
+        "نشانی‌ای که کلمات کلیدی منطبق به آن لینک می‌شوند"
+      ],
+      "The catalog name.": [
+        "نام فهرست داده‌ها."
+      ],
+      "The cuisine of the recipe (for example, French or Ethiopian).": [
+        "نوع غذای دستور پخت؛ برای مثال فرانسوی یا اتیوپیایی."
+      ],
+      "The currency of the price of the course, in ISO 4217 currency format (3 letter code), if applicable.": [
+        "در صورت کاربرد، واحد پول قیمت دوره در قالب ISO 4217 (کد سه‌حرفی)."
+      ],
+      "The data in the dataset covers a specific time interval. Only include this property if the dataset has a temporal dimension.": [
+        "داده‌های مجموعه‌داده یک بازه زمانی مشخص را پوشش می‌دهند. این ویژگی را فقط زمانی وارد کنید که مجموعه‌داده دارای بُعد زمانی باشد."
+      ],
+      "The date after which the price will no longer be available": [
+        "تاریخی که پس از آن قیمت دیگر در دسترس نخواهد بود"
+      ],
+      "The date the movie was released.": [
+        "تاریخ اکران فیلم."
+      ],
+      "The date when the item becomes valid.": [
+        "تاریخ شروع اعتبار مورد."
+      ],
+      "The date when the job posting will expire. If a job posting never expires, or you do not know when the job will expire, do not include this property": [
+        "تاریخ انقضای آگهی استخدام. اگر آگهی هرگز منقضی نمی‌شود یا تاریخ آن را نمی‌دانید، این ویژگی را وارد نکنید"
+      ],
+      "The duration and repeatCount properties are relative to this field. ": [
+        "ویژگی‌های duration و repeatCount نسبت به این فیلد محاسبه می‌شوند. "
+      ],
+      "The edition of the book": [
+        "ویرایش کتاب"
+      ],
+      "The educational background needed for the job posting. If there aren't any educational requirements, use the no requirements value. If you don't know the educational requirements, don't add this property.": [
+        "پیشینه تحصیلی موردنیاز برای آگهی استخدام. اگر شرط تحصیلی وجود ندارد، مقدار «بدون نیازمندی» را انتخاب کنید. اگر از نیازمندی تحصیلی مطمئن نیستید، این ویژگی را اضافه نکنید."
+      ],
+      "The email address of the podcast owner. Please make sure the email address is active and monitored.": [
+        "نشانی ایمیل مالک پادکست. مطمئن شوید این نشانی فعال و به‌طور منظم بررسی می‌شود."
+      ],
+      "The end date for the course, in 8601 date format (YYYY-MM-DD), if applicable.": [
+        "در صورت کاربرد، تاریخ پایان دوره در قالب تاریخ 8601 (YYYY-MM-DD)."
+      ],
+      "The end time of the clip expressed as the number of seconds from the beginning of the work.": [
+        "زمان پایان کلیپ به‌صورت تعداد ثانیه از ابتدای اثر."
+      ],
+      "The estimated cost of the supplies consumed when performing instructions.": [
+        "هزینه تخمینی لوازم مصرف‌شده هنگام انجام دستورالعمل‌ها."
+      ],
+      "The experience that's required for the job posting. If there aren't any requirements, use 0.": [
+        "سابقه کاری موردنیاز برای آگهی استخدام. اگر سابقه‌ای لازم نیست، مقدار ۰ را وارد کنید."
+      ],
+      "The file format of the distribution.": [
+        "قالب فایل توزیع."
+      ],
+      "The hiring organization's unique identifier for the job.": [
+        "شناسه یکتای سازمان استخدام‌کننده برای این موقعیت شغلی."
+      ],
+      "The job title of the person (for example, Financial Manager).": [
+        "عنوان شغلی شخص؛ برای مثال مدیر مالی."
+      ],
+      "The label that appears in the sidebar for the custom post type where you can add & manage locations.": [
+        "برچسبی که در نوار کناری برای نوع نوشته سفارشی افزودن و مدیریت مکان‌ها نمایش داده می‌شود."
+      ],
+      "The link for the download.": [
+        "لینک دریافت فایل."
+      ],
+      "The manufacturer of the product. If enabled, the Organization data from Local SEO settings will be used.": [
+        "سازنده محصول. در صورت فعال‌سازی، اطلاعات سازمان از تنظیمات سئوی محلی استفاده می‌شود."
+      ],
+      "The medium through which the course will be delivered.": [
+        "شیوه ارائه دوره."
+      ],
+      "The name of the company. Leave empty to use your own company information.": [
+        "نام شرکت. برای استفاده از اطلاعات شرکت خودتان، خالی بگذارید."
+      ],
+      "The name of the news publication. It must match the name exactly as it appears on your articles in news. google.com, omitting any trailing parentheticals. <a href=\"https://support.google.com/news/publisher-center/answer/9606710\" target=\"_blank\">More information at support.google.com</a>": [
+        "نام نشریه خبری. این نام باید دقیقاً با نامی که در مقاله‌های شما در news.google.com نمایش داده می‌شود مطابقت داشته باشد و عبارت‌های داخل پرانتز پایانی حذف شوند. <a href=\"https://support.google.com/news/publisher-center/answer/9606710\" target=\"_blank\">اطلاعات بیشتر در support.google.com</a>"
+      ],
+      "The name of the news publication. It must match the name exactly as it appears on your articles in news.google.com, omitting any trailing parentheticals. <a href=\"https://support.google.com/news/publisher-center/answer/9606710\" target=\"_blank\">More information at support.google.com</a>": [
+        "نام نشریه خبری. این نام باید دقیقاً با نامی که در مقالات شما در news.google.com نمایش داده می‌شود مطابقت داشته باشد و عبارت‌های داخل پرانتز انتهایی حذف شوند. <a href=\"https://support.google.com/news/publisher-center/answer/9606710\" target=\"_blank\">اطلاعات بیشتر در support.google.com</a>"
+      ],
+      "The number of calories in the recipe. Optional.": [
+        "میزان کالری دستور پخت. اختیاری."
+      ],
+      "The numerical price of the course, if applicable.": [
+        "در صورت کاربرد، قیمت عددی دوره."
+      ],
+      "The numerical value for how long the course lasts for, in repeatFrequency units. For example, if the repeatFrequency is monthly and the repeatCount is 4, the course lasts for 4 months.": [
+        "مقدار عددی مدت دوره براساس واحد repeatFrequency. برای مثال اگر repeatFrequency ماهانه و repeatCount برابر ۴ باشد، دوره ۴ ماه طول می‌کشد."
+      ],
+      "The original date on which employer posted the job. You can leave it empty to use the post publication date as job posted date": [
+        "تاریخ اصلی انتشار آگهی توسط کارفرما. می‌توانید آن را خالی بگذارید تا تاریخ انتشار نوشته به‌عنوان تاریخ انتشار آگهی استفاده شود"
+      ],
+      "The price range of the business.": [
+        "بازه قیمت کسب‌وکار."
+      ],
+      "The pricing category of the course. Example: Free, Partially Free, Subscription, Paid": [
+        "دسته قیمت‌گذاری دوره؛ برای مثال رایگان، بخشی رایگان، اشتراکی یا پولی"
+      ],
+      "The primary focus keyword set for the post.": [
+        "کلمه کلیدی اصلی تعیین‌شده برای نوشته."
+      ],
+      "The rating of the video. Supported values are float numbers in the range 0.0 (low) to 5.0 (high), inclusive. (Used in the Video Sitemap only)": [
+        "امتیاز ویدیو. مقادیر پشتیبانی‌شده اعداد اعشاری بین ۰٫۰ (کمترین) تا ۵٫۰ (بیشترین) هستند. (فقط در نقشه سایت ویدیو استفاده می‌شود)"
+      ],
+      "The review or rating must be displayed on the page to comply with Google's Schema guidelines.": [
+        "برای رعایت دستورالعمل اسکیما گوگل، نقد یا امتیاز باید در صفحه نمایش داده شود."
+      ],
+      "The same dataset can be included in more than one such repository. You can refer to a data catalog that this dataset belongs to by referencing it directly.": [
+        "یک مجموعه‌داده می‌تواند در بیش از یک مخزن قرار داشته باشد. می‌توانید با ارجاع مستقیم، فهرست داده‌ای را که این مجموعه‌داده به آن تعلق دارد مشخص کنید."
+      ],
+      "The start date for the course, in 8601 date format (YYYY-MM-DD), if applicable.": [
+        "در صورت کاربرد، تاریخ شروع دوره در قالب تاریخ 8601 (YYYY-MM-DD)."
+      ],
+      "The start time of the clip expressed as the number of seconds from the beginning of the work.": [
+        "زمان شروع کلیپ به‌صورت تعداد ثانیه از ابتدای اثر."
+      ],
+      "The timezone is used to calculate the Open now functionality.": [
+        "منطقه زمانی برای محاسبه قابلیت «اکنون باز است» استفاده می‌شود."
+      ],
+      "The title of the tome. Use for the title of the tome if it differs from the book. *Optional when tome has the same title as the book": [
+        "عنوان جلد. اگر عنوان جلد با کتاب متفاوت است از این فیلد استفاده کنید. اگر عنوان جلد و کتاب یکسان است، این فیلد اختیاری است"
+      ],
+      "The total test count is different for the competitor as we don't have access to their database.": [
+        "تعداد کل آزمون‌ها برای رقیب متفاوت است، زیرا به پایگاه داده او دسترسی نداریم."
+      ],
+      "The truthfulness rating assigned to ClaimReview.reviewRating, as a human-readible short word or phrase. This value is displayed in the fact check in search results. Examples: <code>True, Mostly true</code>": [
+        "امتیاز صحت اختصاص‌یافته به ClaimReview.reviewRating به‌شکل یک واژه یا عبارت کوتاه و خوانا برای انسان. این مقدار در بررسی واقعیت نتایج جستجو نمایش داده می‌شود. نمونه‌ها: <code>درست، عمدتاً درست</code>"
+      ],
+      "The venue name.": [
+        "نام محل برگزاری."
+      ],
+      "These changes will be reverted. Deselect any you want to keep.": [
+        "این تغییرات بازگردانی خواهند شد. مواردی را که می‌خواهید حفظ شوند از انتخاب خارج کنید."
+      ],
+      "These suggestions were created using AI. Please review carefully and uncheck any you don't want to add.": [
+        "این پیشنهادها با هوش مصنوعی ساخته شده‌اند. آن‌ها را با دقت بررسی کنید و مواردی را که نمی‌خواهید اضافه شوند از انتخاب خارج کنید."
+      ],
+      "This feature requires the Content AI module to be enabled. Enable it now to access AI-powered features.": [
+        "این قابلیت نیازمند فعال‌بودن ماژول هوش مصنوعی محتوا است. برای دسترسی به قابلیت‌های مبتنی بر هوش مصنوعی، اکنون آن را فعال کنید."
+      ],
+      "This internal link has nofollow attribute": [
+        "این لینک داخلی دارای ویژگی nofollow است"
+      ],
+      "This is how many times your site has been clicked on in the search results.": [
+        "این تعداد دفعاتی است که در نتایج جستجو روی سایت شما کلیک شده است."
+      ],
+      "This is how many times your site showed up in the search results.": [
+        "تعداد دفعاتی که سایت شما در نتایج جستجو نمایش داده شده است."
+      ],
+      "This is how many times your site was clicked on in the search results.": [
+        "این تعداد دفعاتی است که در نتایج جستجو روی سایت شما کلیک شده است."
+      ],
+      "This is the average click-through rate (total clicks divided by total impressions).": [
+        "این میانگین نرخ کلیک است (تعداد کل کلیک‌ها تقسیم بر تعداد کل نمایش‌ها)."
+      ],
+      "This is the current position of your site in the search results.": [
+        "این جایگاه فعلی سایت شما در نتایج جستجو است."
+      ],
+      "This is the number of pageviews carried out by visitors from Google.": [
+        "این تعداد بازدید صفحه‌ای است که بازدیدکنندگان ورودی از گوگل انجام داده‌اند."
+      ],
+      "This is the total number of keywords your site ranked for.": [
+        "این تعداد کل کلمات کلیدی است که سایت شما برای آن‌ها رتبه گرفته است."
+      ],
+      "This is your total AdSense earning from the time period.": [
+        "این مجموع درآمد ادسنس شما در بازه زمانی انتخاب‌شده است."
+      ],
+      "This option allows you to monitor the SEO performance of all of your sites in one centralized dashboard on RankMath.com, so you can check up on sites at a glance. <a href=\"%1$s\" target=\"_blank\">Learn more</a>.": [
+        "این گزینه به شما امکان می‌دهد عملکرد سئوی همه سایت‌های خود را در یک پیشخوان متمرکز در RankMath.com پایش کنید تا وضعیت سایت‌ها را در یک نگاه ببینید. <a href=\"%1$s\" target=\"_blank\">بیشتر بدانید</a>."
+      ],
+      "This option allows you to show %s in the Analytics graphs.": [
+        "این گزینه به شما امکان می‌دهد %s را در نمودارهای آنالیتیکس نمایش دهید."
+      ],
+      "This post has internal links with nofollow. Click to view them.": [
+        "این نوشته دارای لینک‌های داخلی nofollow است. برای مشاهده آن‌ها کلیک کنید."
+      ],
+      "This post has no internal links. We recommend that you add links to this URL in other posts of your website.": [
+        "این نوشته هیچ پیوند داخلی ندارد. پیشنهاد می‌کنیم در نوشته‌های دیگر سایت به این نشانی پیوند دهید."
+      ],
+      "This update will affect more than ": [
+        "این به‌روزرسانی بر بیش از "
+      ],
+      "This will delete all existing link data and regenerate links for all posts. This process may take several minutes. Do you want to continue?": [
+        "این کار همه داده‌های لینک موجود را حذف و لینک‌های همه نوشته‌ها را بازتولید می‌کند. این فرایند ممکن است چند دقیقه طول بکشد. آیا می‌خواهید ادامه دهید؟"
+      ],
+      "This will mark the link as not broken and exclude it from error counts. You can optionally provide a reason for future reference.": [
+        "این کار لینک را به‌عنوان خراب‌نبودن علامت‌گذاری و از شمارش خطاها خارج می‌کند. برای مراجعه بعدی می‌توانید یک دلیل اختیاری وارد کنید."
+      ],
+      "This will restore selected posts to their original content before the bulk update.": [
+        "این کار نوشته‌های انتخاب‌شده را به محتوای اصلی پیش از به‌روزرسانی گروهی بازمی‌گرداند."
+      ],
+      "This will restore selected posts to their original content before the keyword map was executed.": [
+        "این کار نوشته‌های انتخاب‌شده را به محتوای اصلی پیش از اجرای نگاشت کلمه کلیدی بازمی‌گرداند."
+      ],
+      "Timeframe": [
+        "بازه زمانی"
+      ],
+      "Timor-Leste": [
+        "تیمور-لسته"
+      ],
+      "Title": [
+        "عنوان"
+      ],
+      "Title Casing": [
+        "حالت حروف عنوان"
+      ],
+      "To Date": [
+        "تا تاریخ"
+      ],
+      "Togo": [
+        "توگو"
+      ],
+      "Tokelau": [
+        "توکلائو"
+      ],
+      "Tonga": [
+        "تونگا"
+      ],
+      "Tool": [
+        "ابزار"
+      ],
+      "Tools": [
+        "ابزارها"
+      ],
+      "Top 5 Losing Keywords": [
+        "۵ کلمه کلیدی برتر افت‌کرده"
+      ],
+      "Top 5 Losing Posts": [
+        "۵ نوشته برتر افت‌کرده"
+      ],
+      "Top 5 Winning Keywords": [
+        "۵ کلمه کلیدی برتر صعودکرده"
+      ],
+      "Top 5 Winning Posts": [
+        "۵ نوشته برتر صعودکرده"
+      ],
+      "Top Center": [
+        "بالا وسط"
+      ],
+      "Top Left": [
+        "بالا چپ"
+      ],
+      "Top Linked": [
+        "بیشترین لینک دریافتی"
+      ],
+      "Top Losing Keywords": [
+        "کلمات کلیدی با بیشترین افت"
+      ],
+      "Top Losing Posts": [
+        "برترین نوشته‌های افت‌کرده"
+      ],
+      "Top Right": [
+        "بالا راست"
+      ],
+      "Top Statuses": [
+        "وضعیت‌های برتر"
+      ],
+      "Top Winning Keywords": [
+        "کلمات کلیدی با بیشترین رشد"
+      ],
+      "Top Winning Posts": [
+        "برترین نوشته‌های صعودکرده"
+      ],
+      "Total": [
+        "مجموع"
+      ],
+      "Total Appearances:": [
+        "مجموع نمایش‌ها:"
+      ],
+      "Total Clicks": [
+        "کل کلیک‌ها"
+      ],
+      "Total Impressions": [
+        "کل نمایش‌ها"
+      ],
+      "Total Keywords": [
+        "کل کلمات کلیدی"
+      ],
+      "Total Links": [
+        "کل پیوندها"
+      ],
+      "Total Links Found": [
+        "مجموع لینک‌های یافت‌شده"
+      ],
+      "Total Posts": [
+        "کل نوشته‌ها"
+      ],
+      "Total Time": [
+        "کل زمان"
+      ],
+      "Total number of keywords your site ranks for within top 100 positions.": [
+        "تعداد کل کلمات کلیدی که سایت شما برای آن‌ها در ۱۰۰ جایگاه نخست رتبه دارد."
+      ],
+      "Total time to watch all videos and complete all assignments and exams for the course. Use the 8601 format. Example: PT22H": [
+        "کل زمان لازم برای مشاهده همه ویدیوها و تکمیل تکالیف و آزمون‌های دوره. از قالب 8601 استفاده کنید؛ برای مثال: PT22H"
+      ],
+      "Tracking Prefix": [
+        "پیشوند ردیابی"
+      ],
+      "Traffic": [
+        "ترافیک"
+      ],
+      "Transactional": [
+        "تراکنشی"
+      ],
+      "Trend": [
+        "روند"
+      ],
+      "Trinidad and Tobago": [
+        "ترینیداد و توباگو"
+      ],
+      "Tunisia": [
+        "تونس"
+      ],
+      "Turkey": [
+        "ترکیه"
+      ],
+      "Turkmenistan": [
+        "ترکمنستان"
+      ],
+      "Turks and Caicos Islands": [
+        "جزایر تورکس و کایکوس"
+      ],
+      "Tuvalu": [
+        "تووالو"
+      ],
+      "Type": [
+        "نوع"
+      ],
+      "Type of dish, for example appetizer, or dessert.": [
+        "نوع غذا؛ برای مثال پیش‌غذا یا دسر."
+      ],
+      "Type of employment. You can choose more than one value": [
+        "نوع استخدام. می‌توانید بیش از یک مقدار انتخاب کنید"
+      ],
+      "Type of the event": [
+        "نوع رویداد"
+      ],
+      "URL": [
+        "نشانی اینترنتی"
+      ],
+      "URL / Online Page": [
+        "نشانی اینترنتی / صفحه آنلاین"
+      ],
+      "URL Change": [
+        "تغییر نشانی اینترنتی"
+      ],
+      "URL Only": [
+        "فقط نشانی اینترنتی"
+      ],
+      "URL Settings": [
+        "تنظیمات نشانی اینترنتی"
+      ],
+      "URL is required": [
+        "نشانی اینترنتی الزامی است"
+      ],
+      "URL of a reference Web page that unambiguously indicates the dataset's identity, usually in a different repository.": [
+        "نشانی صفحه مرجعی که هویت مجموعه‌داده را به‌طور روشن مشخص می‌کند و معمولاً در مخزن دیگری قرار دارد."
+      ],
+      "URL pointing to the menu of the restaurant.": [
+        "نشانی اینترنتی منوی رستوران."
+      ],
+      "URL specific to this edition if one exists": [
+        "نشانی اینترنتی مخصوص این ویرایش، در صورت وجود"
+      ],
+      "URL to find": [
+        "نشانی مورد جستجو"
+      ],
+      "URL where the logo link should point to.": [
+        "نشانی اینترنتی مقصد لینک لوگو."
+      ],
+      "URL:": [
+        "نشانی اینترنتی:"
+      ],
+      "USD": [
+        "دلار آمریکا"
+      ],
+      "Uganda": [
+        "اوگاندا"
+      ],
+      "Ukraine": [
+        "اوکراین"
+      ],
+      "Unable to fetch related posts. Please check Content AI requirements.": [
+        "دریافت نوشته‌های مرتبط ممکن نشد. الزامات هوش مصنوعی محتوا را بررسی کنید."
+      ],
+      "Unable to generate suggestions. Please check Content AI requirements.": [
+        "ساخت پیشنهادها ممکن نشد. الزامات هوش مصنوعی محتوا را بررسی کنید."
+      ],
+      "Unable to install the Imagify plugin. Please try again later.": [
+        "نصب افزونه Imagify ممکن نشد. لطفاً بعداً دوباره تلاش کنید."
+      ],
+      "Unchecked": [
+        "علامت‌نخورده"
+      ],
+      "Undo": [
+        "واگردانی"
+      ],
+      "United Arab Emirates": [
+        "امارات متحدهٔ عربی"
+      ],
+      "United Kingdom": [
+        "بریتانیا"
+      ],
+      "United Kingdom (UK)": [
+        "بریتانیا"
+      ],
+      "United States": [
+        "ایالات متحده"
+      ],
+      "United States (US)": [
+        "ایالات متحده"
+      ],
+      "Unpublish when expired": [
+        "لغو انتشار پس از انقضا"
+      ],
+      "Update Keyword Map": [
+        "به‌روزرسانی نگاشت کلمه کلیدی"
+      ],
+      "Update Type:": [
+        "نوع به‌روزرسانی:"
+      ],
+      "Upgrade": [
+        "ارتقا"
+      ],
+      "Upgrade your plan!": [
+        "پلن خود را ارتقا دهید!"
+      ],
+      "Upload": [
+        "بارگذاری"
+      ],
+      "Upload Date": [
+        "تاریخ بارگذاری"
+      ],
+      "Uploading…": [
+        "در حال بارگذاری…"
+      ],
+      "Uruguay": [
+        "اروگوئه"
+      ],
+      "Use": [
+        "استفاده"
+      ],
+      "Use \"Exact Match\" for precise replacements to avoid accidentally changing partial words within other sentences.": [
+        "برای جلوگیری از تغییر ناخواسته بخش‌هایی از واژه‌ها در جمله‌های دیگر، از «تطابق دقیق» برای جایگزینی دقیق استفاده کنید."
+      ],
+      "Use 24h Format": [
+        "استفاده از قالب ۲۴ ساعته"
+      ],
+      "Use Exp in place of Education": [
+        "استفاده از سابقه کاری به‌جای تحصیلات"
+      ],
+      "Use Multiple Locations": [
+        "استفاده از چند مکان"
+      ],
+      "Use advanced options": [
+        "استفاده از گزینه‌های پیشرفته"
+      ],
+      "Use this property to specify geographic location(s) in which employees may be located for work from home jobs. At least one country is required.": [
+        "از این ویژگی برای مشخص‌کردن مکان‌های جغرافیایی مجاز کارکنان در مشاغل دورکاری استفاده کنید. واردکردن حداقل یک کشور الزامی است."
+      ],
+      "Use this property to specify that the job is a Work From Home (remote) job. keep address empty if job is 100% remote.": [
+        "از این ویژگی برای مشخص‌کردن دورکاری‌بودن شغل استفاده کنید. اگر شغل کاملاً دورکار است، نشانی را خالی بگذارید."
+      ],
+      "Use this section only for <a href=https://rankmath.com/kb/review-schema/#editorial-reviews?utm_source=Plugin&utm_medium=Review+Schema&utm_campaign=WP target=_blank>editorial reviews</a>.": [
+        "این بخش را فقط برای <a href=https://rankmath.com/kb/review-schema/#editorial-reviews?utm_source=Plugin&utm_medium=Review+Schema&utm_campaign=WP target=_blank>نقدهای تحریریه</a> استفاده کنید."
+      ],
+      "Used": [
+        "استفاده‌شده"
+      ],
+      "User Canonical": [
+        "کنونیکال کاربر"
+      ],
+      "User Generated": [
+        "تولیدشده توسط کاربر"
+      ],
+      "User Roles:": [
+        "نقش‌های کاربری:"
+      ],
+      "Users": [
+        "کاربران"
+      ],
+      "Using an \"Index\" or \"NoIndex\" option allows you to control what Google News Bot (not to be confused with Google Search Bot) can include or not include in the Google News Index.": [
+        "با گزینه «ایندکس» یا «نوایندکس» می‌توانید کنترل کنید ربات Google News ــ که با ربات جستجوی گوگل متفاوت است ــ چه محتوایی را در ایندکس Google News وارد کند یا نکند."
+      ],
+      "Uzbekistan": [
+        "ازبکستان"
+      ],
+      "VAT ID": [
+        "شناسه VAT"
+      ],
+      "Vanuatu": [
+        "وانواتو"
+      ],
+      "Variations": [
+        "گونه‌ها"
+      ],
+      "Variations added successfully!": [
+        "گونه‌ها با موفقیت اضافه شدند!"
+      ],
+      "Vatican": [
+        "واتیکان"
+      ],
+      "Venezuela": [
+        "ونزوئلا"
+      ],
+      "Venue Name": [
+        "نام محل برگزاری"
+      ],
+      "Venue URL": [
+        "نشانی اینترنتی محل برگزاری"
+      ],
+      "Verdict": [
+        "نتیجه"
+      ],
+      "Video": [
+        "ویدیو"
+      ],
+      "Video Category": [
+        "دسته‌بندی ویدیو"
+      ],
+      "Video Clip": [
+        "کلیپ ویدیو"
+      ],
+      "Video Post Type": [
+        "نوع نوشته ویدیو"
+      ],
+      "Video Sitemap": [
+        "نقشه سایت ویدیو"
+      ],
+      "Video Sitemaps": [
+        "نقشه‌های سایت ویدیو"
+      ],
+      "Video Sitemaps give search engines information about video content on your site.": [
+        "نقشه‌های سایت ویدیو اطلاعات مربوط به محتوای ویدیویی سایت شما را در اختیار موتورهای جستجو قرار می‌دهند."
+      ],
+      "Video Sitemaps give search engines information about video content on your site. More information: ": [
+        "نقشه‌های سایت ویدیویی اطلاعات محتوای ویدیویی سایت را در اختیار موتورهای جستجو قرار می‌دهند. اطلاعات بیشتر: "
+      ],
+      "Video Tags": [
+        "برچسب‌های ویدیو"
+      ],
+      "Video Thumbnail": [
+        "تصویر بندانگشتی ویدیو"
+      ],
+      "Video URL": [
+        "نشانی اینترنتی ویدیو"
+      ],
+      "Video Upload Date": [
+        "تاریخ بارگذاری ویدیو"
+      ],
+      "Vietnam": [
+        "ویتنام"
+      ],
+      "View": [
+        "مشاهده"
+      ],
+      "View %d links": [
+        "مشاهده %d لینک"
+      ],
+      "View All": [
+        "مشاهده همه"
+      ],
+      "View external links from this post": [
+        "مشاهده پیوندهای خارجی این نوشته"
+      ],
+      "View incoming links to this post": [
+        "مشاهده پیوندهای ورودی به این نوشته"
+      ],
+      "View internal links from this post": [
+        "مشاهده پیوندهای داخلی این نوشته"
+      ],
+      "View link": [
+        "مشاهده لینک"
+      ],
+      "WARNING: This will permanently remove the links from your post content. This action cannot be undone.": [
+        "هشدار: این کار لینک‌ها را برای همیشه از محتوای نوشته شما حذف می‌کند و قابل بازگشت نیست."
+      ],
+      "Wallis and Futuna": [
+        "والیس و فوتونا"
+      ],
+      "Warning:": [
+        "هشدار:"
+      ],
+      "Website URL of the venue": [
+        "نشانی اینترنتی محل برگزاری"
+      ],
+      "Website or Social Link": [
+        "وب‌سایت یا پیوند شبکه اجتماعی"
+      ],
+      "Western Sahara": [
+        "صحرای غربی"
+      ],
+      "Western Samoa": [
+        "ساموآ"
+      ],
+      "What to Update": [
+        "موارد قابل‌به‌روزرسانی"
+      ],
+      "When enabled, the Winning Keywords and Losing Keywords sections will only show Tracked Keywords.": [
+        "در صورت فعال‌بودن، بخش‌های کلمات کلیدی صعودکرده و افت‌کرده فقط کلمات کلیدی ردیابی‌شده را نمایش می‌دهند."
+      ],
+      "When you're done editing, don't forget to hit \"publish\" to create this location.": [
+        "پس از پایان ویرایش، برای ساخت این مکان فراموش نکنید روی «انتشار» کلیک کنید."
+      ],
+      "Where do you want to use this Schema template?": [
+        "می‌خواهید از این الگوی اسکیما در کجا استفاده کنید؟"
+      ],
+      "Whole Word Only": [
+        "فقط واژه کامل"
+      ],
+      "Width": [
+        "عرض"
+      ],
+      "With Incoming Links": [
+        "دارای پیوند ورودی"
+      ],
+      "With Nofollow": [
+        "با نوفالو"
+      ],
+      "Without Nofollow": [
+        "بدون نوفالو"
+      ],
+      "Working Links": [
+        "لینک‌های سالم"
+      ],
+      "Worldwide": [
+        "سراسر جهان"
+      ],
+      "Yemen": [
+        "یمن"
+      ],
+      "Yes": [
+        "بله"
+      ],
+      "You can either use this shortcode or Schema Block in the block editor to print the schema data in the content in order to meet the Google's guidelines. Read more about it <a href=https://developers.google.com/search/docs/guides/sd-policies#content target=_blank>here</a>.": [
+        "برای نمایش داده‌های اسکیما در محتوا و رعایت دستورالعمل‌های گوگل، می‌توانید از این کد کوتاه یا بلوک اسکیما در ویرایشگر بلوک استفاده کنید. درباره آن <a href=https://developers.google.com/search/docs/guides/sd-policies#content target=_blank>اینجا</a> بیشتر بخوانید."
+      ],
+      "You can use the Local Business Block in the block editor, or copy and paste this in the content. <a href=https://rankmath.com/kb/location-data-shortcode/ target=_blank>Learn more</a>": [
+        "می‌توانید از بلوک کسب‌وکار محلی در ویرایشگر بلوک استفاده کنید یا این کد را در محتوا کپی و جای‌گذاری کنید. <a href=https://rankmath.com/kb/location-data-shortcode/ target=_blank>بیشتر بدانید</a>"
+      ],
+      "You can use the Schema Block in the block editor, or copy and paste this in the content. This shortcode will work on this page only.": [
+        "می‌توانید از بلوک اسکیما در ویرایشگر بلوک استفاده کنید یا این کد را در محتوا کپی و جای‌گذاری کنید. این کد کوتاه فقط در همین صفحه کار می‌کند."
+      ],
+      "You have reached the monthly limit for this feature. Please contact your SEO service provider to get more usage.": [
+        "به محدودیت ماهانه این قابلیت رسیده‌اید. برای دریافت میزان استفاده بیشتر با ارائه‌دهنده خدمات سئوی خود تماس بگیرید."
+      ],
+      "You will generally only need a News Sitemap when your website is included in Google News.": [
+        "معمولاً فقط زمانی به نقشه سایت خبری نیاز دارید که وب‌سایت شما در Google News قرار گرفته باشد."
+      ],
+      "You will generally only need a Video Sitemap when your website has video content.": [
+        "معمولاً فقط زمانی به نقشه سایت ویدیو نیاز دارید که وب‌سایت شما محتوای ویدیویی داشته باشد."
+      ],
+      "You've used %1$d of %2$d %3$s this month.": [
+        "این ماه %1$d از %2$d %3$s را استفاده کرده‌اید."
+      ],
+      "YouTube API Key": [
+        "کلید API یوتیوب"
+      ],
+      "Your Locations KML file can be found here: %s": [
+        "فایل KML مکان‌های شما در اینجا در دسترس است: %s"
+      ],
+      "Your News Sitemap index can be found here: %s": [
+        "فهرست نقشه سایت خبری شما در اینجا در دسترس است: %s"
+      ],
+      "Your Podcast RSS feed can be found here: %s": [
+        "خوراک RSS پادکست شما در اینجا در دسترس است: %s"
+      ],
+      "Your Site": [
+        "سایت شما"
+      ],
+      "Your Templates": [
+        "الگوهای شما"
+      ],
+      "Your Video Sitemap index can be found here: %s": [
+        "فهرست نقشه سایت ویدیویی شما در اینجا در دسترس است: %s"
+      ],
+      "Your keyword quota has expired. Please upgrade your plan to increase the limit.": [
+        "سهمیه کلمات کلیدی شما به پایان رسیده است. برای افزایش محدودیت، پلن خود را ارتقا دهید."
+      ],
+      "Zambia": [
+        "زامبیا"
+      ],
+      "Zimbabwe": [
+        "زیمبابوه"
+      ],
+      "Zoom Level": [
+        "سطح بزرگ‌نمایی"
+      ],
+      "[Edit]": [
+        "[ویرایش]"
+      ],
+      "all lowercase": [
+        "همه با حروف کوچک"
+      ],
+      "as not broken?": [
+        "به‌عنوان خراب‌نبودن؟"
+      ],
+      "cssSelectors": [
+        "انتخابگرهای CSS"
+      ],
+      "days ago": [
+        "روز پیش"
+      ],
+      "detectedItems": [
+        "موارد شناسایی‌شده"
+      ],
+      "duplicate variation(s) were skipped.": [
+        "گونه تکراری نادیده گرفته شد."
+      ],
+      "hours ago": [
+        "ساعت پیش"
+      ],
+      "https://google.com": [
+        "https://google.com"
+      ],
+      "link": [
+        "لینک"
+      ],
+      "links": [
+        "لینک"
+      ],
+      "locations.kml Sitemap is generated automatically when the Local SEO module is enabled, and the geo-coordinates are added.": [
+        "هنگامی که ماژول سئوی محلی فعال و مختصات جغرافیایی افزوده شود، نقشه سایت locations.kml به‌صورت خودکار تولید می‌شود."
+      ],
+      "of": [
+        "از"
+      ],
+      "requests": [
+        "درخواست"
+      ],
+      "rows": [
+        "ردیف"
+      ],
+      "rows (will notify when ready)": [
+        "ردیف (پس از آماده‌شدن اطلاع داده می‌شود)"
+      ],
+      "sameAs": [
+        "sameAs"
+      ],
+      "selected": [
+        "انتخاب‌شده"
+      ],
+      "to": [
+        "تا"
+      ],
+      "uses": [
+        "استفاده می‌کند"
+      ],
+      "variation(s) will be added": [
+        "گونه اضافه خواهد شد"
+      ],
+      "Åland Islands": [
+        "جزایر آلاند"
+      ],
+      "↳": [
+        "↳"
+      ],
+      "🚀 Enable Content AI Module": [
+        "🚀 فعال‌کردن ماژول هوش مصنوعی محتوا"
+      ]
+    },
+    "rank-name-pro": {
+      "": {
+        "domain": "rank-name-pro",
+        "lang": "fa_IR",
+        "plural-forms": "nplurals=2; plural=(n > 1);"
+      },
+      "The podcast owner contact name.": [
+        "نام تماس مالک پادکست."
+      ]
+    },
+    "woocommerce": {
+      "": {
+        "domain": "woocommerce",
+        "lang": "fa_IR",
+        "plural-forms": "nplurals=2; plural=(n > 1);"
+      },
+      "(scroll to see more)": [
+        "(برای مشاهده موارد بیشتر پیمایش کنید)"
+      ],
+      "Choose which values to display": [
+        "مقادیر موردنظر برای نمایش را انتخاب کنید"
+      ],
+      "Columns:": [
+        "ستون‌ها:"
+      ],
+      "Go to page": [
+        "رفتن به صفحه"
+      ],
+      "Next Page": [
+        "صفحه بعدی"
+      ],
+      "No data to display": [
+        "داده‌ای برای نمایش وجود ندارد"
+      ],
+      "Page %1$d of %2$d": [
+        "صفحه %1$d از %2$d"
+      ],
+      "Previous Page": [
+        "صفحه قبلی"
+      ],
+      "Rows per page": [
+        "تعداد ردیف در هر صفحه"
+      ],
+      "Sort by %s in ascending order": [
+        "مرتب‌سازی صعودی براساس %s"
+      ],
+      "Sort by %s in descending order": [
+        "مرتب‌سازی نزولی براساس %s"
+      ],
+      "Your requested data is loading": [
+        "داده درخواستی شما در حال بارگذاری است"
+      ]
+    }
+  },
+  "metadata": {
+    "source_archive": "js-pro.zip",
+    "source_archive_sha256": "b98232ac87d924b5cf58f081152e82b8852e20ae140bd545531c7c86fe710cd6",
+    "js_files_scanned": 63,
+    "static_translation_calls_including_empty": 3214,
+    "empty_msgid_calls": 1,
+    "unique_translated_keys": 1743,
+    "dynamic_i18n_calls": 0,
+    "parser": "TypeScript AST; supports direct and minified calls such as (0,x.__)(...)"
+  }
+}

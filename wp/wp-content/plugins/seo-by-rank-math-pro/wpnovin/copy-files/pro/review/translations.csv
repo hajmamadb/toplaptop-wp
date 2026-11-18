@@ -1,0 +1,1744 @@
+﻿domain,function,context,source,plural_source,translation_singular,translation_plural,source_files
+%domain%,__,,Imagify installed! Click here to start using it.,,Imagify نصب شد! برای شروع استفاده اینجا کلیک کنید.,,index.js
+%domain%,__,,Install Imagify Now,,اکنون Imagify را نصب کنید,,index.js
+%domain%,__,,Optimize Your Images,,تصاویر خود را بهینه کنید,,index.js
+default,__,,Block rendered as empty.,,بلوک به‌صورت خالی نمایش داده شد.,,index 3.js | index 8.js
+default,__,,Error loading block: %s,,خطا در بارگذاری بلوک: %s,,index 3.js | index 8.js
+default,__,,Link edited.,,لینک ویرایش شد.,,gutenberg-formats.js
+default,__,,Link inserted.,,لینک درج شد.,,gutenberg-formats.js
+default,__,,Link removed.,,لینک حذف شد.,,gutenberg-formats.js
+default,__,,Warning: the link has been inserted but may have errors. Please test it.,,هشدار: لینک درج شده است، اما ممکن است خطا داشته باشد. لطفاً آن را آزمایش کنید.,,gutenberg-formats.js
+rank-math,__,,#,,#,,stats.js
+rank-math,__,,%s (opens in a new tab),,%s (در زبانه جدید باز می‌شود),,gutenberg-formats.js
+rank-math,__,,AI Only,,فقط هوش مصنوعی,,stats.js
+rank-math,__,,All,,همه,,stats.js
+rank-math,__,,All Traffic,,همه ترافیک,,stats.js
+rank-math,__,,An unknown error occurred. Please try refreshing.,,خطای ناشناخته‌ای رخ داد. لطفاً صفحه را تازه‌سازی کنید.,,edit 2.js | index 3.js
+rank-math,__,,Button URL,,نشانی دکمه,,edit 2.js | index 3.js
+rank-math,__,,Button text,,متن دکمه,,edit 2.js | index 3.js
+rank-math,__,,CTR,,نرخ کلیک,,stats.js
+rank-math,__,,Clicks,,کلیک‌ها,,stats.js
+rank-math,__,,Content,,محتوا,,stats.js
+rank-math,__,,Daily,,روزانه,,schemaFilters.js
+rank-math,__,,Delete,,حذف,,schemaFilters.js
+rank-math,__,,Delete?,,حذف شود؟,,schemaFilters.js
+rank-math,__,,Edit,,ویرایش,,schemaFilters.js
+rank-math,__,,Export,,برون‌بری,,Export.js | status.js
+rank-math,__,,Export CSV,,برون‌بری CSV,,CSVFile.js | status.js
+rank-math,__,,Failed to load related posts.,,بارگذاری نوشته‌های مرتبط ناموفق بود.,,edit 2.js | index 3.js
+rank-math,__,,Image size,,اندازه تصویر,,edit 2.js | index 3.js
+rank-math,__,,Import CSV,,درون‌ریزی CSV,,CSVFile.js | status.js
+rank-math,__,,Impressions,,نمایش‌ها,,stats.js
+rank-math,__,,Index Status,,وضعیت نمایه‌سازی,,admin-bar.js
+rank-math,__,,Large,,بزرگ,,edit 2.js | index 3.js
+rank-math,__,,Link,,لینک,,gutenberg-formats.js
+rank-math,__,,Loading…,,در حال بارگذاری…,,stats.js
+rank-math,__,,Medium,,متوسط,,edit 2.js | index 3.js
+rank-math,__,,Monthly,,ماهانه,,schemaFilters.js
+rank-math,__,,No,,خیر,,schemaFilters.js
+rank-math,__,,No data found.,,هیچ داده‌ای یافت نشد.,,stats.js
+rank-math,__,,No data to display. Check back later or try to update data manually from %s,,داده‌ای برای نمایش وجود ندارد. بعداً دوباره بررسی کنید یا داده‌ها را به‌صورت دستی از %s به‌روزرسانی کنید,,stats.js
+rank-math,__,,Number of posts,,تعداد نوشته‌ها,,edit 2.js | index 3.js
+rank-math,__,,Position,,جایگاه,,stats.js
+rank-math,__,,Posts,,نوشته‌ها,,stats.js
+rank-math,__,,Presence on Google,,حضور در گوگل,,stats.js
+rank-math,__,,Preview,,پیش‌نمایش,,schemaFilters.js
+rank-math,__,,Rank Math > General Settings > Analytics > Click 'Update data manually' button.,,رنک مث ← تنظیمات عمومی ← آنالیتیکس ← روی دکمه «به‌روزرسانی دستی داده‌ها» کلیک کنید.,,stats.js
+rank-math,__,,Refresh related posts,,تازه‌سازی نوشته‌های مرتبط,,edit 2.js | index 3.js
+rank-math,__,,Refreshing…,,در حال تازه‌سازی…,,edit 2.js | index 3.js
+rank-math,__,,Retry,,تلاش دوباره,,edit 2.js | index 3.js
+rank-math,__,,Save,,ذخیره,,schemaFilters.js
+rank-math,__,,Saved,,ذخیره شد,,schemaFilters.js
+rank-math,__,,Saving,,در حال ذخیره,,schemaFilters.js
+rank-math,__,,Schema in Use,,اسکیمای در حال استفاده,,schemaFilters.js
+rank-math,__,,Select Page,,انتخاب برگه,,option-panel.js
+rank-math,__,,Select Repeat Frequency,,انتخاب تناوب تکرار,,schemaFilters.js
+rank-math,__,,Show date,,نمایش تاریخ,,edit 2.js | index 3.js
+rank-math,__,,Show excerpt,,نمایش چکیده,,edit 2.js | index 3.js
+rank-math,__,,Show image,,نمایش تصویر,,edit 2.js | index 3.js
+rank-math,__,,Show taxonomy chips,,نمایش برچسب‌های طبقه‌بندی,,edit 2.js | index 3.js
+rank-math,__,,Side By Side,,کنار هم,,seo-analysis-pro 2.js | seo-analysis-pro.js
+rank-math,__,,Texts,,متن‌ها,,edit 2.js | index 3.js
+rank-math,__,,Thumbnail,,تصویر بندانگشتی,,edit 2.js | index 3.js
+rank-math,__,,Title,,عنوان,,edit 2.js | index 3.js | stats.js
+rank-math,__,,Total Clicks,,کل کلیک‌ها,,stats.js
+rank-math,__,,Total Impressions,,کل نمایش‌ها,,stats.js
+rank-math,__,,Traffic,,ترافیک,,stats.js
+rank-math,__,,URL Inspection Status,,وضعیت بررسی نشانی اینترنتی,,admin-bar.js
+rank-math,__,,UX,,تجربه کاربری,,edit 2.js | index 3.js
+rank-math,__,,Unlink,,لغو پیوند,,gutenberg-formats.js
+rank-math,__,,Weekly,,هفتگی,,schemaFilters.js
+rank-math,__,,WooCommerce Product,,محصول ووکامرس,,schemaFilters.js
+rank-math,__,,Yearly,,سالانه,,schemaFilters.js
+rank-math,__,,Yes,,بله,,schemaFilters.js
+rank-math-pro,__,, Only include this property if the dataset has a spatial dimension.,, این ویژگی را فقط زمانی وارد کنید که مجموعه‌داده دارای بُعد مکانی باشد.,,schemaFilters.js
+rank-math-pro,__,, links. Please review the changes carefully before applying.,, لینک. لطفاً پیش از اعمال، تغییرات را با دقت بررسی کنید.,,links-page.js
+rank-math-pro,__,, or ,, یا ,,settings.js
+rank-math-pro,__,,#,,#,,stats.js
+rank-math-pro,__,,%1$s to exclude for %2$s,,%1$s برای مستثناکردن از %2$s,,settings.js
+rank-math-pro,__,,%s It is recommended to save a database backup before using this option because importing malformed CSV can result in loss of data.,,%s توصیه می‌شود پیش از استفاده از این گزینه، از پایگاه داده نسخه پشتیبان تهیه کنید؛ زیرا درون‌ریزی فایل CSV معیوب ممکن است باعث از دست رفتن داده‌ها شود.,,Import.js | status.js
+rank-math-pro,__,,%s Please wait while the plugin is being installed and activated.,,%s لطفاً تا نصب و فعال‌سازی افزونه صبر کنید.,,general-options.js | settings.js
+rank-math-pro,__,,(Deleted),,(حذف‌شده),,links-page.js
+rank-math-pro,__,,(empty),,(خالی),,links-page.js
+rank-math-pro,__,,(link removed),,(لینک حذف شد),,links-page.js
+rank-math-pro,__,,(no title),,(بدون عنوان),,editor.js | links-page.js
+rank-math-pro,__,,(plain text),,(متن ساده),,links-page.js
+rank-math-pro,__,,1 Year,,۱ سال,,stats.js
+rank-math-pro,__,,15 Days,,۱۵ روز,,stats.js
+rank-math-pro,__,,200 (OK),,۲۰۰ (موفق),,editor.js | links-page.js
+rank-math-pro,__,,30 Days,,۳۰ روز,,stats.js
+rank-math-pro,__,,301 (Moved Permanently),,۳۰۱ (انتقال دائمی),,editor.js | links-page.js
+rank-math-pro,__,,302 (Found/Temporary Redirect),,۳۰۲ (یافت شد/تغییر مسیر موقت),,editor.js | links-page.js
+rank-math-pro,__,,303 (See Other),,۳۰۳ (مشاهده نشانی دیگر),,editor.js | links-page.js
+rank-math-pro,__,,307 (Temporary Redirect),,۳۰۷ (تغییر مسیر موقت),,editor.js | links-page.js
+rank-math-pro,__,,308 (Permanent Redirect),,۳۰۸ (تغییر مسیر دائمی),,editor.js | links-page.js
+rank-math-pro,__,,401 (Unauthorized),,۴۰۱ (احراز هویت نشده),,editor.js | links-page.js
+rank-math-pro,__,,403 (Forbidden),,۴۰۳ (دسترسی ممنوع),,editor.js | links-page.js
+rank-math-pro,__,,404 (Not Found),,۴۰۴ (یافت نشد),,editor.js | links-page.js
+rank-math-pro,__,,410 (Gone),,۴۱۰ (حذف شده),,editor.js | links-page.js
+rank-math-pro,__,,500 (Server Error),,۵۰۰ (خطای سرور),,editor.js | links-page.js
+rank-math-pro,__,,502 (Bad Gateway),,۵۰۲ (درگاه نامعتبر),,editor.js | links-page.js
+rank-math-pro,__,,503 (Service Unavailable),,۵۰۳ (سرویس در دسترس نیست),,editor.js | links-page.js
+rank-math-pro,__,,6 Months,,۶ ماه,,stats.js
+rank-math-pro,__,,7 Days,,۷ روز,,stats.js
+rank-math-pro,__,,90 Days,,۹۰ روز,,stats.js
+rank-math-pro,__,,"<strong>Min Size: 1400x1400px, Max Size: 3000x3000px</strong>.<br /> The filesize should not exceed 0.5MB.",,<strong>حداقل اندازه: 1400x1400 پیکسل، حداکثر اندازه: 3000x3000 پیکسل</strong>.<br /> حجم فایل نباید بیشتر از 0.5MB باشد.,,settings.js
+rank-math-pro,__,,A URL pointing to the actual video media file,,نشانی اینترنتی فایل اصلی ویدیو,,schemaFilters.js
+rank-math-pro,__,,"A URL pointing to the actual video media file like MP4, MOV, etc. Please leave it empty if you don't know the URL.",,نشانی اینترنتی فایل اصلی ویدیو مانند MP4، MOV و موارد مشابه. اگر نشانی را نمی‌دانید، این قسمت را خالی بگذارید.,,schemaFilters.js
+rank-math-pro,__,,A URL pointing to the embeddable player for the video. Example: <code>https://www.youtube.com/embed/VIDEOID</code>,,نشانی اینترنتی پخش‌کننده قابل جاسازی ویدیو. نمونه: <code>https://www.youtube.com/embed/VIDEOID</code>,,schemaFilters.js
+rank-math-pro,__,,A URL that points to the start time of the clip. The clip URL must point to the same URL path as the video with additional query parameters that specify the time.,,نشانی اینترنتی‌ای که به زمان شروع کلیپ اشاره می‌کند. نشانی کلیپ باید همان مسیر نشانی ویدیو را با پارامترهای پرس‌وجوی اضافی برای تعیین زمان داشته باشد.,,schemaFilters.js
+rank-math-pro,__,,"A descriptive name for this keyword map (e.g., ""SEO Guide Link"")",,نامی توصیفی برای این نگاشت کلمه کلیدی؛ برای نمونه «لینک راهنمای سئو»,,links-page.js
+rank-math-pro,__,,A descriptive name of a dataset.,,نامی توصیفی برای مجموعه‌داده.,,schemaFilters.js
+rank-math-pro,__,,A license under which the dataset is distributed.,,مجوزی که مجموعه‌داده براساس آن منتشر می‌شود.,,schemaFilters.js
+rank-math-pro,__,,A plaintext description of the episode without HTML tags.,,توضیح متنی ساده برای قسمت، بدون تگ‌های HTML.,,schemaFilters.js
+rank-math-pro,__,,A plaintext description of the podcast.,,توضیحات متنی ساده برای پادکست.,,settings.js
+rank-math-pro,__,,A recipe video Description,,توضیحات ویدیوی دستور پخت,,schemaFilters.js
+rank-math-pro,__,,A recipe video Name,,نام ویدیوی دستور پخت,,schemaFilters.js
+rank-math-pro,__,,A recipe video thumbnail URL,,نشانی تصویر بندانگشتی ویدیوی دستور پخت,,schemaFilters.js
+rank-math-pro,__,,A short description of the broad category that the video belongs to. Add coma separated video categories. (Used in the Video Sitemap only),,توضیح کوتاهی از دسته‌بندی کلی ویدیو. دسته‌های ویدیو را با کاما جدا کنید. (فقط در نقشه سایت ویدیو استفاده می‌شود),,schemaFilters.js
+rank-math-pro,__,,A short summary describing a dataset.,,خلاصه‌ای کوتاه برای توصیف مجموعه‌داده.,,schemaFilters.js
+rank-math-pro,__,,A video URL. Optional.,,نشانی اینترنتی ویدیو؛ اختیاری است.,,schemaFilters.js
+rank-math-pro,__,,A video thumbnail URL,,نشانی اینترنتی تصویر بندانگشتی ویدیو,,schemaFilters.js
+rank-math-pro,__,,AI,,هوش مصنوعی,,links-page.js
+rank-math-pro,__,,AI Link Genius,,لینک جنیوس هوش مصنوعی,,links-page.js
+rank-math-pro,__,,AI Suggestions,,پیشنهادهای هوش مصنوعی,,editor.js
+rank-math-pro,__,,AI-Generated Variations,,گونه‌های تولیدشده با هوش مصنوعی,,links-page.js
+rank-math-pro,__,,ALL UPPERCASE,,همه با حروف بزرگ,,settings.js
+rank-math-pro,__,,Account,,حساب,,settings.js | setup-wizard.js
+rank-math-pro,__,,Action,,عملیات,,links-page.js
+rank-math-pro,__,,AdSense,,ادسنس,,stats.js
+rank-math-pro,__,,Add,,افزودن,,divi.js | elementor.js | gutenberg.js | links-page.js | stats.js
+rank-math-pro,__,,Add <code>alt</code> attributes for commenter profile pictures (avatars) automatically. The alt attribute value will be the username.,,ویژگی <code>alt</code> را به‌صورت خودکار به تصاویر نمایه دیدگاه‌گذاران (آواتارها) اضافه کنید. مقدار ویژگی alt نام کاربری خواهد بود.,,settings.js
+rank-math-pro,__,,Add ALT attributes for avatars,,افزودن ویژگی ALT به آواتارها,,settings.js
+rank-math-pro,__,,Add Image,,افزودن تصویر,,settings.js
+rank-math-pro,__,,Add Manufacturer,,افزودن سازنده,,schemaFilters.js
+rank-math-pro,__,,Add New,,افزودن جدید,,redirections.js
+rank-math-pro,__,,Add New Condition,,افزودن شرط جدید,,schemaFilters.js
+rank-math-pro,__,,Add Variations,,افزودن گونه‌ها,,links-page.js
+rank-math-pro,__,,Add Watermark,,افزودن واترمارک,,settings.js
+rank-math-pro,__,,"Add a caption for all images without a caption automatically. The caption is dynamically applied when the content is displayed, the stored content is not changed.",,برای همه تصاویر بدون کپشن، به‌صورت خودکار کپشن اضافه کنید. کپشن هنگام نمایش محتوا به‌صورت پویا اعمال می‌شود و محتوای ذخیره‌شده تغییر نمی‌کند.,,settings.js
+rank-math-pro,__,,"Add a description for all images without a description automatically. The description is dynamically applied when the content is displayed, the stored content is not changed.",,برای همه تصاویر بدون توضیحات، به‌صورت خودکار توضیح اضافه کنید. توضیح هنگام نمایش محتوا به‌صورت پویا اعمال می‌شود و محتوای ذخیره‌شده تغییر نمی‌کند.,,settings.js
+rank-math-pro,__,,Add another,,افزودن مورد دیگر,,settings.js
+rank-math-pro,__,,Add copyright details if your show is copyrighted.,,اگر برنامه شما دارای حق نشر است، جزئیات آن را اضافه کنید.,,settings.js
+rank-math-pro,__,,Add dropdown to filter results by category,,افزودن فهرست کشویی برای فیلتر نتایج براساس دسته‌بندی,,edit.js | index 8.js
+rank-math-pro,__,,Add in Keyword Manager,,افزودن به مدیر کلمات کلیدی,,stats.js
+rank-math-pro,__,,Add missing image caption,,افزودن کپشن‌های ناقص تصاویر,,settings.js
+rank-math-pro,__,,Add missing image description,,افزودن توضیحات ناقص تصاویر,,settings.js
+rank-math-pro,__,,Add more image watermarks to choose from for the social thumbnails.,,واترمارک‌های بیشتری برای انتخاب در تصاویر بندانگشتی شبکه‌های اجتماعی اضافه کنید.,,settings.js
+rank-math-pro,__,,Add one supply element per line.,,در هر خط یک مورد از لوازم مصرفی اضافه کنید.,,blocks.js
+rank-math-pro,__,,Add one tool per line.,,در هر خط یک ابزار اضافه کنید.,,blocks.js
+rank-math-pro,__,,"Add rel=""nofollow"" attribute",,"افزودن ویژگی rel=""nofollow""",,links-page.js
+rank-math-pro,__,,Add speakable attributes to Article Schema.,,افزودن ویژگی‌های قابل‌خواندن به اسکیمای مقاله.,,schemaFilters.js
+rank-math-pro,__,,"Add the URI prefixes you use for affiliate (cloaked) links, which redirect to external sites. These will not count as internal links in the content analysis. Add one per line.",,پیشوندهای URI مورد استفاده برای لینک‌های همکاری در فروش (پنهان‌شده) را که به سایت‌های خارجی هدایت می‌شوند اضافه کنید. این لینک‌ها در تحلیل محتوا به‌عنوان لینک داخلی شمرده نمی‌شوند. در هر خط یک مورد وارد کنید.,,settings.js
+rank-math-pro,__,,"Add the tracking prefix provided by your tracking service like Chartable, Podsights, Podtrac, etc.",,پیشوند ردیابی ارائه‌شده توسط سرویس‌هایی مانند Chartable، Podsights، Podtrac و موارد مشابه را اضافه کنید.,,settings.js
+rank-math-pro,__,,Add to graph,,افزودن به نمودار,,stats.js
+rank-math-pro,__,,Add variations now. They will be saved when you create the keyword map.,,اکنون گونه‌ها را اضافه کنید. هنگام ساخت نگاشت کلمه کلیدی ذخیره خواهند شد.,,links-page.js
+rank-math-pro,__,,"Add your local business's details here with ""Local Business"" Schema Markup in order to be eligible for local SERP features.",,جزئیات کسب‌وکار محلی خود را همراه با نشانه‌گذاری اسکیمای «کسب‌وکار محلی» اینجا وارد کنید تا واجد نمایش در قابلیت‌های نتایج جستجوی محلی شوید.,,rank-math-pointers.js
+rank-math-pro,__,,Added,,افزوده شد,,stats.js
+rank-math-pro,__,,Added in Keyword Manager,,به مدیر کلمات کلیدی افزوده شد,,stats.js
+rank-math-pro,__,,Adding Focus Keywords..,,در حال افزودن کلمات کلیدی اصلی…,,stats.js
+rank-math-pro,__,,Adding links to posts…,,در حال افزودن لینک به نوشته‌ها…,,links-page.js
+rank-math-pro,__,,Adding…,,در حال افزودن…,,links-page.js | stats.js
+rank-math-pro,__,,Additional CSS code,,کد CSS اضافی,,settings.js
+rank-math-pro,__,,"Additional CSS code to customize the appearance of the reports. Insert the CSS code directly, without the wrapping style tag. Please note that the CSS support is limited in email clients and the appearance may vary greatly.",,کد CSS اضافی برای سفارشی‌کردن ظاهر گزارش‌ها. کد CSS را مستقیماً و بدون برچسب style وارد کنید. توجه داشته باشید پشتیبانی CSS در نرم‌افزارهای ایمیل محدود است و ظاهر گزارش ممکن است تفاوت زیادی داشته باشد.,,settings.js
+rank-math-pro,__,,Additional Type,,نوع تکمیلی,,schemaFilters.js
+rank-math-pro,__,,Address,,نشانی,,edit.js | index 8.js | schemaFilters.js
+rank-math-pro,__,,Address Settings,,تنظیمات نشانی,,edit.js | index 8.js
+rank-math-pro,__,,Address where the reports will be sent. You can add multiple recipients separated with commas.,,نشانی ایمیلی که گزارش‌ها به آن ارسال می‌شوند. می‌توانید چند گیرنده را با کاما از هم جدا کنید.,,settings.js | setup-wizard.js
+rank-math-pro,__,,Adsense,,ادسنس,,stats.js
+rank-math-pro,__,,Affiliate Link Prefix,,پیشوند لینک همکاری در فروش,,settings.js
+rank-math-pro,__,,Afghanistan,,افغانستان,,settings.js
+rank-math-pro,__,,Albania,,آلبانی,,settings.js
+rank-math-pro,__,,Algeria,,الجزایر,,settings.js
+rank-math-pro,__,,All,,همه,,editor.js | links-page.js | schemaFilters.js | stats.js
+rank-math-pro,__,,All Anchor Types,,همه انواع متن لنگر,,editor.js | links-page.js
+rank-math-pro,__,,All Archives,,همه بایگانی‌ها,,schemaFilters.js
+rank-math-pro,__,,All Links,,همه لینک‌ها,,editor.js | links-page.js
+rank-math-pro,__,,All Locations,,همه مکان‌ها,,edit.js | index 8.js
+rank-math-pro,__,,All Locations are part of the same Organization,,همه مکان‌ها بخشی از یک سازمان هستند,,settings.js
+rank-math-pro,__,,All Post Types,,همه انواع نوشته,,links-page.js | schemaFilters.js
+rank-math-pro,__,,All Posts,,همه نوشته‌ها,,editor.js | links-page.js
+rank-math-pro,__,,All Scores,,همه امتیازها,,editor.js | links-page.js
+rank-math-pro,__,,All Statuses,,همه وضعیت‌ها,,editor.js | links-page.js
+rank-math-pro,__,,All Time,,همه زمان‌ها,,links-page.js
+rank-math-pro,__,,All Types,,همه انواع,,editor.js | links-page.js
+rank-math-pro,__,,All links have been checked.,,همه لینک‌ها بررسی شده‌اند.,,links-page.js
+rank-math-pro,__,,All variations already exist.,,همه گونه‌ها از قبل وجود دارند.,,links-page.js
+rank-math-pro,__,,Allow Dragging,,اجازه جابه‌جایی,,edit.js | index 8.js
+rank-math-pro,__,,Allow Zoom,,اجازه بزرگ‌نمایی,,edit.js | index 8.js
+rank-math-pro,__,,Allow Zoom by scroll,,اجازه بزرگ‌نمایی با پیمایش,,edit.js | index 8.js
+rank-math-pro,__,,Allowed,,مجاز,,stats.js
+rank-math-pro,__,,Already linked,,از قبل لینک شده,,editor.js
+rank-math-pro,__,,Alt,,متن جایگزین,,settings.js
+rank-math-pro,__,,Alternate Name,,نام جایگزین,,schemaFilters.js
+rank-math-pro,__,,An arbitrary string tag describing the video. Add coma separated video tags. (Used in the Video Sitemap only),,برچسب متنی دلخواه برای توصیف ویدیو. برچسب‌های ویدیو را با کاما جدا کنید. (فقط در نقشه سایت ویدیو استفاده می‌شود),,schemaFilters.js
+rank-math-pro,__,,An error occurred,,خطایی رخ داد,,links-page.js
+rank-math-pro,__,,An error occurred while fetching related posts.,,هنگام دریافت نوشته‌های مرتبط خطایی رخ داد.,,edit 2.js | index 3.js
+rank-math-pro,__,,An error occurred while refreshing the score.,,هنگام تازه‌سازی امتیاز خطایی رخ داد.,,admin-bar.js | stats.js
+rank-math-pro,__,,An error occurred while refreshing the scores for the following tests:,,هنگام تازه‌سازی امتیاز آزمون‌های زیر خطایی رخ داد:,,admin-bar.js | stats.js
+rank-math-pro,__,,"An identifier, such as a DOI or a Compact Identifier. Add one identifier per line.",,یک شناسه مانند DOI یا شناسه فشرده. در هر خط یک شناسه اضافه کنید.,,schemaFilters.js
+rank-math-pro,__,,An unknown error occurred.,,خطای ناشناخته‌ای رخ داد.,,admin-bar.js | stats.js
+rank-math-pro,__,,Analytics,,آنالیتیکس,,divi.js | elementor.js | gutenberg.js
+rank-math-pro,__,,Analyzing links and generating preview… Please wait.,,در حال تحلیل لینک‌ها و ساخت پیش‌نمایش… لطفاً صبر کنید.,,links-page.js
+rank-math-pro,__,,Analyzing posts for keyword matches…,,در حال تحلیل نوشته‌ها برای یافتن تطابق کلمات کلیدی…,,links-page.js
+rank-math-pro,__,,Anchor Text,,متن لنگر,,editor.js | links-page.js
+rank-math-pro,__,,Anchor Text Change,,تغییر متن لنگر,,links-page.js
+rank-math-pro,__,,Anchor Text Only,,فقط متن لنگر,,links-page.js
+rank-math-pro,__,,Anchor Text Settings,,تنظیمات متن لنگر,,links-page.js
+rank-math-pro,__,,Anchor Text:,,متن لنگر:,,links-page.js
+rank-math-pro,__,,Anchor Type,,نوع متن لنگر,,editor.js | links-page.js
+rank-math-pro,__,,Anchor Type:,,نوع متن لنگر:,,links-page.js
+rank-math-pro,__,,Anchor text is required,,متن لنگر الزامی است,,links-page.js
+rank-math-pro,__,,Andorra,,آندورا,,settings.js
+rank-math-pro,__,,Angola,,آنگولا,,settings.js
+rank-math-pro,__,,Anguilla,,آنگویلا,,settings.js
+rank-math-pro,__,,Answer,,پاسخ,,schemaFilters.js
+rank-math-pro,__,,Antarctica,,جنوبگان,,settings.js
+rank-math-pro,__,,Antigua and Barbuda,,آنتیگوا و باربودا,,settings.js
+rank-math-pro,__,,Any,,هرکدام,,links-page.js
+rank-math-pro,__,,Appearance,,ظاهر,,schemaFilters.js
+rank-math-pro,__,,Application Category,,دسته‌بندی برنامه,,schemaFilters.js
+rank-math-pro,__,,Applied Filters,,فیلترهای اعمال‌شده,,links-page.js
+rank-math-pro,__,,Apply,,اعمال,,links-page.js
+rank-math-pro,__,,Apply Changes,,اعمال تغییرات,,links-page.js
+rank-math-pro,__,,Applying Changes,,در حال اعمال تغییرات,,links-page.js
+rank-math-pro,__,,Applying Changes…,,در حال اعمال تغییرات…,,links-page.js
+rank-math-pro,__,,Archives,,بایگانی‌ها,,schemaFilters.js
+rank-math-pro,__,,Are you sure you want to change the Schema type for the selected posts? Doing so may irreversibly delete the existing Schema data.,,آیا مطمئن هستید که می‌خواهید نوع اسکیما را برای نوشته‌های انتخاب‌شده تغییر دهید؟ این کار ممکن است داده‌های اسکیمای موجود را به‌صورت برگشت‌ناپذیر حذف کند.,,post-list.js
+rank-math-pro,__,,Are you sure you want to delete all the Manually Tracked keywords from Rank Tracker? This action is irreversible.,,آیا مطمئن هستید که می‌خواهید همه کلمات کلیدی ردیابی‌شده دستی را از ردیاب رتبه حذف کنید؟ این کار قابل بازگشت نیست.,,stats.js
+rank-math-pro,__,,Are you sure you want to delete these keyword maps?,,آیا مطمئن هستید که می‌خواهید این نگاشت‌های کلمه کلیدی را حذف کنید؟,,links-page.js
+rank-math-pro,__,,Are you sure you want to delete this history record? This action cannot be undone.,,آیا مطمئن هستید که می‌خواهید این سابقه را حذف کنید؟ این کار قابل بازگشت نیست.,,links-page.js
+rank-math-pro,__,,Are you sure you want to delete this keyword map?,,آیا مطمئن هستید که می‌خواهید این نگاشت کلمه کلیدی را حذف کنید؟,,links-page.js
+rank-math-pro,__,,Are you sure you want to import meta data from this CSV file?,,آیا مطمئن هستید که می‌خواهید فراداده را از این فایل CSV درون‌ریزی کنید؟,,Import.js | status.js
+rank-math-pro,__,,Are you sure you want to import redirections from this CSV file?,,آیا مطمئن هستید که می‌خواهید تغییر مسیرها را از این فایل CSV درون‌ریزی کنید؟,,redirections.js
+rank-math-pro,__,,Are you sure you want to remove,,آیا مطمئن هستید که می‌خواهید حذف کنید,,links-page.js
+rank-math-pro,__,,Are you sure you want to remove this link? The anchor text will remain but will no longer be hyperlinked.,,آیا مطمئن هستید که می‌خواهید این لینک را حذف کنید؟ متن لنگر باقی می‌ماند، اما دیگر پیوند نخواهد بود.,,links-page.js
+rank-math-pro,__,,Are you sure you want to stop the import process?,,آیا مطمئن هستید که می‌خواهید فرایند درون‌ریزی را متوقف کنید؟,,Import.js | redirections.js | status.js
+rank-math-pro,__,,Area Served,,محدوده خدمات,,schemaFilters.js
+rank-math-pro,__,,Argentina,,آرژانتین,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,Armenia,,ارمنستان,,settings.js
+rank-math-pro,__,,Article,,مقاله,,schemaFilters.js
+rank-math-pro,__,,Article Section,,بخش مقاله,,schemaFilters.js
+rank-math-pro,__,,Article Type,,نوع مقاله,,schemaFilters.js
+rank-math-pro,__,,Arts,,هنر,,settings.js
+rank-math-pro,__,,Aruba,,آروبا,,settings.js
+rank-math-pro,__,,"As above, but the label that would be applicable for more than one location (default: RM Locations).",,مانند مورد بالا، اما برچسب مناسب برای بیش از یک مکان (پیش‌فرض: مکان‌های RM).,,settings.js
+rank-math-pro,__,,Audio File URL,,نشانی فایل صوتی,,schemaFilters.js
+rank-math-pro,__,,Audit Filter Options,,گزینه‌های فیلتر ممیزی,,links-page.js
+rank-math-pro,__,,Auditing links… Please wait.,,در حال ممیزی لینک‌ها… لطفاً صبر کنید.,,links-page.js
+rank-math-pro,__,,Australia,,استرالیا,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,Austria,,اتریش,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,Author,,نویسنده,,schemaFilters.js
+rank-math-pro,__,,Author Name,,نام نویسنده,,schemaFilters.js
+rank-math-pro,__,,Auto Add Focus Keywords,,افزودن خودکار کلمات کلیدی اصلی,,stats.js
+rank-math-pro,__,,Auto-Link,,لینک‌سازی خودکار,,links-page.js
+rank-math-pro,__,,Auto-Link on Publish,,لینک‌سازی خودکار هنگام انتشار,,links-page.js
+rank-math-pro,__,,Auto-generate image for the auto detected video.,,برای ویدیوی تشخیص‌داده‌شده به‌صورت خودکار تصویر تولید کنید.,,settings.js
+rank-math-pro,__,,Autodetect Video,,تشخیص خودکار ویدیو,,settings.js
+rank-math-pro,__,,Autogenerate Image,,تولید خودکار تصویر,,settings.js
+rank-math-pro,__,,Automatically apply links to new content; links appear within 1-2 minutes after publishing.,,لینک‌ها به‌صورت خودکار روی محتوای جدید اعمال می‌شوند و یک تا دو دقیقه پس از انتشار نمایش داده خواهند شد.,,links-page.js
+rank-math-pro,__,,Automatically detect the user's location as the starting point.,,موقعیت کاربر را به‌صورت خودکار به‌عنوان نقطه آغاز تشخیص دهید.,,settings.js
+rank-math-pro,__,,Availability,,موجودی,,schemaFilters.js
+rank-math-pro,__,,Average Position,,میانگین جایگاه,,stats.js
+rank-math-pro,__,,Average click-through rate. Total clicks divided by total impressions.,,میانگین نرخ کلیک؛ تعداد کل کلیک‌ها تقسیم بر تعداد کل نمایش‌ها.,,stats.js
+rank-math-pro,__,,Average position of all the keywords ranking within top 100 positions.,,میانگین جایگاه همه کلمات کلیدی که در ۱۰۰ رتبه نخست قرار دارند.,,stats.js
+rank-math-pro,__,,Avg.CTR,,میانگین نرخ کلیک,,stats.js
+rank-math-pro,__,,Azerbaijan,,جمهوری آذربایجان,,settings.js
+rank-math-pro,__,,Background Process,,فرایند پس‌زمینه,,links-page.js
+rank-math-pro,__,,Bad,,ضعیف,,editor.js | links-page.js
+rank-math-pro,__,,Bahamas,,باهاما,,settings.js
+rank-math-pro,__,,Bahrain,,بحرین,,settings.js
+rank-math-pro,__,,Bangladesh,,بنگلادش,,settings.js
+rank-math-pro,__,,Barbados,,باربادوس,,settings.js
+rank-math-pro,__,,Basic Summary,,خلاصه پایه,,settings.js
+rank-math-pro,__,,Belarus,,بلاروس,,settings.js
+rank-math-pro,__,,Belau,,پالائو,,settings.js
+rank-math-pro,__,,Belgium,,بلژیک,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,Belize,,بلیز,,settings.js
+rank-math-pro,__,,Benin,,بنین,,settings.js
+rank-math-pro,__,,Bermuda,,برمودا,,settings.js
+rank-math-pro,__,,Bhutan,,بوتان,,settings.js
+rank-math-pro,__,,Blocked by robots.txt,,مسدودشده توسط robots.txt,,editor.js | links-page.js
+rank-math-pro,__,,Bolivia,,بولیوی,,settings.js
+rank-math-pro,__,,"Bonaire, Sint Eustatius and Saba",,جزایر کارائیب هلند,,settings.js
+rank-math-pro,__,,Book,,کتاب,,schemaFilters.js
+rank-math-pro,__,,Book Format,,قالب کتاب,,schemaFilters.js
+rank-math-pro,__,,Bosnia and Herzegovina,,بوسنی و هرزگوین,,settings.js
+rank-math-pro,__,,Both,,هردو,,links-page.js
+rank-math-pro,__,,Both Anchor Text & URL,,متن لنگر و نشانی اینترنتی,,links-page.js
+rank-math-pro,__,,Botswana,,بوتسوانا,,settings.js
+rank-math-pro,__,,Bottom Center,,پایین وسط,,settings.js
+rank-math-pro,__,,Bottom Left,,پایین چپ,,settings.js
+rank-math-pro,__,,Bottom Right,,پایین راست,,settings.js
+rank-math-pro,__,,Bouvet Island,,جزیرهٔ بووه,,settings.js
+rank-math-pro,__,,Brand,,برند,,settings.js
+rank-math-pro,__,,Brand Name,,نام برند,,schemaFilters.js
+rank-math-pro,__,,Brand URL,,نشانی اینترنتی برند,,schemaFilters.js
+rank-math-pro,__,,Brand value to use in Schema.org & OpenGraph markup.,,مقدار برند برای استفاده در نشانه‌گذاری Schema.org و OpenGraph.,,settings.js
+rank-math-pro,__,,Brazil,,برزیل,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,British Indian Ocean Territory,,قلمرو بریتانیا در اقیانوس هند,,settings.js
+rank-math-pro,__,,British Virgin Islands,,جزایر ویرجین بریتانیا,,settings.js
+rank-math-pro,__,,Broken,,خراب,,editor.js | links-page.js
+rank-math-pro,__,,Broken Links,,لینک‌های خراب,,links-page.js
+rank-math-pro,__,,Brunei,,برونئی,,settings.js
+rank-math-pro,__,,Bulgaria,,بلغارستان,,settings.js
+rank-math-pro,__,,Bulk Actions,,کارهای گروهی,,links-page.js
+rank-math-pro,__,,Bulk Delete Links,,حذف گروهی لینک‌ها,,links-page.js
+rank-math-pro,__,,Bulk Mark Links as Not Broken,,علامت‌گذاری گروهی لینک‌ها به‌عنوان خراب‌نبودن,,links-page.js
+rank-math-pro,__,,Bulk Update,,به‌روزرسانی گروهی,,links-page.js
+rank-math-pro,__,,Bulk Update History,,سابقه به‌روزرسانی گروهی,,links-page.js
+rank-math-pro,__,,Bulk Update Progress,,پیشرفت به‌روزرسانی گروهی,,links-page.js
+rank-math-pro,__,,Bulk action failed. Please try again.,,کار گروهی ناموفق بود. دوباره تلاش کنید.,,links-page.js
+rank-math-pro,__,,Bulk delete all is not yet implemented,,حذف گروهی همه موارد هنوز پیاده‌سازی نشده است,,links-page.js
+rank-math-pro,__,,Bulk delete completed successfully!,,حذف گروهی با موفقیت تکمیل شد!,,links-page.js
+rank-math-pro,__,,Bulk enable/disable all is not yet implemented. Please select specific items.,,فعال/غیرفعال‌سازی گروهی همه موارد هنوز پیاده‌سازی نشده است. لطفاً موارد مشخصی را انتخاب کنید.,,links-page.js
+rank-math-pro,__,,Bulk mark safe completed successfully!,,علامت‌گذاری گروهی به‌عنوان سالم با موفقیت تکمیل شد!,,links-page.js
+rank-math-pro,__,,Bulk update completed successfully!,,به‌روزرسانی گروهی با موفقیت تکمیل شد!,,links-page.js
+rank-math-pro,__,,Burkina Faso,,بورکینافاسو,,settings.js
+rank-math-pro,__,,Burundi,,بوروندی,,settings.js
+rank-math-pro,__,,Business,,کسب‌وکار,,settings.js
+rank-math-pro,__,,Business FAX,,فکس کسب‌وکار,,schemaFilters.js
+rank-math-pro,__,,Business Type,,نوع کسب‌وکار,,schemaFilters.js
+rank-math-pro,__,,"By default, current post URL is used.",,به‌صورت پیش‌فرض، نشانی نوشته فعلی استفاده می‌شود.,,schemaFilters.js
+rank-math-pro,__,,CSV File,,فایل CSV,,Import.js | status.js
+rank-math-pro,__,,CTR,,نرخ کلیک,,stats.js
+rank-math-pro,__,,Calories,,کالری,,schemaFilters.js
+rank-math-pro,__,,Cambodia,,کامبوج,,settings.js
+rank-math-pro,__,,Cameroon,,کامرون,,settings.js
+rank-math-pro,__,,Canada,,کانادا,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,Cancel,,لغو,,divi.js | elementor.js | gutenberg.js | links-page.js | stats.js
+rank-math-pro,__,,Cancel Delete,,لغو حذف,,links-page.js
+rank-math-pro,__,,Cancel Import,,لغو درون‌ریزی,,Import.js | status.js
+rank-math-pro,__,,Cancel Operation,,لغو عملیات,,links-page.js
+rank-math-pro,__,,Cancel Restore,,لغو بازیابی,,links-page.js
+rank-math-pro,__,,Canceling…,,در حال لغو…,,links-page.js
+rank-math-pro,__,,Canonical,,کنونیکال,,editor.js | links-page.js
+rank-math-pro,__,,Cape Verde,,کیپ‌ورد,,settings.js
+rank-math-pro,__,,Capitalization settings for the <code>alt</code> attribute values. This will be applied for <strong>all</strong> <code>alt</code> attributes.,,تنظیمات بزرگی و کوچکی حروف برای مقادیر ویژگی <code>alt</code>. این تنظیم برای <strong>همه</strong> ویژگی‌های <code>alt</code> اعمال می‌شود.,,settings.js
+rank-math-pro,__,,Capitalization settings for the <code>title</code> attribute values. This will be applied for <strong>all</strong> <code>title</code> attributes.,,تنظیمات بزرگی و کوچکی حروف برای مقادیر ویژگی <code>title</code>. این تنظیم برای <strong>همه</strong> ویژگی‌های <code>title</code> اعمال می‌شود.,,settings.js
+rank-math-pro,__,,Capitalization settings for the image captions. This will be applied for <strong>all</strong> image captions.,,تنظیمات بزرگی و کوچکی حروف برای کپشن تصاویر. این تنظیم برای کپشن <strong>همه</strong> تصاویر اعمال می‌شود.,,settings.js
+rank-math-pro,__,,Capitalization settings for the image descriptions. This will be applied for <strong>all</strong> image descriptions.,,تنظیمات بزرگی و کوچکی حروف برای توضیحات تصاویر. این تنظیم برای توضیحات <strong>همه</strong> تصاویر اعمال می‌شود.,,settings.js
+rank-math-pro,__,,Caption,,کپشن,,settings.js
+rank-math-pro,__,,Caption format,,قالب کپشن,,settings.js
+rank-math-pro,__,,Case Sensitive,,حساس به بزرگی و کوچکی حروف,,links-page.js
+rank-math-pro,__,,Category,,دسته‌بندی,,schemaFilters.js
+rank-math-pro,__,,Cayman Islands,,جزایر کِیمن,,settings.js
+rank-math-pro,__,,Central African Republic,,جمهوری افریقای مرکزی,,settings.js
+rank-math-pro,__,,Chad,,چاد,,settings.js
+rank-math-pro,__,,Chamber of Commerce ID,,شناسه اتاق بازرگانی,,schemaFilters.js
+rank-math-pro,__,,Change alt attribute casing,,تغییر حالت حروف ویژگی alt,,settings.js
+rank-math-pro,__,,Change caption casing,,تغییر حالت حروف کپشن,,settings.js
+rank-math-pro,__,,Change description casing,,تغییر حالت حروف توضیحات,,settings.js
+rank-math-pro,__,,Change title casing,,تغییر حالت حروف عنوان,,settings.js
+rank-math-pro,__,,Changes Made,,تغییرات انجام‌شده,,links-page.js
+rank-math-pro,__,,Changes applied successfully!,,تغییرات با موفقیت اعمال شدند!,,links-page.js
+rank-math-pro,__,,Changes can be rolled back from the history table below.,,تغییرات را می‌توان از جدول سابقه زیر بازگردانی کرد.,,links-page.js
+rank-math-pro,__,,Changes will be saved to history and can be rolled back if needed.,,تغییرات در سابقه ذخیره می‌شوند و در صورت نیاز قابل بازگردانی خواهند بود.,,links-page.js
+rank-math-pro,__,,Check all links,,بررسی همه لینک‌ها,,links-page.js
+rank-math-pro,__,,Check this to import meta fields only if their current meta value is empty.,,برای درون‌ریزی فیلدهای متا فقط زمانی که مقدار فعلی آن‌ها خالی است، این گزینه را فعال کنید.,,Import.js | status.js
+rank-math-pro,__,,Checked:,,بررسی‌شده:,,links-page.js
+rank-math-pro,__,,Chile,,شیلی,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,China,,چین,,settings.js
+rank-math-pro,__,,Choose File,,انتخاب فایل,,Import.js | status.js
+rank-math-pro,__,,Choose a country,,یک کشور انتخاب کنید,,settings.js
+rank-math-pro,__,,Choose the object types to export.,,نوع اشیایی را که می‌خواهید برون‌بری شوند انتخاب کنید.,,Export.js | status.js
+rank-math-pro,__,,Christmas Island,,جزیرهٔ کریسمس,,settings.js
+rank-math-pro,__,,Claim,,ادعا,,schemaFilters.js
+rank-math-pro,__,,Clear,,پاک‌کردن,,links-page.js
+rank-math-pro,__,,Clicks,,کلیک‌ها,,stats.js
+rank-math-pro,__,,Clip Name,,نام کلیپ,,schemaFilters.js
+rank-math-pro,__,,Clip URL,,نشانی کلیپ,,schemaFilters.js
+rank-math-pro,__,,Close,,بستن,,divi.js | elementor.js | gutenberg.js | links-page.js | schemaFilters.js
+rank-math-pro,__,,Close & use selected keywords,,بستن و استفاده از کلمات کلیدی انتخاب‌شده,,divi.js | elementor.js | gutenberg.js
+rank-math-pro,__,,Closed label,,برچسب بسته,,settings.js
+rank-math-pro,__,,Closing Time,,ساعت تعطیلی,,schemaFilters.js
+rank-math-pro,__,,Closing…,,در حال بستن…,,links-page.js
+rank-math-pro,__,,Cocos (Keeling) Islands,,جزایر کوکوس,,settings.js
+rank-math-pro,__,,Colombia,,کلمبیا,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,Color hex code or any other valid value for the <code>background:</code> CSS property.,,کد هگز رنگ یا هر مقدار معتبر دیگر برای ویژگی CSS‏ <code>background:</code>.,,settings.js
+rank-math-pro,__,,Comedy,,کمدی,,settings.js
+rank-math-pro,__,,Comma-separated values,,مقادیر جداشده با کاما,,editor.js | links-page.js
+rank-math-pro,__,,Commercial,,تجاری,,divi.js | elementor.js | gutenberg.js
+rank-math-pro,__,,Comoros,,کومور,,settings.js
+rank-math-pro,__,,Competitor Analysis,,تحلیل رقیب,,CompetitorAnalysis.js | seo-analysis-pro 2.js
+rank-math-pro,__,,Competitor Site,,سایت رقیب,,SideBySide.js | seo-analysis-pro 2.js
+rank-math-pro,__,,Competitor View,,نمای رقیب,,SideBySide.js | seo-analysis-pro 2.js
+rank-math-pro,__,,Complete,,کامل,,links-page.js
+rank-math-pro,__,,Completed,,تکمیل‌شده,,links-page.js
+rank-math-pro,__,,Configuration Summary,,خلاصه پیکربندی,,links-page.js
+rank-math-pro,__,,Configure Update,,پیکربندی به‌روزرسانی,,links-page.js
+rank-math-pro,__,,Configure auto-linking exclusions for Keyword Maps feature.,,موارد مستثنا از لینک‌دهی خودکار قابلیت نگاشت کلمات کلیدی را پیکربندی کنید.,,settings.js
+rank-math-pro,__,,Configure settings now,,اکنون تنظیمات را پیکربندی کنید,,settings.js
+rank-math-pro,__,,Congo (Brazzaville),,کنگو - برازویل,,settings.js
+rank-math-pro,__,,Congo (Kinshasa),,کنگو - کینشاسا,,settings.js
+rank-math-pro,__,,Cons,,معایب,,schemaFilters.js
+rank-math-pro,__,,Contains,,شامل,,links-page.js
+rank-math-pro,__,,Content,,محتوا,,stats.js
+rank-math-pro,__,,Content AI is not properly configured. Please check your Content AI settings.,,هوش مصنوعی محتوا به‌درستی پیکربندی نشده است. تنظیمات هوش مصنوعی محتوا را بررسی کنید.,,editor.js
+rank-math-pro,__,,Content Score,,امتیاز محتوا,,stats.js
+rank-math-pro,__,,Content URL,,نشانی اینترنتی محتوا,,schemaFilters.js
+rank-math-pro,__,,Cook Islands,,جزایر کوک,,settings.js
+rank-math-pro,__,,Cooking Time,,زمان پخت,,schemaFilters.js
+rank-math-pro,__,,Copied,,کپی شد,,editor.js
+rank-math-pro,__,,Copied!,,کپی شد!,,schemaFilters.js
+rank-math-pro,__,,Copy,,کپی,,schemaFilters.js
+rank-math-pro,__,,Copy & paste this shortcode in the content.,,این کد کوتاه را در محتوا کپی و جای‌گذاری کنید.,,schemaFilters.js
+rank-math-pro,__,,Copy Link URL,,کپی نشانی لینک,,editor.js
+rank-math-pro,__,,Copyright Text,,متن حق نشر,,settings.js
+rank-math-pro,__,,Cost,,هزینه,,schemaFilters.js
+rank-math-pro,__,,Costa Rica,,کاستاریکا,,settings.js
+rank-math-pro,__,,Country,,کشور,,schemaFilters.js | settings.js | setup-wizard.js
+rank-math-pro,__,,Course,,دوره آموزشی,,schemaFilters.js
+rank-math-pro,__,,Course Instance,,نمونه دوره آموزشی,,schemaFilters.js
+rank-math-pro,__,,Course Mode,,شیوه برگزاری دوره,,schemaFilters.js
+rank-math-pro,__,,Course Provider,,ارائه‌دهنده دوره,,schemaFilters.js
+rank-math-pro,__,,Course Provider Name,,نام ارائه‌دهنده دوره,,schemaFilters.js
+rank-math-pro,__,,Course Provider URL,,نشانی اینترنتی ارائه‌دهنده دوره,,schemaFilters.js
+rank-math-pro,__,,Course Schedule,,برنامه زمانی دوره,,schemaFilters.js
+rank-math-pro,__,,Course Workload,,حجم کاری دوره,,schemaFilters.js
+rank-math-pro,__,,Crawl,,خزش,,links-page.js
+rank-math-pro,__,,Crawled As,,خزش‌شده به‌عنوان,,stats.js
+rank-math-pro,__,,Create Keyword Map,,ساخت نگاشت کلمه کلیدی,,links-page.js
+rank-math-pro,__,,Create reusable link rules that automatically apply to your content. Add AI-generated variations to catch different keyword phrases.,,قوانین لینک قابل‌استفاده مجددی بسازید که به‌صورت خودکار روی محتوای شما اعمال شوند. برای پوشش عبارت‌های متفاوت کلمات کلیدی، گونه‌های تولیدشده با هوش مصنوعی را اضافه کنید.,,links-page.js
+rank-math-pro,__,,Creator,,سازنده,,schemaFilters.js
+rank-math-pro,__,,Croatia,,کرواسی,,settings.js
+rank-math-pro,__,,Cuba,,کوبا,,settings.js
+rank-math-pro,__,,Cuisine,,نوع آشپزی,,schemaFilters.js
+rank-math-pro,__,,Curaçao,,کوراسائو,,settings.js
+rank-math-pro,__,,Currencies Accepted,,ارزهای پذیرفته‌شده,,schemaFilters.js
+rank-math-pro,__,,Currency,,واحد پول,,schemaFilters.js
+rank-math-pro,__,,Current Position,,جایگاه فعلی,,stats.js
+rank-math-pro,__,,Current Post ID:,,شناسه نوشته فعلی:,,links-page.js
+rank-math-pro,__,,Current Status:,,وضعیت فعلی:,,links-page.js
+rank-math-pro,__,,Current status of the event (optional),,وضعیت فعلی رویداد (اختیاری),,schemaFilters.js
+rank-math-pro,__,,Custom,,سفارشی,,schemaFilters.js | settings.js
+rank-math-pro,__,,Custom Fields,,فیلدهای سفارشی,,settings.js
+rank-math-pro,__,,Custom Image Watermarks,,واترمارک‌های سفارشی تصویر,,settings.js
+rank-math-pro,__,,Custom JSON-LD Code,,کد سفارشی JSON-LD,,schemaFilters.js
+rank-math-pro,__,,Custom Mode,,حالت سفارشی,,setup-wizard.js
+rank-math-pro,__,,Custom Range,,بازه سفارشی,,links-page.js
+rank-math-pro,__,,Custom Reason,,دلیل سفارشی,,links-page.js
+rank-math-pro,__,,Custom Schema,,اسکیمای سفارشی,,schemaFilters.js
+rank-math-pro,__,,Custom reason,,دلیل سفارشی,,links-page.js
+rank-math-pro,__,,Customize the label of the option users can use can click to get directions to your business location on the frontend.,,برچسب گزینه‌ای را سفارشی کنید که کاربران در بخش کاربری برای دریافت مسیر رسیدن به محل کسب‌وکار روی آن کلیک می‌کنند.,,settings.js
+rank-math-pro,__,,Cyprus,,قبرس,,settings.js
+rank-math-pro,__,,Czech Republic,,چک,,settings.js
+rank-math-pro,__,,Czechia,,جمهوری چک,,divi.js | elementor.js | gutenberg.js | stats.js
+rank-math-pro,__,,Data Catalog,,فهرست داده‌ها,,schemaFilters.js
+rank-math-pro,__,,Data Set,,مجموعه‌داده,,schemaFilters.js
+rank-math-pro,__,,DataSets,,مجموعه‌داده‌ها,,schemaFilters.js
+rank-math-pro,__,,Date,,تاریخ,,editor.js | links-page.js
+rank-math-pro,__,,Date Created,,تاریخ ایجاد,,schemaFilters.js
+rank-math-pro,__,,Date Executed,,تاریخ اجرا,,links-page.js
+rank-math-pro,__,,Date Modified,,تاریخ ویرایش,,links-page.js
+rank-math-pro,__,,Date Posted,,تاریخ ارسال,,schemaFilters.js
+rank-math-pro,__,,Date Published,,تاریخ انتشار,,schemaFilters.js
+rank-math-pro,__,,Date Range:,,بازه تاریخ:,,links-page.js
+rank-math-pro,__,,Date and time of the event,,تاریخ و زمان رویداد,,schemaFilters.js
+rank-math-pro,__,,Date of first publication of this tome,,تاریخ نخستین انتشار این جلد,,schemaFilters.js
+rank-math-pro,__,,Default Thumbnail Watermark,,واترمارک پیش‌فرض تصویر بندانگشتی,,settings.js
+rank-math-pro,__,,Delete,,حذف,,links-page.js | schema.js
+rank-math-pro,__,,Delete All,,حذف همه,,stats.js
+rank-math-pro,__,,Delete from Keyword Manager,,حذف از مدیریت کلمات کلیدی,,stats.js
+rank-math-pro,__,,Deleted,,حذف‌شده,,links-page.js
+rank-math-pro,__,,Deleting links… Please wait.,,در حال حذف لینک‌ها… لطفاً صبر کنید.,,links-page.js
+rank-math-pro,__,,Denmark,,دانمارک,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,Description,,توضیحات,,links-page.js | schemaFilters.js
+rank-math-pro,__,,Description format,,قالب توضیحات,,settings.js
+rank-math-pro,__,,Deselect All,,لغو انتخاب همه,,links-page.js
+rank-math-pro,__,,Desktop Score,,امتیاز دسکتاپ,,admin-bar.js | stats.js
+rank-math-pro,__,,Destination,,مقصد,,editor.js | links-page.js
+rank-math-pro,__,,Determine the Keyword's Search Intent for Writing Tailored Content. %s,,برای نوشتن محتوای متناسب، هدف جستجوی کلمه کلیدی را تشخیص دهید. %s,,settings.js
+rank-math-pro,__,,Disable,,غیرفعال‌کردن,,links-page.js
+rank-math-pro,__,,Discard Variations,,کنارگذاشتن گونه‌ها,,links-page.js
+rank-math-pro,__,,Dismiss,,نادیده‌گرفتن,,rank-math-pointers.js
+rank-math-pro,__,,Display Conditions,,شرایط نمایش,,schemaFilters.js
+rank-math-pro,__,,Display the Global Identified on Product Page along with other product details.,,شناسه جهانی را همراه سایر جزئیات محصول در صفحه محصول نمایش دهید.,,settings.js
+rank-math-pro,__,,Distribution,,توزیع,,schemaFilters.js
+rank-math-pro,__,,Djibouti,,جیبوتی,,settings.js
+rank-math-pro,__,,Do not overwrite existing data,,داده‌های موجود بازنویسی نشوند,,Import.js | status.js
+rank-math-pro,__,,Dofollow,,دوفالو,,links-page.js
+rank-math-pro,__,,Domain Match,,تطابق دامنه,,links-page.js
+rank-math-pro,__,,Dominica,,دومینیکا,,settings.js
+rank-math-pro,__,,Dominican Republic,,جمهوری دومینیکن,,settings.js
+rank-math-pro,__,,Don't add opening hours data in Schema,,داده‌های ساعات کاری را به اسکیما اضافه نکن,,settings.js
+rank-math-pro,__,,Dun & Bradstreet DUNS number,,شماره DUNS شرکت Dun & Bradstreet,,schemaFilters.js
+rank-math-pro,__,,Duration,,مدت‌زمان,,schemaFilters.js
+rank-math-pro,__,,Ecuador,,اکوادور,,settings.js
+rank-math-pro,__,,Edit,,ویرایش,,editor.js | links-page.js
+rank-math-pro,__,,Edit Keyword Map,,ویرایش نگاشت کلمه کلیدی,,links-page.js
+rank-math-pro,__,,Edit Link,,ویرایش پیوند,,links-page.js
+rank-math-pro,__,,Editing:,,در حال ویرایش:,,links-page.js
+rank-math-pro,__,,Edition,,ویرایش,,schemaFilters.js
+rank-math-pro,__,,Editions,,ویرایش‌ها,,schemaFilters.js
+rank-math-pro,__,,Education,,آموزش,,settings.js
+rank-math-pro,__,,Education Required,,تحصیلات موردنیاز,,schemaFilters.js
+rank-math-pro,__,,Egypt,,مصر,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,"Either a specific edition of the written work, or the volume of the work",,یک ویرایش مشخص از اثر مکتوب یا یکی از جلدهای آن,,schemaFilters.js
+rank-math-pro,__,,El Salvador,,السالوادور,,settings.js
+rank-math-pro,__,,Email,,ایمیل,,schemaFilters.js
+rank-math-pro,__,,Embed URL,,نشانی اینترنتی جاسازی,,schemaFilters.js
+rank-math-pro,__,,Employment Type (Recommended),,نوع استخدام (پیشنهادشده),,schemaFilters.js
+rank-math-pro,__,,"Empty for All Authors, or User IDs separated by comma",,برای همه نویسندگان خالی بگذارید یا شناسه‌های کاربری را با کاما جدا کنید,,schemaFilters.js
+rank-math-pro,__,,Enable,,فعال‌کردن,,links-page.js
+rank-math-pro,__,,Enable Auto Import,,فعال‌کردن درون‌ریزی خودکار,,stats.js
+rank-math-pro,__,,Enable Content AI Module,,فعال‌کردن ماژول هوش مصنوعی محتوا,,editor.js | index 3.js
+rank-math-pro,__,,Enable Search Intent,,فعال‌کردن هدف جستجو,,settings.js
+rank-math-pro,__,,Enable Speakable,,فعال‌کردن محتوای قابل‌خواندن,,schemaFilters.js
+rank-math-pro,__,,Enable if all of the locations where you serve customers are a part of the same legal entity.,,اگر همه مکان‌های ارائه خدمات به مشتریان زیرمجموعه یک شخصیت حقوقی هستند، این گزینه را فعال کنید.,,settings.js
+rank-math-pro,__,,Enabled,,فعال,,links-page.js
+rank-math-pro,__,,Enabling…,,در حال فعال‌سازی…,,editor.js | index 3.js
+rank-math-pro,__,,Encoding Format,,قالب رمزگذاری,,schemaFilters.js
+rank-math-pro,__,,End Date,,تاریخ پایان,,schemaFilters.js
+rank-math-pro,__,,End Offset,,آفست پایان,,schemaFilters.js
+rank-math-pro,__,,End date and time of the event,,تاریخ و زمان پایان رویداد,,schemaFilters.js
+rank-math-pro,__,,Enhanced Search,,جستجوی پیشرفته,,settings.js
+rank-math-pro,__,,Enter 2 or more characters,,دو نویسه یا بیشتر وارد کنید,,news-sitemap-settings.js
+rank-math-pro,__,,Enter 2 or more characters to search,,برای جستجو ۲ نویسه یا بیشتر وارد کنید,,settings.js
+rank-math-pro,__,,Enter Keyword,,کلمه کلیدی را وارد کنید,,divi.js | elementor.js | gutenberg.js
+rank-math-pro,__,,Enter Schema Type,,نوع اسکیما را وارد کنید,,schemaFilters.js
+rank-math-pro,__,,Enter URL,,نشانی اینترنتی را وارد کنید,,links-page.js
+rank-math-pro,__,,Enter a site URL to see how it ranks for the same SEO criteria as your site.,,نشانی یک سایت را وارد کنید تا ببینید براساس همان معیارهای سئوی سایت شما چه رتبه‌ای دارد.,,CompetitorAnalysis.js | seo-analysis-pro 2.js
+rank-math-pro,__,,Enter anchor text,,متن لنگر را وارد کنید,,links-page.js
+rank-math-pro,__,,Enter comma-separated post IDs to exclude from auto-linking. Useful for bulk exclusion without editing individual posts.,,شناسه نوشته‌ها را با کاما جدا کنید تا از لینک‌دهی خودکار مستثنا شوند. این گزینه برای مستثناکردن گروهی بدون ویرایش تک‌تک نوشته‌ها کاربرد دارد.,,settings.js
+rank-math-pro,__,,Enter variations separated by commas or new lines…,,گونه‌ها را با کاما یا خط جدید از هم جدا کنید…,,links-page.js
+rank-math-pro,__,,"Enter your %s to fetch video details automatically. Leave blank to use the default public API, which may have limitations and lower reliability.",,برای دریافت خودکار جزئیات ویدیو، %s خود را وارد کنید. برای استفاده از API عمومی پیش‌فرض که ممکن است محدودیت و پایداری کمتری داشته باشد، این قسمت را خالی بگذارید.,,settings.js
+rank-math-pro,__,,Enter your custom reason…,,دلیل سفارشی خود را وارد کنید…,,links-page.js
+rank-math-pro,__,,Entire Site,,کل سایت,,schemaFilters.js
+rank-math-pro,__,,Episode Description,,توضیحات قسمت,,schemaFilters.js
+rank-math-pro,__,,Episode Duration,,مدت قسمت,,schemaFilters.js
+rank-math-pro,__,,Episode Image URL,,نشانی تصویر قسمت,,schemaFilters.js
+rank-math-pro,__,,Episode Name,,نام قسمت,,schemaFilters.js
+rank-math-pro,__,,Episode Number,,شماره قسمت,,schemaFilters.js
+rank-math-pro,__,,Episode URL,,نشانی قسمت,,schemaFilters.js
+rank-math-pro,__,,Equatorial Guinea,,گینهٔ استوایی,,settings.js
+rank-math-pro,__,,Eritrea,,اریتره,,settings.js
+rank-math-pro,__,,Est. Completion:,,زمان تخمینی تکمیل:,,links-page.js
+rank-math-pro,__,,Estimated Cost,,هزینه تخمینی,,blocks.js
+rank-math-pro,__,,Estonia,,استونی,,settings.js
+rank-math-pro,__,,Ethiopia,,اتیوپی,,settings.js
+rank-math-pro,__,,Event,,رویداد,,schemaFilters.js
+rank-math-pro,__,,Event Attendance Mode,,شیوه حضور در رویداد,,schemaFilters.js
+rank-math-pro,__,,Event Status,,وضعیت رویداد,,schemaFilters.js
+rank-math-pro,__,,Event Type,,نوع رویداد,,schemaFilters.js
+rank-math-pro,__,,Every 15 days,,هر ۱۵ روز,,settings.js | setup-wizard.js
+rank-math-pro,__,,Every 30 days,,هر ۳۰ روز,,settings.js | setup-wizard.js
+rank-math-pro,__,,Every 7 days,,هر ۷ روز,,settings.js | setup-wizard.js
+rank-math-pro,__,,Exact Match,,تطابق دقیق,,links-page.js
+rank-math-pro,__,,Exact URL Match,,تطابق دقیق نشانی اینترنتی,,links-page.js
+rank-math-pro,__,,Example: /get/,,نمونه: /get/,,settings.js
+rank-math-pro,__,,"Example: 123, 456, 789",,نمونه: 123، 456، 789,,settings.js
+rank-math-pro,__,,Example: P12DT23H15M,,نمونه: P12DT23H15M,,schemaFilters.js
+rank-math-pro,__,,Exclude,,مستثناکردن,,schemaFilters.js
+rank-math-pro,__,,Exclude %s Terms,,مستثناکردن عبارت‌های %s,,settings.js
+rank-math-pro,__,,Exclude %s Terms ,,مستثناکردن عبارت‌های %s ,,settings.js
+rank-math-pro,__,,Exclude from Auto-Linking,,مستثنا از لینک‌سازی خودکار,,editor.js
+rank-math-pro,__,,Excluded,,مستثناشده,,stats.js
+rank-math-pro,__,,Excluded Post IDs,,شناسه نوشته‌های مستثناشده,,settings.js
+rank-math-pro,__,,Excluded Post Types,,انواع نوشته مستثناشده,,settings.js
+rank-math-pro,__,,Executions,,اجراها,,links-page.js
+rank-math-pro,__,,Existing links will NOT be updated. Run bulk update to change existing links.,,لینک‌های موجود به‌روزرسانی نمی‌شوند. برای تغییر لینک‌های موجود، به‌روزرسانی گروهی را اجرا کنید.,,links-page.js
+rank-math-pro,__,,Experience Required,,سابقه کاری موردنیاز,,schemaFilters.js
+rank-math-pro,__,,Export,,برون‌بری,,links-page.js
+rank-math-pro,__,,Export as CSV,,برون‌بری به‌صورت CSV,,editor.js | links-page.js
+rank-math-pro,__,,Export as Excel,,برون‌بری به‌صورت Excel,,editor.js | links-page.js
+rank-math-pro,__,,Export as JSON,,برون‌بری به‌صورت JSON,,editor.js | links-page.js
+rank-math-pro,__,,Export table data,,برون‌بری داده‌های جدول,,editor.js | links-page.js
+rank-math-pro,__,,Exporting,,در حال برون‌بری,,editor.js | links-page.js
+rank-math-pro,__,,Exporting…,,در حال برون‌بری…,,links-page.js
+rank-math-pro,__,,External,,خارجی,,editor.js | links-page.js
+rank-math-pro,__,,External Links,,پیوندهای خارجی,,editor.js | links-page.js
+rank-math-pro,__,,External only,,فقط خارجی,,links-page.js
+rank-math-pro,__,,FAQ,,سؤالات متداول,,schemaFilters.js
+rank-math-pro,__,,FROM,,از,,links-page.js
+rank-math-pro,__,,Failed,,ناموفق,,links-page.js
+rank-math-pro,__,,Failed to add variation,,افزودن گونه ناموفق بود,,links-page.js
+rank-math-pro,__,,Failed to add variations,,افزودن گونه‌ها ناموفق بود,,links-page.js
+rank-math-pro,__,,Failed to apply bulk update,,اعمال به‌روزرسانی گروهی ناموفق بود,,links-page.js
+rank-math-pro,__,,Failed to apply changes,,اعمال تغییرات ناموفق بود,,links-page.js
+rank-math-pro,__,,Failed to cancel preview,,لغو پیش‌نمایش ناموفق بود,,links-page.js
+rank-math-pro,__,,Failed to cancel update,,لغو به‌روزرسانی ناموفق بود,,links-page.js
+rank-math-pro,__,,Failed to delete history,,حذف سابقه ناموفق بود,,links-page.js
+rank-math-pro,__,,Failed to delete keyword map,,حذف نگاشت کلمه کلیدی ناموفق بود,,links-page.js
+rank-math-pro,__,,Failed to delete keyword maps,,حذف نگاشت‌های کلمه کلیدی ناموفق بود,,links-page.js
+rank-math-pro,__,,Failed to delete variation,,حذف گونه ناموفق بود,,links-page.js
+rank-math-pro,__,,Failed to export history. Please try again.,,برون‌بری سابقه ناموفق بود. دوباره تلاش کنید.,,links-page.js
+rank-math-pro,__,,Failed to fetch batch changes,,دریافت تغییرات دسته ناموفق بود,,links-page.js
+rank-math-pro,__,,Failed to fetch data for export. Please try again.,,دریافت داده‌ها برای برون‌بری ناموفق بود. دوباره تلاش کنید.,,editor.js | links-page.js
+rank-math-pro,__,,Failed to fetch history,,دریافت سابقه ناموفق بود,,links-page.js
+rank-math-pro,__,,Failed to fetch link suggestions. Please try again.,,دریافت پیشنهادهای لینک ناموفق بود. دوباره تلاش کنید.,,editor.js
+rank-math-pro,__,,Failed to fetch links,,دریافت لینک‌ها ناموفق بود,,links-page.js
+rank-math-pro,__,,Failed to fetch posts,,دریافت نوشته‌ها ناموفق بود,,links-page.js
+rank-math-pro,__,,Failed to fetch preview progress,,دریافت پیشرفت پیش‌نمایش ناموفق بود,,links-page.js
+rank-math-pro,__,,Failed to fetch preview results,,دریافت نتایج پیش‌نمایش ناموفق بود,,links-page.js
+rank-math-pro,__,,Failed to generate AI variations,,تولید گونه‌ها با هوش مصنوعی ناموفق بود,,links-page.js
+rank-math-pro,__,,Failed to generate preview,,ساخت پیش‌نمایش ناموفق بود,,links-page.js
+rank-math-pro,__,,Failed to generate rollback preview,,ساخت پیش‌نمایش بازگردانی ناموفق بود,,links-page.js
+rank-math-pro,__,,Failed to get preview progress,,دریافت پیشرفت پیش‌نمایش ناموفق بود,,links-page.js
+rank-math-pro,__,,Failed to get preview results,,دریافت نتایج پیش‌نمایش ناموفق بود,,links-page.js
+rank-math-pro,__,,Failed to get progress,,دریافت پیشرفت ناموفق بود,,links-page.js
+rank-math-pro,__,,Failed to insert,,درج ناموفق بود,,editor.js
+rank-math-pro,__,,Failed to load changes,,بارگذاری تغییرات ناموفق بود,,links-page.js
+rank-math-pro,__,,Failed to load link details,,بارگذاری جزئیات لینک ناموفق بود,,editor.js | links-page.js
+rank-math-pro,__,,Failed to mark link as not broken. Please try again.,,علامت‌گذاری لینک به‌عنوان خراب‌نبودن ناموفق بود. دوباره تلاش کنید.,,links-page.js
+rank-math-pro,__,,Failed to recheck link. Please try again.,,بررسی دوباره لینک ناموفق بود. دوباره تلاش کنید.,,links-page.js
+rank-math-pro,__,,Failed to refresh related posts.,,تازه‌سازی نوشته‌های مرتبط ناموفق بود.,,editor.js
+rank-math-pro,__,,Failed to refresh suggestions.,,تازه‌سازی پیشنهادها ناموفق بود.,,editor.js
+rank-math-pro,__,,Failed to remove link. Please try again.,,حذف لینک ناموفق بود. دوباره تلاش کنید.,,links-page.js
+rank-math-pro,__,,Failed to remove nofollow. Please try again.,,حذف nofollow ناموفق بود. دوباره تلاش کنید.,,links-page.js
+rank-math-pro,__,,Failed to restore link.,,بازیابی لینک ناموفق بود.,,links-page.js
+rank-math-pro,__,,Failed to revert link status. Please try again.,,بازگردانی وضعیت لینک ناموفق بود. دوباره تلاش کنید.,,links-page.js
+rank-math-pro,__,,Failed to rollback batch,,بازگردانی دسته ناموفق بود,,links-page.js
+rank-math-pro,__,,Failed to save keyword map,,ذخیره نگاشت کلمه کلیدی ناموفق بود,,links-page.js
+rank-math-pro,__,,Failed to schedule export. Please try again.,,زمان‌بندی برون‌بری ناموفق بود. دوباره تلاش کنید.,,editor.js | links-page.js
+rank-math-pro,__,,Failed to start regeneration. Please try again.,,شروع بازتولید ناموفق بود. دوباره تلاش کنید.,,links-page.js
+rank-math-pro,__,,Failed to start rollback,,شروع بازگردانی ناموفق بود,,links-page.js
+rank-math-pro,__,,Failed to update keyword map,,به‌روزرسانی نگاشت کلمه کلیدی ناموفق بود,,links-page.js
+rank-math-pro,__,,Failed to update link. Please try again.,,به‌روزرسانی لینک ناموفق بود. دوباره تلاش کنید.,,links-page.js
+rank-math-pro,__,,Falkland Islands,,جزایر فالکلند,,settings.js
+rank-math-pro,__,,Faroe Islands,,جزایر فارو,,settings.js
+rank-math-pro,__,,Fiji,,فیجی,,settings.js
+rank-math-pro,__,,Filter Links,,فیلتر لینک‌ها,,links-page.js
+rank-math-pro,__,,Find,,یافتن,,settings.js
+rank-math-pro,__,,Find This Text,,یافتن این متن,,links-page.js
+rank-math-pro,__,,Find This URL,,یافتن این نشانی اینترنتی,,links-page.js
+rank-math-pro,__,,Finish,,پایان,,rank-math-pointers.js
+rank-math-pro,__,,Finland,,فنلاند,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,First Checked:,,نخستین بررسی:,,editor.js | links-page.js
+rank-math-pro,__,,"For example, Game, Multimedia",,برای مثال: بازی، چندرسانه‌ای,,schemaFilters.js
+rank-math-pro,__,,"For example, Windows 7, OSX 10.6, Android 1.6",,برای مثال: ویندوز ۷، OSX 10.6، اندروید 1.6,,schemaFilters.js
+rank-math-pro,__,,Format used for the new captions.,,قالب مورد استفاده برای کپشن‌های جدید.,,settings.js
+rank-math-pro,__,,Format used for the new descriptions.,,قالب مورد استفاده برای توضیحات جدید.,,settings.js
+rank-math-pro,__,,Found in:,,یافت‌شده در:,,links-page.js
+rank-math-pro,__,,Founding Date,,تاریخ تأسیس,,schemaFilters.js
+rank-math-pro,__,,France,,فرانسه,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,French Guiana,,گویان فرانسه,,settings.js
+rank-math-pro,__,,French Polynesia,,پلی‌نزی فرانسه,,settings.js
+rank-math-pro,__,,French Southern Territories,,سرزمین‌های جنوبی فرانسه,,settings.js
+rank-math-pro,__,,From Date,,از تاریخ,,links-page.js
+rank-math-pro,__,,Full URL:,,نشانی کامل:,,editor.js | links-page.js
+rank-math-pro,__,,"Fully-qualified URL of the episode audio file, including the format extension (for example, .wav, .mp3)",,نشانی کامل فایل صوتی قسمت همراه با پسوند قالب؛ برای نمونه ‎.wav یا ‎.mp3,,schemaFilters.js
+rank-math-pro,__,,GTIN,,GTIN,,schemaFilters.js | settings.js
+rank-math-pro,__,,GTIN-12,,GTIN-12,,settings.js
+rank-math-pro,__,,GTIN-13,,GTIN-13,,settings.js
+rank-math-pro,__,,GTIN-14,,GTIN-14,,settings.js
+rank-math-pro,__,,GTIN-8,,GTIN-8,,settings.js
+rank-math-pro,__,,Gabon,,گابن,,settings.js
+rank-math-pro,__,,Gambia,,گامبیا,,settings.js
+rank-math-pro,__,,Games &amp; Hobbies,,بازی‌ها و سرگرمی‌ها,,settings.js
+rank-math-pro,__,,Gender,,جنسیت,,schemaFilters.js
+rank-math-pro,__,,Generate,,تولید,,editor.js
+rank-math-pro,__,,Generate AI Variations,,تولید گونه‌ها با هوش مصنوعی,,links-page.js
+rank-math-pro,__,,Generate Link,,ساخت لینک,,editor.js
+rank-math-pro,__,,Generating Preview,,در حال ساخت پیش‌نمایش,,links-page.js
+rank-math-pro,__,,Generating Preview…,,در حال ساخت پیش‌نمایش…,,links-page.js
+rank-math-pro,__,,Generating preview…,,در حال ساخت پیش‌نمایش…,,links-page.js
+rank-math-pro,__,,Generating…,,در حال تولید…,,links-page.js
+rank-math-pro,__,,Geo Coordinates,,مختصات جغرافیایی,,schemaFilters.js
+rank-math-pro,__,,Georgia,,گرجستان,,settings.js
+rank-math-pro,__,,Germany,,آلمان,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,Ghana,,غنا,,settings.js
+rank-math-pro,__,,Gibraltar,,جبل‌الطارق,,settings.js
+rank-math-pro,__,,Give your business's new location a name here. This field is required and will be visible to users.,,در اینجا برای مکان جدید کسب‌وکار خود نامی وارد کنید. این فیلد الزامی است و برای کاربران نمایش داده می‌شود.,,rank-math-pointers.js
+rank-math-pro,__,,Global Identifier,,شناسه جهانی,,settings.js
+rank-math-pro,__,,Global Identifier key to use in the Product Schema.,,کلید شناسه جهانی برای استفاده در اسکیمای محصول.,,settings.js
+rank-math-pro,__,,Global Identifier label,,برچسب شناسه جهانی,,settings.js
+rank-math-pro,__,,Global Identifier label to show on Product Page.,,برچسب شناسه جهانی برای نمایش در صفحه محصول.,,settings.js
+rank-math-pro,__,,Global Location Number,,شماره جهانی مکان,,schemaFilters.js
+rank-math-pro,__,,Global Templates in Use,,الگوهای سراسری در حال استفاده,,schema.js | schemaFilters.js
+rank-math-pro,__,,Good,,خوب,,editor.js | links-page.js
+rank-math-pro,__,,Google,,گوگل,,links-page.js
+rank-math-pro,__,,Google Canonical,,کنونیکال گوگل,,stats.js
+rank-math-pro,__,,Google Core Updates,,به‌روزرسانی‌های هسته گوگل,,settings.js | setup-wizard.js
+rank-math-pro,__,,Google Core Updates in the Graphs,,نمایش به‌روزرسانی‌های هسته گوگل در نمودارها,,settings.js | setup-wizard.js
+rank-math-pro,__,,Google News Publication Name,,نام نشریه در Google News,,settings.js | setup-wizard.js
+rank-math-pro,__,,Google PageSpeed score for desktop and mobile.,,امتیاز Google PageSpeed برای دسکتاپ و موبایل.,,admin-bar.js | stats.js
+rank-math-pro,__,,Google Trends,,گوگل ترندز,,divi.js | elementor.js | gutenberg.js
+rank-math-pro,__,,Google does not allow Person as the Publisher for articles. Organization will be used instead.,,گوگل اجازه نمی‌دهد «شخص» به‌عنوان ناشر مقاله انتخاب شود؛ بنابراین «سازمان» استفاده خواهد شد.,,schemaFilters.js
+rank-math-pro,__,,Google: ,,گوگل: ,,stats.js
+rank-math-pro,__,,Googlebot-News index,,ایندکس Googlebot-News,,news-sitemap.js
+rank-math-pro,__,,Government &amp; Organizations,,دولت و سازمان‌ها,,settings.js
+rank-math-pro,__,,Great,,عالی,,editor.js | links-page.js
+rank-math-pro,__,,Greece,,یونان,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,Greenland,,گرینلند,,settings.js
+rank-math-pro,__,,Grenada,,گرنادا,,settings.js
+rank-math-pro,__,,Guadeloupe,,گوادلوپ,,settings.js
+rank-math-pro,__,,Guatemala,,گواتمالا,,settings.js
+rank-math-pro,__,,Guernsey,,گرنزی,,settings.js
+rank-math-pro,__,,Guinea,,گینه,,settings.js
+rank-math-pro,__,,Guinea-Bissau,,گینهٔ بیسائو,,settings.js
+rank-math-pro,__,,Guyana,,گویان,,settings.js
+rank-math-pro,__,,HTML Code,,کد HTML,,schemaFilters.js
+rank-math-pro,__,,HTTP Status:,,وضعیت HTTP:,,editor.js | links-page.js
+rank-math-pro,__,,Haiti,,هائیتی,,settings.js
+rank-math-pro,__,,Heading of the report emails.,,عنوان ایمیل‌های گزارش.,,settings.js
+rank-math-pro,__,,Headline,,تیتر,,schemaFilters.js
+rank-math-pro,__,,Health,,سلامت,,settings.js
+rank-math-pro,__,,Heard Island and McDonald Islands,,هرد و جزایر مک‌دونالد,,settings.js
+rank-math-pro,__,,Height,,ارتفاع,,schemaFilters.js
+rank-math-pro,__,,Hide Closed Days,,پنهان‌کردن روزهای تعطیل,,edit.js | index 8.js
+rank-math-pro,__,,Hide Opening Hours,,پنهان‌کردن ساعات کاری,,settings.js
+rank-math-pro,__,,Hide Sitemap,,پنهان‌کردن نقشه سایت,,settings.js
+rank-math-pro,__,,Hide the sitemap from normal visitors?,,نقشه سایت از بازدیدکنندگان عادی پنهان شود؟,,settings.js
+rank-math-pro,__,,Hiring Organization,,سازمان استخدام‌کننده,,schemaFilters.js
+rank-math-pro,__,,History record deleted successfully!,,سابقه با موفقیت حذف شد!,,links-page.js
+rank-math-pro,__,,Honduras,,هندوراس,,settings.js
+rank-math-pro,__,,Hong Kong,,هنگ‌کنگ,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,How many times your site showed up in the search results.,,تعداد دفعاتی که سایت شما در نتایج جستجو نمایش داده شده است.,,stats.js
+rank-math-pro,__,,How many times your site was clicked on in the search results.,,تعداد دفعاتی که کاربران در نتایج جستجو روی سایت شما کلیک کرده‌اند.,,stats.js
+rank-math-pro,__,,HowTo,,راهنمای انجام کار,,schemaFilters.js
+rank-math-pro,__,,Hreflang,,Hreflang,,editor.js | links-page.js
+rank-math-pro,__,,Hungary,,مجارستان,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,Hybrid,,ترکیبی,,edit.js | index 8.js | settings.js
+rank-math-pro,__,,Hyperlink,,پیوند,,editor.js | links-page.js
+rank-math-pro,__,,ISBN,,ISBN,,schemaFilters.js | settings.js
+rank-math-pro,__,,ISO 4217 Currency code. Example: EUR,,کد ارز ISO 4217؛ برای مثال: EUR,,schemaFilters.js
+rank-math-pro,__,,ISO 6523,,ISO 6523,,schemaFilters.js
+rank-math-pro,__,,ISO 8601 duration format. Example: PT1H30M,,قالب مدت‌زمان ISO 8601؛ برای مثال: PT1H30M,,schemaFilters.js
+rank-math-pro,__,,ISO 8601 duration format. Example: PT37M. Refer to the <a href=https://rankmath.com/kb/iso-8601-format/?utm_source=Plugin&utm_medium=Schema%20Builder&utm_campaign=WP target=_blank>Knowledge Base</a> for details on converting standard time to ISO8601 format.,,قالب مدت‌زمان ISO 8601. نمونه: PT37M. برای جزئیات تبدیل زمان استاندارد به قالب ISO8601 به <a href=https://rankmath.com/kb/iso-8601-format/?utm_source=Plugin&utm_medium=Schema%20Builder&utm_campaign=WP target=_blank>پایگاه دانش</a> مراجعه کنید.,,schemaFilters.js
+rank-math-pro,__,,Iceland,,ایسلند,,settings.js
+rank-math-pro,__,,Identifier,,شناسه,,schemaFilters.js
+rank-math-pro,__,,"If checked, post status will be changed to Draft and its URL will return a 404 error, as required by the Rich Result guidelines",,با فعال‌کردن این گزینه، وضعیت نوشته به پیش‌نویس تغییر می‌کند و نشانی آن مطابق دستورالعمل نتایج غنی، خطای ۴۰۴ برمی‌گرداند.,,schemaFilters.js
+rank-math-pro,__,,"If empty, podcast channel image will be used from the Settings page.",,اگر خالی باشد، تصویر کانال پادکست از صفحه تنظیمات استفاده می‌شود.,,schemaFilters.js
+rank-math-pro,__,,"If set to true, this property indicates whether a job posting will accept experience in place of its formal educational qualifications. If set to true, you must include both the experienceRequirements and educationRequirements properties.",,اگر روی true تنظیم شود، این ویژگی مشخص می‌کند که آیا آگهی استخدام، سابقه کاری را به‌جای مدارک رسمی تحصیلی می‌پذیرد یا نه. در این حالت باید هر دو ویژگی experienceRequirements و educationRequirements را وارد کنید.,,schemaFilters.js
+rank-math-pro,__,,Image,,تصویر,,editor.js | links-page.js | schemaFilters.js
+rank-math-pro,__,,Image URL,,نشانی اینترنتی تصویر,,schemaFilters.js
+rank-math-pro,__,,Imagify has been successfully activated! %s.,,Imagify با موفقیت فعال شد! %s.,,settings.js
+rank-math-pro,__,,Import,,درون‌ریزی,,Import.js | schemaFilters.js | status.js
+rank-math-pro,__,,"Import SEO meta data for posts, terms, and users from a CSV file.",,درون‌ریزی فراداده سئو برای نوشته‌ها، موارد طبقه‌بندی و کاربران از فایل CSV.,,CSVFile.js | status.js
+rank-math-pro,__,,Import Schema Code from,,درون‌ریزی کد اسکیما از,,schemaFilters.js
+rank-math-pro,__,,Import failed. ,,درون‌ریزی ناموفق بود. ,,setup-wizard.js
+rank-math-pro,__,,Import finished. In the next steps you can review the settings.,,درون‌ریزی پایان یافت. در مراحل بعد می‌توانید تنظیمات را بررسی کنید.,,setup-wizard.js
+rank-math-pro,__,,"Import process has started, this may take a few moments to complete.",,فرایند درون‌ریزی آغاز شده است و تکمیل آن ممکن است چند لحظه زمان ببرد.,,Import.js | status.js
+rank-math-pro,__,,Importing…,,در حال درون‌ریزی…,,schemaFilters.js
+rank-math-pro,__,,Impressions,,نمایش‌ها,,stats.js
+rank-math-pro,__,,In Author (on Single Posts),,در نویسنده (در نوشته‌های تکی),,schemaFilters.js
+rank-math-pro,__,,In Publisher (Organization or Person Schema),,در ناشر (اسکیمای سازمان یا شخص),,schemaFilters.js
+rank-math-pro,__,,In WebPage Schema,,در اسکیمای WebPage,,schemaFilters.js
+rank-math-pro,__,,In WebSite Schema,,در اسکیمای WebSite,,schemaFilters.js
+rank-math-pro,__,,Include,,شامل‌کردن,,schemaFilters.js
+rank-math-pro,__,,Include Images from the ACF Fields.,,شامل تصاویر فیلدهای ACF.,,settings.js
+rank-math-pro,__,,Include KML File in the Sitemap,,افزودن فایل KML به نقشه سایت,,settings.js
+rank-math-pro,__,,Include Only Tracked Keywords,,فقط کلمات کلیدی ردیابی‌شده,,settings.js
+rank-math-pro,__,,Include Secondary KWs,,شامل کلمات کلیدی فرعی,,stats.js
+rank-math-pro,__,,Include Sections,,بخش‌های قابل نمایش,,settings.js
+rank-math-pro,__,,Include business locations in site-wide search results.,,مکان‌های کسب‌وکار را در نتایج جستجوی سراسری سایت قرار دهید.,,settings.js
+rank-math-pro,__,,Include images added in the ACF fields.,,تصاویر افزوده‌شده در فیلدهای ACF را نیز در نظر بگیرید.,,settings.js
+rank-math-pro,__,,Incoming Links,,پیوندهای ورودی,,editor.js | links-page.js
+rank-math-pro,__,,Index,,ایندکس,,news-sitemap.js
+rank-math-pro,__,,Index Status,,وضعیت نمایه‌سازی,,stats.js
+rank-math-pro,__,,Index Status Result,,نتیجه وضعیت ایندکس,,stats.js
+rank-math-pro,__,,Indexing Allowed,,نمایه‌سازی مجاز است,,stats.js
+rank-math-pro,__,,Indexing State,,وضعیت ایندکس,,stats.js
+rank-math-pro,__,,India,,هند,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,"Indicates whether the event occurs online, offline at a physical location, or a mix of both online and offline.",,مشخص می‌کند رویداد آنلاین، حضوری در یک مکان فیزیکی یا به‌صورت ترکیبی برگزار می‌شود.,,schemaFilters.js
+rank-math-pro,__,,Indicates whether the podcast is explicit language or adult content.,,مشخص می‌کند پادکست دارای زبان صریح یا محتوای بزرگسالان است یا خیر.,,settings.js
+rank-math-pro,__,,Indonesia,,اندونزی,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,Informational,,اطلاعاتی,,divi.js | elementor.js | gutenberg.js
+rank-math-pro,__,,Initializing preview generation…,,در حال آماده‌سازی ساخت پیش‌نمایش…,,links-page.js
+rank-math-pro,__,,Insert,,درج,,schemaFilters.js
+rank-math-pro,__,,Insert Link,,درج لینک,,editor.js
+rank-math-pro,__,,Insert Related Posts,,درج نوشته‌های مرتبط,,editor.js
+rank-math-pro,__,,"Insert amount, e.g. 50.00, or a salary range, e.g. 40.00-50.00",,مبلغ را وارد کنید؛ برای مثال 50.00، یا بازه حقوق مانند 40.00-50.00,,schemaFilters.js
+rank-math-pro,__,,Inserted!,,درج شد!,,editor.js
+rank-math-pro,__,,Install Imagify to automatically optimize all your images to improve site performance and enhance your SEO visibility.,,برای بهینه‌سازی خودکار همه تصاویر، بهبود عملکرد سایت و افزایش دیده‌شدن در نتایج سئو، Imagify را نصب کنید.,,settings.js
+rank-math-pro,__,,Install Now,,اکنون نصب کنید,,settings.js
+rank-math-pro,__,,Install WP Rocket to get the Performance Boost,,برای افزایش عملکرد، WP Rocket را نصب کنید,,seo-analysis-pro 2.js | seo-analysis-pro.js
+rank-math-pro,__,,Installing Imagify…,,در حال نصب Imagify…,,general-options.js | settings.js
+rank-math-pro,__,,Instruction Texts,,متن دستورها,,schemaFilters.js
+rank-math-pro,__,,Instruction Type,,نوع دستور,,schemaFilters.js
+rank-math-pro,__,,Instruction name of the recipe.,,نام دستور این مرحله از دستور پخت.,,schemaFilters.js
+rank-math-pro,__,,Interest,,علاقه‌مندی,,divi.js | elementor.js | gutenberg.js | stats.js
+rank-math-pro,__,,Intermittent issue - confirmed working,,مشکل مقطعی — عملکرد صحیح تأیید شده است,,links-page.js
+rank-math-pro,__,,Internal,,داخلی,,editor.js | links-page.js
+rank-math-pro,__,,Internal Links,,پیوندهای داخلی,,editor.js | links-page.js
+rank-math-pro,__,,Internal only,,فقط داخلی,,links-page.js
+rank-math-pro,__,,Inventory Level,,موجودی انبار,,schemaFilters.js
+rank-math-pro,__,,Iran,,ایران,,settings.js
+rank-math-pro,__,,Iraq,,عراق,,settings.js
+rank-math-pro,__,,Ireland,,ایرلند,,divi.js | elementor.js | gutenberg.js | stats.js
+rank-math-pro,__,,Is Explicit,,دارای محتوای صریح,,settings.js
+rank-math-pro,__,,Is Family Friendly Video,,ویدیوی مناسب خانواده است,,schemaFilters.js
+rank-math-pro,__,,Is Telecommute Job,,شغل دورکاری است,,schemaFilters.js
+rank-math-pro,__,,Is episode family friendly?,,آیا این قسمت مناسب خانواده است؟,,schemaFilters.js
+rank-math-pro,__,,Isle of Man,,جزیرهٔ من,,settings.js
+rank-math-pro,__,,Israel,,اسرائیل,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,Issue Message,,پیام مشکل,,stats.js
+rank-math-pro,__,,Issues,,مشکلات,,stats.js
+rank-math-pro,__,,Italy,,ایتالیا,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,Items,,موارد,,stats.js
+rank-math-pro,__,,Ivory Coast,,ساحل عاج,,settings.js
+rank-math-pro,__,,JSON-LD Code,,کد JSON-LD,,schemaFilters.js
+rank-math-pro,__,,JSON-LD/Custom Code,,JSON-LD/کد سفارشی,,schemaFilters.js
+rank-math-pro,__,,Jamaica,,جامائیکا,,settings.js
+rank-math-pro,__,,Japan,,ژاپن,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,JavaScript Object Notation,,نشانه‌گذاری شیء جاوااسکریپت,,editor.js | links-page.js
+rank-math-pro,__,,Jersey,,جرزی,,settings.js
+rank-math-pro,__,,Job Posting,,آگهی استخدام,,schemaFilters.js
+rank-math-pro,__,,Job title,,عنوان شغلی,,schemaFilters.js
+rank-math-pro,__,,Jordan,,اردن,,settings.js
+rank-math-pro,__,,KML is a file format used to display geographic data in an Earth browser such as Google Earth. More information:,,KML قالب فایلی برای نمایش داده‌های جغرافیایی در مرورگرهای زمین مانند Google Earth است. اطلاعات بیشتر:,,settings.js
+rank-math-pro,__,,Kazakhstan,,قزاقستان,,settings.js
+rank-math-pro,__,,Keep this section empty if this is an <a href=https://rankmath.com/kb/review-schema/#editorial-reviews?utm_source=Plugin&utm_medium=Review+Schema&utm_campaign=WP target=_blank>editorial reviews</a>.,,اگر این یک <a href=https://rankmath.com/kb/review-schema/#editorial-reviews?utm_source=Plugin&utm_medium=Review+Schema&utm_campaign=WP target=_blank>نقد تحریریه</a> است، این بخش را خالی بگذارید.,,schemaFilters.js
+rank-math-pro,__,,Kenya,,کنیا,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,Keyword,,کلمه کلیدی,,stats.js
+rank-math-pro,__,,Keyword Manager,,مدیریت کلمات کلیدی,,stats.js
+rank-math-pro,__,,Keyword Map,,نگاشت کلمه کلیدی,,links-page.js
+rank-math-pro,__,,Keyword Maps,,نقشه‌های کلمات کلیدی,,links-page.js
+rank-math-pro,__,,Keyword Maps History,,سابقه نگاشت‌های کلمه کلیدی,,links-page.js
+rank-math-pro,__,,Keyword Variations,,گونه‌های کلمه کلیدی,,links-page.js
+rank-math-pro,__,,Keyword map created successfully!,,نگاشت کلمه کلیدی با موفقیت ساخته شد!,,links-page.js
+rank-math-pro,__,,Keyword map deleted successfully!,,نگاشت کلمه کلیدی با موفقیت حذف شد!,,links-page.js
+rank-math-pro,__,,Keyword map disabled!,,نگاشت کلمه کلیدی غیرفعال شد!,,links-page.js
+rank-math-pro,__,,Keyword map enabled!,,نگاشت کلمه کلیدی فعال شد!,,links-page.js
+rank-math-pro,__,,Keyword map not found,,نگاشت کلمه کلیدی یافت نشد,,links-page.js
+rank-math-pro,__,,Keyword map updated successfully!,,نگاشت کلمه کلیدی با موفقیت به‌روزرسانی شد!,,links-page.js
+rank-math-pro,__,,Keyword maps deleted successfully!,,نگاشت‌های کلمه کلیدی با موفقیت حذف شدند!,,links-page.js
+rank-math-pro,__,,Keyword:,,کلمه کلیدی:,,links-page.js
+rank-math-pro,__,,Keywords,,کلمات کلیدی,,divi.js | elementor.js | gutenberg.js | schemaFilters.js | stats.js
+rank-math-pro,__,,Keywords Found,,کلمات کلیدی یافت‌شده,,links-page.js
+rank-math-pro,__,,Keywords summarizing the dataset. Add one keyword per line.,,کلمات کلیدی خلاصه‌کننده مجموعه‌داده. در هر خط یک کلمه کلیدی اضافه کنید.,,schemaFilters.js
+rank-math-pro,__,,Kids &amp; Family,,کودکان و خانواده,,settings.js
+rank-math-pro,__,,Kilometers,,کیلومتر,,settings.js
+rank-math-pro,__,,Kiribati,,کیریباتی,,settings.js
+rank-math-pro,__,,Kuwait,,کویت,,settings.js
+rank-math-pro,__,,Kyrgyzstan,,قرقیزستان,,settings.js
+rank-math-pro,__,,LEI Code,,کد LEI,,schemaFilters.js
+rank-math-pro,__,,Laos,,لائوس,,settings.js
+rank-math-pro,__,,Last 30 Days,,۳۰ روز گذشته,,links-page.js
+rank-math-pro,__,,Last 6 Months,,۶ ماه گذشته,,links-page.js
+rank-math-pro,__,,Last Checked,,آخرین بررسی,,editor.js | links-page.js
+rank-math-pro,__,,Last Checked:,,آخرین بررسی:,,editor.js | links-page.js
+rank-math-pro,__,,Last Crawl Time,,زمان آخرین خزش,,stats.js
+rank-math-pro,__,,Last Crawl: ,,آخرین خزش: ,,stats.js
+rank-math-pro,__,,Last Year,,سال گذشته,,links-page.js
+rank-math-pro,__,,Last:,,آخرین:,,links-page.js
+rank-math-pro,__,,Latitude,,عرض جغرافیایی,,schemaFilters.js
+rank-math-pro,__,,Latvia,,لتونی,,settings.js
+rank-math-pro,__,,Learn More.,,بیشتر بدانید.,,settings.js
+rank-math-pro,__,,Lebanon,,لبنان,,settings.js
+rank-math-pro,__,,Legal Name,,نام حقوقی,,schemaFilters.js
+rank-math-pro,__,,Lesotho,,لسوتو,,settings.js
+rank-math-pro,__,,Liberia,,لیبریا,,settings.js
+rank-math-pro,__,,Libya,,لیبی,,settings.js
+rank-math-pro,__,,License,,مجوز,,schemaFilters.js
+rank-math-pro,__,,Liechtenstein,,لیختن‌اشتاین,,settings.js
+rank-math-pro,__,,Limit the number of locations shown on your website to those nearest your user.,,تعداد مکان‌های نمایش‌داده‌شده در وب‌سایت را به نزدیک‌ترین موارد به کاربر محدود کنید.,,settings.js
+rank-math-pro,__,,Limit the number of times this link appears per post,,محدودکردن تعداد دفعات نمایش این لینک در هر نوشته,,links-page.js
+rank-math-pro,__,,Link,,لینک,,gutenberg-formats.js
+rank-math-pro,__,,Link Details,,جزئیات لینک,,editor.js | links-page.js
+rank-math-pro,__,,Link Genius,,نابغه پیوند,,settings.js
+rank-math-pro,__,,Link Health,,سلامت لینک,,links-page.js
+rank-math-pro,__,,Link Opportunities,,فرصت‌های لینک‌سازی,,content-ai 2.js | content-ai.js | editor.js
+rank-math-pro,__,,Link Status,,وضعیت لینک,,links-page.js
+rank-math-pro,__,,Link Status Audit,,ممیزی وضعیت لینک,,links-page.js
+rank-math-pro,__,,Link Suggestions,,پیشنهادهای لینک,,content-ai 2.js | content-ai.js
+rank-math-pro,__,,Link Type,,نوع پیوند,,editor.js | links-page.js
+rank-math-pro,__,,Link Type:,,نوع لینک:,,links-page.js
+rank-math-pro,__,,Link deleted successfully.,,لینک با موفقیت حذف شد.,,links-page.js
+rank-math-pro,__,,Link deleted.,,لینک حذف شد.,,links-page.js
+rank-math-pro,__,,Link marked as not broken.,,لینک به‌عنوان خراب‌نبودن علامت‌گذاری شد.,,links-page.js
+rank-math-pro,__,,Link rechecked successfully.,,لینک با موفقیت دوباره بررسی شد.,,links-page.js
+rank-math-pro,__,,Link regeneration completed successfully!,,بازتولید لینک‌ها با موفقیت تکمیل شد!,,links-page.js
+rank-math-pro,__,,Link restored successfully.,,لینک با موفقیت بازیابی شد.,,links-page.js
+rank-math-pro,__,,Link status audit completed successfully!,,ممیزی وضعیت لینک با موفقیت تکمیل شد!,,links-page.js
+rank-math-pro,__,,Link status reverted successfully.,,وضعیت لینک با موفقیت بازگردانی شد.,,links-page.js
+rank-math-pro,__,,Link to Full Report,,لینک گزارش کامل,,settings.js
+rank-math-pro,__,,Link updated successfully.,,لینک با موفقیت به‌روزرسانی شد.,,links-page.js
+rank-math-pro,__,,Link:,,لینک:,,links-page.js
+rank-math-pro,__,,Links,,پیوندها,,links-page.js | stats.js
+rank-math-pro,__,,Links blocked by robots.txt. These URLs cannot be crawled by search engines.,,لینک‌هایی که توسط robots.txt مسدود شده‌اند. موتورهای جستجو نمی‌توانند این نشانی‌ها را بخزند.,,links-page.js
+rank-math-pro,__,,Links restored successfully!,,لینک‌ها با موفقیت بازیابی شدند!,,links-page.js
+rank-math-pro,__,,Links that have not been checked yet. Run a crawl to check these links.,,لینک‌هایی که هنوز بررسی نشده‌اند. برای بررسی آن‌ها یک خزش اجرا کنید.,,links-page.js
+rank-math-pro,__,,Links that were marked as not broken by a user. These links are excluded from the broken links count.,,لینک‌هایی که کاربر آن‌ها را به‌عنوان خراب‌نبودن علامت‌گذاری کرده است. این لینک‌ها در شمار لینک‌های خراب محاسبه نمی‌شوند.,,links-page.js
+rank-math-pro,__,,Links with HTTP 3xx redirect status codes. Review these to ensure redirects are intentional.,,لینک‌های دارای کد وضعیت تغییر مسیر HTTP 3xx. آن‌ها را بررسی کنید تا مطمئن شوید تغییر مسیرها عمدی هستند.,,links-page.js
+rank-math-pro,__,,"Links with HTTP 4xx/5xx errors, timeouts, or connection issues. These need immediate attention.",,لینک‌های دارای خطاهای HTTP 4xx/5xx، پایان زمان انتظار یا مشکلات اتصال. این موارد نیازمند رسیدگی فوری هستند.,,links-page.js
+rank-math-pro,__,,Links with successful HTTP 2xx status codes. These links are working properly.,,لینک‌های دارای کد وضعیت موفق HTTP 2xx. این لینک‌ها به‌درستی کار می‌کنند.,,links-page.js
+rank-math-pro,__,,List of custom fields name to check for video content. Add one per line.,,فهرست نام فیلدهای سفارشی برای بررسی محتوای ویدیویی. در هر خط یک نام وارد کنید.,,settings.js
+rank-math-pro,__,,Lithuania,,لیتوانی,,settings.js
+rank-math-pro,__,,Loading details…,,در حال بارگذاری جزئیات…,,editor.js | links-page.js
+rank-math-pro,__,,Loading link statistics…,,در حال بارگذاری آمار لینک‌ها…,,links-page.js
+rank-math-pro,__,,Loading links…,,در حال بارگذاری لینک‌ها…,,links-page.js
+rank-math-pro,__,,Loading overview…,,در حال بارگذاری نمای کلی…,,links-page.js
+rank-math-pro,__,,Loading posts…,,در حال بارگذاری نوشته‌ها…,,links-page.js
+rank-math-pro,__,,Loading progress…,,در حال بارگذاری پیشرفت…,,links-page.js
+rank-math-pro,__,,Loading…,,در حال بارگذاری…,,divi.js | elementor.js | gutenberg.js | stats.js
+rank-math-pro,__,,Local Business,,کسب‌وکار محلی,,schemaFilters.js
+rank-math-pro,__,,Local Business Name,,نام کسب‌وکار محلی,,rank-math-pointers.js
+rank-math-pro,__,,Local Business Schema,,اسکیمای کسب‌وکار محلی,,rank-math-pointers.js
+rank-math-pro,__,,Local Sitemap,,نقشه سایت محلی,,settings.js
+rank-math-pro,__,,Locality,,محله/ناحیه,,schemaFilters.js
+rank-math-pro,__,,Location,,مکان,,schemaFilters.js
+rank-math-pro,__,,Location Categories,,دسته‌بندی‌های مکان,,edit.js | index 8.js
+rank-math-pro,__,,Location Detection,,تشخیص موقعیت مکانی,,settings.js
+rank-math-pro,__,,Location Post Type Name,,نام نوع نوشته مکان,,settings.js
+rank-math-pro,__,,Location Type,,نوع مکان,,schemaFilters.js
+rank-math-pro,__,,Location of a page describing the dataset.,,نشانی صفحه‌ای که مجموعه‌داده را توضیح می‌دهد.,,schemaFilters.js
+rank-math-pro,__,,Locations,,مکان‌ها,,edit.js | index 8.js
+rank-math-pro,__,,Locations Category Base,,پایه دسته‌بندی مکان‌ها,,settings.js
+rank-math-pro,__,,Locations KML,,KML مکان‌ها,,settings.js
+rank-math-pro,__,,Locations Post Type Base,,پایه نوع نوشته مکان‌ها,,settings.js
+rank-math-pro,__,,Locations Post Type Name (Plural),,نام نوع نوشته مکان‌ها (جمع),,settings.js
+rank-math-pro,__,,Logo Link,,لینک لوگو,,settings.js
+rank-math-pro,__,,Logo URL of the organization offering the job position. Leave empty to use your own company information,,نشانی لوگوی سازمان ارائه‌دهنده موقعیت شغلی. برای استفاده از اطلاعات شرکت خودتان، این قسمت را خالی بگذارید,,schemaFilters.js
+rank-math-pro,__,,Logo appearing in the header part of the report.,,لوگویی که در سربرگ گزارش نمایش داده می‌شود.,,settings.js
+rank-math-pro,__,,Longitude,,طول جغرافیایی,,schemaFilters.js
+rank-math-pro,__,,Luxembourg,,لوکزامبورگ,,settings.js
+rank-math-pro,__,,MPN,,MPN,,schemaFilters.js | settings.js
+rank-math-pro,__,,"Macao S.A.R., China",,ماکائو، منطقهٔ ویژهٔ اداری چین,,settings.js
+rank-math-pro,__,,Macedonia,,مقدونیهٔ شمالی,,settings.js
+rank-math-pro,__,,Madagascar,,ماداگاسکار,,settings.js
+rank-math-pro,__,,Make schema Primary,,اصلی‌کردن اسکیما,,schemaFilters.js
+rank-math-pro,__,,Make sure to add the Local Business Block or %s to display your business data.,,برای نمایش اطلاعات کسب‌وکار خود، حتماً بلوک کسب‌وکار محلی یا %s را اضافه کنید.,,rank-math-pointers.js
+rank-math-pro,__,,"Make your podcasts discoverable via Google Podcasts, Apple Podcasts, and similar services.",,پادکست‌های خود را در Google Podcasts، Apple Podcasts و سرویس‌های مشابه قابل یافتن کنید.,,settings.js
+rank-math-pro,__,,Malawi,,مالاوی,,settings.js
+rank-math-pro,__,,Malaysia,,مالزی,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,Maldives,,مالدیو,,settings.js
+rank-math-pro,__,,Mali,,مالی,,settings.js
+rank-math-pro,__,,Malta,,مالت,,settings.js
+rank-math-pro,__,,Manage Categories,,مدیریت دسته‌بندی‌ها,,redirections.js
+rank-math-pro,__,,"Manually create and edit your own custom Schema – fully control all of your properties, property groups, and the associated attributes. Please proceed with caution and validate your code to ensure it aligns with Google's Structured Data guidelines and standards.",,اسکیمای سفارشی خود را به‌صورت دستی بسازید و ویرایش کنید و کنترل کامل ویژگی‌ها، گروه‌های ویژگی و مشخصه‌های مرتبط را در دست بگیرید. با احتیاط ادامه دهید و کد خود را اعتبارسنجی کنید تا با دستورالعمل‌ها و استانداردهای داده ساختاریافته گوگل هماهنگ باشد.,,schemaFilters.js
+rank-math-pro,__,,Map,,نقشه,,edit.js | index 8.js
+rank-math-pro,__,,Map Height,,ارتفاع نقشه,,edit.js | index 8.js
+rank-math-pro,__,,Map Settings,,تنظیمات نقشه,,edit.js | index 8.js
+rank-math-pro,__,,Map Style,,سبک نقشه,,settings.js
+rank-math-pro,__,,Map Type,,نوع نقشه,,edit.js | index 8.js
+rank-math-pro,__,,Map Width,,عرض نقشه,,edit.js | index 8.js
+rank-math-pro,__,,Mark,,علامت‌گذاری,,links-page.js
+rank-math-pro,__,,Mark Link as Not Broken,,علامت‌گذاری لینک به‌عنوان خراب‌نبودن,,links-page.js
+rank-math-pro,__,,Mark as Not Broken,,علامت‌گذاری به‌عنوان خراب‌نبودن,,links-page.js
+rank-math-pro,__,,Mark this video as Family-friendly,,علامت‌گذاری این ویدیو به‌عنوان مناسب خانواده,,schemaFilters.js
+rank-math-pro,__,,Marked Safe,,ایمن علامت‌گذاری شد,,editor.js | links-page.js
+rank-math-pro,__,,Marking links as not broken… Please wait.,,در حال علامت‌گذاری لینک‌ها به‌عنوان خراب‌نبودن… لطفاً صبر کنید.,,links-page.js
+rank-math-pro,__,,Marshall Islands,,جزایر مارشال,,settings.js
+rank-math-pro,__,,Martinique,,مارتینیک,,settings.js
+rank-math-pro,__,,Match complete words only,,فقط تطابق با واژه‌های کامل,,links-page.js
+rank-math-pro,__,,Match exact letter casing,,تطابق دقیق بزرگی و کوچکی حروف,,links-page.js
+rank-math-pro,__,,Material,,مواد,,blocks.js | schemaFilters.js
+rank-math-pro,__,,Mauritania,,موریتانی,,settings.js
+rank-math-pro,__,,Mauritius,,موریس,,settings.js
+rank-math-pro,__,,Max Links Per Post,,بیشترین تعداد لینک در هر نوشته,,links-page.js
+rank-math-pro,__,,Maximum number of locations to show,,بیشترین تعداد مکان قابل‌نمایش,,edit.js | index 8.js | settings.js
+rank-math-pro,__,,Mayotte,,مایوت,,settings.js
+rank-math-pro,__,,Measurement system,,سیستم اندازه‌گیری,,settings.js
+rank-math-pro,__,,Menu URL,,نشانی اینترنتی منو,,schemaFilters.js
+rank-math-pro,__,,Mexico,,مکزیک,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,Micronesia,,میکرونزی,,settings.js
+rank-math-pro,__,,Microsoft Excel format,,قالب Microsoft Excel,,editor.js | links-page.js
+rank-math-pro,__,,Middle Center,,میانه وسط,,settings.js
+rank-math-pro,__,,Middle Left,,میانه چپ,,settings.js
+rank-math-pro,__,,Middle Right,,میانه راست,,settings.js
+rank-math-pro,__,,Miles,,مایل,,settings.js
+rank-math-pro,__,,Missing filters or update configuration. Please generate a new preview.,,فیلترها یا پیکربندی به‌روزرسانی وجود ندارد. لطفاً پیش‌نمایش جدیدی بسازید.,,links-page.js
+rank-math-pro,__,,Mobile Score,,امتیاز موبایل,,admin-bar.js | stats.js
+rank-math-pro,__,,Modified Date,,تاریخ ویرایش,,schemaFilters.js
+rank-math-pro,__,,Moldova,,مولداوی,,settings.js
+rank-math-pro,__,,Monaco,,موناکو,,settings.js
+rank-math-pro,__,,Mongolia,,مغولستان,,settings.js
+rank-math-pro,__,,Monitor SEO Performance,,پایش عملکرد سئو,,settings.js | setup-wizard.js
+rank-math-pro,__,,Montenegro,,مونته‌نگرو,,settings.js
+rank-math-pro,__,,Months of Experience,,ماه‌های سابقه کاری,,schemaFilters.js
+rank-math-pro,__,,Montserrat,,مونت‌سرات,,settings.js
+rank-math-pro,__,,More information,,اطلاعات بیشتر,,setup-wizard.js
+rank-math-pro,__,,Morocco,,مراکش,,settings.js
+rank-math-pro,__,,Move down,,انتقال به پایین,,blocks.js
+rank-math-pro,__,,Move up,,انتقال به بالا,,blocks.js
+rank-math-pro,__,,Movie Director,,کارگردان فیلم,,schemaFilters.js
+rank-math-pro,__,,Movie Name,,نام فیلم,,schemaFilters.js
+rank-math-pro,__,,Mozambique,,موزامبیک,,settings.js
+rank-math-pro,__,,Music,,موسیقی,,settings.js
+rank-math-pro,__,,Myanmar,,میانمار (برمه),,settings.js
+rank-math-pro,__,,N/A,,در دسترس نیست,,editor.js | links-page.js
+rank-math-pro,__,,NAICS Code,,کد NAICS,,schemaFilters.js
+rank-math-pro,__,,NULL/Unchecked,,NULL/علامت‌نخورده,,editor.js | links-page.js
+rank-math-pro,__,,Name,,نام,,links-page.js | schemaFilters.js | stats.js
+rank-math-pro,__,,Name is required,,نام الزامی است,,links-page.js
+rank-math-pro,__,,Name of the podcast.,,نام پادکست.,,settings.js
+rank-math-pro,__,,Name*,,نام*,,settings.js
+rank-math-pro,__,,Namibia,,نامیبیا,,settings.js
+rank-math-pro,__,,Narrow down which links to update. Leave empty to update all matching links.,,لینک‌هایی را که باید به‌روزرسانی شوند محدود کنید. برای به‌روزرسانی همه لینک‌های منطبق، خالی بگذارید.,,links-page.js
+rank-math-pro,__,,Nauru,,نائورو,,settings.js
+rank-math-pro,__,,Navigational,,ناوبری,,divi.js | elementor.js | gutenberg.js
+rank-math-pro,__,,"Negative notes, add one item per line",,نکات منفی؛ در هر خط یک مورد اضافه کنید,,schemaFilters.js
+rank-math-pro,__,,Nepal,,نپال,,settings.js
+rank-math-pro,__,,Netherlands,,هلند,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,Netherlands Antilles,,آنتیل هلند,,settings.js
+rank-math-pro,__,,New Anchor,,متن لنگر جدید,,links-page.js
+rank-math-pro,__,,New Caledonia,,کالدونیای جدید,,settings.js
+rank-math-pro,__,,New Category,,دسته‌بندی جدید,,redirections.js
+rank-math-pro,__,,New Tab,,زبانه جدید,,editor.js | links-page.js
+rank-math-pro,__,,New URL,,نشانی جدید,,links-page.js
+rank-math-pro,__,,New Zealand,,نیوزیلند,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,News &amp; Politics,,اخبار و سیاست,,settings.js
+rank-math-pro,__,,News Post Type,,نوع نوشته خبری,,settings.js | setup-wizard.js
+rank-math-pro,__,,News Sitemap,,نقشه سایت خبری,,settings.js | setup-wizard.js
+rank-math-pro,__,,News Sitemaps,,نقشه‌های سایت خبری,,setup-wizard.js
+rank-math-pro,__,,News Sitemaps allow you to control which content you submit to Google News.,,نقشه‌های سایت خبری به شما امکان می‌دهند محتوایی را که برای Google News ارسال می‌کنید کنترل کنید.,,setup-wizard.js
+rank-math-pro,__,,News Sitemaps allow you to control which content you submit to Google News. More information:,,نقشه‌های سایت خبری به شما امکان می‌دهند محتوای ارسالی به Google News را کنترل کنید. اطلاعات بیشتر:,,settings.js
+rank-math-pro,__,,News Sitemaps overview,,نمای کلی نقشه‌های سایت خبری,,settings.js
+rank-math-pro,__,,Next,,بعدی,,links-page.js | rank-math-pointers.js
+rank-math-pro,__,,Nicaragua,,نیکاراگوئه,,settings.js
+rank-math-pro,__,,Niger,,نیجر,,settings.js
+rank-math-pro,__,,Nigeria,,نیجریه,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,Niue,,نیوئه,,settings.js
+rank-math-pro,__,,No,,خیر,,links-page.js
+rank-math-pro,__,,No AI suggestions found,,هیچ پیشنهاد هوش مصنوعی یافت نشد,,editor.js
+rank-math-pro,__,,No Index,,نوایندکس,,editor.js | links-page.js | news-sitemap.js
+rank-math-pro,__,,No Keywords Selected,,هیچ کلمه کلیدی انتخاب نشده است,,divi.js | elementor.js | gutenberg.js
+rank-math-pro,__,,No applicable posts found for the specified filters and update configuration.,,برای فیلترها و پیکربندی به‌روزرسانی مشخص‌شده، نوشته قابل‌اعمالی یافت نشد.,,links-page.js
+rank-math-pro,__,,No applicable posts found for this keyword map.,,برای این نگاشت کلمه کلیدی، نوشته قابل‌اعمالی یافت نشد.,,links-page.js
+rank-math-pro,__,,No broken links found. Great job!,,هیچ لینک خرابی یافت نشد. عالی است!,,links-page.js
+rank-math-pro,__,,No bulk update history found.,,هیچ سابقه به‌روزرسانی گروهی یافت نشد.,,links-page.js
+rank-math-pro,__,,No change,,بدون تغییر,,links-page.js | settings.js
+rank-math-pro,__,,No changes found to export.,,تغییری برای برون‌بری یافت نشد.,,links-page.js
+rank-math-pro,__,,No changes found.,,هیچ تغییری یافت نشد.,,links-page.js
+rank-math-pro,__,,No data found.,,هیچ داده‌ای یافت نشد.,,divi.js | elementor.js | gutenberg.js
+rank-math-pro,__,,No keyword maps found. Create your first one to get started.,,هیچ نگاشت کلمه کلیدی یافت نشد. برای شروع، نخستین مورد را بسازید.,,links-page.js
+rank-math-pro,__,,No keyword maps history found.,,هیچ سابقه‌ای برای نگاشت‌های کلمه کلیدی یافت نشد.,,links-page.js
+rank-math-pro,__,,No link data available,,داده‌ای برای لینک موجود نیست,,links-page.js
+rank-math-pro,__,,No links have been marked as safe.,,هیچ لینکی به‌عنوان سالم علامت‌گذاری نشده است.,,links-page.js
+rank-math-pro,__,,No new Focus Keywords found.,,هیچ کلمه کلیدی اصلی جدیدی یافت نشد.,,stats.js
+rank-math-pro,__,,No new suggestions available. All variations may already exist.,,پیشنهاد جدیدی موجود نیست. ممکن است همه گونه‌ها از قبل وجود داشته باشند.,,links-page.js
+rank-math-pro,__,,No posts with incoming links found. Start linking your content!,,هیچ نوشته‌ای با لینک ورودی یافت نشد. لینک‌سازی محتوای خود را آغاز کنید!,,links-page.js
+rank-math-pro,__,,No process in progress.,,هیچ فرایندی در حال اجرا نیست.,,links-page.js
+rank-math-pro,__,,No redirect links detected.,,هیچ لینک تغییر مسیری شناسایی نشد.,,links-page.js
+rank-math-pro,__,,"No related posts found. Your content may not have enough context, or try again later.",,نوشته مرتبطی یافت نشد. ممکن است محتوای شما زمینه کافی نداشته باشد؛ بعداً دوباره تلاش کنید.,,editor.js
+rank-math-pro,__,,No related posts yet. Click Generate to fetch.,,هنوز نوشته مرتبطی وجود ندارد. برای دریافت، روی «تولید» کلیک کنید.,,editor.js
+rank-math-pro,__,,No results found matching your search query.,,نتیجه‌ای مطابق عبارت جستجوی شما یافت نشد.,,schemaFilters.js | stats.js
+rank-math-pro,__,,No suggestion found for,,پیشنهادی یافت نشد برای,,news-sitemap-settings.js
+rank-math-pro,__,,"No suggestions found. Your content may not have enough context, or try again later.",,پیشنهادی یافت نشد. ممکن است محتوای شما زمینه کافی نداشته باشد؛ بعداً دوباره تلاش کنید.,,editor.js
+rank-math-pro,__,,No suggestions yet. Click Generate to create suggestions.,,هنوز پیشنهادی وجود ندارد. برای ساخت پیشنهادها روی «تولید» کلیک کنید.,,editor.js
+rank-math-pro,__,,No variations added yet. Add some manually or generate them using AI.,,هنوز گونه‌ای اضافه نشده است. چند مورد را دستی اضافه کنید یا با هوش مصنوعی بسازید.,,links-page.js
+rank-math-pro,__,,Nofollow,,نوفالو,,editor.js | links-page.js
+rank-math-pro,__,,Nofollow Links,,لینک‌های نوفالو,,editor.js | links-page.js
+rank-math-pro,__,,Nofollow Status,,وضعیت نوفالو,,editor.js | links-page.js
+rank-math-pro,__,,Nofollow Status:,,وضعیت نوفالو:,,links-page.js
+rank-math-pro,__,,Nofollow attribute removed successfully.,,ویژگی nofollow با موفقیت حذف شد.,,links-page.js
+rank-math-pro,__,,Noindex Hidden Products,,نوایندکس‌کردن محصولات مخفی,,settings.js
+rank-math-pro,__,,None,,هیچ‌کدام,,settings.js | stats.js
+rank-math-pro,__,,Norfolk Island,,جزیرهٔ نورفولک,,settings.js
+rank-math-pro,__,,North Korea,,کرهٔ شمالی,,settings.js
+rank-math-pro,__,,Norway,,نروژ,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,Not Available,,در دسترس نیست,,stats.js
+rank-math-pro,__,,Not Broken,,خراب نیست,,editor.js | links-page.js
+rank-math-pro,__,,Not Set,,تنظیم نشده,,editor.js | links-page.js
+rank-math-pro,__,,Not available in your plan.,,در پلن شما در دسترس نیست.,,editor.js
+rank-math-pro,__,,Note:,,توجه:,,CompetitorAnalysis.js | seo-analysis-pro 2.js
+rank-math-pro,__,,Note: Please save the post as a draft first to see the actual data.,,توجه: برای مشاهده داده واقعی، ابتدا نوشته را به‌صورت پیش‌نویس ذخیره کنید.,,schemaFilters.js
+rank-math-pro,__,,Number of Employees,,تعداد کارکنان,,schemaFilters.js
+rank-math-pro,__,,Offer availability,,وضعیت موجودبودن پیشنهاد,,schemaFilters.js
+rank-math-pro,__,,Offers,,پیشنهادها,,schemaFilters.js
+rank-math-pro,__,,Old Anchor,,متن لنگر قبلی,,links-page.js
+rank-math-pro,__,,Old URL,,نشانی قبلی,,links-page.js
+rank-math-pro,__,,Oman,,عمان,,settings.js
+rank-math-pro,__,,"Once you save the changes, we will create a new custom post type called ""Locations"" where you can add multiple locations of your business/organization.",,پس از ذخیره تغییرات، نوع نوشته سفارشی جدیدی با نام «مکان‌ها» ایجاد می‌شود که می‌توانید چندین مکان کسب‌وکار یا سازمان خود را در آن اضافه کنید.,,settings.js
+rank-math-pro,__,,Online Event URL,,نشانی اینترنتی رویداد آنلاین,,schemaFilters.js
+rank-math-pro,__,,Only 6 keywords can be added in the graph,,فقط ۶ کلمه کلیدی را می‌توان به نمودار اضافه کرد,,stats.js
+rank-math-pro,__,,"Only errors (4xx, 5xx, timeout, failed)",,فقط خطاها (4xx، 5xx، پایان زمان انتظار، ناموفق),,links-page.js
+rank-math-pro,__,,Only match keywords with exact casing,,فقط کلمات کلیدی با همان بزرگی و کوچکی حروف منطبق شوند,,links-page.js
+rank-math-pro,__,,Only unchecked,,فقط بررسی‌نشده‌ها,,links-page.js
+rank-math-pro,__,,Open 24/7,,شبانه‌روزی باز است,,schemaFilters.js
+rank-math-pro,__,,Open 24/7 label,,برچسب بازبودن شبانه‌روزی,,settings.js
+rank-math-pro,__,,Open 24h label,,برچسب بازبودن ۲۴ ساعته,,settings.js
+rank-math-pro,__,,Open Days,,روزهای بازبودن,,schemaFilters.js
+rank-math-pro,__,,Open Report,,بازکردن گزارش,,stats.js
+rank-math-pro,__,,Open in new tab.,,بازکردن در زبانه جدید.,,gutenberg-formats.js
+rank-math-pro,__,,Open link in new tab,,بازکردن لینک در زبانه جدید,,links-page.js
+rank-math-pro,__,,Opening Hours,,ساعات کاری,,edit.js | index 8.js | schemaFilters.js
+rank-math-pro,__,,Opening Hours Settings,,تنظیمات ساعات کاری,,edit.js | index 8.js
+rank-math-pro,__,,Opening Time,,زمان بازشدن,,schemaFilters.js
+rank-math-pro,__,,Operating System,,سیستم‌عامل,,schemaFilters.js
+rank-math-pro,__,,Operation,,عملیات,,links-page.js
+rank-math-pro,__,,Optimize Images: ,,بهینه‌سازی تصاویر: ,,settings.js
+rank-math-pro,__,,Optional description of what this rule does,,توضیح اختیاری درباره کاری که این قانون انجام می‌دهد,,links-page.js
+rank-math-pro,__,,"Options will be applied to old & new posts. By default, only Primary keyword will be imported.",,گزینه‌ها روی نوشته‌های قدیمی و جدید اعمال می‌شوند. به‌صورت پیش‌فرض فقط کلمه کلیدی اصلی درون‌ریزی می‌شود.,,stats.js
+rank-math-pro,__,,Organization Logo (Recommended),,لوگوی سازمان (پیشنهاد می‌شود),,schemaFilters.js
+rank-math-pro,__,,Organization URL (Recommended),,نشانی اینترنتی سازمان (پیشنهاد می‌شود),,schemaFilters.js
+rank-math-pro,__,,Organize your redirections in categories.,,تغییر مسیرهای خود را در دسته‌بندی‌ها سازماندهی کنید.,,redirections.js
+rank-math-pro,__,,Orphan Posts,,نوشته‌های یتیم,,editor.js | links-page.js
+rank-math-pro,__,,"Other terms for your recipe such as the season, the holiday, or other descriptors. Separate multiple entries with commas.",,اصطلاحات دیگر مرتبط با دستور پخت، مانند فصل، مناسبت یا توضیحات دیگر را وارد کنید. موارد متعدد را با ویرگول جدا کنید.,,schemaFilters.js
+rank-math-pro,__,,Overview,,نمای کلی,,links-page.js
+rank-math-pro,__,,Owner Email,,ایمیل مالک,,settings.js
+rank-math-pro,__,,Owner Name,,نام مالک,,settings.js
+rank-math-pro,__,,PRO TIP,,نکته حرفه‌ای,,links-page.js
+rank-math-pro,__,,Page,,صفحه,,links-page.js
+rank-math-pro,__,,Page Fetch,,واکشی صفحه,,stats.js
+rank-math-pro,__,,Page Fetch State,,وضعیت دریافت صفحه,,stats.js
+rank-math-pro,__,,Page Score,,امتیاز صفحه,,admin-bar.js | stats.js
+rank-math-pro,__,,Page URL,,نشانی صفحه,,schemaFilters.js
+rank-math-pro,__,,PageSpeed,,پیج‌اسپید,,admin-bar.js | stats.js
+rank-math-pro,__,,Pageviews,,بازدید صفحات,,stats.js
+rank-math-pro,__,,Pakistan,,پاکستان,,settings.js
+rank-math-pro,__,,Palestinian Territory,,سرزمین‌های فلسطینی,,settings.js
+rank-math-pro,__,,Panama,,پاناما,,settings.js
+rank-math-pro,__,,Papua New Guinea,,پاپوا گینهٔ نو,,settings.js
+rank-math-pro,__,,Paraguay,,پاراگوئه,,settings.js
+rank-math-pro,__,,Partial Match (Contains),,تطابق جزئی (شامل),,links-page.js
+rank-math-pro,__,,Past 12 months,,۱۲ ماه گذشته,,divi.js | elementor.js | gutenberg.js | stats.js
+rank-math-pro,__,,Past 30 days,,۳۰ روز گذشته,,divi.js | elementor.js | gutenberg.js | stats.js
+rank-math-pro,__,,Past 5 years,,۵ سال گذشته,,stats.js
+rank-math-pro,__,,Past 7 days,,۷ روز گذشته,,divi.js | elementor.js | gutenberg.js | stats.js
+rank-math-pro,__,,Past 90 days,,۹۰ روز گذشته,,divi.js | elementor.js | gutenberg.js | stats.js
+rank-math-pro,__,,Past day,,روز گذشته,,stats.js
+rank-math-pro,__,,Payment Accepted,,روش‌های پرداخت پذیرفته‌شده,,schemaFilters.js
+rank-math-pro,__,,Payroll (Recommended),,حقوق و دستمزد (پیشنهاد می‌شود),,schemaFilters.js
+rank-math-pro,__,,Pending,,در انتظار,,links-page.js
+rank-math-pro,__,,Performer,,اجراکننده,,schemaFilters.js
+rank-math-pro,__,,Performer Information,,اطلاعات اجراکننده,,schemaFilters.js
+rank-math-pro,__,,Person,,شخص,,schemaFilters.js
+rank-math-pro,__,,Peru,,پرو,,settings.js
+rank-math-pro,__,,Philippines,,فیلیپین,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,Phone Number,,شماره تلفن,,schemaFilters.js
+rank-math-pro,__,,Pitcairn,,جزایر پیت‌کرن,,settings.js
+rank-math-pro,__,,Please consider using %1$s Block instead.,,لطفاً به‌جای آن از بلوک %1$s استفاده کنید.,,schemaFilters.js
+rank-math-pro,__,,Please enter a valid URL,,لطفاً یک نشانی اینترنتی معتبر وارد کنید,,links-page.js
+rank-math-pro,__,,Please enter both search and replace values for URL,,لطفاً برای نشانی اینترنتی، هر دو مقدار جستجو و جایگزینی را وارد کنید,,links-page.js
+rank-math-pro,__,,Please enter both search and replace values for anchor text,,لطفاً برای متن لنگر، هر دو مقدار جستجو و جایگزینی را وارد کنید,,links-page.js
+rank-math-pro,__,,Please select a file to import.,,یک فایل برای درون‌ریزی انتخاب کنید.,,Import.js | status.js
+rank-math-pro,__,,Please set the Focus Keyword for this page.,,لطفاً کلمه کلیدی کانونی این صفحه را تنظیم کنید.,,divi.js | elementor.js | gutenberg.js | stats.js
+rank-math-pro,__,,Podcast,,پادکست,,settings.js
+rank-math-pro,__,,Podcast Category,,دسته‌بندی پادکست,,settings.js
+rank-math-pro,__,,Podcast Description,,توضیحات پادکست,,settings.js
+rank-math-pro,__,,Podcast Episode,,قسمت پادکست,,schemaFilters.js
+rank-math-pro,__,,Podcast Image,,تصویر پادکست,,settings.js
+rank-math-pro,__,,Podcast Name,,نام پادکست,,settings.js
+rank-math-pro,__,,Poland,,لهستان,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,Populate automatic Video Schema by auto-detecting any video in the content.,,با تشخیص خودکار ویدیوهای محتوا، اسکیمای ویدیو را به‌صورت خودکار تکمیل کنید.,,settings.js
+rank-math-pro,__,,Portugal,,پرتغال,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,Position,,جایگاه,,stats.js
+rank-math-pro,__,,Position History,,تاریخچه جایگاه,,stats.js
+rank-math-pro,__,,"Position of the episode within an ordered group of episodes (1, 2, 3, etc).",,جایگاه قسمت در یک مجموعه مرتب از قسمت‌ها (۱، ۲، ۳ و مانند آن).,,schemaFilters.js
+rank-math-pro,__,,"Position of the season within an ordered group of seasons (1, 2, 3, etc).",,جایگاه فصل در یک مجموعه مرتب از فصل‌ها (۱، ۲، ۳ و مانند آن).,,schemaFilters.js
+rank-math-pro,__,,Positions Summary,,خلاصه جایگاه‌ها,,settings.js
+rank-math-pro,__,,"Positive notes, add one item per line",,نکات مثبت؛ در هر خط یک مورد اضافه کنید,,schemaFilters.js
+rank-math-pro,__,,Post ID,,شناسه نوشته,,links-page.js
+rank-math-pro,__,,Post Occurrences,,تعداد رخدادها در نوشته,,editor.js | links-page.js
+rank-math-pro,__,,Post Publication Date,,تاریخ انتشار نوشته,,links-page.js
+rank-math-pro,__,,Post Title,,عنوان نوشته,,editor.js | links-page.js
+rank-math-pro,__,,Post Type,,نوع نوشته,,editor.js | links-page.js
+rank-math-pro,__,,Post Types,,انواع نوشته,,links-page.js
+rank-math-pro,__,,Post Types:,,انواع نوشته:,,links-page.js
+rank-math-pro,__,,Post types:,,انواع نوشته:,,Export.js | status.js
+rank-math-pro,__,,Postal Code,,کد پستی,,schemaFilters.js
+rank-math-pro,__,,Posting Expiry Date,,تاریخ انقضای آگهی,,schemaFilters.js
+rank-math-pro,__,,Posting ID (Recommended),,شناسه آگهی (پیشنهاد می‌شود),,schemaFilters.js
+rank-math-pro,__,,Posts,,نوشته‌ها,,Export.js | links-page.js | stats.js | status.js
+rank-math-pro,__,,Posts Affected,,نوشته‌های تحت‌تأثیر,,links-page.js
+rank-math-pro,__,,Posts of these types will not receive auto-links from Keyword Maps.,,نوشته‌های این انواع، از نگاشت کلمات کلیدی لینک خودکار دریافت نمی‌کنند.,,settings.js
+rank-math-pro,__,,Posts with External Links,,نوشته‌های دارای لینک خارجی,,editor.js | links-page.js
+rank-math-pro,__,,Posts with Internal Links,,نوشته‌های دارای لینک داخلی,,editor.js | links-page.js
+rank-math-pro,__,,Preparation Time,,زمان آماده‌سازی,,schemaFilters.js
+rank-math-pro,__,,Prevent Link Genius Keyword Maps from adding links to this post.,,جلوگیری از افزودن لینک به این نوشته توسط نگاشت‌های کلمه کلیدی Link Genius.,,editor.js
+rank-math-pro,__,,Preview,,پیش‌نمایش,,schemaFilters.js | settings.js
+rank-math-pro,__,,Preview & Execute,,پیش‌نمایش و اجرا,,links-page.js
+rank-math-pro,__,,Preview Changes,,پیش‌نمایش تغییرات,,links-page.js
+rank-math-pro,__,,Preview Generation,,ساخت پیش‌نمایش,,links-page.js
+rank-math-pro,__,,Preview Generation Progress,,پیشرفت ساخت پیش‌نمایش,,links-page.js
+rank-math-pro,__,,Preview Image,,تصویر پیش‌نمایش,,edit.js | index 8.js
+rank-math-pro,__,,Preview Keyword Map Links,,پیش‌نمایش لینک‌های نگاشت کلمه کلیدی,,links-page.js
+rank-math-pro,__,,Preview generation completed!,,ساخت پیش‌نمایش تکمیل شد!,,links-page.js
+rank-math-pro,__,,Previous,,قبلی,,links-page.js
+rank-math-pro,__,,Price,,قیمت,,schemaFilters.js
+rank-math-pro,__,,Price Range,,بازه قیمت,,schemaFilters.js
+rank-math-pro,__,,Price Valid From,,شروع اعتبار قیمت,,schemaFilters.js
+rank-math-pro,__,,Price Valid Until,,پایان اعتبار قیمت,,schemaFilters.js
+rank-math-pro,__,,Primary Country,,کشور اصلی,,settings.js
+rank-math-pro,__,,Primary Keyword,,کلمه کلیدی اصلی,,stats.js
+rank-math-pro,__,,Primary Number,,شماره اصلی,,schemaFilters.js
+rank-math-pro,__,,Print,,چاپ,,PrintButton.js | seo-analysis-pro 2.js
+rank-math-pro,__,,Process Code,,کد فرایند,,schemaFilters.js
+rank-math-pro,__,,Process HTML,,پردازش HTML,,schemaFilters.js
+rank-math-pro,__,,Process completed successfully!,,فرایند با موفقیت تکمیل شد!,,links-page.js
+rank-math-pro,__,,Processed,,پردازش‌شده,,links-page.js
+rank-math-pro,__,,Processed Links,,لینک‌های پردازش‌شده,,links-page.js
+rank-math-pro,__,,Processed Posts,,نوشته‌های پردازش‌شده,,links-page.js
+rank-math-pro,__,,Processing,,در حال پردازش,,links-page.js
+rank-math-pro,__,,Processing bulk update…,,در حال پردازش به‌روزرسانی گروهی…,,links-page.js
+rank-math-pro,__,,Processing links… Please wait.,,در حال پردازش لینک‌ها… لطفاً صبر کنید.,,links-page.js
+rank-math-pro,__,,Processing rollback…,,در حال پردازش بازگردانی…,,links-page.js
+rank-math-pro,__,,Processing… Please wait.,,در حال پردازش… لطفاً صبر کنید.,,links-page.js
+rank-math-pro,__,,Product,,محصول,,schemaFilters.js
+rank-math-pro,__,,Product SKU,,شناسه SKU محصول,,schemaFilters.js
+rank-math-pro,__,,Product URL,,نشانی محصول,,schemaFilters.js
+rank-math-pro,__,,Product name,,نام محصول,,schemaFilters.js
+rank-math-pro,__,,Progress,,پیشرفت,,links-page.js
+rank-math-pro,__,,Pros,,مزایا,,schemaFilters.js
+rank-math-pro,__,,Publish your location!,,مکان خود را منتشر کنید!,,rank-math-pointers.js
+rank-math-pro,__,,Published Date,,تاریخ انتشار,,schemaFilters.js
+rank-math-pro,__,,Qatar,,قطر,,settings.js
+rank-math-pro,__,,"Quantity produced by the recipe, for example 4 servings",,مقدار خروجی دستور پخت؛ برای مثال ۴ وعده,,schemaFilters.js
+rank-math-pro,__,,Question,,پرسش,,schemaFilters.js
+rank-math-pro,__,,Questions,,پرسش‌ها,,schemaFilters.js
+rank-math-pro,__,,Rank Math SEO score.,,امتیاز سئوی رنک مث.,,stats.js
+rank-math-pro,__,,Rank Math’s SEO Analyzer Score.,,امتیاز تحلیلگر سئوی رنک مث.,,stats.js
+rank-math-pro,__,,Ranked for most Clicks,,بیشترین رتبه برای کلیک‌ها,,stats.js
+rank-math-pro,__,,Ranked for most Impressions,,بیشترین رتبه برای نمایش‌ها,,stats.js
+rank-math-pro,__,,Ranked for most Keywords,,بیشترین رتبه برای کلمات کلیدی,,stats.js
+rank-math-pro,__,,Ranked for most Search Traffic,,بیشترین رتبه برای ترافیک جستجو,,stats.js
+rank-math-pro,__,,Ranking Keywords,,کلمات کلیدی رتبه‌دار,,stats.js
+rank-math-pro,__,,Rating,,امتیازدهی,,schemaFilters.js
+rank-math-pro,__,,Rating Maximum,,حداکثر امتیاز,,schemaFilters.js
+rank-math-pro,__,,Rating Minimum,,حداقل امتیاز,,schemaFilters.js
+rank-math-pro,__,,Rating maximum score,,بیشترین امتیاز قابل ثبت,,schemaFilters.js
+rank-math-pro,__,,Rating minimum score,,کمترین امتیاز قابل ثبت,,schemaFilters.js
+rank-math-pro,__,,Rating score,,امتیاز,,schemaFilters.js
+rank-math-pro,__,,Read more,,بیشتر بخوانید,,settings.js | stats.js
+rank-math-pro,__,,Reason (optional),,دلیل (اختیاری),,links-page.js
+rank-math-pro,__,,Recheck,,بررسی دوباره,,editor.js | links-page.js
+rank-math-pro,__,,Recipe,,دستور پخت,,schemaFilters.js
+rank-math-pro,__,,Recipe Ingredients,,مواد اولیه دستور پخت,,schemaFilters.js
+rank-math-pro,__,,Recipe Instructions,,دستورالعمل پخت,,schemaFilters.js
+rank-math-pro,__,,Recipe Video Thumbnail,,تصویر بندانگشتی ویدیوی دستور پخت,,schemaFilters.js
+rank-math-pro,__,,Recipe Yield,,مقدار خروجی دستور پخت,,schemaFilters.js
+rank-math-pro,__,,"Recipe ingredients, add one item per line",,مواد اولیه دستور پخت؛ هر مورد را در یک خط وارد کنید,,schemaFilters.js
+rank-math-pro,__,,Redirection Category,,دسته‌بندی تغییر مسیر,,redirections.js
+rank-math-pro,__,,Redirection will be activated on this date (optional),,تغییر مسیر در این تاریخ فعال خواهد شد (اختیاری),,redirections.js
+rank-math-pro,__,,Redirection will be deactivated on this date (optional),,تغییر مسیر در این تاریخ غیرفعال خواهد شد (اختیاری),,redirections.js
+rank-math-pro,__,,Redirects,,تغییر مسیرها,,editor.js | links-page.js
+rank-math-pro,__,,Redirects (3xx),,تغییر مسیرها (3xx),,links-page.js
+rank-math-pro,__,,Referring URLs,,نشانی‌های ارجاع‌دهنده,,stats.js
+rank-math-pro,__,,Refresh,,تازه‌سازی,,admin-bar.js | editor.js | stats.js
+rank-math-pro,__,,Refresh Score,,تازه‌سازی امتیاز,,admin-bar.js | stats.js
+rank-math-pro,__,,Refreshing %s,,در حال تازه‌سازی %s,,admin-bar.js | stats.js
+rank-math-pro,__,,Regenerate Links,,بازتولید لینک‌ها,,links-page.js
+rank-math-pro,__,,Regenerating links for all posts… Please wait.,,در حال بازتولید لینک‌های همه نوشته‌ها… لطفاً صبر کنید.,,links-page.js
+rank-math-pro,__,,Regenerating…,,در حال تولید دوباره…,,links-page.js
+rank-math-pro,__,,Regex Pattern,,الگوی عبارت منظم,,links-page.js
+rank-math-pro,__,,Region,,منطقه,,schemaFilters.js
+rank-math-pro,__,,Related Posts,,نوشته‌های مرتبط,,content-ai 2.js | content-ai.js | editor.js
+rank-math-pro,__,,Religion &amp; Spirituality,,دین و معنویت,,settings.js
+rank-math-pro,__,,Remaining,,باقی‌مانده,,stats.js
+rank-math-pro,__,,Remote Job Location,,مکان شغل دورکاری,,schemaFilters.js
+rank-math-pro,__,,Remove,,حذف,,editor.js | links-page.js | schemaFilters.js | settings.js
+rank-math-pro,__,,Remove Media Data from RSS feed,,حذف داده‌های رسانه از خوراک RSS,,settings.js
+rank-math-pro,__,,Remove from graph,,حذف از نمودار,,stats.js
+rank-math-pro,__,,Remove nofollow,,حذف nofollow,,editor.js | links-page.js
+rank-math-pro,__,,Repeat Count,,تعداد تکرار,,schemaFilters.js
+rank-math-pro,__,,Repeat Frequency,,تناوب تکرار,,schemaFilters.js
+rank-math-pro,__,,Replace,,جایگزینی,,settings.js
+rank-math-pro,__,,Replace With,,جایگزینی با,,links-page.js
+rank-math-pro,__,,"Replace characters or words in the alt tags, title tags, or in the captions.",,نویسه‌ها یا واژه‌ها را در برچسب‌های alt، برچسب‌های title یا کپشن‌ها جایگزین کنید.,,settings.js
+rank-math-pro,__,,Replacement URL,,نشانی جایگزین,,links-page.js
+rank-math-pro,__,,Replacement text,,متن جایگزین,,links-page.js
+rank-math-pro,__,,Replacements,,جایگزینی‌ها,,settings.js
+rank-math-pro,__,,Report Email Address,,نشانی ایمیل گزارش,,settings.js | setup-wizard.js
+rank-math-pro,__,,Report Email Heading,,عنوان ایمیل گزارش,,settings.js
+rank-math-pro,__,,Report Email Subject,,موضوع ایمیل گزارش,,settings.js
+rank-math-pro,__,,Report Footer Text,,متن پایین گزارش,,settings.js
+rank-math-pro,__,,Report Header Background,,پس‌زمینه سربرگ گزارش,,settings.js
+rank-math-pro,__,,Report Logo,,لوگوی گزارش,,settings.js
+rank-math-pro,__,,Report Top Text,,متن بالای گزارش,,settings.js
+rank-math-pro,__,,Republic of Ireland,,ایرلند,,settings.js
+rank-math-pro,__,,Requires authentication,,نیازمند احراز هویت,,links-page.js
+rank-math-pro,__,,Response Headers,,سربرگ‌های پاسخ,,editor.js | links-page.js
+rank-math-pro,__,,Rest of the Keywords,,سایر کلمات کلیدی,,stats.js
+rank-math-pro,__,,Restaurant,,رستوران,,schemaFilters.js
+rank-math-pro,__,,Restore,,بازیابی,,links-page.js
+rank-math-pro,__,,Restore Deleted Links,,بازیابی لینک‌های حذف‌شده,,links-page.js
+rank-math-pro,__,,Restored,,بازیابی‌شده,,links-page.js
+rank-math-pro,__,,Restoring links… Please wait.,,در حال بازیابی لینک‌ها… لطفاً صبر کنید.,,links-page.js
+rank-math-pro,__,,Reunion,,رئونیون,,settings.js
+rank-math-pro,__,,Revert,,بازگردانی,,editor.js | links-page.js
+rank-math-pro,__,,Review,,بررسی,,schemaFilters.js
+rank-math-pro,__,,Review & Apply Changes,,بررسی و اعمال تغییرات,,links-page.js
+rank-math-pro,__,,Review Bulk Update Changes,,بررسی تغییرات به‌روزرسانی گروهی,,links-page.js
+rank-math-pro,__,,Review Location,,مکان بررسی,,schemaFilters.js
+rank-math-pro,__,,Review Rollback Changes,,بررسی تغییرات بازگردانی,,links-page.js
+rank-math-pro,__,,Review the changes below and deselect any you don't want to apply,,تغییرات زیر را بررسی کنید و مواردی را که نمی‌خواهید اعمال شوند از انتخاب خارج کنید,,links-page.js
+rank-math-pro,__,,Review the keyword matches below. Deselect any you don't want to link.,,تطابق‌های کلمه کلیدی زیر را بررسی کنید. مواردی را که نمی‌خواهید لینک شوند از انتخاب خارج کنید.,,links-page.js
+rank-math-pro,__,,Review your configuration and generate a preview of changes.,,پیکربندی خود را بررسی کنید و پیش‌نمایشی از تغییرات بسازید.,,links-page.js
+rank-math-pro,__,,Rich Result Types,,انواع نتایج غنی,,stats.js
+rank-math-pro,__,,Rich Results,,نتایج غنی,,stats.js
+rank-math-pro,__,,Roadmap,,نقشه راه,,edit.js | index 8.js | settings.js
+rank-math-pro,__,,Robots Blocked,,مسدودشده توسط ربات‌ها,,editor.js | links-page.js
+rank-math-pro,__,,Robots state,,وضعیت ربات‌ها,,stats.js
+rank-math-pro,__,,Robots.txt State,,وضعیت Robots.txt,,stats.js
+rank-math-pro,__,,Robots.txt Status:,,وضعیت robots.txt:,,editor.js | links-page.js
+rank-math-pro,__,,Rollback,,بازگردانی,,links-page.js
+rank-math-pro,__,,Rollback Progress,,پیشرفت بازگردانی,,links-page.js
+rank-math-pro,__,,Rollback Selected,,بازگردانی انتخاب‌شده‌ها,,links-page.js
+rank-math-pro,__,,Rollback completed successfully!,,بازگردانی با موفقیت تکمیل شد!,,links-page.js
+rank-math-pro,__,,Rolled Back,,بازگردانی‌شده,,links-page.js
+rank-math-pro,__,,Romania,,رومانی,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,Route Label,,برچسب مسیر,,edit.js | index 8.js
+rank-math-pro,__,,Rule Settings,,تنظیمات قانون,,links-page.js
+rank-math-pro,__,,Russia,,روسیه,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,Rwanda,,رواندا,,settings.js
+rank-math-pro,__,,SEO Data,,داده‌های سئو,,CSVFile.js
+rank-math-pro,__,,SEO Score,,امتیاز سئو,,admin-bar.js | editor.js | links-page.js | stats.js
+rank-math-pro,__,,Saint Barthélemy,,سن بارتلمی,,settings.js
+rank-math-pro,__,,Saint Helena,,سنت هلن,,settings.js
+rank-math-pro,__,,Saint Kitts and Nevis,,سنت کیتس و نویس,,settings.js
+rank-math-pro,__,,Saint Lucia,,سنت لوسیا,,settings.js
+rank-math-pro,__,,Saint Martin (Dutch part),,سنت مارتن,,settings.js
+rank-math-pro,__,,Saint Martin (French part),,سنت مارتین,,settings.js
+rank-math-pro,__,,Saint Pierre and Miquelon,,سن پیر و میکلن,,settings.js
+rank-math-pro,__,,Saint Vincent and the Grenadines,,سنت وینسنت و گرنادین,,settings.js
+rank-math-pro,__,,Salary,,حقوق,,schemaFilters.js
+rank-math-pro,__,,Salary (Recommended),,حقوق (پیشنهاد می‌شود),,schemaFilters.js
+rank-math-pro,__,,Salary Currency,,واحد پول حقوق,,schemaFilters.js
+rank-math-pro,__,,Salary amount is for,,مبلغ حقوق برای این بازه است:,,schemaFilters.js
+rank-math-pro,__,,Same As,,همانند,,schemaFilters.js
+rank-math-pro,__,,San Marino,,سان‌مارینو,,settings.js
+rank-math-pro,__,,Satellite,,ماهواره‌ای,,edit.js | index 8.js | settings.js
+rank-math-pro,__,,Saudi Arabia,,عربستان سعودی,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,Save,,ذخیره,,stats.js
+rank-math-pro,__,,Save Changes,,ذخیره تغییرات,,links-page.js
+rank-math-pro,__,,Save Settings,,ذخیره تنظیمات,,stats.js
+rank-math-pro,__,,Saving…,,در حال ذخیره…,,links-page.js
+rank-math-pro,__,,Scheduled Activation,,فعال‌سازی زمان‌بندی‌شده,,redirections.js
+rank-math-pro,__,,Scheduled Deactivation,,غیرفعال‌سازی زمان‌بندی‌شده,,redirections.js
+rank-math-pro,__,,Schema,,اسکیما,,stats.js
+rank-math-pro,__,,Schema Builder,,سازنده اسکیما,,schemaFilters.js
+rank-math-pro,__,,Schema Found,,اسکیما یافت شد,,schemaFilters.js
+rank-math-pro,__,,Schema type of the post.,,نوع اسکیمای نوشته.,,stats.js
+rank-math-pro,__,,Science &amp; Medicine,,علم و پزشکی,,settings.js
+rank-math-pro,__,,Search,,جستجو,,schemaFilters.js
+rank-math-pro,__,,Search Keyword…,,جستجوی کلمه کلیدی…,,stats.js
+rank-math-pro,__,,Search Locations within the radius,,جستجوی مکان‌ها در محدوده شعاع,,edit.js | index 8.js
+rank-math-pro,__,,Search Post URL,,جستجوی نشانی نوشته,,stats.js
+rank-math-pro,__,,Search Traffic,,ترافیک جستجو,,admin-bar.js | stats.js
+rank-math-pro,__,,Search Type,,نوع جستجو,,links-page.js
+rank-math-pro,__,,Search:,,جستجو:,,links-page.js
+rank-math-pro,__,,Season Name,,نام فصل,,schemaFilters.js
+rank-math-pro,__,,Season Number,,شماره فصل,,schemaFilters.js
+rank-math-pro,__,,Season URL,,نشانی فصل,,schemaFilters.js
+rank-math-pro,__,,Secondary Number,,شماره دوم,,schemaFilters.js
+rank-math-pro,__,,Select Account,,انتخاب حساب,,settings.js | setup-wizard.js
+rank-math-pro,__,,Select All,,انتخاب همه,,links-page.js
+rank-math-pro,__,,Select Post Types,,انتخاب انواع نوشته,,stats.js
+rank-math-pro,__,,Select Timezone,,انتخاب منطقه زمانی,,schemaFilters.js
+rank-math-pro,__,,Select a Rank Math settings file on your computer and upload it to use the custom settings. Allowed filetypes: %1$s %2$s,,یک فایل تنظیمات رنک مث را از رایانه خود انتخاب و بارگذاری کنید تا از تنظیمات سفارشی استفاده شود. انواع فایل مجاز: %1$s %2$s,,setup-wizard.js
+rank-math-pro,__,,Select a reason (optional),,انتخاب دلیل (اختیاری),,links-page.js
+rank-math-pro,__,,Select date range,,انتخاب بازه تاریخ,,links-page.js
+rank-math-pro,__,,Select the category that best reflects the content of your show.,,دسته‌ای را انتخاب کنید که بهترین بازتاب را از محتوای برنامه شما دارد.,,settings.js
+rank-math-pro,__,,Select the default watermark that will be applied if no specific watermark is selected.,,واترمارک پیش‌فرضی را انتخاب کنید که در صورت انتخاب‌نشدن واترمارک خاص اعمال شود.,,settings.js
+rank-math-pro,__,,Select the map style you wish to use on the frontend of your website.,,سبک نقشه موردنظر برای استفاده در بخش کاربری وب‌سایت را انتخاب کنید.,,settings.js
+rank-math-pro,__,,Select the post type where you use videos and want them to be shown in the Video search.,,نوع نوشته‌ای را انتخاب کنید که در آن از ویدیو استفاده می‌کنید و می‌خواهید در جستجوی ویدیو نمایش داده شود.,,settings.js | setup-wizard.js
+rank-math-pro,__,,Select the post type you use for News articles.,,نوع نوشته مورد استفاده برای مقاله‌های خبری را انتخاب کنید.,,settings.js | setup-wizard.js
+rank-math-pro,__,,Select the text to display alongside your opening hours when your store is open 24/7.,,متنی را انتخاب کنید که هنگام بازبودن شبانه‌روزی فروشگاه در کنار ساعات کاری نمایش داده شود.,,settings.js
+rank-math-pro,__,,Select this if you have a custom Rank Math settings file you want to use.,,اگر فایل تنظیمات سفارشی رنک مث دارید و می‌خواهید از آن استفاده کنید، این گزینه را انتخاب کنید.,,setup-wizard.js
+rank-math-pro,__,,Select whether to include a link to the Full Report admin page in the email or not.,,مشخص کنید لینک صفحه مدیریت گزارش کامل در ایمیل قرار بگیرد یا خیر.,,settings.js
+rank-math-pro,__,,Select which links you want to check during this audit.,,لینک‌هایی را که می‌خواهید در این ممیزی بررسی شوند انتخاب کنید.,,links-page.js
+rank-math-pro,__,,Select which tables to show in the report.,,جدول‌هایی را که باید در گزارش نمایش داده شوند انتخاب کنید.,,settings.js
+rank-math-pro,__,,Select why this link should not be considered broken,,مشخص کنید چرا این لینک نباید خراب در نظر گرفته شود,,links-page.js
+rank-math-pro,__,,Select your organization’s primary country of operation. This helps improve the accuracy of the store locator.,,کشور اصلی فعالیت سازمان را انتخاب کنید. این کار دقت مکان‌یاب فروشگاه را بهبود می‌دهد.,,settings.js
+rank-math-pro,__,,Select your preferred measurement system (miles or kilometers).,,سیستم اندازه‌گیری دلخواه خود را انتخاب کنید (مایل یا کیلومتر).,,settings.js
+rank-math-pro,__,,Selected for Update,,انتخاب‌شده برای به‌روزرسانی,,links-page.js
+rank-math-pro,__,,Selected variations will be added to your keyword map.,,گونه‌های انتخاب‌شده به نگاشت کلمه کلیدی شما اضافه خواهند شد.,,links-page.js
+rank-math-pro,__,,Selecting 'Anchor Text Only' will scan the visible text of your links.,,انتخاب «فقط متن لنگر» متن قابل‌مشاهده لینک‌های شما را اسکن می‌کند.,,links-page.js
+rank-math-pro,__,,Selecting 'Both' will scan both the visible text and href of your links.,,انتخاب «هردو» هم متن قابل‌مشاهده و هم href لینک‌ها را اسکن می‌کند.,,links-page.js
+rank-math-pro,__,,Selecting 'URL Only' will scan the href attribute of your links.,,انتخاب «فقط نشانی اینترنتی» ویژگی href لینک‌ها را اسکن می‌کند.,,links-page.js
+rank-math-pro,__,,Senegal,,سنگال,,settings.js
+rank-math-pro,__,,Sentence casing,,حالت جمله,,settings.js
+rank-math-pro,__,,Serbia,,صربستان,,settings.js
+rank-math-pro,__,,Serves Cuisine,,نوع غذای ارائه‌شده,,schemaFilters.js
+rank-math-pro,__,,Set Product Pages to noindex when WooCommerce Catalog visibility is set to hidden.,,هنگامی که وضعیت نمایش در کاتالوگ ووکامرس روی مخفی تنظیم شده است، صفحات محصول را noindex کنید.,,settings.js
+rank-math-pro,__,,Set to about.,,تنظیم به‌عنوان درباره.,,gutenberg-formats.js
+rank-math-pro,__,,Set to mentions.,,تنظیم به‌عنوان اشاره‌ها.,,gutenberg-formats.js
+rank-math-pro,__,,Set to nofollow.,,تنظیم به‌عنوان nofollow.,,gutenberg-formats.js
+rank-math-pro,__,,Set to sponsored.,,تنظیم به‌عنوان sponsored.,,gutenberg-formats.js
+rank-math-pro,__,,"Set up display rules to control where this Schema template is used on your website. For example, choose ""Entire Site"" to use the template on all pages on your website.",,قوانین نمایش را تنظیم کنید تا محل استفاده از این الگوی اسکیما در وب‌سایت کنترل شود. برای نمونه، برای استفاده از الگو در همه صفحات سایت، «کل سایت» را انتخاب کنید.,,schemaFilters.js
+rank-math-pro,__,,Settings,,تنظیمات,,edit.js | index 8.js
+rank-math-pro,__,,Severity,,شدت,,stats.js
+rank-math-pro,__,,Seychelles,,سیشل,,settings.js
+rank-math-pro,__,,Shortcode,,کد کوتاه,,schemaFilters.js
+rank-math-pro,__,,Show %s,,نمایش %s,,edit.js | index 8.js
+rank-math-pro,__,,Show Business Information,,نمایش اطلاعات کسب‌وکار,,rank-math-pointers.js
+rank-math-pro,__,,Show Business URL,,نمایش نشانی اینترنتی کسب‌وکار,,edit.js | index 8.js
+rank-math-pro,__,,Show COC number,,نمایش شماره اتاق بازرگانی,,edit.js | index 8.js
+rank-math-pro,__,,Show Category filter,,نمایش فیلتر دسته‌بندی,,edit.js | index 8.js
+rank-math-pro,__,,Show Company Address,,نمایش نشانی شرکت,,edit.js | index 8.js
+rank-math-pro,__,,Show Company Name,,نمایش نام شرکت,,edit.js | index 8.js
+rank-math-pro,__,,Show Country,,نمایش کشور,,edit.js | index 8.js
+rank-math-pro,__,,Show Email,,نمایش ایمیل,,edit.js | index 8.js
+rank-math-pro,__,,Show FAX number,,نمایش شماره فکس,,edit.js | index 8.js
+rank-math-pro,__,,Show Global Identifier,,نمایش شناسه جهانی,,settings.js
+rank-math-pro,__,,Show InfoWindow,,نمایش پنجره اطلاعات,,edit.js | index 8.js
+rank-math-pro,__,,Show Intent,,نمایش هدف جستجو,,divi.js | elementor.js | gutenberg.js
+rank-math-pro,__,,Show Logo,,نمایش لوگو,,edit.js | index 8.js
+rank-math-pro,__,,Show Map,,نمایش نقشه,,edit.js | index 8.js
+rank-math-pro,__,,Show Marker Clustering,,نمایش خوشه‌بندی نشانگرها,,edit.js | index 8.js
+rank-math-pro,__,,Show Opening Hours,,نمایش ساعات کاری,,edit.js | index 8.js
+rank-math-pro,__,,Show Price Indication,,نمایش بازه قیمت,,edit.js | index 8.js
+rank-math-pro,__,,Show Primary number,,نمایش شماره اصلی,,edit.js | index 8.js
+rank-math-pro,__,,Show Route Planner,,نمایش مسیریاب,,edit.js | index 8.js
+rank-math-pro,__,,Show Route label,,برچسب نمایش مسیر,,settings.js
+rank-math-pro,__,,Show Secondary number,,نمایش شماره دوم,,edit.js | index 8.js
+rank-math-pro,__,,Show State,,نمایش استان,,edit.js | index 8.js
+rank-math-pro,__,,Show TAX ID,,نمایش شناسه مالیاتی,,edit.js | index 8.js
+rank-math-pro,__,,Show VAT number,,نمایش شماره VAT,,edit.js | index 8.js
+rank-math-pro,__,,Show address on one line,,نمایش نشانی در یک خط,,edit.js | index 8.js
+rank-math-pro,__,,Show nearest location if none is found within radius,,اگر مکانی در محدوده شعاع یافت نشد، نزدیک‌ترین مکان نمایش داده شود,,edit.js | index 8.js
+rank-math-pro,__,,Show open now label after opening hour for current day,,نمایش برچسب «اکنون باز است» پس از ساعات کاری روز جاری,,edit.js | index 8.js
+rank-math-pro,__,,Show radius,,نمایش شعاع,,edit.js | index 8.js
+rank-math-pro,__,,Showing,,در حال نمایش,,links-page.js
+rank-math-pro,__,,Side-by-Side Comparison,,مقایسه کنارهم,,CompetitorAnalysis.js | SideBySide.js | seo-analysis-pro 2.js
+rank-math-pro,__,,Sierra Leone,,سیرالئون,,settings.js
+rank-math-pro,__,,Singapore,,سنگاپور,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,Singular,,مفرد,,schemaFilters.js
+rank-math-pro,__,,Site blocks crawlers,,سایت خزنده‌ها را مسدود می‌کند,,links-page.js
+rank-math-pro,__,,Sitemaps,,نقشه‌های سایت,,stats.js
+rank-math-pro,__,,Skip Step,,ردکردن مرحله,,links-page.js
+rank-math-pro,__,,Slovakia,,اسلواکی,,settings.js
+rank-math-pro,__,,Slovenia,,اسلوونی,,settings.js
+rank-math-pro,__,,Society &amp; Culture,,جامعه و فرهنگ,,settings.js
+rank-math-pro,__,,Software,,نرم‌افزار,,schemaFilters.js
+rank-math-pro,__,,Solomon Islands,,جزایر سلیمان,,settings.js
+rank-math-pro,__,,Somalia,,سومالی,,settings.js
+rank-math-pro,__,,Source Post,,نوشته مبدأ,,editor.js | links-page.js
+rank-math-pro,__,,South Africa,,آفریقای جنوبی,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,South Georgia/Sandwich Islands,,جورجیای جنوبی و جزایر ساندویچ جنوبی,,settings.js
+rank-math-pro,__,,South Korea,,کره جنوبی,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,South Sudan,,سودان جنوبی,,settings.js
+rank-math-pro,__,,Spain,,اسپانیا,,settings.js
+rank-math-pro,__,,Spatial Coverage,,پوشش مکانی,,schemaFilters.js
+rank-math-pro,__,,Speakable,,قابل‌خواندن,,schemaFilters.js
+rank-math-pro,__,,Special Sitemaps:,,نقشه‌های سایت ویژه:,,settings.js
+rank-math-pro,__,,Specify another Schema.org type to further describe the product that is referenced. You can also insert a URL to an external vocabulary such as Wikidata or Wikipedia.,,نوع دیگری از Schema.org را برای توصیف دقیق‌تر محصول ارجاع‌شده مشخص کنید. همچنین می‌توانید نشانی یک واژگان خارجی مانند Wikidata یا Wikipedia را وارد کنید.,,schemaFilters.js
+rank-math-pro,__,,Specify what to update and define the find and replace rules.,,مشخص کنید چه چیزی به‌روزرسانی شود و قوانین یافتن و جایگزینی را تعریف کنید.,,links-page.js
+rank-math-pro,__,,Sports &amp; Recreation,,ورزش و تفریح,,settings.js
+rank-math-pro,__,,Sri Lanka,,سری‌لانکا,,settings.js
+rank-math-pro,__,,Start,,شروع,,links-page.js
+rank-math-pro,__,,Start Audit,,شروع ممیزی,,CompetitorAnalysis.js | links-page.js | seo-analysis-pro 2.js
+rank-math-pro,__,,Start Date,,تاریخ شروع,,schemaFilters.js
+rank-math-pro,__,,Start Offset,,آفست شروع,,schemaFilters.js
+rank-math-pro,__,,Started:,,آغازشده:,,links-page.js
+rank-math-pro,__,,Starting…,,در حال شروع…,,links-page.js
+rank-math-pro,__,,Status,,وضعیت,,editor.js | links-page.js | stats.js
+rank-math-pro,__,,Status Distribution,,توزیع وضعیت,,links-page.js
+rank-math-pro,__,,Step,,مرحله,,schemaFilters.js
+rank-math-pro,__,,Step 1: Filter Links (Optional),,مرحله ۱: فیلتر لینک‌ها (اختیاری),,links-page.js
+rank-math-pro,__,,Step 2: Configure Update,,مرحله ۲: پیکربندی به‌روزرسانی,,links-page.js
+rank-math-pro,__,,Step 3: Preview Changes,,مرحله ۳: پیش‌نمایش تغییرات,,links-page.js
+rank-math-pro,__,,Steps,,مراحل,,schemaFilters.js
+rank-math-pro,__,,Store Locator,,مکان‌یاب فروشگاه,,edit.js | index 8.js
+rank-math-pro,__,,Street Address,,نشانی خیابان,,schemaFilters.js
+rank-math-pro,__,,Subject of the report emails.,,موضوع ایمیل‌های گزارش.,,settings.js
+rank-math-pro,__,,Submit now with Instant Indexing,,اکنون با ایندکس فوری ارسال کنید,,stats.js
+rank-math-pro,__,,Success,,موفق,,editor.js | links-page.js
+rank-math-pro,__,,Success (2xx),,موفق (2xx),,links-page.js
+rank-math-pro,__,,Successfully Completed.,,با موفقیت تکمیل شد.,,stats.js
+rank-math-pro,__,,Sudan,,سودان,,settings.js
+rank-math-pro,__,,"Suggested pacing in repeatFrequency units (8601 duration format). For example, PT5H monthly means 5 hours per month. Use courseWorkload for total length.",,فاصله زمانی پیشنهادی براساس واحد repeatFrequency (قالب مدت‌زمان 8601). برای مثال، PT5H ماهانه یعنی ۵ ساعت در ماه. برای طول کل از courseWorkload استفاده کنید.,,schemaFilters.js
+rank-math-pro,__,,Summary,,خلاصه,,links-page.js
+rank-math-pro,__,,Supplies,,لوازم مصرفی,,schemaFilters.js
+rank-math-pro,__,,Supply,,لوازم مصرفی,,blocks.js | schemaFilters.js
+rank-math-pro,__,,Suriname,,سورینام,,settings.js
+rank-math-pro,__,,Svalbard and Jan Mayen,,سوالبارد و یان ماین,,settings.js
+rank-math-pro,__,,Swaziland,,اسواتینی,,settings.js
+rank-math-pro,__,,Sweden,,سوئد,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,Switzerland,,سوئیس,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,Syria,,سوریه,,settings.js
+rank-math-pro,__,,São Tomé and Príncipe,,سائوتومه و پرینسیپ,,settings.js
+rank-math-pro,__,,TO,,به,,links-page.js
+rank-math-pro,__,,TV &amp; Film,,تلویزیون و فیلم,,settings.js
+rank-math-pro,__,,Taiwan,,تایوان,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,Tajikistan,,تاجیکستان,,settings.js
+rank-math-pro,__,,Tanzania,,تانزانیا,,settings.js
+rank-math-pro,__,,Target URL,,نشانی مقصد,,links-page.js
+rank-math-pro,__,,Target URL is required,,نشانی مقصد الزامی است,,links-page.js
+rank-math-pro,__,,Tax ID,,شناسه مالیاتی,,schemaFilters.js
+rank-math-pro,__,,Taxonomies:,,طبقه‌بندی‌ها:,,Export.js | status.js
+rank-math-pro,__,,Technology,,فناوری,,settings.js
+rank-math-pro,__,,Temporal Coverage,,پوشش زمانی,,schemaFilters.js
+rank-math-pro,__,,Terms,,موارد طبقه‌بندی,,Export.js | status.js
+rank-math-pro,__,,Terrain,,ناهمواری زمین,,edit.js | index 8.js | settings.js
+rank-math-pro,__,,Test,,آزمون,,SideBySide.js | seo-analysis-pro 2.js
+rank-math-pro,__,,Test with Google,,آزمایش با گوگل,,schemaFilters.js
+rank-math-pro,__,,Text,,متن,,links-page.js
+rank-math-pro,__,,Text or basic HTML to insert below the title.,,متن یا HTML ساده‌ای که زیر عنوان درج می‌شود.,,settings.js
+rank-math-pro,__,,Text or basic HTML to insert in the footer area.,,متن یا HTML ساده‌ای که در بخش پابرگ درج می‌شود.,,settings.js
+rank-math-pro,__,,Text to find,,متن مورد جستجو,,links-page.js
+rank-math-pro,__,,Text to show in Opening hours when business is closed.,,متنی که هنگام بسته‌بودن کسب‌وکار در بخش ساعات کاری نمایش داده می‌شود.,,settings.js
+rank-math-pro,__,,Thailand,,تایلند,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,The ISBN of the print book,,ISBN نسخه چاپی کتاب,,schemaFilters.js
+rank-math-pro,__,,"The URL of the online event, where people can join. This property is required if your event is happening online",,نشانی اینترنتی رویداد آنلاین که افراد از طریق آن وارد می‌شوند. اگر رویداد آنلاین است، این ویژگی الزامی است,,schemaFilters.js
+rank-math-pro,__,,The URL of the organization offering the job position. Leave empty to use your own company information,,نشانی اینترنتی سازمان ارائه‌دهنده موقعیت شغلی. برای استفاده از اطلاعات شرکت خودتان، خالی بگذارید,,schemaFilters.js
+rank-math-pro,__,,The URL that matching keywords will link to,,نشانی‌ای که کلمات کلیدی منطبق به آن لینک می‌شوند,,links-page.js
+rank-math-pro,__,,The catalog name.,,نام فهرست داده‌ها.,,schemaFilters.js
+rank-math-pro,__,,"The cuisine of the recipe (for example, French or Ethiopian).",,نوع غذای دستور پخت؛ برای مثال فرانسوی یا اتیوپیایی.,,schemaFilters.js
+rank-math-pro,__,,"The currency of the price of the course, in ISO 4217 currency format (3 letter code), if applicable.",,در صورت کاربرد، واحد پول قیمت دوره در قالب ISO 4217 (کد سه‌حرفی).,,schemaFilters.js
+rank-math-pro,__,,The data in the dataset covers a specific time interval. Only include this property if the dataset has a temporal dimension.,,داده‌های مجموعه‌داده یک بازه زمانی مشخص را پوشش می‌دهند. این ویژگی را فقط زمانی وارد کنید که مجموعه‌داده دارای بُعد زمانی باشد.,,schemaFilters.js
+rank-math-pro,__,,The date after which the price will no longer be available,,تاریخی که پس از آن قیمت دیگر در دسترس نخواهد بود,,schemaFilters.js
+rank-math-pro,__,,The date the movie was released.,,تاریخ اکران فیلم.,,schemaFilters.js
+rank-math-pro,__,,The date when the item becomes valid.,,تاریخ شروع اعتبار مورد.,,schemaFilters.js
+rank-math-pro,__,,"The date when the job posting will expire. If a job posting never expires, or you do not know when the job will expire, do not include this property",,تاریخ انقضای آگهی استخدام. اگر آگهی هرگز منقضی نمی‌شود یا تاریخ آن را نمی‌دانید، این ویژگی را وارد نکنید,,schemaFilters.js
+rank-math-pro,__,,The duration and repeatCount properties are relative to this field. ,,ویژگی‌های duration و repeatCount نسبت به این فیلد محاسبه می‌شوند. ,,schemaFilters.js
+rank-math-pro,__,,The edition of the book,,ویرایش کتاب,,schemaFilters.js
+rank-math-pro,__,,"The educational background needed for the job posting. If there aren't any educational requirements, use the no requirements value. If you don't know the educational requirements, don't add this property.",,پیشینه تحصیلی موردنیاز برای آگهی استخدام. اگر شرط تحصیلی وجود ندارد، مقدار «بدون نیازمندی» را انتخاب کنید. اگر از نیازمندی تحصیلی مطمئن نیستید، این ویژگی را اضافه نکنید.,,schemaFilters.js
+rank-math-pro,__,,The email address of the podcast owner. Please make sure the email address is active and monitored.,,نشانی ایمیل مالک پادکست. مطمئن شوید این نشانی فعال و به‌طور منظم بررسی می‌شود.,,settings.js
+rank-math-pro,__,,"The end date for the course, in 8601 date format (YYYY-MM-DD), if applicable.",,در صورت کاربرد، تاریخ پایان دوره در قالب تاریخ 8601 (YYYY-MM-DD).,,schemaFilters.js
+rank-math-pro,__,,The end time of the clip expressed as the number of seconds from the beginning of the work.,,زمان پایان کلیپ به‌صورت تعداد ثانیه از ابتدای اثر.,,schemaFilters.js
+rank-math-pro,__,,The estimated cost of the supplies consumed when performing instructions.,,هزینه تخمینی لوازم مصرف‌شده هنگام انجام دستورالعمل‌ها.,,schemaFilters.js
+rank-math-pro,__,,"The experience that's required for the job posting. If there aren't any requirements, use 0.",,سابقه کاری موردنیاز برای آگهی استخدام. اگر سابقه‌ای لازم نیست، مقدار ۰ را وارد کنید.,,schemaFilters.js
+rank-math-pro,__,,The file format of the distribution.,,قالب فایل توزیع.,,schemaFilters.js
+rank-math-pro,__,,The hiring organization's unique identifier for the job.,,شناسه یکتای سازمان استخدام‌کننده برای این موقعیت شغلی.,,schemaFilters.js
+rank-math-pro,__,,"The job title of the person (for example, Financial Manager).",,عنوان شغلی شخص؛ برای مثال مدیر مالی.,,schemaFilters.js
+rank-math-pro,__,,The label that appears in the sidebar for the custom post type where you can add & manage locations.,,برچسبی که در نوار کناری برای نوع نوشته سفارشی افزودن و مدیریت مکان‌ها نمایش داده می‌شود.,,settings.js
+rank-math-pro,__,,The link for the download.,,لینک دریافت فایل.,,schemaFilters.js
+rank-math-pro,__,,"The manufacturer of the product. If enabled, the Organization data from Local SEO settings will be used.",,سازنده محصول. در صورت فعال‌سازی، اطلاعات سازمان از تنظیمات سئوی محلی استفاده می‌شود.,,schemaFilters.js
+rank-math-pro,__,,The medium through which the course will be delivered.,,شیوه ارائه دوره.,,schemaFilters.js
+rank-math-pro,__,,The name of the company. Leave empty to use your own company information.,,نام شرکت. برای استفاده از اطلاعات شرکت خودتان، خالی بگذارید.,,schemaFilters.js
+rank-math-pro,__,,"The name of the news publication. It must match the name exactly as it appears on your articles in news. google.com, omitting any trailing parentheticals. <a href=""https://support.google.com/news/publisher-center/answer/9606710"" target=""_blank"">More information at support.google.com</a>",,"نام نشریه خبری. این نام باید دقیقاً با نامی که در مقاله‌های شما در news.google.com نمایش داده می‌شود مطابقت داشته باشد و عبارت‌های داخل پرانتز پایانی حذف شوند. <a href=""https://support.google.com/news/publisher-center/answer/9606710"" target=""_blank"">اطلاعات بیشتر در support.google.com</a>",,setup-wizard.js
+rank-math-pro,__,,"The name of the news publication. It must match the name exactly as it appears on your articles in news.google.com, omitting any trailing parentheticals. <a href=""https://support.google.com/news/publisher-center/answer/9606710"" target=""_blank"">More information at support.google.com</a>",,"نام نشریه خبری. این نام باید دقیقاً با نامی که در مقالات شما در news.google.com نمایش داده می‌شود مطابقت داشته باشد و عبارت‌های داخل پرانتز انتهایی حذف شوند. <a href=""https://support.google.com/news/publisher-center/answer/9606710"" target=""_blank"">اطلاعات بیشتر در support.google.com</a>",,settings.js
+rank-math-pro,__,,The number of calories in the recipe. Optional.,,میزان کالری دستور پخت. اختیاری.,,schemaFilters.js
+rank-math-pro,__,,"The numerical price of the course, if applicable.",,در صورت کاربرد، قیمت عددی دوره.,,schemaFilters.js
+rank-math-pro,__,,"The numerical value for how long the course lasts for, in repeatFrequency units. For example, if the repeatFrequency is monthly and the repeatCount is 4, the course lasts for 4 months.",,مقدار عددی مدت دوره براساس واحد repeatFrequency. برای مثال اگر repeatFrequency ماهانه و repeatCount برابر ۴ باشد، دوره ۴ ماه طول می‌کشد.,,schemaFilters.js
+rank-math-pro,__,,The original date on which employer posted the job. You can leave it empty to use the post publication date as job posted date,,تاریخ اصلی انتشار آگهی توسط کارفرما. می‌توانید آن را خالی بگذارید تا تاریخ انتشار نوشته به‌عنوان تاریخ انتشار آگهی استفاده شود,,schemaFilters.js
+rank-math-pro,__,,The price range of the business.,,بازه قیمت کسب‌وکار.,,schemaFilters.js
+rank-math-pro,__,,"The pricing category of the course. Example: Free, Partially Free, Subscription, Paid",,دسته قیمت‌گذاری دوره؛ برای مثال رایگان، بخشی رایگان، اشتراکی یا پولی,,schemaFilters.js
+rank-math-pro,__,,The primary focus keyword set for the post.,,کلمه کلیدی اصلی تعیین‌شده برای نوشته.,,stats.js
+rank-math-pro,__,,"The rating of the video. Supported values are float numbers in the range 0.0 (low) to 5.0 (high), inclusive. (Used in the Video Sitemap only)",,امتیاز ویدیو. مقادیر پشتیبانی‌شده اعداد اعشاری بین ۰٫۰ (کمترین) تا ۵٫۰ (بیشترین) هستند. (فقط در نقشه سایت ویدیو استفاده می‌شود),,schemaFilters.js
+rank-math-pro,__,,The review or rating must be displayed on the page to comply with Google's Schema guidelines.,,برای رعایت دستورالعمل اسکیما گوگل، نقد یا امتیاز باید در صفحه نمایش داده شود.,,schemaFilters.js
+rank-math-pro,__,,The same dataset can be included in more than one such repository. You can refer to a data catalog that this dataset belongs to by referencing it directly.,,یک مجموعه‌داده می‌تواند در بیش از یک مخزن قرار داشته باشد. می‌توانید با ارجاع مستقیم، فهرست داده‌ای را که این مجموعه‌داده به آن تعلق دارد مشخص کنید.,,schemaFilters.js
+rank-math-pro,__,,"The start date for the course, in 8601 date format (YYYY-MM-DD), if applicable.",,در صورت کاربرد، تاریخ شروع دوره در قالب تاریخ 8601 (YYYY-MM-DD).,,schemaFilters.js
+rank-math-pro,__,,The start time of the clip expressed as the number of seconds from the beginning of the work.,,زمان شروع کلیپ به‌صورت تعداد ثانیه از ابتدای اثر.,,schemaFilters.js
+rank-math-pro,__,,The timezone is used to calculate the Open now functionality.,,منطقه زمانی برای محاسبه قابلیت «اکنون باز است» استفاده می‌شود.,,schemaFilters.js
+rank-math-pro,__,,The title of the tome. Use for the title of the tome if it differs from the book. *Optional when tome has the same title as the book,,عنوان جلد. اگر عنوان جلد با کتاب متفاوت است از این فیلد استفاده کنید. اگر عنوان جلد و کتاب یکسان است، این فیلد اختیاری است,,schemaFilters.js
+rank-math-pro,__,,The total test count is different for the competitor as we don't have access to their database.,,تعداد کل آزمون‌ها برای رقیب متفاوت است، زیرا به پایگاه داده او دسترسی نداریم.,,CompetitorAnalysis.js | seo-analysis-pro 2.js
+rank-math-pro,__,,"The truthfulness rating assigned to ClaimReview.reviewRating, as a human-readible short word or phrase. This value is displayed in the fact check in search results. Examples: <code>True, Mostly true</code>",,امتیاز صحت اختصاص‌یافته به ClaimReview.reviewRating به‌شکل یک واژه یا عبارت کوتاه و خوانا برای انسان. این مقدار در بررسی واقعیت نتایج جستجو نمایش داده می‌شود. نمونه‌ها: <code>درست، عمدتاً درست</code>,,schemaFilters.js
+rank-math-pro,__,,The venue name.,,نام محل برگزاری.,,schemaFilters.js
+rank-math-pro,__,,These changes will be reverted. Deselect any you want to keep.,,این تغییرات بازگردانی خواهند شد. مواردی را که می‌خواهید حفظ شوند از انتخاب خارج کنید.,,links-page.js
+rank-math-pro,__,,These suggestions were created using AI. Please review carefully and uncheck any you don't want to add.,,این پیشنهادها با هوش مصنوعی ساخته شده‌اند. آن‌ها را با دقت بررسی کنید و مواردی را که نمی‌خواهید اضافه شوند از انتخاب خارج کنید.,,links-page.js
+rank-math-pro,__,,This feature requires the Content AI module to be enabled. Enable it now to access AI-powered features.,,این قابلیت نیازمند فعال‌بودن ماژول هوش مصنوعی محتوا است. برای دسترسی به قابلیت‌های مبتنی بر هوش مصنوعی، اکنون آن را فعال کنید.,,editor.js | index 3.js
+rank-math-pro,__,,This internal link has nofollow attribute,,این لینک داخلی دارای ویژگی nofollow است,,editor.js | links-page.js
+rank-math-pro,__,,This is how many times your site has been clicked on in the search results.,,این تعداد دفعاتی است که در نتایج جستجو روی سایت شما کلیک شده است.,,stats.js
+rank-math-pro,__,,This is how many times your site showed up in the search results.,,تعداد دفعاتی که سایت شما در نتایج جستجو نمایش داده شده است.,,stats.js
+rank-math-pro,__,,This is how many times your site was clicked on in the search results.,,این تعداد دفعاتی است که در نتایج جستجو روی سایت شما کلیک شده است.,,stats.js
+rank-math-pro,__,,This is the average click-through rate (total clicks divided by total impressions).,,این میانگین نرخ کلیک است (تعداد کل کلیک‌ها تقسیم بر تعداد کل نمایش‌ها).,,stats.js
+rank-math-pro,__,,This is the current position of your site in the search results.,,این جایگاه فعلی سایت شما در نتایج جستجو است.,,stats.js
+rank-math-pro,__,,This is the number of pageviews carried out by visitors from Google.,,این تعداد بازدید صفحه‌ای است که بازدیدکنندگان ورودی از گوگل انجام داده‌اند.,,admin-bar.js | stats.js
+rank-math-pro,__,,This is the total number of keywords your site ranked for.,,این تعداد کل کلمات کلیدی است که سایت شما برای آن‌ها رتبه گرفته است.,,stats.js
+rank-math-pro,__,,This is your total AdSense earning from the time period.,,این مجموع درآمد ادسنس شما در بازه زمانی انتخاب‌شده است.,,stats.js
+rank-math-pro,__,,"This option allows you to monitor the SEO performance of all of your sites in one centralized dashboard on RankMath.com, so you can check up on sites at a glance. <a href=""%1$s"" target=""_blank"">Learn more</a>.",,"این گزینه به شما امکان می‌دهد عملکرد سئوی همه سایت‌های خود را در یک پیشخوان متمرکز در RankMath.com پایش کنید تا وضعیت سایت‌ها را در یک نگاه ببینید. <a href=""%1$s"" target=""_blank"">بیشتر بدانید</a>.",,settings.js | setup-wizard.js
+rank-math-pro,__,,This option allows you to show %s in the Analytics graphs.,,این گزینه به شما امکان می‌دهد %s را در نمودارهای آنالیتیکس نمایش دهید.,,settings.js | setup-wizard.js
+rank-math-pro,__,,This post has internal links with nofollow. Click to view them.,,این نوشته دارای لینک‌های داخلی nofollow است. برای مشاهده آن‌ها کلیک کنید.,,editor.js | links-page.js
+rank-math-pro,__,,This post has no internal links. We recommend that you add links to this URL in other posts of your website.,,این نوشته هیچ پیوند داخلی ندارد. پیشنهاد می‌کنیم در نوشته‌های دیگر سایت به این نشانی پیوند دهید.,,editor.js | links-page.js
+rank-math-pro,__,,This update will affect more than ,,این به‌روزرسانی بر بیش از ,,links-page.js
+rank-math-pro,__,,This will delete all existing link data and regenerate links for all posts. This process may take several minutes. Do you want to continue?,,این کار همه داده‌های لینک موجود را حذف و لینک‌های همه نوشته‌ها را بازتولید می‌کند. این فرایند ممکن است چند دقیقه طول بکشد. آیا می‌خواهید ادامه دهید؟,,links-page.js
+rank-math-pro,__,,This will mark the link as not broken and exclude it from error counts. You can optionally provide a reason for future reference.,,این کار لینک را به‌عنوان خراب‌نبودن علامت‌گذاری و از شمارش خطاها خارج می‌کند. برای مراجعه بعدی می‌توانید یک دلیل اختیاری وارد کنید.,,links-page.js
+rank-math-pro,__,,This will restore selected posts to their original content before the bulk update.,,این کار نوشته‌های انتخاب‌شده را به محتوای اصلی پیش از به‌روزرسانی گروهی بازمی‌گرداند.,,links-page.js
+rank-math-pro,__,,This will restore selected posts to their original content before the keyword map was executed.,,این کار نوشته‌های انتخاب‌شده را به محتوای اصلی پیش از اجرای نگاشت کلمه کلیدی بازمی‌گرداند.,,links-page.js
+rank-math-pro,__,,Timeframe,,بازه زمانی,,stats.js
+rank-math-pro,__,,Timor-Leste,,تیمور-لسته,,settings.js
+rank-math-pro,__,,Title,,عنوان,,schemaFilters.js | settings.js | stats.js
+rank-math-pro,__,,Title Casing,,حالت حروف عنوان,,settings.js
+rank-math-pro,__,,To Date,,تا تاریخ,,links-page.js
+rank-math-pro,__,,Togo,,توگو,,settings.js
+rank-math-pro,__,,Tokelau,,توکلائو,,settings.js
+rank-math-pro,__,,Tonga,,تونگا,,settings.js
+rank-math-pro,__,,Tool,,ابزار,,schemaFilters.js
+rank-math-pro,__,,Tools,,ابزارها,,blocks.js | schemaFilters.js
+rank-math-pro,__,,Top 5 Losing Keywords,,۵ کلمه کلیدی برتر افت‌کرده,,stats.js
+rank-math-pro,__,,Top 5 Losing Posts,,۵ نوشته برتر افت‌کرده,,stats.js
+rank-math-pro,__,,Top 5 Winning Keywords,,۵ کلمه کلیدی برتر صعودکرده,,stats.js
+rank-math-pro,__,,Top 5 Winning Posts,,۵ نوشته برتر صعودکرده,,stats.js
+rank-math-pro,__,,Top Center,,بالا وسط,,settings.js
+rank-math-pro,__,,Top Left,,بالا چپ,,settings.js
+rank-math-pro,__,,Top Linked,,بیشترین لینک دریافتی,,links-page.js
+rank-math-pro,__,,Top Losing Keywords,,کلمات کلیدی با بیشترین افت,,settings.js | stats.js
+rank-math-pro,__,,Top Losing Posts,,برترین نوشته‌های افت‌کرده,,settings.js
+rank-math-pro,__,,Top Right,,بالا راست,,settings.js
+rank-math-pro,__,,Top Statuses,,وضعیت‌های برتر,,stats.js
+rank-math-pro,__,,Top Winning Keywords,,کلمات کلیدی با بیشترین رشد,,settings.js | stats.js
+rank-math-pro,__,,Top Winning Posts,,برترین نوشته‌های صعودکرده,,settings.js
+rank-math-pro,__,,Total,,مجموع,,links-page.js
+rank-math-pro,__,,Total Appearances:,,مجموع نمایش‌ها:,,editor.js | links-page.js
+rank-math-pro,__,,Total Clicks,,کل کلیک‌ها,,stats.js
+rank-math-pro,__,,Total Impressions,,کل نمایش‌ها,,stats.js
+rank-math-pro,__,,Total Keywords,,کل کلمات کلیدی,,stats.js
+rank-math-pro,__,,Total Links,,کل پیوندها,,editor.js | links-page.js
+rank-math-pro,__,,Total Links Found,,مجموع لینک‌های یافت‌شده,,links-page.js
+rank-math-pro,__,,Total Posts,,کل نوشته‌ها,,editor.js | links-page.js
+rank-math-pro,__,,Total Time,,کل زمان,,schemaFilters.js
+rank-math-pro,__,,Total number of keywords your site ranks for within top 100 positions.,,تعداد کل کلمات کلیدی که سایت شما برای آن‌ها در ۱۰۰ جایگاه نخست رتبه دارد.,,stats.js
+rank-math-pro,__,,Total time to watch all videos and complete all assignments and exams for the course. Use the 8601 format. Example: PT22H,,کل زمان لازم برای مشاهده همه ویدیوها و تکمیل تکالیف و آزمون‌های دوره. از قالب 8601 استفاده کنید؛ برای مثال: PT22H,,schemaFilters.js
+rank-math-pro,__,,Tracking Prefix,,پیشوند ردیابی,,settings.js
+rank-math-pro,__,,Traffic,,ترافیک,,stats.js
+rank-math-pro,__,,Transactional,,تراکنشی,,divi.js | elementor.js | gutenberg.js
+rank-math-pro,__,,Trend,,روند,,stats.js
+rank-math-pro,__,,Trinidad and Tobago,,ترینیداد و توباگو,,settings.js
+rank-math-pro,__,,Tunisia,,تونس,,settings.js
+rank-math-pro,__,,Turkey,,ترکیه,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,Turkmenistan,,ترکمنستان,,settings.js
+rank-math-pro,__,,Turks and Caicos Islands,,جزایر تورکس و کایکوس,,settings.js
+rank-math-pro,__,,Tuvalu,,تووالو,,settings.js
+rank-math-pro,__,,Type,,نوع,,edit.js | editor.js | index 8.js | links-page.js | schemaFilters.js
+rank-math-pro,__,,"Type of dish, for example appetizer, or dessert.",,نوع غذا؛ برای مثال پیش‌غذا یا دسر.,,schemaFilters.js
+rank-math-pro,__,,Type of employment. You can choose more than one value,,نوع استخدام. می‌توانید بیش از یک مقدار انتخاب کنید,,schemaFilters.js
+rank-math-pro,__,,Type of the event,,نوع رویداد,,schemaFilters.js
+rank-math-pro,__,,URL,,نشانی اینترنتی,,links-page.js | schemaFilters.js
+rank-math-pro,__,,URL / Online Page,,نشانی اینترنتی / صفحه آنلاین,,schemaFilters.js
+rank-math-pro,__,,URL Change,,تغییر نشانی اینترنتی,,links-page.js
+rank-math-pro,__,,URL Only,,فقط نشانی اینترنتی,,links-page.js
+rank-math-pro,__,,URL Settings,,تنظیمات نشانی اینترنتی,,links-page.js
+rank-math-pro,__,,URL is required,,نشانی اینترنتی الزامی است,,links-page.js
+rank-math-pro,__,,"URL of a reference Web page that unambiguously indicates the dataset's identity, usually in a different repository.",,نشانی صفحه مرجعی که هویت مجموعه‌داده را به‌طور روشن مشخص می‌کند و معمولاً در مخزن دیگری قرار دارد.,,schemaFilters.js
+rank-math-pro,__,,URL pointing to the menu of the restaurant.,,نشانی اینترنتی منوی رستوران.,,schemaFilters.js
+rank-math-pro,__,,URL specific to this edition if one exists,,نشانی اینترنتی مخصوص این ویرایش، در صورت وجود,,schemaFilters.js
+rank-math-pro,__,,URL to find,,نشانی مورد جستجو,,links-page.js
+rank-math-pro,__,,URL where the logo link should point to.,,نشانی اینترنتی مقصد لینک لوگو.,,settings.js
+rank-math-pro,__,,URL:,,نشانی اینترنتی:,,links-page.js
+rank-math-pro,__,,USD,,دلار آمریکا,,blocks.js
+rank-math-pro,__,,Uganda,,اوگاندا,,settings.js
+rank-math-pro,__,,Ukraine,,اوکراین,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,Unable to fetch related posts. Please check Content AI requirements.,,دریافت نوشته‌های مرتبط ممکن نشد. الزامات هوش مصنوعی محتوا را بررسی کنید.,,editor.js
+rank-math-pro,__,,Unable to generate suggestions. Please check Content AI requirements.,,ساخت پیشنهادها ممکن نشد. الزامات هوش مصنوعی محتوا را بررسی کنید.,,editor.js
+rank-math-pro,__,,Unable to install the Imagify plugin. Please try again later.,,نصب افزونه Imagify ممکن نشد. لطفاً بعداً دوباره تلاش کنید.,,general-options.js | settings.js
+rank-math-pro,__,,Unchecked,,علامت‌نخورده,,editor.js | links-page.js
+rank-math-pro,__,,Undo,,واگردانی,,links-page.js
+rank-math-pro,__,,United Arab Emirates,,امارات متحدهٔ عربی,,settings.js
+rank-math-pro,__,,United Kingdom,,بریتانیا,,divi.js | elementor.js | gutenberg.js | stats.js
+rank-math-pro,__,,United Kingdom (UK),,بریتانیا,,settings.js
+rank-math-pro,__,,United States,,ایالات متحده,,divi.js | elementor.js | gutenberg.js | stats.js
+rank-math-pro,__,,United States (US),,ایالات متحده,,settings.js
+rank-math-pro,__,,Unpublish when expired,,لغو انتشار پس از انقضا,,schemaFilters.js
+rank-math-pro,__,,Update Keyword Map,,به‌روزرسانی نگاشت کلمه کلیدی,,links-page.js
+rank-math-pro,__,,Update Type:,,نوع به‌روزرسانی:,,links-page.js
+rank-math-pro,__,,Upgrade,,ارتقا,,editor.js
+rank-math-pro,__,,Upgrade your plan!,,پلن خود را ارتقا دهید!,,stats.js
+rank-math-pro,__,,Upload,,بارگذاری,,setup-wizard.js
+rank-math-pro,__,,Upload Date,,تاریخ بارگذاری,,schemaFilters.js
+rank-math-pro,__,,Uploading…,,در حال بارگذاری…,,setup-wizard.js
+rank-math-pro,__,,Uruguay,,اروگوئه,,settings.js
+rank-math-pro,__,,Use,,استفاده,,schemaFilters.js
+rank-math-pro,__,,"Use ""Exact Match"" for precise replacements to avoid accidentally changing partial words within other sentences.",,برای جلوگیری از تغییر ناخواسته بخش‌هایی از واژه‌ها در جمله‌های دیگر، از «تطابق دقیق» برای جایگزینی دقیق استفاده کنید.,,links-page.js
+rank-math-pro,__,,Use 24h Format,,استفاده از قالب ۲۴ ساعته,,schemaFilters.js
+rank-math-pro,__,,Use Exp in place of Education,,استفاده از سابقه کاری به‌جای تحصیلات,,schemaFilters.js
+rank-math-pro,__,,Use Multiple Locations,,استفاده از چند مکان,,settings.js
+rank-math-pro,__,,Use advanced options,,استفاده از گزینه‌های پیشرفته,,Export.js | status.js
+rank-math-pro,__,,Use this property to specify geographic location(s) in which employees may be located for work from home jobs. At least one country is required.,,از این ویژگی برای مشخص‌کردن مکان‌های جغرافیایی مجاز کارکنان در مشاغل دورکاری استفاده کنید. واردکردن حداقل یک کشور الزامی است.,,schemaFilters.js
+rank-math-pro,__,,Use this property to specify that the job is a Work From Home (remote) job. keep address empty if job is 100% remote.,,از این ویژگی برای مشخص‌کردن دورکاری‌بودن شغل استفاده کنید. اگر شغل کاملاً دورکار است، نشانی را خالی بگذارید.,,schemaFilters.js
+rank-math-pro,__,,Use this section only for <a href=https://rankmath.com/kb/review-schema/#editorial-reviews?utm_source=Plugin&utm_medium=Review+Schema&utm_campaign=WP target=_blank>editorial reviews</a>.,,این بخش را فقط برای <a href=https://rankmath.com/kb/review-schema/#editorial-reviews?utm_source=Plugin&utm_medium=Review+Schema&utm_campaign=WP target=_blank>نقدهای تحریریه</a> استفاده کنید.,,schemaFilters.js
+rank-math-pro,__,,Used,,استفاده‌شده,,stats.js
+rank-math-pro,__,,User Canonical,,کنونیکال کاربر,,stats.js
+rank-math-pro,__,,User Generated,,تولیدشده توسط کاربر,,links-page.js
+rank-math-pro,__,,User Roles:,,نقش‌های کاربری:,,Export.js | status.js
+rank-math-pro,__,,Users,,کاربران,,Export.js | status.js
+rank-math-pro,__,,"Using an ""Index"" or ""NoIndex"" option allows you to control what Google News Bot (not to be confused with Google Search Bot) can include or not include in the Google News Index.",,با گزینه «ایندکس» یا «نوایندکس» می‌توانید کنترل کنید ربات Google News ــ که با ربات جستجوی گوگل متفاوت است ــ چه محتوایی را در ایندکس Google News وارد کند یا نکند.,,news-sitemap.js
+rank-math-pro,__,,Uzbekistan,,ازبکستان,,settings.js
+rank-math-pro,__,,VAT ID,,شناسه VAT,,schemaFilters.js
+rank-math-pro,__,,Vanuatu,,وانواتو,,settings.js
+rank-math-pro,__,,Variations,,گونه‌ها,,links-page.js
+rank-math-pro,__,,Variations added successfully!,,گونه‌ها با موفقیت اضافه شدند!,,links-page.js
+rank-math-pro,__,,Vatican,,واتیکان,,settings.js
+rank-math-pro,__,,Venezuela,,ونزوئلا,,settings.js
+rank-math-pro,__,,Venue Name,,نام محل برگزاری,,schemaFilters.js
+rank-math-pro,__,,Venue URL,,نشانی اینترنتی محل برگزاری,,schemaFilters.js
+rank-math-pro,__,,Verdict,,نتیجه,,stats.js
+rank-math-pro,__,,Video,,ویدیو,,schemaFilters.js
+rank-math-pro,__,,Video Category,,دسته‌بندی ویدیو,,schemaFilters.js
+rank-math-pro,__,,Video Clip,,کلیپ ویدیو,,schemaFilters.js
+rank-math-pro,__,,Video Post Type,,نوع نوشته ویدیو,,settings.js | setup-wizard.js
+rank-math-pro,__,,Video Sitemap,,نقشه سایت ویدیو,,settings.js | setup-wizard.js
+rank-math-pro,__,,Video Sitemaps,,نقشه‌های سایت ویدیو,,settings.js | setup-wizard.js
+rank-math-pro,__,,Video Sitemaps give search engines information about video content on your site.,,نقشه‌های سایت ویدیو اطلاعات مربوط به محتوای ویدیویی سایت شما را در اختیار موتورهای جستجو قرار می‌دهند.,,setup-wizard.js
+rank-math-pro,__,,Video Sitemaps give search engines information about video content on your site. More information: ,,نقشه‌های سایت ویدیویی اطلاعات محتوای ویدیویی سایت را در اختیار موتورهای جستجو قرار می‌دهند. اطلاعات بیشتر: ,,settings.js
+rank-math-pro,__,,Video Tags,,برچسب‌های ویدیو,,schemaFilters.js
+rank-math-pro,__,,Video Thumbnail,,تصویر بندانگشتی ویدیو,,schemaFilters.js
+rank-math-pro,__,,Video URL,,نشانی اینترنتی ویدیو,,schemaFilters.js
+rank-math-pro,__,,Video Upload Date,,تاریخ بارگذاری ویدیو,,schemaFilters.js
+rank-math-pro,__,,Vietnam,,ویتنام,,divi.js | elementor.js | gutenberg.js | settings.js | stats.js
+rank-math-pro,__,,View,,مشاهده,,links-page.js
+rank-math-pro,__,,View %d links,,مشاهده %d لینک,,links-page.js
+rank-math-pro,__,,View All,,مشاهده همه,,links-page.js
+rank-math-pro,__,,View external links from this post,,مشاهده پیوندهای خارجی این نوشته,,editor.js | links-page.js
+rank-math-pro,__,,View incoming links to this post,,مشاهده پیوندهای ورودی به این نوشته,,editor.js | links-page.js
+rank-math-pro,__,,View internal links from this post,,مشاهده پیوندهای داخلی این نوشته,,editor.js | links-page.js
+rank-math-pro,__,,View link,,مشاهده لینک,,links-page.js
+rank-math-pro,__,,WARNING: This will permanently remove the links from your post content. This action cannot be undone.,,هشدار: این کار لینک‌ها را برای همیشه از محتوای نوشته شما حذف می‌کند و قابل بازگشت نیست.,,links-page.js
+rank-math-pro,__,,Wallis and Futuna,,والیس و فوتونا,,settings.js
+rank-math-pro,__,,Warning:,,هشدار:,,Import.js | status.js
+rank-math-pro,__,,Website URL of the venue,,نشانی اینترنتی محل برگزاری,,schemaFilters.js
+rank-math-pro,__,,Website or Social Link,,وب‌سایت یا پیوند شبکه اجتماعی,,schemaFilters.js
+rank-math-pro,__,,Western Sahara,,صحرای غربی,,settings.js
+rank-math-pro,__,,Western Samoa,,ساموآ,,settings.js
+rank-math-pro,__,,What to Update,,موارد قابل‌به‌روزرسانی,,links-page.js
+rank-math-pro,__,,"When enabled, the Winning Keywords and Losing Keywords sections will only show Tracked Keywords.",,در صورت فعال‌بودن، بخش‌های کلمات کلیدی صعودکرده و افت‌کرده فقط کلمات کلیدی ردیابی‌شده را نمایش می‌دهند.,,settings.js
+rank-math-pro,__,,"When you're done editing, don't forget to hit ""publish"" to create this location.",,پس از پایان ویرایش، برای ساخت این مکان فراموش نکنید روی «انتشار» کلیک کنید.,,rank-math-pointers.js
+rank-math-pro,__,,Where do you want to use this Schema template?,,می‌خواهید از این الگوی اسکیما در کجا استفاده کنید؟,,schemaFilters.js
+rank-math-pro,__,,Whole Word Only,,فقط واژه کامل,,links-page.js
+rank-math-pro,__,,Width,,عرض,,schemaFilters.js
+rank-math-pro,__,,With Incoming Links,,دارای پیوند ورودی,,editor.js | links-page.js
+rank-math-pro,__,,With Nofollow,,با نوفالو,,editor.js | links-page.js
+rank-math-pro,__,,Without Nofollow,,بدون نوفالو,,editor.js | links-page.js
+rank-math-pro,__,,Working Links,,لینک‌های سالم,,links-page.js
+rank-math-pro,__,,Worldwide,,سراسر جهان,,divi.js | elementor.js | gutenberg.js | stats.js
+rank-math-pro,__,,Yemen,,یمن,,settings.js
+rank-math-pro,__,,Yes,,بله,,links-page.js
+rank-math-pro,__,,You can either use this shortcode or Schema Block in the block editor to print the schema data in the content in order to meet the Google's guidelines. Read more about it <a href=https://developers.google.com/search/docs/guides/sd-policies#content target=_blank>here</a>.,,برای نمایش داده‌های اسکیما در محتوا و رعایت دستورالعمل‌های گوگل، می‌توانید از این کد کوتاه یا بلوک اسکیما در ویرایشگر بلوک استفاده کنید. درباره آن <a href=https://developers.google.com/search/docs/guides/sd-policies#content target=_blank>اینجا</a> بیشتر بخوانید.,,schemaFilters.js
+rank-math-pro,__,,"You can use the Local Business Block in the block editor, or copy and paste this in the content. <a href=https://rankmath.com/kb/location-data-shortcode/ target=_blank>Learn more</a>",,می‌توانید از بلوک کسب‌وکار محلی در ویرایشگر بلوک استفاده کنید یا این کد را در محتوا کپی و جای‌گذاری کنید. <a href=https://rankmath.com/kb/location-data-shortcode/ target=_blank>بیشتر بدانید</a>,,schemaFilters.js
+rank-math-pro,__,,"You can use the Schema Block in the block editor, or copy and paste this in the content. This shortcode will work on this page only.",,می‌توانید از بلوک اسکیما در ویرایشگر بلوک استفاده کنید یا این کد را در محتوا کپی و جای‌گذاری کنید. این کد کوتاه فقط در همین صفحه کار می‌کند.,,schemaFilters.js
+rank-math-pro,__,,You have reached the monthly limit for this feature. Please contact your SEO service provider to get more usage.,,به محدودیت ماهانه این قابلیت رسیده‌اید. برای دریافت میزان استفاده بیشتر با ارائه‌دهنده خدمات سئوی خود تماس بگیرید.,,content-ai 2.js | content-ai.js
+rank-math-pro,__,,You will generally only need a News Sitemap when your website is included in Google News.,,معمولاً فقط زمانی به نقشه سایت خبری نیاز دارید که وب‌سایت شما در Google News قرار گرفته باشد.,,setup-wizard.js
+rank-math-pro,__,,You will generally only need a Video Sitemap when your website has video content.,,معمولاً فقط زمانی به نقشه سایت ویدیو نیاز دارید که وب‌سایت شما محتوای ویدیویی داشته باشد.,,setup-wizard.js
+rank-math-pro,__,,You've used %1$d of %2$d %3$s this month.,,این ماه %1$d از %2$d %3$s را استفاده کرده‌اید.,,editor.js
+rank-math-pro,__,,YouTube API Key,,کلید API یوتیوب,,settings.js
+rank-math-pro,__,,Your Locations KML file can be found here: %s,,فایل KML مکان‌های شما در اینجا در دسترس است: %s,,settings.js
+rank-math-pro,__,,Your News Sitemap index can be found here: %s,,فهرست نقشه سایت خبری شما در اینجا در دسترس است: %s,,settings.js
+rank-math-pro,__,,Your Podcast RSS feed can be found here: %s,,خوراک RSS پادکست شما در اینجا در دسترس است: %s,,settings.js
+rank-math-pro,__,,Your Site,,سایت شما,,SideBySide.js | seo-analysis-pro 2.js
+rank-math-pro,__,,Your Templates,,الگوهای شما,,schemaFilters.js
+rank-math-pro,__,,Your Video Sitemap index can be found here: %s,,فهرست نقشه سایت ویدیویی شما در اینجا در دسترس است: %s,,settings.js
+rank-math-pro,__,,Your keyword quota has expired. Please upgrade your plan to increase the limit.,,سهمیه کلمات کلیدی شما به پایان رسیده است. برای افزایش محدودیت، پلن خود را ارتقا دهید.,,stats.js
+rank-math-pro,__,,Zambia,,زامبیا,,settings.js
+rank-math-pro,__,,Zimbabwe,,زیمبابوه,,settings.js
+rank-math-pro,__,,Zoom Level,,سطح بزرگ‌نمایی,,edit.js | index 8.js
+rank-math-pro,__,,[Edit],,[ویرایش],,stats.js
+rank-math-pro,__,,all lowercase,,همه با حروف کوچک,,settings.js
+rank-math-pro,__,,as not broken?,,به‌عنوان خراب‌نبودن؟,,links-page.js
+rank-math-pro,__,,cssSelectors,,انتخابگرهای CSS,,schemaFilters.js
+rank-math-pro,__,,days ago,,روز پیش,,stats.js
+rank-math-pro,__,,detectedItems,,موارد شناسایی‌شده,,stats.js
+rank-math-pro,__,,duplicate variation(s) were skipped.,,گونه تکراری نادیده گرفته شد.,,links-page.js
+rank-math-pro,__,,hours ago,,ساعت پیش,,stats.js
+rank-math-pro,__,,https://google.com,,https://google.com,,links-page.js
+rank-math-pro,__,,link,,لینک,,links-page.js
+rank-math-pro,__,,links,,لینک,,links-page.js
+rank-math-pro,__,,"locations.kml Sitemap is generated automatically when the Local SEO module is enabled, and the geo-coordinates are added.",,هنگامی که ماژول سئوی محلی فعال و مختصات جغرافیایی افزوده شود، نقشه سایت locations.kml به‌صورت خودکار تولید می‌شود.,,settings.js
+rank-math-pro,__,,of,,از,,links-page.js
+rank-math-pro,__,,requests,,درخواست,,editor.js
+rank-math-pro,__,,rows,,ردیف,,editor.js | links-page.js
+rank-math-pro,__,,rows (will notify when ready),,ردیف (پس از آماده‌شدن اطلاع داده می‌شود),,editor.js | links-page.js
+rank-math-pro,__,,sameAs,,sameAs,,schemaFilters.js
+rank-math-pro,__,,selected,,انتخاب‌شده,,links-page.js
+rank-math-pro,__,,to,,تا,,links-page.js
+rank-math-pro,__,,uses,,استفاده می‌کند,,editor.js
+rank-math-pro,__,,variation(s) will be added,,گونه اضافه خواهد شد,,links-page.js
+rank-math-pro,__,,Åland Islands,,جزایر آلاند,,settings.js
+rank-math-pro,__,,↳,,↳,,stats.js
+rank-math-pro,__,,🚀 Enable Content AI Module,,🚀 فعال‌کردن ماژول هوش مصنوعی محتوا,,editor.js | index 3.js
+rank-name-pro,__,,The podcast owner contact name.,,نام تماس مالک پادکست.,,settings.js
+woocommerce,__,,(scroll to see more),,(برای مشاهده موارد بیشتر پیمایش کنید),,stats.js
+woocommerce,__,,Choose which values to display,,مقادیر موردنظر برای نمایش را انتخاب کنید,,stats.js
+woocommerce,__,,Columns:,,ستون‌ها:,,stats.js
+woocommerce,__,,Go to page,,رفتن به صفحه,,stats.js
+woocommerce,__,,Next Page,,صفحه بعدی,,stats.js
+woocommerce,__,,No data to display,,داده‌ای برای نمایش وجود ندارد,,stats.js
+woocommerce,__,,Page %1$d of %2$d,,صفحه %1$d از %2$d,,stats.js
+woocommerce,__,,Previous Page,,صفحه قبلی,,stats.js
+woocommerce,__,,Rows per page,,تعداد ردیف در هر صفحه,,stats.js
+woocommerce,__,,Sort by %s in ascending order,,مرتب‌سازی صعودی براساس %s,,stats.js
+woocommerce,__,,Sort by %s in descending order,,مرتب‌سازی نزولی براساس %s,,stats.js
+woocommerce,__,,Your requested data is loading,,داده درخواستی شما در حال بارگذاری است,,stats.js

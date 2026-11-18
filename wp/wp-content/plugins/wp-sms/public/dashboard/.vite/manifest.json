@@ -1,0 +1,477 @@
+{
+  "_dashboard-5zjOnbvS.js": {
+    "file": "assets/dashboard-5zjOnbvS.js",
+    "name": "useFormDialog",
+    "imports": [
+      "index.html",
+      "_dashboard-ByvlE1dn.js"
+    ]
+  },
+  "_dashboard-8WNtKfx5.js": {
+    "file": "assets/dashboard-8WNtKfx5.js",
+    "name": "AddonUpdateRequired",
+    "imports": [
+      "_dashboard-CV4SKiup.js",
+      "index.html",
+      "_dashboard-ByvlE1dn.js"
+    ]
+  },
+  "_dashboard-ANzT7Awd.js": {
+    "file": "assets/dashboard-ANzT7Awd.js",
+    "name": "repeater",
+    "imports": [
+      "_dashboard-CV4SKiup.js",
+      "index.html",
+      "_dashboard-ByvlE1dn.js",
+      "_dashboard-SQbcoqax.js"
+    ]
+  },
+  "_dashboard-BJHThggw.js": {
+    "file": "assets/dashboard-BJHThggw.js",
+    "name": "ExportButton",
+    "imports": [
+      "_dashboard-CV4SKiup.js",
+      "index.html",
+      "_dashboard-ByvlE1dn.js"
+    ]
+  },
+  "_dashboard-BOFo-Q2J.js": {
+    "file": "assets/dashboard-BOFo-Q2J.js",
+    "name": "woocommerceProApi",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_dashboard-ByvlE1dn.js": {
+    "file": "assets/dashboard-ByvlE1dn.js",
+    "name": "icons"
+  },
+  "_dashboard-CV4SKiup.js": {
+    "file": "assets/dashboard-CV4SKiup.js",
+    "name": "radix",
+    "imports": [
+      "_dashboard-ByvlE1dn.js"
+    ]
+  },
+  "_dashboard-CckOWuRU.js": {
+    "file": "assets/dashboard-CckOWuRU.js",
+    "name": "StatusBadge",
+    "imports": [
+      "_dashboard-CV4SKiup.js",
+      "_dashboard-ByvlE1dn.js",
+      "index.html"
+    ]
+  },
+  "_dashboard-CgCTkAta.js": {
+    "file": "assets/dashboard-CgCTkAta.js",
+    "name": "data-table",
+    "imports": [
+      "_dashboard-CV4SKiup.js",
+      "index.html",
+      "_dashboard-ByvlE1dn.js"
+    ]
+  },
+  "_dashboard-Cp1w_Z-r.js": {
+    "file": "assets/dashboard-Cp1w_Z-r.js",
+    "name": "useListPage",
+    "imports": [
+      "index.html",
+      "_dashboard-ByvlE1dn.js",
+      "_dashboard-CwwBR7yl.js"
+    ]
+  },
+  "_dashboard-CpdhC43x.js": {
+    "file": "assets/dashboard-CpdhC43x.js",
+    "name": "DialogLoadingSpinner",
+    "imports": [
+      "_dashboard-CV4SKiup.js",
+      "_dashboard-ByvlE1dn.js",
+      "index.html"
+    ]
+  },
+  "_dashboard-CsibHhM0.js": {
+    "file": "assets/dashboard-CsibHhM0.js",
+    "name": "tableColumns",
+    "imports": [
+      "_dashboard-CV4SKiup.js",
+      "index.html",
+      "_dashboard-ByvlE1dn.js",
+      "_dashboard-CckOWuRU.js"
+    ]
+  },
+  "_dashboard-CwwBR7yl.js": {
+    "file": "assets/dashboard-CwwBR7yl.js",
+    "name": "useDataTable",
+    "imports": [
+      "_dashboard-ByvlE1dn.js"
+    ]
+  },
+  "_dashboard-DU3RUGlZ.js": {
+    "file": "assets/dashboard-DU3RUGlZ.js",
+    "name": "InternationalPhoneInput",
+    "imports": [
+      "_dashboard-CV4SKiup.js",
+      "_dashboard-ByvlE1dn.js",
+      "index.html"
+    ]
+  },
+  "_dashboard-DYFq1K6j.js": {
+    "file": "assets/dashboard-DYFq1K6j.js",
+    "name": "groupsApi",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_dashboard-ESsJG4yb.js": {
+    "file": "assets/dashboard-ESsJG4yb.js",
+    "name": "DynamicField",
+    "imports": [
+      "_dashboard-ByvlE1dn.js",
+      "index.html",
+      "_dashboard-CV4SKiup.js",
+      "_dashboard-SQbcoqax.js",
+      "_dashboard-ANzT7Awd.js"
+    ]
+  },
+  "_dashboard-SQbcoqax.js": {
+    "file": "assets/dashboard-SQbcoqax.js",
+    "name": "TemplateTextarea",
+    "imports": [
+      "_dashboard-CV4SKiup.js",
+      "_dashboard-ByvlE1dn.js",
+      "index.html"
+    ]
+  },
+  "_dashboard-l0sNRNKZ.js": {
+    "file": "assets/dashboard-l0sNRNKZ.js",
+    "name": "vendor"
+  },
+  "index.html": {
+    "file": "assets/dashboard-DcC0ghWR.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_dashboard-CV4SKiup.js",
+      "_dashboard-ByvlE1dn.js"
+    ],
+    "dynamicImports": [
+      "src/pages/Outbox.jsx",
+      "src/pages/Scheduled.jsx",
+      "src/pages/Subscribers.jsx",
+      "src/pages/Groups.jsx",
+      "src/pages/Privacy.jsx",
+      "src/pages/AddOns.jsx",
+      "src/pages/Gateway.jsx",
+      "src/pages/PhoneConfig.jsx",
+      "src/pages/MessageButton.jsx",
+      "src/pages/Notifications.jsx",
+      "src/pages/Authentication.jsx",
+      "src/pages/Newsletter.jsx",
+      "src/pages/Integrations.jsx",
+      "src/pages/Advanced.jsx",
+      "src/pages/SmsCampaigns.jsx",
+      "src/pages/CartAbandonment.jsx",
+      "src/pages/WooCommercePro.jsx",
+      "src/pages/TwoWayInbox.jsx",
+      "src/pages/TwoWayCommands.jsx",
+      "src/pages/TwoWaySettings.jsx"
+    ],
+    "css": [
+      "assets/dashboard-CdW2Hfe3.css"
+    ]
+  },
+  "src/pages/AddOns.jsx": {
+    "file": "assets/dashboard-MOUFMzVz.js",
+    "name": "AddOns",
+    "src": "src/pages/AddOns.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_dashboard-CV4SKiup.js",
+      "index.html",
+      "_dashboard-ByvlE1dn.js",
+      "_dashboard-CckOWuRU.js"
+    ]
+  },
+  "src/pages/Advanced.jsx": {
+    "file": "assets/dashboard-5Ar2Fa0c.js",
+    "name": "Advanced",
+    "src": "src/pages/Advanced.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_dashboard-CV4SKiup.js",
+      "index.html",
+      "_dashboard-ByvlE1dn.js",
+      "_dashboard-ESsJG4yb.js",
+      "_dashboard-SQbcoqax.js",
+      "_dashboard-ANzT7Awd.js"
+    ]
+  },
+  "src/pages/Authentication.jsx": {
+    "file": "assets/dashboard-BHXOSq23.js",
+    "name": "Authentication",
+    "src": "src/pages/Authentication.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_dashboard-CV4SKiup.js",
+      "index.html",
+      "_dashboard-ByvlE1dn.js",
+      "_dashboard-ESsJG4yb.js",
+      "_dashboard-SQbcoqax.js",
+      "_dashboard-ANzT7Awd.js"
+    ]
+  },
+  "src/pages/CartAbandonment.jsx": {
+    "file": "assets/dashboard-B2Ft7oY6.js",
+    "name": "CartAbandonment",
+    "src": "src/pages/CartAbandonment.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_dashboard-CV4SKiup.js",
+      "index.html",
+      "_dashboard-ByvlE1dn.js",
+      "_dashboard-CgCTkAta.js",
+      "_dashboard-8WNtKfx5.js",
+      "_dashboard-BOFo-Q2J.js"
+    ]
+  },
+  "src/pages/Gateway.jsx": {
+    "file": "assets/dashboard-BXoQZ2Lu.js",
+    "name": "Gateway",
+    "src": "src/pages/Gateway.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_dashboard-CV4SKiup.js",
+      "index.html",
+      "_dashboard-ByvlE1dn.js"
+    ]
+  },
+  "src/pages/Groups.jsx": {
+    "file": "assets/dashboard-AWeReNNe.js",
+    "name": "Groups",
+    "src": "src/pages/Groups.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_dashboard-CV4SKiup.js",
+      "index.html",
+      "_dashboard-ByvlE1dn.js",
+      "_dashboard-CgCTkAta.js",
+      "_dashboard-DYFq1K6j.js",
+      "_dashboard-CwwBR7yl.js",
+      "_dashboard-5zjOnbvS.js"
+    ]
+  },
+  "src/pages/Integrations.jsx": {
+    "file": "assets/dashboard-BK4Hklz-.js",
+    "name": "Integrations",
+    "src": "src/pages/Integrations.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_dashboard-CV4SKiup.js",
+      "index.html",
+      "_dashboard-ByvlE1dn.js",
+      "_dashboard-ESsJG4yb.js",
+      "_dashboard-SQbcoqax.js",
+      "_dashboard-ANzT7Awd.js"
+    ]
+  },
+  "src/pages/MessageButton.jsx": {
+    "file": "assets/dashboard-WNJTxOoi.js",
+    "name": "MessageButton",
+    "src": "src/pages/MessageButton.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_dashboard-CV4SKiup.js",
+      "index.html",
+      "_dashboard-ByvlE1dn.js",
+      "_dashboard-ANzT7Awd.js",
+      "_dashboard-SQbcoqax.js"
+    ]
+  },
+  "src/pages/Newsletter.jsx": {
+    "file": "assets/dashboard-DvhKiXse.js",
+    "name": "Newsletter",
+    "src": "src/pages/Newsletter.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_dashboard-CV4SKiup.js",
+      "index.html",
+      "_dashboard-ByvlE1dn.js",
+      "_dashboard-SQbcoqax.js"
+    ]
+  },
+  "src/pages/Notifications.jsx": {
+    "file": "assets/dashboard-DwZDSQIc.js",
+    "name": "Notifications",
+    "src": "src/pages/Notifications.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_dashboard-CV4SKiup.js",
+      "index.html",
+      "_dashboard-ByvlE1dn.js",
+      "_dashboard-SQbcoqax.js"
+    ]
+  },
+  "src/pages/Outbox.jsx": {
+    "file": "assets/dashboard-YDijC8DA.js",
+    "name": "Outbox",
+    "src": "src/pages/Outbox.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_dashboard-CV4SKiup.js",
+      "index.html",
+      "_dashboard-ByvlE1dn.js",
+      "_dashboard-CgCTkAta.js",
+      "_dashboard-CckOWuRU.js",
+      "_dashboard-BJHThggw.js",
+      "_dashboard-CsibHhM0.js",
+      "_dashboard-Cp1w_Z-r.js",
+      "_dashboard-5zjOnbvS.js",
+      "_dashboard-CwwBR7yl.js"
+    ]
+  },
+  "src/pages/PhoneConfig.jsx": {
+    "file": "assets/dashboard-Bp53DFVq.js",
+    "name": "PhoneConfig",
+    "src": "src/pages/PhoneConfig.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_dashboard-CV4SKiup.js",
+      "index.html",
+      "_dashboard-ByvlE1dn.js",
+      "_dashboard-DU3RUGlZ.js"
+    ]
+  },
+  "src/pages/Privacy.jsx": {
+    "file": "assets/dashboard-D1SezOfp.js",
+    "name": "Privacy",
+    "src": "src/pages/Privacy.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_dashboard-CV4SKiup.js",
+      "index.html",
+      "_dashboard-ByvlE1dn.js",
+      "_dashboard-CckOWuRU.js",
+      "_dashboard-BJHThggw.js"
+    ]
+  },
+  "src/pages/Scheduled.jsx": {
+    "file": "assets/dashboard-BU4IrMJN.js",
+    "name": "Scheduled",
+    "src": "src/pages/Scheduled.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_dashboard-CV4SKiup.js",
+      "index.html",
+      "_dashboard-ByvlE1dn.js",
+      "_dashboard-CgCTkAta.js",
+      "_dashboard-CckOWuRU.js",
+      "_dashboard-BJHThggw.js",
+      "_dashboard-CsibHhM0.js",
+      "_dashboard-8WNtKfx5.js",
+      "_dashboard-Cp1w_Z-r.js",
+      "_dashboard-5zjOnbvS.js",
+      "_dashboard-CwwBR7yl.js"
+    ]
+  },
+  "src/pages/SmsCampaigns.jsx": {
+    "file": "assets/dashboard-BGw_NaA2.js",
+    "name": "SmsCampaigns",
+    "src": "src/pages/SmsCampaigns.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_dashboard-CV4SKiup.js",
+      "index.html",
+      "_dashboard-ByvlE1dn.js",
+      "_dashboard-CgCTkAta.js",
+      "_dashboard-8WNtKfx5.js",
+      "_dashboard-CpdhC43x.js",
+      "_dashboard-SQbcoqax.js",
+      "_dashboard-Cp1w_Z-r.js",
+      "_dashboard-5zjOnbvS.js",
+      "_dashboard-BOFo-Q2J.js",
+      "_dashboard-CwwBR7yl.js"
+    ]
+  },
+  "src/pages/Subscribers.jsx": {
+    "file": "assets/dashboard-wm0UkMT5.js",
+    "name": "Subscribers",
+    "src": "src/pages/Subscribers.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_dashboard-CV4SKiup.js",
+      "index.html",
+      "_dashboard-ByvlE1dn.js",
+      "_dashboard-CgCTkAta.js",
+      "_dashboard-CckOWuRU.js",
+      "_dashboard-BJHThggw.js",
+      "_dashboard-DYFq1K6j.js",
+      "_dashboard-DU3RUGlZ.js",
+      "_dashboard-Cp1w_Z-r.js",
+      "_dashboard-5zjOnbvS.js",
+      "_dashboard-CwwBR7yl.js"
+    ]
+  },
+  "src/pages/TwoWayCommands.jsx": {
+    "file": "assets/dashboard-yklp_ku8.js",
+    "name": "TwoWayCommands",
+    "src": "src/pages/TwoWayCommands.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_dashboard-CV4SKiup.js",
+      "index.html",
+      "_dashboard-ByvlE1dn.js",
+      "_dashboard-CgCTkAta.js",
+      "_dashboard-CckOWuRU.js",
+      "_dashboard-8WNtKfx5.js",
+      "_dashboard-CpdhC43x.js",
+      "_dashboard-5zjOnbvS.js"
+    ]
+  },
+  "src/pages/TwoWayInbox.jsx": {
+    "file": "assets/dashboard-f8SERqNt.js",
+    "name": "TwoWayInbox",
+    "src": "src/pages/TwoWayInbox.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_dashboard-CV4SKiup.js",
+      "index.html",
+      "_dashboard-ByvlE1dn.js",
+      "_dashboard-CgCTkAta.js",
+      "_dashboard-CckOWuRU.js",
+      "_dashboard-8WNtKfx5.js",
+      "_dashboard-BJHThggw.js",
+      "_dashboard-Cp1w_Z-r.js",
+      "_dashboard-5zjOnbvS.js",
+      "_dashboard-CwwBR7yl.js"
+    ]
+  },
+  "src/pages/TwoWaySettings.jsx": {
+    "file": "assets/dashboard-CnA39_mk.js",
+    "name": "TwoWaySettings",
+    "src": "src/pages/TwoWaySettings.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_dashboard-CV4SKiup.js",
+      "index.html",
+      "_dashboard-ByvlE1dn.js",
+      "_dashboard-SQbcoqax.js",
+      "_dashboard-8WNtKfx5.js"
+    ]
+  },
+  "src/pages/WooCommercePro.jsx": {
+    "file": "assets/dashboard-B8KoMn2g.js",
+    "name": "WooCommercePro",
+    "src": "src/pages/WooCommercePro.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_dashboard-CV4SKiup.js",
+      "index.html",
+      "_dashboard-ByvlE1dn.js",
+      "_dashboard-ESsJG4yb.js",
+      "_dashboard-8WNtKfx5.js",
+      "_dashboard-SQbcoqax.js",
+      "_dashboard-ANzT7Awd.js"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1" automatic="0">ywtm_tab</custom-type>
+    </custom-types>
+    <custom-fields>
+        <custom-field action="copy-once">_ywtm_tab_title</custom-field>
+        <custom-field action="copy-once">_ywtm_tab_type</custom-field>
+        <custom-field action="copy-once">_ywtm_show_tab</custom-field>
+        <custom-field action="copy-once">_ywtm_order_tab</custom-field>
+        <custom-field action="copy-once">_ywtm_tab_excerpt</custom-field>
+        <custom-field action="copy-once">_ywtm_tab_additional_content</custom-field>
+        <custom-field action="copy-once">_ywtm_tab_category</custom-field>
+        <custom-field action="copy-once">_ywtm_tab_product</custom-field>
+        <custom-field action="copy-once">_ywtm_enable_exclude</custom-field>
+        <custom-field action="copy-once">_ywtm_exclude_in</custom-field>
+        <custom-field action="copy-once">_ywtm_product_cat_exc</custom-field>
+        <custom-field action="copy-once">_ywtm_product_exc</custom-field>
+        <custom-field action="copy-once">_ywtm_icon_tab</custom-field>
+        <custom-field action="copy-once">_ywtm_layout_type</custom-field>
+        <custom-field action="copy-once">_ywtm_faqs</custom-field>
+        <custom-field action="copy-once">_ywtm_gallery_columns</custom-field>
+        <custom-field action="copy-once">_ywtm_gallery</custom-field>
+        <custom-field action="copy-once">_ywtm_video</custom-field>
+        <custom-field action="copy-once">_ywtm_video_rows</custom-field>
+        <custom-field action="copy-once">_ywtm_download</custom-field>
+        <custom-field action="copy-once">_ywtm_google_map_full_width</custom-field>
+        <custom-field action="copy-once">_ywtm_google_map_width</custom-field>
+        <custom-field action="copy-once">_ywtm_google_map_height</custom-field>
+        <custom-field action="copy-once">_ywtm_google_map_overlay_address</custom-field>
+        <custom-field action="copy-once">_ywtm_google_map_overlay_zoom</custom-field>
+        <custom-field action="copy-once">_ywtm_text_tab</custom-field>
+        <custom-field action="copy-once">_ywtm_form_tab</custom-field>
+        <custom-field action="copy-once">_ywtm_is_editable</custom-field>
+        <custom-field action="copy-once">_ywtm_origin</custom-field>
+        <custom-field action="copy-once">_ywtm_tab_content_in</custom-field>
+    </custom-fields>
+</wpml-config>
